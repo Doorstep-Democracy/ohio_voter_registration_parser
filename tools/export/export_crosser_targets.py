@@ -43,6 +43,24 @@ Security: local/exports/ is gitignored (see CLAUDE.md section 9). Voter rows
 are public record, but bulk export files stay local per existing convention,
 same as export_unc_targets.py's own UNC_Exports/ output.
 
+Output layout: one '##_CountyName' subdirectory per county (matching the
+convention this repo already uses elsewhere for per-county file
+organization, e.g. local/source/Geo/57_Montgomery/), each holding that
+county's CSV:
+
+    local/exports/Crosser_Targets/
+        57_Montgomery/
+            montgomery_CROSSER_targets.csv
+        25_Franklin/
+            franklin_CROSSER_targets.csv
+        ...
+
+Every row also carries an explicit COUNTY_NUMBER and COUNTY_NAME column
+(the latter added by this script, since the raw SWVF has no county-name
+column at all) -- county identity is never something a reader of these
+files has to infer, whether from the row or the folder it's in. See
+build_crosser_export()'s docstring for the guarantee this enforces.
+
 Usage
 -----
     Single county:
@@ -190,11 +208,37 @@ def resolve_even_november_general(lf: pl.LazyFrame, logger: logging.Logger) -> s
 # Build the crosser export for one county's rows
 # ─────────────────────────────────────────────────────────────────────────────
 
-def build_crosser_export(lf: pl.LazyFrame, general_col: str) -> pl.LazyFrame:
+def build_crosser_export(lf: pl.LazyFrame, general_col: str, county_number: str,
+                         logger: logging.Logger) -> pl.DataFrame:
     """
-    Filter the enriched-voter LazyFrame down to non-locked crossers and
-    attach the two computed columns this export sells: fresh_defector and
-    voted_last_even_november_general.
+    Filter the enriched-voter LazyFrame down to non-locked crossers, attach
+    the two computed columns this export sells (fresh_defector and
+    voted_last_even_november_general), and GUARANTEE every row carries an
+    explicit, human-readable county identifier.
+
+    WHY THIS FUNCTION COLLECTS AND ASSERTS, RATHER THAN RETURNING A LAZYFRAME
+    ----------------------------------------------------------------------
+    Every row of every exported CSV must be identifiable by county on sight
+    -- these files are opened directly by a human (a buyer, or in public
+    review), not joined against other tables where a missing key would be
+    someone else's problem to notice. COUNTY_NUMBER survives into every row
+    today only because it happens to be one of the SWVF source columns this
+    script preserves verbatim -- true by construction, but never checked as
+    a real guarantee. This function makes it a checked guarantee: it
+    collects here (once, per county, which is already required before
+    write_county_csv can inspect df.is_empty()) and asserts COUNTY_NUMBER is
+    present, has zero nulls, and -- since this function is always called
+    with rows already filtered to one county -- has exactly one distinct
+    value, matching the county_number the caller asked for. Any violation
+    raises immediately (CLAUDE.md section 5's loud-failures rule); a export
+    tool that silently shipped a row with no county attached would be a
+    worse failure than a crashed run.
+
+    COUNTY_NAME is added as its own explicit column (via OHIO_COUNTIES,
+    the same single resolver load_county_name_map() already uses) so a
+    human opening the CSV cold sees the county by name, not just by the
+    SWVF's bare numeric code -- the raw voter file has no county-name
+    column at all.
 
     WHY THE PREDICATES COME FROM axis_a_segments.py, NOT FROM HERE
     ----------------------------------------------------------------
@@ -242,29 +286,96 @@ def build_crosser_export(lf: pl.LazyFrame, general_col: str) -> pl.LazyFrame:
     voter's true participation. See axis_a_segments.py's module docstring
     for the full statutory citation (EOM Ch. 4, pp. 4-149/4-150).
     """
+    from pipeline.voter_data_cleaner import OHIO_COUNTIES
     from tools.scoring.axis_a_segments import fresh_defector, non_locked_crossers
 
-    return (
+    county_display_name = OHIO_COUNTIES.get(county_number)
+    if county_display_name is None:
+        raise ValueError(
+            f'COUNTY_NUMBER {county_number!r} has no OHIO_COUNTIES entry -- '
+            'cannot attach a county name to this export.'
+        )
+
+    df = (
         lf.filter(non_locked_crossers())
         .with_columns([
             fresh_defector().alias('fresh_defector'),
             (pl.col(general_col) != '').alias('voted_last_even_november_general'),
+            pl.lit(county_display_name).alias('COUNTY_NAME'),
         ])
+        .collect()
     )
+
+    if df.is_empty():
+        # Nothing to assert against -- an empty county is handled by the
+        # caller (write_county_csv logs and skips), not an error here.
+        return df
+
+    if 'COUNTY_NUMBER' not in df.columns:
+        raise AssertionError(
+            'COUNTY_NUMBER missing from export columns -- the county '
+            'identifier guarantee this script exists to uphold has broken.'
+        )
+    null_count = df.get_column('COUNTY_NUMBER').null_count()
+    if null_count:
+        raise AssertionError(
+            f'{null_count} row(s) have a null COUNTY_NUMBER -- every row '
+            'in this export must carry an explicit county identifier.'
+        )
+    distinct = df.get_column('COUNTY_NUMBER').unique().to_list()
+    if distinct != [county_number]:
+        raise AssertionError(
+            f'Expected every row to carry COUNTY_NUMBER == {county_number!r}, '
+            f'found {distinct!r} -- the county filter upstream is not doing '
+            'what this function assumes.'
+        )
+
+    return df
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Write one county's CSV
 # ─────────────────────────────────────────────────────────────────────────────
 
-def write_county_csv(df: pl.DataFrame, county_name: str, output_dir: Path,
-                     logger: logging.Logger) -> None:
+def county_dirname(county_number: str) -> str:
+    """
+    Build the '##_CountyName' directory name this export uses for one county,
+    e.g. county_dirname('57') -> '57_Montgomery'.
+
+    This is the single place that naming rule lives -- write_county_csv() and
+    _prune_stale_county_dirs() both call it, so the two can never disagree
+    about what a valid directory name looks like (the same single-resolver
+    principle CLAUDE.md section 5 already requires for jurisdiction logic).
+
+    THE CONVENTION, AND WHY IT MATTERS HERE
+    ----------------------------------------
+    Matches the shape this repo already uses for per-county file
+    organization elsewhere -- e.g. local/source/Geo/57_Montgomery/ (zero-
+    padded county number, underscore, county name in ITS NATURAL CASE, not
+    lowercased or slugified). Adopted here specifically so a human doing
+    public/buyer review can identify a county from the folder structure
+    alone, without opening a file -- reinforcing, at the file-organization
+    level, the same guarantee build_crosser_export() enforces at the row
+    level: county identity is never something a reader has to infer.
+    """
+    from pipeline.voter_data_cleaner import OHIO_COUNTIES
+
+    county_display_name = OHIO_COUNTIES.get(county_number)
+    if county_display_name is None:
+        raise ValueError(f'COUNTY_NUMBER {county_number!r} has no OHIO_COUNTIES entry.')
+    return f'{county_number}_{county_display_name.replace(" ", "_")}'
+
+
+def write_county_csv(df: pl.DataFrame, county_number: str, county_name: str,
+                     output_dir: Path, logger: logging.Logger) -> None:
     """
     Write one county's crosser rows to
-    local/exports/Crosser_Targets/{county_name}_CROSSER_targets.csv, mirroring
-    the UNC_Exports/<Class>/{county}_<CLASS>_targets.csv layout
-    export_unc_targets.py already uses, so both export families sit under a
-    predictable, matching directory shape.
+    local/exports/Crosser_Targets/{##_CountyName}/{county_name}_CROSSER_targets.csv
+    -- a '##_CountyName' subdirectory per county (see county_dirname()),
+    containing the CSV named with the existing lowercase-slug convention
+    export_unc_targets.py already uses (e.g. 'montgomery_CROSSER_targets.csv'
+    inside '57_Montgomery/'). Only the directory layer is new; the filename
+    convention inside it is unchanged from the original build.
 
     Writes are atomic: the CSV is written to a sibling .tmp path first, then
     swapped into place with Path.replace(), so a reader can never observe a
@@ -273,7 +384,7 @@ def write_county_csv(df: pl.DataFrame, county_name: str, output_dir: Path,
     predates that rule and writes directly; this script does not repeat that
     gap.
     """
-    subdir = output_dir / 'Crosser_Targets'
+    subdir = output_dir / 'Crosser_Targets' / county_dirname(county_number)
     subdir.mkdir(parents=True, exist_ok=True)
 
     if df.is_empty():
@@ -287,6 +398,73 @@ def write_county_csv(df: pl.DataFrame, county_name: str, output_dir: Path,
     tmp_path.replace(out_path)
 
     logger.info('Written: %s  (%s rows)', out_path, f'{len(df):,}')
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Stale-directory pruning
+# ─────────────────────────────────────────────────────────────────────────────
+
+def prune_stale_county_dirs(crosser_targets_dir: Path, valid_county_numbers: list[str],
+                            logger: logging.Logger) -> int:
+    """
+    Delete '##_CountyName' subdirectories under crosser_targets_dir whose
+    county number is not in valid_county_numbers.
+
+    WHY THIS EXISTS
+    -----------------
+    This export only ever WRITES; nothing before this function ever deleted
+    an old directory. If a future run has fewer qualifying counties than a
+    prior run -- e.g. a classifier change shrinks some county's non-locked-
+    crosser population, or a county's OHIO_COUNTIES name spelling changes,
+    changing county_dirname()'s output -- the old directory for that county
+    would stay on disk forever: orphaned, and silently inconsistent with
+    what a buyer or public reviewer would assume is the current export.
+
+    This is the exact bug class pipeline/jurisdictional_groupings.py's
+    _prune_ghost_family_files() was built to prevent (2026-07-10, 2,465
+    stale files from a slug-format change that export logic never cleaned
+    up) -- this function is that same pattern, applied to this script's own
+    output directory instead. Modeled on it directly: scope to a known file
+    family (here, '##_CountyName' directories directly under
+    crosser_targets_dir, nothing else), compute the current valid set from
+    LIVE data (valid_county_numbers is the set of counties actually present
+    in the parquet right now, not which counties happened to produce
+    non-empty output this run -- a county with zero crossers this run is
+    still a valid, current county, and its momentarily-missing directory is
+    expected write_county_csv() is_empty() behavior, not staleness), and log
+    every deletion individually rather than deleting silently.
+
+    ONLY CALL THIS FROM THE --all-counties PATH
+    ----------------------------------------------
+    A single-county (--county) run has no "current full set" to compare
+    against -- calling this after a single-county run would delete every
+    OTHER county's directory, which is never what a --county invocation
+    means. main() enforces this by only calling prune_stale_county_dirs()
+    inside the --all-counties branch.
+    """
+    if not crosser_targets_dir.exists():
+        return 0
+
+    removed = 0
+    for entry in crosser_targets_dir.iterdir():
+        if not entry.is_dir():
+            continue
+        # A '##_CountyName' directory name always starts with a 2-digit
+        # county number followed by an underscore -- anything else under
+        # this root is not part of this export's file family and must never
+        # be touched (e.g. an unrelated directory a future script adds).
+        prefix = entry.name[:3]
+        if len(prefix) != 3 or not prefix[:2].isdigit() or prefix[2] != '_':
+            continue
+        county_number = entry.name[:2]
+        if county_number not in valid_county_numbers:
+            import shutil
+            shutil.rmtree(entry)
+            removed += 1
+            logger.info('Pruned stale county directory (county not in current set): %s',
+                       entry.name)
+
+    return removed
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -364,17 +542,30 @@ def main() -> None:
         for county_number in counties:
             county_name = name_map[county_number]
             county_lf = lf.filter(pl.col('COUNTY_NUMBER') == county_number)
-            export_df = build_crosser_export(county_lf, general_col).collect()
-            write_county_csv(export_df, county_name, output_dir, logger)
+            export_df = build_crosser_export(county_lf, general_col, county_number, logger)
+            write_county_csv(export_df, county_number, county_name, output_dir, logger)
             total_rows += len(export_df)
+
+        # Prune AFTER all counties are written, using the CURRENT full set
+        # (`counties`, resolved above from live parquet data) as the valid
+        # set -- never from which counties happened to write non-empty
+        # output this run. Only reachable from --all-counties: see
+        # prune_stale_county_dirs()'s docstring for why a --county run must
+        # never call this.
+        crosser_targets_dir = output_dir / 'Crosser_Targets'
+        pruned = prune_stale_county_dirs(crosser_targets_dir, counties, logger)
+        if pruned:
+            logger.info('Pruned %d stale county director%s.',
+                       pruned, 'y' if pruned == 1 else 'ies')
+
         logger.info('Done. %s total crosser rows across %d counties.',
                      f'{total_rows:,}', len(counties))
     else:
         county_number = args.county.strip().zfill(2)
         county_name = args.county_name.strip().lower()
         county_lf = lf.filter(pl.col('COUNTY_NUMBER') == county_number)
-        export_df = build_crosser_export(county_lf, general_col).collect()
-        write_county_csv(export_df, county_name, output_dir, logger)
+        export_df = build_crosser_export(county_lf, general_col, county_number, logger)
+        write_county_csv(export_df, county_number, county_name, output_dir, logger)
         logger.info('Done. %s crosser rows for county %s.',
                      f'{len(export_df):,}', county_name)
 
