@@ -1518,7 +1518,7 @@ def build_precinct_summary(df: pl.DataFrame) -> pl.DataFrame:
             (pl.col('ACTIVE') + pl.col('CONFIRMATION')).alias('Total Registered'),
             pl.lit('N/A').alias('Est. Unregistered'),
         ])
-        .sort('Total Registered', descending=True)
+        .sort(['Total Registered', 'PRECINCT_NAME'], descending=[True, False])
     )
 
 
