@@ -4,9 +4,10 @@
   "precinct": "PRECINCT LIBERTY B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-10-30",
   "chartConfig": {
     "labels": [
+      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -20,11 +21,12 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          22,
+          0,
+          1,
+          20,
           55,
-          60,
-          40,
+          61,
+          43,
           42,
           8,
           19
@@ -36,12 +38,13 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
+          1,
           2,
-          6,
+          5,
           12,
-          21,
-          18,
-          25,
+          22,
+          19,
+          26,
           11,
           4
         ],
@@ -52,6 +55,7 @@
       {
         "label": "Mixed – Active",
         "data": [
+          0,
           0,
           10,
           18,
@@ -70,6 +74,7 @@
         "data": [
           0,
           0,
+          0,
           5,
           7,
           5,
@@ -85,13 +90,14 @@
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          0,
           1,
           6,
           3,
           3,
           7,
           2,
-          1
+          2
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 3,
@@ -100,14 +106,15 @@
       {
         "label": "UNC – No Primary",
         "data": [
+          0,
           3,
           7,
           19,
-          22,
-          29,
-          49,
-          58,
-          70
+          21,
+          28,
+          48,
+          59,
+          74
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,13 +123,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
+          0,
           3,
           2,
-          10,
           9,
           10,
+          10,
           6,
-          1,
+          2,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -132,6 +140,7 @@
       {
         "label": "Pure D",
         "data": [
+          0,
           2,
           11,
           13,
@@ -139,7 +148,7 @@
           1,
           2,
           1,
-          4
+          5
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

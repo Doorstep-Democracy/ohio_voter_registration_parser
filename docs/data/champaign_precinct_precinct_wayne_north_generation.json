@@ -1,0 +1,32 @@
+{
+  "title": "Voter Age Distribution by Generation — PRECINCT WAYNE NORTH",
+  "county": "Champaign",
+  "precinct": "PRECINCT WAYNE NORTH",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "note": "Pew Research Center generational boundaries",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Registered Voters",
+        "data": [
+          18,
+          153,
+          170,
+          143,
+          101
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 4
+      }
+    ]
+  }
+}

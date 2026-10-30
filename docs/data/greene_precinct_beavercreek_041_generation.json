@@ -1,0 +1,32 @@
+{
+  "title": "Voter Age Distribution by Generation — BEAVERCREEK 041",
+  "county": "Greene",
+  "precinct": "BEAVERCREEK 041",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "note": "Pew Research Center generational boundaries",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Registered Voters",
+        "data": [
+          91,
+          299,
+          141,
+          195,
+          219
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 4
+      }
+    ]
+  }
+}

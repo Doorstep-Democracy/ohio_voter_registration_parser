@@ -1,0 +1,64 @@
+{
+  "title": "UNC Primary History — BEAVERCREEK 041",
+  "county": "Greene",
+  "precinct": "BEAVERCREEK 041",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "note": "Shadow partisanship inferred from primary ballot history only. Ohio uses an open primary: voters may cross party lines in any election. These labels reflect behavioral pattern, not registration status. Voters with ballots in both D and R primaries are classified as Mixed.",
+  "totalUnc": 717,
+  "chartOptions": {
+    "scales": {
+      "x": {
+        "stacked": true
+      },
+      "y": {
+        "stacked": true
+      }
+    },
+    "plugins": {
+      "tooltip": {
+        "callbacks": {}
+      }
+    }
+  },
+  "chartConfig": {
+    "labels": [
+      "Unaffiliated (UNC)"
+    ],
+    "datasets": [
+      {
+        "label": "Lifetime D",
+        "data": [
+          75
+        ],
+        "backgroundColor": "#60a5fa",
+        "borderRadius": 4
+      },
+      {
+        "label": "Lifetime R",
+        "data": [
+          114
+        ],
+        "backgroundColor": "#f87171",
+        "borderRadius": 4
+      },
+      {
+        "label": "Mixed / Crossover",
+        "data": [
+          107
+        ],
+        "backgroundColor": "#a78bfa",
+        "borderRadius": 4
+      },
+      {
+        "label": "No Primary History",
+        "data": [
+          421
+        ],
+        "backgroundColor": "#9ca3af",
+        "borderRadius": 4
+      }
+    ]
+  }
+}

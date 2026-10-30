@@ -1,0 +1,64 @@
+{
+  "title": "UNC Primary History — PRECINCT WAYNE NORTH",
+  "county": "Champaign",
+  "precinct": "PRECINCT WAYNE NORTH",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "note": "Shadow partisanship inferred from primary ballot history only. Ohio uses an open primary: voters may cross party lines in any election. These labels reflect behavioral pattern, not registration status. Voters with ballots in both D and R primaries are classified as Mixed.",
+  "totalUnc": 420,
+  "chartOptions": {
+    "scales": {
+      "x": {
+        "stacked": true
+      },
+      "y": {
+        "stacked": true
+      }
+    },
+    "plugins": {
+      "tooltip": {
+        "callbacks": {}
+      }
+    }
+  },
+  "chartConfig": {
+    "labels": [
+      "Unaffiliated (UNC)"
+    ],
+    "datasets": [
+      {
+        "label": "Lifetime D",
+        "data": [
+          28
+        ],
+        "backgroundColor": "#60a5fa",
+        "borderRadius": 4
+      },
+      {
+        "label": "Lifetime R",
+        "data": [
+          92
+        ],
+        "backgroundColor": "#f87171",
+        "borderRadius": 4
+      },
+      {
+        "label": "Mixed / Crossover",
+        "data": [
+          44
+        ],
+        "backgroundColor": "#a78bfa",
+        "borderRadius": 4
+      },
+      {
+        "label": "No Primary History",
+        "data": [
+          256
+        ],
+        "backgroundColor": "#9ca3af",
+        "borderRadius": 4
+      }
+    ]
+  }
+}

@@ -4,9 +4,10 @@
   "precinct": "PRECINCT GOSHEN TWP #2",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-10-30",
   "chartConfig": {
     "labels": [
+      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -21,8 +22,9 @@
         "label": "Pure R",
         "data": [
           1,
-          13,
-          39,
+          1,
+          12,
+          38,
           30,
           13,
           11,
@@ -36,13 +38,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
+          0,
           2,
           9,
           7,
           14,
-          11,
-          6,
-          6,
+          13,
+          5,
+          7,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -52,12 +55,13 @@
       {
         "label": "Mixed – Active",
         "data": [
+          0,
           2,
           10,
-          41,
+          38,
           32,
-          6,
-          13,
+          7,
+          11,
           0,
           0
         ],
@@ -69,9 +73,10 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          9,
-          1,
+          0,
           10,
+          1,
+          11,
           8,
           2,
           0,
@@ -85,8 +90,9 @@
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          0,
           2,
-          3,
+          2,
           5,
           5,
           6,
@@ -100,14 +106,15 @@
       {
         "label": "UNC – No Primary",
         "data": [
+          0,
           1,
           4,
           14,
           19,
-          30,
-          27,
-          51,
-          46
+          29,
+          29,
+          52,
+          47
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,13 +123,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
+          0,
           1,
           17,
           12,
           22,
           10,
           9,
-          11,
+          10,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -132,6 +140,7 @@
       {
         "label": "Pure D",
         "data": [
+          0,
           4,
           17,
           30,

@@ -4,9 +4,10 @@
   "precinct": "PRECINCT STREETSBORO 1-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-10-30",
   "chartConfig": {
     "labels": [
+      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -20,6 +21,7 @@
       {
         "label": "Pure R",
         "data": [
+          0,
           2,
           7,
           15,
@@ -36,13 +38,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          3,
-          5,
           1,
-          10,
+          1,
           4,
-          12,
+          7,
+          2,
+          9,
+          5,
+          11,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -53,7 +56,8 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          10,
+          0,
+          9,
           20,
           16,
           12,
@@ -68,13 +72,14 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          0,
           2,
           1,
           4,
           5,
           1,
           1,
-          1,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
@@ -86,7 +91,8 @@
         "data": [
           0,
           0,
-          5,
+          0,
+          4,
           7,
           8,
           16,
@@ -100,14 +106,15 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          0,
-          3,
-          9,
-          18,
+          1,
+          1,
+          5,
+          10,
+          20,
           34,
-          55,
-          117,
-          83
+          58,
+          116,
+          91
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,14 +123,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          4,
+          0,
+          3,
           6,
-          17,
-          16,
+          20,
+          15,
           25,
-          18,
-          16,
-          2
+          19,
+          17,
+          1
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -132,8 +140,9 @@
       {
         "label": "Pure D",
         "data": [
+          0,
           2,
-          10,
+          11,
           14,
           18,
           15,

@@ -1,0 +1,32 @@
+{
+  "title": "Voter Age Distribution by Generation — SOUTH BLOOMFIELD-NORTHEAST",
+  "county": "Pickaway",
+  "precinct": "SOUTH BLOOMFIELD-NORTHEAST",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "note": "Pew Research Center generational boundaries",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Registered Voters",
+        "data": [
+          10,
+          127,
+          124,
+          123,
+          76
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 4
+      }
+    ]
+  }
+}

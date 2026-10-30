@@ -4,10 +4,9 @@
   "precinct": "COLS 31-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-10-30",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -21,7 +20,6 @@
       {
         "label": "Pure R",
         "data": [
-          0,
           0,
           1,
           2,
@@ -38,14 +36,13 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           1,
-          1,
-          2,
-          1,
-          4,
           0,
           2,
+          1,
+          5,
+          0,
+          1,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -56,9 +53,8 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          0,
           2,
-          5,
+          4,
           0,
           2,
           1,
@@ -72,7 +68,6 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           0,
           1,
           2,
@@ -90,8 +85,7 @@
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          0,
-          0,
+          1,
           1,
           0,
           2,
@@ -106,15 +100,14 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          0,
           2,
           4,
-          22,
-          30,
-          62,
+          20,
+          34,
+          63,
+          91,
           89,
-          88,
-          64
+          69
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -123,14 +116,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
           0,
           4,
           15,
-          13,
-          10,
+          12,
+          11,
           8,
-          6,
+          5,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -140,14 +132,13 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           1,
-          4,
+          3,
           7,
           6,
           3,
           5,
-          1,
+          3,
           1
         ],
         "backgroundColor": "#3b82f6",

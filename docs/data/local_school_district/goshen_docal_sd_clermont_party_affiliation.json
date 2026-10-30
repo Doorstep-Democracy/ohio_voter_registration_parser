@@ -1,0 +1,44 @@
+{
+  "title": "Party Affiliation",
+  "type": "doughnut",
+  "chartConfig": {
+    "labels": [
+      "Pure R — 0 (0%)",
+      "UNC – Lapsed R — 0 (0%)",
+      "Mixed – Active — 0 (0%)",
+      "Mixed – Lapsed — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 1 (100%)",
+      "UNC – Lapsed D — 0 (0%)",
+      "Pure D — 0 (0%)"
+    ],
+    "datasets": [
+      {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "#ef4444",
+          "#fca5a5",
+          "#f59e0b",
+          "#a78bfa",
+          "#c4b5cd",
+          "#9ca3af",
+          "#93c5fd",
+          "#3b82f6"
+        ]
+      }
+    ]
+  },
+  "note": "Analysis run 2026-10-30 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "geography": "Local School District",
+  "jurisdiction_name": "Goshen Docal Sd (Clermont Co.)",
+  "updated": "2026-10-30"
+}

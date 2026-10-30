@@ -1,0 +1,150 @@
+{
+  "title": "Party Affiliation by Birth Decade — PRECINCT WAYNE SOUTH",
+  "county": "Champaign",
+  "precinct": "PRECINCT WAYNE SOUTH",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "chartConfig": {
+    "labels": [
+      "1930s",
+      "1940s",
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "datasets": [
+      {
+        "label": "Pure R",
+        "data": [
+          4,
+          21,
+          39,
+          57,
+          25,
+          20,
+          9,
+          9
+        ],
+        "backgroundColor": "#ef4444",
+        "borderRadius": 3,
+        "stack": "r_pure"
+      },
+      {
+        "label": "UNC – Lapsed R",
+        "data": [
+          1,
+          8,
+          12,
+          24,
+          33,
+          15,
+          18,
+          0
+        ],
+        "backgroundColor": "#fca5a5",
+        "borderRadius": 3,
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
+        "data": [
+          3,
+          8,
+          25,
+          18,
+          9,
+          2,
+          0,
+          1
+        ],
+        "backgroundColor": "#f59e0b",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          0,
+          2,
+          11,
+          7,
+          7,
+          2,
+          0,
+          0
+        ],
+        "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          3,
+          9,
+          3,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          0,
+          3,
+          18,
+          24,
+          35,
+          41,
+          54,
+          55
+        ],
+        "backgroundColor": "#9ca3af",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          1,
+          5,
+          4,
+          8,
+          12,
+          3,
+          3,
+          1
+        ],
+        "backgroundColor": "#93c5fd",
+        "borderRadius": 3,
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          2,
+          7,
+          5,
+          7,
+          3,
+          1,
+          0,
+          3
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 3,
+        "stack": "d_pure"
+      }
+    ]
+  }
+}

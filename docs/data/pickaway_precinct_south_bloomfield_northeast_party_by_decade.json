@@ -1,0 +1,150 @@
+{
+  "title": "Party Affiliation by Birth Decade — SOUTH BLOOMFIELD-NORTHEAST",
+  "county": "Pickaway",
+  "precinct": "SOUTH BLOOMFIELD-NORTHEAST",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "chartConfig": {
+    "labels": [
+      "1930s",
+      "1940s",
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "datasets": [
+      {
+        "label": "Pure R",
+        "data": [
+          1,
+          6,
+          13,
+          33,
+          11,
+          11,
+          8,
+          5
+        ],
+        "backgroundColor": "#ef4444",
+        "borderRadius": 3,
+        "stack": "r_pure"
+      },
+      {
+        "label": "UNC – Lapsed R",
+        "data": [
+          1,
+          4,
+          6,
+          11,
+          6,
+          7,
+          10,
+          0
+        ],
+        "backgroundColor": "#fca5a5",
+        "borderRadius": 3,
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
+        "data": [
+          1,
+          6,
+          16,
+          17,
+          11,
+          5,
+          2,
+          0
+        ],
+        "backgroundColor": "#f59e0b",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          0,
+          1,
+          10,
+          4,
+          3,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          4,
+          4,
+          1,
+          7,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          1,
+          1,
+          8,
+          9,
+          28,
+          39,
+          54,
+          37
+        ],
+        "backgroundColor": "#9ca3af",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          1,
+          0,
+          6,
+          10,
+          4,
+          4,
+          2,
+          1
+        ],
+        "backgroundColor": "#93c5fd",
+        "borderRadius": 3,
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          0,
+          1,
+          6,
+          1,
+          7,
+          2,
+          4,
+          3
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 3,
+        "stack": "d_pure"
+      }
+    ]
+  }
+}

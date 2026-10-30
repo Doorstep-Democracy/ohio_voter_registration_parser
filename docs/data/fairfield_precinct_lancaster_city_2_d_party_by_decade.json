@@ -4,9 +4,10 @@
   "precinct": "LANCASTER CITY 2-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-10-30",
   "chartConfig": {
     "labels": [
+      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -20,14 +21,15 @@
       {
         "label": "Pure R",
         "data": [
+          0,
           5,
           13,
-          39,
-          52,
+          36,
+          51,
           32,
-          27,
+          25,
           9,
-          10
+          9
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 3,
@@ -36,13 +38,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
+          1,
           4,
           12,
           17,
           49,
           48,
           49,
-          25,
+          23,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -52,14 +55,15 @@
       {
         "label": "Mixed – Active",
         "data": [
+          0,
           1,
           3,
-          23,
+          22,
           17,
           9,
           9,
           2,
-          2
+          3
         ],
         "backgroundColor": "#f59e0b",
         "borderRadius": 3,
@@ -68,13 +72,14 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          0,
           4,
           6,
           8,
           5,
-          14,
+          15,
           5,
-          2,
+          3,
           0
         ],
         "backgroundColor": "#a78bfa",
@@ -85,11 +90,12 @@
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          0,
           5,
           6,
           4,
           14,
-          18,
+          19,
           3,
           0
         ],
@@ -101,13 +107,14 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          6,
-          17,
-          36,
-          64,
+          0,
+          5,
+          15,
+          37,
+          69,
           103,
-          153,
-          152
+          149,
+          163
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,14 +123,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
+          0,
           2,
           4,
           12,
-          17,
+          16,
           19,
-          24,
-          15,
-          2
+          26,
+          14,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -133,8 +141,9 @@
         "label": "Pure D",
         "data": [
           0,
+          0,
           3,
-          13,
+          12,
           6,
           3,
           0,

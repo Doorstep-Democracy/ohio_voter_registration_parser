@@ -3,6 +3,7 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
+      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -16,13 +17,14 @@
       {
         "label": "Pure R",
         "data": [
+          0,
           8,
-          29,
-          43,
-          27,
+          31,
+          42,
+          26,
           18,
           9,
-          8,
+          9,
           5
         ],
         "backgroundColor": "#ef4444",
@@ -31,13 +33,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          8,
+          0,
+          7,
           11,
-          27,
-          35,
-          28,
-          32,
-          16,
+          26,
+          38,
+          29,
+          33,
+          18,
           5
         ],
         "backgroundColor": "#fca5a5",
@@ -46,12 +49,13 @@
       {
         "label": "Mixed – Active",
         "data": [
+          0,
           8,
           37,
-          61,
-          33,
-          12,
-          14,
+          59,
+          32,
+          13,
+          15,
           4,
           0
         ],
@@ -61,12 +65,13 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          0,
           4,
-          11,
-          23,
-          24,
-          15,
-          7,
+          10,
+          25,
+          26,
+          16,
+          8,
           5,
           0
         ],
@@ -76,12 +81,13 @@
       {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          1,
-          5,
-          15,
+          0,
+          2,
+          6,
+          16,
           21,
-          22,
-          10,
+          20,
+          9,
           3,
           4
         ],
@@ -91,14 +97,15 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          4,
-          18,
+          0,
+          5,
+          20,
           46,
-          64,
-          72,
-          116,
-          150,
-          120
+          66,
+          74,
+          119,
+          158,
+          132
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -106,14 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          9,
+          1,
+          8,
           30,
-          54,
-          48,
-          39,
-          49,
+          53,
+          50,
+          37,
+          53,
           27,
-          3
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -121,22 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          11,
-          34,
-          62,
+          0,
+          10,
+          30,
+          61,
           47,
-          18,
+          20,
           23,
-          26,
-          13
+          25,
+          12
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-10-30 — Ohio Secretary of State SWVF voter file",
   "geography": "Ward",
   "jurisdiction_name": "OLMSTED FALLS WARD 4 (OLMSTED FALLS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-10-30"
 }

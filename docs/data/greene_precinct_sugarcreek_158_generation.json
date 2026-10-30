@@ -1,0 +1,32 @@
+{
+  "title": "Voter Age Distribution by Generation — SUGARCREEK 158",
+  "county": "Greene",
+  "precinct": "SUGARCREEK 158",
+  "geography": "precinct-detail",
+  "type": "bar",
+  "updated": "2026-10-30",
+  "note": "Pew Research Center generational boundaries",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Registered Voters",
+        "data": [
+          14,
+          102,
+          181,
+          269,
+          85
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 4
+      }
+    ]
+  }
+}
