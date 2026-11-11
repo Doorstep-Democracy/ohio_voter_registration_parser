@@ -19,5 +19,6 @@ dependencies = [
     "pymupdf>=1.27.2.3",
     "pymupdf4llm>=0.0.17",  # PDF -> LLM-ready markdown; used by tools/admin/pdf_to_markdown.py
     "rapidfuzz>=3.0.0",     # fuzzy name matching; used by tools/lookup/match_officials_to_voters.py
+    "requests>=2.31",       # SOS voter-file download; used by pipeline/ohio_voter_pipeline.py
     "xlsxwriter>=3.1.0",
 ]
