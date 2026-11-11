@@ -151,17 +151,39 @@ MANIFEST_PATH = BASE_DIR / 'download_manifest.json'
 
 
 
-def _cache_is_fresh() -> bool:
-    """Return True iff enriched cache is newer than raw partitions AND classifier."""
+def _fmt_mtime(ts: float) -> str:
+    """Render an mtime for logs: local time to the second."""
+    return datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+
+
+def _cache_is_fresh(logger: logging.Logger | None = None) -> bool:
+    """Return True iff enriched cache is newer than raw partitions AND classifier.
+
+    Single freshness resolver for the enriched cache (jurisdictional_groupings
+    calls this one rather than keeping a copy). Logs the verdict and the three
+    timestamps it compared, per the logging policy in setup_logging(): a cache
+    decision that is not in the run log cannot be audited after the fact.
+    """
+    log = logger or logging.getLogger('voter_analysis')
     if not ENRICHED_CACHE.exists():
+        log.info('Enriched cache freshness: STALE -- %s does not exist', ENRICHED_CACHE)
         return False
     cache_mt = ENRICHED_CACHE.stat().st_mtime
     raw_partitions = list(PARQUET_DIR.glob("COUNTY_NUMBER=*"))
     if not raw_partitions:
+        log.info('Enriched cache freshness: STALE -- no raw partitions under %s', PARQUET_DIR)
         return False
-    latest_raw    = max(p.stat().st_mtime for p in raw_partitions)
+    newest_raw    = max(raw_partitions, key=lambda p: p.stat().st_mtime)
+    latest_raw    = newest_raw.stat().st_mtime
     classifier_mt = CLASSIFIER_SRC.stat().st_mtime
-    return cache_mt > max(latest_raw, classifier_mt)
+    fresh = cache_mt > max(latest_raw, classifier_mt)
+    log.info(
+        'Enriched cache freshness: %s -- cache %s vs newest raw partition %s (%s) '
+        'and classifier source %s (%s)',
+        'FRESH' if fresh else 'STALE', _fmt_mtime(cache_mt), _fmt_mtime(latest_raw),
+        newest_raw.name, _fmt_mtime(classifier_mt), CLASSIFIER_SRC.name,
+    )
+    return fresh
 
 
 def _write_cache_atomic(df: pl.DataFrame, logger: logging.Logger) -> None:
@@ -4365,7 +4387,7 @@ def run_ohio_analysis(
                 df = load_voter_files(txt_files, logger=logger)
 
         # ── 2. Clean + enrich ─────────────────────────────────────────────────────────────────────
-        if _cache_is_fresh():
+        if _cache_is_fresh(logger):
             logger.info('Loading enriched voter data from persistent cache...')
             df = pl.read_parquet(ENRICHED_CACHE)
         else:

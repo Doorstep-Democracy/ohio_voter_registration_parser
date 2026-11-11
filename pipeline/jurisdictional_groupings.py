@@ -649,17 +649,8 @@ def export_jurisdiction_json(
 
 
 
-def _cache_is_fresh() -> bool:
-    """Return True iff enriched cache is newer than raw partitions AND classifier."""
-    if not ENRICHED_CACHE.exists():
-        return False
-    cache_mt = ENRICHED_CACHE.stat().st_mtime
-    raw_partitions = list(PARQUET_DIR.glob("COUNTY_NUMBER=*"))
-    if not raw_partitions:
-        return False
-    latest_raw    = max(p.stat().st_mtime for p in raw_partitions)
-    classifier_mt = CLASSIFIER_SRC.stat().st_mtime
-    return cache_mt > max(latest_raw, classifier_mt)
+# Enriched-cache freshness: voter_data_cleaner._cache_is_fresh() is the single
+# resolver (it also logs the verdict); this module used to keep a copy.
 
 
 def _write_cache_atomic(df, logger) -> None:
@@ -908,7 +899,7 @@ def main(
 
     # Load enriched voter data -- use persistent cache when fresh
     import voter_data_cleaner as _v2
-    if _cache_is_fresh():
+    if _v2._cache_is_fresh(logger):
         logger.info('Loading enriched voter data from persistent cache...')
         df = pl.read_parquet(ENRICHED_CACHE)
         logger.info(f'Loaded from cache: {df.height:,} rows x {df.width} columns')

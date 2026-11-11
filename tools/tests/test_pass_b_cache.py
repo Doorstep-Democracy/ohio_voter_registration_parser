@@ -31,6 +31,12 @@ def _make_partition(parquet_dir: Path, name="COUNTY_NUMBER=01"):
 
 
 class TestCacheIsFresh:
+    # voter_data_cleaner owns the single _cache_is_fresh(); jurisdictional_groupings
+    # delegates to it (its copy was removed 2026-11-11), so only one module is tested.
+    @pytest.fixture
+    def mod(self):
+        return _v2
+
     def test_missing_cache_returns_false(self, mod, tmp_path, monkeypatch):
         monkeypatch.setattr(mod, "ENRICHED_CACHE", tmp_path / "cache.parquet")
         monkeypatch.setattr(mod, "PARQUET_DIR",    tmp_path / "parquet")
