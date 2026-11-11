@@ -42,10 +42,12 @@ jobs:
   # Non-blocking: conformance/ is red by design until the DATA_DIR path
   # consolidation lands (tools/tests/conformance/README.md). It runs so its
   # failure count stays visible on every PR, but it never fails the build.
+  # continue-on-error sits on the STEP, not the job: at job level GitHub still
+  # reports the job's check as failed (it only spares the workflow). The
+  # pytest result line goes to the job summary so the count is still visible.
   conformance:
     name: Conformance (non-blocking, red by design)
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
@@ -54,4 +56,14 @@ jobs:
       - name: Install locked dependencies
         run: uv sync --frozen
       - name: Run conformance tests
-        run: uv run pytest tools/tests/conformance -q
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          uv run pytest tools/tests/conformance -q 2>&1 | tee conformance.log
+      - name: Report conformance count
+        if: always()
+        run: |
+          echo "### Conformance (non-blocking)" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 1 conformance.log >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
