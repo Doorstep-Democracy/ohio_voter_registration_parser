@@ -98,3 +98,61 @@ still never logged a cause for the original kill, so the exact mechanism
 stays unconfirmed. Doesn't change the flagged directions above — the eager
 full-state load is still the structural issue regardless of what killed this
 one run.
+
+### Second incident (2026-11-11, menu choice [1], headless)
+
+Command: `ohio_voter_pipeline.py --snapshot 2026-10-24 --choice 1
+--precinct-charts --no-update-check`, branch `fix/lean-by-label`. Polars 1.40.1
+and Python 3.14.4 unchanged since 2026-05-14.
+
+- Log ([local/logs/voter_analysis_20261111_084303_pipeline.log](local/logs/voter_analysis_20261111_084303_pipeline.log))
+  ends at `08:43:21` on `add_voter_participation` "Building participation
+  metric expressions", RSS ~21 GB on entry. On the successful 10-30 run this
+  step peaked at `RSS=39,892 MB`.
+- Unlike the first incident, Windows **did** record a cause: Application
+  Error 1000 at `08:43:30`, `python.exe` faulting in `VCRUNTIME140.dll`,
+  exception `0xc0000005` (access violation). A native crash: no Python
+  traceback, no log line, and the shell prompt returns as if the run had
+  finished quickly. Nothing was written to `docs/data`.
+- An immediate rerun with `python -X faulthandler` got past the same point.
+  Intermittent, not reproduced; mechanism unconfirmed (memory pressure during
+  the ~2x RSS growth in this step and a native race are both open).
+
+Adds to the flagged directions:
+
+4. **Crash-visible default logging.** Enable `faulthandler` by default
+   (in the pipeline entry point, writing to the run's log file, not only
+   stderr), and log a final "pipeline complete" line so a missing one
+   identifies an abnormal exit. Today a native crash is indistinguishable
+   from a short successful run.
+5. **Memory profile of `add_voter_participation`.** It roughly doubles
+   resident memory (21 GB -> 40 GB); candidate for the same lazy / per-county
+   treatment as direction 2.
+
+**Direction 4 done (2026-11-11, branch `fix/lean-by-label`).** Every run log now
+starts with run context (versions, git commit, total/available RAM), receives
+`faulthandler` tracebacks on a native crash (verified with a deliberate
+segfault), logs each enriched-cache FRESH/STALE verdict with its timestamps,
+and ends with `PIPELINE COMPLETE`. Rationale lives in the
+`voter_data_cleaner.setup_logging()` docstring. Directions 1-3 and 5 remain
+open.
+
+### Third incident (2026-11-11 ~09:36, system bugcheck after a completed run)
+
+Menu choice [4] logged `PIPELINE COMPLETE` at `09:36:23` (groupings peak
+`RSS=49.76 GB` of 68.6 GB total); the machine bugchecked and rebooted by
+`09:37:14`: stop `0x12B` FAULTY_HARDWARE_CORRUPTED_PAGE, minidump
+`C:\Windows\Minidump\111126-12828-01.dmp`, no WHEA-Logger events. The last 40
+files written (municipal/county court and appeals narratives) were left
+zero-filled by the lost write cache and were regenerated.
+
+The System log holds **11 bugchecks since 2026-09-03** with varied stop codes,
+most memory-related: `0x1A` MEMORY_MANAGEMENT, `0x4E` PFN_LIST_CORRUPT, `0x19`
+BAD_POOL_HEADER, `0xC2` BAD_POOL_CALLER (x2), `0x12B`, plus `0x7E`/`0x1E`/`0x50`
+access violations, `0x133`, `0xEF`. Varied memory-corruption codes are
+consistent with unstable RAM or memory timings (the RAM was swapped and
+reinstalled around the RMA noted above) and also with a faulty driver; not
+diagnosed. A future session should start with a memory test (MemTest86 or
+Windows Memory Diagnostic, XMP off) before attributing any pipeline crash to
+the code, then verify outputs after every full run, since a crash right after
+a run can zero-fill files the log reports as written.
