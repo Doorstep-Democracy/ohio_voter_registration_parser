@@ -107,6 +107,12 @@ def setup_logger(name='groupings', log_dir=LOGS_DIR):
     logger.addHandler(fh)
     logger.addHandler(ch)
 
+    # Verbose defaults: run context + native-crash tracebacks in this log.
+    # Rationale: voter_data_cleaner.setup_logging() docstring, "Logging policy".
+    import voter_data_cleaner as _v2
+    _v2.enable_crash_log(log_file, logger)
+    _v2.log_run_context(logger)
+
     return logger, log_file
 
 

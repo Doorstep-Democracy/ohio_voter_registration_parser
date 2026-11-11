@@ -385,6 +385,54 @@ OHIO_COUNTIES: dict[str, str] = {
 # Logging setup
 # ─────────────────────────────────────────────────────────────────────────────
 
+# File objects faulthandler writes to. faulthandler holds only the file descriptor,
+# so the Python file object must stay referenced for the life of the process.
+_CRASH_LOG_HANDLES: list = []
+
+
+def enable_crash_log(log_path: Path, logger: logging.Logger) -> None:
+    """Route native-crash tracebacks (faulthandler) into this run's log file.
+
+    See the logging policy in setup_logging() for why. Re-enabling points the
+    handler at the newest run log, so a crash lands in the log of the phase
+    that was running (pipeline vs. groupings).
+    """
+    import faulthandler
+    handle = open(log_path, 'a', encoding='utf-8')
+    faulthandler.enable(file=handle, all_threads=True)
+    _CRASH_LOG_HANDLES.append(handle)
+    logger.debug('faulthandler enabled -> %s', log_path)
+
+
+def log_run_context(logger: logging.Logger) -> None:
+    """Record what produced this run: process, interpreter, libraries, code, memory.
+
+    See the logging policy in setup_logging() for why each item is here.
+    """
+    import os
+    import subprocess
+    logger.info('Run context: pid=%d argv=%s cwd=%s', os.getpid(), sys.argv, Path.cwd())
+    logger.info(
+        'Run context: python %s (%s), polars %s, polars thread pool %d',
+        sys.version.split()[0], sys.executable, pl.__version__, pl.thread_pool_size(),
+    )
+    sha = subprocess.run(['git', '-C', str(BASE_DIR), 'rev-parse', 'HEAD'],
+                         capture_output=True, text=True, check=False)
+    branch = subprocess.run(['git', '-C', str(BASE_DIR), 'rev-parse', '--abbrev-ref', 'HEAD'],
+                            capture_output=True, text=True, check=False)
+    if sha.returncode == 0 and branch.returncode == 0:
+        logger.info('Run context: git %s on %s', sha.stdout.strip(), branch.stdout.strip())
+    else:
+        logger.info('Run context: git commit not recorded (%s)',
+                    (sha.stderr or branch.stderr).strip()[:200])
+    if _psutil is not None:
+        vm = _psutil.virtual_memory()
+        logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
+                    vm.total / 1e9, vm.available / 1e9)
+    else:
+        logger.info('Run context: psutil not installed; RAM not recorded')
+
+
 def setup_logging(run_label: str = '') -> logging.Logger:
     """
     Configure a logger that writes to both:
@@ -393,6 +441,30 @@ def setup_logging(run_label: str = '') -> logging.Logger:
 
     The log file is timestamped so each run produces its own file, making
     it easy to compare across runs or share a failing run's log for review.
+
+    Logging policy (verbose by default, added 2026-11-11)
+    ─────────────────────────────────────────────────────
+    Each item below exists because a real run went wrong and the log could not
+    say why. The log file is the record of a run; keep these on by default.
+
+    * Run context at start (log_run_context): pid, argv, Python and polars
+      versions, polars thread pool, git commit and branch, total and available
+      RAM. Two full-state runs died at ~21 GB RSS (2026-10-30 and 2026-11-11,
+      KNOWN_ISSUES.md OPEN-001) with no record of what memory was free, which
+      code was running, or which libraries were loaded.
+    * Native crash tracebacks (enable_crash_log): faulthandler writes the
+      Python stack of every thread into this log file on a segfault or access
+      violation. The 2026-11-11 crash (0xc0000005 in VCRUNTIME140.dll) left no
+      traceback and no log line; it was found only in the Windows event log.
+    * Freshness verdicts (_cache_is_fresh and the groupings resume check):
+      every reuse-or-rebuild decision logs FRESH/STALE with the timestamps it
+      compared. The groupings resume check once skipped 3,062 outdated
+      7-cohort files as "already exported" on every regeneration (May to
+      November 2026), silently mixing data vintages on the public site.
+    * Completion line (ohio_voter_pipeline._dispatch): "PIPELINE COMPLETE" is
+      the last line of a successful run. A native crash returns the shell
+      prompt as if the run had finished quickly; a log without that line
+      ended abnormally, however it looked in the terminal.
 
     Returns the root logger configured with both handlers.
     """
@@ -428,6 +500,8 @@ def setup_logging(run_label: str = '') -> logging.Logger:
     logger.addHandler(file_handler)
 
     logger.info('Log file: %s', log_path)
+    enable_crash_log(log_path, logger)
+    log_run_context(logger)
     return logger
 
 

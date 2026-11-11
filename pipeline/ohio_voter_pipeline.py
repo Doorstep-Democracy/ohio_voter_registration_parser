@@ -754,6 +754,11 @@ def _dispatch(
             logger=_log,
         )
 
+    # Last line of every successful run. A log without it ended abnormally,
+    # even if the terminal returned to the prompt normally (a native crash does
+    # exactly that). Rationale: voter_data_cleaner.setup_logging() docstring.
+    _log.info('PIPELINE COMPLETE: choice=%s, source date %s', choice, src_date)
+
 # ── Narrative phase ───────────────────────────────────────────────────────────
 
 def _narrative_phase(
