@@ -135,15 +135,18 @@ OFFICE_LABELS: dict[str, str] = {
 
 def build_metrics_for_level(level, party_json, decade_json=None,
                             generation_json=None, party_decade_json=None,
-                            parent_county=None, geography_counties=None):
+                            parent_county=None, geography_counties=None,
+                            source=None):
     if not party_json or 'chartConfig' not in party_json:
         return None
     cfg = LEVEL_CONFIGS.get(level)
     if cfg is None:
         raise ValueError(f'Unknown level: {level!r}')
 
+    # `source` names the file in errors; the chart title alone ("Party
+    # Affiliation") does not say which of ~13k files failed.
     sides = cohort_sides(party_json['chartConfig'],
-                         party_json.get('title') or f'{level} party chart')
+                         source or party_json.get('title') or f'{level} party chart')
     total = sides['total']
     if total == 0:
         return None

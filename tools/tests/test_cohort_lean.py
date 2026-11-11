@@ -99,6 +99,15 @@ def test_rejects_unknown_and_duplicate_labels():
         cohort_sides(_chart(dup), "duplicate")
 
 
+def test_narrative_error_names_the_file():
+    """A failing chart must be identifiable: the title alone ('Party Affiliation') is not."""
+    from tools.narrative.templates import build_metrics_for_level
+    seven = [p for p in CANONICAL if p[0] != "UNC – Non-partisan Ballot"]
+    party = {"title": "Party Affiliation", "chartConfig": _chart(seven)}
+    with pytest.raises(ValueError, match="township/adams_bratton_township"):
+        build_metrics_for_level("township", party, source="township/adams_bratton_township")
+
+
 def test_rejects_length_mismatch():
     chart = _chart(CANONICAL)
     chart["datasets"][0]["data"].pop()

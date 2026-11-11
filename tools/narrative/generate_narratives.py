@@ -357,6 +357,7 @@ def _process_one(
         party_decade_json=pd_json,
         parent_county=parent_county,
         geography_counties=None,    # district->counties map is Workstream 2
+        source=f'{level}/{slug}',
     )
     if metrics is None:
         log.debug('No usable metrics for %s/%s -- skipping', level, slug)
