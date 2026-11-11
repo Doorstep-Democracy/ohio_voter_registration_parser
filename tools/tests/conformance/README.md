@@ -55,6 +55,10 @@ rather than passing silently.
 The seven skips are all `pipeline/paths.py` does not exist yet — they are the
 acceptance criteria for DOO-86 and will start executing the moment it lands.
 
+**2026-11-11:** `8 failed, 10 passed, 7 skipped`. Evaluation items P10 and P15
+cleared three `test_stale_references.py` tests (section 6). CI runs this
+directory as a non-blocking job until it is green (`tools/tests/README.md`, "CI").
+
 Detector output at baseline, which is also the corrected scope figure:
 
 | Detector | Result |
@@ -254,11 +258,16 @@ everything adjusted".
 * `test_module_docstrings_do_not_name_missing_files` — the same check applied
   to module docstrings, deduplicated per file.
 
+**Status (2026-11-11).** The first three pass: every `voter_data_cleaner_v2`
+import and mention was repointed, and the README rows for the renamed lookup
+tools and the removed `archive_state.py` were fixed. The fourth still fails on
+four module docstrings that name pre-reorganisation paths.
+
 **Why it exists, concretely.** The `voter_data_cleaner_v2` → `voter_data_cleaner`
 rename left references behind across seven files. Three of them are not stale
 prose but **broken code**: `tools/export/precinct_party_export.py:44` and
 `tools/export/precinct_unc_export.py:39` import the old module at module level,
-and `pipeline/voter_data_cleaner.py:4672` does the same in its `--test` path.
+and `pipeline/voter_data_cleaner.py` (line 4768 by 2026-11) does the same in its `--test` path.
 Those two export scripts cannot load at all, and nothing in the existing test
 suite touches them — the only surviving artefacts are stale `.pyc` files in
 `__pycache__/`, which are not importable without their source.
