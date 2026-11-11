@@ -1,6 +1,6 @@
 """
-test_jurisdiction_collisions.py
-────────────────────────────────
+jurisdiction_collisions_report.py
+──────────────────────────────────
 Detect jurisdiction name collisions that would corrupt output if slugs are
 derived from jurisdiction name alone (without county scoping).
 
@@ -8,19 +8,19 @@ For each jurisdiction type, reports any value that appears in more than one
 COUNTY_NUMBER partition — i.e., a name collision that a naive group_by on the
 name column alone would silently merge into one file.
 
-Outputs a markdown report to collision_report.md in the project root.
+Outputs a markdown report to local/working/collision_report.md.
 
 Run:
-    .venv\Scripts\python.exe test_jurisdiction_collisions.py
+    uv run python tools/admin/jurisdiction_collisions_report.py
 """
 
 from datetime import datetime
 from pathlib import Path
 import polars as pl
 
-BASE_DIR    = Path(__file__).parent.parent
+BASE_DIR    = Path(__file__).resolve().parent.parent.parent
 PARQUET_DIR = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
-REPORT_PATH = BASE_DIR / "collision_report.md"
+REPORT_PATH = BASE_DIR / "local" / "working" / "collision_report.md"
 
 JURISDICTION_COLUMNS = {
     "cities":                           "CITY",
@@ -124,7 +124,7 @@ def main():
             "presence reflects a single real jurisdiction (e.g. legislative districts, "
             "multi-county cities)."
         )
-        print("\nRESULT: Collisions detected — see collision_report.md")
+        print("\nRESULT: Collisions detected — see local/working/collision_report.md")
     else:
         lines.append("**Result:** No collisions. Name-only slugs are safe for all jurisdiction types.")
         print("\nRESULT: No collisions.")

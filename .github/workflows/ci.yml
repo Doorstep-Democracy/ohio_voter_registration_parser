@@ -22,15 +22,36 @@ jobs:
             node --check "$f"
           done
 
-  data-naming:
-    name: docs/data/city slug naming check
+  # Blocking: the full pytest suite except conformance/, on the Python the
+  # project requires (pyproject.toml requires-python), installed from uv.lock.
+  # A fresh checkout has no local/ (gitignored), so this job also proves the
+  # suite needs only committed files. Policy: tools/tests/README.md "CI".
+  python-tests:
+    name: Python test suite
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v6
         with:
-          python-version: '3.12'
-      - name: Install pytest
-        run: pip install pytest
-      - name: Run slug naming check
-        run: pytest tools/tests/test_data_slug_naming.py -q
+          python-version: '3.14'
+      - name: Install locked dependencies
+        run: uv sync --frozen
+      - name: Run tests (conformance excluded)
+        run: uv run pytest tools/tests --ignore=tools/tests/conformance -q
+
+  # Non-blocking: conformance/ is red by design until the DATA_DIR path
+  # consolidation lands (tools/tests/conformance/README.md). It runs so its
+  # failure count stays visible on every PR, but it never fails the build.
+  conformance:
+    name: Conformance (non-blocking, red by design)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.14'
+      - name: Install locked dependencies
+        run: uv sync --frozen
+      - name: Run conformance tests
+        run: uv run pytest tools/tests/conformance -q

@@ -22,3 +22,8 @@ dependencies = [
     "requests>=2.31",       # SOS voter-file download; used by pipeline/ohio_voter_pipeline.py
     "xlsxwriter>=3.1.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
