@@ -3,7 +3,7 @@
    - URL state with GA-style event emission
    - Data fetching (manifest + per-jurisdiction chartConfigs)
    - Hierarchy tree (Geography ↔ Districts toggle)
-   - Hero: big number + 7-cohort spark ribbon + doughnut
+   - Hero: big number + cohort spark ribbon + doughnut
    - Chart cards via Chart.js (reused chartConfig from data files)
    - Hex map of 88 counties, color by party lean
    - Compare mode (two jurisdictions side-by-side)
@@ -16,6 +16,18 @@
   // ── Canonical cohort colors (must match data files) ────────
   const COHORT_COLORS = ['#ef4444', '#fca5a5', '#f59e0b', '#a78bfa', '#9ca3af', '#93c5fd', '#3b82f6'];
   const COHORT_LABELS = ['Pure R', 'UNC – Lapsed R', 'Mixed – Active', 'Mixed – Lapsed', 'UNC – No Primary', 'UNC – Lapsed D', 'Pure D'];
+  // Cohort label -> partisan side. Mirrors COHORT_SIDE in pipeline/cohort_lean.py;
+  // tools/tests/test_cohort_lean.py pins the two (and COHORT_SLICES) together.
+  const COHORT_SIDE = {
+    'Pure R':                    'R',
+    'UNC – Lapsed R':            'R',
+    'Mixed – Active':            'UNC',
+    'Mixed – Lapsed':            'UNC',
+    'UNC – Non-partisan Ballot': 'UNC',
+    'UNC – No Primary':          'UNC',
+    'UNC – Lapsed D':            'D',
+    'Pure D':                    'D',
+  };
   // Party-lean buckets and the shape/projection helpers live in
   // assets/geo-map.js (window.GeoMap), shared with the landing map.
   // This file previously carried a second copy that had to be hand-synced.
@@ -469,14 +481,38 @@
     return _mapGen;
   }
 
+  // Sum a party-affiliation chart into {r, unc, d, total} by cohort label, never by
+  // array position (the cohort order changed once and position-based sums silently
+  // went wrong). Returns null, and logs, unless the chart carries exactly the
+  // canonical cohort labels; callers render a dash rather than a wrong number.
+  function cohortSides(chartConfig) {
+    if (!chartConfig || !chartConfig.labels || !chartConfig.datasets) return null;
+    const labels = chartConfig.labels.map(l => String(l).split(' \u2014 ')[0].trim());
+    const data = chartConfig.datasets[0].data;
+    const expected = Object.keys(COHORT_SIDE);
+    const seen = new Set(labels);
+    if (labels.length !== expected.length || seen.size !== expected.length ||
+        !expected.every(k => seen.has(k))) {
+      console.error('cohortSides: unexpected cohort labels', labels);
+      return null;
+    }
+    const out = { r: 0, unc: 0, d: 0, total: 0 };
+    labels.forEach((l, i) => {
+      const v = Number(data[i] || 0);
+      const side = COHORT_SIDE[l];
+      if (side === 'R') out.r += v;
+      else if (side === 'D') out.d += v;
+      else out.unc += v;
+      out.total += v;
+    });
+    return out;
+  }
+
   function partyLean(partyData) {
     if (!partyData || !partyData.chartConfig) return null;
-    const d = partyData.chartConfig.datasets[0].data;
-    // 7-cohort: [Pure R, Lapsed R, Mixed-A, Mixed-L, No-Primary, Lapsed D, Pure D]
-    const r = (d[0] || 0) + (d[1] || 0);
-    const dd = (d[5] || 0) + (d[6] || 0);
-    const total = d.reduce((a, b) => a + Number(b || 0), 0) || 1;
-    return (dd - r) / total;
+    const s = cohortSides(partyData.chartConfig);
+    if (!s || !s.total) return null;
+    return (s.d - s.r) / s.total;
   }
   const leanColor = GeoMap.leanColor;
 
@@ -603,8 +639,8 @@
   // reads properties.lean straight out of the geojson we are already
   // fetching: measured 2026-07-22 across all 88 counties, the two agree to
   // within 5e-05 (pure 4dp rounding in build_state_map.py), because
-  // partyLean() here and party_lean() there implement the identical 7-cohort
-  // formula. Using the embedded value avoids a second network round trip.
+  // partyLean() here and party_lean() there both read cohorts by label through
+  // the same COHORT_SIDE table (pipeline/cohort_lean.py). Using the embedded value avoids a second network round trip.
   function renderDistrictMap(dtype, selectedId, compareIds, leans, gen) {
     const root = $('map');
     if (!root) return;
@@ -803,10 +839,11 @@
     const name = bag.displayName || bag.id;
     const totalFmt = bag.total != null ? bag.total.toLocaleString() : '—';
     let leanText = '', leanBars = '';
-    if (bag.party && bag.party.chartConfig) {
-      const data = bag.party.chartConfig.datasets[0].data;
+    const sides = (bag.party && bag.party.chartConfig) ? cohortSides(bag.party.chartConfig) : null;
+    if (bag.party && bag.party.chartConfig && !sides) leanText = '\u2014';
+    if (sides) {
       const total = bag.total || 1;
-      const r = data[0] + data[1], dd = data[5] + data[6], unc = data[2] + data[3] + data[4];
+      const r = sides.r, dd = sides.d, unc = sides.unc;
       const leanPct = ((dd - r) / total * 100);
       leanText = (leanPct > 0 ? '+' : '') + leanPct.toFixed(1) + '% D−R · UNC ' + (unc / total * 100).toFixed(0) + '%';
       const segR = (r / total * 100).toFixed(1);
@@ -1343,22 +1380,24 @@
         const data   = bag.party.chartConfig.datasets[0].data;
         const colors = bag.party.chartConfig.datasets[0].backgroundColor || COHORT_COLORS;
         const total  = data.reduce((a, b) => a + Number(b || 0), 0);
-        const r   = data[0] + data[1];
-        const unc = data[2] + data[3] + data[4];
-        const dd  = data[5] + data[6];
+        const sides = cohortSides(bag.party.chartConfig);
+        const r   = sides ? sides.r : 0;
+        const unc = sides ? sides.unc : 0;
+        const dd  = sides ? sides.d : 0;
+        const share = v => sides ? (v / total * 100).toFixed(1) + '%' : '\u2014';
         container.innerHTML =
           '<div class="hero-headline">' +
             '<div class="eyebrow">Total registered voters</div>' +
             '<div class="hero-number">' + total.toLocaleString() + '</div>' +
             '<div class="hero-subtitle">' +
               esc(bag.displayName) + ' \u00b7 ' + esc(precinctCount) + ' precincts \u00b7 ' +
-              '<b>' + (r / total * 100).toFixed(1) + '%</b> Republican-leaning, ' +
-              '<b>' + (unc / total * 100).toFixed(1) + '%</b> unaffiliated, ' +
-              '<b>' + (dd / total * 100).toFixed(1) + '%</b> Democratic-leaning' +
+              '<b>' + share(r) + '</b> Republican-leaning, ' +
+              '<b>' + share(unc) + '</b> unaffiliated, ' +
+              '<b>' + share(dd) + '</b> Democratic-leaning' +
             '</div>' +
           '</div>' +
           '<div class="hero-ribbon-wrap">' +
-            '<div class="hero-ribbon-label"><span>7-cohort partisan spectrum</span></div>' +
+            '<div class="hero-ribbon-label"><span>Partisan spectrum</span></div>' +
             '<div class="hero-ribbon">' + labels.map((l, i) => {
               const pct = (data[i] / total * 100).toFixed(2);
               return '<div class="hero-ribbon-seg" style="width:' + pct + '%;background:' + esc(colors[i]) + '" title="' + l + ': ' + data[i].toLocaleString() + ' (' + pct + '%)"></div>';
@@ -1393,9 +1432,11 @@
     const data = bag.party.chartConfig.datasets[0].data;
     const colors = bag.party.chartConfig.datasets[0].backgroundColor || COHORT_COLORS;
     const total = bag.total || data.reduce((a, b) => a + Number(b || 0), 0);
-    const r = data[0] + data[1];
-    const unc = data[2] + data[3] + data[4];
-    const dd = data[5] + data[6];
+    const sides = cohortSides(bag.party.chartConfig);
+    const r = sides ? sides.r : 0;
+    const unc = sides ? sides.unc : 0;
+    const dd = sides ? sides.d : 0;
+    const share = v => sides ? (v / total * 100).toFixed(1) + '%' : '\u2014';
 
     container.innerHTML = '' +
       '<div class="hero-headline">' +
@@ -1403,13 +1444,13 @@
         '<div class="hero-number">' + total.toLocaleString() + '</div>' +
         '<div class="hero-subtitle">' +
           esc(bag.displayName) + ' · ' +
-          '<b>' + (r / total * 100).toFixed(1) + '%</b> Republican-leaning, ' +
-          '<b>' + (unc / total * 100).toFixed(1) + '%</b> unaffiliated, ' +
-          '<b>' + (dd / total * 100).toFixed(1) + '%</b> Democratic-leaning' +
+          '<b>' + share(r) + '</b> Republican-leaning, ' +
+          '<b>' + share(unc) + '</b> unaffiliated, ' +
+          '<b>' + share(dd) + '</b> Democratic-leaning' +
         '</div>' +
       '</div>' +
       '<div class="hero-ribbon-wrap">' +
-        '<div class="hero-ribbon-label"><span>7-cohort partisan spectrum</span><span class="mono">' + esc(bag.party.updated || '') + '</span></div>' +
+        '<div class="hero-ribbon-label"><span>Partisan spectrum</span><span class="mono">' + esc(bag.party.updated || '') + '</span></div>' +
         '<div class="hero-ribbon">' + labels.map((l, i) => {
           const pct = (data[i] / total * 100).toFixed(2);
           return '<div class="hero-ribbon-seg" style="width:' + pct + '%;background:' + esc(colors[i]) + '" title="' + l + ': ' + data[i].toLocaleString() + ' (' + pct + '%)"></div>';
@@ -1635,7 +1676,7 @@
       '<div class="hero" id="hero"></div>' +
       '<div class="narrative-card" id="narrative-card" style="display:none"></div>' +
       '<div class="charts-grid">' +
-        chartCardHTML('chart-party',         'Party Affiliation', '7-cohort partisan spectrum') +
+        chartCardHTML('chart-party',         'Party Affiliation', 'Partisan spectrum') +
         chartCardHTML('chart-decade',        'Voter Age by Birth Decade') +
         chartCardHTML('chart-party-decade',  'Party × Birth Decade') +
         chartCardHTML('chart-gen',           'Generation Distribution') +
@@ -1674,10 +1715,10 @@
         '<div class="hero" id="hero-b"></div>' +
       '</section>' +
       '<section class="compare-pane" data-slot="a">' +
-        chartCardHTML('chart-party-a',        'Party · ' + a, '7-cohort spectrum') +
+        chartCardHTML('chart-party-a',        'Party · ' + a, 'Partisan spectrum') +
       '</section>' +
       '<section class="compare-pane" data-slot="b">' +
-        chartCardHTML('chart-party-b',        'Party · ' + b, '7-cohort spectrum') +
+        chartCardHTML('chart-party-b',        'Party · ' + b, 'Partisan spectrum') +
       '</section>' +
       '<section class="compare-pane" data-slot="a">' +
         chartCardHTML('chart-decade-a',       'Age · ' + a) +

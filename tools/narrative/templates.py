@@ -14,6 +14,8 @@ import hashlib
 import json
 from typing import Optional
 
+from pipeline.cohort_lean import cohort_sides
+
 TEMPLATE_VERSION = 'v2'
 PER_LEVEL_CONFIG_VERSION = 'v1'
 
@@ -140,14 +142,15 @@ def build_metrics_for_level(level, party_json, decade_json=None,
     if cfg is None:
         raise ValueError(f'Unknown level: {level!r}')
 
-    data = party_json['chartConfig']['datasets'][0]['data']
-    total = sum(data)
+    sides = cohort_sides(party_json['chartConfig'],
+                         party_json.get('title') or f'{level} party chart')
+    total = sides['total']
     if total == 0:
         return None
 
-    r_lean = data[0] + data[1]
-    d_lean = data[5] + data[6]
-    unc = data[2] + data[3] + data[4]
+    r_lean = sides['r']
+    d_lean = sides['d']
+    unc = sides['unc']
 
     name = (party_json.get('jurisdiction_name')
             or party_json.get('precinct')
@@ -162,8 +165,8 @@ def build_metrics_for_level(level, party_json, decade_json=None,
             'r_lean_pct': round(r_lean / total * 100, 1),
             'd_lean_pct': round(d_lean / total * 100, 1),
             'unc_pct':    round(unc    / total * 100, 1),
-            'pure_r_pct': round(data[0] / total * 100, 1),
-            'pure_d_pct': round(data[6] / total * 100, 1),
+            'pure_r_pct': round(sides['pure_r'] / total * 100, 1),
+            'pure_d_pct': round(sides['pure_d'] / total * 100, 1),
             'net_lean':   round((d_lean - r_lean) / total * 100, 1),
         },
         'small_n': total < cfg['small_n_threshold'],
