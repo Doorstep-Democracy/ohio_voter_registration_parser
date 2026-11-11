@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 355 (7%)",
-      "UNC – Lapsed R — 323 (6%)",
-      "Mixed – Active — 634 (12%)",
-      "Mixed – Lapsed — 441 (8%)",
-      "UNC – No Primary — 1,878 (36%)",
-      "UNC – Lapsed D — 982 (19%)",
-      "Pure D — 578 (11%)"
+      "Pure R — 328 (6%)",
+      "UNC – Lapsed R — 354 (7%)",
+      "Mixed – Active — 621 (12%)",
+      "Mixed – Lapsed — 304 (6%)",
+      "UNC – Non-partisan Ballot — 146 (3%)",
+      "UNC – No Primary — 1,894 (37%)",
+      "UNC – Lapsed D — 974 (19%)",
+      "Pure D — 563 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          355,
-          323,
-          634,
-          441,
-          1878,
-          982,
-          578
+          328,
+          354,
+          621,
+          304,
+          146,
+          1894,
+          974,
+          563
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WEATHERSF TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

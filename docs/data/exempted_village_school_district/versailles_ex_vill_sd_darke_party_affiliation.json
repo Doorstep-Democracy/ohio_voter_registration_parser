@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,020 (23%)",
-      "UNC – Lapsed R — 884 (20%)",
-      "Mixed – Active — 582 (13%)",
-      "Mixed – Lapsed — 354 (8%)",
-      "UNC – No Primary — 1,327 (30%)",
-      "UNC – Lapsed D — 181 (4%)",
-      "Pure D — 91 (2%)"
+      "Pure R — 1,016 (23%)",
+      "UNC – Lapsed R — 887 (20%)",
+      "Mixed – Active — 571 (13%)",
+      "Mixed – Lapsed — 271 (6%)",
+      "UNC – Non-partisan Ballot — 79 (2%)",
+      "UNC – No Primary — 1,365 (31%)",
+      "UNC – Lapsed D — 180 (4%)",
+      "Pure D — 90 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          1020,
-          884,
-          582,
-          354,
-          1327,
-          181,
-          91
+          1016,
+          887,
+          571,
+          271,
+          79,
+          1365,
+          180,
+          90
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "VERSAILLES EX VILL SD (DARKE)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Versailles Ex Vill Sd (Darke Co.)",
+  "updated": "2026-11-11"
 }

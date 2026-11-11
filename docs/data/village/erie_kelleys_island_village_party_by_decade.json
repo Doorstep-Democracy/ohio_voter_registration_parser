@@ -17,12 +17,12 @@
         "label": "Pure R",
         "data": [
           0,
-          7,
-          14,
+          3,
+          16,
           17,
-          4,
           2,
-          4,
+          3,
+          2,
           1
         ],
         "backgroundColor": "#ef4444",
@@ -32,12 +32,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
+          9,
+          12,
+          21,
+          9,
           5,
-          14,
-          16,
-          5,
-          5,
-          4,
+          6,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -47,8 +47,8 @@
         "label": "Mixed – Active",
         "data": [
           3,
-          12,
-          15,
+          11,
+          13,
           11,
           3,
           0,
@@ -61,16 +61,31 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          2,
           3,
+          12,
+          12,
+          8,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          2,
+          4,
           5,
-          13,
-          15,
-          9,
+          0,
           2,
           1,
           0
         ],
-        "backgroundColor": "#a78bfa",
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,10 +93,10 @@
         "data": [
           2,
           2,
-          18,
-          11,
-          10,
-          14,
+          16,
+          9,
+          9,
+          12,
           12,
           7
         ],
@@ -91,14 +106,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          6,
-          15,
+          0,
+          5,
+          18,
+          13,
           10,
-          8,
           2,
           2,
-          1
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -107,21 +122,21 @@
         "label": "Pure D",
         "data": [
           2,
-          4,
-          19,
-          2,
-          4,
-          1,
-          2,
-          1
+          5,
+          17,
+          3,
+          5,
+          3,
+          3,
+          0
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "KELLEYS ISLAND VILLAGE (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

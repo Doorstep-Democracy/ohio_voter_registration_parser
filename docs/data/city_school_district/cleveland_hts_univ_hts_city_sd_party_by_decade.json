@@ -19,15 +19,15 @@
         "label": "Pure R",
         "data": [
           0,
-          6,
-          32,
-          132,
-          177,
-          188,
-          98,
-          83,
-          81,
-          30
+          3,
+          25,
+          116,
+          164,
+          152,
+          80,
+          61,
+          63,
+          34
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -36,15 +36,15 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          5,
+          6,
           33,
-          71,
-          119,
-          201,
-          195,
-          206,
-          252,
-          30
+          75,
+          115,
+          222,
+          213,
+          228,
+          256,
+          36
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -53,15 +53,15 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          4,
-          72,
-          447,
-          745,
-          543,
-          344,
-          360,
-          128,
-          7
+          2,
+          55,
+          397,
+          708,
+          473,
+          281,
+          278,
+          127,
+          14
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -71,31 +71,48 @@
         "data": [
           0,
           5,
-          60,
-          149,
-          327,
-          379,
-          403,
-          481,
-          405,
-          153
+          54,
+          143,
+          249,
+          310,
+          258,
+          241,
+          99,
+          6
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          7,
+          26,
+          75,
+          97,
+          142,
+          204,
+          164,
+          40
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          10,
-          65,
-          271,
+          9,
+          59,
+          268,
           773,
-          1166,
-          1596,
-          3216,
-          6131,
-          4008
+          1156,
+          1613,
+          3252,
+          6243,
+          4532
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -104,15 +121,15 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          33,
-          142,
-          499,
-          1066,
-          1270,
-          1500,
-          1823,
-          1557,
-          269
+          27,
+          156,
+          534,
+          1068,
+          1227,
+          1522,
+          2052,
+          1746,
+          361
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -121,23 +138,23 @@
         "label": "Pure D",
         "data": [
           0,
-          13,
-          314,
-          1484,
-          2289,
-          1496,
-          1183,
-          1472,
-          1114,
-          340
+          9,
+          264,
+          1414,
+          2287,
+          1593,
+          1242,
+          1391,
+          1197,
+          498
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "CLEVELAND HTS-UNIV HTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,231",
-      "Mixed – Active — 686",
-      "Mixed – Lapsed — 483",
-      "UNC – No Primary — 4,437",
-      "UNC – Lapsed D — 550"
+      "UNC – Lapsed R — 1,670",
+      "Mixed – Active — 614",
+      "Mixed – Lapsed — 382",
+      "UNC – Non-partisan Ballot — 190",
+      "UNC – No Primary — 4,384",
+      "UNC – Lapsed D — 526"
     ],
     "datasets": [
       {
         "data": [
-          1231,
-          686,
-          483,
-          4437,
-          550
+          1670,
+          614,
+          382,
+          190,
+          4384,
+          526
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DUCHOUQUET TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 823",
-      "Mixed – Active — 604",
-      "Mixed – Lapsed — 801",
-      "UNC – No Primary — 2,244",
-      "UNC – Lapsed D — 890"
+      "UNC – Lapsed R — 886",
+      "Mixed – Active — 649",
+      "Mixed – Lapsed — 405",
+      "UNC – Non-partisan Ballot — 382",
+      "UNC – No Primary — 2,291",
+      "UNC – Lapsed D — 798"
     ],
     "datasets": [
       {
         "data": [
-          823,
-          604,
-          801,
-          2244,
-          890
+          886,
+          649,
+          405,
+          382,
+          2291,
+          798
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "COLUMBIA TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

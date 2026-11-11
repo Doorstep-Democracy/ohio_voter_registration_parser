@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 517",
-      "Mixed – Active — 289",
-      "Mixed – Lapsed — 230",
-      "UNC – No Primary — 1,038",
-      "UNC – Lapsed D — 282"
+      "UNC – Lapsed R — 549",
+      "Mixed – Active — 304",
+      "Mixed – Lapsed — 142",
+      "UNC – Non-partisan Ballot — 83",
+      "UNC – No Primary — 1,007",
+      "UNC – Lapsed D — 261"
     ],
     "datasets": [
       {
         "data": [
-          517,
-          289,
-          230,
-          1038,
-          282
+          549,
+          304,
+          142,
+          83,
+          1007,
+          261
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SCIOTO TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

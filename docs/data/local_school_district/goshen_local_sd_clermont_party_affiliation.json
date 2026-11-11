@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,460 (22%)",
-      "UNC – Lapsed R — 1,259 (11%)",
-      "Mixed – Active — 684 (6%)",
-      "Mixed – Lapsed — 640 (6%)",
-      "UNC – No Primary — 4,903 (44%)",
-      "UNC – Lapsed D — 650 (6%)",
-      "Pure D — 457 (4%)"
+      "Pure R — 2,441 (22%)",
+      "UNC – Lapsed R — 1,294 (12%)",
+      "Mixed – Active — 674 (6%)",
+      "Mixed – Lapsed — 258 (2%)",
+      "UNC – Non-partisan Ballot — 389 (3%)",
+      "UNC – No Primary — 5,047 (45%)",
+      "UNC – Lapsed D — 664 (6%)",
+      "Pure D — 452 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          2460,
-          1259,
-          684,
-          640,
-          4903,
-          650,
-          457
+          2441,
+          1294,
+          674,
+          258,
+          389,
+          5047,
+          664,
+          452
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Goshen Local Sd (Clermont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

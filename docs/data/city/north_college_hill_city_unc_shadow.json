@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 280",
-      "Mixed – Active — 185",
-      "Mixed – Lapsed — 300",
-      "UNC – No Primary — 3,622",
-      "UNC – Lapsed D — 1,423"
+      "UNC – Lapsed R — 261",
+      "Mixed – Active — 206",
+      "Mixed – Lapsed — 151",
+      "UNC – Non-partisan Ballot — 131",
+      "UNC – No Primary — 3,712",
+      "UNC – Lapsed D — 1,192"
     ],
     "datasets": [
       {
         "data": [
-          280,
-          185,
-          300,
-          3622,
-          1423
+          261,
+          206,
+          151,
+          131,
+          3712,
+          1192
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NORTH COLLEGE HILL CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

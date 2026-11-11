@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,414",
-      "Mixed – Active — 966",
-      "Mixed – Lapsed — 1,015",
-      "UNC – No Primary — 5,189",
-      "UNC – Lapsed D — 2,057"
+      "UNC – Lapsed R — 1,530",
+      "Mixed – Active — 959",
+      "Mixed – Lapsed — 660",
+      "UNC – Non-partisan Ballot — 398",
+      "UNC – No Primary — 5,188",
+      "UNC – Lapsed D — 1,971"
     ],
     "datasets": [
       {
         "data": [
-          1414,
-          966,
-          1015,
-          5189,
-          2057
+          1530,
+          959,
+          660,
+          398,
+          5188,
+          1971
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "COPLEY TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

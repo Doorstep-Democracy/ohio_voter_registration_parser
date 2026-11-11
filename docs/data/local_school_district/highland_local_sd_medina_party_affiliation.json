@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,772 (17%)",
-      "UNC – Lapsed R — 2,866 (18%)",
-      "Mixed – Active — 1,335 (8%)",
-      "Mixed – Lapsed — 2,109 (13%)",
-      "UNC – No Primary — 4,850 (30%)",
-      "UNC – Lapsed D — 1,374 (8%)",
-      "Pure D — 1,029 (6%)"
+      "Pure R — 2,756 (17%)",
+      "UNC – Lapsed R — 2,904 (18%)",
+      "Mixed – Active — 1,328 (8%)",
+      "Mixed – Lapsed — 766 (5%)",
+      "UNC – Non-partisan Ballot — 1,359 (8%)",
+      "UNC – No Primary — 4,998 (30%)",
+      "UNC – Lapsed D — 1,381 (8%)",
+      "Pure D — 1,016 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2772,
-          2866,
-          1335,
-          2109,
-          4850,
-          1374,
-          1029
+          2756,
+          2904,
+          1328,
+          766,
+          1359,
+          4998,
+          1381,
+          1016
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Highland Local Sd (Medina Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

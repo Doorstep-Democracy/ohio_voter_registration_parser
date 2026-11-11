@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 286 (23%)",
-      "UNC – Lapsed R — 128 (10%)",
-      "Mixed – Active — 116 (9%)",
-      "Mixed – Lapsed — 97 (8%)",
-      "UNC – No Primary — 469 (38%)",
+      "Pure R — 287 (23%)",
+      "UNC – Lapsed R — 130 (10%)",
+      "Mixed – Active — 113 (9%)",
+      "Mixed – Lapsed — 42 (3%)",
+      "UNC – Non-partisan Ballot — 51 (4%)",
+      "UNC – No Primary — 490 (39%)",
       "UNC – Lapsed D — 87 (7%)",
       "Pure D — 55 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          286,
-          128,
-          116,
-          97,
-          469,
+          287,
+          130,
+          113,
+          42,
+          51,
+          490,
           87,
           55
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ST. PARIS VILLAGE (Champaign Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,354",
-      "Mixed – Active — 569",
-      "Mixed – Lapsed — 668",
-      "UNC – No Primary — 2,629",
-      "UNC – Lapsed D — 536"
+      "UNC – Lapsed R — 1,349",
+      "Mixed – Active — 556",
+      "Mixed – Lapsed — 392",
+      "UNC – Non-partisan Ballot — 272",
+      "UNC – No Primary — 2,692",
+      "UNC – Lapsed D — 538"
     ],
     "datasets": [
       {
         "data": [
-          1354,
-          569,
-          668,
-          2629,
-          536
+          1349,
+          556,
+          392,
+          272,
+          2692,
+          538
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Triway Local Sd (Wayne Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 93",
-      "Mixed – Active — 95",
-      "Mixed – Lapsed — 62",
-      "UNC – No Primary — 464",
-      "UNC – Lapsed D — 106"
+      "UNC – Lapsed R — 112",
+      "Mixed – Active — 101",
+      "Mixed – Lapsed — 43",
+      "UNC – Non-partisan Ballot — 24",
+      "UNC – No Primary — 456",
+      "UNC – Lapsed D — 107"
     ],
     "datasets": [
       {
         "data": [
-          93,
-          95,
-          62,
-          464,
-          106
+          112,
+          101,
+          43,
+          24,
+          456,
+          107
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PAXTON TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

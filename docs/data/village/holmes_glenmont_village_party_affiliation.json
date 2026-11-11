@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 21 (15%)",
-      "UNC – Lapsed R — 18 (13%)",
-      "Mixed – Active — 12 (9%)",
-      "Mixed – Lapsed — 9 (7%)",
-      "UNC – No Primary — 64 (47%)",
-      "UNC – Lapsed D — 11 (8%)",
-      "Pure D — 2 (1%)"
+      "UNC – Lapsed R — 19 (14%)",
+      "Mixed – Active — 13 (10%)",
+      "Mixed – Lapsed — 1 (1%)",
+      "UNC – Non-partisan Ballot — 5 (4%)",
+      "UNC – No Primary — 63 (46%)",
+      "UNC – Lapsed D — 9 (7%)",
+      "Pure D — 5 (4%)"
     ],
     "datasets": [
       {
         "data": [
           21,
-          18,
-          12,
+          19,
+          13,
+          1,
+          5,
+          63,
           9,
-          64,
-          11,
-          2
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GLENMONT VILLAGE (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

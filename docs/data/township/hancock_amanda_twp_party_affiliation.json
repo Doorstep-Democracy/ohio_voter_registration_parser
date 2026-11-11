@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 277 (38%)",
-      "UNC – Lapsed R — 96 (13%)",
-      "Mixed – Active — 52 (7%)",
-      "Mixed – Lapsed — 46 (6%)",
-      "UNC – No Primary — 204 (28%)",
-      "UNC – Lapsed D — 29 (4%)",
-      "Pure D — 19 (3%)"
+      "Pure R — 270 (38%)",
+      "UNC – Lapsed R — 104 (14%)",
+      "Mixed – Active — 51 (7%)",
+      "Mixed – Lapsed — 21 (3%)",
+      "UNC – Non-partisan Ballot — 23 (3%)",
+      "UNC – No Primary — 200 (28%)",
+      "UNC – Lapsed D — 33 (5%)",
+      "Pure D — 18 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          277,
-          96,
-          52,
-          46,
-          204,
-          29,
-          19
+          270,
+          104,
+          51,
+          21,
+          23,
+          200,
+          33,
+          18
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "AMANDA TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

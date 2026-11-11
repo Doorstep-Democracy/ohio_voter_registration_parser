@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 350 (14%)",
-      "UNC – Lapsed R — 452 (18%)",
-      "Mixed – Active — 161 (6%)",
-      "Mixed – Lapsed — 212 (8%)",
-      "UNC – No Primary — 1,039 (41%)",
+      "Pure R — 348 (14%)",
+      "UNC – Lapsed R — 456 (18%)",
+      "Mixed – Active — 159 (6%)",
+      "Mixed – Lapsed — 128 (5%)",
+      "UNC – Non-partisan Ballot — 78 (3%)",
+      "UNC – No Primary — 1,065 (42%)",
       "UNC – Lapsed D — 240 (9%)",
       "Pure D — 82 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          350,
-          452,
-          161,
-          212,
-          1039,
+          348,
+          456,
+          159,
+          128,
+          78,
+          1065,
           240,
           82
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Antwerp Local Sd (Paulding Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,898 (20%)",
-      "UNC – Lapsed R — 2,048 (14%)",
-      "Mixed – Active — 1,377 (9%)",
-      "Mixed – Lapsed — 1,677 (11%)",
-      "UNC – No Primary — 4,548 (31%)",
-      "UNC – Lapsed D — 1,357 (9%)",
-      "Pure D — 886 (6%)"
+      "Pure R — 2,882 (19%)",
+      "UNC – Lapsed R — 2,057 (14%)",
+      "Mixed – Active — 1,364 (9%)",
+      "Mixed – Lapsed — 651 (4%)",
+      "UNC – Non-partisan Ballot — 1,034 (7%)",
+      "UNC – No Primary — 4,649 (31%)",
+      "UNC – Lapsed D — 1,364 (9%)",
+      "Pure D — 878 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2898,
-          2048,
-          1377,
-          1677,
-          4548,
-          1357,
-          886
+          2882,
+          2057,
+          1364,
+          651,
+          1034,
+          4649,
+          1364,
+          878
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Cloverleaf Local Sd (Medina Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

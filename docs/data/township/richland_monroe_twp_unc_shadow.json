@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 190",
-      "Mixed – Active — 194",
-      "Mixed – Lapsed — 143",
-      "UNC – No Primary — 557",
-      "UNC – Lapsed D — 92"
+      "UNC – Lapsed R — 312",
+      "Mixed – Active — 165",
+      "Mixed – Lapsed — 75",
+      "UNC – Non-partisan Ballot — 94",
+      "UNC – No Primary — 543",
+      "UNC – Lapsed D — 91"
     ],
     "datasets": [
       {
         "data": [
-          190,
-          194,
-          143,
-          557,
-          92
+          312,
+          165,
+          75,
+          94,
+          543,
+          91
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MONROE TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

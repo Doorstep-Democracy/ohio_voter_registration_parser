@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 289 (26%)",
-      "UNC – Lapsed R — 160 (14%)",
-      "Mixed – Active — 124 (11%)",
-      "Mixed – Lapsed — 59 (5%)",
-      "UNC – No Primary — 386 (34%)",
-      "UNC – Lapsed D — 80 (7%)",
-      "Pure D — 25 (2%)"
+      "Pure R — 237 (21%)",
+      "UNC – Lapsed R — 224 (20%)",
+      "Mixed – Active — 126 (11%)",
+      "Mixed – Lapsed — 48 (4%)",
+      "UNC – Non-partisan Ballot — 14 (1%)",
+      "UNC – No Primary — 381 (34%)",
+      "UNC – Lapsed D — 74 (7%)",
+      "Pure D — 24 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          289,
-          160,
-          124,
-          59,
-          386,
-          80,
-          25
+          237,
+          224,
+          126,
+          48,
+          14,
+          381,
+          74,
+          24
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SCIPIO TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

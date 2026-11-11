@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 322 (23%)",
-      "UNC – Lapsed R — 197 (14%)",
-      "Mixed – Active — 139 (10%)",
-      "Mixed – Lapsed — 155 (11%)",
-      "UNC – No Primary — 469 (33%)",
-      "UNC – Lapsed D — 86 (6%)",
-      "Pure D — 43 (3%)"
+      "Pure R — 320 (23%)",
+      "UNC – Lapsed R — 216 (15%)",
+      "Mixed – Active — 140 (10%)",
+      "Mixed – Lapsed — 56 (4%)",
+      "UNC – Non-partisan Ballot — 91 (7%)",
+      "UNC – No Primary — 453 (32%)",
+      "UNC – Lapsed D — 63 (5%)",
+      "Pure D — 59 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          322,
-          197,
-          139,
-          155,
-          469,
-          86,
-          43
+          320,
+          216,
+          140,
+          56,
+          91,
+          453,
+          63,
+          59
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HUNTSBURG TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 32 (10%)",
-      "UNC – Lapsed R — 25 (8%)",
-      "Mixed – Active — 20 (7%)",
-      "Mixed – Lapsed — 40 (13%)",
-      "UNC – No Primary — 141 (46%)",
-      "UNC – Lapsed D — 38 (12%)",
-      "Pure D — 9 (3%)"
+      "Pure R — 30 (10%)",
+      "UNC – Lapsed R — 28 (9%)",
+      "Mixed – Active — 23 (8%)",
+      "Mixed – Lapsed — 9 (3%)",
+      "UNC – Non-partisan Ballot — 28 (9%)",
+      "UNC – No Primary — 138 (46%)",
+      "UNC – Lapsed D — 27 (9%)",
+      "Pure D — 16 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          32,
-          25,
-          20,
-          40,
-          141,
-          38,
-          9
+          30,
+          28,
+          23,
+          9,
+          28,
+          138,
+          27,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PORT WASHINGTON VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

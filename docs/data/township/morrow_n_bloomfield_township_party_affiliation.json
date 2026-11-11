@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 297 (22%)",
-      "UNC – Lapsed R — 228 (17%)",
-      "Mixed – Active — 97 (7%)",
-      "Mixed – Lapsed — 86 (6%)",
-      "UNC – No Primary — 472 (35%)",
-      "UNC – Lapsed D — 104 (8%)",
-      "Pure D — 55 (4%)"
+      "Pure R — 293 (22%)",
+      "UNC – Lapsed R — 224 (17%)",
+      "Mixed – Active — 95 (7%)",
+      "Mixed – Lapsed — 40 (3%)",
+      "UNC – Non-partisan Ballot — 46 (3%)",
+      "UNC – No Primary — 468 (35%)",
+      "UNC – Lapsed D — 103 (8%)",
+      "Pure D — 53 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          297,
-          228,
-          97,
-          86,
-          472,
-          104,
-          55
+          293,
+          224,
+          95,
+          40,
+          46,
+          468,
+          103,
+          53
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "N. BLOOMFIELD TOWNSHIP (Morrow Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

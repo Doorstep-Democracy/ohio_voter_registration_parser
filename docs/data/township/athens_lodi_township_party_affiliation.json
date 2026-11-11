@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 142 (15%)",
-      "UNC – Lapsed R — 68 (7%)",
-      "Mixed – Active — 138 (14%)",
-      "Mixed – Lapsed — 66 (7%)",
-      "UNC – No Primary — 288 (30%)",
-      "UNC – Lapsed D — 119 (12%)",
-      "Pure D — 148 (15%)"
+      "Pure R — 140 (14%)",
+      "UNC – Lapsed R — 72 (7%)",
+      "Mixed – Active — 154 (16%)",
+      "Mixed – Lapsed — 41 (4%)",
+      "UNC – Non-partisan Ballot — 25 (3%)",
+      "UNC – No Primary — 299 (30%)",
+      "UNC – Lapsed D — 103 (10%)",
+      "Pure D — 157 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          142,
-          68,
-          138,
-          66,
-          288,
-          119,
-          148
+          140,
+          72,
+          154,
+          41,
+          25,
+          299,
+          103,
+          157
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LODI TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

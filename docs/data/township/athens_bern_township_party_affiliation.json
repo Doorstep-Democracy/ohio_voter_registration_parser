@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 31 (10%)",
-      "UNC – Lapsed R — 17 (5%)",
-      "Mixed – Active — 28 (9%)",
-      "Mixed – Lapsed — 17 (5%)",
-      "UNC – No Primary — 102 (33%)",
-      "UNC – Lapsed D — 68 (22%)",
-      "Pure D — 49 (16%)"
+      "Pure R — 26 (8%)",
+      "UNC – Lapsed R — 24 (8%)",
+      "Mixed – Active — 30 (9%)",
+      "Mixed – Lapsed — 14 (4%)",
+      "UNC – Non-partisan Ballot — 4 (1%)",
+      "UNC – No Primary — 110 (34%)",
+      "UNC – Lapsed D — 56 (18%)",
+      "Pure D — 55 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          31,
-          17,
-          28,
-          17,
-          102,
-          68,
-          49
+          26,
+          24,
+          30,
+          14,
+          4,
+          110,
+          56,
+          55
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BERN TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

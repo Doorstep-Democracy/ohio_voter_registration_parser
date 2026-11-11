@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 706 (18%)",
-      "UNC – Lapsed R — 571 (14%)",
-      "Mixed – Active — 271 (7%)",
-      "Mixed – Lapsed — 300 (8%)",
-      "UNC – No Primary — 1,543 (39%)",
-      "UNC – Lapsed D — 405 (10%)",
-      "Pure D — 173 (4%)"
+      "Pure R — 700 (18%)",
+      "UNC – Lapsed R — 570 (14%)",
+      "Mixed – Active — 267 (7%)",
+      "Mixed – Lapsed — 214 (5%)",
+      "UNC – Non-partisan Ballot — 81 (2%)",
+      "UNC – No Primary — 1,571 (40%)",
+      "UNC – Lapsed D — 403 (10%)",
+      "Pure D — 171 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          706,
-          571,
-          271,
-          300,
-          1543,
-          405,
-          173
+          700,
+          570,
+          267,
+          214,
+          81,
+          1571,
+          403,
+          171
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Elmwood Local Sd (Wood Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

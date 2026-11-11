@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 762",
-      "Mixed – Active — 409",
-      "Mixed – Lapsed — 306",
-      "UNC – No Primary — 1,674",
-      "UNC – Lapsed D — 304"
+      "UNC – Lapsed R — 766",
+      "Mixed – Active — 407",
+      "Mixed – Lapsed — 150",
+      "UNC – Non-partisan Ballot — 156",
+      "UNC – No Primary — 1,712",
+      "UNC – Lapsed D — 299"
     ],
     "datasets": [
       {
         "data": [
-          762,
-          409,
-          306,
-          1674,
-          304
+          766,
+          407,
+          150,
+          156,
+          1712,
+          299
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Fredericktown Local Sd (Knox Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

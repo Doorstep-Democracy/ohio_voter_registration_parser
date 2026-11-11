@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 252 (22%)",
-      "UNC – Lapsed R — 141 (12%)",
-      "Mixed – Active — 88 (8%)",
-      "Mixed – Lapsed — 66 (6%)",
-      "UNC – No Primary — 482 (42%)",
-      "UNC – Lapsed D — 79 (7%)",
-      "Pure D — 33 (3%)"
+      "Pure R — 225 (20%)",
+      "UNC – Lapsed R — 168 (15%)",
+      "Mixed – Active — 91 (8%)",
+      "Mixed – Lapsed — 43 (4%)",
+      "UNC – Non-partisan Ballot — 29 (3%)",
+      "UNC – No Primary — 474 (42%)",
+      "UNC – Lapsed D — 74 (7%)",
+      "Pure D — 32 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          252,
-          141,
-          88,
-          66,
-          482,
-          79,
-          33
+          225,
+          168,
+          91,
+          43,
+          29,
+          474,
+          74,
+          32
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CRIDERSVILLE VILLAGE (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

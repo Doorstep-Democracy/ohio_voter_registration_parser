@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 235 (12%)",
-      "UNC – Lapsed R — 224 (12%)",
-      "Mixed – Active — 118 (6%)",
-      "Mixed – Lapsed — 293 (15%)",
-      "UNC – No Primary — 737 (38%)",
-      "UNC – Lapsed D — 201 (10%)",
-      "Pure D — 108 (6%)"
+      "Pure R — 241 (12%)",
+      "UNC – Lapsed R — 230 (12%)",
+      "Mixed – Active — 116 (6%)",
+      "Mixed – Lapsed — 75 (4%)",
+      "UNC – Non-partisan Ballot — 222 (11%)",
+      "UNC – No Primary — 743 (38%)",
+      "UNC – Lapsed D — 192 (10%)",
+      "Pure D — 116 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          235,
-          224,
-          118,
-          293,
-          737,
-          201,
-          108
+          241,
+          230,
+          116,
+          75,
+          222,
+          743,
+          192,
+          116
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "OAK HARBOR VILLAGE (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

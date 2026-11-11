@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 229 (15%)",
-      "UNC – Lapsed R — 175 (11%)",
-      "Mixed – Active — 166 (11%)",
-      "Mixed – Lapsed — 135 (9%)",
-      "UNC – No Primary — 582 (38%)",
-      "UNC – Lapsed D — 176 (11%)",
-      "Pure D — 85 (5%)"
+      "Pure R — 254 (16%)",
+      "UNC – Lapsed R — 182 (11%)",
+      "Mixed – Active — 184 (12%)",
+      "Mixed – Lapsed — 85 (5%)",
+      "UNC – Non-partisan Ballot — 50 (3%)",
+      "UNC – No Primary — 559 (35%)",
+      "UNC – Lapsed D — 147 (9%)",
+      "Pure D — 131 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          229,
-          175,
-          166,
-          135,
-          582,
-          176,
-          85
+          254,
+          182,
+          184,
+          85,
+          50,
+          559,
+          147,
+          131
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PERRY VILLAGE (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

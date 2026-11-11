@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 388 (16%)",
+      "Pure R — 413 (17%)",
       "UNC – Lapsed R — 247 (10%)",
-      "Mixed – Active — 181 (8%)",
-      "Mixed – Lapsed — 158 (7%)",
-      "UNC – No Primary — 1,185 (49%)",
-      "UNC – Lapsed D — 195 (8%)",
-      "Pure D — 49 (2%)"
+      "Mixed – Active — 195 (8%)",
+      "Mixed – Lapsed — 99 (4%)",
+      "UNC – Non-partisan Ballot — 45 (2%)",
+      "UNC – No Primary — 1,167 (49%)",
+      "UNC – Lapsed D — 167 (7%)",
+      "Pure D — 71 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          388,
+          413,
           247,
-          181,
-          158,
-          1185,
           195,
-          49
+          99,
+          45,
+          1167,
+          167,
+          71
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MONTPELIER VILLAGE (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

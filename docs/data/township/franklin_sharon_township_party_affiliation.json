@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,428 (10%)",
-      "UNC – Lapsed R — 1,561 (11%)",
-      "Mixed – Active — 1,312 (9%)",
-      "Mixed – Lapsed — 1,233 (9%)",
-      "UNC – No Primary — 4,000 (29%)",
-      "UNC – Lapsed D — 2,311 (17%)",
-      "Pure D — 2,062 (15%)"
+      "Pure R — 1,173 (8%)",
+      "UNC – Lapsed R — 1,720 (12%)",
+      "Mixed – Active — 1,323 (9%)",
+      "Mixed – Lapsed — 855 (6%)",
+      "UNC – Non-partisan Ballot — 396 (3%)",
+      "UNC – No Primary — 3,857 (28%)",
+      "UNC – Lapsed D — 2,189 (16%)",
+      "Pure D — 2,473 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          1428,
-          1561,
-          1312,
-          1233,
-          4000,
-          2311,
-          2062
+          1173,
+          1720,
+          1323,
+          855,
+          396,
+          3857,
+          2189,
+          2473
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Sharon Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          14,
-          83,
-          170,
-          164,
-          89,
-          63,
+          12,
+          78,
+          174,
+          157,
+          78,
+          56,
           32,
-          35
+          29
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,13 +35,13 @@
         "data": [
           0,
           7,
-          45,
-          88,
-          120,
-          110,
-          108,
-          70,
-          5
+          42,
+          80,
+          124,
+          122,
+          114,
+          73,
+          15
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          9,
-          75,
-          158,
+          1,
+          7,
+          78,
+          154,
           84,
-          59,
-          32,
-          5,
-          1
+          58,
+          31,
+          7,
+          0
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,33 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          2,
+          8,
+          26,
+          52,
+          38,
+          49,
+          28,
           7,
-          29,
-          63,
-          72,
-          92,
-          57,
-          30,
-          2
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          6,
+          14,
+          34,
+          46,
+          28,
+          22,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           5,
-          34,
-          74,
-          151,
-          163,
-          261,
-          363,
-          319
+          32,
+          69,
+          148,
+          160,
+          260,
+          364,
+          324
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +113,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
+          1,
           12,
-          45,
-          87,
-          105,
-          101,
-          83,
-          37,
+          40,
+          74,
+          95,
+          90,
+          79,
+          36,
           5
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          7,
-          49,
-          73,
+          4,
+          51,
+          84,
+          39,
           26,
           18,
-          15,
-          8,
-          2
+          11,
+          15
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LAWRENCE TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

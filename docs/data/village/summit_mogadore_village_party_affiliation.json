@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 311 (17%)",
-      "UNC – Lapsed R — 124 (7%)",
-      "Mixed – Active — 215 (12%)",
-      "Mixed – Lapsed — 234 (13%)",
-      "UNC – No Primary — 495 (27%)",
-      "UNC – Lapsed D — 205 (11%)",
-      "Pure D — 259 (14%)"
+      "Pure R — 306 (16%)",
+      "UNC – Lapsed R — 137 (7%)",
+      "Mixed – Active — 201 (11%)",
+      "Mixed – Lapsed — 60 (3%)",
+      "UNC – Non-partisan Ballot — 176 (9%)",
+      "UNC – No Primary — 520 (28%)",
+      "UNC – Lapsed D — 195 (10%)",
+      "Pure D — 270 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          311,
-          124,
-          215,
-          234,
-          495,
-          205,
-          259
+          306,
+          137,
+          201,
+          60,
+          176,
+          520,
+          195,
+          270
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MOGADORE VILLAGE (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

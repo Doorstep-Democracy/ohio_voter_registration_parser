@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 195",
-      "Mixed – Active — 360",
-      "Mixed – Lapsed — 585",
-      "UNC – No Primary — 7,756",
-      "UNC – Lapsed D — 3,775"
+      "UNC – Lapsed R — 192",
+      "Mixed – Active — 359",
+      "Mixed – Lapsed — 224",
+      "UNC – Non-partisan Ballot — 341",
+      "UNC – No Primary — 8,070",
+      "UNC – Lapsed D — 3,783"
     ],
     "datasets": [
       {
         "data": [
-          195,
-          360,
-          585,
-          7756,
-          3775
+          192,
+          359,
+          224,
+          341,
+          8070,
+          3783
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MAPLE HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

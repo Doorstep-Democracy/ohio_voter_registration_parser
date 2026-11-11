@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 974 (32%)",
-      "UNC – Lapsed R — 289 (9%)",
-      "Mixed – Active — 337 (11%)",
-      "Mixed – Lapsed — 209 (7%)",
-      "UNC – No Primary — 866 (28%)",
-      "UNC – Lapsed D — 222 (7%)",
-      "Pure D — 188 (6%)"
+      "Pure R — 880 (29%)",
+      "UNC – Lapsed R — 397 (13%)",
+      "Mixed – Active — 300 (10%)",
+      "Mixed – Lapsed — 108 (4%)",
+      "UNC – Non-partisan Ballot — 133 (4%)",
+      "UNC – No Primary — 846 (27%)",
+      "UNC – Lapsed D — 229 (7%)",
+      "Pure D — 186 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          974,
-          289,
-          337,
-          209,
-          866,
-          222,
-          188
+          880,
+          397,
+          300,
+          108,
+          133,
+          846,
+          229,
+          186
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARLBORO (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

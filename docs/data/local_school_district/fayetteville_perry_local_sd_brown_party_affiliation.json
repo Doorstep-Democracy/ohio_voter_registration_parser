@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 645 (21%)",
-      "UNC – Lapsed R — 487 (16%)",
-      "Mixed – Active — 295 (9%)",
-      "Mixed – Lapsed — 218 (7%)",
-      "UNC – No Primary — 1,151 (37%)",
-      "UNC – Lapsed D — 216 (7%)",
+      "Pure R — 639 (20%)",
+      "UNC – Lapsed R — 489 (16%)",
+      "Mixed – Active — 291 (9%)",
+      "Mixed – Lapsed — 161 (5%)",
+      "UNC – Non-partisan Ballot — 60 (2%)",
+      "UNC – No Primary — 1,178 (38%)",
+      "UNC – Lapsed D — 218 (7%)",
       "Pure D — 103 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          645,
-          487,
-          295,
+          639,
+          489,
+          291,
+          161,
+          60,
+          1178,
           218,
-          1151,
-          216,
           103
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Fayetteville-Perry Local Sd (Brown Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

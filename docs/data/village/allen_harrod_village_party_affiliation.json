@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 50 (21%)",
-      "UNC – Lapsed R — 31 (13%)",
-      "Mixed – Active — 20 (8%)",
-      "Mixed – Lapsed — 18 (7%)",
-      "UNC – No Primary — 104 (43%)",
-      "UNC – Lapsed D — 15 (6%)",
-      "Pure D — 4 (2%)"
+      "Pure R — 45 (19%)",
+      "UNC – Lapsed R — 36 (15%)",
+      "Mixed – Active — 21 (9%)",
+      "Mixed – Lapsed — 2 (1%)",
+      "UNC – Non-partisan Ballot — 15 (6%)",
+      "UNC – No Primary — 100 (42%)",
+      "UNC – Lapsed D — 13 (5%)",
+      "Pure D — 5 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          50,
-          31,
-          20,
-          18,
-          104,
+          45,
+          36,
+          21,
+          2,
           15,
-          4
+          100,
+          13,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HARROD VILLAGE (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

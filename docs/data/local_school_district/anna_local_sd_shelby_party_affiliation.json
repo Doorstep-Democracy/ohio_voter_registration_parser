@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 914 (24%)",
-      "UNC – Lapsed R — 642 (17%)",
-      "Mixed – Active — 460 (12%)",
-      "Mixed – Lapsed — 238 (6%)",
-      "UNC – No Primary — 1,307 (34%)",
-      "UNC – Lapsed D — 187 (5%)",
-      "Pure D — 87 (2%)"
+      "Pure R — 908 (24%)",
+      "UNC – Lapsed R — 641 (17%)",
+      "Mixed – Active — 457 (12%)",
+      "Mixed – Lapsed — 173 (5%)",
+      "UNC – Non-partisan Ballot — 63 (2%)",
+      "UNC – No Primary — 1,327 (35%)",
+      "UNC – Lapsed D — 183 (5%)",
+      "Pure D — 85 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          914,
-          642,
-          460,
-          238,
-          1307,
-          187,
-          87
+          908,
+          641,
+          457,
+          173,
+          63,
+          1327,
+          183,
+          85
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Anna Local Sd (Shelby Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

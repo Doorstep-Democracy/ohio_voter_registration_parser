@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 487 (27%)",
-      "UNC – Lapsed R — 247 (14%)",
-      "Mixed – Active — 182 (10%)",
-      "Mixed – Lapsed — 138 (8%)",
-      "UNC – No Primary — 514 (29%)",
-      "UNC – Lapsed D — 121 (7%)",
-      "Pure D — 95 (5%)"
+      "Pure R — 468 (26%)",
+      "UNC – Lapsed R — 281 (16%)",
+      "Mixed – Active — 177 (10%)",
+      "Mixed – Lapsed — 81 (5%)",
+      "UNC – Non-partisan Ballot — 68 (4%)",
+      "UNC – No Primary — 480 (27%)",
+      "UNC – Lapsed D — 112 (6%)",
+      "Pure D — 111 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          487,
-          247,
-          182,
-          138,
-          514,
-          121,
-          95
+          468,
+          281,
+          177,
+          81,
+          68,
+          480,
+          112,
+          111
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PORTER TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

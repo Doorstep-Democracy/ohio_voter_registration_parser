@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,156",
-      "Mixed – Active — 860",
-      "Mixed – Lapsed — 620",
-      "UNC – No Primary — 3,467",
-      "UNC – Lapsed D — 668"
+      "UNC – Lapsed R — 1,063",
+      "Mixed – Active — 984",
+      "Mixed – Lapsed — 399",
+      "UNC – Non-partisan Ballot — 157",
+      "UNC – No Primary — 3,369",
+      "UNC – Lapsed D — 571"
     ],
     "datasets": [
       {
         "data": [
-          1156,
-          860,
-          620,
-          3467,
-          668
+          1063,
+          984,
+          399,
+          157,
+          3369,
+          571
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "BRYAN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

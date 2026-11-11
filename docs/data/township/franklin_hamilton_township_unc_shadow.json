@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 716",
-      "Mixed – Active — 347",
-      "Mixed – Lapsed — 601",
-      "UNC – No Primary — 3,972",
-      "UNC – Lapsed D — 868"
+      "UNC – Lapsed R — 774",
+      "Mixed – Active — 352",
+      "Mixed – Lapsed — 268",
+      "UNC – Non-partisan Ballot — 316",
+      "UNC – No Primary — 4,014",
+      "UNC – Lapsed D — 781"
     ],
     "datasets": [
       {
         "data": [
-          716,
-          347,
-          601,
-          3972,
-          868
+          774,
+          352,
+          268,
+          316,
+          4014,
+          781
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Hamilton Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

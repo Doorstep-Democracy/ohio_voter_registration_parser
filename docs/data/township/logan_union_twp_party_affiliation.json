@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 172 (30%)",
-      "UNC – Lapsed R — 121 (21%)",
-      "Mixed – Active — 42 (7%)",
-      "Mixed – Lapsed — 36 (6%)",
+      "Pure R — 157 (27%)",
+      "UNC – Lapsed R — 138 (24%)",
+      "Mixed – Active — 45 (8%)",
+      "Mixed – Lapsed — 18 (3%)",
+      "UNC – Non-partisan Ballot — 18 (3%)",
       "UNC – No Primary — 170 (29%)",
-      "UNC – Lapsed D — 34 (6%)",
-      "Pure D — 6 (1%)"
+      "UNC – Lapsed D — 31 (5%)",
+      "Pure D — 10 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          172,
-          121,
-          42,
-          36,
+          157,
+          138,
+          45,
+          18,
+          18,
           170,
-          34,
-          6
+          31,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

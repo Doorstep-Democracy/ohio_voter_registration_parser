@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 467 (20%)",
-      "UNC – Lapsed R — 338 (15%)",
-      "Mixed – Active — 194 (8%)",
-      "Mixed – Lapsed — 132 (6%)",
-      "UNC – No Primary — 916 (39%)",
-      "UNC – Lapsed D — 194 (8%)",
-      "Pure D — 78 (3%)"
+      "Pure R — 452 (19%)",
+      "UNC – Lapsed R — 376 (16%)",
+      "Mixed – Active — 191 (8%)",
+      "Mixed – Lapsed — 90 (4%)",
+      "UNC – Non-partisan Ballot — 46 (2%)",
+      "UNC – No Primary — 909 (39%)",
+      "UNC – Lapsed D — 191 (8%)",
+      "Pure D — 85 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          467,
-          338,
-          194,
-          132,
-          916,
-          194,
-          78
+          452,
+          376,
+          191,
+          90,
+          46,
+          909,
+          191,
+          85
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

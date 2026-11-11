@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 25 (23%)",
-      "UNC – Lapsed R — 13 (12%)",
-      "Mixed – Active — 14 (13%)",
-      "Mixed – Lapsed — 10 (9%)",
-      "UNC – No Primary — 28 (25%)",
-      "UNC – Lapsed D — 15 (14%)",
-      "Pure D — 5 (5%)"
+      "UNC – Lapsed R — 12 (11%)",
+      "Mixed – Active — 16 (15%)",
+      "Mixed – Lapsed — 7 (6%)",
+      "UNC – Non-partisan Ballot — 2 (2%)",
+      "UNC – No Primary — 29 (27%)",
+      "UNC – Lapsed D — 14 (13%)",
+      "Pure D — 3 (3%)"
     ],
     "datasets": [
       {
         "data": [
           25,
-          13,
+          12,
+          16,
+          7,
+          2,
+          29,
           14,
-          10,
-          28,
-          15,
-          5
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PLAINFIELD VILLAGE (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

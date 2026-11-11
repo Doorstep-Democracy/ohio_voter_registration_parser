@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 253 (12%)",
-      "UNC – Lapsed R — 175 (8%)",
-      "Mixed – Active — 327 (15%)",
-      "Mixed – Lapsed — 138 (7%)",
-      "UNC – No Primary — 806 (38%)",
-      "UNC – Lapsed D — 288 (14%)",
+      "Pure R — 226 (11%)",
+      "UNC – Lapsed R — 193 (9%)",
+      "Mixed – Active — 309 (15%)",
+      "Mixed – Lapsed — 147 (7%)",
+      "UNC – Non-partisan Ballot — 16 (1%)",
+      "UNC – No Primary — 822 (39%)",
+      "UNC – Lapsed D — 283 (13%)",
       "Pure D — 132 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          253,
-          175,
-          327,
-          138,
-          806,
-          288,
+          226,
+          193,
+          309,
+          147,
+          16,
+          822,
+          283,
           132
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CADIZ TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

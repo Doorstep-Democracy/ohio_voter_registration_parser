@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 52",
-      "Mixed – Active — 26",
-      "Mixed – Lapsed — 31",
-      "UNC – No Primary — 247",
+      "UNC – Lapsed R — 56",
+      "Mixed – Active — 22",
+      "Mixed – Lapsed — 29",
+      "UNC – Non-partisan Ballot — 5",
+      "UNC – No Primary — 265",
       "UNC – Lapsed D — 44"
     ],
     "datasets": [
       {
         "data": [
-          52,
-          26,
-          31,
-          247,
+          56,
+          22,
+          29,
+          5,
+          265,
           44
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "CHESAPEAKE VILLAGE (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

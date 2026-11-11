@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 404 (27%)",
-      "UNC – Lapsed R — 314 (21%)",
-      "Mixed – Active — 100 (7%)",
-      "Mixed – Lapsed — 92 (6%)",
-      "UNC – No Primary — 498 (33%)",
+      "Pure R — 395 (26%)",
+      "UNC – Lapsed R — 315 (21%)",
+      "Mixed – Active — 99 (6%)",
+      "Mixed – Lapsed — 53 (3%)",
+      "UNC – Non-partisan Ballot — 39 (3%)",
+      "UNC – No Primary — 515 (34%)",
       "UNC – Lapsed D — 60 (4%)",
-      "Pure D — 53 (3%)"
+      "Pure D — 52 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          404,
-          314,
-          100,
-          92,
-          498,
+          395,
+          315,
+          99,
+          53,
+          39,
+          515,
           60,
-          53
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RILEY TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

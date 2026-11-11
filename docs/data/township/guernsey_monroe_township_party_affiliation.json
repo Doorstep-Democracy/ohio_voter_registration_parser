@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 90 (21%)",
-      "UNC – Lapsed R — 62 (14%)",
-      "Mixed – Active — 32 (7%)",
-      "Mixed – Lapsed — 19 (4%)",
-      "UNC – No Primary — 156 (36%)",
-      "UNC – Lapsed D — 47 (11%)",
+      "Pure R — 74 (17%)",
+      "UNC – Lapsed R — 75 (18%)",
+      "Mixed – Active — 33 (8%)",
+      "Mixed – Lapsed — 13 (3%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 158 (37%)",
+      "UNC – Lapsed D — 40 (9%)",
       "Pure D — 26 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          90,
-          62,
-          32,
-          19,
-          156,
-          47,
+          74,
+          75,
+          33,
+          13,
+          5,
+          158,
+          40,
           26
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONROE TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

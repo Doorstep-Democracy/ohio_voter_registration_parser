@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 473 (13%)",
-      "UNC – Lapsed R — 348 (10%)",
-      "Mixed – Active — 332 (9%)",
-      "Mixed – Lapsed — 349 (10%)",
-      "UNC – No Primary — 1,475 (40%)",
-      "UNC – Lapsed D — 473 (13%)",
-      "Pure D — 209 (6%)"
+      "Pure R — 488 (13%)",
+      "UNC – Lapsed R — 364 (10%)",
+      "Mixed – Active — 349 (10%)",
+      "Mixed – Lapsed — 151 (4%)",
+      "UNC – Non-partisan Ballot — 183 (5%)",
+      "UNC – No Primary — 1,459 (40%)",
+      "UNC – Lapsed D — 425 (12%)",
+      "Pure D — 241 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          473,
-          348,
-          332,
+          488,
+          364,
           349,
-          1475,
-          473,
-          209
+          151,
+          183,
+          1459,
+          425,
+          241
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WARREN TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -18,13 +17,12 @@
         "label": "Pure R",
         "data": [
           0,
-          0,
-          8,
-          19,
-          19,
-          19,
-          13,
           7,
+          16,
+          17,
+          18,
+          11,
+          6,
           5
         ],
         "backgroundColor": "#ef4444",
@@ -34,12 +32,11 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          0,
-          3,
-          15,
-          12,
-          15,
+          4,
+          14,
+          14,
           18,
+          22,
           4,
           1
         ],
@@ -50,12 +47,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          0,
-          12,
-          22,
-          6,
-          4,
-          8,
+          11,
+          21,
+          7,
+          3,
+          9,
           0,
           0
         ],
@@ -66,30 +62,43 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          1,
+          11,
+          1,
           2,
-          4,
-          12,
-          7,
-          11,
-          11,
           3,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          2,
+          3,
+          5,
+          9,
+          7,
+          2,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          0,
           0,
           4,
           9,
           13,
-          23,
-          36,
-          62,
-          44
+          24,
+          37,
+          63,
+          51
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +106,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
           0,
-          4,
-          17,
-          14,
           6,
-          10,
+          14,
+          13,
+          8,
+          7,
           5,
-          1
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +122,21 @@
         "label": "Pure D",
         "data": [
           0,
-          0,
-          4,
-          10,
+          3,
+          11,
+          2,
+          2,
+          3,
           1,
-          4,
-          1,
-          1,
-          1
+          0
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "AUBURN TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

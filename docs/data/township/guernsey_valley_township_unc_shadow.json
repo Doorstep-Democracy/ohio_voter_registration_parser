@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 132",
-      "Mixed – Active — 123",
-      "Mixed – Lapsed — 89",
-      "UNC – No Primary — 513",
-      "UNC – Lapsed D — 159"
+      "UNC – Lapsed R — 144",
+      "Mixed – Active — 115",
+      "Mixed – Lapsed — 57",
+      "UNC – Non-partisan Ballot — 42",
+      "UNC – No Primary — 512",
+      "UNC – Lapsed D — 156"
     ],
     "datasets": [
       {
         "data": [
-          132,
-          123,
-          89,
-          513,
-          159
+          144,
+          115,
+          57,
+          42,
+          512,
+          156
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "VALLEY TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

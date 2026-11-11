@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 47 (35%)",
-      "UNC – Lapsed R — 10 (7%)",
-      "Mixed – Active — 22 (16%)",
-      "Mixed – Lapsed — 6 (4%)",
-      "UNC – No Primary — 38 (28%)",
-      "UNC – Lapsed D — 6 (4%)",
-      "Pure D — 7 (5%)"
+      "Pure R — 48 (36%)",
+      "UNC – Lapsed R — 12 (9%)",
+      "Mixed – Active — 19 (14%)",
+      "Mixed – Lapsed — 4 (3%)",
+      "UNC – Non-partisan Ballot — 3 (2%)",
+      "UNC – No Primary — 34 (25%)",
+      "UNC – Lapsed D — 4 (3%)",
+      "Pure D — 10 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          47,
-          10,
-          22,
-          6,
-          38,
-          6,
-          7
+          48,
+          12,
+          19,
+          4,
+          3,
+          34,
+          4,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BRISTOL TOWNSHIP (Morgan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

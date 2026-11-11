@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 67 (19%)",
-      "UNC – Lapsed R — 32 (9%)",
-      "Mixed – Active — 37 (11%)",
-      "Mixed – Lapsed — 27 (8%)",
-      "UNC – No Primary — 147 (42%)",
-      "UNC – Lapsed D — 25 (7%)",
+      "Pure R — 66 (19%)",
+      "UNC – Lapsed R — 36 (10%)",
+      "Mixed – Active — 40 (12%)",
+      "Mixed – Lapsed — 12 (3%)",
+      "UNC – Non-partisan Ballot — 14 (4%)",
+      "UNC – No Primary — 138 (40%)",
+      "UNC – Lapsed D — 23 (7%)",
       "Pure D — 14 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          67,
-          32,
-          37,
-          27,
-          147,
-          25,
+          66,
+          36,
+          40,
+          12,
+          14,
+          138,
+          23,
           14
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

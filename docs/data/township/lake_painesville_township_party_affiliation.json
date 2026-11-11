@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,109 (17%)",
-      "UNC – Lapsed R — 950 (8%)",
-      "Mixed – Active — 1,449 (12%)",
-      "Mixed – Lapsed — 849 (7%)",
-      "UNC – No Primary — 4,736 (38%)",
-      "UNC – Lapsed D — 1,240 (10%)",
-      "Pure D — 994 (8%)"
+      "Pure R — 1,569 (13%)",
+      "UNC – Lapsed R — 1,486 (12%)",
+      "Mixed – Active — 1,241 (10%)",
+      "Mixed – Lapsed — 660 (5%)",
+      "UNC – Non-partisan Ballot — 394 (3%)",
+      "UNC – No Primary — 4,696 (38%)",
+      "UNC – Lapsed D — 1,401 (11%)",
+      "Pure D — 917 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          2109,
-          950,
-          1449,
-          849,
-          4736,
-          1240,
-          994
+          1569,
+          1486,
+          1241,
+          660,
+          394,
+          4696,
+          1401,
+          917
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PAINESVILLE TOWNSHIP (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

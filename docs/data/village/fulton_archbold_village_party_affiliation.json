@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 727 (23%)",
-      "UNC – Lapsed R — 563 (18%)",
-      "Mixed – Active — 168 (5%)",
-      "Mixed – Lapsed — 334 (11%)",
-      "UNC – No Primary — 1,076 (34%)",
-      "UNC – Lapsed D — 183 (6%)",
-      "Pure D — 77 (2%)"
+      "Pure R — 738 (23%)",
+      "UNC – Lapsed R — 576 (18%)",
+      "Mixed – Active — 204 (6%)",
+      "Mixed – Lapsed — 143 (5%)",
+      "UNC – Non-partisan Ballot — 150 (5%)",
+      "UNC – No Primary — 1,077 (34%)",
+      "UNC – Lapsed D — 187 (6%)",
+      "Pure D — 87 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          727,
-          563,
-          168,
-          334,
-          1076,
-          183,
-          77
+          738,
+          576,
+          204,
+          143,
+          150,
+          1077,
+          187,
+          87
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ARCHBOLD VILLAGE (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

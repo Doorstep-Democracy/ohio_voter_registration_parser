@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 466 (7%)",
-      "UNC – Lapsed R — 457 (7%)",
-      "Mixed – Active — 659 (10%)",
-      "Mixed – Lapsed — 436 (6%)",
-      "UNC – No Primary — 3,303 (48%)",
-      "UNC – Lapsed D — 1,049 (15%)",
-      "Pure D — 544 (8%)"
+      "Pure R — 455 (7%)",
+      "UNC – Lapsed R — 521 (7%)",
+      "Mixed – Active — 614 (9%)",
+      "Mixed – Lapsed — 364 (5%)",
+      "UNC – Non-partisan Ballot — 134 (2%)",
+      "UNC – No Primary — 3,292 (47%)",
+      "UNC – Lapsed D — 1,091 (16%)",
+      "Pure D — 482 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          466,
-          457,
-          659,
-          436,
-          3303,
-          1049,
-          544
+          455,
+          521,
+          614,
+          364,
+          134,
+          3292,
+          1091,
+          482
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CLAYMONT CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

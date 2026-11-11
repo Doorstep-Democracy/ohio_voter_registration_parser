@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 963 (23%)",
-      "UNC – Lapsed R — 613 (15%)",
-      "Mixed – Active — 217 (5%)",
-      "Mixed – Lapsed — 331 (8%)",
-      "UNC – No Primary — 1,538 (37%)",
-      "UNC – Lapsed D — 351 (8%)",
-      "Pure D — 140 (3%)"
+      "Pure R — 982 (24%)",
+      "UNC – Lapsed R — 635 (15%)",
+      "Mixed – Active — 254 (6%)",
+      "Mixed – Lapsed — 137 (3%)",
+      "UNC – Non-partisan Ballot — 168 (4%)",
+      "UNC – No Primary — 1,505 (36%)",
+      "UNC – Lapsed D — 307 (7%)",
+      "Pure D — 186 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          963,
-          613,
-          217,
-          331,
-          1538,
-          351,
-          140
+          982,
+          635,
+          254,
+          137,
+          168,
+          1505,
+          307,
+          186
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "STONELICK TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

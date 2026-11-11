@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 416 (9%)",
-      "UNC – Lapsed R — 306 (7%)",
-      "Mixed – Active — 483 (11%)",
-      "Mixed – Lapsed — 277 (6%)",
-      "UNC – No Primary — 1,761 (40%)",
-      "UNC – Lapsed D — 689 (16%)",
-      "Pure D — 451 (10%)"
+      "Pure R — 413 (9%)",
+      "UNC – Lapsed R — 303 (7%)",
+      "Mixed – Active — 481 (11%)",
+      "Mixed – Lapsed — 167 (4%)",
+      "UNC – Non-partisan Ballot — 107 (2%)",
+      "UNC – No Primary — 1,785 (41%)",
+      "UNC – Lapsed D — 683 (16%)",
+      "Pure D — 448 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          416,
-          306,
-          483,
-          277,
-          1761,
-          689,
-          451
+          413,
+          303,
+          481,
+          167,
+          107,
+          1785,
+          683,
+          448
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Labrae Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

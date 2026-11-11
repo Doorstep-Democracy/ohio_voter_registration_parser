@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,088 (16%)",
+      "Pure R — 1,089 (16%)",
       "UNC – Lapsed R — 791 (12%)",
-      "Mixed – Active — 743 (11%)",
-      "Mixed – Lapsed — 540 (8%)",
-      "UNC – No Primary — 2,376 (36%)",
-      "UNC – Lapsed D — 657 (10%)",
-      "Pure D — 492 (7%)"
+      "Mixed – Active — 739 (11%)",
+      "Mixed – Lapsed — 305 (5%)",
+      "UNC – Non-partisan Ballot — 241 (4%)",
+      "UNC – No Primary — 2,429 (36%)",
+      "UNC – Lapsed D — 655 (10%)",
+      "Pure D — 487 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1088,
+          1089,
           791,
-          743,
-          540,
-          2376,
-          657,
-          492
+          739,
+          305,
+          241,
+          2429,
+          655,
+          487
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Perry Local Sd (Lake Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

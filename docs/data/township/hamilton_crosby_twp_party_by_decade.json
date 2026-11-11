@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,13 +16,12 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          22,
-          136,
-          283,
-          242,
+          21,
+          137,
+          285,
+          245,
           193,
-          282,
+          281,
           99,
           43
         ],
@@ -33,14 +31,13 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
           12,
-          51,
-          99,
-          105,
-          155,
-          189,
-          103,
+          50,
+          108,
+          115,
+          158,
+          192,
+          104,
           11
         ],
         "backgroundColor": "#fca5a5",
@@ -49,11 +46,10 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           3,
-          46,
-          110,
-          82,
+          44,
+          111,
+          83,
           61,
           71,
           19,
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          9,
-          38,
-          54,
-          86,
-          83,
-          151,
-          58,
-          21
+          6,
+          18,
+          34,
+          40,
+          33,
+          46,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          3,
+          17,
+          21,
+          49,
+          53,
+          108,
+          60,
+          20
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
           9,
-          35,
-          100,
-          174,
-          258,
-          495,
-          503,
-          382
+          39,
+          109,
+          172,
+          264,
+          496,
+          521,
+          430
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +106,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          4,
+          3,
           32,
-          48,
-          53,
+          51,
           57,
-          78,
-          31,
+          57,
+          77,
+          32,
           4
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           2,
           12,
-          52,
+          49,
           35,
           36,
-          76,
+          72,
           40,
-          19
+          20
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CROSBY TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

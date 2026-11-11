@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 97 (15%)",
-      "UNC – Lapsed R — 105 (16%)",
-      "Mixed – Active — 33 (5%)",
-      "Mixed – Lapsed — 45 (7%)",
-      "UNC – No Primary — 340 (51%)",
+      "Pure R — 92 (14%)",
+      "UNC – Lapsed R — 116 (17%)",
+      "Mixed – Active — 45 (7%)",
+      "Mixed – Lapsed — 24 (4%)",
+      "UNC – Non-partisan Ballot — 6 (1%)",
+      "UNC – No Primary — 331 (50%)",
       "UNC – Lapsed D — 34 (5%)",
-      "Pure D — 13 (2%)"
+      "Pure D — 15 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          97,
-          105,
-          33,
+          92,
+          116,
           45,
-          340,
+          24,
+          6,
+          331,
           34,
-          13
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CONVOY VILLAGE (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

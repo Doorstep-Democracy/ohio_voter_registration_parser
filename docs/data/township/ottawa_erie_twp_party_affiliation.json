@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 102 (13%)",
-      "UNC – Lapsed R — 78 (10%)",
-      "Mixed – Active — 56 (7%)",
-      "Mixed – Lapsed — 74 (10%)",
-      "UNC – No Primary — 325 (42%)",
-      "UNC – Lapsed D — 84 (11%)",
-      "Pure D — 51 (7%)"
+      "Pure R — 104 (14%)",
+      "UNC – Lapsed R — 80 (10%)",
+      "Mixed – Active — 62 (8%)",
+      "Mixed – Lapsed — 23 (3%)",
+      "UNC – Non-partisan Ballot — 46 (6%)",
+      "UNC – No Primary — 312 (41%)",
+      "UNC – Lapsed D — 81 (11%)",
+      "Pure D — 59 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          102,
-          78,
-          56,
-          74,
-          325,
-          84,
-          51
+          104,
+          80,
+          62,
+          23,
+          46,
+          312,
+          81,
+          59
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ERIE TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

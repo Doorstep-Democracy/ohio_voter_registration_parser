@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 839 (37%)",
-      "UNC – Lapsed R — 275 (12%)",
-      "Mixed – Active — 237 (10%)",
-      "Mixed – Lapsed — 149 (7%)",
-      "UNC – No Primary — 675 (30%)",
-      "UNC – Lapsed D — 59 (3%)",
-      "Pure D — 34 (1%)"
+      "Pure R — 534 (23%)",
+      "UNC – Lapsed R — 592 (26%)",
+      "Mixed – Active — 178 (8%)",
+      "Mixed – Lapsed — 112 (5%)",
+      "UNC – Non-partisan Ballot — 91 (4%)",
+      "UNC – No Primary — 686 (30%)",
+      "UNC – Lapsed D — 62 (3%)",
+      "Pure D — 32 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          839,
-          275,
-          237,
-          149,
-          675,
-          59,
-          34
+          534,
+          592,
+          178,
+          112,
+          91,
+          686,
+          62,
+          32
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARION TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

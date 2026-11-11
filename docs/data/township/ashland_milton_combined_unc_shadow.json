@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 200",
-      "Mixed – Active — 137",
-      "Mixed – Lapsed — 93",
-      "UNC – No Primary — 449",
-      "UNC – Lapsed D — 94"
+      "UNC – Lapsed R — 236",
+      "Mixed – Active — 135",
+      "Mixed – Lapsed — 52",
+      "UNC – Non-partisan Ballot — 49",
+      "UNC – No Primary — 443",
+      "UNC – Lapsed D — 83"
     ],
     "datasets": [
       {
         "data": [
-          200,
-          137,
-          93,
-          449,
-          94
+          236,
+          135,
+          52,
+          49,
+          443,
+          83
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MILTON-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,112",
-      "Mixed – Active — 2,650",
-      "Mixed – Lapsed — 2,362",
-      "UNC – No Primary — 17,236",
-      "UNC – Lapsed D — 8,160"
+      "UNC – Lapsed R — 1,184",
+      "Mixed – Active — 2,335",
+      "Mixed – Lapsed — 1,365",
+      "UNC – Non-partisan Ballot — 756",
+      "UNC – No Primary — 17,905",
+      "UNC – Lapsed D — 8,694"
     ],
     "datasets": [
       {
         "data": [
-          1112,
-          2650,
-          2362,
-          17236,
-          8160
+          1184,
+          2335,
+          1365,
+          756,
+          17905,
+          8694
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "CLEVELAND HTS-UNIV HTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

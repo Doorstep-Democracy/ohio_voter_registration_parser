@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 905 (37%)",
-      "UNC – Lapsed R — 316 (13%)",
-      "Mixed – Active — 442 (18%)",
-      "Mixed – Lapsed — 134 (5%)",
-      "UNC – No Primary — 521 (21%)",
-      "UNC – Lapsed D — 72 (3%)",
-      "Pure D — 59 (2%)"
+      "Pure R — 900 (37%)",
+      "UNC – Lapsed R — 322 (13%)",
+      "Mixed – Active — 439 (18%)",
+      "Mixed – Lapsed — 104 (4%)",
+      "UNC – Non-partisan Ballot — 30 (1%)",
+      "UNC – No Primary — 524 (21%)",
+      "UNC – Lapsed D — 70 (3%)",
+      "Pure D — 58 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          905,
-          316,
-          442,
-          134,
-          521,
-          72,
-          59
+          900,
+          322,
+          439,
+          104,
+          30,
+          524,
+          70,
+          58
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Kalida Local Sd (Putnam Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

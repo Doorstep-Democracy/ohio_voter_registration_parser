@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,670 (30%)",
-      "UNC – Lapsed R — 807 (14%)",
-      "Mixed – Active — 526 (9%)",
-      "Mixed – Lapsed — 307 (6%)",
-      "UNC – No Primary — 1,755 (32%)",
-      "UNC – Lapsed D — 277 (5%)",
-      "Pure D — 225 (4%)"
+      "Pure R — 1,655 (30%)",
+      "UNC – Lapsed R — 809 (14%)",
+      "Mixed – Active — 518 (9%)",
+      "Mixed – Lapsed — 190 (3%)",
+      "UNC – Non-partisan Ballot — 121 (2%)",
+      "UNC – No Primary — 1,799 (32%)",
+      "UNC – Lapsed D — 280 (5%)",
+      "Pure D — 223 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1670,
-          807,
-          526,
-          307,
-          1755,
-          277,
-          225
+          1655,
+          809,
+          518,
+          190,
+          121,
+          1799,
+          280,
+          223
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Greeneview Local Sd (Greene Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

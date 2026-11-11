@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 182",
-      "Mixed – Active — 105",
-      "Mixed – Lapsed — 65",
-      "UNC – No Primary — 550",
-      "UNC – Lapsed D — 68"
+      "UNC – Lapsed R — 224",
+      "Mixed – Active — 103",
+      "Mixed – Lapsed — 45",
+      "UNC – Non-partisan Ballot — 26",
+      "UNC – No Primary — 545",
+      "UNC – Lapsed D — 56"
     ],
     "datasets": [
       {
         "data": [
-          182,
-          105,
-          65,
-          550,
-          68
+          224,
+          103,
+          45,
+          26,
+          545,
+          56
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CLARK TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

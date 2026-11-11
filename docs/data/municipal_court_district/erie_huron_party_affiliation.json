@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,035 (13%)",
-      "UNC – Lapsed R — 860 (11%)",
-      "Mixed – Active — 1,076 (14%)",
-      "Mixed – Lapsed — 1,017 (13%)",
-      "UNC – No Primary — 2,299 (29%)",
-      "UNC – Lapsed D — 1,044 (13%)",
-      "Pure D — 595 (8%)"
+      "Pure R — 1,072 (14%)",
+      "UNC – Lapsed R — 888 (11%)",
+      "Mixed – Active — 1,186 (15%)",
+      "Mixed – Lapsed — 546 (7%)",
+      "UNC – Non-partisan Ballot — 365 (5%)",
+      "UNC – No Primary — 2,219 (28%)",
+      "UNC – Lapsed D — 899 (11%)",
+      "Pure D — 754 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          1035,
-          860,
-          1076,
-          1017,
-          2299,
-          1044,
-          595
+          1072,
+          888,
+          1186,
+          546,
+          365,
+          2219,
+          899,
+          754
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "HURON (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

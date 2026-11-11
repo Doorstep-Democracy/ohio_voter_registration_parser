@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 150",
-      "Mixed – Active — 39",
-      "Mixed – Lapsed — 57",
-      "UNC – No Primary — 300",
-      "UNC – Lapsed D — 49"
+      "UNC – Lapsed R — 153",
+      "Mixed – Active — 41",
+      "Mixed – Lapsed — 40",
+      "UNC – Non-partisan Ballot — 20",
+      "UNC – No Primary — 304",
+      "UNC – Lapsed D — 43"
     ],
     "datasets": [
       {
         "data": [
-          150,
-          39,
-          57,
-          300,
-          49
+          153,
+          41,
+          40,
+          20,
+          304,
+          43
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BROWN TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 599",
-      "Mixed – Active — 442",
-      "Mixed – Lapsed — 474",
-      "UNC – No Primary — 1,794",
-      "UNC – Lapsed D — 405"
+      "UNC – Lapsed R — 630",
+      "Mixed – Active — 448",
+      "Mixed – Lapsed — 185",
+      "UNC – Non-partisan Ballot — 276",
+      "UNC – No Primary — 1,776",
+      "UNC – Lapsed D — 357"
     ],
     "datasets": [
       {
         "data": [
-          599,
-          442,
-          474,
-          1794,
-          405
+          630,
+          448,
+          185,
+          276,
+          1776,
+          357
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Pleasant Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

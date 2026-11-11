@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,832 (16%)",
-      "UNC – Lapsed R — 1,594 (14%)",
-      "Mixed – Active — 969 (8%)",
-      "Mixed – Lapsed — 1,214 (10%)",
-      "UNC – No Primary — 4,512 (39%)",
-      "UNC – Lapsed D — 1,019 (9%)",
-      "Pure D — 520 (4%)"
+      "Pure R — 1,812 (15%)",
+      "UNC – Lapsed R — 1,610 (14%)",
+      "Mixed – Active — 958 (8%)",
+      "Mixed – Lapsed — 576 (5%)",
+      "UNC – Non-partisan Ballot — 640 (5%)",
+      "UNC – No Primary — 4,645 (39%)",
+      "UNC – Lapsed D — 1,018 (9%)",
+      "Pure D — 508 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1832,
-          1594,
-          969,
-          1214,
-          4512,
-          1019,
-          520
+          1812,
+          1610,
+          958,
+          576,
+          640,
+          4645,
+          1018,
+          508
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Tecumseh Local Sd (Clark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

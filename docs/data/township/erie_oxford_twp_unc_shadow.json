@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 73",
-      "Mixed – Active — 107",
-      "Mixed – Lapsed — 104",
-      "UNC – No Primary — 248",
-      "UNC – Lapsed D — 102"
+      "UNC – Lapsed R — 79",
+      "Mixed – Active — 103",
+      "Mixed – Lapsed — 69",
+      "UNC – Non-partisan Ballot — 37",
+      "UNC – No Primary — 253",
+      "UNC – Lapsed D — 89"
     ],
     "datasets": [
       {
         "data": [
-          73,
-          107,
-          104,
-          248,
-          102
+          79,
+          103,
+          69,
+          37,
+          253,
+          89
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OXFORD TWP (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

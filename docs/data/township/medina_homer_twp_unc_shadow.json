@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 69",
-      "Mixed – Active — 62",
-      "Mixed – Lapsed — 70",
-      "UNC – No Primary — 240",
-      "UNC – Lapsed D — 64"
+      "UNC – Lapsed R — 97",
+      "Mixed – Active — 60",
+      "Mixed – Lapsed — 18",
+      "UNC – Non-partisan Ballot — 50",
+      "UNC – No Primary — 230",
+      "UNC – Lapsed D — 53"
     ],
     "datasets": [
       {
         "data": [
-          69,
-          62,
-          70,
-          240,
-          64
+          97,
+          60,
+          18,
+          50,
+          230,
+          53
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Homer TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 266 (24%)",
-      "UNC – Lapsed R — 123 (11%)",
-      "Mixed – Active — 98 (9%)",
-      "Mixed – Lapsed — 60 (6%)",
-      "UNC – No Primary — 421 (39%)",
-      "UNC – Lapsed D — 78 (7%)",
-      "Pure D — 41 (4%)"
+      "Pure R — 280 (26%)",
+      "UNC – Lapsed R — 119 (11%)",
+      "Mixed – Active — 119 (11%)",
+      "Mixed – Lapsed — 38 (3%)",
+      "UNC – Non-partisan Ballot — 14 (1%)",
+      "UNC – No Primary — 409 (37%)",
+      "UNC – Lapsed D — 63 (6%)",
+      "Pure D — 52 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          266,
-          123,
-          98,
-          60,
-          421,
-          78,
-          41
+          280,
+          119,
+          119,
+          38,
+          14,
+          409,
+          63,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

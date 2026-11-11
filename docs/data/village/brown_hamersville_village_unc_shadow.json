@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 18",
-      "Mixed – Active — 26",
-      "Mixed – Lapsed — 17",
-      "UNC – No Primary — 136",
-      "UNC – Lapsed D — 22"
+      "UNC – Lapsed R — 17",
+      "Mixed – Active — 29",
+      "Mixed – Lapsed — 7",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 133",
+      "UNC – Lapsed D — 16"
     ],
     "datasets": [
       {
         "data": [
-          18,
-          26,
           17,
-          136,
-          22
+          29,
+          7,
+          9,
+          133,
+          16
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "HAMERSVILLE VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

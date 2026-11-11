@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 67 (12%)",
-      "UNC – Lapsed R — 29 (5%)",
-      "Mixed – Active — 63 (11%)",
-      "Mixed – Lapsed — 53 (10%)",
-      "UNC – No Primary — 221 (40%)",
-      "UNC – Lapsed D — 65 (12%)",
-      "Pure D — 53 (10%)"
+      "Pure R — 66 (12%)",
+      "UNC – Lapsed R — 35 (6%)",
+      "Mixed – Active — 66 (12%)",
+      "Mixed – Lapsed — 36 (6%)",
+      "UNC – Non-partisan Ballot — 21 (4%)",
+      "UNC – No Primary — 214 (38%)",
+      "UNC – Lapsed D — 62 (11%)",
+      "Pure D — 58 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          67,
-          29,
-          63,
-          53,
-          221,
-          65,
-          53
+          66,
+          35,
+          66,
+          36,
+          21,
+          214,
+          62,
+          58
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GENEVA-ON-THE-LAKE VILLAGE (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

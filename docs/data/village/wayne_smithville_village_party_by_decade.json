@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          13,
-          40,
-          70,
+          9,
+          37,
+          71,
           45,
-          42,
-          35,
-          25,
-          6
+          40,
+          32,
+          18,
+          7
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          3,
+          6,
           9,
-          20,
-          29,
           23,
+          29,
+          27,
+          20,
           19,
-          15,
-          2
+          4
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          7,
-          16,
-          22,
-          11,
           6,
-          8,
-          1,
-          1
+          18,
+          21,
+          10,
+          6,
+          10,
+          3,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          5,
-          5,
-          13,
-          13,
-          5,
-          11,
-          5,
-          2
+          3,
+          1,
+          7,
+          8,
+          3,
+          1,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          4,
+          5,
+          8,
+          3,
+          10,
+          3,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           1,
-          5,
-          15,
-          26,
-          40,
-          71,
-          82,
-          82
+          6,
+          12,
+          27,
+          39,
+          69,
+          84,
+          88
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +114,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          0,
-          4,
-          10,
-          12,
-          7,
+          1,
+          2,
+          6,
+          11,
+          6,
           9,
-          8,
+          10,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          1,
+          0,
+          8,
+          15,
           7,
-          10,
-          5,
-          3,
-          3,
           4,
-          1
+          4,
+          4,
+          0
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SMITHVILLE VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

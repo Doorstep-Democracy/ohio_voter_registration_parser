@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 6,742",
-      "Mixed – Active — 8,472",
-      "Mixed – Lapsed — 6,906",
-      "UNC – No Primary — 33,098",
-      "UNC – Lapsed D — 11,692"
+      "UNC – Lapsed R — 8,123",
+      "Mixed – Active — 8,325",
+      "Mixed – Lapsed — 4,297",
+      "UNC – Non-partisan Ballot — 2,928",
+      "UNC – No Primary — 33,213",
+      "UNC – Lapsed D — 11,058"
     ],
     "datasets": [
       {
         "data": [
-          6742,
-          8472,
-          6906,
-          33098,
-          11692
+          8123,
+          8325,
+          4297,
+          2928,
+          33213,
+          11058
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "State Representative District",
   "jurisdiction_name": "52",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

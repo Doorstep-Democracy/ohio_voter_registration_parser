@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,231 (13%)",
-      "UNC – Lapsed R — 846 (9%)",
-      "Mixed – Active — 1,460 (16%)",
-      "Mixed – Lapsed — 753 (8%)",
-      "UNC – No Primary — 2,672 (29%)",
-      "UNC – Lapsed D — 1,152 (12%)",
-      "Pure D — 1,103 (12%)"
+      "Pure R — 1,223 (13%)",
+      "UNC – Lapsed R — 842 (9%)",
+      "Mixed – Active — 1,452 (16%)",
+      "Mixed – Lapsed — 451 (5%)",
+      "UNC – Non-partisan Ballot — 300 (3%)",
+      "UNC – No Primary — 2,738 (30%)",
+      "UNC – Lapsed D — 1,157 (12%)",
+      "Pure D — 1,096 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          1231,
-          846,
-          1460,
-          753,
-          2672,
-          1152,
-          1103
+          1223,
+          842,
+          1452,
+          451,
+          300,
+          2738,
+          1157,
+          1096
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lakeview Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

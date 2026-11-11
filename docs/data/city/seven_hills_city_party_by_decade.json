@@ -18,13 +18,13 @@
         "label": "Pure R",
         "data": [
           3,
-          61,
-          185,
-          247,
-          250,
-          106,
+          60,
+          184,
+          248,
+          249,
+          108,
           81,
-          79,
+          78,
           38
         ],
         "backgroundColor": "#ef4444",
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          35,
-          73,
-          123,
-          157,
-          116,
+          31,
+          72,
           124,
-          134,
+          157,
+          115,
+          127,
+          137,
           7
         ],
         "backgroundColor": "#fca5a5",
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           7,
-          90,
-          270,
-          440,
-          381,
+          85,
+          268,
+          438,
+          382,
           121,
-          95,
+          94,
           37,
           0
         ],
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          4,
+          3,
+          57,
+          70,
+          116,
+          123,
           68,
-          112,
-          176,
-          226,
-          160,
-          137,
-          95,
-          54
+          46,
+          11,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          5,
+          37,
+          60,
+          101,
+          93,
+          94,
+          83,
+          50
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          20,
-          57,
-          150,
-          220,
-          284,
-          476,
-          694,
-          444
+          22,
+          58,
+          153,
+          219,
+          282,
+          477,
+          709,
+          460
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          8,
-          76,
-          96,
-          159,
-          210,
-          156,
-          195,
-          126,
-          21
+          5,
+          70,
+          97,
+          162,
+          211,
+          157,
+          196,
+          121,
+          24
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          6,
+          5,
           67,
-          191,
-          291,
-          225,
-          138,
-          156,
+          188,
+          288,
+          223,
+          137,
+          157,
           118,
-          67
+          65
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SEVEN HILLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

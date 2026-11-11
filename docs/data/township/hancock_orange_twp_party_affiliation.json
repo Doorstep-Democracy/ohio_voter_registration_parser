@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 283 (30%)",
-      "UNC – Lapsed R — 160 (17%)",
-      "Mixed – Active — 53 (6%)",
-      "Mixed – Lapsed — 55 (6%)",
-      "UNC – No Primary — 318 (34%)",
-      "UNC – Lapsed D — 46 (5%)",
+      "Pure R — 267 (28%)",
+      "UNC – Lapsed R — 179 (19%)",
+      "Mixed – Active — 52 (6%)",
+      "Mixed – Lapsed — 27 (3%)",
+      "UNC – Non-partisan Ballot — 29 (3%)",
+      "UNC – No Primary — 316 (34%)",
+      "UNC – Lapsed D — 43 (5%)",
       "Pure D — 25 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          283,
-          160,
-          53,
-          55,
-          318,
-          46,
+          267,
+          179,
+          52,
+          27,
+          29,
+          316,
+          43,
           25
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ORANGE TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

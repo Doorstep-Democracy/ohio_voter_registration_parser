@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 15 (13%)",
-      "UNC – Lapsed R — 11 (9%)",
+      "Pure R — 16 (12%)",
+      "UNC – Lapsed R — 12 (9%)",
       "Mixed – Active — 11 (9%)",
-      "Mixed – Lapsed — 11 (9%)",
-      "UNC – No Primary — 43 (36%)",
-      "UNC – Lapsed D — 23 (19%)",
-      "Pure D — 5 (4%)"
+      "Mixed – Lapsed — 9 (7%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 51 (40%)",
+      "UNC – Lapsed D — 21 (16%)",
+      "Pure D — 7 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          15,
+          16,
+          12,
           11,
-          11,
-          11,
-          43,
-          23,
-          5
+          9,
+          1,
+          51,
+          21,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SUMMERFIELD VILLAGE (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

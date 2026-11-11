@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,013 (19%)",
-      "UNC – Lapsed R — 955 (18%)",
-      "Mixed – Active — 386 (7%)",
-      "Mixed – Lapsed — 532 (10%)",
-      "UNC – No Primary — 1,881 (35%)",
-      "UNC – Lapsed D — 431 (8%)",
-      "Pure D — 159 (3%)"
+      "Pure R — 783 (14%)",
+      "UNC – Lapsed R — 1,164 (21%)",
+      "Mixed – Active — 343 (6%)",
+      "Mixed – Lapsed — 328 (6%)",
+      "UNC – Non-partisan Ballot — 261 (5%)",
+      "UNC – No Primary — 1,912 (35%)",
+      "UNC – Lapsed D — 442 (8%)",
+      "Pure D — 189 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1013,
-          955,
-          386,
-          532,
-          1881,
-          431,
-          159
+          783,
+          1164,
+          343,
+          328,
+          261,
+          1912,
+          442,
+          189
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "THE VILLAGE OF INDIAN HILL CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 140",
-      "Mixed – Active — 78",
-      "Mixed – Lapsed — 62",
-      "UNC – No Primary — 430",
-      "UNC – Lapsed D — 65"
+      "UNC – Lapsed R — 148",
+      "Mixed – Active — 94",
+      "Mixed – Lapsed — 20",
+      "UNC – Non-partisan Ballot — 32",
+      "UNC – No Primary — 395",
+      "UNC – Lapsed D — 51"
     ],
     "datasets": [
       {
         "data": [
-          140,
-          78,
-          62,
-          430,
-          65
+          148,
+          94,
+          20,
+          32,
+          395,
+          51
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

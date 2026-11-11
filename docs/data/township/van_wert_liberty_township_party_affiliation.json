@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 251 (24%)",
-      "UNC – Lapsed R — 176 (17%)",
-      "Mixed – Active — 74 (7%)",
-      "Mixed – Lapsed — 57 (6%)",
-      "UNC – No Primary — 398 (39%)",
-      "UNC – Lapsed D — 51 (5%)",
-      "Pure D — 21 (2%)"
+      "Pure R — 224 (22%)",
+      "UNC – Lapsed R — 208 (20%)",
+      "Mixed – Active — 63 (6%)",
+      "Mixed – Lapsed — 50 (5%)",
+      "UNC – Non-partisan Ballot — 17 (2%)",
+      "UNC – No Primary — 392 (38%)",
+      "UNC – Lapsed D — 45 (4%)",
+      "Pure D — 24 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          251,
-          176,
-          74,
-          57,
-          398,
-          51,
-          21
+          224,
+          208,
+          63,
+          50,
+          17,
+          392,
+          45,
+          24
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

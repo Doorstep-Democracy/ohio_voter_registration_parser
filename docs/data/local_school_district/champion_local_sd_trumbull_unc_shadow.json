@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 507",
-      "Mixed – Active — 869",
-      "Mixed – Lapsed — 543",
-      "UNC – No Primary — 1,971",
-      "UNC – Lapsed D — 911"
+      "UNC – Lapsed R — 510",
+      "Mixed – Active — 866",
+      "Mixed – Lapsed — 251",
+      "UNC – Non-partisan Ballot — 290",
+      "UNC – No Primary — 2,008",
+      "UNC – Lapsed D — 909"
     ],
     "datasets": [
       {
         "data": [
-          507,
-          869,
-          543,
-          1971,
-          911
+          510,
+          866,
+          251,
+          290,
+          2008,
+          909
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Champion Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

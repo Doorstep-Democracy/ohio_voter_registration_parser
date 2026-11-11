@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,259",
-      "Mixed – Active — 1,138",
-      "Mixed – Lapsed — 1,160",
-      "UNC – No Primary — 3,104",
-      "UNC – Lapsed D — 1,097"
+      "UNC – Lapsed R — 1,367",
+      "Mixed – Active — 1,185",
+      "Mixed – Lapsed — 582",
+      "UNC – Non-partisan Ballot — 556",
+      "UNC – No Primary — 3,117",
+      "UNC – Lapsed D — 982"
     ],
     "datasets": [
       {
         "data": [
-          1259,
-          1138,
-          1160,
-          3104,
-          1097
+          1367,
+          1185,
+          582,
+          556,
+          3117,
+          982
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BAINBRIDGE TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

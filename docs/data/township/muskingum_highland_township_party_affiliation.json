@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 143 (23%)",
-      "UNC – Lapsed R — 114 (18%)",
-      "Mixed – Active — 45 (7%)",
-      "Mixed – Lapsed — 67 (11%)",
-      "UNC – No Primary — 198 (31%)",
-      "UNC – Lapsed D — 46 (7%)",
-      "Pure D — 17 (3%)"
+      "Pure R — 138 (22%)",
+      "UNC – Lapsed R — 122 (20%)",
+      "Mixed – Active — 47 (8%)",
+      "Mixed – Lapsed — 32 (5%)",
+      "UNC – Non-partisan Ballot — 33 (5%)",
+      "UNC – No Primary — 186 (30%)",
+      "UNC – Lapsed D — 45 (7%)",
+      "Pure D — 15 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          143,
-          114,
+          138,
+          122,
+          47,
+          32,
+          33,
+          186,
           45,
-          67,
-          198,
-          46,
-          17
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HIGHLAND TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

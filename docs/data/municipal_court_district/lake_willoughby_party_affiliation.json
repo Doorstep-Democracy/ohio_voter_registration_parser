@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,738 (11%)",
-      "UNC – Lapsed R — 5,550 (9%)",
-      "Mixed – Active — 5,819 (10%)",
-      "Mixed – Lapsed — 6,179 (10%)",
-      "UNC – No Primary — 22,447 (37%)",
-      "UNC – Lapsed D — 9,580 (16%)",
-      "Pure D — 4,252 (7%)"
+      "Pure R — 6,432 (11%)",
+      "UNC – Lapsed R — 6,041 (10%)",
+      "Mixed – Active — 5,875 (10%)",
+      "Mixed – Lapsed — 3,359 (5%)",
+      "UNC – Non-partisan Ballot — 2,725 (4%)",
+      "UNC – No Primary — 22,210 (36%)",
+      "UNC – Lapsed D — 8,733 (14%)",
+      "Pure D — 5,775 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          6738,
-          5550,
-          5819,
-          6179,
-          22447,
-          9580,
-          4252
+          6432,
+          6041,
+          5875,
+          3359,
+          2725,
+          22210,
+          8733,
+          5775
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "WILLOUGHBY (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

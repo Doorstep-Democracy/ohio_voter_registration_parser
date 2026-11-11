@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          8,
+          5,
+          21,
+          62,
+          61,
+          29,
           24,
-          66,
-          68,
-          31,
-          23,
-          14,
-          5
+          12,
+          7
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          1,
-          8,
-          23,
-          51,
-          33,
-          25,
-          14,
-          2
+          4,
+          10,
+          29,
+          61,
+          39,
+          27,
+          16,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,11 +51,11 @@
         "data": [
           0,
           3,
-          25,
-          47,
-          34,
-          21,
-          11,
+          22,
+          50,
+          41,
+          19,
+          9,
           4,
           1
         ],
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          2,
-          14,
-          29,
-          56,
-          29,
-          16,
-          9,
-          6
+          1,
+          12,
+          17,
+          22,
+          12,
+          8,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          3,
+          11,
+          30,
+          15,
+          6,
+          8,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          3,
-          25,
-          60,
-          105,
-          110,
-          138,
-          150,
-          144
+          2,
+          22,
+          58,
+          101,
+          109,
+          142,
+          149,
+          146
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +114,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          4,
-          26,
-          54,
-          68,
+          2,
+          28,
+          45,
+          56,
           35,
           33,
-          17,
+          19,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          5,
-          42,
-          57,
-          26,
-          12,
-          9,
-          4,
-          5
+          7,
+          39,
+          58,
+          37,
+          15,
+          11,
+          8,
+          8
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SWANTON TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

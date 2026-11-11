@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 834 (22%)",
-      "UNC – Lapsed R — 566 (15%)",
+      "Pure R — 826 (22%)",
+      "UNC – Lapsed R — 565 (15%)",
       "Mixed – Active — 302 (8%)",
-      "Mixed – Lapsed — 314 (8%)",
-      "UNC – No Primary — 1,266 (33%)",
-      "UNC – Lapsed D — 372 (10%)",
-      "Pure D — 171 (4%)"
+      "Mixed – Lapsed — 179 (5%)",
+      "UNC – Non-partisan Ballot — 133 (3%)",
+      "UNC – No Primary — 1,293 (34%)",
+      "UNC – Lapsed D — 367 (10%)",
+      "Pure D — 170 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          834,
-          566,
+          826,
+          565,
           302,
-          314,
-          1266,
-          372,
-          171
+          179,
+          133,
+          1293,
+          367,
+          170
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Liberty Center Local Sd (Henry Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

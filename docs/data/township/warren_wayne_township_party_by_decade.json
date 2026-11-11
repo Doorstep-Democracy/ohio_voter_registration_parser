@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          4,
-          38,
+          2,
+          35,
           198,
-          395,
-          403,
-          284,
-          194,
-          93,
-          80
+          390,
+          391,
+          291,
+          203,
+          103,
+          85
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
-          24,
-          75,
-          145,
-          275,
-          218,
-          221,
-          125,
-          9
+          5,
+          18,
+          72,
+          153,
+          286,
+          220,
+          219,
+          128,
+          17
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          16,
-          99,
-          170,
-          142,
+          15,
+          96,
+          176,
+          145,
           87,
-          33,
-          12,
-          2
+          41,
+          11,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          12,
-          35,
-          81,
-          98,
-          94,
-          81,
-          34,
-          23
+          7,
+          31,
+          60,
+          61,
+          50,
+          25,
+          6,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          2,
+          21,
+          36,
+          50,
+          50,
+          29,
+          22
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
-          16,
-          56,
-          156,
-          242,
-          295,
-          369,
+          0,
+          12,
+          48,
+          150,
+          232,
+          274,
+          352,
           506,
-          617
+          650
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          10,
-          32,
-          82,
-          92,
-          80,
-          88,
-          38,
-          4
+          8,
+          33,
+          74,
+          83,
+          79,
+          86,
+          37,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          3,
-          12,
-          43,
+          0,
+          13,
+          42,
+          49,
           38,
-          31,
-          18,
-          21,
-          11,
-          7
+          22,
+          29,
+          15,
+          21
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

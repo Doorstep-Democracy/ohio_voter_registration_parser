@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6 (4%)",
-      "UNC – Lapsed R — 9 (6%)",
-      "Mixed – Active — 10 (7%)",
-      "Mixed – Lapsed — 15 (10%)",
-      "UNC – No Primary — 63 (41%)",
+      "Pure R — 8 (5%)",
+      "UNC – Lapsed R — 11 (7%)",
+      "Mixed – Active — 14 (9%)",
+      "Mixed – Lapsed — 12 (8%)",
+      "UNC – Non-partisan Ballot — 5 (3%)",
+      "UNC – No Primary — 58 (37%)",
       "UNC – Lapsed D — 34 (22%)",
-      "Pure D — 16 (10%)"
+      "Pure D — 15 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          6,
-          9,
-          10,
-          15,
-          63,
+          8,
+          11,
+          14,
+          12,
+          5,
+          58,
           34,
-          16
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "TRIMBLE VILLAGE (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

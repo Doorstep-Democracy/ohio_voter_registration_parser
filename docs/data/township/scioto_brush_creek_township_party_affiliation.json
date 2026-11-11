@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 118 (17%)",
-      "UNC – Lapsed R — 79 (11%)",
+      "Pure R — 123 (17%)",
+      "UNC – Lapsed R — 82 (12%)",
       "Mixed – Active — 57 (8%)",
-      "Mixed – Lapsed — 26 (4%)",
-      "UNC – No Primary — 299 (43%)",
-      "UNC – Lapsed D — 98 (14%)",
-      "Pure D — 23 (3%)"
+      "Mixed – Lapsed — 25 (4%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 292 (41%)",
+      "UNC – Lapsed D — 90 (13%)",
+      "Pure D — 29 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          118,
-          79,
+          123,
+          82,
           57,
-          26,
-          299,
-          98,
-          23
+          25,
+          7,
+          292,
+          90,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BRUSH CREEK TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

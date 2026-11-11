@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 544 (16%)",
-      "UNC – Lapsed R — 339 (10%)",
-      "Mixed – Active — 346 (10%)",
-      "Mixed – Lapsed — 295 (9%)",
-      "UNC – No Primary — 1,382 (40%)",
-      "UNC – Lapsed D — 346 (10%)",
-      "Pure D — 204 (6%)"
+      "Pure R — 498 (14%)",
+      "UNC – Lapsed R — 386 (11%)",
+      "Mixed – Active — 350 (10%)",
+      "Mixed – Lapsed — 175 (5%)",
+      "UNC – Non-partisan Ballot — 131 (4%)",
+      "UNC – No Primary — 1,377 (40%)",
+      "UNC – Lapsed D — 325 (9%)",
+      "Pure D — 234 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          544,
-          339,
-          346,
-          295,
-          1382,
-          346,
-          204
+          498,
+          386,
+          350,
+          175,
+          131,
+          1377,
+          325,
+          234
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

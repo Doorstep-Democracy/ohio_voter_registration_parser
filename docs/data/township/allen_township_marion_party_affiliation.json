@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 999 (24%)",
-      "UNC – Lapsed R — 683 (16%)",
-      "Mixed – Active — 314 (7%)",
-      "Mixed – Lapsed — 384 (9%)",
-      "UNC – No Primary — 1,473 (35%)",
-      "UNC – Lapsed D — 241 (6%)",
-      "Pure D — 126 (3%)"
+      "Pure R — 844 (20%)",
+      "UNC – Lapsed R — 839 (20%)",
+      "Mixed – Active — 285 (7%)",
+      "Mixed – Lapsed — 175 (4%)",
+      "UNC – Non-partisan Ballot — 214 (5%)",
+      "UNC – No Primary — 1,464 (35%)",
+      "UNC – Lapsed D — 239 (6%)",
+      "Pure D — 137 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          999,
-          683,
-          314,
-          384,
-          1473,
-          241,
-          126
+          844,
+          839,
+          285,
+          175,
+          214,
+          1464,
+          239,
+          137
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Township Marion (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

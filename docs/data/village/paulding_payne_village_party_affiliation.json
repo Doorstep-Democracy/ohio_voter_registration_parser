@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 125 (17%)",
-      "UNC – Lapsed R — 87 (12%)",
-      "Mixed – Active — 59 (8%)",
-      "Mixed – Lapsed — 30 (4%)",
-      "UNC – No Primary — 349 (47%)",
-      "UNC – Lapsed D — 63 (8%)",
-      "Pure D — 29 (4%)"
+      "Pure R — 95 (13%)",
+      "UNC – Lapsed R — 122 (17%)",
+      "Mixed – Active — 46 (6%)",
+      "Mixed – Lapsed — 41 (6%)",
+      "UNC – Non-partisan Ballot — 4 (1%)",
+      "UNC – No Primary — 344 (47%)",
+      "UNC – Lapsed D — 65 (9%)",
+      "Pure D — 22 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          125,
-          87,
-          59,
-          30,
-          349,
-          63,
-          29
+          95,
+          122,
+          46,
+          41,
+          4,
+          344,
+          65,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PAYNE VILLAGE (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

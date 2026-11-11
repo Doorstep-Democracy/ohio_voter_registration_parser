@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,251",
-      "Mixed – Active — 576",
-      "Mixed – Lapsed — 779",
-      "UNC – No Primary — 3,734",
-      "UNC – Lapsed D — 1,019"
+      "UNC – Lapsed R — 1,355",
+      "Mixed – Active — 588",
+      "Mixed – Lapsed — 407",
+      "UNC – Non-partisan Ballot — 307",
+      "UNC – No Primary — 3,739",
+      "UNC – Lapsed D — 922"
     ],
     "datasets": [
       {
         "data": [
-          1251,
-          576,
-          779,
-          3734,
-          1019
+          1355,
+          588,
+          407,
+          307,
+          3739,
+          922
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SHARONVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

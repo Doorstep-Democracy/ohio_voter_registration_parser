@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 466",
-      "Mixed – Active — 588",
-      "Mixed – Lapsed — 466",
-      "UNC – No Primary — 1,846",
-      "UNC – Lapsed D — 716"
+      "UNC – Lapsed R — 616",
+      "Mixed – Active — 605",
+      "Mixed – Lapsed — 238",
+      "UNC – Non-partisan Ballot — 246",
+      "UNC – No Primary — 1,810",
+      "UNC – Lapsed D — 623"
     ],
     "datasets": [
       {
         "data": [
-          466,
-          588,
-          466,
-          1846,
-          716
+          616,
+          605,
+          238,
+          246,
+          1810,
+          623
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CARLISLE TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

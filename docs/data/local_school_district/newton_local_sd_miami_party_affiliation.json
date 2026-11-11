@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 617 (26%)",
-      "UNC – Lapsed R — 501 (21%)",
-      "Mixed – Active — 174 (7%)",
-      "Mixed – Lapsed — 175 (7%)",
-      "UNC – No Primary — 706 (30%)",
-      "UNC – Lapsed D — 116 (5%)",
-      "Pure D — 63 (3%)"
+      "Pure R — 615 (26%)",
+      "UNC – Lapsed R — 507 (21%)",
+      "Mixed – Active — 170 (7%)",
+      "Mixed – Lapsed — 111 (5%)",
+      "UNC – Non-partisan Ballot — 58 (2%)",
+      "UNC – No Primary — 727 (31%)",
+      "UNC – Lapsed D — 118 (5%)",
+      "Pure D — 61 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          617,
-          501,
-          174,
-          175,
-          706,
-          116,
-          63
+          615,
+          507,
+          170,
+          111,
+          58,
+          727,
+          118,
+          61
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Newton Local Sd (Miami Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

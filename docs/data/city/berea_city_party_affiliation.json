@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 728 (6%)",
-      "UNC – Lapsed R — 903 (7%)",
-      "Mixed – Active — 1,238 (10%)",
-      "Mixed – Lapsed — 1,119 (9%)",
-      "UNC – No Primary — 4,482 (37%)",
-      "UNC – Lapsed D — 1,841 (15%)",
-      "Pure D — 1,938 (16%)"
+      "Pure R — 717 (6%)",
+      "UNC – Lapsed R — 902 (7%)",
+      "Mixed – Active — 1,225 (10%)",
+      "Mixed – Lapsed — 622 (5%)",
+      "UNC – Non-partisan Ballot — 489 (4%)",
+      "UNC – No Primary — 4,614 (37%)",
+      "UNC – Lapsed D — 1,847 (15%)",
+      "Pure D — 1,934 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          728,
-          903,
-          1238,
-          1119,
-          4482,
-          1841,
-          1938
+          717,
+          902,
+          1225,
+          622,
+          489,
+          4614,
+          1847,
+          1934
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BEREA CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

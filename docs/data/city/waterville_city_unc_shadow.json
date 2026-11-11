@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 489",
-      "Mixed – Active — 432",
-      "Mixed – Lapsed — 477",
-      "UNC – No Primary — 1,639",
-      "UNC – Lapsed D — 545"
+      "UNC – Lapsed R — 499",
+      "Mixed – Active — 471",
+      "Mixed – Lapsed — 204",
+      "UNC – Non-partisan Ballot — 250",
+      "UNC – No Primary — 1,647",
+      "UNC – Lapsed D — 518"
     ],
     "datasets": [
       {
         "data": [
-          489,
-          432,
-          477,
-          1639,
-          545
+          499,
+          471,
+          204,
+          250,
+          1647,
+          518
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "WATERVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

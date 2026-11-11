@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 679 (24%)",
-      "UNC – Lapsed R — 690 (25%)",
-      "Mixed – Active — 225 (8%)",
-      "Mixed – Lapsed — 243 (9%)",
-      "UNC – No Primary — 856 (31%)",
+      "Pure R — 675 (24%)",
+      "UNC – Lapsed R — 689 (25%)",
+      "Mixed – Active — 224 (8%)",
+      "Mixed – Lapsed — 135 (5%)",
+      "UNC – Non-partisan Ballot — 106 (4%)",
+      "UNC – No Primary — 877 (31%)",
       "UNC – Lapsed D — 74 (3%)",
       "Pure D — 21 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          679,
-          690,
-          225,
-          243,
-          856,
+          675,
+          689,
+          224,
+          135,
+          106,
+          877,
           74,
           21
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Marion Local Sd (Mercer Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

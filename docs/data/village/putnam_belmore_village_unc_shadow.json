@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 3",
-      "Mixed – Active — 3",
-      "Mixed – Lapsed — 2",
-      "UNC – No Primary — 27",
-      "UNC – Lapsed D — 8"
+      "UNC – Lapsed R — 2",
+      "Mixed – Active — 6",
+      "Mixed – Lapsed — 0",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 25",
+      "UNC – Lapsed D — 7"
     ],
     "datasets": [
       {
         "data": [
-          3,
-          3,
           2,
-          27,
-          8
+          6,
+          0,
+          0,
+          25,
+          7
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "BELMORE VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

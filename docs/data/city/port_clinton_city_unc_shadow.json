@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 348",
-      "Mixed – Active — 219",
-      "Mixed – Lapsed — 331",
-      "UNC – No Primary — 1,668",
-      "UNC – Lapsed D — 565"
+      "UNC – Lapsed R — 369",
+      "Mixed – Active — 225",
+      "Mixed – Lapsed — 128",
+      "UNC – Non-partisan Ballot — 209",
+      "UNC – No Primary — 1,628",
+      "UNC – Lapsed D — 523"
     ],
     "datasets": [
       {
         "data": [
-          348,
-          219,
-          331,
-          1668,
-          565
+          369,
+          225,
+          128,
+          209,
+          1628,
+          523
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "PORT CLINTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

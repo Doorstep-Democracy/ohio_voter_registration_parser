@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 391",
-      "Mixed – Active — 201",
-      "Mixed – Lapsed — 207",
-      "UNC – No Primary — 728",
-      "UNC – Lapsed D — 223"
+      "UNC – Lapsed R — 434",
+      "Mixed – Active — 200",
+      "Mixed – Lapsed — 109",
+      "UNC – Non-partisan Ballot — 98",
+      "UNC – No Primary — 737",
+      "UNC – Lapsed D — 208"
     ],
     "datasets": [
       {
         "data": [
-          391,
-          201,
-          207,
-          728,
-          223
+          434,
+          200,
+          109,
+          98,
+          737,
+          208
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HOCKING TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 24 (13%)",
-      "UNC – Lapsed R — 19 (11%)",
-      "Mixed – Active — 10 (6%)",
-      "Mixed – Lapsed — 16 (9%)",
-      "UNC – No Primary — 93 (52%)",
+      "Pure R — 25 (14%)",
+      "UNC – Lapsed R — 18 (10%)",
+      "Mixed – Active — 11 (6%)",
+      "Mixed – Lapsed — 9 (5%)",
+      "UNC – Non-partisan Ballot — 7 (4%)",
+      "UNC – No Primary — 99 (54%)",
       "UNC – Lapsed D — 14 (8%)",
-      "Pure D — 4 (2%)"
+      "Pure D — 2 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          24,
-          19,
-          10,
-          16,
-          93,
+          25,
+          18,
+          11,
+          9,
+          7,
+          99,
           14,
-          4
+          2
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WOODSTOCK VILLAGE (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

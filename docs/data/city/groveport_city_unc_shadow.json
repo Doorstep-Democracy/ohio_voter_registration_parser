@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 446",
-      "Mixed – Active — 264",
-      "Mixed – Lapsed — 418",
-      "UNC – No Primary — 1,869",
-      "UNC – Lapsed D — 638"
+      "UNC – Lapsed R — 504",
+      "Mixed – Active — 281",
+      "Mixed – Lapsed — 165",
+      "UNC – Non-partisan Ballot — 209",
+      "UNC – No Primary — 1,876",
+      "UNC – Lapsed D — 583"
     ],
     "datasets": [
       {
         "data": [
-          446,
-          264,
-          418,
-          1869,
-          638
+          504,
+          281,
+          165,
+          209,
+          1876,
+          583
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "GROVEPORT CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

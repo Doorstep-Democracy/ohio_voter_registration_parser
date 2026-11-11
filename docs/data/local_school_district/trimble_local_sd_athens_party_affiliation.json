@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 149 (6%)",
-      "UNC – Lapsed R — 151 (6%)",
+      "Pure R — 147 (6%)",
+      "UNC – Lapsed R — 152 (6%)",
       "Mixed – Active — 189 (7%)",
-      "Mixed – Lapsed — 150 (6%)",
-      "UNC – No Primary — 1,099 (43%)",
-      "UNC – Lapsed D — 544 (21%)",
+      "Mixed – Lapsed — 115 (4%)",
+      "UNC – Non-partisan Ballot — 35 (1%)",
+      "UNC – No Primary — 1,112 (43%)",
+      "UNC – Lapsed D — 539 (21%)",
       "Pure D — 271 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          149,
-          151,
+          147,
+          152,
           189,
-          150,
-          1099,
-          544,
+          115,
+          35,
+          1112,
+          539,
           271
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Trimble Local Sd (Athens Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

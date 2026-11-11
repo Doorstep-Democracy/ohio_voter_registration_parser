@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 787 (18%)",
-      "UNC – Lapsed R — 621 (14%)",
-      "Mixed – Active — 295 (7%)",
-      "Mixed – Lapsed — 378 (9%)",
-      "UNC – No Primary — 1,816 (42%)",
-      "UNC – Lapsed D — 287 (7%)",
-      "Pure D — 122 (3%)"
+      "Pure R — 703 (16%)",
+      "UNC – Lapsed R — 711 (17%)",
+      "Mixed – Active — 289 (7%)",
+      "Mixed – Lapsed — 185 (4%)",
+      "UNC – Non-partisan Ballot — 197 (5%)",
+      "UNC – No Primary — 1,797 (42%)",
+      "UNC – Lapsed D — 275 (6%)",
+      "Pure D — 145 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          787,
-          621,
-          295,
-          378,
-          1816,
-          287,
-          122
+          703,
+          711,
+          289,
+          185,
+          197,
+          1797,
+          275,
+          145
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "DELPHOS CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

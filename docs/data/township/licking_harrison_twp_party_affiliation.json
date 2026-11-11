@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,633 (23%)",
-      "UNC – Lapsed R — 878 (13%)",
-      "Mixed – Active — 582 (8%)",
-      "Mixed – Lapsed — 803 (12%)",
-      "UNC – No Primary — 2,126 (31%)",
-      "UNC – Lapsed D — 677 (10%)",
-      "Pure D — 260 (4%)"
+      "Pure R — 1,547 (22%)",
+      "UNC – Lapsed R — 953 (14%)",
+      "Mixed – Active — 607 (9%)",
+      "Mixed – Lapsed — 307 (4%)",
+      "UNC – Non-partisan Ballot — 482 (7%)",
+      "UNC – No Primary — 2,120 (30%)",
+      "UNC – Lapsed D — 611 (9%)",
+      "Pure D — 378 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1633,
-          878,
-          582,
-          803,
-          2126,
-          677,
-          260
+          1547,
+          953,
+          607,
+          307,
+          482,
+          2120,
+          611,
+          378
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

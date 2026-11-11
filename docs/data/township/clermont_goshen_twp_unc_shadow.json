@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,293",
-      "Mixed – Active — 587",
-      "Mixed – Lapsed — 713",
-      "UNC – No Primary — 4,884",
-      "UNC – Lapsed D — 737"
+      "UNC – Lapsed R — 1,325",
+      "Mixed – Active — 633",
+      "Mixed – Lapsed — 271",
+      "UNC – Non-partisan Ballot — 438",
+      "UNC – No Primary — 4,975",
+      "UNC – Lapsed D — 679"
     ],
     "datasets": [
       {
         "data": [
-          1293,
-          587,
-          713,
-          4884,
-          737
+          1325,
+          633,
+          271,
+          438,
+          4975,
+          679
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GOSHEN TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

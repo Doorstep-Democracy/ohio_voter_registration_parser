@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 371 (22%)",
-      "UNC – Lapsed R — 273 (16%)",
+      "Pure R — 369 (22%)",
+      "UNC – Lapsed R — 272 (16%)",
       "Mixed – Active — 158 (9%)",
-      "Mixed – Lapsed — 101 (6%)",
-      "UNC – No Primary — 561 (33%)",
-      "UNC – Lapsed D — 149 (9%)",
+      "Mixed – Lapsed — 97 (6%)",
+      "UNC – Non-partisan Ballot — 4 (0%)",
+      "UNC – No Primary — 570 (34%)",
+      "UNC – Lapsed D — 148 (9%)",
       "Pure D — 65 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          371,
-          273,
+          369,
+          272,
           158,
-          101,
-          561,
-          149,
+          97,
+          4,
+          570,
+          148,
           65
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LAWRENCE TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

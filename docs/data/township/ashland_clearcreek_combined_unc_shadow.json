@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 149",
-      "Mixed – Active — 73",
-      "Mixed – Lapsed — 79",
-      "UNC – No Primary — 520",
-      "UNC – Lapsed D — 75"
+      "UNC – Lapsed R — 181",
+      "Mixed – Active — 63",
+      "Mixed – Lapsed — 44",
+      "UNC – Non-partisan Ballot — 45",
+      "UNC – No Primary — 515",
+      "UNC – Lapsed D — 74"
     ],
     "datasets": [
       {
         "data": [
-          149,
-          73,
-          79,
-          520,
-          75
+          181,
+          63,
+          44,
+          45,
+          515,
+          74
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CLEARCREEK-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

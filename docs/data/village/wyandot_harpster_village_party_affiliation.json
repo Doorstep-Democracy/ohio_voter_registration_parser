@@ -4,22 +4,24 @@
   "chartConfig": {
     "labels": [
       "Pure R — 38 (31%)",
-      "UNC – Lapsed R — 18 (15%)",
-      "Mixed – Active — 12 (10%)",
-      "Mixed – Lapsed — 8 (7%)",
-      "UNC – No Primary — 35 (29%)",
-      "UNC – Lapsed D — 6 (5%)",
+      "UNC – Lapsed R — 20 (16%)",
+      "Mixed – Active — 14 (11%)",
+      "Mixed – Lapsed — 5 (4%)",
+      "UNC – Non-partisan Ballot — 2 (2%)",
+      "UNC – No Primary — 35 (28%)",
+      "UNC – Lapsed D — 5 (4%)",
       "Pure D — 4 (3%)"
     ],
     "datasets": [
       {
         "data": [
           38,
-          18,
-          12,
-          8,
+          20,
+          14,
+          5,
+          2,
           35,
-          6,
+          5,
           4
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HARPSTER VILLAGE (Wyandot Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 83",
-      "Mixed – Active — 39",
-      "Mixed – Lapsed — 41",
-      "UNC – No Primary — 232",
-      "UNC – Lapsed D — 40"
+      "UNC – Lapsed R — 101",
+      "Mixed – Active — 42",
+      "Mixed – Lapsed — 27",
+      "UNC – Non-partisan Ballot — 15",
+      "UNC – No Primary — 224",
+      "UNC – Lapsed D — 41"
     ],
     "datasets": [
       {
         "data": [
-          83,
-          39,
-          41,
-          232,
-          40
+          101,
+          42,
+          27,
+          15,
+          224,
+          41
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CONCORD TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

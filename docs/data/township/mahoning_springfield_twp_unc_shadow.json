@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 402",
-      "Mixed – Active — 928",
-      "Mixed – Lapsed — 372",
-      "UNC – No Primary — 1,539",
-      "UNC – Lapsed D — 668"
+      "UNC – Lapsed R — 404",
+      "Mixed – Active — 944",
+      "Mixed – Lapsed — 288",
+      "UNC – Non-partisan Ballot — 98",
+      "UNC – No Primary — 1,490",
+      "UNC – Lapsed D — 631"
     ],
     "datasets": [
       {
         "data": [
-          402,
-          928,
-          372,
-          1539,
-          668
+          404,
+          944,
+          288,
+          98,
+          1490,
+          631
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

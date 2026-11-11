@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 221 (31%)",
-      "UNC – Lapsed R — 84 (12%)",
-      "Mixed – Active — 47 (7%)",
-      "Mixed – Lapsed — 24 (3%)",
-      "UNC – No Primary — 254 (36%)",
-      "UNC – Lapsed D — 56 (8%)",
-      "Pure D — 24 (3%)"
+      "UNC – Lapsed R — 86 (12%)",
+      "Mixed – Active — 44 (6%)",
+      "Mixed – Lapsed — 25 (3%)",
+      "UNC – Non-partisan Ballot — 2 (0%)",
+      "UNC – No Primary — 260 (36%)",
+      "UNC – Lapsed D — 55 (8%)",
+      "Pure D — 26 (4%)"
     ],
     "datasets": [
       {
         "data": [
           221,
-          84,
-          47,
-          24,
-          254,
-          56,
-          24
+          86,
+          44,
+          25,
+          2,
+          260,
+          55,
+          26
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BRUSH CREEK TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

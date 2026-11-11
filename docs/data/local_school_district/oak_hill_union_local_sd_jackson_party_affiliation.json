@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 613 (14%)",
-      "UNC – Lapsed R — 814 (18%)",
-      "Mixed – Active — 291 (6%)",
-      "Mixed – Lapsed — 332 (7%)",
-      "UNC – No Primary — 2,008 (45%)",
-      "UNC – Lapsed D — 337 (8%)",
-      "Pure D — 95 (2%)"
+      "Pure R — 608 (14%)",
+      "UNC – Lapsed R — 811 (18%)",
+      "Mixed – Active — 290 (6%)",
+      "Mixed – Lapsed — 296 (7%)",
+      "UNC – Non-partisan Ballot — 37 (1%)",
+      "UNC – No Primary — 2,014 (45%)",
+      "UNC – Lapsed D — 336 (7%)",
+      "Pure D — 97 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          613,
-          814,
-          291,
-          332,
-          2008,
-          337,
-          95
+          608,
+          811,
+          290,
+          296,
+          37,
+          2014,
+          336,
+          97
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Oak Hill Union Local Sd (Jackson Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

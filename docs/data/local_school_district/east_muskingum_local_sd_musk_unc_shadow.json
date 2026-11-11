@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,473",
-      "Mixed – Active — 619",
-      "Mixed – Lapsed — 807",
-      "UNC – No Primary — 2,735",
-      "UNC – Lapsed D — 626"
+      "UNC – Lapsed R — 1,470",
+      "Mixed – Active — 616",
+      "Mixed – Lapsed — 413",
+      "UNC – Non-partisan Ballot — 391",
+      "UNC – No Primary — 2,780",
+      "UNC – Lapsed D — 630"
     ],
     "datasets": [
       {
         "data": [
-          1473,
-          619,
-          807,
-          2735,
-          626
+          1470,
+          616,
+          413,
+          391,
+          2780,
+          630
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "East Muskingum Local Sd (Musk Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

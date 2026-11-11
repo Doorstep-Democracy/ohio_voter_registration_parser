@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 179",
-      "Mixed – Active — 208",
-      "Mixed – Lapsed — 135",
-      "UNC – No Primary — 585",
-      "UNC – Lapsed D — 254"
+      "UNC – Lapsed R — 192",
+      "Mixed – Active — 213",
+      "Mixed – Lapsed — 80",
+      "UNC – Non-partisan Ballot — 53",
+      "UNC – No Primary — 592",
+      "UNC – Lapsed D — 225"
     ],
     "datasets": [
       {
         "data": [
-          179,
-          208,
-          135,
-          585,
-          254
+          192,
+          213,
+          80,
+          53,
+          592,
+          225
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ALEXANDER TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 650 (23%)",
-      "UNC – Lapsed R — 289 (10%)",
-      "Mixed – Active — 314 (11%)",
-      "Mixed – Lapsed — 303 (11%)",
-      "UNC – No Primary — 974 (34%)",
-      "UNC – Lapsed D — 235 (8%)",
-      "Pure D — 109 (4%)"
+      "Pure R — 665 (23%)",
+      "UNC – Lapsed R — 292 (10%)",
+      "Mixed – Active — 341 (12%)",
+      "Mixed – Lapsed — 88 (3%)",
+      "UNC – Non-partisan Ballot — 178 (6%)",
+      "UNC – No Primary — 971 (34%)",
+      "UNC – Lapsed D — 204 (7%)",
+      "Pure D — 137 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          650,
-          289,
-          314,
-          303,
-          974,
-          235,
-          109
+          665,
+          292,
+          341,
+          88,
+          178,
+          971,
+          204,
+          137
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WARREN TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

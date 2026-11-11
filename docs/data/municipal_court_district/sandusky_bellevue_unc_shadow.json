@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 511",
-      "Mixed – Active — 391",
-      "Mixed – Lapsed — 404",
-      "UNC – No Primary — 1,682",
-      "UNC – Lapsed D — 395"
+      "UNC – Lapsed R — 483",
+      "Mixed – Active — 438",
+      "Mixed – Lapsed — 132",
+      "UNC – Non-partisan Ballot — 226",
+      "UNC – No Primary — 1,577",
+      "UNC – Lapsed D — 340"
     ],
     "datasets": [
       {
         "data": [
-          511,
-          391,
-          404,
-          1682,
-          395
+          483,
+          438,
+          132,
+          226,
+          1577,
+          340
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "BELLEVUE (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

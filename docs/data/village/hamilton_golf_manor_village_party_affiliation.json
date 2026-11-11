@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 85 (3%)",
-      "UNC – Lapsed R — 71 (3%)",
-      "Mixed – Active — 73 (3%)",
-      "Mixed – Lapsed — 99 (4%)",
-      "UNC – No Primary — 1,382 (51%)",
-      "UNC – Lapsed D — 678 (25%)",
-      "Pure D — 314 (12%)"
+      "Pure R — 78 (3%)",
+      "UNC – Lapsed R — 88 (3%)",
+      "Mixed – Active — 77 (3%)",
+      "Mixed – Lapsed — 47 (2%)",
+      "UNC – Non-partisan Ballot — 42 (2%)",
+      "UNC – No Primary — 1,394 (50%)",
+      "UNC – Lapsed D — 603 (22%)",
+      "Pure D — 442 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          85,
-          71,
-          73,
-          99,
-          1382,
-          678,
-          314
+          78,
+          88,
+          77,
+          47,
+          42,
+          1394,
+          603,
+          442
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GOLF MANOR VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

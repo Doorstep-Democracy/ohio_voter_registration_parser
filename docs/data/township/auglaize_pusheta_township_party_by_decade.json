@@ -17,12 +17,12 @@
         "label": "Pure R",
         "data": [
           2,
+          42,
+          63,
           46,
-          74,
-          52,
           32,
-          30,
-          14,
+          27,
+          12,
           7
         ],
         "backgroundColor": "#ef4444",
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          4,
-          27,
-          41,
-          29,
-          35,
-          15,
-          0
+          7,
+          40,
+          45,
+          33,
+          40,
+          19,
+          1
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,11 +46,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          14,
-          29,
-          12,
-          4,
+          0,
+          11,
+          24,
+          10,
+          5,
           4,
           1,
           0
@@ -62,28 +62,43 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          1,
-          10,
-          4,
+          3,
           11,
-          10,
-          4,
+          6,
+          5,
+          7,
+          1,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
+          1,
+          0,
+          2,
           2,
           6,
-          25,
-          41,
-          63,
+          3,
+          3,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          1,
+          5,
+          23,
+          42,
           60,
-          78,
-          68
+          61,
+          75,
+          69
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -93,11 +108,11 @@
         "data": [
           0,
           2,
-          22,
+          20,
           6,
-          10,
+          9,
           4,
-          4,
+          5,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -107,8 +122,8 @@
         "label": "Pure D",
         "data": [
           0,
-          13,
-          7,
+          11,
+          9,
           2,
           1,
           0,
@@ -120,8 +135,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PUSHETA TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

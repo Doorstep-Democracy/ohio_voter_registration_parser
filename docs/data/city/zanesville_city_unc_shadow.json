@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,319",
-      "Mixed – Active — 820",
-      "Mixed – Lapsed — 829",
-      "UNC – No Primary — 6,661",
-      "UNC – Lapsed D — 1,666"
+      "UNC – Lapsed R — 1,420",
+      "Mixed – Active — 785",
+      "Mixed – Lapsed — 668",
+      "UNC – Non-partisan Ballot — 203",
+      "UNC – No Primary — 6,767",
+      "UNC – Lapsed D — 1,613"
     ],
     "datasets": [
       {
         "data": [
-          1319,
-          820,
-          829,
-          6661,
-          1666
+          1420,
+          785,
+          668,
+          203,
+          6767,
+          1613
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "ZANESVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

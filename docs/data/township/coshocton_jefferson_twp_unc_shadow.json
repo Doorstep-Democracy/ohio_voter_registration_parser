@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 91",
-      "Mixed – Active — 143",
-      "Mixed – Lapsed — 60",
-      "UNC – No Primary — 302",
-      "UNC – Lapsed D — 60"
+      "UNC – Lapsed R — 98",
+      "Mixed – Active — 150",
+      "Mixed – Lapsed — 33",
+      "UNC – Non-partisan Ballot — 22",
+      "UNC – No Primary — 295",
+      "UNC – Lapsed D — 50"
     ],
     "datasets": [
       {
         "data": [
-          91,
-          143,
-          60,
-          302,
-          60
+          98,
+          150,
+          33,
+          22,
+          295,
+          50
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

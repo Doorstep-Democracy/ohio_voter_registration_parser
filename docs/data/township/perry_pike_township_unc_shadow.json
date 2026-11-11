@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 312",
-      "Mixed – Active — 400",
-      "Mixed – Lapsed — 210",
-      "UNC – No Primary — 1,794",
-      "UNC – Lapsed D — 496"
+      "UNC – Lapsed R — 330",
+      "Mixed – Active — 423",
+      "Mixed – Lapsed — 139",
+      "UNC – Non-partisan Ballot — 82",
+      "UNC – No Primary — 1,789",
+      "UNC – Lapsed D — 462"
     ],
     "datasets": [
       {
         "data": [
-          312,
-          400,
-          210,
-          1794,
-          496
+          330,
+          423,
+          139,
+          82,
+          1789,
+          462
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PIKE TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

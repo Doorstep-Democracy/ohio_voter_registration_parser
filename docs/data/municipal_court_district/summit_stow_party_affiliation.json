@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 17,633 (12%)",
-      "UNC – Lapsed R — 12,703 (9%)",
-      "Mixed – Active — 14,073 (10%)",
-      "Mixed – Lapsed — 14,197 (10%)",
-      "UNC – No Primary — 50,889 (36%)",
-      "UNC – Lapsed D — 20,562 (14%)",
-      "Pure D — 13,159 (9%)"
+      "Pure R — 16,741 (12%)",
+      "UNC – Lapsed R — 13,640 (9%)",
+      "Mixed – Active — 14,718 (10%)",
+      "Mixed – Lapsed — 6,764 (5%)",
+      "UNC – Non-partisan Ballot — 7,020 (5%)",
+      "UNC – No Primary — 49,625 (34%)",
+      "UNC – Lapsed D — 18,404 (13%)",
+      "Pure D — 17,644 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          17633,
-          12703,
-          14073,
-          14197,
-          50889,
-          20562,
-          13159
+          16741,
+          13640,
+          14718,
+          6764,
+          7020,
+          49625,
+          18404,
+          17644
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "STOW (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

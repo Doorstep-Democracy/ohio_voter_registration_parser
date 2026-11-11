@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 767 (37%)",
-      "UNC – Lapsed R — 278 (13%)",
-      "Mixed – Active — 367 (18%)",
-      "Mixed – Lapsed — 108 (5%)",
-      "UNC – No Primary — 455 (22%)",
-      "UNC – Lapsed D — 70 (3%)",
-      "Pure D — 49 (2%)"
+      "Pure R — 764 (37%)",
+      "UNC – Lapsed R — 282 (13%)",
+      "Mixed – Active — 365 (17%)",
+      "Mixed – Lapsed — 80 (4%)",
+      "UNC – Non-partisan Ballot — 26 (1%)",
+      "UNC – No Primary — 459 (22%)",
+      "UNC – Lapsed D — 67 (3%)",
+      "Pure D — 48 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          767,
-          278,
-          367,
-          108,
-          455,
-          70,
-          49
+          764,
+          282,
+          365,
+          80,
+          26,
+          459,
+          67,
+          48
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

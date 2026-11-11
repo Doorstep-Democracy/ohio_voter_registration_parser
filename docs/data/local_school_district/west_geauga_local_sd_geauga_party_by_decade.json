@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           6,
-          121,
-          460,
-          818,
-          737,
-          382,
-          238,
-          160,
-          100
+          116,
+          451,
+          814,
+          738,
+          381,
+          233,
+          158,
+          97
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           6,
-          65,
+          58,
           173,
-          347,
-          560,
-          412,
-          350,
-          268,
-          40
+          346,
+          552,
+          418,
+          349,
+          270,
+          39
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           4,
-          91,
-          480,
-          818,
-          545,
-          227,
-          131,
+          89,
+          476,
+          813,
+          544,
+          224,
+          132,
           35,
           10
         ],
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          69,
-          211,
-          378,
-          423,
-          284,
-          206,
-          69,
-          25
+          53,
+          163,
+          255,
+          302,
+          159,
+          104,
+          22,
+          3
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          8,
+          37,
+          121,
+          122,
+          126,
+          110,
+          51,
+          22
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           3,
-          28,
-          112,
-          294,
-          466,
-          594,
-          888,
-          1203,
-          1302
+          33,
+          113,
+          299,
+          473,
+          606,
+          894,
+          1234,
+          1371
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +114,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          63,
-          132,
-          245,
-          329,
-          307,
+          64,
+          125,
+          244,
+          330,
+          305,
           285,
-          193,
+          195,
           48
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           4,
-          30,
-          144,
-          246,
-          185,
-          99,
-          111,
-          69,
-          60
+          27,
+          140,
+          241,
+          183,
+          98,
+          110,
+          67,
+          56
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "West Geauga Local Sd (Geauga Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

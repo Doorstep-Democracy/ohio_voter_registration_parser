@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 514 (13%)",
-      "UNC – Lapsed R — 418 (10%)",
-      "Mixed – Active — 407 (10%)",
-      "Mixed – Lapsed — 389 (10%)",
-      "UNC – No Primary — 1,601 (40%)",
-      "UNC – Lapsed D — 428 (11%)",
-      "Pure D — 269 (7%)"
+      "Pure R — 518 (13%)",
+      "UNC – Lapsed R — 441 (11%)",
+      "Mixed – Active — 403 (10%)",
+      "Mixed – Lapsed — 176 (4%)",
+      "UNC – Non-partisan Ballot — 204 (5%)",
+      "UNC – No Primary — 1,602 (40%)",
+      "UNC – Lapsed D — 410 (10%)",
+      "Pure D — 293 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          514,
-          418,
-          407,
-          389,
-          1601,
-          428,
-          269
+          518,
+          441,
+          403,
+          176,
+          204,
+          1602,
+          410,
+          293
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WELLINGTON TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

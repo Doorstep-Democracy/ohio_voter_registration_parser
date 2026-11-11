@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 204 (22%)",
-      "UNC – Lapsed R — 142 (15%)",
-      "Mixed – Active — 74 (8%)",
-      "Mixed – Lapsed — 54 (6%)",
-      "UNC – No Primary — 359 (39%)",
-      "UNC – Lapsed D — 71 (8%)",
-      "Pure D — 18 (2%)"
+      "Pure R — 209 (23%)",
+      "UNC – Lapsed R — 143 (15%)",
+      "Mixed – Active — 69 (7%)",
+      "Mixed – Lapsed — 41 (4%)",
+      "UNC – Non-partisan Ballot — 19 (2%)",
+      "UNC – No Primary — 353 (38%)",
+      "UNC – Lapsed D — 70 (8%)",
+      "Pure D — 21 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          204,
-          142,
-          74,
-          54,
-          359,
-          71,
-          18
+          209,
+          143,
+          69,
+          41,
+          19,
+          353,
+          70,
+          21
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HALE TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,939 (17%)",
-      "UNC – Lapsed R — 1,608 (14%)",
-      "Mixed – Active — 1,097 (9%)",
-      "Mixed – Lapsed — 1,977 (17%)",
-      "UNC – No Primary — 3,185 (27%)",
-      "UNC – Lapsed D — 1,070 (9%)",
-      "Pure D — 771 (7%)"
+      "Pure R — 1,929 (16%)",
+      "UNC – Lapsed R — 1,618 (14%)",
+      "Mixed – Active — 1,091 (9%)",
+      "Mixed – Lapsed — 508 (4%)",
+      "UNC – Non-partisan Ballot — 1,467 (13%)",
+      "UNC – No Primary — 3,253 (28%)",
+      "UNC – Lapsed D — 1,074 (9%)",
+      "Pure D — 760 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1939,
-          1608,
-          1097,
-          1977,
-          3185,
-          1070,
-          771
+          1929,
+          1618,
+          1091,
+          508,
+          1467,
+          3253,
+          1074,
+          760
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Buckeye Local Sd (Medina Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

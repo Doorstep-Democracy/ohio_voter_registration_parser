@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,703 (21%)",
-      "UNC – Lapsed R — 1,544 (19%)",
-      "Mixed – Active — 571 (7%)",
-      "Mixed – Lapsed — 511 (6%)",
-      "UNC – No Primary — 2,922 (37%)",
-      "UNC – Lapsed D — 453 (6%)",
-      "Pure D — 233 (3%)"
+      "Pure R — 1,694 (21%)",
+      "UNC – Lapsed R — 1,529 (19%)",
+      "Mixed – Active — 568 (7%)",
+      "Mixed – Lapsed — 328 (4%)",
+      "UNC – Non-partisan Ballot — 177 (2%)",
+      "UNC – No Primary — 2,967 (37%)",
+      "UNC – Lapsed D — 455 (6%)",
+      "Pure D — 230 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1703,
-          1544,
-          571,
-          511,
-          2922,
-          453,
-          233
+          1694,
+          1529,
+          568,
+          328,
+          177,
+          2967,
+          455,
+          230
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Benjamin Logan Local Sd (Logan Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

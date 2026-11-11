@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 709",
-      "Mixed – Active — 230",
-      "Mixed – Lapsed — 337",
-      "UNC – No Primary — 1,517",
-      "UNC – Lapsed D — 278"
+      "UNC – Lapsed R — 508",
+      "Mixed – Active — 364",
+      "Mixed – Lapsed — 189",
+      "UNC – Non-partisan Ballot — 101",
+      "UNC – No Primary — 1,354",
+      "UNC – Lapsed D — 213"
     ],
     "datasets": [
       {
         "data": [
-          709,
-          230,
-          337,
-          1517,
-          278
+          508,
+          364,
+          189,
+          101,
+          1354,
+          213
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "JACKSON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

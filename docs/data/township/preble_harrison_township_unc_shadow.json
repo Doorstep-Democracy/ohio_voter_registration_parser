@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 427",
-      "Mixed – Active — 285",
-      "Mixed – Lapsed — 210",
-      "UNC – No Primary — 1,163",
-      "UNC – Lapsed D — 200"
+      "UNC – Lapsed R — 454",
+      "Mixed – Active — 282",
+      "Mixed – Lapsed — 126",
+      "UNC – Non-partisan Ballot — 89",
+      "UNC – No Primary — 1,157",
+      "UNC – Lapsed D — 187"
     ],
     "datasets": [
       {
         "data": [
-          427,
-          285,
-          210,
-          1163,
-          200
+          454,
+          282,
+          126,
+          89,
+          1157,
+          187
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

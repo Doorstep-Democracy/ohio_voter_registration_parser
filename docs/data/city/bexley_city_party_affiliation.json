@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 624 (6%)",
-      "UNC – Lapsed R — 841 (9%)",
-      "Mixed – Active — 776 (8%)",
-      "Mixed – Lapsed — 763 (8%)",
-      "UNC – No Primary — 3,387 (35%)",
-      "UNC – Lapsed D — 1,644 (17%)",
-      "Pure D — 1,574 (16%)"
+      "Pure R — 511 (5%)",
+      "UNC – Lapsed R — 926 (9%)",
+      "Mixed – Active — 799 (8%)",
+      "Mixed – Lapsed — 546 (6%)",
+      "UNC – Non-partisan Ballot — 228 (2%)",
+      "UNC – No Primary — 3,327 (34%)",
+      "UNC – Lapsed D — 1,629 (17%)",
+      "Pure D — 1,854 (19%)"
     ],
     "datasets": [
       {
         "data": [
-          624,
-          841,
-          776,
-          763,
-          3387,
-          1644,
-          1574
+          511,
+          926,
+          799,
+          546,
+          228,
+          3327,
+          1629,
+          1854
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BEXLEY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 757 (13%)",
-      "UNC – Lapsed R — 474 (8%)",
-      "Mixed – Active — 1,122 (19%)",
-      "Mixed – Lapsed — 462 (8%)",
-      "UNC – No Primary — 1,743 (29%)",
-      "UNC – Lapsed D — 802 (13%)",
-      "Pure D — 633 (11%)"
+      "Pure R — 751 (13%)",
+      "UNC – Lapsed R — 475 (8%)",
+      "Mixed – Active — 1,110 (18%)",
+      "Mixed – Lapsed — 336 (6%)",
+      "UNC – Non-partisan Ballot — 124 (2%)",
+      "UNC – No Primary — 1,779 (30%)",
+      "UNC – Lapsed D — 798 (13%)",
+      "Pure D — 631 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          757,
-          474,
-          1122,
-          462,
-          1743,
-          802,
-          633
+          751,
+          475,
+          1110,
+          336,
+          124,
+          1779,
+          798,
+          631
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Springfield Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

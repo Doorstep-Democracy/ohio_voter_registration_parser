@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 215 (22%)",
-      "UNC – Lapsed R — 79 (8%)",
-      "Mixed – Active — 140 (14%)",
-      "Mixed – Lapsed — 66 (7%)",
-      "UNC – No Primary — 341 (34%)",
-      "UNC – Lapsed D — 89 (9%)",
-      "Pure D — 63 (6%)"
+      "Pure R — 203 (20%)",
+      "UNC – Lapsed R — 89 (9%)",
+      "Mixed – Active — 141 (14%)",
+      "Mixed – Lapsed — 34 (3%)",
+      "UNC – Non-partisan Ballot — 31 (3%)",
+      "UNC – No Primary — 346 (35%)",
+      "UNC – Lapsed D — 81 (8%)",
+      "Pure D — 74 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          215,
-          79,
-          140,
-          66,
-          341,
+          203,
           89,
-          63
+          141,
+          34,
+          31,
+          346,
+          81,
+          74
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SHEFFIELD TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

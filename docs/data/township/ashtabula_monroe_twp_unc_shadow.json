@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 90",
-      "Mixed – Active — 157",
-      "Mixed – Lapsed — 106",
-      "UNC – No Primary — 461",
-      "UNC – Lapsed D — 99"
+      "UNC – Lapsed R — 107",
+      "Mixed – Active — 154",
+      "Mixed – Lapsed — 48",
+      "UNC – Non-partisan Ballot — 60",
+      "UNC – No Primary — 469",
+      "UNC – Lapsed D — 87"
     ],
     "datasets": [
       {
         "data": [
-          90,
-          157,
-          106,
-          461,
-          99
+          107,
+          154,
+          48,
+          60,
+          469,
+          87
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MONROE TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

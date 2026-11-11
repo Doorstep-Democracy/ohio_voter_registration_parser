@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 90",
-      "Mixed – Active — 104",
-      "Mixed – Lapsed — 95",
-      "UNC – No Primary — 200",
-      "UNC – Lapsed D — 106"
+      "UNC – Lapsed R — 105",
+      "Mixed – Active — 96",
+      "Mixed – Lapsed — 93",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 195",
+      "UNC – Lapsed D — 105"
     ],
     "datasets": [
       {
         "data": [
-          90,
-          104,
-          95,
-          200,
-          106
+          105,
+          96,
+          93,
+          9,
+          195,
+          105
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TOWNSHIP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

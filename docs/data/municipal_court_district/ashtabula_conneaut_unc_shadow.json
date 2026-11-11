@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 772",
-      "Mixed – Active — 1,190",
-      "Mixed – Lapsed — 962",
-      "UNC – No Primary — 4,666",
-      "UNC – Lapsed D — 1,550"
+      "UNC – Lapsed R — 876",
+      "Mixed – Active — 1,147",
+      "Mixed – Lapsed — 504",
+      "UNC – Non-partisan Ballot — 466",
+      "UNC – No Primary — 4,654",
+      "UNC – Lapsed D — 1,465"
     ],
     "datasets": [
       {
         "data": [
-          772,
-          1190,
-          962,
-          4666,
-          1550
+          876,
+          1147,
+          504,
+          466,
+          4654,
+          1465
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "CONNEAUT (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

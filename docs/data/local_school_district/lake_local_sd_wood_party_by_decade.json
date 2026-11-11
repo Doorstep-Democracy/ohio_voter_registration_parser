@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          18,
-          128,
-          227,
-          191,
-          107,
-          85,
+          17,
+          125,
+          228,
+          192,
+          104,
+          84,
           58,
-          22
+          20
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          13,
-          72,
-          121,
+          12,
+          69,
+          120,
           152,
           147,
-          115,
-          81,
-          10
+          117,
+          86,
+          14
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          30,
-          129,
-          193,
-          160,
-          64,
-          55,
-          9,
+          28,
+          127,
+          192,
+          159,
+          63,
+          54,
+          8,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          19,
-          72,
-          145,
-          155,
-          132,
-          80,
-          46,
-          14
+          13,
+          48,
+          90,
+          77,
+          63,
+          26,
+          9,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          23,
+          54,
+          79,
+          71,
+          52,
+          36,
+          16
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          10,
-          84,
-          194,
-          297,
-          422,
-          531,
-          814,
-          641
+          9,
+          82,
+          198,
+          300,
+          428,
+          541,
+          838,
+          668
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          5,
-          34,
-          134,
-          242,
+          4,
+          30,
+          133,
+          239,
           239,
           217,
           139,
-          83,
-          16
+          82,
+          15
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           1,
-          24,
+          22,
           141,
-          203,
-          110,
+          200,
+          107,
           58,
-          52,
-          37,
-          28
+          53,
+          38,
+          27
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Lake Local Sd (Wood Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

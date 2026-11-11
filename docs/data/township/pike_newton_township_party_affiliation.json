@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 181 (15%)",
-      "UNC – Lapsed R — 110 (9%)",
-      "Mixed – Active — 102 (8%)",
-      "Mixed – Lapsed — 42 (3%)",
-      "UNC – No Primary — 606 (50%)",
-      "UNC – Lapsed D — 151 (12%)",
-      "Pure D — 30 (2%)"
+      "UNC – Lapsed R — 122 (10%)",
+      "Mixed – Active — 104 (8%)",
+      "Mixed – Lapsed — 31 (3%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 599 (49%)",
+      "UNC – Lapsed D — 148 (12%)",
+      "Pure D — 32 (3%)"
     ],
     "datasets": [
       {
         "data": [
           181,
-          110,
-          102,
-          42,
-          606,
-          151,
-          30
+          122,
+          104,
+          31,
+          9,
+          599,
+          148,
+          32
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEWTON TOWNSHIP (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

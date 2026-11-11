@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 128",
-      "Mixed – Active — 69",
-      "Mixed – Lapsed — 61",
-      "UNC – No Primary — 449",
-      "UNC – Lapsed D — 79"
+      "UNC – Lapsed R — 143",
+      "Mixed – Active — 56",
+      "Mixed – Lapsed — 60",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 452",
+      "UNC – Lapsed D — 87"
     ],
     "datasets": [
       {
         "data": [
-          128,
-          69,
-          61,
-          449,
-          79
+          143,
+          56,
+          60,
+          12,
+          452,
+          87
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "DRESDEN VILLAGE (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

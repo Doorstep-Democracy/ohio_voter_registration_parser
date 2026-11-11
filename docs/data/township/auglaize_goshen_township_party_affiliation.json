@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 92 (28%)",
-      "UNC – Lapsed R — 56 (17%)",
-      "Mixed – Active — 16 (5%)",
-      "Mixed – Lapsed — 17 (5%)",
-      "UNC – No Primary — 127 (38%)",
+      "Pure R — 74 (23%)",
+      "UNC – Lapsed R — 74 (23%)",
+      "Mixed – Active — 12 (4%)",
+      "Mixed – Lapsed — 12 (4%)",
+      "UNC – Non-partisan Ballot — 7 (2%)",
+      "UNC – No Primary — 126 (39%)",
       "UNC – Lapsed D — 13 (4%)",
       "Pure D — 9 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          92,
-          56,
-          16,
-          17,
-          127,
+          74,
+          74,
+          12,
+          12,
+          7,
+          126,
           13,
           9
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GOSHEN TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,621 (17%)",
-      "UNC – Lapsed R — 1,906 (20%)",
-      "Mixed – Active — 638 (7%)",
-      "Mixed – Lapsed — 836 (9%)",
-      "UNC – No Primary — 3,764 (39%)",
-      "UNC – Lapsed D — 812 (8%)",
-      "Pure D — 194 (2%)"
+      "Pure R — 2,228 (23%)",
+      "UNC – Lapsed R — 1,445 (15%)",
+      "Mixed – Active — 952 (10%)",
+      "Mixed – Lapsed — 491 (5%)",
+      "UNC – Non-partisan Ballot — 254 (3%)",
+      "UNC – No Primary — 3,372 (34%)",
+      "UNC – Lapsed D — 629 (6%)",
+      "Pure D — 414 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1621,
-          1906,
-          638,
-          836,
-          3764,
-          812,
-          194
+          2228,
+          1445,
+          952,
+          491,
+          254,
+          3372,
+          629,
+          414
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "JACKSON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

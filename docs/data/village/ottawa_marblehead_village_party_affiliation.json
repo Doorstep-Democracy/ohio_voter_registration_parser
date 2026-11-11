@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 130 (17%)",
-      "UNC – Lapsed R — 124 (16%)",
-      "Mixed – Active — 77 (10%)",
-      "Mixed – Lapsed — 108 (14%)",
-      "UNC – No Primary — 162 (21%)",
-      "UNC – Lapsed D — 113 (14%)",
-      "Pure D — 68 (9%)"
+      "Pure R — 111 (14%)",
+      "UNC – Lapsed R — 138 (18%)",
+      "Mixed – Active — 88 (11%)",
+      "Mixed – Lapsed — 43 (6%)",
+      "UNC – Non-partisan Ballot — 51 (7%)",
+      "UNC – No Primary — 168 (22%)",
+      "UNC – Lapsed D — 101 (13%)",
+      "Pure D — 80 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          130,
-          124,
-          77,
-          108,
-          162,
-          113,
-          68
+          111,
+          138,
+          88,
+          43,
+          51,
+          168,
+          101,
+          80
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MARBLEHEAD VILLAGE (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

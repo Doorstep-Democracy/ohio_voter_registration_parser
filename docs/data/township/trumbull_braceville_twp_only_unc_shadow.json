@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 121",
-      "Mixed – Active — 203",
-      "Mixed – Lapsed — 104",
-      "UNC – No Primary — 659",
-      "UNC – Lapsed D — 239"
+      "UNC – Lapsed R — 139",
+      "Mixed – Active — 195",
+      "Mixed – Lapsed — 60",
+      "UNC – Non-partisan Ballot — 51",
+      "UNC – No Primary — 647",
+      "UNC – Lapsed D — 249"
     ],
     "datasets": [
       {
         "data": [
-          121,
-          203,
-          104,
-          659,
-          239
+          139,
+          195,
+          60,
+          51,
+          647,
+          249
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BRACEVILLE TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

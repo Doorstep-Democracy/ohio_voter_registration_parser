@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,14 +16,13 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          11,
-          37,
-          64,
-          59,
-          41,
-          27,
-          14,
+          7,
+          32,
+          61,
+          60,
+          35,
+          29,
+          29,
           8
         ],
         "backgroundColor": "#ef4444",
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          3,
-          16,
+          5,
+          19,
           19,
           16,
-          25,
-          15,
-          22,
-          4
+          30,
+          14,
+          14,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +46,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          5,
-          8,
-          18,
-          26,
-          6,
           4,
-          0,
+          7,
+          19,
+          24,
+          12,
+          5,
+          1,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          2,
-          6,
-          14,
-          16,
-          9,
+          1,
+          3,
           7,
-          4,
+          7,
+          2,
+          3,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          4,
+          6,
+          11,
+          4,
+          6,
+          4,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
           0,
-          0,
           4,
           19,
-          27,
-          39,
-          43,
-          83,
-          69
+          26,
+          37,
+          40,
+          74,
+          67
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +106,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           1,
-          7,
-          13,
-          18,
           9,
           8,
+          18,
+          4,
           7,
+          5,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          1,
           2,
-          7,
-          3,
-          6,
           4,
-          0,
-          0,
-          0
+          6,
+          5,
+          7,
+          1,
+          3,
+          1
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HOLMES TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 314 (16%)",
-      "UNC – Lapsed R — 238 (12%)",
-      "Mixed – Active — 280 (14%)",
-      "Mixed – Lapsed — 184 (9%)",
-      "UNC – No Primary — 563 (28%)",
-      "UNC – Lapsed D — 242 (12%)",
-      "Pure D — 198 (10%)"
+      "Pure R — 271 (13%)",
+      "UNC – Lapsed R — 277 (14%)",
+      "Mixed – Active — 296 (15%)",
+      "Mixed – Lapsed — 117 (6%)",
+      "UNC – Non-partisan Ballot — 64 (3%)",
+      "UNC – No Primary — 530 (26%)",
+      "UNC – Lapsed D — 233 (11%)",
+      "Pure D — 241 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          314,
-          238,
-          280,
-          184,
-          563,
-          242,
-          198
+          271,
+          277,
+          296,
+          117,
+          64,
+          530,
+          233,
+          241
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SILVER LAKE VILLAGE (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

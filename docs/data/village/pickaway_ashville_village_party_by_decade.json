@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,15 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          0,
           13,
-          64,
-          102,
+          57,
+          98,
+          131,
           126,
-          118,
-          111,
-          83,
-          33
+          113,
+          87,
+          37
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           6,
-          16,
-          36,
-          42,
-          64,
-          53,
-          68,
-          14
+          19,
+          38,
+          40,
+          56,
+          55,
+          69,
+          16
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +46,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
           5,
-          34,
-          63,
-          75,
-          54,
-          27,
-          11,
-          1
+          33,
+          64,
+          81,
+          57,
+          32,
+          15,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          2,
+          1,
           13,
-          21,
-          35,
-          52,
-          49,
-          50,
-          29
+          17,
+          13,
+          18,
+          7,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          3,
+          7,
+          15,
+          35,
+          37,
+          41,
+          23
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
           6,
           16,
-          62,
-          95,
-          131,
-          238,
-          412,
-          314
+          58,
+          97,
+          130,
+          243,
+          431,
+          342
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +106,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           4,
-          17,
-          42,
-          39,
-          55,
-          87,
-          31,
-          4
+          16,
+          32,
+          37,
+          50,
+          82,
+          28,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          3,
-          15,
-          33,
-          17,
+          2,
           14,
-          27,
-          18,
-          6
+          40,
+          19,
+          20,
+          37,
+          28,
+          16
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ASHVILLE VILLAGE (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

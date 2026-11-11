@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 83",
-      "Mixed – Active — 72",
-      "Mixed – Lapsed — 29",
-      "UNC – No Primary — 233",
-      "UNC – Lapsed D — 40"
+      "UNC – Lapsed R — 98",
+      "Mixed – Active — 74",
+      "Mixed – Lapsed — 21",
+      "UNC – Non-partisan Ballot — 8",
+      "UNC – No Primary — 239",
+      "UNC – Lapsed D — 32"
     ],
     "datasets": [
       {
         "data": [
-          83,
-          72,
-          29,
-          233,
-          40
+          98,
+          74,
+          21,
+          8,
+          239,
+          32
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MARSHALL TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

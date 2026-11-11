@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 191",
+      "UNC – Lapsed R — 190",
       "Mixed – Active — 77",
-      "Mixed – Lapsed — 100",
-      "UNC – No Primary — 486",
+      "Mixed – Lapsed — 50",
+      "UNC – Non-partisan Ballot — 50",
+      "UNC – No Primary — 499",
       "UNC – Lapsed D — 105"
     ],
     "datasets": [
       {
         "data": [
-          191,
+          190,
           77,
-          100,
-          486,
+          50,
+          50,
+          499,
           105
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MONTGOMERY TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

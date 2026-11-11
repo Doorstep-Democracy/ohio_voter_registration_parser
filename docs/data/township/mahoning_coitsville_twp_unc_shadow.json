@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 37",
-      "Mixed – Active — 162",
-      "Mixed – Lapsed — 45",
-      "UNC – No Primary — 333",
-      "UNC – Lapsed D — 138"
+      "UNC – Lapsed R — 55",
+      "Mixed – Active — 148",
+      "Mixed – Lapsed — 53",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 319",
+      "UNC – Lapsed D — 154"
     ],
     "datasets": [
       {
         "data": [
-          37,
-          162,
-          45,
-          333,
-          138
+          55,
+          148,
+          53,
+          12,
+          319,
+          154
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "COITSVILLE TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

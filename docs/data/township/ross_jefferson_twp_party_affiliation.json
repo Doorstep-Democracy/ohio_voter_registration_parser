@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 88 (13%)",
-      "UNC – Lapsed R — 80 (12%)",
-      "Mixed – Active — 52 (8%)",
-      "Mixed – Lapsed — 58 (9%)",
-      "UNC – No Primary — 278 (42%)",
-      "UNC – Lapsed D — 82 (12%)",
-      "Pure D — 23 (3%)"
+      "UNC – Lapsed R — 84 (13%)",
+      "Mixed – Active — 48 (7%)",
+      "Mixed – Lapsed — 48 (7%)",
+      "UNC – Non-partisan Ballot — 13 (2%)",
+      "UNC – No Primary — 276 (42%)",
+      "UNC – Lapsed D — 72 (11%)",
+      "Pure D — 30 (5%)"
     ],
     "datasets": [
       {
         "data": [
           88,
-          80,
-          52,
-          58,
-          278,
-          82,
-          23
+          84,
+          48,
+          48,
+          13,
+          276,
+          72,
+          30
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

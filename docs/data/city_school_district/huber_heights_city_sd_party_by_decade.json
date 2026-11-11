@@ -19,15 +19,15 @@
         "label": "Pure R",
         "data": [
           0,
-          2,
-          105,
-          443,
-          827,
-          729,
-          410,
-          248,
-          167,
-          56
+          0,
+          76,
+          362,
+          742,
+          660,
+          365,
+          219,
+          139,
+          60
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -36,15 +36,15 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          1,
-          68,
-          206,
-          469,
-          573,
-          523,
-          430,
-          365,
-          35
+          2,
+          82,
+          268,
+          546,
+          654,
+          572,
+          467,
+          390,
+          46
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +52,16 @@
       {
         "label": "Mixed – Active",
         "data": [
+          0,
           1,
-          1,
-          68,
-          325,
-          563,
-          369,
-          170,
-          117,
-          33,
-          2
+          54,
+          290,
+          556,
+          362,
+          180,
+          106,
+          49,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,18 +69,35 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          2,
-          59,
-          211,
-          353,
-          473,
-          445,
-          450,
-          326,
-          179
+          1,
+          1,
+          56,
+          193,
+          225,
+          281,
+          197,
+          134,
+          30,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          5,
+          35,
+          127,
+          189,
+          230,
+          303,
+          258,
+          135
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -88,14 +105,14 @@
         "data": [
           0,
           1,
-          56,
-          240,
-          693,
-          1237,
-          1639,
-          2452,
-          3760,
-          2782
+          50,
+          228,
+          663,
+          1210,
+          1643,
+          2451,
+          3826,
+          3128
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -105,14 +122,14 @@
         "data": [
           1,
           1,
-          78,
-          272,
-          580,
-          730,
-          733,
-          747,
+          80,
+          269,
+          584,
+          703,
+          699,
+          728,
           416,
-          40
+          50
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -122,22 +139,22 @@
         "data": [
           0,
           3,
-          48,
-          271,
-          526,
-          389,
-          196,
-          179,
-          157,
-          47
+          33,
+          258,
+          524,
+          436,
+          258,
+          254,
+          243,
+          120
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "HUBER HEIGHTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 310",
-      "Mixed – Active — 335",
-      "Mixed – Lapsed — 228",
-      "UNC – No Primary — 1,121",
-      "UNC – Lapsed D — 274"
+      "UNC – Lapsed R — 312",
+      "Mixed – Active — 342",
+      "Mixed – Lapsed — 120",
+      "UNC – Non-partisan Ballot — 97",
+      "UNC – No Primary — 1,103",
+      "UNC – Lapsed D — 247"
     ],
     "datasets": [
       {
         "data": [
-          310,
-          335,
-          228,
-          1121,
-          274
+          312,
+          342,
+          120,
+          97,
+          1103,
+          247
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MARIETTA TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

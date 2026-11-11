@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 301",
-      "Mixed – Active — 327",
-      "Mixed – Lapsed — 226",
-      "UNC – No Primary — 855",
-      "UNC – Lapsed D — 207"
+      "UNC – Lapsed R — 342",
+      "Mixed – Active — 323",
+      "Mixed – Lapsed — 130",
+      "UNC – Non-partisan Ballot — 95",
+      "UNC – No Primary — 846",
+      "UNC – Lapsed D — 184"
     ],
     "datasets": [
       {
         "data": [
-          301,
-          327,
-          226,
-          855,
-          207
+          342,
+          323,
+          130,
+          95,
+          846,
+          184
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "KNOX TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

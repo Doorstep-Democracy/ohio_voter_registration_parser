@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,296 (15%)",
-      "UNC – Lapsed R — 2,072 (14%)",
-      "Mixed – Active — 1,781 (12%)",
-      "Mixed – Lapsed — 1,723 (12%)",
-      "UNC – No Primary — 4,397 (30%)",
-      "UNC – Lapsed D — 1,401 (9%)",
-      "Pure D — 1,153 (8%)"
+      "Pure R — 2,273 (15%)",
+      "UNC – Lapsed R — 2,075 (14%)",
+      "Mixed – Active — 1,767 (12%)",
+      "Mixed – Lapsed — 864 (6%)",
+      "UNC – Non-partisan Ballot — 873 (6%)",
+      "UNC – No Primary — 4,541 (30%)",
+      "UNC – Lapsed D — 1,429 (10%)",
+      "Pure D — 1,133 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          2296,
-          2072,
-          1781,
-          1723,
-          4397,
-          1401,
-          1153
+          2273,
+          2075,
+          1767,
+          864,
+          873,
+          4541,
+          1429,
+          1133
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Kenston Local Sd (Geauga Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 255 (16%)",
-      "UNC – Lapsed R — 117 (7%)",
-      "Mixed – Active — 237 (15%)",
-      "Mixed – Lapsed — 131 (8%)",
-      "UNC – No Primary — 541 (33%)",
-      "UNC – Lapsed D — 217 (13%)",
-      "Pure D — 117 (7%)"
+      "Pure R — 243 (15%)",
+      "UNC – Lapsed R — 141 (9%)",
+      "Mixed – Active — 254 (16%)",
+      "Mixed – Lapsed — 64 (4%)",
+      "UNC – Non-partisan Ballot — 65 (4%)",
+      "UNC – No Primary — 526 (33%)",
+      "UNC – Lapsed D — 183 (11%)",
+      "Pure D — 133 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          255,
-          117,
-          237,
-          131,
-          541,
-          217,
-          117
+          243,
+          141,
+          254,
+          64,
+          65,
+          526,
+          183,
+          133
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MECCA TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

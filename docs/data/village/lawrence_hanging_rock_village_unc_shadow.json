@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 33",
-      "Mixed – Active — 15",
-      "Mixed – Lapsed — 14",
+      "UNC – Lapsed R — 41",
+      "Mixed – Active — 12",
+      "Mixed – Lapsed — 15",
+      "UNC – Non-partisan Ballot — 1",
       "UNC – No Primary — 66",
-      "UNC – Lapsed D — 19"
+      "UNC – Lapsed D — 18"
     ],
     "datasets": [
       {
         "data": [
-          33,
+          41,
+          12,
           15,
-          14,
+          1,
           66,
-          19
+          18
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "HANGING ROCK VILLAGE (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

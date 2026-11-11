@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 122",
-      "Mixed – Active — 389",
-      "Mixed – Lapsed — 174",
-      "UNC – No Primary — 2,293",
-      "UNC – Lapsed D — 1,106"
+      "UNC – Lapsed R — 171",
+      "Mixed – Active — 351",
+      "Mixed – Lapsed — 185",
+      "UNC – Non-partisan Ballot — 38",
+      "UNC – No Primary — 2,330",
+      "UNC – Lapsed D — 1,167"
     ],
     "datasets": [
       {
         "data": [
-          122,
-          389,
-          174,
-          2293,
-          1106
+          171,
+          351,
+          185,
+          38,
+          2330,
+          1167
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "CAMPBELL CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

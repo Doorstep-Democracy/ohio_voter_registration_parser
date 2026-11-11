@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 827 (2%)",
-      "UNC – Lapsed R — 1,112 (3%)",
-      "Mixed – Active — 2,650 (6%)",
-      "Mixed – Lapsed — 2,362 (6%)",
-      "UNC – No Primary — 17,236 (41%)",
-      "UNC – Lapsed D — 8,160 (19%)",
-      "Pure D — 9,705 (23%)"
+      "Pure R — 698 (2%)",
+      "UNC – Lapsed R — 1,184 (3%)",
+      "Mixed – Active — 2,335 (5%)",
+      "Mixed – Lapsed — 1,365 (3%)",
+      "UNC – Non-partisan Ballot — 756 (2%)",
+      "UNC – No Primary — 17,905 (42%)",
+      "UNC – Lapsed D — 8,694 (20%)",
+      "Pure D — 9,895 (23%)"
     ],
     "datasets": [
       {
         "data": [
-          827,
-          1112,
-          2650,
-          2362,
-          17236,
-          8160,
-          9705
+          698,
+          1184,
+          2335,
+          1365,
+          756,
+          17905,
+          8694,
+          9895
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CLEVELAND HTS-UNIV HTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

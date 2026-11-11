@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 680 (16%)",
-      "UNC – Lapsed R — 640 (15%)",
-      "Mixed – Active — 362 (9%)",
-      "Mixed – Lapsed — 492 (12%)",
-      "UNC – No Primary — 1,165 (28%)",
-      "UNC – Lapsed D — 536 (13%)",
-      "Pure D — 278 (7%)"
+      "Pure R — 621 (15%)",
+      "UNC – Lapsed R — 746 (18%)",
+      "Mixed – Active — 375 (9%)",
+      "Mixed – Lapsed — 273 (6%)",
+      "UNC – Non-partisan Ballot — 211 (5%)",
+      "UNC – No Primary — 1,168 (28%)",
+      "UNC – Lapsed D — 501 (12%)",
+      "Pure D — 335 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          680,
-          640,
-          362,
-          492,
-          1165,
-          536,
-          278
+          621,
+          746,
+          375,
+          273,
+          211,
+          1168,
+          501,
+          335
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DANBURY TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 323 (25%)",
-      "UNC – Lapsed R — 260 (20%)",
-      "Mixed – Active — 100 (8%)",
-      "Mixed – Lapsed — 100 (8%)",
-      "UNC – No Primary — 437 (34%)",
-      "UNC – Lapsed D — 59 (5%)",
-      "Pure D — 23 (2%)"
+      "Pure R — 318 (24%)",
+      "UNC – Lapsed R — 292 (22%)",
+      "Mixed – Active — 92 (7%)",
+      "Mixed – Lapsed — 57 (4%)",
+      "UNC – Non-partisan Ballot — 41 (3%)",
+      "UNC – No Primary — 425 (33%)",
+      "UNC – Lapsed D — 50 (4%)",
+      "Pure D — 30 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          323,
-          260,
-          100,
-          100,
-          437,
-          59,
-          23
+          318,
+          292,
+          92,
+          57,
+          41,
+          425,
+          50,
+          30
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MOULTON TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

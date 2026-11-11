@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,561 (11%)",
-      "UNC – Lapsed R — 1,313 (9%)",
-      "Mixed – Active — 900 (6%)",
-      "Mixed – Lapsed — 967 (7%)",
-      "UNC – No Primary — 7,488 (51%)",
-      "UNC – Lapsed D — 1,572 (11%)",
-      "Pure D — 796 (5%)"
+      "Pure R — 1,352 (9%)",
+      "UNC – Lapsed R — 1,498 (10%)",
+      "Mixed – Active — 875 (6%)",
+      "Mixed – Lapsed — 589 (4%)",
+      "UNC – Non-partisan Ballot — 383 (3%)",
+      "UNC – No Primary — 7,598 (51%)",
+      "UNC – Lapsed D — 1,545 (10%)",
+      "Pure D — 937 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1561,
-          1313,
-          900,
-          967,
-          7488,
-          1572,
-          796
+          1352,
+          1498,
+          875,
+          589,
+          383,
+          7598,
+          1545,
+          937
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "RIVERSIDE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

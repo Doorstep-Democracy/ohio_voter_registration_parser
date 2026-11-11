@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 173 (24%)",
-      "UNC – Lapsed R — 91 (12%)",
-      "Mixed – Active — 53 (7%)",
-      "Mixed – Lapsed — 42 (6%)",
-      "UNC – No Primary — 294 (40%)",
-      "UNC – Lapsed D — 40 (5%)",
-      "Pure D — 36 (5%)"
+      "Pure R — 161 (22%)",
+      "UNC – Lapsed R — 106 (14%)",
+      "Mixed – Active — 50 (7%)",
+      "Mixed – Lapsed — 28 (4%)",
+      "UNC – Non-partisan Ballot — 16 (2%)",
+      "UNC – No Primary — 298 (41%)",
+      "UNC – Lapsed D — 41 (6%)",
+      "Pure D — 35 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          173,
-          91,
-          53,
-          42,
-          294,
-          40,
-          36
+          161,
+          106,
+          50,
+          28,
+          16,
+          298,
+          41,
+          35
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NORTHWEST TWP (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

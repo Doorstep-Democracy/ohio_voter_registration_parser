@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 758 (16%)",
-      "UNC – Lapsed R — 662 (14%)",
-      "Mixed – Active — 277 (6%)",
-      "Mixed – Lapsed — 478 (10%)",
-      "UNC – No Primary — 1,867 (39%)",
-      "UNC – Lapsed D — 524 (11%)",
-      "Pure D — 278 (6%)"
+      "Pure R — 759 (16%)",
+      "UNC – Lapsed R — 653 (13%)",
+      "Mixed – Active — 341 (7%)",
+      "Mixed – Lapsed — 194 (4%)",
+      "UNC – Non-partisan Ballot — 261 (5%)",
+      "UNC – No Primary — 1,815 (37%)",
+      "UNC – Lapsed D — 482 (10%)",
+      "Pure D — 381 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          758,
-          662,
-          277,
-          478,
-          1867,
-          524,
-          278
+          759,
+          653,
+          341,
+          194,
+          261,
+          1815,
+          482,
+          381
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MILFORD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

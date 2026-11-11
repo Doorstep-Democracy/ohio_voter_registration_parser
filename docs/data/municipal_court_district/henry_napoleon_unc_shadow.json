@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,245",
-      "Mixed – Active — 1,705",
-      "Mixed – Lapsed — 1,324",
-      "UNC – No Primary — 6,537",
-      "UNC – Lapsed D — 1,386"
+      "UNC – Lapsed R — 2,320",
+      "Mixed – Active — 1,713",
+      "Mixed – Lapsed — 632",
+      "UNC – Non-partisan Ballot — 677",
+      "UNC – No Primary — 6,548",
+      "UNC – Lapsed D — 1,328"
     ],
     "datasets": [
       {
         "data": [
-          2245,
-          1705,
-          1324,
-          6537,
-          1386
+          2320,
+          1713,
+          632,
+          677,
+          6548,
+          1328
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "NAPOLEON (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

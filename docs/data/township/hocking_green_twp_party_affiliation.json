@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 355 (18%)",
-      "UNC – Lapsed R — 169 (9%)",
-      "Mixed – Active — 189 (10%)",
-      "Mixed – Lapsed — 89 (5%)",
-      "UNC – No Primary — 843 (44%)",
-      "UNC – Lapsed D — 182 (9%)",
-      "Pure D — 94 (5%)"
+      "Pure R — 338 (18%)",
+      "UNC – Lapsed R — 195 (10%)",
+      "Mixed – Active — 193 (10%)",
+      "Mixed – Lapsed — 70 (4%)",
+      "UNC – Non-partisan Ballot — 18 (1%)",
+      "UNC – No Primary — 841 (44%)",
+      "UNC – Lapsed D — 175 (9%)",
+      "Pure D — 99 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          355,
-          169,
-          189,
-          89,
-          843,
-          182,
-          94
+          338,
+          195,
+          193,
+          70,
+          18,
+          841,
+          175,
+          99
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREEN TWP (Hocking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

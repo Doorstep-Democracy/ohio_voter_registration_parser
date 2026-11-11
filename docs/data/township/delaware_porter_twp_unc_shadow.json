@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 247",
-      "Mixed – Active — 182",
-      "Mixed – Lapsed — 138",
-      "UNC – No Primary — 514",
-      "UNC – Lapsed D — 121"
+      "UNC – Lapsed R — 281",
+      "Mixed – Active — 177",
+      "Mixed – Lapsed — 81",
+      "UNC – Non-partisan Ballot — 68",
+      "UNC – No Primary — 480",
+      "UNC – Lapsed D — 112"
     ],
     "datasets": [
       {
         "data": [
-          247,
-          182,
-          138,
-          514,
-          121
+          281,
+          177,
+          81,
+          68,
+          480,
+          112
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PORTER TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

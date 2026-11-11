@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,133",
-      "Mixed – Active — 2,055",
-      "Mixed – Lapsed — 1,154",
-      "UNC – No Primary — 5,260",
-      "UNC – Lapsed D — 2,818"
+      "UNC – Lapsed R — 1,123",
+      "Mixed – Active — 2,042",
+      "Mixed – Lapsed — 805",
+      "UNC – Non-partisan Ballot — 339",
+      "UNC – No Primary — 5,371",
+      "UNC – Lapsed D — 2,791"
     ],
     "datasets": [
       {
         "data": [
-          1133,
-          2055,
-          1154,
-          5260,
-          2818
+          1123,
+          2042,
+          805,
+          339,
+          5371,
+          2791
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Howland Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

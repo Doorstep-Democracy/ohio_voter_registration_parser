@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 965",
-      "Mixed – Active — 854",
-      "Mixed – Lapsed — 508",
-      "UNC – No Primary — 3,627",
-      "UNC – Lapsed D — 582"
+      "UNC – Lapsed R — 1,384",
+      "Mixed – Active — 687",
+      "Mixed – Lapsed — 559",
+      "UNC – Non-partisan Ballot — 124",
+      "UNC – No Primary — 3,639",
+      "UNC – Lapsed D — 567"
     ],
     "datasets": [
       {
         "data": [
-          965,
-          854,
-          508,
-          3627,
-          582
+          1384,
+          687,
+          559,
+          124,
+          3639,
+          567
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "GREENVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

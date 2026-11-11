@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 288 (11%)",
-      "UNC – Lapsed R — 261 (10%)",
-      "Mixed – Active — 159 (6%)",
-      "Mixed – Lapsed — 325 (12%)",
-      "UNC – No Primary — 1,191 (45%)",
-      "UNC – Lapsed D — 344 (13%)",
-      "Pure D — 106 (4%)"
+      "Pure R — 284 (11%)",
+      "UNC – Lapsed R — 285 (11%)",
+      "Mixed – Active — 166 (6%)",
+      "Mixed – Lapsed — 125 (5%)",
+      "UNC – Non-partisan Ballot — 169 (6%)",
+      "UNC – No Primary — 1,187 (44%)",
+      "UNC – Lapsed D — 309 (12%)",
+      "Pure D — 148 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          288,
-          261,
-          159,
-          325,
-          1191,
-          344,
-          106
+          284,
+          285,
+          166,
+          125,
+          169,
+          1187,
+          309,
+          148
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CRESTLINE VILLAGE (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

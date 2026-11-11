@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 91 (17%)",
-      "UNC – Lapsed R — 80 (15%)",
-      "Mixed – Active — 52 (10%)",
-      "Mixed – Lapsed — 63 (12%)",
-      "UNC – No Primary — 177 (33%)",
-      "UNC – Lapsed D — 42 (8%)",
-      "Pure D — 32 (6%)"
+      "Pure R — 115 (21%)",
+      "UNC – Lapsed R — 66 (12%)",
+      "Mixed – Active — 72 (13%)",
+      "Mixed – Lapsed — 29 (5%)",
+      "UNC – Non-partisan Ballot — 11 (2%)",
+      "UNC – No Primary — 166 (31%)",
+      "UNC – Lapsed D — 32 (6%)",
+      "Pure D — 50 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          91,
-          80,
-          52,
-          63,
-          177,
-          42,
-          32
+          115,
+          66,
+          72,
+          29,
+          11,
+          166,
+          32,
+          50
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "KETTERING (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

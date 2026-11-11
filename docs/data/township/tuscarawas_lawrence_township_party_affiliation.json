@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 652 (16%)",
-      "UNC – Lapsed R — 553 (14%)",
-      "Mixed – Active — 425 (11%)",
-      "Mixed – Lapsed — 353 (9%)",
-      "UNC – No Primary — 1,370 (34%)",
-      "UNC – Lapsed D — 477 (12%)",
-      "Pure D — 198 (5%)"
+      "Pure R — 618 (15%)",
+      "UNC – Lapsed R — 577 (14%)",
+      "Mixed – Active — 420 (10%)",
+      "Mixed – Lapsed — 211 (5%)",
+      "UNC – Non-partisan Ballot — 153 (4%)",
+      "UNC – No Primary — 1,362 (34%)",
+      "UNC – Lapsed D — 432 (11%)",
+      "Pure D — 248 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          652,
-          553,
-          425,
-          353,
-          1370,
-          477,
-          198
+          618,
+          577,
+          420,
+          211,
+          153,
+          1362,
+          432,
+          248
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LAWRENCE TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

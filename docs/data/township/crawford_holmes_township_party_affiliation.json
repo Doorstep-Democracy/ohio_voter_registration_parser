@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 261 (30%)",
-      "UNC – Lapsed R — 120 (14%)",
-      "Mixed – Active — 67 (8%)",
-      "Mixed – Lapsed — 58 (7%)",
-      "UNC – No Primary — 284 (32%)",
-      "UNC – Lapsed D — 63 (7%)",
-      "Pure D — 23 (3%)"
+      "UNC – Lapsed R — 124 (14%)",
+      "Mixed – Active — 72 (8%)",
+      "Mixed – Lapsed — 23 (3%)",
+      "UNC – Non-partisan Ballot — 38 (4%)",
+      "UNC – No Primary — 267 (31%)",
+      "UNC – Lapsed D — 52 (6%)",
+      "Pure D — 29 (3%)"
     ],
     "datasets": [
       {
         "data": [
           261,
-          120,
-          67,
-          58,
-          284,
-          63,
-          23
+          124,
+          72,
+          23,
+          38,
+          267,
+          52,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HOLMES TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

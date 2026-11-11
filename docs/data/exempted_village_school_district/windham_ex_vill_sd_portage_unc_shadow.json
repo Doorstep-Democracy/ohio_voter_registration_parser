@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 201",
-      "Mixed – Active — 186",
-      "Mixed – Lapsed — 202",
-      "UNC – No Primary — 924",
-      "UNC – Lapsed D — 325"
+      "UNC – Lapsed R — 202",
+      "Mixed – Active — 185",
+      "Mixed – Lapsed — 106",
+      "UNC – Non-partisan Ballot — 96",
+      "UNC – No Primary — 940",
+      "UNC – Lapsed D — 321"
     ],
     "datasets": [
       {
         "data": [
-          201,
-          186,
           202,
-          924,
-          325
+          185,
+          106,
+          96,
+          940,
+          321
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "WINDHAM EX VILL SD (PORTAGE)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Windham Ex Vill Sd (Portage Co.)",
+  "updated": "2026-11-11"
 }

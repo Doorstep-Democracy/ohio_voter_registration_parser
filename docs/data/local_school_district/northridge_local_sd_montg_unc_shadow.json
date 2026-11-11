@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 525",
-      "Mixed – Active — 287",
-      "Mixed – Lapsed — 307",
-      "UNC – No Primary — 3,237",
-      "UNC – Lapsed D — 623"
+      "UNC – Lapsed R — 526",
+      "Mixed – Active — 283",
+      "Mixed – Lapsed — 164",
+      "UNC – Non-partisan Ballot — 143",
+      "UNC – No Primary — 3,413",
+      "UNC – Lapsed D — 630"
     ],
     "datasets": [
       {
         "data": [
-          525,
-          287,
-          307,
-          3237,
-          623
+          526,
+          283,
+          164,
+          143,
+          3413,
+          630
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Northridge Local Sd (Montg Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

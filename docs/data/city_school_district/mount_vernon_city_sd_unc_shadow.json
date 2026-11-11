@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,224",
-      "Mixed – Active — 1,403",
-      "Mixed – Lapsed — 1,354",
-      "UNC – No Primary — 9,068",
-      "UNC – Lapsed D — 1,682"
+      "UNC – Lapsed R — 2,256",
+      "Mixed – Active — 1,556",
+      "Mixed – Lapsed — 585",
+      "UNC – Non-partisan Ballot — 674",
+      "UNC – No Primary — 9,096",
+      "UNC – Lapsed D — 1,431"
     ],
     "datasets": [
       {
         "data": [
-          2224,
-          1403,
-          1354,
-          9068,
-          1682
+          2256,
+          1556,
+          585,
+          674,
+          9096,
+          1431
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "MOUNT VERNON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

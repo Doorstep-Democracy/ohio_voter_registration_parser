@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 80",
-      "Mixed – Active — 46",
-      "Mixed – Lapsed — 46",
-      "UNC – No Primary — 326",
-      "UNC – Lapsed D — 107"
+      "UNC – Lapsed R — 86",
+      "Mixed – Active — 48",
+      "Mixed – Lapsed — 36",
+      "UNC – Non-partisan Ballot — 15",
+      "UNC – No Primary — 323",
+      "UNC – Lapsed D — 99"
     ],
     "datasets": [
       {
         "data": [
-          80,
-          46,
-          46,
-          326,
-          107
+          86,
+          48,
+          36,
+          15,
+          323,
+          99
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SUNFISH TOWNSHIP (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

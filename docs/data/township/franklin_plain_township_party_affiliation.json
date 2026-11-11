@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,244 (13%)",
-      "UNC – Lapsed R — 1,390 (14%)",
+      "Pure R — 1,017 (10%)",
+      "UNC – Lapsed R — 1,597 (16%)",
       "Mixed – Active — 577 (6%)",
-      "Mixed – Lapsed — 790 (8%)",
-      "UNC – No Primary — 4,314 (43%)",
-      "UNC – Lapsed D — 1,088 (11%)",
-      "Pure D — 544 (5%)"
+      "Mixed – Lapsed — 521 (5%)",
+      "UNC – Non-partisan Ballot — 297 (3%)",
+      "UNC – No Primary — 4,299 (43%)",
+      "UNC – Lapsed D — 1,084 (11%)",
+      "Pure D — 681 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1244,
-          1390,
+          1017,
+          1597,
           577,
-          790,
-          4314,
-          1088,
-          544
+          521,
+          297,
+          4299,
+          1084,
+          681
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Plain Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

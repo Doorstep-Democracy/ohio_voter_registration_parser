@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 564",
-      "Mixed – Active — 696",
-      "Mixed – Lapsed — 681",
-      "UNC – No Primary — 5,377",
-      "UNC – Lapsed D — 1,539"
+      "UNC – Lapsed R — 579",
+      "Mixed – Active — 703",
+      "Mixed – Lapsed — 339",
+      "UNC – Non-partisan Ballot — 321",
+      "UNC – No Primary — 5,375",
+      "UNC – Lapsed D — 1,419"
     ],
     "datasets": [
       {
         "data": [
-          564,
-          696,
-          681,
-          5377,
-          1539
+          579,
+          703,
+          339,
+          321,
+          5375,
+          1419
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ASHTABULA TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

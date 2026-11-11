@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 104",
-      "Mixed – Active — 36",
-      "Mixed – Lapsed — 42",
-      "UNC – No Primary — 202",
-      "UNC – Lapsed D — 48"
+      "UNC – Lapsed R — 121",
+      "Mixed – Active — 28",
+      "Mixed – Lapsed — 37",
+      "UNC – Non-partisan Ballot — 14",
+      "UNC – No Primary — 199",
+      "UNC – Lapsed D — 44"
     ],
     "datasets": [
       {
         "data": [
-          104,
-          36,
-          42,
-          202,
-          48
+          121,
+          28,
+          37,
+          14,
+          199,
+          44
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MARK TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

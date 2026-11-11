@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 124",
-      "Mixed – Active — 161",
-      "Mixed – Lapsed — 147",
-      "UNC – No Primary — 398",
-      "UNC – Lapsed D — 124"
+      "UNC – Lapsed R — 148",
+      "Mixed – Active — 173",
+      "Mixed – Lapsed — 72",
+      "UNC – Non-partisan Ballot — 73",
+      "UNC – No Primary — 397",
+      "UNC – Lapsed D — 110"
     ],
     "datasets": [
       {
         "data": [
-          124,
-          161,
-          147,
-          398,
-          124
+          148,
+          173,
+          72,
+          73,
+          397,
+          110
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PENFIELD TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

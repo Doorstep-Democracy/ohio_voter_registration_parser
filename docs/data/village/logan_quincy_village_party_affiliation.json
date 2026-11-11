@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 47 (15%)",
-      "UNC – Lapsed R — 46 (14%)",
-      "Mixed – Active — 14 (4%)",
-      "Mixed – Lapsed — 37 (12%)",
-      "UNC – No Primary — 149 (47%)",
-      "UNC – Lapsed D — 20 (6%)",
-      "Pure D — 5 (2%)"
+      "Pure R — 31 (10%)",
+      "UNC – Lapsed R — 59 (18%)",
+      "Mixed – Active — 17 (5%)",
+      "Mixed – Lapsed — 12 (4%)",
+      "UNC – Non-partisan Ballot — 21 (7%)",
+      "UNC – No Primary — 155 (48%)",
+      "UNC – Lapsed D — 19 (6%)",
+      "Pure D — 6 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          47,
-          46,
-          14,
-          37,
-          149,
-          20,
-          5
+          31,
+          59,
+          17,
+          12,
+          21,
+          155,
+          19,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "QUINCY VILLAGE (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

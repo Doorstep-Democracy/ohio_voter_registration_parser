@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,059 (10%)",
-      "UNC – Lapsed R — 894 (8%)",
-      "Mixed – Active — 1,531 (14%)",
-      "Mixed – Lapsed — 1,021 (10%)",
-      "UNC – No Primary — 3,411 (32%)",
-      "UNC – Lapsed D — 1,854 (17%)",
-      "Pure D — 888 (8%)"
+      "Pure R — 1,048 (10%)",
+      "UNC – Lapsed R — 884 (8%)",
+      "Mixed – Active — 1,522 (14%)",
+      "Mixed – Lapsed — 657 (6%)",
+      "UNC – Non-partisan Ballot — 353 (3%)",
+      "UNC – No Primary — 3,463 (33%)",
+      "UNC – Lapsed D — 1,839 (17%)",
+      "Pure D — 879 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1059,
-          894,
-          1531,
-          1021,
-          3411,
-          1854,
-          888
+          1048,
+          884,
+          1522,
+          657,
+          353,
+          3463,
+          1839,
+          879
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Switzerland Of Ohio Local Sd (Monroe Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

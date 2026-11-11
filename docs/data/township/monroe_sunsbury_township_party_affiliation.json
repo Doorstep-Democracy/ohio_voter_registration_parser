@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 79 (10%)",
-      "UNC – Lapsed R — 70 (9%)",
-      "Mixed – Active — 103 (14%)",
-      "Mixed – Lapsed — 77 (10%)",
-      "UNC – No Primary — 258 (34%)",
-      "UNC – Lapsed D — 131 (17%)",
-      "Pure D — 36 (5%)"
+      "Pure R — 84 (11%)",
+      "UNC – Lapsed R — 75 (10%)",
+      "Mixed – Active — 100 (14%)",
+      "Mixed – Lapsed — 49 (7%)",
+      "UNC – Non-partisan Ballot — 29 (4%)",
+      "UNC – No Primary — 241 (33%)",
+      "UNC – Lapsed D — 119 (16%)",
+      "Pure D — 42 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          79,
-          70,
-          103,
-          77,
-          258,
-          131,
-          36
+          84,
+          75,
+          100,
+          49,
+          29,
+          241,
+          119,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SUNSBURY TOWNSHIP (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

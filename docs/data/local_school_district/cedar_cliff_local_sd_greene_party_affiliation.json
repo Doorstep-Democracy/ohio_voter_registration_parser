@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 870 (27%)",
-      "UNC – Lapsed R — 569 (18%)",
-      "Mixed – Active — 152 (5%)",
-      "Mixed – Lapsed — 132 (4%)",
-      "UNC – No Primary — 1,254 (39%)",
-      "UNC – Lapsed D — 132 (4%)",
+      "Pure R — 864 (27%)",
+      "UNC – Lapsed R — 571 (18%)",
+      "Mixed – Active — 146 (4%)",
+      "Mixed – Lapsed — 85 (3%)",
+      "UNC – Non-partisan Ballot — 47 (1%)",
+      "UNC – No Primary — 1,296 (40%)",
+      "UNC – Lapsed D — 133 (4%)",
       "Pure D — 109 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          870,
-          569,
-          152,
-          132,
-          1254,
-          132,
+          864,
+          571,
+          146,
+          85,
+          47,
+          1296,
+          133,
           109
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Cedar Cliff Local Sd (Greene Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

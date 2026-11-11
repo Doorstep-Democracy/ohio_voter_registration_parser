@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,385",
-      "Mixed – Active — 1,180",
-      "Mixed – Lapsed — 709",
-      "UNC – No Primary — 4,661",
-      "UNC – Lapsed D — 729"
+      "UNC – Lapsed R — 2,026",
+      "Mixed – Active — 958",
+      "Mixed – Lapsed — 740",
+      "UNC – Non-partisan Ballot — 193",
+      "UNC – No Primary — 4,653",
+      "UNC – Lapsed D — 723"
     ],
     "datasets": [
       {
         "data": [
-          1385,
-          1180,
-          709,
-          4661,
-          729
+          2026,
+          958,
+          740,
+          193,
+          4653,
+          723
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GREENVILLE TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

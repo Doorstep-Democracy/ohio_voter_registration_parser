@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 71 (20%)",
-      "UNC – Lapsed R — 50 (14%)",
-      "Mixed – Active — 32 (9%)",
-      "Mixed – Lapsed — 20 (6%)",
-      "UNC – No Primary — 135 (38%)",
-      "UNC – Lapsed D — 29 (8%)",
+      "Pure R — 67 (19%)",
+      "UNC – Lapsed R — 53 (15%)",
+      "Mixed – Active — 33 (9%)",
+      "Mixed – Lapsed — 9 (3%)",
+      "UNC – Non-partisan Ballot — 9 (3%)",
+      "UNC – No Primary — 134 (38%)",
+      "UNC – Lapsed D — 25 (7%)",
       "Pure D — 19 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          71,
-          50,
-          32,
-          20,
-          135,
-          29,
+          67,
+          53,
+          33,
+          9,
+          9,
+          134,
+          25,
           19
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HAMLER VILLAGE (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

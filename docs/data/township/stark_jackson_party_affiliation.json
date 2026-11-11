@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,334 (17%)",
-      "UNC – Lapsed R — 3,873 (12%)",
-      "Mixed – Active — 2,963 (9%)",
-      "Mixed – Lapsed — 2,562 (8%)",
-      "UNC – No Primary — 11,385 (36%)",
-      "UNC – Lapsed D — 3,784 (12%)",
-      "Pure D — 2,093 (7%)"
+      "Pure R — 4,840 (15%)",
+      "UNC – Lapsed R — 4,387 (14%)",
+      "Mixed – Active — 3,017 (9%)",
+      "Mixed – Lapsed — 1,553 (5%)",
+      "UNC – Non-partisan Ballot — 1,082 (3%)",
+      "UNC – No Primary — 11,276 (35%)",
+      "UNC – Lapsed D — 3,399 (11%)",
+      "Pure D — 2,780 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          5334,
-          3873,
-          2963,
-          2562,
-          11385,
-          3784,
-          2093
+          4840,
+          4387,
+          3017,
+          1553,
+          1082,
+          11276,
+          3399,
+          2780
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

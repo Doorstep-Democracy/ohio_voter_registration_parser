@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,829 (13%)",
-      "UNC – Lapsed R — 3,969 (13%)",
-      "Mixed – Active — 1,942 (7%)",
-      "Mixed – Lapsed — 2,200 (7%)",
-      "UNC – No Primary — 12,452 (42%)",
-      "UNC – Lapsed D — 3,184 (11%)",
-      "Pure D — 2,000 (7%)"
+      "Pure R — 3,273 (11%)",
+      "UNC – Lapsed R — 4,405 (15%)",
+      "Mixed – Active — 2,050 (7%)",
+      "Mixed – Lapsed — 1,388 (5%)",
+      "UNC – Non-partisan Ballot — 777 (3%)",
+      "UNC – No Primary — 12,308 (41%)",
+      "UNC – Lapsed D — 3,011 (10%)",
+      "Pure D — 2,801 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          3829,
-          3969,
-          1942,
-          2200,
-          12452,
-          3184,
-          2000
+          3273,
+          4405,
+          2050,
+          1388,
+          777,
+          12308,
+          3011,
+          2801
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Washington Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

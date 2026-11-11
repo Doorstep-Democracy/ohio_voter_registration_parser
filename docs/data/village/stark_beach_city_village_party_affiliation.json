@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 91 (16%)",
-      "UNC – Lapsed R — 62 (11%)",
+      "Pure R — 80 (14%)",
+      "UNC – Lapsed R — 77 (14%)",
       "Mixed – Active — 50 (9%)",
-      "Mixed – Lapsed — 39 (7%)",
+      "Mixed – Lapsed — 18 (3%)",
+      "UNC – Non-partisan Ballot — 25 (4%)",
       "UNC – No Primary — 250 (44%)",
-      "UNC – Lapsed D — 47 (8%)",
+      "UNC – Lapsed D — 42 (7%)",
       "Pure D — 24 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          91,
-          62,
+          80,
+          77,
           50,
-          39,
+          18,
+          25,
           250,
-          47,
+          42,
           24
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BEACH CITY VILLAGE (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 678 (21%)",
-      "UNC – Lapsed R — 674 (21%)",
-      "Mixed – Active — 141 (4%)",
-      "Mixed – Lapsed — 206 (6%)",
-      "UNC – No Primary — 1,341 (41%)",
-      "UNC – Lapsed D — 163 (5%)",
+      "Pure R — 670 (20%)",
+      "UNC – Lapsed R — 665 (20%)",
+      "Mixed – Active — 140 (4%)",
+      "Mixed – Lapsed — 100 (3%)",
+      "UNC – Non-partisan Ballot — 106 (3%)",
+      "UNC – No Primary — 1,356 (41%)",
+      "UNC – Lapsed D — 159 (5%)",
       "Pure D — 76 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          678,
-          674,
-          141,
-          206,
-          1341,
-          163,
+          670,
+          665,
+          140,
+          100,
+          106,
+          1356,
+          159,
           76
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Spencerville Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

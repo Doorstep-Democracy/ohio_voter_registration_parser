@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 668",
-      "Mixed – Active — 391",
-      "Mixed – Lapsed — 460",
-      "UNC – No Primary — 1,483",
-      "UNC – Lapsed D — 381"
+      "UNC – Lapsed R — 760",
+      "Mixed – Active — 390",
+      "Mixed – Lapsed — 243",
+      "UNC – Non-partisan Ballot — 236",
+      "UNC – No Primary — 1,498",
+      "UNC – Lapsed D — 357"
     ],
     "datasets": [
       {
         "data": [
-          668,
-          391,
-          460,
-          1483,
-          381
+          760,
+          390,
+          243,
+          236,
+          1498,
+          357
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "BROOKVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 772 (16%)",
-      "UNC – Lapsed R — 489 (10%)",
-      "Mixed – Active — 432 (9%)",
-      "Mixed – Lapsed — 477 (10%)",
-      "UNC – No Primary — 1,639 (34%)",
-      "UNC – Lapsed D — 545 (11%)",
-      "Pure D — 488 (10%)"
+      "UNC – Lapsed R — 499 (10%)",
+      "Mixed – Active — 471 (10%)",
+      "Mixed – Lapsed — 204 (4%)",
+      "UNC – Non-partisan Ballot — 250 (5%)",
+      "UNC – No Primary — 1,647 (34%)",
+      "UNC – Lapsed D — 518 (11%)",
+      "Pure D — 549 (11%)"
     ],
     "datasets": [
       {
         "data": [
           772,
-          489,
-          432,
-          477,
-          1639,
-          545,
-          488
+          499,
+          471,
+          204,
+          250,
+          1647,
+          518,
+          549
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WATERVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

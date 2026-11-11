@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,092",
-      "Mixed – Active — 1,112",
-      "Mixed – Lapsed — 1,698",
-      "UNC – No Primary — 4,773",
-      "UNC – Lapsed D — 2,591"
+      "UNC – Lapsed R — 1,006",
+      "Mixed – Active — 1,360",
+      "Mixed – Lapsed — 559",
+      "UNC – Non-partisan Ballot — 883",
+      "UNC – No Primary — 4,610",
+      "UNC – Lapsed D — 2,076"
     ],
     "datasets": [
       {
         "data": [
-          1092,
-          1112,
-          1698,
-          4773,
-          2591
+          1006,
+          1360,
+          559,
+          883,
+          4610,
+          2076
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "TWINSBURG CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

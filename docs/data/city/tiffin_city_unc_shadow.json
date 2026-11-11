@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 963",
-      "Mixed – Active — 1,223",
-      "Mixed – Lapsed — 627",
-      "UNC – No Primary — 4,283",
-      "UNC – Lapsed D — 973"
+      "UNC – Lapsed R — 1,273",
+      "Mixed – Active — 1,110",
+      "Mixed – Lapsed — 602",
+      "UNC – Non-partisan Ballot — 166",
+      "UNC – No Primary — 4,245",
+      "UNC – Lapsed D — 906"
     ],
     "datasets": [
       {
         "data": [
-          963,
-          1223,
-          627,
-          4283,
-          973
+          1273,
+          1110,
+          602,
+          166,
+          4245,
+          906
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "TIFFIN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

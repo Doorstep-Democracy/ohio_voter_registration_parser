@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 561",
-      "Mixed – Active — 1,026",
-      "Mixed – Lapsed — 693",
-      "UNC – No Primary — 6,945",
-      "UNC – Lapsed D — 2,065"
+      "UNC – Lapsed R — 544",
+      "Mixed – Active — 1,168",
+      "Mixed – Lapsed — 351",
+      "UNC – Non-partisan Ballot — 307",
+      "UNC – No Primary — 7,324",
+      "UNC – Lapsed D — 1,831"
     ],
     "datasets": [
       {
         "data": [
-          561,
-          1026,
-          693,
-          6945,
-          2065
+          544,
+          1168,
+          351,
+          307,
+          7324,
+          1831
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "KENT CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

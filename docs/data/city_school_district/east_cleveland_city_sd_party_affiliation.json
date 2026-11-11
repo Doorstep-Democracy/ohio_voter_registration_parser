@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 21 (0%)",
-      "UNC – Lapsed R — 53 (0%)",
-      "Mixed – Active — 131 (1%)",
-      "Mixed – Lapsed — 323 (3%)",
-      "UNC – No Primary — 6,149 (53%)",
-      "UNC – Lapsed D — 2,857 (25%)",
-      "Pure D — 2,038 (18%)"
+      "Pure R — 15 (0%)",
+      "UNC – Lapsed R — 61 (1%)",
+      "Mixed – Active — 123 (1%)",
+      "Mixed – Lapsed — 85 (1%)",
+      "UNC – Non-partisan Ballot — 145 (1%)",
+      "UNC – No Primary — 6,640 (56%)",
+      "UNC – Lapsed D — 2,772 (23%)",
+      "Pure D — 2,117 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          21,
-          53,
-          131,
-          323,
-          6149,
-          2857,
-          2038
+          15,
+          61,
+          123,
+          85,
+          145,
+          6640,
+          2772,
+          2117
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "EAST CLEVELAND CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

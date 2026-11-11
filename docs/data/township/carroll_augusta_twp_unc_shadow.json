@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 101",
-      "Mixed – Active — 91",
-      "Mixed – Lapsed — 34",
-      "UNC – No Primary — 308",
-      "UNC – Lapsed D — 66"
+      "UNC – Lapsed R — 115",
+      "Mixed – Active — 90",
+      "Mixed – Lapsed — 32",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 305",
+      "UNC – Lapsed D — 61"
     ],
     "datasets": [
       {
         "data": [
-          101,
-          91,
-          34,
-          308,
-          66
+          115,
+          90,
+          32,
+          4,
+          305,
+          61
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "AUGUSTA TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

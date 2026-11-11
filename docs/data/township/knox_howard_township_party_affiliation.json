@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,119 (24%)",
-      "UNC – Lapsed R — 661 (14%)",
-      "Mixed – Active — 384 (8%)",
-      "Mixed – Lapsed — 366 (8%)",
-      "UNC – No Primary — 1,507 (33%)",
-      "UNC – Lapsed D — 359 (8%)",
-      "Pure D — 188 (4%)"
+      "Pure R — 1,116 (24%)",
+      "UNC – Lapsed R — 683 (15%)",
+      "Mixed – Active — 414 (9%)",
+      "Mixed – Lapsed — 175 (4%)",
+      "UNC – Non-partisan Ballot — 152 (3%)",
+      "UNC – No Primary — 1,483 (32%)",
+      "UNC – Lapsed D — 322 (7%)",
+      "Pure D — 252 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1119,
-          661,
-          384,
-          366,
-          1507,
-          359,
-          188
+          1116,
+          683,
+          414,
+          175,
+          152,
+          1483,
+          322,
+          252
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HOWARD TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

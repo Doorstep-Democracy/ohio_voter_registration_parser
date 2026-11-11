@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 743",
-      "Mixed – Active — 775",
-      "Mixed – Lapsed — 690",
-      "UNC – No Primary — 3,205",
-      "UNC – Lapsed D — 1,222"
+      "UNC – Lapsed R — 722",
+      "Mixed – Active — 853",
+      "Mixed – Lapsed — 354",
+      "UNC – Non-partisan Ballot — 291",
+      "UNC – No Primary — 3,145",
+      "UNC – Lapsed D — 1,033"
     ],
     "datasets": [
       {
         "data": [
-          743,
-          775,
-          690,
-          3205,
-          1222
+          722,
+          853,
+          354,
+          291,
+          3145,
+          1033
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CANTON (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

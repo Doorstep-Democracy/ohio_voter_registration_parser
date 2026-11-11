@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 594 (17%)",
-      "UNC – Lapsed R — 496 (15%)",
-      "Mixed – Active — 235 (7%)",
-      "Mixed – Lapsed — 314 (9%)",
-      "UNC – No Primary — 1,269 (37%)",
-      "UNC – Lapsed D — 331 (10%)",
+      "Pure R — 591 (17%)",
+      "UNC – Lapsed R — 501 (15%)",
+      "Mixed – Active — 234 (7%)",
+      "Mixed – Lapsed — 142 (4%)",
+      "UNC – Non-partisan Ballot — 171 (5%)",
+      "UNC – No Primary — 1,301 (38%)",
+      "UNC – Lapsed D — 332 (10%)",
       "Pure D — 177 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          594,
-          496,
-          235,
-          314,
-          1269,
-          331,
+          591,
+          501,
+          234,
+          142,
+          171,
+          1301,
+          332,
           177
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Berne Union Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

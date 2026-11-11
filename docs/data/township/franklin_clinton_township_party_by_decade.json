@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          6,
-          22,
-          28,
-          22,
+          0,
+          5,
+          21,
+          27,
+          25,
+          16,
+          14,
           13,
-          10,
-          11,
-          3
+          4
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
+          1,
           7,
-          9,
-          25,
-          26,
+          8,
           24,
-          28,
-          45,
-          8
+          24,
+          21,
+          25,
+          41,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          2,
-          13,
-          22,
-          20,
-          13,
-          15,
-          6,
+          1,
+          11,
+          27,
+          26,
+          14,
+          16,
+          8,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -67,29 +67,45 @@
         "data": [
           0,
           5,
-          3,
-          25,
-          23,
-          31,
-          26,
-          30,
-          6
+          4,
+          12,
+          8,
+          8,
+          5,
+          11,
+          4
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          1,
+          11,
+          9,
+          18,
+          16,
+          15,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          3,
-          22,
-          79,
-          161,
-          165,
-          331,
-          673,
-          376
+          2,
+          21,
+          77,
+          147,
+          166,
+          340,
+          684,
+          453
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,12 +115,12 @@
         "data": [
           0,
           4,
-          10,
-          49,
-          61,
-          83,
-          79,
-          98,
+          9,
+          40,
+          57,
+          82,
+          82,
+          88,
           10
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          4,
+          5,
           14,
-          51,
-          56,
-          41,
-          45,
-          68,
-          10
+          59,
+          64,
+          43,
+          46,
+          102,
+          30
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Clinton Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

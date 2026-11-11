@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 88 (6%)",
-      "UNC – Lapsed R — 79 (5%)",
-      "Mixed – Active — 139 (9%)",
-      "Mixed – Lapsed — 83 (5%)",
-      "UNC – No Primary — 781 (51%)",
-      "UNC – Lapsed D — 250 (16%)",
-      "Pure D — 99 (7%)"
+      "Pure R — 82 (5%)",
+      "UNC – Lapsed R — 97 (6%)",
+      "Mixed – Active — 131 (9%)",
+      "Mixed – Lapsed — 71 (5%)",
+      "UNC – Non-partisan Ballot — 21 (1%)",
+      "UNC – No Primary — 787 (51%)",
+      "UNC – Lapsed D — 241 (16%)",
+      "Pure D — 100 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          88,
-          79,
-          139,
-          83,
-          781,
-          250,
-          99
+          82,
+          97,
+          131,
+          71,
+          21,
+          787,
+          241,
+          100
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DENNISON VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

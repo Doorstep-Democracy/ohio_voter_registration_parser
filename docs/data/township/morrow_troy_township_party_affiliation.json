@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 209 (26%)",
-      "UNC – Lapsed R — 115 (14%)",
-      "Mixed – Active — 66 (8%)",
-      "Mixed – Lapsed — 58 (7%)",
-      "UNC – No Primary — 254 (32%)",
-      "UNC – Lapsed D — 57 (7%)",
-      "Pure D — 41 (5%)"
+      "Pure R — 213 (27%)",
+      "UNC – Lapsed R — 127 (16%)",
+      "Mixed – Active — 75 (9%)",
+      "Mixed – Lapsed — 21 (3%)",
+      "UNC – Non-partisan Ballot — 23 (3%)",
+      "UNC – No Primary — 243 (30%)",
+      "UNC – Lapsed D — 49 (6%)",
+      "Pure D — 49 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          209,
-          115,
-          66,
-          58,
-          254,
-          57,
-          41
+          213,
+          127,
+          75,
+          21,
+          23,
+          243,
+          49,
+          49
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TROY TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 11 (15%)",
-      "UNC – Lapsed R — 4 (6%)",
-      "Mixed – Active — 7 (10%)",
-      "Mixed – Lapsed — 2 (3%)",
+      "Pure R — 8 (11%)",
+      "UNC – Lapsed R — 6 (8%)",
+      "Mixed – Active — 8 (11%)",
+      "Mixed – Lapsed — 3 (4%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
       "UNC – No Primary — 25 (35%)",
       "UNC – Lapsed D — 13 (18%)",
-      "Pure D — 10 (14%)"
+      "Pure D — 9 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          11,
-          4,
-          7,
-          2,
+          8,
+          6,
+          8,
+          3,
+          0,
           25,
           13,
-          10
+          9
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CENTERVILLE VILLAGE (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 89 (13%)",
+      "Pure R — 93 (14%)",
       "UNC – Lapsed R — 60 (9%)",
-      "Mixed – Active — 108 (16%)",
-      "Mixed – Lapsed — 69 (10%)",
-      "UNC – No Primary — 251 (38%)",
-      "UNC – Lapsed D — 72 (11%)",
-      "Pure D — 19 (3%)"
+      "Mixed – Active — 110 (16%)",
+      "Mixed – Lapsed — 39 (6%)",
+      "UNC – Non-partisan Ballot — 31 (5%)",
+      "UNC – No Primary — 245 (37%)",
+      "UNC – Lapsed D — 63 (9%)",
+      "Pure D — 29 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          89,
+          93,
           60,
-          108,
-          69,
-          251,
-          72,
-          19
+          110,
+          39,
+          31,
+          245,
+          63,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SOMERSET TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

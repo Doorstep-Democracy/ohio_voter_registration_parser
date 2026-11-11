@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 21",
-      "Mixed – Active — 20",
-      "Mixed – Lapsed — 31",
-      "UNC – No Primary — 71",
-      "UNC – Lapsed D — 24"
+      "UNC – Lapsed R — 22",
+      "Mixed – Active — 14",
+      "Mixed – Lapsed — 19",
+      "UNC – Non-partisan Ballot — 15",
+      "UNC – No Primary — 77",
+      "UNC – Lapsed D — 25"
     ],
     "datasets": [
       {
         "data": [
-          21,
-          20,
-          31,
-          71,
-          24
+          22,
+          14,
+          19,
+          15,
+          77,
+          25
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "BERKEY VILLAGE (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

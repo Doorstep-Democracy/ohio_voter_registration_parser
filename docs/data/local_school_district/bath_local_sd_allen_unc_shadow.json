@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 782",
-      "Mixed – Active — 494",
-      "Mixed – Lapsed — 462",
-      "UNC – No Primary — 2,778",
-      "UNC – Lapsed D — 365"
+      "UNC – Lapsed R — 781",
+      "Mixed – Active — 491",
+      "Mixed – Lapsed — 180",
+      "UNC – Non-partisan Ballot — 281",
+      "UNC – No Primary — 2,833",
+      "UNC – Lapsed D — 370"
     ],
     "datasets": [
       {
         "data": [
-          782,
-          494,
-          462,
-          2778,
-          365
+          781,
+          491,
+          180,
+          281,
+          2833,
+          370
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Bath Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,276 (12%)",
-      "UNC – Lapsed R — 2,770 (10%)",
-      "Mixed – Active — 2,918 (11%)",
-      "Mixed – Lapsed — 3,335 (13%)",
-      "UNC – No Primary — 8,867 (33%)",
-      "UNC – Lapsed D — 3,281 (12%)",
-      "Pure D — 2,031 (8%)"
+      "Pure R — 2,913 (11%)",
+      "UNC – Lapsed R — 3,135 (12%)",
+      "Mixed – Active — 2,900 (11%)",
+      "Mixed – Lapsed — 1,639 (6%)",
+      "UNC – Non-partisan Ballot — 1,652 (6%)",
+      "UNC – No Primary — 8,840 (33%)",
+      "UNC – Lapsed D — 3,004 (11%)",
+      "Pure D — 2,527 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          3276,
-          2770,
-          2918,
-          3335,
-          8867,
-          3281,
-          2031
+          2913,
+          3135,
+          2900,
+          1639,
+          1652,
+          8840,
+          3004,
+          2527
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NORTH ROYALTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

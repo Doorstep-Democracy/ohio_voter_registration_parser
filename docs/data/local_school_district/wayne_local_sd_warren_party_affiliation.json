@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,822 (25%)",
-      "UNC – Lapsed R — 1,264 (17%)",
-      "Mixed – Active — 618 (8%)",
-      "Mixed – Lapsed — 488 (7%)",
-      "UNC – No Primary — 2,497 (34%)",
-      "UNC – Lapsed D — 467 (6%)",
-      "Pure D — 266 (4%)"
+      "Pure R — 1,804 (24%)",
+      "UNC – Lapsed R — 1,276 (17%)",
+      "Mixed – Active — 615 (8%)",
+      "Mixed – Lapsed — 272 (4%)",
+      "UNC – Non-partisan Ballot — 233 (3%)",
+      "UNC – No Primary — 2,589 (34%)",
+      "UNC – Lapsed D — 470 (6%)",
+      "Pure D — 260 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1822,
-          1264,
-          618,
-          488,
-          2497,
-          467,
-          266
+          1804,
+          1276,
+          615,
+          272,
+          233,
+          2589,
+          470,
+          260
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Wayne Local Sd (Warren Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

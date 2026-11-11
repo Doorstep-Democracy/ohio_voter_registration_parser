@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 553",
-      "Mixed – Active — 796",
-      "Mixed – Lapsed — 470",
-      "UNC – No Primary — 2,614",
-      "UNC – Lapsed D — 615"
+      "UNC – Lapsed R — 766",
+      "Mixed – Active — 718",
+      "Mixed – Lapsed — 323",
+      "UNC – Non-partisan Ballot — 205",
+      "UNC – No Primary — 2,647",
+      "UNC – Lapsed D — 579"
     ],
     "datasets": [
       {
         "data": [
-          553,
-          796,
-          470,
-          2614,
-          615
+          766,
+          718,
+          323,
+          205,
+          2647,
+          579
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "COSHOCTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

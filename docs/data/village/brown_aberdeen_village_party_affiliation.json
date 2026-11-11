@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 153 (16%)",
-      "UNC – Lapsed R — 86 (9%)",
-      "Mixed – Active — 106 (11%)",
-      "Mixed – Lapsed — 32 (3%)",
-      "UNC – No Primary — 444 (47%)",
-      "UNC – Lapsed D — 84 (9%)",
-      "Pure D — 40 (4%)"
+      "Pure R — 146 (15%)",
+      "UNC – Lapsed R — 96 (10%)",
+      "Mixed – Active — 114 (12%)",
+      "Mixed – Lapsed — 24 (2%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 453 (47%)",
+      "UNC – Lapsed D — 76 (8%)",
+      "Pure D — 45 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          153,
-          86,
-          106,
-          32,
-          444,
-          84,
-          40
+          146,
+          96,
+          114,
+          24,
+          7,
+          453,
+          76,
+          45
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ABERDEEN VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

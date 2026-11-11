@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 945",
-      "Mixed – Active — 757",
-      "Mixed – Lapsed — 551",
-      "UNC – No Primary — 4,004",
-      "UNC – Lapsed D — 930"
+      "UNC – Lapsed R — 1,070",
+      "Mixed – Active — 719",
+      "Mixed – Lapsed — 435",
+      "UNC – Non-partisan Ballot — 164",
+      "UNC – No Primary — 4,010",
+      "UNC – Lapsed D — 895"
     ],
     "datasets": [
       {
         "data": [
-          945,
-          757,
-          551,
-          4004,
-          930
+          1070,
+          719,
+          435,
+          164,
+          4010,
+          895
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "CAMBRIDGE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

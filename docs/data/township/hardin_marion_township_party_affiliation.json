@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 255 (18%)",
-      "UNC – Lapsed R — 174 (12%)",
-      "Mixed – Active — 92 (7%)",
-      "Mixed – Lapsed — 90 (6%)",
-      "UNC – No Primary — 627 (44%)",
-      "UNC – Lapsed D — 130 (9%)",
-      "Pure D — 41 (3%)"
+      "Pure R — 253 (18%)",
+      "UNC – Lapsed R — 194 (14%)",
+      "Mixed – Active — 97 (7%)",
+      "Mixed – Lapsed — 43 (3%)",
+      "UNC – Non-partisan Ballot — 43 (3%)",
+      "UNC – No Primary — 615 (43%)",
+      "UNC – Lapsed D — 120 (8%)",
+      "Pure D — 52 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          255,
-          174,
-          92,
-          90,
-          627,
-          130,
-          41
+          253,
+          194,
+          97,
+          43,
+          43,
+          615,
+          120,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARION TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

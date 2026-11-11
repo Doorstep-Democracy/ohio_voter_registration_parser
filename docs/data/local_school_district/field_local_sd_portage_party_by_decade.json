@@ -19,13 +19,13 @@
         "data": [
           1,
           45,
-          175,
-          364,
+          174,
+          363,
           348,
           235,
-          133,
-          101,
-          72
+          134,
+          98,
+          70
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
+          1,
           30,
-          88,
+          89,
           174,
-          252,
-          264,
-          237,
+          260,
+          265,
+          238,
           205,
-          32
+          36
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,12 +49,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          6,
-          53,
-          247,
-          433,
-          341,
-          139,
+          5,
+          45,
+          240,
+          431,
+          342,
+          133,
           94,
           24,
           6
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          32,
-          132,
-          235,
-          294,
-          326,
-          288,
-          126,
-          58
+          1,
+          26,
+          110,
+          184,
+          209,
+          172,
+          89,
+          23,
+          6
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          8,
+          25,
+          52,
+          89,
+          152,
+          199,
+          104,
+          54
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          8,
-          100,
-          217,
-          362,
-          454,
-          689,
-          1252,
-          1117
+          10,
+          96,
+          212,
+          363,
+          453,
+          701,
+          1268,
+          1176
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          43,
-          153,
-          311,
-          301,
-          329,
-          300,
-          192,
-          49
+          1,
+          44,
+          161,
+          316,
+          307,
+          327,
+          306,
+          206,
+          52
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           2,
-          42,
-          224,
-          331,
+          40,
+          222,
+          329,
           164,
-          99,
-          95,
-          99,
-          87
+          98,
+          92,
+          94,
+          85
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Field Local Sd (Portage Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

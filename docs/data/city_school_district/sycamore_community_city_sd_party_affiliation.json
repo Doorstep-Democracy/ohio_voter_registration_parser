@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,499 (13%)",
-      "UNC – Lapsed R — 3,657 (13%)",
-      "Mixed – Active — 1,946 (7%)",
-      "Mixed – Lapsed — 2,274 (8%)",
-      "UNC – No Primary — 11,177 (40%)",
-      "UNC – Lapsed D — 3,483 (12%)",
-      "Pure D — 1,876 (7%)"
+      "Pure R — 3,014 (11%)",
+      "UNC – Lapsed R — 4,035 (14%)",
+      "Mixed – Active — 2,089 (7%)",
+      "Mixed – Lapsed — 1,485 (5%)",
+      "UNC – Non-partisan Ballot — 726 (3%)",
+      "UNC – No Primary — 10,978 (39%)",
+      "UNC – Lapsed D — 3,297 (12%)",
+      "Pure D — 2,617 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          3499,
-          3657,
-          1946,
-          2274,
-          11177,
-          3483,
-          1876
+          3014,
+          4035,
+          2089,
+          1485,
+          726,
+          10978,
+          3297,
+          2617
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SYCAMORE COMMUNITY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

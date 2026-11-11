@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,425",
-      "Mixed – Active — 2,034",
-      "Mixed – Lapsed — 1,554",
-      "UNC – No Primary — 6,797",
-      "UNC – Lapsed D — 2,586"
+      "UNC – Lapsed R — 1,697",
+      "Mixed – Active — 2,028",
+      "Mixed – Lapsed — 799",
+      "UNC – Non-partisan Ballot — 750",
+      "UNC – No Primary — 6,757",
+      "UNC – Lapsed D — 2,248"
     ],
     "datasets": [
       {
         "data": [
-          1425,
-          2034,
-          1554,
-          6797,
-          2586
+          1697,
+          2028,
+          799,
+          750,
+          6757,
+          2248
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PERRY (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

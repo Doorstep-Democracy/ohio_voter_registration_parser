@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 693",
-      "Mixed – Active — 1,190",
-      "Mixed – Lapsed — 1,131",
-      "UNC – No Primary — 2,062",
-      "UNC – Lapsed D — 1,082"
+      "UNC – Lapsed R — 775",
+      "Mixed – Active — 1,209",
+      "Mixed – Lapsed — 426",
+      "UNC – Non-partisan Ballot — 660",
+      "UNC – No Primary — 2,072",
+      "UNC – Lapsed D — 989"
     ],
     "datasets": [
       {
         "data": [
-          693,
-          1190,
-          1131,
-          2062,
-          1082
+          775,
+          1209,
+          426,
+          660,
+          2072,
+          989
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SAGAMORE HLS TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

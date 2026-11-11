@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 450",
-      "Mixed – Active — 549",
-      "Mixed – Lapsed — 545",
-      "UNC – No Primary — 1,309",
-      "UNC – Lapsed D — 524"
+      "UNC – Lapsed R — 502",
+      "Mixed – Active — 525",
+      "Mixed – Lapsed — 284",
+      "UNC – Non-partisan Ballot — 271",
+      "UNC – No Primary — 1,310",
+      "UNC – Lapsed D — 506"
     ],
     "datasets": [
       {
         "data": [
-          450,
-          549,
-          545,
-          1309,
-          524
+          502,
+          525,
+          284,
+          271,
+          1310,
+          506
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SUFFIELD TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

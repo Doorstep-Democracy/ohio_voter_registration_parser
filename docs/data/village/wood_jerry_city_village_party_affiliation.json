@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 46 (20%)",
-      "UNC – Lapsed R — 26 (11%)",
-      "Mixed – Active — 12 (5%)",
-      "Mixed – Lapsed — 15 (6%)",
-      "UNC – No Primary — 99 (42%)",
-      "UNC – Lapsed D — 27 (12%)",
+      "Pure R — 43 (18%)",
+      "UNC – Lapsed R — 28 (12%)",
+      "Mixed – Active — 14 (6%)",
+      "Mixed – Lapsed — 8 (3%)",
+      "UNC – Non-partisan Ballot — 5 (2%)",
+      "UNC – No Primary — 103 (44%)",
+      "UNC – Lapsed D — 26 (11%)",
       "Pure D — 8 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          46,
+          43,
+          28,
+          14,
+          8,
+          5,
+          103,
           26,
-          12,
-          15,
-          99,
-          27,
           8
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "JERRY CITY VILLAGE (Wood Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

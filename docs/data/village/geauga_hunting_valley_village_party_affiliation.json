@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 25 (21%)",
-      "UNC – Lapsed R — 24 (20%)",
-      "Mixed – Active — 15 (12%)",
-      "Mixed – Lapsed — 3 (2%)",
-      "UNC – No Primary — 42 (35%)",
-      "UNC – Lapsed D — 9 (7%)",
-      "Pure D — 3 (2%)"
+      "Pure R — 19 (15%)",
+      "UNC – Lapsed R — 32 (25%)",
+      "Mixed – Active — 13 (10%)",
+      "Mixed – Lapsed — 5 (4%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 44 (35%)",
+      "UNC – Lapsed D — 12 (10%)",
+      "Pure D — 1 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          25,
-          24,
-          15,
-          3,
-          42,
-          9,
-          3
+          19,
+          32,
+          13,
+          5,
+          0,
+          44,
+          12,
+          1
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HUNTING VALLEY VILLAGE (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

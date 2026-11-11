@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 480 (24%)",
-      "UNC – Lapsed R — 268 (13%)",
-      "Mixed – Active — 123 (6%)",
-      "Mixed – Lapsed — 154 (8%)",
-      "UNC – No Primary — 795 (39%)",
-      "UNC – Lapsed D — 141 (7%)",
-      "Pure D — 54 (3%)"
+      "Pure R — 457 (23%)",
+      "UNC – Lapsed R — 295 (15%)",
+      "Mixed – Active — 124 (6%)",
+      "Mixed – Lapsed — 67 (3%)",
+      "UNC – Non-partisan Ballot — 85 (4%)",
+      "UNC – No Primary — 786 (39%)",
+      "UNC – Lapsed D — 136 (7%)",
+      "Pure D — 64 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          480,
-          268,
-          123,
-          154,
-          795,
-          141,
-          54
+          457,
+          295,
+          124,
+          67,
+          85,
+          786,
+          136,
+          64
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CHESTER TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

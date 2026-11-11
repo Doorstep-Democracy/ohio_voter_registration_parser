@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,926 (15%)",
-      "UNC – Lapsed R — 1,837 (15%)",
-      "Mixed – Active — 539 (4%)",
-      "Mixed – Lapsed — 1,505 (12%)",
-      "UNC – No Primary — 5,460 (44%)",
-      "UNC – Lapsed D — 990 (8%)",
-      "Pure D — 263 (2%)"
+      "Pure R — 1,973 (15%)",
+      "UNC – Lapsed R — 1,993 (15%)",
+      "Mixed – Active — 603 (5%)",
+      "Mixed – Lapsed — 427 (3%)",
+      "UNC – Non-partisan Ballot — 1,042 (8%)",
+      "UNC – No Primary — 5,585 (43%)",
+      "UNC – Lapsed D — 914 (7%)",
+      "Pure D — 425 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1926,
-          1837,
-          539,
-          1505,
-          5460,
-          990,
-          263
+          1973,
+          1993,
+          603,
+          427,
+          1042,
+          5585,
+          914,
+          425
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "EDGEWOOD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

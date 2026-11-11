@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 132 (20%)",
-      "UNC – Lapsed R — 75 (11%)",
-      "Mixed – Active — 58 (9%)",
-      "Mixed – Lapsed — 42 (6%)",
-      "UNC – No Primary — 279 (43%)",
-      "UNC – Lapsed D — 50 (8%)",
-      "Pure D — 20 (3%)"
+      "Pure R — 126 (19%)",
+      "UNC – Lapsed R — 85 (13%)",
+      "Mixed – Active — 51 (8%)",
+      "Mixed – Lapsed — 27 (4%)",
+      "UNC – Non-partisan Ballot — 28 (4%)",
+      "UNC – No Primary — 275 (41%)",
+      "UNC – Lapsed D — 47 (7%)",
+      "Pure D — 26 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          132,
-          75,
-          58,
-          42,
-          279,
-          50,
-          20
+          126,
+          85,
+          51,
+          27,
+          28,
+          275,
+          47,
+          26
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FITCHVILLE TOWNSHIP (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

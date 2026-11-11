@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 183 (16%)",
-      "UNC – Lapsed R — 132 (12%)",
-      "Mixed – Active — 93 (8%)",
-      "Mixed – Lapsed — 64 (6%)",
-      "UNC – No Primary — 478 (43%)",
-      "UNC – Lapsed D — 99 (9%)",
-      "Pure D — 61 (5%)"
+      "Pure R — 205 (19%)",
+      "UNC – Lapsed R — 123 (11%)",
+      "Mixed – Active — 105 (10%)",
+      "Mixed – Lapsed — 42 (4%)",
+      "UNC – Non-partisan Ballot — 10 (1%)",
+      "UNC – No Primary — 463 (42%)",
+      "UNC – Lapsed D — 84 (8%)",
+      "Pure D — 62 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          183,
-          132,
-          93,
-          64,
-          478,
-          99,
-          61
+          205,
+          123,
+          105,
+          42,
+          10,
+          463,
+          84,
+          62
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MCARTHUR VILLAGE (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

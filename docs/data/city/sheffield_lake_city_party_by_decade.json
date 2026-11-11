@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          10,
-          60,
-          129,
-          108,
+          8,
+          56,
+          131,
+          110,
           75,
-          45,
-          26,
-          10
+          47,
+          32,
+          11
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,13 +35,13 @@
         "data": [
           0,
           10,
-          34,
-          83,
-          110,
-          82,
+          39,
+          81,
+          112,
+          85,
           60,
-          51,
-          5
+          53,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           11,
-          86,
-          181,
-          122,
-          65,
-          28,
-          10,
-          1
+          89,
+          191,
+          133,
+          69,
+          34,
+          9,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,33 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          20,
-          56,
-          107,
-          125,
-          115,
-          83,
-          31,
-          10
+          1,
+          13,
+          38,
+          65,
+          66,
+          51,
+          21,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          15,
+          36,
+          55,
+          66,
+          52,
+          28,
+          10
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           1,
           12,
-          46,
-          130,
-          245,
-          324,
-          416,
-          640,
-          494
+          42,
+          123,
+          228,
+          314,
+          393,
+          622,
+          534
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +115,13 @@
         "data": [
           2,
           25,
-          79,
-          166,
-          182,
-          187,
-          158,
-          92,
-          12
+          74,
+          144,
+          160,
+          161,
+          139,
+          81,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          21,
-          82,
-          207,
-          107,
-          53,
-          51,
-          38,
-          18
+          17,
+          88,
+          212,
+          143,
+          78,
+          90,
+          72,
+          31
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SHEFFIELD LAKE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

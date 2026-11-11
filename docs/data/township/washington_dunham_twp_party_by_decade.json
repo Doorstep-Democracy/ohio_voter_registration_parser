@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,15 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          10,
+          8,
           57,
-          75,
-          108,
-          47,
-          50,
-          37,
-          26
+          79,
+          120,
+          51,
+          52,
+          39,
+          27
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          7,
-          20,
-          29,
-          56,
-          42,
-          29,
-          32,
-          1
+          5,
+          19,
+          28,
+          52,
+          39,
+          27,
+          28,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          6,
-          24,
-          59,
-          34,
+          9,
           21,
-          14,
+          64,
+          36,
+          20,
+          12,
           2,
           0
         ],
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
+          3,
           6,
-          5,
-          33,
-          33,
-          42,
-          33,
           17,
-          10
+          14,
+          9,
+          7,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          1,
+          13,
+          17,
+          32,
+          28,
+          12,
+          10
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          0,
           1,
-          18,
-          53,
-          96,
+          17,
+          51,
+          87,
           105,
           146,
-          174,
-          161
+          176,
+          160
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +106,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           1,
-          14,
-          27,
-          28,
+          13,
+          20,
+          25,
           15,
-          15,
-          12,
-          1
+          16,
+          13,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          2,
-          5,
-          23,
-          10,
-          4,
-          4,
           1,
-          5
+          5,
+          26,
+          13,
+          5,
+          4,
+          4,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DUNHAM TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

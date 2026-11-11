@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,213 (20%)",
-      "UNC – Lapsed R — 765 (13%)",
+      "Pure R — 1,211 (20%)",
+      "UNC – Lapsed R — 763 (13%)",
       "Mixed – Active — 530 (9%)",
-      "Mixed – Lapsed — 666 (11%)",
-      "UNC – No Primary — 2,105 (35%)",
-      "UNC – Lapsed D — 448 (7%)",
-      "Pure D — 329 (5%)"
+      "Mixed – Lapsed — 245 (4%)",
+      "UNC – Non-partisan Ballot — 424 (7%)",
+      "UNC – No Primary — 2,137 (35%)",
+      "UNC – Lapsed D — 439 (7%)",
+      "Pure D — 324 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1213,
-          765,
+          1211,
+          763,
           530,
-          666,
-          2105,
-          448,
-          329
+          245,
+          424,
+          2137,
+          439,
+          324
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Black River Local Sd (Medina Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

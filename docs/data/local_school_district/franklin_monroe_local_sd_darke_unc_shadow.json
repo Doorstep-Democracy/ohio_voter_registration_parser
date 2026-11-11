@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 429",
+      "UNC – Lapsed R — 430",
       "Mixed – Active — 135",
-      "Mixed – Lapsed — 135",
-      "UNC – No Primary — 754",
+      "Mixed – Lapsed — 96",
+      "UNC – Non-partisan Ballot — 40",
+      "UNC – No Primary — 777",
       "UNC – Lapsed D — 90"
     ],
     "datasets": [
       {
         "data": [
-          429,
+          430,
           135,
-          135,
-          754,
+          96,
+          40,
+          777,
           90
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Franklin-Monroe Local Sd (Darke Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

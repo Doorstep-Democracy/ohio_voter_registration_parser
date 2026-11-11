@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 151 (1%)",
-      "UNC – Lapsed R — 190 (1%)",
-      "Mixed – Active — 360 (2%)",
-      "Mixed – Lapsed — 610 (4%)",
-      "UNC – No Primary — 7,850 (50%)",
-      "UNC – Lapsed D — 4,009 (26%)",
-      "Pure D — 2,396 (15%)"
+      "Pure R — 143 (1%)",
+      "UNC – Lapsed R — 192 (1%)",
+      "Mixed – Active — 359 (2%)",
+      "Mixed – Lapsed — 224 (1%)",
+      "UNC – Non-partisan Ballot — 341 (2%)",
+      "UNC – No Primary — 8,070 (51%)",
+      "UNC – Lapsed D — 3,783 (24%)",
+      "Pure D — 2,774 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          151,
-          190,
-          360,
-          610,
-          7850,
-          4009,
-          2396
+          143,
+          192,
+          359,
+          224,
+          341,
+          8070,
+          3783,
+          2774
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MAPLE HEIGHTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

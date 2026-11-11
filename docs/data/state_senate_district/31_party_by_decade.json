@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          65,
-          1356,
-          5268,
-          8860,
-          7738,
-          4913,
-          3834,
-          2325,
-          1106
+          46,
+          1072,
+          4707,
+          8401,
+          7332,
+          4466,
+          3276,
+          2098,
+          1191
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          64,
-          765,
-          2143,
-          3833,
-          5339,
-          4809,
-          4342,
-          3031,
-          294
+          55,
+          865,
+          2498,
+          4288,
+          5933,
+          5430,
+          5127,
+          3520,
+          536
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          38,
-          738,
-          3375,
-          5648,
-          3906,
-          2255,
-          1268,
-          305,
-          36
+          31,
+          642,
+          3206,
+          5656,
+          3949,
+          2230,
+          1220,
+          346,
+          48
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          50,
-          519,
-          1760,
-          3227,
-          3617,
-          3349,
-          2759,
-          1183,
-          443
+          36,
+          443,
+          1433,
+          2234,
+          2302,
+          1874,
+          1272,
+          264,
+          21
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          8,
+          104,
+          462,
+          1095,
+          1409,
+          1612,
+          1574,
+          896,
+          379
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          0,
-          20,
-          425,
-          2005,
-          5313,
-          8895,
-          10898,
-          15021,
-          21169,
-          18248
+          17,
+          384,
+          1911,
+          5042,
+          8666,
+          10681,
+          14777,
+          20893,
+          19225
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          77,
-          794,
-          2396,
-          4516,
-          4674,
-          4026,
-          3505,
-          1870,
-          244
+          53,
+          734,
+          2192,
+          3988,
+          4158,
+          3763,
+          3364,
+          1814,
+          309
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          31,
-          497,
-          2113,
-          3228,
-          1453,
-          827,
-          744,
-          440,
-          260
+          28,
+          442,
+          2144,
+          3636,
+          1898,
+          1086,
+          1050,
+          783,
+          576
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "State Senate District",
   "jurisdiction_name": "31",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

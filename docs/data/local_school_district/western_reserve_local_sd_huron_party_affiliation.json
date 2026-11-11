@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 696 (16%)",
-      "UNC – Lapsed R — 482 (11%)",
+      "Pure R — 691 (16%)",
+      "UNC – Lapsed R — 490 (12%)",
       "Mixed – Active — 294 (7%)",
-      "Mixed – Lapsed — 283 (7%)",
-      "UNC – No Primary — 1,827 (43%)",
-      "UNC – Lapsed D — 399 (9%)",
-      "Pure D — 257 (6%)"
+      "Mixed – Lapsed — 123 (3%)",
+      "UNC – Non-partisan Ballot — 158 (4%)",
+      "UNC – No Primary — 1,844 (43%)",
+      "UNC – Lapsed D — 398 (9%)",
+      "Pure D — 256 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          696,
-          482,
+          691,
+          490,
           294,
-          283,
-          1827,
-          399,
-          257
+          123,
+          158,
+          1844,
+          398,
+          256
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Western Reserve Local Sd (Huron Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

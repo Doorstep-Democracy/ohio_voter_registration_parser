@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,886 (7%)",
-      "UNC – Lapsed R — 1,495 (6%)",
-      "Mixed – Active — 3,718 (14%)",
-      "Mixed – Lapsed — 1,789 (7%)",
-      "UNC – No Primary — 9,124 (35%)",
-      "UNC – Lapsed D — 4,287 (17%)",
-      "Pure D — 3,663 (14%)"
+      "Pure R — 1,858 (7%)",
+      "UNC – Lapsed R — 1,488 (6%)",
+      "Mixed – Active — 3,676 (14%)",
+      "Mixed – Lapsed — 1,417 (5%)",
+      "UNC – Non-partisan Ballot — 364 (1%)",
+      "UNC – No Primary — 9,402 (36%)",
+      "UNC – Lapsed D — 4,251 (16%)",
+      "Pure D — 3,617 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          1886,
-          1495,
-          3718,
-          1789,
-          9124,
-          4287,
-          3663
+          1858,
+          1488,
+          3676,
+          1417,
+          364,
+          9402,
+          4251,
+          3617
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Boardman Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

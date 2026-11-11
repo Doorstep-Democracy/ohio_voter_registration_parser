@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,214",
-      "Mixed – Active — 795",
-      "Mixed – Lapsed — 952",
-      "UNC – No Primary — 3,482",
-      "UNC – Lapsed D — 838"
+      "UNC – Lapsed R — 1,390",
+      "Mixed – Active — 862",
+      "Mixed – Lapsed — 328",
+      "UNC – Non-partisan Ballot — 582",
+      "UNC – No Primary — 3,549",
+      "UNC – Lapsed D — 774"
     ],
     "datasets": [
       {
         "data": [
-          1214,
-          795,
-          952,
-          3482,
-          838
+          1390,
+          862,
+          328,
+          582,
+          3549,
+          774
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Montville TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

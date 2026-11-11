@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 430",
-      "Mixed – Active — 273",
-      "Mixed – Lapsed — 254",
-      "UNC – No Primary — 1,287",
-      "UNC – Lapsed D — 312"
+      "UNC – Lapsed R — 378",
+      "Mixed – Active — 333",
+      "Mixed – Lapsed — 101",
+      "UNC – Non-partisan Ballot — 156",
+      "UNC – No Primary — 1,073",
+      "UNC – Lapsed D — 198"
     ],
     "datasets": [
       {
         "data": [
-          430,
-          273,
-          254,
-          1287,
-          312
+          378,
+          333,
+          101,
+          156,
+          1073,
+          198
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Wadsworth TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

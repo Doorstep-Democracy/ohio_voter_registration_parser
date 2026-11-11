@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 169 (16%)",
-      "UNC – Lapsed R — 163 (16%)",
-      "Mixed – Active — 82 (8%)",
-      "Mixed – Lapsed — 70 (7%)",
-      "UNC – No Primary — 453 (44%)",
-      "UNC – Lapsed D — 71 (7%)",
-      "Pure D — 20 (2%)"
+      "Pure R — 175 (17%)",
+      "UNC – Lapsed R — 162 (16%)",
+      "Mixed – Active — 83 (8%)",
+      "Mixed – Lapsed — 50 (5%)",
+      "UNC – Non-partisan Ballot — 21 (2%)",
+      "UNC – No Primary — 441 (43%)",
+      "UNC – Lapsed D — 61 (6%)",
+      "Pure D — 23 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          169,
-          163,
-          82,
-          70,
-          453,
-          71,
-          20
+          175,
+          162,
+          83,
+          50,
+          21,
+          441,
+          61,
+          23
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ANNA VILLAGE (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 42 (26%)",
-      "UNC – Lapsed R — 17 (11%)",
-      "Mixed – Active — 17 (11%)",
-      "Mixed – Lapsed — 8 (5%)",
-      "UNC – No Primary — 57 (35%)",
-      "UNC – Lapsed D — 12 (7%)",
-      "Pure D — 8 (5%)"
+      "Pure R — 37 (22%)",
+      "UNC – Lapsed R — 22 (13%)",
+      "Mixed – Active — 19 (11%)",
+      "Mixed – Lapsed — 7 (4%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 63 (38%)",
+      "UNC – Lapsed D — 11 (7%)",
+      "Pure D — 7 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          42,
-          17,
-          17,
-          8,
-          57,
-          12,
-          8
+          37,
+          22,
+          19,
+          7,
+          1,
+          63,
+          11,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ATHALIA VILLAGE (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

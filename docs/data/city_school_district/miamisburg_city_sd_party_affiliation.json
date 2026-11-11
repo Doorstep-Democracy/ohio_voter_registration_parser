@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,960 (14%)",
-      "UNC – Lapsed R — 3,453 (12%)",
-      "Mixed – Active — 2,166 (8%)",
-      "Mixed – Lapsed — 1,911 (7%)",
-      "UNC – No Primary — 12,166 (44%)",
-      "UNC – Lapsed D — 2,762 (10%)",
-      "Pure D — 1,206 (4%)"
+      "Pure R — 3,257 (12%)",
+      "UNC – Lapsed R — 4,165 (15%)",
+      "Mixed – Active — 1,952 (7%)",
+      "Mixed – Lapsed — 1,426 (5%)",
+      "UNC – Non-partisan Ballot — 730 (3%)",
+      "UNC – No Primary — 12,274 (44%)",
+      "UNC – Lapsed D — 2,727 (10%)",
+      "Pure D — 1,455 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          3960,
-          3453,
-          2166,
-          1911,
-          12166,
-          2762,
-          1206
+          3257,
+          4165,
+          1952,
+          1426,
+          730,
+          12274,
+          2727,
+          1455
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MIAMISBURG CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

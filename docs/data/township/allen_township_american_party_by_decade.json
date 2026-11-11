@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          6,
-          112,
-          389,
-          675,
-          435,
-          291,
-          180,
-          103,
-          48
+          4,
+          75,
+          321,
+          584,
+          358,
+          230,
+          125,
+          99,
+          56
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
-          45,
-          113,
-          209,
-          235,
-          257,
-          206,
-          167,
-          14
+          4,
+          77,
+          156,
+          281,
+          317,
+          322,
+          265,
+          173,
+          31
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          33,
-          132,
-          214,
-          109,
-          83,
-          41,
-          4,
+          0,
+          23,
+          114,
+          205,
+          110,
+          68,
+          38,
+          10,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          21,
-          75,
-          132,
-          147,
-          151,
-          144,
-          95,
-          93
+          3,
+          18,
+          63,
+          80,
+          65,
+          76,
+          49,
+          10,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          7,
+          29,
+          64,
+          83,
+          85,
+          99,
+          74,
+          75
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          13,
-          71,
-          215,
-          376,
-          481,
-          579,
-          976,
-          907
+          12,
+          72,
+          212,
+          370,
+          480,
+          584,
+          1003,
+          980
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          39,
-          92,
-          159,
-          164,
+          4,
+          35,
+          100,
           151,
+          154,
           148,
-          61,
-          9
+          142,
+          63,
+          11
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          3,
-          26,
-          104,
-          145,
-          71,
-          25,
-          20,
+          1,
+          24,
+          95,
+          150,
+          84,
+          29,
+          35,
           21,
-          8
+          19
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Township American (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

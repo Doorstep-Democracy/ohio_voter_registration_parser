@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 668",
-      "Mixed – Active — 703",
-      "Mixed – Lapsed — 660",
-      "UNC – No Primary — 2,169",
-      "UNC – Lapsed D — 926"
+      "UNC – Lapsed R — 673",
+      "Mixed – Active — 696",
+      "Mixed – Lapsed — 357",
+      "UNC – Non-partisan Ballot — 308",
+      "UNC – No Primary — 2,235",
+      "UNC – Lapsed D — 934"
     ],
     "datasets": [
       {
         "data": [
-          668,
-          703,
-          660,
-          2169,
-          926
+          673,
+          696,
+          357,
+          308,
+          2235,
+          934
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "OLMSTED FALLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 171",
-      "Mixed – Active — 92",
-      "Mixed – Lapsed — 99",
-      "UNC – No Primary — 297",
-      "UNC – Lapsed D — 64"
+      "UNC – Lapsed R — 203",
+      "Mixed – Active — 81",
+      "Mixed – Lapsed — 59",
+      "UNC – Non-partisan Ballot — 46",
+      "UNC – No Primary — 305",
+      "UNC – Lapsed D — 66"
     ],
     "datasets": [
       {
         "data": [
-          171,
-          92,
-          99,
-          297,
-          64
+          203,
+          81,
+          59,
+          46,
+          305,
+          66
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

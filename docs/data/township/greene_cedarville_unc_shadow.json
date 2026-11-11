@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 432",
-      "Mixed – Active — 99",
-      "Mixed – Lapsed — 93",
-      "UNC – No Primary — 1,079",
-      "UNC – Lapsed D — 86"
+      "UNC – Lapsed R — 468",
+      "Mixed – Active — 101",
+      "Mixed – Lapsed — 57",
+      "UNC – Non-partisan Ballot — 27",
+      "UNC – No Primary — 1,098",
+      "UNC – Lapsed D — 77"
     ],
     "datasets": [
       {
         "data": [
-          432,
-          99,
-          93,
-          1079,
-          86
+          468,
+          101,
+          57,
+          27,
+          1098,
+          77
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CEDARVILLE (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 903",
-      "Mixed – Active — 1,238",
-      "Mixed – Lapsed — 1,119",
-      "UNC – No Primary — 4,482",
-      "UNC – Lapsed D — 1,841"
+      "UNC – Lapsed R — 902",
+      "Mixed – Active — 1,225",
+      "Mixed – Lapsed — 622",
+      "UNC – Non-partisan Ballot — 489",
+      "UNC – No Primary — 4,614",
+      "UNC – Lapsed D — 1,847"
     ],
     "datasets": [
       {
         "data": [
-          903,
-          1238,
-          1119,
-          4482,
-          1841
+          902,
+          1225,
+          622,
+          489,
+          4614,
+          1847
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "BEREA CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

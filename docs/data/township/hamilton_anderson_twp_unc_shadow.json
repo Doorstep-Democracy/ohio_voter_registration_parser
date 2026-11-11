@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 6,083",
-      "Mixed – Active — 2,508",
-      "Mixed – Lapsed — 4,361",
-      "UNC – No Primary — 11,369",
-      "UNC – Lapsed D — 3,335"
+      "UNC – Lapsed R — 6,076",
+      "Mixed – Active — 2,492",
+      "Mixed – Lapsed — 1,912",
+      "UNC – Non-partisan Ballot — 2,431",
+      "UNC – No Primary — 11,738",
+      "UNC – Lapsed D — 3,343"
     ],
     "datasets": [
       {
         "data": [
-          6083,
-          2508,
-          4361,
-          11369,
-          3335
+          6076,
+          2492,
+          1912,
+          2431,
+          11738,
+          3343
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ANDERSON TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

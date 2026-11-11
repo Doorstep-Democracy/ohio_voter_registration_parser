@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 709 (19%)",
-      "UNC – Lapsed R — 387 (10%)",
-      "Mixed – Active — 333 (9%)",
-      "Mixed – Lapsed — 390 (10%)",
-      "UNC – No Primary — 1,229 (33%)",
-      "UNC – Lapsed D — 400 (11%)",
-      "Pure D — 331 (9%)"
+      "Pure R — 697 (18%)",
+      "UNC – Lapsed R — 407 (11%)",
+      "Mixed – Active — 353 (9%)",
+      "Mixed – Lapsed — 118 (3%)",
+      "UNC – Non-partisan Ballot — 213 (6%)",
+      "UNC – No Primary — 1,278 (33%)",
+      "UNC – Lapsed D — 368 (10%)",
+      "Pure D — 385 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          709,
-          387,
-          333,
-          390,
-          1229,
-          400,
-          331
+          697,
+          407,
+          353,
+          118,
+          213,
+          1278,
+          368,
+          385
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WHITEHOUSE VILLAGE (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

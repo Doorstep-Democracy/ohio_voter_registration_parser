@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2",
+      "UNC – Lapsed R — 1",
       "Mixed – Active — 3",
-      "Mixed – Lapsed — 4",
-      "UNC – No Primary — 14",
+      "Mixed – Lapsed — 3",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 13",
       "UNC – Lapsed D — 2"
     ],
     "datasets": [
       {
         "data": [
-          2,
+          1,
           3,
-          4,
-          14,
+          3,
+          0,
+          13,
           2
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "FAIRVIEW VILLAGE (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

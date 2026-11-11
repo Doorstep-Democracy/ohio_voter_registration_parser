@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 413",
-      "Mixed – Active — 1,393",
-      "Mixed – Lapsed — 599",
-      "UNC – No Primary — 4,639",
-      "UNC – Lapsed D — 2,032"
+      "UNC – Lapsed R — 454",
+      "Mixed – Active — 1,379",
+      "Mixed – Lapsed — 512",
+      "UNC – Non-partisan Ballot — 175",
+      "UNC – No Primary — 4,628",
+      "UNC – Lapsed D — 2,110"
     ],
     "datasets": [
       {
         "data": [
-          413,
-          1393,
-          599,
-          4639,
-          2032
+          454,
+          1379,
+          512,
+          175,
+          4628,
+          2110
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "NILES CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

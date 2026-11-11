@@ -17,13 +17,13 @@
         "label": "Pure R",
         "data": [
           1,
-          0,
+          1,
           2,
           5,
-          7,
-          2,
+          6,
           0,
-          2
+          0,
+          4
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
+          0,
           1,
+          10,
+          5,
+          5,
           1,
-          9,
-          3,
-          3,
-          1,
-          1
+          0
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -48,11 +48,11 @@
         "data": [
           0,
           3,
-          5,
-          3,
+          7,
+          4,
           7,
           0,
-          1,
+          0,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -62,15 +62,30 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          1,
-          7,
-          6,
-          4,
-          2,
           0,
-          1
+          5,
+          6,
+          2,
+          2,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -79,11 +94,11 @@
           0,
           1,
           6,
-          6,
+          5,
           16,
           18,
-          22,
-          21
+          21,
+          19
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,13 +107,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          6,
           7,
-          15,
-          5,
-          4,
           6,
-          0
+          12,
+          4,
+          2,
+          6,
+          1
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -107,11 +122,11 @@
         "label": "Pure D",
         "data": [
           0,
+          4,
           5,
-          6,
+          5,
+          3,
           2,
-          2,
-          0,
           0,
           1
         ],
@@ -120,8 +135,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "AMSTERDAM VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

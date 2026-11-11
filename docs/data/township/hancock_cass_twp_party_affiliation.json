@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 221 (32%)",
-      "UNC – Lapsed R — 103 (15%)",
-      "Mixed – Active — 56 (8%)",
-      "Mixed – Lapsed — 35 (5%)",
-      "UNC – No Primary — 217 (31%)",
+      "Pure R — 223 (33%)",
+      "UNC – Lapsed R — 98 (14%)",
+      "Mixed – Active — 58 (9%)",
+      "Mixed – Lapsed — 18 (3%)",
+      "UNC – Non-partisan Ballot — 10 (1%)",
+      "UNC – No Primary — 213 (31%)",
       "UNC – Lapsed D — 37 (5%)",
-      "Pure D — 21 (3%)"
+      "Pure D — 24 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          221,
-          103,
-          56,
-          35,
-          217,
+          223,
+          98,
+          58,
+          18,
+          10,
+          213,
           37,
-          21
+          24
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CASS TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

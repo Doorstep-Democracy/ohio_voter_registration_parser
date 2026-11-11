@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 526",
-      "Mixed – Active — 666",
-      "Mixed – Lapsed — 422",
-      "UNC – No Primary — 1,240",
-      "UNC – Lapsed D — 445"
+      "UNC – Lapsed R — 599",
+      "Mixed – Active — 690",
+      "Mixed – Lapsed — 269",
+      "UNC – Non-partisan Ballot — 148",
+      "UNC – No Primary — 1,232",
+      "UNC – Lapsed D — 409"
     ],
     "datasets": [
       {
         "data": [
-          526,
-          666,
-          422,
-          1240,
-          445
+          599,
+          690,
+          269,
+          148,
+          1232,
+          409
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RUSSELL TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

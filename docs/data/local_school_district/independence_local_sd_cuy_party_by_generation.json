@@ -13,10 +13,10 @@
       {
         "label": "Pure R",
         "data": [
-          82,
-          410,
+          78,
+          407,
           301,
-          204,
+          203,
           105
         ],
         "backgroundColor": "#ef4444",
@@ -25,11 +25,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          42,
-          126,
+          34,
+          125,
           161,
-          128,
-          23
+          129,
+          21
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -37,10 +37,10 @@
       {
         "label": "Mixed – Active",
         "data": [
-          110,
-          570,
-          247,
-          116,
+          109,
+          565,
+          246,
+          115,
           6
         ],
         "backgroundColor": "#f59e0b",
@@ -49,23 +49,35 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          61,
-          243,
-          206,
-          135,
-          65
+          33,
+          138,
+          75,
+          33,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           23,
-          123,
-          228,
+          105,
+          132,
+          99,
+          63
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          20,
+          121,
+          229,
           421,
-          536
+          564
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -73,11 +85,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          39,
+          35,
           151,
-          151,
-          118,
-          37
+          150,
+          112,
+          36
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -85,19 +97,19 @@
       {
         "label": "Pure D",
         "data": [
-          42,
-          278,
+          41,
+          279,
+          174,
           175,
-          177,
-          70
+          68
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Independence Local Sd (Cuy Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

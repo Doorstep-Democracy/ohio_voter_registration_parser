@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 601",
-      "Mixed – Active — 571",
-      "Mixed – Lapsed — 628",
-      "UNC – No Primary — 2,015",
-      "UNC – Lapsed D — 694"
+      "UNC – Lapsed R — 699",
+      "Mixed – Active — 557",
+      "Mixed – Lapsed — 300",
+      "UNC – Non-partisan Ballot — 341",
+      "UNC – No Primary — 1,954",
+      "UNC – Lapsed D — 684"
     ],
     "datasets": [
       {
         "data": [
-          601,
-          571,
-          628,
-          2015,
-          694
+          699,
+          557,
+          300,
+          341,
+          1954,
+          684
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SWANCREEK TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

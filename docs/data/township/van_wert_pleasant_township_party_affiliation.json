@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,828 (21%)",
-      "UNC – Lapsed R — 1,202 (14%)",
-      "Mixed – Active — 663 (8%)",
-      "Mixed – Lapsed — 439 (5%)",
-      "UNC – No Primary — 3,840 (44%)",
-      "UNC – Lapsed D — 479 (6%)",
-      "Pure D — 223 (3%)"
+      "Pure R — 1,632 (19%)",
+      "UNC – Lapsed R — 1,442 (17%)",
+      "Mixed – Active — 587 (7%)",
+      "Mixed – Lapsed — 404 (5%)",
+      "UNC – Non-partisan Ballot — 134 (2%)",
+      "UNC – No Primary — 3,785 (44%)",
+      "UNC – Lapsed D — 488 (6%)",
+      "Pure D — 209 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          1828,
-          1202,
-          663,
-          439,
-          3840,
-          479,
-          223
+          1632,
+          1442,
+          587,
+          404,
+          134,
+          3785,
+          488,
+          209
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

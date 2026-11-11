@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 21 (12%)",
-      "UNC – Lapsed R — 13 (7%)",
-      "Mixed – Active — 17 (9%)",
-      "Mixed – Lapsed — 13 (7%)",
-      "UNC – No Primary — 76 (42%)",
-      "UNC – Lapsed D — 36 (20%)",
-      "Pure D — 4 (2%)"
+      "Pure R — 20 (11%)",
+      "UNC – Lapsed R — 16 (9%)",
+      "Mixed – Active — 15 (9%)",
+      "Mixed – Lapsed — 8 (5%)",
+      "UNC – Non-partisan Ballot — 5 (3%)",
+      "UNC – No Primary — 70 (40%)",
+      "UNC – Lapsed D — 34 (19%)",
+      "Pure D — 7 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          21,
-          13,
-          17,
-          13,
-          76,
-          36,
-          4
+          20,
+          16,
+          15,
+          8,
+          5,
+          70,
+          34,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BEALLSVILLE VILLAGE (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

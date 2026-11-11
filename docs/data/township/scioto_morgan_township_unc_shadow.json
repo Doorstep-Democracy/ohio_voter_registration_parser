@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 110",
-      "Mixed – Active — 125",
-      "Mixed – Lapsed — 54",
-      "UNC – No Primary — 570",
-      "UNC – Lapsed D — 186"
+      "UNC – Lapsed R — 125",
+      "Mixed – Active — 119",
+      "Mixed – Lapsed — 47",
+      "UNC – Non-partisan Ballot — 16",
+      "UNC – No Primary — 568",
+      "UNC – Lapsed D — 182"
     ],
     "datasets": [
       {
         "data": [
-          110,
           125,
-          54,
-          570,
-          186
+          119,
+          47,
+          16,
+          568,
+          182
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MORGAN TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

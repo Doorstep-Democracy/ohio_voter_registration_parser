@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 978",
-      "Mixed – Active — 900",
-      "Mixed – Lapsed — 1,343",
-      "UNC – No Primary — 4,839",
-      "UNC – Lapsed D — 2,038"
+      "UNC – Lapsed R — 814",
+      "Mixed – Active — 1,177",
+      "Mixed – Lapsed — 400",
+      "UNC – Non-partisan Ballot — 737",
+      "UNC – No Primary — 4,424",
+      "UNC – Lapsed D — 1,515"
     ],
     "datasets": [
       {
         "data": [
-          978,
-          900,
-          1343,
-          4839,
-          2038
+          814,
+          1177,
+          400,
+          737,
+          4424,
+          1515
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "STREETSBORO CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

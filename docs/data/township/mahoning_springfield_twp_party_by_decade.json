@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           3,
-          20,
-          84,
-          158,
-          109,
-          79,
+          18,
+          86,
+          156,
+          126,
+          76,
+          72,
           64,
-          61,
-          36
+          45
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
-          17,
-          35,
-          74,
-          71,
-          66,
-          66,
+          2,
+          18,
+          34,
+          76,
           64,
-          5
+          72,
+          63,
+          66,
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          7,
-          40,
-          154,
-          281,
-          217,
-          119,
-          84,
-          23,
-          3
+          3,
+          38,
+          142,
+          289,
+          229,
+          123,
+          91,
+          24,
+          5
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          22,
-          49,
-          58,
-          69,
-          83,
+          4,
+          19,
+          53,
+          54,
+          60,
           55,
-          28,
-          5
+          30,
+          13,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          3,
+          4,
+          10,
+          6,
+          31,
+          22,
+          18,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          21,
-          63,
-          112,
-          150,
-          204,
-          253,
-          384,
-          351
+          14,
+          59,
+          107,
+          144,
+          194,
+          245,
+          371,
+          355
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          33,
-          75,
-          129,
-          142,
-          146,
-          87,
-          49,
-          4
+          0,
+          34,
+          72,
+          110,
+          132,
+          143,
+          88,
+          43,
+          9
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
+          2,
           22,
-          99,
-          151,
-          80,
-          45,
-          24,
-          21,
-          19
+          95,
+          169,
+          81,
+          48,
+          31,
+          25,
+          27
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

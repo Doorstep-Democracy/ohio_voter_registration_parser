@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 144",
-      "Mixed – Active — 103",
-      "Mixed – Lapsed — 85",
-      "UNC – No Primary — 380",
-      "UNC – Lapsed D — 67"
+      "UNC – Lapsed R — 165",
+      "Mixed – Active — 108",
+      "Mixed – Lapsed — 34",
+      "UNC – Non-partisan Ballot — 45",
+      "UNC – No Primary — 366",
+      "UNC – Lapsed D — 60"
     ],
     "datasets": [
       {
         "data": [
-          144,
-          103,
-          85,
-          380,
-          67
+          165,
+          108,
+          34,
+          45,
+          366,
+          60
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

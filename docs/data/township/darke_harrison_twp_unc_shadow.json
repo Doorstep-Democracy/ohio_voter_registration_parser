@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 176",
+      "UNC – Lapsed R — 291",
       "Mixed – Active — 121",
-      "Mixed – Lapsed — 92",
-      "UNC – No Primary — 601",
-      "UNC – Lapsed D — 71"
+      "Mixed – Lapsed — 63",
+      "UNC – Non-partisan Ballot — 28",
+      "UNC – No Primary — 597",
+      "UNC – Lapsed D — 69"
     ],
     "datasets": [
       {
         "data": [
-          176,
+          291,
           121,
-          92,
-          601,
-          71
+          63,
+          28,
+          597,
+          69
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

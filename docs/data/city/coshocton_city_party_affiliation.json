@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,391 (21%)",
-      "UNC – Lapsed R — 553 (8%)",
-      "Mixed – Active — 796 (12%)",
-      "Mixed – Lapsed — 470 (7%)",
-      "UNC – No Primary — 2,614 (39%)",
-      "UNC – Lapsed D — 615 (9%)",
-      "Pure D — 335 (5%)"
+      "Pure R — 1,199 (18%)",
+      "UNC – Lapsed R — 766 (11%)",
+      "Mixed – Active — 718 (11%)",
+      "Mixed – Lapsed — 323 (5%)",
+      "UNC – Non-partisan Ballot — 205 (3%)",
+      "UNC – No Primary — 2,647 (39%)",
+      "UNC – Lapsed D — 579 (8%)",
+      "Pure D — 375 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1391,
-          553,
-          796,
-          470,
-          2614,
-          615,
-          335
+          1199,
+          766,
+          718,
+          323,
+          205,
+          2647,
+          579,
+          375
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "COSHOCTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

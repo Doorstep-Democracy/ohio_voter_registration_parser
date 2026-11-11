@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 297 (15%)",
-      "UNC – Lapsed R — 337 (17%)",
-      "Mixed – Active — 127 (7%)",
-      "Mixed – Lapsed — 155 (8%)",
+      "Pure R — 292 (15%)",
+      "UNC – Lapsed R — 341 (18%)",
+      "Mixed – Active — 126 (7%)",
+      "Mixed – Lapsed — 91 (5%)",
+      "UNC – Non-partisan Ballot — 65 (3%)",
       "UNC – No Primary — 820 (43%)",
-      "UNC – Lapsed D — 143 (7%)",
-      "Pure D — 49 (3%)"
+      "UNC – Lapsed D — 142 (7%)",
+      "Pure D — 48 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          297,
-          337,
-          127,
-          155,
+          292,
+          341,
+          126,
+          91,
+          65,
           820,
-          143,
-          49
+          142,
+          48
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "BRADFORD EX VILL SD (MIAMI)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Bradford Ex Vill Sd (Miami Co.)",
+  "updated": "2026-11-11"
 }

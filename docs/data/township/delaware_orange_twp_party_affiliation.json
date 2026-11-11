@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,804 (15%)",
-      "UNC – Lapsed R — 2,789 (11%)",
-      "Mixed – Active — 1,994 (8%)",
-      "Mixed – Lapsed — 2,054 (8%)",
-      "UNC – No Primary — 10,123 (40%)",
-      "UNC – Lapsed D — 2,490 (10%)",
-      "Pure D — 2,120 (8%)"
+      "Pure R — 3,711 (14%)",
+      "UNC – Lapsed R — 2,907 (11%)",
+      "Mixed – Active — 2,079 (8%)",
+      "Mixed – Lapsed — 983 (4%)",
+      "UNC – Non-partisan Ballot — 1,075 (4%)",
+      "UNC – No Primary — 10,260 (39%)",
+      "UNC – Lapsed D — 2,445 (9%)",
+      "Pure D — 2,562 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          3804,
-          2789,
-          1994,
-          2054,
-          10123,
-          2490,
-          2120
+          3711,
+          2907,
+          2079,
+          983,
+          1075,
+          10260,
+          2445,
+          2562
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ORANGE TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 693 (20%)",
-      "UNC – Lapsed R — 445 (13%)",
-      "Mixed – Active — 459 (13%)",
-      "Mixed – Lapsed — 312 (9%)",
-      "UNC – No Primary — 1,108 (32%)",
-      "UNC – Lapsed D — 297 (9%)",
-      "Pure D — 106 (3%)"
+      "Pure R — 646 (19%)",
+      "UNC – Lapsed R — 492 (14%)",
+      "Mixed – Active — 436 (13%)",
+      "Mixed – Lapsed — 224 (7%)",
+      "UNC – Non-partisan Ballot — 108 (3%)",
+      "UNC – No Primary — 1,093 (32%)",
+      "UNC – Lapsed D — 271 (8%)",
+      "Pure D — 138 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          693,
-          445,
-          459,
-          312,
-          1108,
-          297,
-          106
+          646,
+          492,
+          436,
+          224,
+          108,
+          1093,
+          271,
+          138
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HAMBDEN TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

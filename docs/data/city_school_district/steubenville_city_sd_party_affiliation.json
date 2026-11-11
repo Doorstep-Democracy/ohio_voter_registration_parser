@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 859 (10%)",
-      "UNC – Lapsed R — 441 (5%)",
-      "Mixed – Active — 948 (11%)",
-      "Mixed – Lapsed — 416 (5%)",
-      "UNC – No Primary — 4,419 (49%)",
-      "UNC – Lapsed D — 1,402 (16%)",
-      "Pure D — 477 (5%)"
+      "Pure R — 899 (10%)",
+      "UNC – Lapsed R — 459 (5%)",
+      "Mixed – Active — 979 (11%)",
+      "Mixed – Lapsed — 316 (3%)",
+      "UNC – Non-partisan Ballot — 87 (1%)",
+      "UNC – No Primary — 4,447 (49%)",
+      "UNC – Lapsed D — 1,284 (14%)",
+      "Pure D — 577 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          859,
-          441,
-          948,
-          416,
-          4419,
-          1402,
-          477
+          899,
+          459,
+          979,
+          316,
+          87,
+          4447,
+          1284,
+          577
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "STEUBENVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

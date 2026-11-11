@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 172 (34%)",
-      "UNC – Lapsed R — 84 (16%)",
-      "Mixed – Active — 39 (8%)",
-      "Mixed – Lapsed — 39 (8%)",
-      "UNC – No Primary — 133 (26%)",
-      "UNC – Lapsed D — 21 (4%)",
+      "Pure R — 167 (33%)",
+      "UNC – Lapsed R — 91 (18%)",
+      "Mixed – Active — 35 (7%)",
+      "Mixed – Lapsed — 19 (4%)",
+      "UNC – Non-partisan Ballot — 24 (5%)",
+      "UNC – No Primary — 128 (25%)",
+      "UNC – Lapsed D — 25 (5%)",
       "Pure D — 22 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          172,
-          84,
-          39,
-          39,
-          133,
-          21,
+          167,
+          91,
+          35,
+          19,
+          24,
+          128,
+          25,
           22
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PORTAGE TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

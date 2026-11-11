@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 22 (8%)",
+      "Pure R — 24 (9%)",
       "UNC – Lapsed R — 18 (7%)",
-      "Mixed – Active — 29 (11%)",
-      "Mixed – Lapsed — 16 (6%)",
-      "UNC – No Primary — 129 (48%)",
-      "UNC – Lapsed D — 38 (14%)",
-      "Pure D — 15 (6%)"
+      "Mixed – Active — 31 (12%)",
+      "Mixed – Lapsed — 9 (3%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 128 (48%)",
+      "UNC – Lapsed D — 36 (14%)",
+      "Pure D — 16 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          22,
+          24,
           18,
-          29,
-          16,
-          129,
-          38,
-          15
+          31,
+          9,
+          4,
+          128,
+          36,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "YORKVILLE VILLAGE (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

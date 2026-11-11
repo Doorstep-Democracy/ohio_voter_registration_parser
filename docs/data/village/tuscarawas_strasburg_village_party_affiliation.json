@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 251 (14%)",
+      "Pure R — 254 (14%)",
       "UNC – Lapsed R — 200 (11%)",
-      "Mixed – Active — 168 (9%)",
-      "Mixed – Lapsed — 256 (14%)",
-      "UNC – No Primary — 629 (35%)",
-      "UNC – Lapsed D — 211 (12%)",
-      "Pure D — 105 (6%)"
+      "Mixed – Active — 182 (10%)",
+      "Mixed – Lapsed — 85 (5%)",
+      "UNC – Non-partisan Ballot — 158 (9%)",
+      "UNC – No Primary — 633 (35%)",
+      "UNC – Lapsed D — 188 (10%)",
+      "Pure D — 118 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          251,
+          254,
           200,
-          168,
-          256,
-          629,
-          211,
-          105
+          182,
+          85,
+          158,
+          633,
+          188,
+          118
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "STRASBURG VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

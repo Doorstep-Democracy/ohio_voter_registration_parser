@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 768",
-      "Mixed – Active — 1,328",
-      "Mixed – Lapsed — 1,378",
-      "UNC – No Primary — 16,839",
-      "UNC – Lapsed D — 7,555"
+      "UNC – Lapsed R — 754",
+      "Mixed – Active — 1,314",
+      "Mixed – Lapsed — 741",
+      "UNC – Non-partisan Ballot — 624",
+      "UNC – No Primary — 17,268",
+      "UNC – Lapsed D — 7,525"
     ],
     "datasets": [
       {
         "data": [
-          768,
-          1328,
-          1378,
-          16839,
-          7555
+          754,
+          1314,
+          741,
+          624,
+          17268,
+          7525
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "EUCLID CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

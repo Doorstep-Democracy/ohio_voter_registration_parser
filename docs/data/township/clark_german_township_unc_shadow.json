@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 631",
-      "Mixed – Active — 533",
-      "Mixed – Lapsed — 378",
-      "UNC – No Primary — 1,903",
-      "UNC – Lapsed D — 441"
+      "UNC – Lapsed R — 679",
+      "Mixed – Active — 547",
+      "Mixed – Lapsed — 234",
+      "UNC – Non-partisan Ballot — 141",
+      "UNC – No Primary — 1,842",
+      "UNC – Lapsed D — 395"
     ],
     "datasets": [
       {
         "data": [
-          631,
-          533,
-          378,
-          1903,
-          441
+          679,
+          547,
+          234,
+          141,
+          1842,
+          395
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GERMAN TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

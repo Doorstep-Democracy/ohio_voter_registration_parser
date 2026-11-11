@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 16 (14%)",
-      "UNC – Lapsed R — 4 (3%)",
-      "Mixed – Active — 11 (9%)",
-      "Mixed – Lapsed — 9 (8%)",
-      "UNC – No Primary — 35 (30%)",
-      "UNC – Lapsed D — 16 (14%)",
-      "Pure D — 26 (22%)"
+      "Pure R — 13 (11%)",
+      "UNC – Lapsed R — 5 (4%)",
+      "Mixed – Active — 12 (11%)",
+      "Mixed – Lapsed — 4 (4%)",
+      "UNC – Non-partisan Ballot — 3 (3%)",
+      "UNC – No Primary — 32 (28%)",
+      "UNC – Lapsed D — 13 (11%)",
+      "Pure D — 32 (28%)"
     ],
     "datasets": [
       {
         "data": [
-          16,
+          13,
+          5,
+          12,
           4,
-          11,
-          9,
-          35,
-          16,
-          26
+          3,
+          32,
+          13,
+          32
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "AMESVILLE VILLAGE (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

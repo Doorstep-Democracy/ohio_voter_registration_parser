@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 734",
-      "Mixed – Active — 1,341",
-      "Mixed – Lapsed — 1,388",
-      "UNC – No Primary — 16,913",
-      "UNC – Lapsed D — 8,007"
+      "UNC – Lapsed R — 754",
+      "Mixed – Active — 1,314",
+      "Mixed – Lapsed — 741",
+      "UNC – Non-partisan Ballot — 624",
+      "UNC – No Primary — 17,268",
+      "UNC – Lapsed D — 7,525"
     ],
     "datasets": [
       {
         "data": [
-          734,
-          1341,
-          1388,
-          16913,
-          8007
+          754,
+          1314,
+          741,
+          624,
+          17268,
+          7525
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "EUCLID (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

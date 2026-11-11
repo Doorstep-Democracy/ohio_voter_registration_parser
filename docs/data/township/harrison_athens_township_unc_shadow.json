@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 20",
-      "Mixed – Active — 57",
-      "Mixed – Lapsed — 21",
-      "UNC – No Primary — 112",
-      "UNC – Lapsed D — 40"
+      "UNC – Lapsed R — 28",
+      "Mixed – Active — 51",
+      "Mixed – Lapsed — 24",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 113",
+      "UNC – Lapsed D — 43"
     ],
     "datasets": [
       {
         "data": [
-          20,
-          57,
-          21,
-          112,
-          40
+          28,
+          51,
+          24,
+          4,
+          113,
+          43
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ATHENS TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

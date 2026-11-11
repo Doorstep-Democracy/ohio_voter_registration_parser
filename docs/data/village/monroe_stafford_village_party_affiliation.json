@@ -3,13 +3,14 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3 (7%)",
+      "Pure R — 3 (8%)",
       "UNC – Lapsed R — 2 (5%)",
-      "Mixed – Active — 7 (17%)",
+      "Mixed – Active — 7 (18%)",
       "Mixed – Lapsed — 0 (0%)",
-      "UNC – No Primary — 15 (37%)",
-      "UNC – Lapsed D — 12 (29%)",
-      "Pure D — 2 (5%)"
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 14 (35%)",
+      "UNC – Lapsed D — 13 (32%)",
+      "Pure D — 1 (2%)"
     ],
     "datasets": [
       {
@@ -18,15 +19,17 @@
           2,
           7,
           0,
-          15,
-          12,
-          2
+          0,
+          14,
+          13,
+          1
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "STAFFORD VILLAGE (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

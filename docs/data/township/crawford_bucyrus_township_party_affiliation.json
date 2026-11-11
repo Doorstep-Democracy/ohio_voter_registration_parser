@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 185 (31%)",
-      "UNC – Lapsed R — 85 (14%)",
-      "Mixed – Active — 47 (8%)",
-      "Mixed – Lapsed — 55 (9%)",
-      "UNC – No Primary — 169 (28%)",
-      "UNC – Lapsed D — 43 (7%)",
-      "Pure D — 13 (2%)"
+      "Pure R — 191 (32%)",
+      "UNC – Lapsed R — 90 (15%)",
+      "Mixed – Active — 58 (10%)",
+      "Mixed – Lapsed — 19 (3%)",
+      "UNC – Non-partisan Ballot — 31 (5%)",
+      "UNC – No Primary — 155 (26%)",
+      "UNC – Lapsed D — 31 (5%)",
+      "Pure D — 21 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          185,
-          85,
-          47,
-          55,
-          169,
-          43,
-          13
+          191,
+          90,
+          58,
+          19,
+          31,
+          155,
+          31,
+          21
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BUCYRUS TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

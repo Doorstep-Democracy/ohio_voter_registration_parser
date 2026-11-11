@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,645 (10%)",
-      "UNC – Lapsed R — 1,666 (10%)",
-      "Mixed – Active — 2,005 (12%)",
-      "Mixed – Lapsed — 1,643 (10%)",
-      "UNC – No Primary — 5,396 (32%)",
-      "UNC – Lapsed D — 2,182 (13%)",
-      "Pure D — 2,091 (13%)"
+      "Pure R — 1,420 (8%)",
+      "UNC – Lapsed R — 1,823 (11%)",
+      "Mixed – Active — 2,023 (12%)",
+      "Mixed – Lapsed — 1,029 (6%)",
+      "UNC – Non-partisan Ballot — 606 (4%)",
+      "UNC – No Primary — 5,391 (32%)",
+      "UNC – Lapsed D — 2,014 (12%)",
+      "Pure D — 2,449 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          1645,
-          1666,
-          2005,
-          1643,
-          5396,
-          2182,
-          2091
+          1420,
+          1823,
+          2023,
+          1029,
+          606,
+          5391,
+          2014,
+          2449
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ROCKY RIVER CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

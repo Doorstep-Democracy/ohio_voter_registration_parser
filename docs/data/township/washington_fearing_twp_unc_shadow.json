@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 65",
-      "Mixed – Active — 71",
-      "Mixed – Lapsed — 43",
-      "UNC – No Primary — 191",
-      "UNC – Lapsed D — 53"
+      "UNC – Lapsed R — 68",
+      "Mixed – Active — 77",
+      "Mixed – Lapsed — 21",
+      "UNC – Non-partisan Ballot — 18",
+      "UNC – No Primary — 192",
+      "UNC – Lapsed D — 48"
     ],
     "datasets": [
       {
         "data": [
-          65,
-          71,
-          43,
-          191,
-          53
+          68,
+          77,
+          21,
+          18,
+          192,
+          48
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FEARING TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

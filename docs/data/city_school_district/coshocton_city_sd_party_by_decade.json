@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          55,
-          205,
-          303,
-          230,
-          174,
-          161,
-          129,
-          50
+          1,
+          42,
+          171,
+          283,
+          204,
+          148,
+          130,
+          100,
+          40
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          20,
-          62,
-          77,
-          102,
-          79,
-          89,
-          76,
-          20
+          27,
+          90,
+          99,
+          134,
+          116,
+          134,
+          107,
+          34
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
-          24,
-          132,
-          242,
-          168,
-          112,
-          69,
-          11,
-          4
+          1,
+          19,
+          122,
+          225,
+          164,
+          90,
+          53,
+          10,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          9,
-          51,
-          81,
-          72,
-          76,
-          82,
-          52,
-          30
+          2,
+          10,
+          47,
+          75,
+          59,
+          60,
+          47,
+          8,
+          4
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          15,
+          20,
+          23,
+          32,
+          43,
+          45,
+          23
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          16,
-          70,
-          177,
-          287,
+          15,
+          65,
+          170,
+          282,
           363,
-          525,
-          707,
-          565
+          520,
+          699,
+          624
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
-          33,
-          78,
+          3,
+          29,
+          70,
+          107,
+          96,
+          93,
           108,
-          110,
-          101,
-          106,
-          60,
-          9
+          59,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          14,
+          1,
+          12,
+          77,
           79,
-          80,
-          48,
-          32,
-          25,
-          15,
-          9
+          55,
+          43,
+          26,
+          23,
+          21
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "COSHOCTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

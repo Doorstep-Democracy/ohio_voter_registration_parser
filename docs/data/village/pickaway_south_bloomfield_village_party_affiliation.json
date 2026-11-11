@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 275 (12%)",
-      "UNC – Lapsed R — 233 (10%)",
-      "Mixed – Active — 147 (7%)",
-      "Mixed – Lapsed — 236 (11%)",
-      "UNC – No Primary — 1,089 (49%)",
-      "UNC – Lapsed D — 179 (8%)",
-      "Pure D — 73 (3%)"
+      "Pure R — 301 (13%)",
+      "UNC – Lapsed R — 227 (10%)",
+      "Mixed – Active — 158 (7%)",
+      "Mixed – Lapsed — 71 (3%)",
+      "UNC – Non-partisan Ballot — 164 (7%)",
+      "UNC – No Primary — 1,118 (48%)",
+      "UNC – Lapsed D — 164 (7%)",
+      "Pure D — 111 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          275,
-          233,
-          147,
-          236,
-          1089,
-          179,
-          73
+          301,
+          227,
+          158,
+          71,
+          164,
+          1118,
+          164,
+          111
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SOUTH BLOOMFIELD VILLAGE (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

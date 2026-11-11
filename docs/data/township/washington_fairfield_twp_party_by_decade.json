@@ -16,13 +16,13 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          23,
-          40,
-          35,
-          21,
-          18,
-          11,
+          2,
+          19,
+          32,
+          36,
+          25,
+          19,
+          14,
           10
         ],
         "backgroundColor": "#ef4444",
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          6,
-          11,
+          7,
           18,
-          27,
-          10,
-          13,
-          1
+          18,
+          25,
+          15,
+          16,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,11 +46,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
-          8,
-          28,
-          20,
-          15,
+          1,
+          7,
+          31,
+          27,
+          19,
           9,
           0,
           0
@@ -61,16 +61,31 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          6,
-          19,
-          17,
-          15,
-          20,
-          11,
-          4
+          2,
+          4,
+          9,
+          2,
+          4,
+          5,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          9,
+          9,
+          10,
+          14,
+          10,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,12 +93,12 @@
         "data": [
           1,
           3,
-          14,
+          17,
           19,
-          28,
-          50,
-          50,
-          67
+          26,
+          48,
+          48,
+          77
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,12 +107,12 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          5,
-          13,
-          11,
-          10,
-          11,
           4,
+          10,
+          8,
+          5,
+          8,
+          5,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -106,22 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          2,
+          1,
           5,
-          11,
-          3,
-          1,
-          1,
-          1,
-          1
+          13,
+          4,
+          7,
+          5,
+          2,
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

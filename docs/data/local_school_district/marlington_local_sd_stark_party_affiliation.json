@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,366 (23%)",
-      "UNC – Lapsed R — 1,243 (12%)",
-      "Mixed – Active — 1,057 (10%)",
-      "Mixed – Lapsed — 802 (8%)",
-      "UNC – No Primary — 3,153 (31%)",
-      "UNC – Lapsed D — 821 (8%)",
-      "Pure D — 649 (6%)"
+      "Pure R — 2,351 (23%)",
+      "UNC – Lapsed R — 1,238 (12%)",
+      "Mixed – Active — 1,048 (10%)",
+      "Mixed – Lapsed — 402 (4%)",
+      "UNC – Non-partisan Ballot — 398 (4%)",
+      "UNC – No Primary — 3,226 (32%)",
+      "UNC – Lapsed D — 827 (8%)",
+      "Pure D — 637 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2366,
-          1243,
-          1057,
-          802,
-          3153,
-          821,
-          649
+          2351,
+          1238,
+          1048,
+          402,
+          398,
+          3226,
+          827,
+          637
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Marlington Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

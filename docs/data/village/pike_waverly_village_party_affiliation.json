@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 273 (10%)",
-      "UNC – Lapsed R — 291 (11%)",
-      "Mixed – Active — 287 (11%)",
-      "Mixed – Lapsed — 228 (8%)",
-      "UNC – No Primary — 1,068 (39%)",
-      "UNC – Lapsed D — 410 (15%)",
-      "Pure D — 172 (6%)"
+      "Pure R — 359 (13%)",
+      "UNC – Lapsed R — 255 (9%)",
+      "Mixed – Active — 365 (13%)",
+      "Mixed – Lapsed — 143 (5%)",
+      "UNC – Non-partisan Ballot — 65 (2%)",
+      "UNC – No Primary — 966 (35%)",
+      "UNC – Lapsed D — 324 (12%)",
+      "Pure D — 256 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          273,
-          291,
-          287,
-          228,
-          1068,
-          410,
-          172
+          359,
+          255,
+          365,
+          143,
+          65,
+          966,
+          324,
+          256
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WAVERLY VILLAGE (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 371 (27%)",
-      "UNC – Lapsed R — 252 (18%)",
-      "Mixed – Active — 124 (9%)",
-      "Mixed – Lapsed — 126 (9%)",
-      "UNC – No Primary — 414 (30%)",
+      "Pure R — 368 (26%)",
+      "UNC – Lapsed R — 253 (18%)",
+      "Mixed – Active — 123 (9%)",
+      "Mixed – Lapsed — 61 (4%)",
+      "UNC – Non-partisan Ballot — 64 (5%)",
+      "UNC – No Primary — 420 (30%)",
       "UNC – Lapsed D — 65 (5%)",
-      "Pure D — 38 (3%)"
+      "Pure D — 37 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          371,
-          252,
-          124,
-          126,
-          414,
+          368,
+          253,
+          123,
+          61,
+          64,
+          420,
           65,
-          38
+          37
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Jennings Local Sd (Putnam Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

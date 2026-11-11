@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          21,
-          58,
-          130,
-          97,
-          64,
-          44,
+          17,
+          56,
+          145,
+          100,
+          76,
+          49,
           28,
-          15
+          17
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          5,
-          16,
-          86,
-          69,
-          95,
-          83,
-          47,
+          8,
+          18,
+          76,
+          66,
+          87,
+          82,
+          49,
           8
         ],
         "backgroundColor": "#fca5a5",
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          11,
-          44,
-          108,
-          92,
-          39,
-          26,
+          9,
+          47,
+          117,
+          104,
+          47,
+          24,
           8,
           0
         ],
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          14,
-          32,
-          70,
-          67,
-          82,
-          64,
-          23,
-          8
+          12,
+          17,
+          40,
+          43,
+          44,
+          34,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          9,
+          19,
+          23,
+          30,
+          29,
+          20,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          2,
-          28,
-          92,
-          90,
-          116,
-          193,
+          3,
+          25,
+          88,
+          89,
+          117,
+          188,
           242,
-          260
+          278
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +113,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          19,
-          33,
-          78,
-          82,
-          69,
-          66,
-          28,
+          2,
+          23,
+          32,
+          72,
+          72,
+          63,
+          55,
+          25,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           2,
-          7,
-          39,
-          48,
+          4,
+          40,
+          53,
+          21,
           16,
-          14,
-          15,
-          3,
-          3
+          28,
+          7,
+          11
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DOVER TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

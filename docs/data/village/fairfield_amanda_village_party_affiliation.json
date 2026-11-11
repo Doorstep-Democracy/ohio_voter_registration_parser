@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 68 (15%)",
-      "UNC – Lapsed R — 54 (12%)",
-      "Mixed – Active — 37 (8%)",
-      "Mixed – Lapsed — 50 (11%)",
-      "UNC – No Primary — 174 (39%)",
-      "UNC – Lapsed D — 48 (11%)",
+      "Pure R — 55 (12%)",
+      "UNC – Lapsed R — 70 (15%)",
+      "Mixed – Active — 38 (8%)",
+      "Mixed – Lapsed — 19 (4%)",
+      "UNC – Non-partisan Ballot — 28 (6%)",
+      "UNC – No Primary — 186 (41%)",
+      "UNC – Lapsed D — 44 (10%)",
       "Pure D — 13 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          54,
-          37,
-          50,
-          174,
-          48,
+          55,
+          70,
+          38,
+          19,
+          28,
+          186,
+          44,
           13
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "AMANDA VILLAGE (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

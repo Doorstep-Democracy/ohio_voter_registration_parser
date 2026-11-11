@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 590 (16%)",
-      "UNC – Lapsed R — 327 (9%)",
-      "Mixed – Active — 535 (14%)",
-      "Mixed – Lapsed — 465 (13%)",
-      "UNC – No Primary — 1,086 (29%)",
-      "UNC – Lapsed D — 439 (12%)",
-      "Pure D — 268 (7%)"
+      "Pure R — 587 (16%)",
+      "UNC – Lapsed R — 363 (10%)",
+      "Mixed – Active — 531 (14%)",
+      "Mixed – Lapsed — 233 (6%)",
+      "UNC – Non-partisan Ballot — 231 (6%)",
+      "UNC – No Primary — 1,071 (29%)",
+      "UNC – Lapsed D — 407 (11%)",
+      "Pure D — 299 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          590,
-          327,
-          535,
-          465,
-          1086,
-          439,
-          268
+          587,
+          363,
+          531,
+          233,
+          231,
+          1071,
+          407,
+          299
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RANDOLPH TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

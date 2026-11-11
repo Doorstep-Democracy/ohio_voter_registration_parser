@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 801",
-      "Mixed – Active — 783",
-      "Mixed – Lapsed — 690",
-      "UNC – No Primary — 2,189",
-      "UNC – Lapsed D — 644"
+      "UNC – Lapsed R — 868",
+      "Mixed – Active — 835",
+      "Mixed – Lapsed — 283",
+      "UNC – Non-partisan Ballot — 368",
+      "UNC – No Primary — 2,137",
+      "UNC – Lapsed D — 570"
     ],
     "datasets": [
       {
         "data": [
-          801,
-          783,
-          690,
-          2189,
-          644
+          868,
+          835,
+          283,
+          368,
+          2137,
+          570
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Medina TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

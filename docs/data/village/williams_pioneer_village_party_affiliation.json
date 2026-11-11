@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 263 (26%)",
-      "UNC – Lapsed R — 100 (10%)",
-      "Mixed – Active — 87 (9%)",
-      "Mixed – Lapsed — 96 (10%)",
-      "UNC – No Primary — 376 (38%)",
-      "UNC – Lapsed D — 44 (4%)",
-      "Pure D — 36 (4%)"
+      "Pure R — 261 (26%)",
+      "UNC – Lapsed R — 120 (12%)",
+      "Mixed – Active — 83 (8%)",
+      "Mixed – Lapsed — 34 (3%)",
+      "UNC – Non-partisan Ballot — 65 (6%)",
+      "UNC – No Primary — 375 (37%)",
+      "UNC – Lapsed D — 42 (4%)",
+      "Pure D — 40 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          263,
-          100,
-          87,
-          96,
-          376,
-          44,
-          36
+          261,
+          120,
+          83,
+          34,
+          65,
+          375,
+          42,
+          40
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PIONEER VILLAGE (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

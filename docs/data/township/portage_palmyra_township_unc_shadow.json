@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 208",
-      "Mixed – Active — 247",
-      "Mixed – Lapsed — 166",
-      "UNC – No Primary — 660",
-      "UNC – Lapsed D — 232"
+      "UNC – Lapsed R — 227",
+      "Mixed – Active — 254",
+      "Mixed – Lapsed — 82",
+      "UNC – Non-partisan Ballot — 81",
+      "UNC – No Primary — 641",
+      "UNC – Lapsed D — 210"
     ],
     "datasets": [
       {
         "data": [
-          208,
-          247,
-          166,
-          660,
-          232
+          227,
+          254,
+          82,
+          81,
+          641,
+          210
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PALMYRA TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

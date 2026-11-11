@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          18,
-          62,
-          83,
-          104,
-          74,
+          17,
+          61,
+          82,
+          99,
+          77,
+          35,
           38,
-          34,
-          17
+          14
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          12,
+          11,
           29,
-          33,
-          23,
-          31,
-          19,
-          25,
-          4
+          32,
+          35,
+          35,
+          26,
+          20,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,12 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          8,
+          7,
           35,
-          49,
           54,
-          35,
-          14,
+          58,
+          29,
+          15,
           6,
           0
         ],
@@ -61,29 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          7,
-          19,
-          30,
-          23,
-          14,
+          6,
+          15,
           17,
-          8,
-          5
+          12,
+          15,
+          5,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          9,
+          8,
+          3,
+          11,
+          6,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          8,
-          26,
-          43,
-          56,
-          74,
-          93,
-          153,
-          124
+          7,
+          22,
+          42,
+          54,
+          69,
+          89,
+          147,
+          137
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,12 +107,12 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          18,
-          32,
-          23,
+          21,
+          28,
+          27,
           17,
-          24,
-          22,
+          19,
+          23,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -106,22 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          6,
-          32,
-          24,
-          12,
-          4,
           7,
-          5,
-          1
+          28,
+          29,
+          11,
+          4,
+          12,
+          7,
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CIRCLEVILLE TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

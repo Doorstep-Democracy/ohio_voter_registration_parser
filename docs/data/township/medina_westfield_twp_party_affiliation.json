@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 630 (21%)",
-      "UNC – Lapsed R — 387 (13%)",
-      "Mixed – Active — 300 (10%)",
-      "Mixed – Lapsed — 352 (12%)",
-      "UNC – No Primary — 846 (29%)",
-      "UNC – Lapsed D — 279 (10%)",
-      "Pure D — 142 (5%)"
+      "Pure R — 587 (20%)",
+      "UNC – Lapsed R — 459 (16%)",
+      "Mixed – Active — 287 (10%)",
+      "Mixed – Lapsed — 132 (5%)",
+      "UNC – Non-partisan Ballot — 205 (7%)",
+      "UNC – No Primary — 832 (28%)",
+      "UNC – Lapsed D — 255 (9%)",
+      "Pure D — 175 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          630,
-          387,
-          300,
-          352,
-          846,
-          279,
-          142
+          587,
+          459,
+          287,
+          132,
+          205,
+          832,
+          255,
+          175
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Westfield TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

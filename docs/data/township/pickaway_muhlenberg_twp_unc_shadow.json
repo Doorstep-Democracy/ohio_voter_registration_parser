@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 72",
-      "Mixed – Active — 84",
-      "Mixed – Lapsed — 31",
-      "UNC – No Primary — 206",
-      "UNC – Lapsed D — 55"
+      "UNC – Lapsed R — 74",
+      "Mixed – Active — 85",
+      "Mixed – Lapsed — 25",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 201",
+      "UNC – Lapsed D — 53"
     ],
     "datasets": [
       {
         "data": [
-          72,
-          84,
-          31,
-          206,
-          55
+          74,
+          85,
+          25,
+          12,
+          201,
+          53
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MUHLENBERG TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

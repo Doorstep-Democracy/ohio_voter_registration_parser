@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 570 (24%)",
-      "UNC – Lapsed R — 264 (11%)",
-      "Mixed – Active — 216 (9%)",
-      "Mixed – Lapsed — 162 (7%)",
-      "UNC – No Primary — 857 (37%)",
-      "UNC – Lapsed D — 183 (8%)",
-      "Pure D — 93 (4%)"
+      "Pure R — 544 (23%)",
+      "UNC – Lapsed R — 295 (12%)",
+      "Mixed – Active — 195 (8%)",
+      "Mixed – Lapsed — 79 (3%)",
+      "UNC – Non-partisan Ballot — 100 (4%)",
+      "UNC – No Primary — 866 (37%)",
+      "UNC – Lapsed D — 173 (7%)",
+      "Pure D — 109 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          570,
-          264,
-          216,
-          162,
-          857,
-          183,
-          93
+          544,
+          295,
+          195,
+          79,
+          100,
+          866,
+          173,
+          109
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GOSHEN TOWNSHIP (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

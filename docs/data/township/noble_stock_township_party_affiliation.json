@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 27 (14%)",
-      "UNC – Lapsed R — 14 (7%)",
-      "Mixed – Active — 19 (10%)",
-      "Mixed – Lapsed — 13 (6%)",
-      "UNC – No Primary — 55 (28%)",
-      "UNC – Lapsed D — 51 (26%)",
-      "Pure D — 21 (10%)"
+      "Pure R — 28 (14%)",
+      "UNC – Lapsed R — 16 (8%)",
+      "Mixed – Active — 19 (9%)",
+      "Mixed – Lapsed — 11 (5%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 56 (28%)",
+      "UNC – Lapsed D — 49 (24%)",
+      "Pure D — 19 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          27,
-          14,
+          28,
+          16,
           19,
-          13,
-          55,
-          51,
-          21
+          11,
+          4,
+          56,
+          49,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "STOCK TOWNSHIP (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

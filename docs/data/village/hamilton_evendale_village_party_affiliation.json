@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 434 (19%)",
-      "UNC – Lapsed R — 365 (16%)",
-      "Mixed – Active — 201 (9%)",
-      "Mixed – Lapsed — 250 (11%)",
-      "UNC – No Primary — 622 (27%)",
-      "UNC – Lapsed D — 252 (11%)",
-      "Pure D — 165 (7%)"
+      "Pure R — 419 (18%)",
+      "UNC – Lapsed R — 369 (16%)",
+      "Mixed – Active — 213 (9%)",
+      "Mixed – Lapsed — 131 (6%)",
+      "UNC – Non-partisan Ballot — 106 (5%)",
+      "UNC – No Primary — 617 (27%)",
+      "UNC – Lapsed D — 245 (11%)",
+      "Pure D — 190 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          434,
-          365,
-          201,
-          250,
-          622,
-          252,
-          165
+          419,
+          369,
+          213,
+          131,
+          106,
+          617,
+          245,
+          190
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "EVENDALE VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

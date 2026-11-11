@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          21,
-          95,
-          136,
-          107,
-          57,
-          41,
-          34,
-          13
+          19,
+          93,
+          140,
+          120,
+          79,
+          54,
+          51,
+          25
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          21,
-          48,
-          81,
-          87,
-          102,
-          70,
-          51,
-          7
+          1,
+          16,
+          44,
+          75,
+          82,
+          94,
+          65,
+          40,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          9,
+          5,
           51,
-          70,
-          47,
-          33,
-          15,
-          3,
+          86,
+          64,
+          44,
+          25,
+          6,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          10,
-          20,
-          65,
-          71,
-          34,
-          38,
-          6,
-          1
+          14,
+          21,
+          42,
+          54,
+          26,
+          23,
+          4,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          8,
+          5,
+          6,
+          6,
+          2,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          6,
-          33,
-          80,
-          150,
-          202,
-          258,
-          300,
-          321
+          5,
+          29,
+          75,
+          145,
+          184,
+          250,
+          289,
+          331
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          9,
-          24,
-          52,
-          50,
-          66,
-          39,
+          0,
+          8,
+          20,
+          42,
+          45,
+          57,
+          34,
           22,
-          2
+          1
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          9,
-          14,
-          34,
+          8,
+          15,
+          36,
+          16,
+          12,
           13,
-          7,
-          5,
-          2,
-          3
+          4,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALISBURY TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

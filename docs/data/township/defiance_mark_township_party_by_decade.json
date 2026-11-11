@@ -17,13 +17,13 @@
         "label": "Pure R",
         "data": [
           2,
-          14,
-          31,
-          23,
-          19,
-          22,
-          10,
-          1
+          12,
+          33,
+          21,
+          18,
+          11,
+          6,
+          3
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          10,
-          17,
-          14,
-          28,
-          21,
-          7,
-          6
+          12,
+          13,
+          16,
+          31,
+          30,
+          11,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,12 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          5,
-          7,
-          9,
-          8,
-          4,
           2,
+          6,
+          5,
+          6,
+          4,
+          4,
           1,
           0
         ],
@@ -61,29 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
+          1,
           4,
-          6,
           10,
-          10,
-          7,
+          11,
           5,
+          5,
+          1,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          6,
+          3,
+          3,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
+          0,
           4,
           6,
-          19,
-          28,
+          17,
+          26,
           29,
-          55,
-          60
+          54,
+          63
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,11 +107,11 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
+          4,
+          8,
+          14,
+          6,
           5,
-          9,
-          15,
-          5,
-          7,
           4,
           0
         ],
@@ -107,21 +122,21 @@
         "label": "Pure D",
         "data": [
           1,
-          2,
-          7,
           3,
+          7,
+          6,
+          0,
           1,
-          0,
-          0,
-          0
+          1,
+          1
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MARK TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

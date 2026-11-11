@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 467 (23%)",
-      "UNC – Lapsed R — 332 (16%)",
-      "Mixed – Active — 148 (7%)",
-      "Mixed – Lapsed — 220 (11%)",
-      "UNC – No Primary — 759 (37%)",
-      "UNC – Lapsed D — 105 (5%)",
-      "Pure D — 29 (1%)"
+      "Pure R — 439 (22%)",
+      "UNC – Lapsed R — 349 (17%)",
+      "Mixed – Active — 134 (7%)",
+      "Mixed – Lapsed — 101 (5%)",
+      "UNC – Non-partisan Ballot — 125 (6%)",
+      "UNC – No Primary — 755 (37%)",
+      "UNC – Lapsed D — 92 (5%)",
+      "Pure D — 46 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          467,
-          332,
-          148,
-          220,
-          759,
-          105,
-          29
+          439,
+          349,
+          134,
+          101,
+          125,
+          755,
+          92,
+          46
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VERNON TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

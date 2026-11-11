@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 770",
-      "Mixed – Active — 1,441",
-      "Mixed – Lapsed — 1,032",
-      "UNC – No Primary — 2,345",
-      "UNC – Lapsed D — 1,047"
+      "UNC – Lapsed R — 771",
+      "Mixed – Active — 1,432",
+      "Mixed – Lapsed — 494",
+      "UNC – Non-partisan Ballot — 524",
+      "UNC – No Primary — 2,380",
+      "UNC – Lapsed D — 1,043"
     ],
     "datasets": [
       {
         "data": [
-          770,
-          1441,
-          1032,
-          2345,
-          1047
+          771,
+          1432,
+          494,
+          524,
+          2380,
+          1043
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SEVEN HILLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

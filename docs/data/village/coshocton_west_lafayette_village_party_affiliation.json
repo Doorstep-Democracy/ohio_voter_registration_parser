@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 236 (17%)",
-      "UNC – Lapsed R — 106 (8%)",
-      "Mixed – Active — 175 (13%)",
-      "Mixed – Lapsed — 79 (6%)",
-      "UNC – No Primary — 598 (44%)",
-      "UNC – Lapsed D — 109 (8%)",
-      "Pure D — 52 (4%)"
+      "UNC – Lapsed R — 121 (9%)",
+      "Mixed – Active — 174 (13%)",
+      "Mixed – Lapsed — 48 (4%)",
+      "UNC – Non-partisan Ballot — 32 (2%)",
+      "UNC – No Primary — 589 (43%)",
+      "UNC – Lapsed D — 102 (7%)",
+      "Pure D — 64 (5%)"
     ],
     "datasets": [
       {
         "data": [
           236,
-          106,
-          175,
-          79,
-          598,
-          109,
-          52
+          121,
+          174,
+          48,
+          32,
+          589,
+          102,
+          64
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WEST LAFAYETTE VILLAGE (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

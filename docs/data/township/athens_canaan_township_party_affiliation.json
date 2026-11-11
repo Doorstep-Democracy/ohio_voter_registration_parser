@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 72 (6%)",
-      "UNC – Lapsed R — 83 (7%)",
-      "Mixed – Active — 82 (7%)",
-      "Mixed – Lapsed — 91 (8%)",
-      "UNC – No Primary — 373 (33%)",
-      "UNC – Lapsed D — 245 (22%)",
-      "Pure D — 192 (17%)"
+      "Pure R — 70 (6%)",
+      "UNC – Lapsed R — 90 (8%)",
+      "Mixed – Active — 86 (8%)",
+      "Mixed – Lapsed — 64 (6%)",
+      "UNC – Non-partisan Ballot — 20 (2%)",
+      "UNC – No Primary — 371 (32%)",
+      "UNC – Lapsed D — 219 (19%)",
+      "Pure D — 224 (20%)"
     ],
     "datasets": [
       {
         "data": [
-          72,
-          83,
-          82,
-          91,
-          373,
-          245,
-          192
+          70,
+          90,
+          86,
+          64,
+          20,
+          371,
+          219,
+          224
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CANAAN TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

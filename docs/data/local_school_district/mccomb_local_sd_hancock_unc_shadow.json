@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 313",
-      "Mixed – Active — 195",
-      "Mixed – Lapsed — 143",
-      "UNC – No Primary — 897",
-      "UNC – Lapsed D — 133"
+      "UNC – Lapsed R — 304",
+      "Mixed – Active — 192",
+      "Mixed – Lapsed — 79",
+      "UNC – Non-partisan Ballot — 65",
+      "UNC – No Primary — 920",
+      "UNC – Lapsed D — 128"
     ],
     "datasets": [
       {
         "data": [
-          313,
-          195,
-          143,
-          897,
-          133
+          304,
+          192,
+          79,
+          65,
+          920,
+          128
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Mccomb Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

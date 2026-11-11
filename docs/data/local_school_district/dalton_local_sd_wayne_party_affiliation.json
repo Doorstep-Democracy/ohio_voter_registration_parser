@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,037 (26%)",
-      "UNC – Lapsed R — 698 (17%)",
-      "Mixed – Active — 252 (6%)",
-      "Mixed – Lapsed — 400 (10%)",
-      "UNC – No Primary — 1,307 (32%)",
-      "UNC – Lapsed D — 203 (5%)",
-      "Pure D — 143 (4%)"
+      "Pure R — 1,026 (25%)",
+      "UNC – Lapsed R — 697 (17%)",
+      "Mixed – Active — 247 (6%)",
+      "Mixed – Lapsed — 133 (3%)",
+      "UNC – Non-partisan Ballot — 261 (6%)",
+      "UNC – No Primary — 1,317 (33%)",
+      "UNC – Lapsed D — 206 (5%)",
+      "Pure D — 138 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1037,
-          698,
-          252,
-          400,
-          1307,
-          203,
-          143
+          1026,
+          697,
+          247,
+          133,
+          261,
+          1317,
+          206,
+          138
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Dalton Local Sd (Wayne Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

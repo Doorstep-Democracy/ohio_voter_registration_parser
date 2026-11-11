@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 325 (21%)",
-      "UNC – Lapsed R — 212 (13%)",
-      "Mixed – Active — 152 (10%)",
-      "Mixed – Lapsed — 103 (7%)",
-      "UNC – No Primary — 619 (39%)",
-      "UNC – Lapsed D — 119 (8%)",
-      "Pure D — 47 (3%)"
+      "Pure R — 335 (21%)",
+      "UNC – Lapsed R — 221 (14%)",
+      "Mixed – Active — 158 (10%)",
+      "Mixed – Lapsed — 67 (4%)",
+      "UNC – Non-partisan Ballot — 35 (2%)",
+      "UNC – No Primary — 593 (38%)",
+      "UNC – Lapsed D — 110 (7%)",
+      "Pure D — 61 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          325,
-          212,
-          152,
-          103,
-          619,
-          119,
-          47
+          335,
+          221,
+          158,
+          67,
+          35,
+          593,
+          110,
+          61
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PULASKI TWP (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 116 (25%)",
-      "UNC – Lapsed R — 84 (18%)",
-      "Mixed – Active — 70 (15%)",
-      "Mixed – Lapsed — 38 (8%)",
-      "UNC – No Primary — 138 (30%)",
-      "UNC – Lapsed D — 16 (3%)",
-      "Pure D — 5 (1%)"
+      "Pure R — 106 (22%)",
+      "UNC – Lapsed R — 102 (21%)",
+      "Mixed – Active — 61 (13%)",
+      "Mixed – Lapsed — 26 (5%)",
+      "UNC – Non-partisan Ballot — 20 (4%)",
+      "UNC – No Primary — 144 (30%)",
+      "UNC – Lapsed D — 14 (3%)",
+      "Pure D — 4 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          116,
-          84,
-          70,
-          38,
-          138,
-          16,
-          5
+          106,
+          102,
+          61,
+          26,
+          20,
+          144,
+          14,
+          4
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "RUSSIA VILLAGE (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 672 (29%)",
-      "UNC – Lapsed R — 199 (8%)",
-      "Mixed – Active — 213 (9%)",
-      "Mixed – Lapsed — 68 (3%)",
-      "UNC – No Primary — 1,030 (44%)",
-      "UNC – Lapsed D — 111 (5%)",
-      "Pure D — 51 (2%)"
+      "Pure R — 668 (28%)",
+      "UNC – Lapsed R — 200 (9%)",
+      "Mixed – Active — 231 (10%)",
+      "Mixed – Lapsed — 44 (2%)",
+      "UNC – Non-partisan Ballot — 21 (1%)",
+      "UNC – No Primary — 1,020 (43%)",
+      "UNC – Lapsed D — 88 (4%)",
+      "Pure D — 78 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          672,
-          199,
-          213,
-          68,
-          1030,
-          111,
-          51
+          668,
+          200,
+          231,
+          44,
+          21,
+          1020,
+          88,
+          78
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MEIGS TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

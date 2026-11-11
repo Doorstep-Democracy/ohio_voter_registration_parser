@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 616 (33%)",
-      "UNC – Lapsed R — 268 (14%)",
-      "Mixed – Active — 159 (9%)",
-      "Mixed – Lapsed — 129 (7%)",
-      "UNC – No Primary — 526 (28%)",
-      "UNC – Lapsed D — 89 (5%)",
-      "Pure D — 72 (4%)"
+      "Pure R — 629 (33%)",
+      "UNC – Lapsed R — 262 (14%)",
+      "Mixed – Active — 181 (10%)",
+      "Mixed – Lapsed — 50 (3%)",
+      "UNC – Non-partisan Ballot — 60 (3%)",
+      "UNC – No Primary — 518 (28%)",
+      "UNC – Lapsed D — 82 (4%)",
+      "Pure D — 99 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          616,
-          268,
-          159,
-          129,
-          526,
-          89,
-          72
+          629,
+          262,
+          181,
+          50,
+          60,
+          518,
+          82,
+          99
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DARBY TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

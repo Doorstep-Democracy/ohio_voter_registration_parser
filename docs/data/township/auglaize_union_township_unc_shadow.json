@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 187",
-      "Mixed – Active — 114",
-      "Mixed – Lapsed — 57",
-      "UNC – No Primary — 442",
+      "UNC – Lapsed R — 267",
+      "Mixed – Active — 96",
+      "Mixed – Lapsed — 44",
+      "UNC – Non-partisan Ballot — 30",
+      "UNC – No Primary — 438",
       "UNC – Lapsed D — 62"
     ],
     "datasets": [
       {
         "data": [
-          187,
-          114,
-          57,
-          442,
+          267,
+          96,
+          44,
+          30,
+          438,
           62
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

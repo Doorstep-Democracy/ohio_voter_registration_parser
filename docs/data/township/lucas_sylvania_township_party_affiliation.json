@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,041 (11%)",
-      "UNC – Lapsed R — 4,112 (11%)",
-      "Mixed – Active — 2,508 (7%)",
-      "Mixed – Lapsed — 3,346 (9%)",
-      "UNC – No Primary — 15,316 (40%)",
-      "UNC – Lapsed D — 5,525 (15%)",
-      "Pure D — 3,138 (8%)"
+      "Pure R — 4,958 (13%)",
+      "UNC – Lapsed R — 3,576 (9%)",
+      "Mixed – Active — 3,235 (8%)",
+      "Mixed – Lapsed — 1,271 (3%)",
+      "UNC – Non-partisan Ballot — 1,737 (5%)",
+      "UNC – No Primary — 14,370 (37%)",
+      "UNC – Lapsed D — 4,472 (12%)",
+      "Pure D — 4,827 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          4041,
-          4112,
-          2508,
-          3346,
-          15316,
-          5525,
-          3138
+          4958,
+          3576,
+          3235,
+          1271,
+          1737,
+          14370,
+          4472,
+          4827
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SYLVANIA TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

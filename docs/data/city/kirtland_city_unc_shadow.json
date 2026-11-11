@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 646",
-      "Mixed – Active — 671",
-      "Mixed – Lapsed — 609",
-      "UNC – No Primary — 1,521",
-      "UNC – Lapsed D — 549"
+      "UNC – Lapsed R — 788",
+      "Mixed – Active — 639",
+      "Mixed – Lapsed — 343",
+      "UNC – Non-partisan Ballot — 299",
+      "UNC – No Primary — 1,505",
+      "UNC – Lapsed D — 553"
     ],
     "datasets": [
       {
         "data": [
-          646,
-          671,
-          609,
-          1521,
-          549
+          788,
+          639,
+          343,
+          299,
+          1505,
+          553
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "KIRTLAND CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

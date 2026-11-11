@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 702 (13%)",
-      "UNC – Lapsed R — 511 (9%)",
-      "Mixed – Active — 393 (7%)",
-      "Mixed – Lapsed — 324 (6%)",
-      "UNC – No Primary — 2,762 (50%)",
-      "UNC – Lapsed D — 583 (11%)",
-      "Pure D — 265 (5%)"
+      "Pure R — 651 (12%)",
+      "UNC – Lapsed R — 579 (10%)",
+      "Mixed – Active — 379 (7%)",
+      "Mixed – Lapsed — 247 (4%)",
+      "UNC – Non-partisan Ballot — 94 (2%)",
+      "UNC – No Primary — 2,766 (49%)",
+      "UNC – Lapsed D — 579 (10%)",
+      "Pure D — 297 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          702,
-          511,
-          393,
-          324,
-          2762,
-          583,
-          265
+          651,
+          579,
+          379,
+          247,
+          94,
+          2766,
+          579,
+          297
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "CAMBRIDGE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

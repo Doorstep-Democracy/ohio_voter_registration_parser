@@ -16,12 +16,12 @@
       {
         "label": "Pure R",
         "data": [
-          5,
-          48,
-          76,
-          59,
-          62,
-          46,
+          4,
+          42,
+          72,
+          61,
+          66,
+          38,
           27,
           20
         ],
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          14,
-          18,
-          38,
-          31,
+          15,
           20,
-          11,
-          4
+          39,
+          35,
+          27,
+          13,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,11 +46,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          9,
-          27,
-          10,
-          11,
+          0,
+          13,
+          30,
+          14,
+          13,
           6,
           1,
           0
@@ -62,28 +62,43 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          7,
+          2,
+          5,
+          13,
           11,
-          23,
-          22,
-          9,
-          11,
-          1
+          3,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          5,
+          10,
+          10,
+          8,
+          10,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          6,
-          17,
-          35,
-          50,
-          63,
-          80,
-          89
+          5,
+          13,
+          37,
+          52,
+          61,
+          72,
+          98
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -93,12 +108,12 @@
         "data": [
           0,
           5,
-          24,
-          10,
-          14,
-          11,
+          18,
+          12,
+          12,
+          9,
           6,
-          1
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -108,20 +123,20 @@
         "data": [
           2,
           4,
-          26,
+          34,
+          2,
           4,
-          3,
+          10,
           7,
-          3,
-          1
+          0
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BROWN TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

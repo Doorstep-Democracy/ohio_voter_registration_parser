@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 165 (17%)",
-      "UNC – Lapsed R — 90 (9%)",
-      "Mixed – Active — 68 (7%)",
-      "Mixed – Lapsed — 40 (4%)",
-      "UNC – No Primary — 513 (52%)",
-      "UNC – Lapsed D — 75 (8%)",
-      "Pure D — 33 (3%)"
+      "Pure R — 189 (19%)",
+      "UNC – Lapsed R — 82 (8%)",
+      "Mixed – Active — 73 (7%)",
+      "Mixed – Lapsed — 33 (3%)",
+      "UNC – Non-partisan Ballot — 5 (0%)",
+      "UNC – No Primary — 510 (51%)",
+      "UNC – Lapsed D — 68 (7%)",
+      "Pure D — 40 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          165,
-          90,
+          189,
+          82,
+          73,
+          33,
+          5,
+          510,
           68,
-          40,
-          513,
-          75,
-          33
+          40
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MANCHESTER TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

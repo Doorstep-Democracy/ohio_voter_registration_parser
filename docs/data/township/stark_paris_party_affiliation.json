@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 737 (21%)",
-      "UNC – Lapsed R — 353 (10%)",
-      "Mixed – Active — 332 (9%)",
-      "Mixed – Lapsed — 209 (6%)",
-      "UNC – No Primary — 1,369 (39%)",
-      "UNC – Lapsed D — 335 (9%)",
-      "Pure D — 202 (6%)"
+      "Pure R — 681 (19%)",
+      "UNC – Lapsed R — 412 (12%)",
+      "Mixed – Active — 318 (9%)",
+      "Mixed – Lapsed — 163 (5%)",
+      "UNC – Non-partisan Ballot — 70 (2%)",
+      "UNC – No Primary — 1,355 (38%)",
+      "UNC – Lapsed D — 317 (9%)",
+      "Pure D — 233 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          737,
-          353,
-          332,
-          209,
-          1369,
-          335,
-          202
+          681,
+          412,
+          318,
+          163,
+          70,
+          1355,
+          317,
+          233
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PARIS (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

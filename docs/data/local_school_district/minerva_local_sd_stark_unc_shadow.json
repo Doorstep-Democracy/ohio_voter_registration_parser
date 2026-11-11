@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 811",
-      "Mixed – Active — 675",
-      "Mixed – Lapsed — 429",
-      "UNC – No Primary — 2,844",
-      "UNC – Lapsed D — 621"
+      "UNC – Lapsed R — 802",
+      "Mixed – Active — 668",
+      "Mixed – Lapsed — 315",
+      "UNC – Non-partisan Ballot — 121",
+      "UNC – No Primary — 2,871",
+      "UNC – Lapsed D — 617"
     ],
     "datasets": [
       {
         "data": [
-          811,
-          675,
-          429,
-          2844,
-          621
+          802,
+          668,
+          315,
+          121,
+          2871,
+          617
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Minerva Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

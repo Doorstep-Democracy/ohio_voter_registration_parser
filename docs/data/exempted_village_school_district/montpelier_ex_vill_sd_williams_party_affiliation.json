@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 767 (21%)",
-      "UNC – Lapsed R — 455 (13%)",
-      "Mixed – Active — 322 (9%)",
-      "Mixed – Lapsed — 232 (6%)",
-      "UNC – No Primary — 1,488 (42%)",
-      "UNC – Lapsed D — 214 (6%)",
-      "Pure D — 92 (3%)"
+      "Pure R — 763 (21%)",
+      "UNC – Lapsed R — 458 (13%)",
+      "Mixed – Active — 321 (9%)",
+      "Mixed – Lapsed — 165 (5%)",
+      "UNC – Non-partisan Ballot — 64 (2%)",
+      "UNC – No Primary — 1,528 (42%)",
+      "UNC – Lapsed D — 210 (6%)",
+      "Pure D — 91 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          767,
-          455,
-          322,
-          232,
-          1488,
-          214,
-          92
+          763,
+          458,
+          321,
+          165,
+          64,
+          1528,
+          210,
+          91
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "MONTPELIER EX VILL SD (WILLIAMS)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Montpelier Ex Vill Sd (Williams Co.)",
+  "updated": "2026-11-11"
 }

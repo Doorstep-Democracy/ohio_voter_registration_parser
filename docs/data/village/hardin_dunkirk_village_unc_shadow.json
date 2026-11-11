@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 60",
-      "Mixed – Active — 35",
-      "Mixed – Lapsed — 33",
-      "UNC – No Primary — 228",
-      "UNC – Lapsed D — 32"
+      "UNC – Lapsed R — 70",
+      "Mixed – Active — 33",
+      "Mixed – Lapsed — 22",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 232",
+      "UNC – Lapsed D — 30"
     ],
     "datasets": [
       {
         "data": [
-          60,
-          35,
+          70,
           33,
-          228,
-          32
+          22,
+          12,
+          232,
+          30
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "DUNKIRK VILLAGE (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

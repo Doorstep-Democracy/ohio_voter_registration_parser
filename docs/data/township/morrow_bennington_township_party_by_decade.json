@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          8,
-          46,
-          119,
-          128,
-          77,
+          7,
+          44,
+          106,
+          136,
           62,
-          54,
-          22
+          51,
+          43,
+          23
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          4,
-          13,
-          32,
+          3,
+          14,
+          42,
           78,
-          51,
-          48,
-          45,
-          5
+          67,
+          62,
+          57,
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          7,
-          39,
-          36,
-          56,
-          42,
-          18,
+          6,
+          34,
+          37,
+          52,
+          30,
+          16,
           3,
-          0
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          3,
-          6,
-          30,
-          38,
-          24,
-          26,
           5,
-          2
+          13,
+          18,
+          29,
+          29,
+          15,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          9,
+          16,
+          8,
+          12,
+          5,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           4,
-          25,
-          39,
-          81,
-          98,
-          153,
-          194,
-          160
+          26,
+          36,
+          74,
+          95,
+          147,
+          191,
+          155
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +114,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          1,
+          2,
           12,
-          34,
-          28,
-          31,
+          33,
+          29,
+          30,
           20,
-          16,
+          19,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          5,
-          17,
-          30,
+          4,
+          14,
+          32,
+          11,
           10,
           5,
-          3,
-          5,
-          0
+          6,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BENNINGTON TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

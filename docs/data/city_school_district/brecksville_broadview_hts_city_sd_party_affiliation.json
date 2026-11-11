@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,605 (13%)",
-      "UNC – Lapsed R — 2,330 (12%)",
-      "Mixed – Active — 2,459 (12%)",
-      "Mixed – Lapsed — 2,296 (11%)",
-      "UNC – No Primary — 6,414 (32%)",
-      "UNC – Lapsed D — 2,437 (12%)",
-      "Pure D — 1,662 (8%)"
+      "Pure R — 2,240 (11%)",
+      "UNC – Lapsed R — 2,640 (13%)",
+      "Mixed – Active — 2,346 (12%)",
+      "Mixed – Lapsed — 1,367 (7%)",
+      "UNC – Non-partisan Ballot — 1,014 (5%)",
+      "UNC – No Primary — 6,379 (31%)",
+      "UNC – Lapsed D — 2,299 (11%)",
+      "Pure D — 1,979 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          2605,
-          2330,
-          2459,
-          2296,
-          6414,
-          2437,
-          1662
+          2240,
+          2640,
+          2346,
+          1367,
+          1014,
+          6379,
+          2299,
+          1979
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "BRECKSVILLE-BROADVIEW HTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

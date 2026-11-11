@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 117",
-      "Mixed – Active — 237",
-      "Mixed – Lapsed — 131",
-      "UNC – No Primary — 541",
-      "UNC – Lapsed D — 217"
+      "UNC – Lapsed R — 141",
+      "Mixed – Active — 254",
+      "Mixed – Lapsed — 64",
+      "UNC – Non-partisan Ballot — 65",
+      "UNC – No Primary — 526",
+      "UNC – Lapsed D — 183"
     ],
     "datasets": [
       {
         "data": [
-          117,
-          237,
-          131,
-          541,
-          217
+          141,
+          254,
+          64,
+          65,
+          526,
+          183
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MECCA TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

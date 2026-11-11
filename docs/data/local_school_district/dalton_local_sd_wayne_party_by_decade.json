@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          46,
-          173,
-          283,
+          40,
+          169,
+          282,
           232,
-          108,
-          106,
-          56,
-          32
+          109,
+          107,
+          55,
+          31
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          20,
-          76,
-          107,
-          147,
+          19,
+          75,
+          106,
+          146,
           135,
-          127,
+          128,
           73,
-          13
+          15
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,9 +50,9 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          13,
-          40,
-          83,
+          12,
+          39,
+          80,
           61,
           27,
           19,
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          10,
-          38,
-          60,
-          82,
-          97,
-          80,
+          0,
+          6,
           21,
-          10
+          28,
+          32,
+          22,
+          21,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          4,
+          15,
+          31,
+          50,
+          74,
+          59,
+          18,
+          9
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          5,
+          4,
           26,
-          79,
-          115,
-          146,
-          233,
-          333,
-          370
+          76,
+          114,
+          145,
+          231,
+          329,
+          392
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +114,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          8,
+          9,
           24,
           37,
           42,
           41,
-          35,
-          14,
+          36,
+          15,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          11,
+          10,
           24,
-          46,
-          19,
+          43,
+          20,
           17,
           16,
-          8,
-          2
+          7,
+          1
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Dalton Local Sd (Wayne Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

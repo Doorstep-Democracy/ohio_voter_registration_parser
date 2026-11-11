@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          25,
-          42,
+          2,
+          21,
+          40,
           47,
           28,
-          30,
+          29,
           13,
-          8
+          10
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,12 +32,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          4,
-          11,
-          24,
+          6,
+          12,
+          23,
           11,
           19,
-          7,
+          9,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -46,12 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          6,
+          1,
+          4,
           20,
-          16,
-          9,
-          5,
+          15,
+          8,
+          6,
           0,
           1
         ],
@@ -61,16 +61,31 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          0,
+          1,
+          1,
+          4,
           8,
-          9,
-          4,
-          4,
+          3,
+          3,
           0,
-          1
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          6,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -79,11 +94,11 @@
           1,
           4,
           14,
-          17,
+          16,
+          27,
           29,
-          26,
-          39,
-          45
+          41,
+          46
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,7 +107,7 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          1,
+          2,
           8,
           3,
           11,
@@ -110,7 +125,7 @@
           2,
           4,
           4,
-          4,
+          3,
           0,
           0,
           0
@@ -120,8 +135,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ROSS (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

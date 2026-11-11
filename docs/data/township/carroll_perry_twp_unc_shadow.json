@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 65",
-      "Mixed – Active — 72",
-      "Mixed – Lapsed — 29",
-      "UNC – No Primary — 210",
-      "UNC – Lapsed D — 60"
+      "UNC – Lapsed R — 85",
+      "Mixed – Active — 66",
+      "Mixed – Lapsed — 30",
+      "UNC – Non-partisan Ballot — 5",
+      "UNC – No Primary — 206",
+      "UNC – Lapsed D — 50"
     ],
     "datasets": [
       {
         "data": [
-          65,
-          72,
-          29,
-          210,
-          60
+          85,
+          66,
+          30,
+          5,
+          206,
+          50
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PERRY TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

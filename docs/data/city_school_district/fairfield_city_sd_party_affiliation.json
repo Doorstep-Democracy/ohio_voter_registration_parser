@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,917 (16%)",
-      "UNC – Lapsed R — 4,538 (11%)",
-      "Mixed – Active — 2,262 (5%)",
-      "Mixed – Lapsed — 2,814 (7%)",
-      "UNC – No Primary — 19,558 (46%)",
-      "UNC – Lapsed D — 4,449 (10%)",
-      "Pure D — 2,322 (5%)"
+      "Pure R — 8,232 (19%)",
+      "UNC – Lapsed R — 4,075 (9%)",
+      "Mixed – Active — 2,841 (6%)",
+      "Mixed – Lapsed — 931 (2%)",
+      "UNC – Non-partisan Ballot — 1,720 (4%)",
+      "UNC – No Primary — 18,688 (42%)",
+      "UNC – Lapsed D — 3,827 (9%)",
+      "Pure D — 3,761 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          6917,
-          4538,
-          2262,
-          2814,
-          19558,
-          4449,
-          2322
+          8232,
+          4075,
+          2841,
+          931,
+          1720,
+          18688,
+          3827,
+          3761
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "FAIRFIELD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

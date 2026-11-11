@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 661",
-      "Mixed – Active — 384",
-      "Mixed – Lapsed — 366",
-      "UNC – No Primary — 1,507",
-      "UNC – Lapsed D — 359"
+      "UNC – Lapsed R — 683",
+      "Mixed – Active — 414",
+      "Mixed – Lapsed — 175",
+      "UNC – Non-partisan Ballot — 152",
+      "UNC – No Primary — 1,483",
+      "UNC – Lapsed D — 322"
     ],
     "datasets": [
       {
         "data": [
-          661,
-          384,
-          366,
-          1507,
-          359
+          683,
+          414,
+          175,
+          152,
+          1483,
+          322
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HOWARD TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 268",
-      "Mixed – Active — 142",
-      "Mixed – Lapsed — 145",
-      "UNC – No Primary — 653",
-      "UNC – Lapsed D — 147"
+      "UNC – Lapsed R — 313",
+      "Mixed – Active — 160",
+      "Mixed – Lapsed — 93",
+      "UNC – Non-partisan Ballot — 45",
+      "UNC – No Primary — 662",
+      "UNC – Lapsed D — 132"
     ],
     "datasets": [
       {
         "data": [
-          268,
-          142,
-          145,
-          653,
-          147
+          313,
+          160,
+          93,
+          45,
+          662,
+          132
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TROY TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

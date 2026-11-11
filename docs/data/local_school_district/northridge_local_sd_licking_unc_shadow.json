@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,221",
-      "Mixed – Active — 628",
-      "Mixed – Lapsed — 666",
-      "UNC – No Primary — 1,852",
-      "UNC – Lapsed D — 465"
+      "UNC – Lapsed R — 1,226",
+      "Mixed – Active — 614",
+      "Mixed – Lapsed — 286",
+      "UNC – Non-partisan Ballot — 371",
+      "UNC – No Primary — 1,895",
+      "UNC – Lapsed D — 462"
     ],
     "datasets": [
       {
         "data": [
-          1221,
-          628,
-          666,
-          1852,
-          465
+          1226,
+          614,
+          286,
+          371,
+          1895,
+          462
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Northridge Local Sd (Licking Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

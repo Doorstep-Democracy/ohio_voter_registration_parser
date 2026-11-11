@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 328",
-      "Mixed – Active — 643",
-      "Mixed – Lapsed — 439",
-      "UNC – No Primary — 2,325",
-      "UNC – Lapsed D — 771"
+      "UNC – Lapsed R — 364",
+      "Mixed – Active — 668",
+      "Mixed – Lapsed — 237",
+      "UNC – Non-partisan Ballot — 186",
+      "UNC – No Primary — 2,356",
+      "UNC – Lapsed D — 735"
     ],
     "datasets": [
       {
         "data": [
-          328,
-          643,
-          439,
-          2325,
-          771
+          364,
+          668,
+          237,
+          186,
+          2356,
+          735
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RAVENNA TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

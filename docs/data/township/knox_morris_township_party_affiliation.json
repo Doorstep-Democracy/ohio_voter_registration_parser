@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 451 (31%)",
-      "UNC – Lapsed R — 173 (12%)",
-      "Mixed – Active — 109 (8%)",
-      "Mixed – Lapsed — 104 (7%)",
-      "UNC – No Primary — 469 (32%)",
-      "UNC – Lapsed D — 87 (6%)",
-      "Pure D — 57 (4%)"
+      "Pure R — 447 (30%)",
+      "UNC – Lapsed R — 193 (13%)",
+      "Mixed – Active — 124 (8%)",
+      "Mixed – Lapsed — 45 (3%)",
+      "UNC – Non-partisan Ballot — 53 (4%)",
+      "UNC – No Primary — 471 (32%)",
+      "UNC – Lapsed D — 74 (5%)",
+      "Pure D — 72 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          451,
-          173,
-          109,
-          104,
-          469,
-          87,
-          57
+          447,
+          193,
+          124,
+          45,
+          53,
+          471,
+          74,
+          72
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MORRIS TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

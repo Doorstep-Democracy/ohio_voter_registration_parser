@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 68",
-      "Mixed – Active — 56",
-      "Mixed – Lapsed — 47",
+      "UNC – Lapsed R — 71",
+      "Mixed – Active — 64",
+      "Mixed – Lapsed — 30",
+      "UNC – Non-partisan Ballot — 12",
       "UNC – No Primary — 152",
-      "UNC – Lapsed D — 38"
+      "UNC – Lapsed D — 34"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          56,
-          47,
+          71,
+          64,
+          30,
+          12,
           152,
-          38
+          34
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "THOMPSON TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

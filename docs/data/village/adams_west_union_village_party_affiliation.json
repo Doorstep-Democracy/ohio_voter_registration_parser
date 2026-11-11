@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 438 (25%)",
+      "Pure R — 440 (25%)",
       "UNC – Lapsed R — 129 (7%)",
-      "Mixed – Active — 154 (9%)",
-      "Mixed – Lapsed — 52 (3%)",
-      "UNC – No Primary — 811 (46%)",
-      "UNC – Lapsed D — 124 (7%)",
-      "Pure D — 73 (4%)"
+      "Mixed – Active — 156 (9%)",
+      "Mixed – Lapsed — 45 (3%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 807 (45%)",
+      "UNC – Lapsed D — 118 (7%)",
+      "Pure D — 88 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          438,
+          440,
           129,
-          154,
-          52,
-          811,
-          124,
-          73
+          156,
+          45,
+          9,
+          807,
+          118,
+          88
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WEST UNION VILLAGE (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

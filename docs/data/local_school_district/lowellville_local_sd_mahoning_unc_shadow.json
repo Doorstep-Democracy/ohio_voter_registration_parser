@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 65",
-      "Mixed – Active — 262",
-      "Mixed – Lapsed — 113",
-      "UNC – No Primary — 380",
-      "UNC – Lapsed D — 251"
+      "UNC – Lapsed R — 64",
+      "Mixed – Active — 261",
+      "Mixed – Lapsed — 91",
+      "UNC – Non-partisan Ballot — 22",
+      "UNC – No Primary — 391",
+      "UNC – Lapsed D — 242"
     ],
     "datasets": [
       {
         "data": [
-          65,
-          262,
-          113,
-          380,
-          251
+          64,
+          261,
+          91,
+          22,
+          391,
+          242
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Lowellville Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

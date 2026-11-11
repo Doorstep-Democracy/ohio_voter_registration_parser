@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,393 (22%)",
+      "Pure R — 1,384 (22%)",
       "UNC – Lapsed R — 739 (12%)",
-      "Mixed – Active — 529 (9%)",
-      "Mixed – Lapsed — 330 (5%)",
-      "UNC – No Primary — 2,406 (39%)",
-      "UNC – Lapsed D — 471 (8%)",
+      "Mixed – Active — 529 (8%)",
+      "Mixed – Lapsed — 220 (4%)",
+      "UNC – Non-partisan Ballot — 106 (2%)",
+      "UNC – No Primary — 2,458 (39%)",
+      "UNC – Lapsed D — 464 (7%)",
       "Pure D — 346 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1393,
+          1384,
           739,
           529,
-          330,
-          2406,
-          471,
+          220,
+          106,
+          2458,
+          464,
           346
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "PAULDING EX VILL SD (PAULDING)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Paulding Ex Vill Sd (Paulding Co.)",
+  "updated": "2026-11-11"
 }

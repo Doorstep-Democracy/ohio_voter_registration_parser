@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 636",
-      "Mixed – Active — 360",
-      "Mixed – Lapsed — 283",
-      "UNC – No Primary — 1,429",
-      "UNC – Lapsed D — 250"
+      "UNC – Lapsed R — 633",
+      "Mixed – Active — 357",
+      "Mixed – Lapsed — 177",
+      "UNC – Non-partisan Ballot — 107",
+      "UNC – No Primary — 1,469",
+      "UNC – Lapsed D — 244"
     ],
     "datasets": [
       {
         "data": [
-          636,
-          360,
-          283,
-          1429,
-          250
+          633,
+          357,
+          177,
+          107,
+          1469,
+          244
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Tri-County North Lsd (Preble Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

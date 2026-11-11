@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 66 (13%)",
-      "UNC – Lapsed R — 66 (13%)",
-      "Mixed – Active — 33 (7%)",
-      "Mixed – Lapsed — 35 (7%)",
-      "UNC – No Primary — 236 (48%)",
-      "UNC – Lapsed D — 39 (8%)",
-      "Pure D — 14 (3%)"
+      "Pure R — 69 (14%)",
+      "UNC – Lapsed R — 69 (14%)",
+      "Mixed – Active — 32 (6%)",
+      "Mixed – Lapsed — 24 (5%)",
+      "UNC – Non-partisan Ballot — 12 (2%)",
+      "UNC – No Primary — 227 (46%)",
+      "UNC – Lapsed D — 44 (9%)",
+      "Pure D — 16 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          66,
-          66,
-          33,
-          35,
-          236,
-          39,
-          14
+          69,
+          69,
+          32,
+          24,
+          12,
+          227,
+          44,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SHERWOOD VILLAGE (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

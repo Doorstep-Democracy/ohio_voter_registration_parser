@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,500 (11%)",
-      "UNC – Lapsed R — 1,459 (10%)",
-      "Mixed – Active — 956 (7%)",
-      "Mixed – Lapsed — 900 (6%)",
-      "UNC – No Primary — 7,097 (50%)",
-      "UNC – Lapsed D — 1,714 (12%)",
-      "Pure D — 616 (4%)"
+      "Pure R — 1,386 (10%)",
+      "UNC – Lapsed R — 1,576 (11%)",
+      "Mixed – Active — 917 (6%)",
+      "Mixed – Lapsed — 717 (5%)",
+      "UNC – Non-partisan Ballot — 232 (2%)",
+      "UNC – No Primary — 7,210 (50%)",
+      "UNC – Lapsed D — 1,643 (11%)",
+      "Pure D — 745 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1500,
-          1459,
-          956,
-          900,
-          7097,
-          1714,
-          616
+          1386,
+          1576,
+          917,
+          717,
+          232,
+          7210,
+          1643,
+          745
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ZANESVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

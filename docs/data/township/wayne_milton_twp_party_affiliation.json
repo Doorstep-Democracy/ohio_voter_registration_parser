@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 494 (27%)",
-      "UNC – Lapsed R — 299 (16%)",
-      "Mixed – Active — 109 (6%)",
-      "Mixed – Lapsed — 128 (7%)",
-      "UNC – No Primary — 669 (36%)",
-      "UNC – Lapsed D — 101 (5%)",
-      "Pure D — 49 (3%)"
+      "Pure R — 429 (23%)",
+      "UNC – Lapsed R — 371 (20%)",
+      "Mixed – Active — 103 (6%)",
+      "Mixed – Lapsed — 63 (3%)",
+      "UNC – Non-partisan Ballot — 66 (4%)",
+      "UNC – No Primary — 660 (36%)",
+      "UNC – Lapsed D — 104 (6%)",
+      "Pure D — 59 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          494,
-          299,
-          109,
-          128,
-          669,
-          101,
-          49
+          429,
+          371,
+          103,
+          63,
+          66,
+          660,
+          104,
+          59
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MILTON TWP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

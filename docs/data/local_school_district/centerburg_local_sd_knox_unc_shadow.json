@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 672",
-      "Mixed – Active — 394",
-      "Mixed – Lapsed — 319",
-      "UNC – No Primary — 1,681",
+      "UNC – Lapsed R — 686",
+      "Mixed – Active — 393",
+      "Mixed – Lapsed — 143",
+      "UNC – Non-partisan Ballot — 179",
+      "UNC – No Primary — 1,704",
       "UNC – Lapsed D — 279"
     ],
     "datasets": [
       {
         "data": [
-          672,
-          394,
-          319,
-          1681,
+          686,
+          393,
+          143,
+          179,
+          1704,
           279
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Centerburg Local Sd (Knox Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

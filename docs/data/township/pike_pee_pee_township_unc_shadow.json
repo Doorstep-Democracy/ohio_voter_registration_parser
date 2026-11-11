@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 224",
-      "Mixed – Active — 170",
-      "Mixed – Lapsed — 162",
-      "UNC – No Primary — 1,003",
-      "UNC – Lapsed D — 316"
+      "UNC – Lapsed R — 199",
+      "Mixed – Active — 220",
+      "Mixed – Lapsed — 109",
+      "UNC – Non-partisan Ballot — 48",
+      "UNC – No Primary — 937",
+      "UNC – Lapsed D — 239"
     ],
     "datasets": [
       {
         "data": [
-          224,
-          170,
-          162,
-          1003,
-          316
+          199,
+          220,
+          109,
+          48,
+          937,
+          239
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PEE PEE TOWNSHIP (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 973",
-      "Mixed – Active — 569",
-      "Mixed – Lapsed — 619",
-      "UNC – No Primary — 2,152",
-      "UNC – Lapsed D — 476"
+      "UNC – Lapsed R — 1,095",
+      "Mixed – Active — 572",
+      "Mixed – Lapsed — 317",
+      "UNC – Non-partisan Ballot — 314",
+      "UNC – No Primary — 2,151",
+      "UNC – Lapsed D — 434"
     ],
     "datasets": [
       {
         "data": [
-          973,
-          569,
-          619,
-          2152,
-          476
+          1095,
+          572,
+          317,
+          314,
+          2151,
+          434
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CLAY TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

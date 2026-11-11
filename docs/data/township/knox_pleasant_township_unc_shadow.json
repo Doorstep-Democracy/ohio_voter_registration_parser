@@ -4,32 +4,35 @@
   "chartConfig": {
     "labels": [
       "UNC – Lapsed R — 180",
-      "Mixed – Active — 97",
-      "Mixed – Lapsed — 101",
-      "UNC – No Primary — 414",
-      "UNC – Lapsed D — 83"
+      "Mixed – Active — 120",
+      "Mixed – Lapsed — 34",
+      "UNC – Non-partisan Ballot — 62",
+      "UNC – No Primary — 395",
+      "UNC – Lapsed D — 63"
     ],
     "datasets": [
       {
         "data": [
           180,
-          97,
-          101,
-          414,
-          83
+          120,
+          34,
+          62,
+          395,
+          63
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

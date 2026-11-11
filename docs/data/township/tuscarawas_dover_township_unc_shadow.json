@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 410",
-      "Mixed – Active — 328",
-      "Mixed – Lapsed — 360",
-      "UNC – No Primary — 1,023",
-      "UNC – Lapsed D — 378"
+      "UNC – Lapsed R — 395",
+      "Mixed – Active — 356",
+      "Mixed – Lapsed — 193",
+      "UNC – Non-partisan Ballot — 141",
+      "UNC – No Primary — 1,030",
+      "UNC – Lapsed D — 346"
     ],
     "datasets": [
       {
         "data": [
-          410,
-          328,
-          360,
-          1023,
-          378
+          395,
+          356,
+          193,
+          141,
+          1030,
+          346
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DOVER TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

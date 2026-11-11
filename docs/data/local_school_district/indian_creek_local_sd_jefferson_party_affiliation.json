@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,332 (10%)",
+      "Pure R — 1,329 (10%)",
       "UNC – Lapsed R — 1,111 (9%)",
-      "Mixed – Active — 2,040 (16%)",
-      "Mixed – Lapsed — 987 (8%)",
-      "UNC – No Primary — 4,481 (35%)",
-      "UNC – Lapsed D — 1,924 (15%)",
-      "Pure D — 1,061 (8%)"
+      "Mixed – Active — 2,027 (16%)",
+      "Mixed – Lapsed — 803 (6%)",
+      "UNC – Non-partisan Ballot — 178 (1%)",
+      "UNC – No Primary — 4,582 (35%)",
+      "UNC – Lapsed D — 1,916 (15%)",
+      "Pure D — 1,059 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1332,
+          1329,
           1111,
-          2040,
-          987,
-          4481,
-          1924,
-          1061
+          2027,
+          803,
+          178,
+          4582,
+          1916,
+          1059
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Indian Creek Local Sd (Jefferson Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

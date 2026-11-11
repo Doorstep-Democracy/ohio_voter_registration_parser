@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 60",
-      "Mixed – Active — 69",
-      "Mixed – Lapsed — 59",
-      "UNC – No Primary — 380",
-      "UNC – Lapsed D — 44"
+      "UNC – Lapsed R — 72",
+      "Mixed – Active — 74",
+      "Mixed – Lapsed — 31",
+      "UNC – Non-partisan Ballot — 30",
+      "UNC – No Primary — 374",
+      "UNC – Lapsed D — 41"
     ],
     "datasets": [
       {
         "data": [
-          60,
-          69,
-          59,
-          380,
-          44
+          72,
+          74,
+          31,
+          30,
+          374,
+          41
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "FOREST VILLAGE (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

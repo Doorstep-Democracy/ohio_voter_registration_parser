@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,811 (11%)",
-      "UNC – Lapsed R — 4,046 (9%)",
-      "Mixed – Active — 4,359 (10%)",
-      "Mixed – Lapsed — 4,463 (10%)",
-      "UNC – No Primary — 17,146 (38%)",
-      "UNC – Lapsed D — 7,435 (16%)",
-      "Pure D — 3,299 (7%)"
+      "Pure R — 4,323 (9%)",
+      "UNC – Lapsed R — 4,535 (10%)",
+      "Mixed – Active — 4,207 (9%)",
+      "Mixed – Lapsed — 2,614 (6%)",
+      "UNC – Non-partisan Ballot — 1,929 (4%)",
+      "UNC – No Primary — 17,232 (37%)",
+      "UNC – Lapsed D — 7,068 (15%)",
+      "Pure D — 4,104 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          4811,
-          4046,
-          4359,
-          4463,
-          17146,
-          7435,
-          3299
+          4323,
+          4535,
+          4207,
+          2614,
+          1929,
+          17232,
+          7068,
+          4104
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WILLOUGHBY-EASTLAKE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

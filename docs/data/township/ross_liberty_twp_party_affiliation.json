@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 249 (15%)",
-      "UNC – Lapsed R — 180 (11%)",
-      "Mixed – Active — 134 (8%)",
-      "Mixed – Lapsed — 106 (7%)",
-      "UNC – No Primary — 701 (43%)",
-      "UNC – Lapsed D — 194 (12%)",
-      "Pure D — 56 (3%)"
+      "Pure R — 217 (13%)",
+      "UNC – Lapsed R — 219 (13%)",
+      "Mixed – Active — 125 (8%)",
+      "Mixed – Lapsed — 92 (6%)",
+      "UNC – Non-partisan Ballot — 20 (1%)",
+      "UNC – No Primary — 707 (43%)",
+      "UNC – Lapsed D — 180 (11%)",
+      "Pure D — 73 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          249,
+          217,
+          219,
+          125,
+          92,
+          20,
+          707,
           180,
-          134,
-          106,
-          701,
-          194,
-          56
+          73
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

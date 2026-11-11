@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 668 (14%)",
+      "Pure R — 665 (14%)",
       "UNC – Lapsed R — 481 (10%)",
-      "Mixed – Active — 551 (11%)",
-      "Mixed – Lapsed — 447 (9%)",
-      "UNC – No Primary — 1,886 (39%)",
-      "UNC – Lapsed D — 549 (11%)",
-      "Pure D — 294 (6%)"
+      "Mixed – Active — 546 (11%)",
+      "Mixed – Lapsed — 209 (4%)",
+      "UNC – Non-partisan Ballot — 238 (5%)",
+      "UNC – No Primary — 1,896 (39%)",
+      "UNC – Lapsed D — 544 (11%)",
+      "Pure D — 291 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          668,
+          665,
           481,
-          551,
-          447,
-          1886,
-          549,
-          294
+          546,
+          209,
+          238,
+          1896,
+          544,
+          291
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "BARNESVILLE EX VILL SD (BELMONT)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Barnesville Ex Vill Sd (Belmont Co.)",
+  "updated": "2026-11-11"
 }

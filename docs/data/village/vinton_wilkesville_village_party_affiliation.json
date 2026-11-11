@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 14 (17%)",
-      "UNC – Lapsed R — 10 (12%)",
-      "Mixed – Active — 5 (6%)",
-      "Mixed – Lapsed — 9 (11%)",
-      "UNC – No Primary — 34 (40%)",
-      "UNC – Lapsed D — 10 (12%)",
-      "Pure D — 2 (2%)"
+      "Pure R — 13 (15%)",
+      "UNC – Lapsed R — 13 (15%)",
+      "Mixed – Active — 6 (7%)",
+      "Mixed – Lapsed — 5 (6%)",
+      "UNC – Non-partisan Ballot — 4 (5%)",
+      "UNC – No Primary — 34 (39%)",
+      "UNC – Lapsed D — 8 (9%)",
+      "Pure D — 4 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          14,
-          10,
+          13,
+          13,
+          6,
           5,
-          9,
+          4,
           34,
-          10,
-          2
+          8,
+          4
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WILKESVILLE VILLAGE (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

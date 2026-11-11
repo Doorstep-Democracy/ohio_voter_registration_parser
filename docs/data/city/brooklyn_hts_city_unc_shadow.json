@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 87",
-      "Mixed – Active — 195",
-      "Mixed – Lapsed — 121",
-      "UNC – No Primary — 255",
-      "UNC – Lapsed D — 137"
+      "UNC – Lapsed R — 89",
+      "Mixed – Active — 193",
+      "Mixed – Lapsed — 60",
+      "UNC – Non-partisan Ballot — 57",
+      "UNC – No Primary — 266",
+      "UNC – Lapsed D — 140"
     ],
     "datasets": [
       {
         "data": [
-          87,
-          195,
-          121,
-          255,
-          137
+          89,
+          193,
+          60,
+          57,
+          266,
+          140
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "BROOKLYN HTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

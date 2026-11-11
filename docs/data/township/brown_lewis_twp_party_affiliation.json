@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 291 (18%)",
-      "UNC – Lapsed R — 187 (12%)",
-      "Mixed – Active — 178 (11%)",
-      "Mixed – Lapsed — 93 (6%)",
-      "UNC – No Primary — 683 (42%)",
-      "UNC – Lapsed D — 139 (9%)",
-      "Pure D — 51 (3%)"
+      "Pure R — 322 (20%)",
+      "UNC – Lapsed R — 176 (11%)",
+      "Mixed – Active — 191 (12%)",
+      "Mixed – Lapsed — 70 (4%)",
+      "UNC – Non-partisan Ballot — 18 (1%)",
+      "UNC – No Primary — 653 (40%)",
+      "UNC – Lapsed D — 129 (8%)",
+      "Pure D — 55 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          291,
-          187,
-          178,
-          93,
-          683,
-          139,
-          51
+          322,
+          176,
+          191,
+          70,
+          18,
+          653,
+          129,
+          55
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LEWIS TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

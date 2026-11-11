@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 75",
-      "Mixed – Active — 68",
-      "Mixed – Lapsed — 48",
-      "UNC – No Primary — 230",
-      "UNC – Lapsed D — 74"
+      "UNC – Lapsed R — 89",
+      "Mixed – Active — 64",
+      "Mixed – Lapsed — 22",
+      "UNC – Non-partisan Ballot — 28",
+      "UNC – No Primary — 224",
+      "UNC – Lapsed D — 73"
     ],
     "datasets": [
       {
         "data": [
-          75,
-          68,
-          48,
-          230,
-          74
+          89,
+          64,
+          22,
+          28,
+          224,
+          73
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALTCREEK TWP (Hocking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

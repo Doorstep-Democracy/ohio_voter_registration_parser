@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 500 (21%)",
-      "UNC – Lapsed R — 272 (11%)",
-      "Mixed – Active — 219 (9%)",
-      "Mixed – Lapsed — 443 (19%)",
-      "UNC – No Primary — 580 (24%)",
-      "UNC – Lapsed D — 245 (10%)",
-      "Pure D — 114 (5%)"
+      "Pure R — 479 (20%)",
+      "UNC – Lapsed R — 314 (13%)",
+      "Mixed – Active — 220 (9%)",
+      "Mixed – Lapsed — 97 (4%)",
+      "UNC – Non-partisan Ballot — 321 (13%)",
+      "UNC – No Primary — 594 (25%)",
+      "UNC – Lapsed D — 223 (9%)",
+      "Pure D — 138 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          500,
-          272,
-          219,
-          443,
-          580,
-          245,
-          114
+          479,
+          314,
+          220,
+          97,
+          321,
+          594,
+          223,
+          138
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Litchfield TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

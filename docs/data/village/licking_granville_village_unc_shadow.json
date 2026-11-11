@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 361",
-      "Mixed – Active — 364",
-      "Mixed – Lapsed — 368",
-      "UNC – No Primary — 1,632",
-      "UNC – Lapsed D — 434"
+      "UNC – Lapsed R — 394",
+      "Mixed – Active — 383",
+      "Mixed – Lapsed — 178",
+      "UNC – Non-partisan Ballot — 180",
+      "UNC – No Primary — 1,608",
+      "UNC – Lapsed D — 417"
     ],
     "datasets": [
       {
         "data": [
-          361,
-          364,
-          368,
-          1632,
-          434
+          394,
+          383,
+          178,
+          180,
+          1608,
+          417
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "GRANVILLE VILLAGE (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

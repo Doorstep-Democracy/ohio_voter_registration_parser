@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 366",
-      "Mixed – Active — 124",
-      "Mixed – Lapsed — 133",
-      "UNC – No Primary — 621",
-      "UNC – Lapsed D — 176"
+      "UNC – Lapsed R — 365",
+      "Mixed – Active — 123",
+      "Mixed – Lapsed — 130",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 633",
+      "UNC – Lapsed D — 173"
     ],
     "datasets": [
       {
         "data": [
-          366,
-          124,
-          133,
-          621,
-          176
+          365,
+          123,
+          130,
+          4,
+          633,
+          173
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ELIZABETH TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

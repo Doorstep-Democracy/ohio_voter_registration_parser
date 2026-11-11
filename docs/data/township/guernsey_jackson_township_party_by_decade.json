@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,15 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          10,
-          49,
-          108,
-          100,
-          58,
+          9,
+          40,
+          101,
+          80,
+          52,
           44,
-          25,
-          14
+          19,
+          21
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           5,
-          17,
-          44,
-          59,
-          61,
-          69,
-          34,
-          2
+          23,
+          51,
+          78,
+          72,
+          71,
+          45,
+          4
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           7,
-          47,
-          82,
-          71,
-          34,
-          23,
+          43,
+          74,
+          65,
+          32,
+          19,
           5,
           0
         ],
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           6,
-          18,
-          31,
-          50,
-          51,
-          40,
-          13,
-          3
+          20,
+          24,
+          32,
+          27,
+          23,
+          4,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          3,
+          18,
+          25,
+          26,
+          23,
+          11,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
           4,
-          28,
-          80,
-          166,
+          29,
+          78,
+          163,
           190,
-          276,
-          364,
-          280
+          269,
+          360,
+          295
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,13 +106,12 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          14,
-          37,
-          86,
-          83,
-          66,
-          72,
+          13,
+          36,
+          79,
+          70,
+          63,
+          70,
           27,
           4
         ],
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           4,
-          20,
-          53,
-          11,
+          17,
+          54,
+          24,
           10,
-          10,
-          2,
-          6
+          14,
+          4,
+          9
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

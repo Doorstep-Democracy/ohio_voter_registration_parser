@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,149 (23%)",
+      "Pure R — 1,130 (22%)",
       "UNC – Lapsed R — 723 (14%)",
-      "Mixed – Active — 312 (6%)",
-      "Mixed – Lapsed — 395 (8%)",
-      "UNC – No Primary — 1,958 (39%)",
-      "UNC – Lapsed D — 345 (7%)",
-      "Pure D — 176 (3%)"
+      "Mixed – Active — 310 (6%)",
+      "Mixed – Lapsed — 168 (3%)",
+      "UNC – Non-partisan Ballot — 225 (4%)",
+      "UNC – No Primary — 1,974 (39%)",
+      "UNC – Lapsed D — 341 (7%)",
+      "Pure D — 172 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1149,
+          1130,
           723,
-          312,
-          395,
-          1958,
-          345,
-          176
+          310,
+          168,
+          225,
+          1974,
+          341,
+          172
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Northwestern Local Sd (Wayne Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

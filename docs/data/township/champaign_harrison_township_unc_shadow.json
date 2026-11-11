@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 60",
-      "Mixed – Active — 70",
-      "Mixed – Lapsed — 35",
-      "UNC – No Primary — 184",
-      "UNC – Lapsed D — 19"
+      "UNC – Lapsed R — 72",
+      "Mixed – Active — 68",
+      "Mixed – Lapsed — 18",
+      "UNC – Non-partisan Ballot — 18",
+      "UNC – No Primary — 188",
+      "UNC – Lapsed D — 24"
     ],
     "datasets": [
       {
         "data": [
-          60,
-          70,
-          35,
-          184,
-          19
+          72,
+          68,
+          18,
+          18,
+          188,
+          24
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

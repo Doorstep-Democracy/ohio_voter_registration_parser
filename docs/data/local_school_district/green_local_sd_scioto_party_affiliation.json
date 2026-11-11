@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,657 (12%)",
-      "UNC – Lapsed R — 2,928 (13%)",
-      "Mixed – Active — 2,229 (10%)",
-      "Mixed – Lapsed — 2,439 (11%)",
-      "UNC – No Primary — 7,401 (33%)",
-      "UNC – Lapsed D — 2,782 (13%)",
-      "Pure D — 1,768 (8%)"
+      "Pure R — 2,633 (12%)",
+      "UNC – Lapsed R — 2,933 (13%)",
+      "Mixed – Active — 2,212 (10%)",
+      "Mixed – Lapsed — 1,372 (6%)",
+      "UNC – Non-partisan Ballot — 1,078 (5%)",
+      "UNC – No Primary — 7,625 (34%)",
+      "UNC – Lapsed D — 2,801 (13%)",
+      "Pure D — 1,743 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          2657,
-          2928,
-          2229,
-          2439,
-          7401,
-          2782,
-          1768
+          2633,
+          2933,
+          2212,
+          1372,
+          1078,
+          7625,
+          2801,
+          1743
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Green Local Sd (Scioto Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 54 (16%)",
-      "UNC – Lapsed R — 27 (8%)",
-      "Mixed – Active — 35 (10%)",
-      "Mixed – Lapsed — 12 (4%)",
-      "UNC – No Primary — 125 (37%)",
-      "UNC – Lapsed D — 59 (18%)",
-      "Pure D — 24 (7%)"
+      "Pure R — 43 (13%)",
+      "UNC – Lapsed R — 35 (10%)",
+      "Mixed – Active — 33 (10%)",
+      "Mixed – Lapsed — 10 (3%)",
+      "UNC – Non-partisan Ballot — 3 (1%)",
+      "UNC – No Primary — 130 (39%)",
+      "UNC – Lapsed D — 55 (16%)",
+      "Pure D — 28 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          54,
-          27,
+          43,
           35,
-          12,
-          125,
-          59,
-          24
+          33,
+          10,
+          3,
+          130,
+          55,
+          28
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

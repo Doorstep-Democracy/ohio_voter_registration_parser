@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 318 (25%)",
-      "UNC – Lapsed R — 130 (10%)",
-      "Mixed – Active — 140 (11%)",
-      "Mixed – Lapsed — 128 (10%)",
+      "Pure R — 307 (24%)",
+      "UNC – Lapsed R — 152 (12%)",
+      "Mixed – Active — 145 (11%)",
+      "Mixed – Lapsed — 58 (5%)",
+      "UNC – Non-partisan Ballot — 64 (5%)",
       "UNC – No Primary — 362 (29%)",
-      "UNC – Lapsed D — 116 (9%)",
-      "Pure D — 67 (5%)"
+      "UNC – Lapsed D — 110 (9%)",
+      "Pure D — 64 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          318,
-          130,
-          140,
-          128,
+          307,
+          152,
+          145,
+          58,
+          64,
           362,
-          116,
-          67
+          110,
+          64
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PIKE TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

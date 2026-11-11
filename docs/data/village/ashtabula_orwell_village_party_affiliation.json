@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 109 (13%)",
-      "UNC – Lapsed R — 79 (9%)",
-      "Mixed – Active — 69 (8%)",
-      "Mixed – Lapsed — 74 (9%)",
-      "UNC – No Primary — 385 (44%)",
-      "UNC – Lapsed D — 89 (10%)",
-      "Pure D — 65 (7%)"
+      "Pure R — 107 (12%)",
+      "UNC – Lapsed R — 92 (11%)",
+      "Mixed – Active — 71 (8%)",
+      "Mixed – Lapsed — 31 (4%)",
+      "UNC – Non-partisan Ballot — 34 (4%)",
+      "UNC – No Primary — 371 (43%)",
+      "UNC – Lapsed D — 82 (10%)",
+      "Pure D — 73 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          109,
-          79,
-          69,
-          74,
-          385,
-          89,
-          65
+          107,
+          92,
+          71,
+          31,
+          34,
+          371,
+          82,
+          73
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ORWELL VILLAGE (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

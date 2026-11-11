@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 104",
-      "Mixed – Active — 72",
-      "Mixed – Lapsed — 21",
-      "UNC – No Primary — 238",
-      "UNC – Lapsed D — 39"
+      "UNC – Lapsed R — 130",
+      "Mixed – Active — 64",
+      "Mixed – Lapsed — 27",
+      "UNC – Non-partisan Ballot — 2",
+      "UNC – No Primary — 245",
+      "UNC – Lapsed D — 44"
     ],
     "datasets": [
       {
         "data": [
-          104,
-          72,
-          21,
-          238,
-          39
+          130,
+          64,
+          27,
+          2,
+          245,
+          44
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GUYAN TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

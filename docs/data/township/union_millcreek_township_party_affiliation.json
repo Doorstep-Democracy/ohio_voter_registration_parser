@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 334 (33%)",
-      "UNC – Lapsed R — 123 (12%)",
-      "Mixed – Active — 94 (9%)",
-      "Mixed – Lapsed — 73 (7%)",
-      "UNC – No Primary — 296 (29%)",
-      "UNC – Lapsed D — 56 (6%)",
-      "Pure D — 35 (3%)"
+      "Pure R — 308 (30%)",
+      "UNC – Lapsed R — 151 (15%)",
+      "Mixed – Active — 97 (9%)",
+      "Mixed – Lapsed — 42 (4%)",
+      "UNC – Non-partisan Ballot — 29 (3%)",
+      "UNC – No Primary — 299 (29%)",
+      "UNC – Lapsed D — 49 (5%)",
+      "Pure D — 49 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          334,
-          123,
-          94,
-          73,
-          296,
-          56,
-          35
+          308,
+          151,
+          97,
+          42,
+          29,
+          299,
+          49,
+          49
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MILLCREEK TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

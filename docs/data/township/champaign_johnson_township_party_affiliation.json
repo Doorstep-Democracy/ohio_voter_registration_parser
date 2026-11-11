@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 655 (29%)",
-      "UNC – Lapsed R — 204 (9%)",
-      "Mixed – Active — 241 (11%)",
-      "Mixed – Lapsed — 149 (7%)",
-      "UNC – No Primary — 771 (34%)",
-      "UNC – Lapsed D — 148 (7%)",
-      "Pure D — 95 (4%)"
+      "Pure R — 621 (27%)",
+      "UNC – Lapsed R — 247 (11%)",
+      "Mixed – Active — 235 (10%)",
+      "Mixed – Lapsed — 70 (3%)",
+      "UNC – Non-partisan Ballot — 82 (4%)",
+      "UNC – No Primary — 791 (35%)",
+      "UNC – Lapsed D — 139 (6%)",
+      "Pure D — 96 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          655,
-          204,
-          241,
-          149,
-          771,
-          148,
-          95
+          621,
+          247,
+          235,
+          70,
+          82,
+          791,
+          139,
+          96
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JOHNSON TOWNSHIP (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

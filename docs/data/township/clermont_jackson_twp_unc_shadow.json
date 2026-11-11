@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 315",
-      "Mixed – Active — 130",
-      "Mixed – Lapsed — 159",
-      "UNC – No Primary — 815",
-      "UNC – Lapsed D — 113"
+      "UNC – Lapsed R — 355",
+      "Mixed – Active — 138",
+      "Mixed – Lapsed — 62",
+      "UNC – Non-partisan Ballot — 94",
+      "UNC – No Primary — 806",
+      "UNC – Lapsed D — 103"
     ],
     "datasets": [
       {
         "data": [
-          315,
-          130,
-          159,
-          815,
-          113
+          355,
+          138,
+          62,
+          94,
+          806,
+          103
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

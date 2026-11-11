@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 31 (8%)",
-      "UNC – Lapsed R — 23 (6%)",
-      "Mixed – Active — 27 (7%)",
-      "Mixed – Lapsed — 23 (6%)",
-      "UNC – No Primary — 196 (50%)",
-      "UNC – Lapsed D — 57 (15%)",
-      "Pure D — 33 (8%)"
+      "Pure R — 26 (7%)",
+      "UNC – Lapsed R — 28 (7%)",
+      "Mixed – Active — 20 (5%)",
+      "Mixed – Lapsed — 18 (5%)",
+      "UNC – Non-partisan Ballot — 10 (3%)",
+      "UNC – No Primary — 190 (49%)",
+      "UNC – Lapsed D — 48 (12%)",
+      "Pure D — 47 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          31,
-          23,
-          27,
-          23,
-          196,
-          57,
-          33
+          26,
+          28,
+          20,
+          18,
+          10,
+          190,
+          48,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HIRAM VILLAGE (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

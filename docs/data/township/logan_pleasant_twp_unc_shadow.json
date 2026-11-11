@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 113",
-      "Mixed – Active — 38",
-      "Mixed – Lapsed — 73",
-      "UNC – No Primary — 285",
-      "UNC – Lapsed D — 28"
+      "UNC – Lapsed R — 136",
+      "Mixed – Active — 40",
+      "Mixed – Lapsed — 28",
+      "UNC – Non-partisan Ballot — 39",
+      "UNC – No Primary — 282",
+      "UNC – Lapsed D — 27"
     ],
     "datasets": [
       {
         "data": [
-          113,
-          38,
-          73,
-          285,
-          28
+          136,
+          40,
+          28,
+          39,
+          282,
+          27
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

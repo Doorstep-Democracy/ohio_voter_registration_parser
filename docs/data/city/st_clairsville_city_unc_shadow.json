@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 310",
-      "Mixed – Active — 464",
-      "Mixed – Lapsed — 284",
-      "UNC – No Primary — 1,376",
-      "UNC – Lapsed D — 466"
+      "UNC – Lapsed R — 315",
+      "Mixed – Active — 485",
+      "Mixed – Lapsed — 138",
+      "UNC – Non-partisan Ballot — 137",
+      "UNC – No Primary — 1,358",
+      "UNC – Lapsed D — 418"
     ],
     "datasets": [
       {
         "data": [
-          310,
-          464,
-          284,
-          1376,
-          466
+          315,
+          485,
+          138,
+          137,
+          1358,
+          418
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "ST. CLAIRSVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

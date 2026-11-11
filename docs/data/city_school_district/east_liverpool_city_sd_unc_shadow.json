@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 522",
-      "Mixed – Active — 764",
-      "Mixed – Lapsed — 436",
-      "UNC – No Primary — 4,358",
-      "UNC – Lapsed D — 1,151"
+      "UNC – Lapsed R — 577",
+      "Mixed – Active — 730",
+      "Mixed – Lapsed — 385",
+      "UNC – Non-partisan Ballot — 94",
+      "UNC – No Primary — 4,381",
+      "UNC – Lapsed D — 1,124"
     ],
     "datasets": [
       {
         "data": [
-          522,
-          764,
-          436,
-          4358,
-          1151
+          577,
+          730,
+          385,
+          94,
+          4381,
+          1124
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "EAST LIVERPOOL CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

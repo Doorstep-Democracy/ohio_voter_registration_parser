@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 289 (26%)",
-      "UNC – Lapsed R — 108 (10%)",
-      "Mixed – Active — 164 (15%)",
-      "Mixed – Lapsed — 64 (6%)",
-      "UNC – No Primary — 370 (33%)",
-      "UNC – Lapsed D — 77 (7%)",
-      "Pure D — 44 (4%)"
+      "Pure R — 303 (27%)",
+      "UNC – Lapsed R — 109 (10%)",
+      "Mixed – Active — 170 (15%)",
+      "Mixed – Lapsed — 38 (3%)",
+      "UNC – Non-partisan Ballot — 22 (2%)",
+      "UNC – No Primary — 358 (32%)",
+      "UNC – Lapsed D — 71 (6%)",
+      "Pure D — 47 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          289,
-          108,
-          164,
-          64,
-          370,
-          77,
-          44
+          303,
+          109,
+          170,
+          38,
+          22,
+          358,
+          71,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WATERTOWN TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

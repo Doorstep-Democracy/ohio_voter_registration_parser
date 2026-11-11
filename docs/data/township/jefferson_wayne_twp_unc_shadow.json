@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 148",
+      "UNC – Lapsed R — 156",
       "Mixed – Active — 235",
-      "Mixed – Lapsed — 132",
-      "UNC – No Primary — 464",
-      "UNC – Lapsed D — 188"
+      "Mixed – Lapsed — 106",
+      "UNC – Non-partisan Ballot — 26",
+      "UNC – No Primary — 450",
+      "UNC – Lapsed D — 179"
     ],
     "datasets": [
       {
         "data": [
-          148,
+          156,
           235,
-          132,
-          464,
-          188
+          106,
+          26,
+          450,
+          179
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TWP (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

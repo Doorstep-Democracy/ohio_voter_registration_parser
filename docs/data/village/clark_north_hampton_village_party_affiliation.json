@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 73 (20%)",
-      "UNC – Lapsed R — 45 (13%)",
-      "Mixed – Active — 36 (10%)",
-      "Mixed – Lapsed — 46 (13%)",
-      "UNC – No Primary — 122 (34%)",
-      "UNC – Lapsed D — 20 (6%)",
-      "Pure D — 15 (4%)"
+      "Pure R — 77 (21%)",
+      "UNC – Lapsed R — 50 (14%)",
+      "Mixed – Active — 37 (10%)",
+      "Mixed – Lapsed — 15 (4%)",
+      "UNC – Non-partisan Ballot — 29 (8%)",
+      "UNC – No Primary — 119 (33%)",
+      "UNC – Lapsed D — 17 (5%)",
+      "Pure D — 22 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          73,
-          45,
-          36,
-          46,
-          122,
-          20,
-          15
+          77,
+          50,
+          37,
+          15,
+          29,
+          119,
+          17,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NORTH HAMPTON VILLAGE (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 14 (13%)",
-      "UNC – Lapsed R — 16 (15%)",
-      "Mixed – Active — 3 (3%)",
-      "Mixed – Lapsed — 10 (9%)",
-      "UNC – No Primary — 48 (45%)",
-      "UNC – Lapsed D — 12 (11%)",
-      "Pure D — 3 (3%)"
+      "Pure R — 13 (13%)",
+      "UNC – Lapsed R — 18 (17%)",
+      "Mixed – Active — 5 (5%)",
+      "Mixed – Lapsed — 1 (1%)",
+      "UNC – Non-partisan Ballot — 6 (6%)",
+      "UNC – No Primary — 46 (45%)",
+      "UNC – Lapsed D — 10 (10%)",
+      "Pure D — 4 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          14,
-          16,
-          3,
+          13,
+          18,
+          5,
+          1,
+          6,
+          46,
           10,
-          48,
-          12,
-          3
+          4
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CHATFIELD VILLAGE (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

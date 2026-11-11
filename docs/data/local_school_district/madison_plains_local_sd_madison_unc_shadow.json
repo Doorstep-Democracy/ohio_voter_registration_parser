@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 768",
-      "Mixed – Active — 482",
-      "Mixed – Lapsed — 477",
-      "UNC – No Primary — 1,860",
-      "UNC – Lapsed D — 396"
+      "UNC – Lapsed R — 767",
+      "Mixed – Active — 474",
+      "Mixed – Lapsed — 167",
+      "UNC – Non-partisan Ballot — 306",
+      "UNC – No Primary — 1,913",
+      "UNC – Lapsed D — 394"
     ],
     "datasets": [
       {
         "data": [
-          768,
-          482,
-          477,
-          1860,
-          396
+          767,
+          474,
+          167,
+          306,
+          1913,
+          394
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Madison-Plains Local Sd (Madison Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

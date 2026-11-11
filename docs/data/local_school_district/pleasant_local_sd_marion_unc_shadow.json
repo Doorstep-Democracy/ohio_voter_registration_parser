@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 920",
-      "Mixed – Active — 715",
-      "Mixed – Lapsed — 519",
-      "UNC – No Primary — 1,921",
-      "UNC – Lapsed D — 503"
+      "UNC – Lapsed R — 918",
+      "Mixed – Active — 712",
+      "Mixed – Lapsed — 275",
+      "UNC – Non-partisan Ballot — 242",
+      "UNC – No Primary — 1,964",
+      "UNC – Lapsed D — 502"
     ],
     "datasets": [
       {
         "data": [
-          920,
-          715,
-          519,
-          1921,
-          503
+          918,
+          712,
+          275,
+          242,
+          1964,
+          502
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Pleasant Local Sd (Marion Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

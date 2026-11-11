@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 552",
-      "Mixed – Active — 281",
-      "Mixed – Lapsed — 506",
-      "UNC – No Primary — 976",
-      "UNC – Lapsed D — 323"
+      "UNC – Lapsed R — 677",
+      "Mixed – Active — 289",
+      "Mixed – Lapsed — 172",
+      "UNC – Non-partisan Ballot — 331",
+      "UNC – No Primary — 963",
+      "UNC – Lapsed D — 274"
     ],
     "datasets": [
       {
         "data": [
-          552,
-          281,
-          506,
-          976,
-          323
+          677,
+          289,
+          172,
+          331,
+          963,
+          274
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Granger TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

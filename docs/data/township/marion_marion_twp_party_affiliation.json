@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,628 (11%)",
-      "UNC – Lapsed R — 2,272 (10%)",
-      "Mixed – Active — 1,718 (7%)",
-      "Mixed – Lapsed — 1,492 (6%)",
-      "UNC – No Primary — 11,225 (48%)",
-      "UNC – Lapsed D — 2,557 (11%)",
-      "Pure D — 1,347 (6%)"
+      "Pure R — 2,602 (11%)",
+      "UNC – Lapsed R — 2,283 (10%)",
+      "Mixed – Active — 1,701 (7%)",
+      "Mixed – Lapsed — 903 (4%)",
+      "UNC – Non-partisan Ballot — 595 (3%)",
+      "UNC – No Primary — 11,459 (49%)",
+      "UNC – Lapsed D — 2,555 (11%)",
+      "Pure D — 1,325 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2628,
-          2272,
-          1718,
-          1492,
-          11225,
-          2557,
-          1347
+          2602,
+          2283,
+          1701,
+          903,
+          595,
+          11459,
+          2555,
+          1325
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARION TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

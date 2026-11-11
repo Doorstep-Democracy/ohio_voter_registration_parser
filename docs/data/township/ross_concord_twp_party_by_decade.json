@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          10,
-          60,
-          115,
-          125,
-          96,
-          102,
-          45,
-          18
+          5,
+          52,
+          106,
+          114,
+          73,
+          76,
+          31,
+          19
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          10,
-          20,
-          48,
-          77,
-          57,
-          47,
-          27,
-          5
+          9,
+          24,
+          55,
+          94,
+          81,
+          76,
+          43,
+          10
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          7,
-          42,
-          86,
-          73,
-          41,
+          5,
+          32,
+          75,
+          60,
           29,
-          7,
-          1
+          21,
+          3,
+          0
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          2,
-          12,
+          3,
+          17,
+          33,
           37,
-          39,
-          28,
-          34,
-          13,
-          6
+          26,
+          17,
+          5,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          12,
+          13,
+          13,
+          25,
+          11,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          3,
-          23,
-          57,
-          131,
-          186,
-          179,
-          292,
-          243
+          4,
+          20,
+          56,
+          128,
+          188,
+          185,
+          294,
+          261
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,12 +114,12 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          1,
-          23,
-          49,
-          62,
-          45,
-          45,
+          2,
+          21,
+          52,
+          61,
+          48,
+          44,
           18,
           1
         ],
@@ -114,13 +130,13 @@
         "label": "Pure D",
         "data": [
           0,
-          8,
-          21,
-          45,
+          7,
+          20,
+          40,
           24,
+          12,
           9,
-          5,
-          6,
+          11,
           5
         ],
         "backgroundColor": "#3b82f6",
@@ -128,8 +144,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CONCORD TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

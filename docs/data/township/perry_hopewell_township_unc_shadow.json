@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 162",
-      "Mixed – Active — 194",
-      "Mixed – Lapsed — 87",
-      "UNC – No Primary — 593",
-      "UNC – Lapsed D — 101"
+      "UNC – Lapsed R — 242",
+      "Mixed – Active — 186",
+      "Mixed – Lapsed — 52",
+      "UNC – Non-partisan Ballot — 43",
+      "UNC – No Primary — 576",
+      "UNC – Lapsed D — 110"
     ],
     "datasets": [
       {
         "data": [
-          162,
-          194,
-          87,
-          593,
-          101
+          242,
+          186,
+          52,
+          43,
+          576,
+          110
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HOPEWELL TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

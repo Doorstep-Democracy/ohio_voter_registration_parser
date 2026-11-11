@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,625 (18%)",
-      "UNC – Lapsed R — 1,580 (18%)",
-      "Mixed – Active — 589 (7%)",
-      "Mixed – Lapsed — 1,098 (12%)",
-      "UNC – No Primary — 2,887 (33%)",
-      "UNC – Lapsed D — 696 (8%)",
-      "Pure D — 323 (4%)"
+      "Pure R — 1,524 (17%)",
+      "UNC – Lapsed R — 1,706 (19%)",
+      "Mixed – Active — 615 (7%)",
+      "Mixed – Lapsed — 466 (5%)",
+      "UNC – Non-partisan Ballot — 618 (7%)",
+      "UNC – No Primary — 2,937 (33%)",
+      "UNC – Lapsed D — 664 (7%)",
+      "Pure D — 442 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1625,
-          1580,
-          589,
-          1098,
-          2887,
-          696,
-          323
+          1524,
+          1706,
+          615,
+          466,
+          618,
+          2937,
+          664,
+          442
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SUGARCREEK (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

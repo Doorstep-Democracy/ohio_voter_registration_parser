@@ -3,10 +3,11 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 0 (0%)",
-      "UNC – Lapsed R — 2 (100%)",
+      "Pure R — 1 (50%)",
+      "UNC – Lapsed R — 1 (50%)",
       "Mixed – Active — 0 (0%)",
       "Mixed – Lapsed — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
       "UNC – No Primary — 0 (0%)",
       "UNC – Lapsed D — 0 (0%)",
       "Pure D — 0 (0%)"
@@ -14,8 +15,9 @@
     "datasets": [
       {
         "data": [
+          1,
+          1,
           0,
-          2,
           0,
           0,
           0,
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "BELLEVUE (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

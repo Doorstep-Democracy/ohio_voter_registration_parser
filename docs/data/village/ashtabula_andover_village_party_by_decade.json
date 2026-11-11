@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          6,
+          0,
+          5,
           18,
-          25,
-          26,
-          20,
-          10,
-          2,
-          4
+          23,
+          24,
+          17,
+          6,
+          0,
+          5
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          4,
-          12,
-          13,
-          15,
-          14,
-          6,
-          4,
+          5,
+          10,
+          19,
+          20,
+          19,
+          7,
+          7,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -49,11 +49,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          3,
-          16,
-          20,
-          6,
+          0,
+          2,
+          17,
+          19,
+          5,
           7,
           2,
           1,
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          3,
+          2,
+          8,
           5,
-          7,
-          13,
-          10,
+          3,
+          2,
+          0,
+          0
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          3,
+          5,
+          3,
+          2,
           4,
-          6,
           3,
           1
         ],
-        "backgroundColor": "#a78bfa",
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          6,
-          8,
-          32,
-          28,
-          32,
+          5,
+          7,
+          31,
+          29,
+          33,
           40,
-          40,
-          64
+          39,
+          71
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,12 +113,12 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          4,
-          16,
-          12,
-          16,
-          7,
+          1,
+          3,
+          9,
+          11,
+          14,
+          6,
           6,
           1,
           0
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
+          0,
           1,
-          3,
+          18,
+          13,
           12,
-          11,
-          10,
-          1,
+          2,
           0,
           0,
-          1
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ANDOVER VILLAGE (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

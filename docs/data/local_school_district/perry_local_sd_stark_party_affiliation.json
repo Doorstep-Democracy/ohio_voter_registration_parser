@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,815 (14%)",
-      "UNC – Lapsed R — 1,910 (9%)",
-      "Mixed – Active — 2,316 (11%)",
-      "Mixed – Lapsed — 1,768 (9%)",
-      "UNC – No Primary — 6,941 (34%)",
-      "UNC – Lapsed D — 2,488 (12%)",
-      "Pure D — 2,224 (11%)"
+      "Pure R — 2,790 (14%)",
+      "UNC – Lapsed R — 1,898 (9%)",
+      "Mixed – Active — 2,292 (11%)",
+      "Mixed – Lapsed — 954 (5%)",
+      "UNC – Non-partisan Ballot — 797 (4%)",
+      "UNC – No Primary — 7,114 (35%)",
+      "UNC – Lapsed D — 2,475 (12%)",
+      "Pure D — 2,198 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          2815,
-          1910,
-          2316,
-          1768,
-          6941,
-          2488,
-          2224
+          2790,
+          1898,
+          2292,
+          954,
+          797,
+          7114,
+          2475,
+          2198
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Perry Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

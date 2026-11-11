@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          17,
-          59,
-          92,
-          91,
-          51,
-          37,
-          34,
-          14
+          0,
+          15,
+          54,
+          87,
+          90,
+          41,
+          33,
+          38,
+          17
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
+          0,
           11,
-          24,
-          43,
-          87,
-          55,
-          50,
-          56,
-          4
+          28,
+          48,
+          88,
+          70,
+          53,
+          58,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          10,
-          47,
-          47,
+          1,
+          9,
+          45,
           46,
-          16,
-          11,
-          2,
-          0
+          36,
+          22,
+          10,
+          4,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          7,
-          20,
-          29,
-          54,
-          56,
-          38,
-          23,
-          6
+          6,
+          14,
+          21,
+          35,
+          11,
+          16,
+          5,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          6,
+          11,
+          28,
+          36,
+          23,
+          14,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           2,
-          22,
-          63,
-          87,
-          177,
-          216,
-          358,
-          251
+          20,
+          64,
+          86,
+          172,
+          213,
+          361,
+          263
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +115,13 @@
         "data": [
           3,
           7,
-          33,
-          48,
-          54,
-          48,
+          34,
+          44,
+          49,
+          44,
           45,
-          36,
-          7
+          42,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          2,
-          16,
-          28,
-          9,
-          8,
-          10,
-          6,
-          6
+          0,
+          15,
+          32,
+          14,
+          14,
+          15,
+          11,
+          12
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "WEST JEFFERSON VILLAGE (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

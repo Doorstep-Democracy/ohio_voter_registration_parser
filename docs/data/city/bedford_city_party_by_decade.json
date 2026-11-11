@@ -18,7 +18,7 @@
         "label": "Pure R",
         "data": [
           0,
-          12,
+          11,
           35,
           81,
           66,
@@ -33,12 +33,12 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          9,
-          35,
-          58,
+          0,
+          8,
+          36,
+          57,
           72,
-          51,
+          50,
           48,
           38,
           2
@@ -50,11 +50,11 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          22,
-          75,
+          20,
+          74,
           120,
-          123,
-          40,
+          124,
+          41,
           25,
           12,
           0
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          17,
-          49,
-          106,
-          103,
-          88,
-          50,
-          32,
-          8
+          2,
+          14,
+          37,
+          76,
+          59,
+          36,
+          24,
+          10,
+          2
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          9,
+          27,
+          46,
+          53,
+          29,
+          22,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
-          16,
-          64,
-          208,
-          395,
-          473,
-          679,
+          0,
+          15,
+          62,
+          209,
+          411,
+          479,
+          685,
           1134,
-          788
+          861
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +113,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          10,
-          59,
-          153,
-          345,
-          399,
+          7,
+          55,
+          151,
+          338,
+          405,
           389,
-          386,
-          236,
+          393,
+          238,
           32
         ],
         "backgroundColor": "#93c5fd",
@@ -114,13 +130,13 @@
         "label": "Pure D",
         "data": [
           4,
-          42,
-          172,
-          399,
-          350,
-          210,
-          114,
-          119,
+          41,
+          167,
+          398,
+          349,
+          211,
+          113,
+          117,
           71
         ],
         "backgroundColor": "#3b82f6",
@@ -128,8 +144,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "BEDFORD CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

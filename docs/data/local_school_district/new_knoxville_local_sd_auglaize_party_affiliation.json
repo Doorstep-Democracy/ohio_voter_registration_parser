@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 488 (28%)",
-      "UNC – Lapsed R — 415 (24%)",
+      "Pure R — 482 (28%)",
+      "UNC – Lapsed R — 414 (24%)",
       "Mixed – Active — 84 (5%)",
-      "Mixed – Lapsed — 108 (6%)",
-      "UNC – No Primary — 568 (33%)",
-      "UNC – Lapsed D — 46 (3%)",
+      "Mixed – Lapsed — 63 (4%)",
+      "UNC – Non-partisan Ballot — 41 (2%)",
+      "UNC – No Primary — 582 (33%)",
+      "UNC – Lapsed D — 45 (3%)",
       "Pure D — 28 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          488,
-          415,
+          482,
+          414,
           84,
-          108,
-          568,
-          46,
+          63,
+          41,
+          582,
+          45,
           28
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "New Knoxville Local Sd (Auglaize Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

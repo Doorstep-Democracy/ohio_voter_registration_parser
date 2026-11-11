@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 285 (14%)",
-      "UNC – Lapsed R — 290 (14%)",
-      "Mixed – Active — 228 (11%)",
-      "Mixed – Lapsed — 167 (8%)",
-      "UNC – No Primary — 804 (38%)",
-      "UNC – Lapsed D — 241 (11%)",
-      "Pure D — 95 (5%)"
+      "Pure R — 282 (13%)",
+      "UNC – Lapsed R — 295 (14%)",
+      "Mixed – Active — 225 (11%)",
+      "Mixed – Lapsed — 113 (5%)",
+      "UNC – Non-partisan Ballot — 56 (3%)",
+      "UNC – No Primary — 823 (39%)",
+      "UNC – Lapsed D — 245 (11%)",
+      "Pure D — 93 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          285,
-          290,
-          228,
-          167,
-          804,
-          241,
-          95
+          282,
+          295,
+          225,
+          113,
+          56,
+          823,
+          245,
+          93
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Conotton Valley-Union Local Sd (Harrison Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

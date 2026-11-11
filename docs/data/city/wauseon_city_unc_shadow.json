@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 430",
-      "Mixed – Active — 407",
-      "Mixed – Lapsed — 367",
-      "UNC – No Primary — 1,845",
-      "UNC – Lapsed D — 292"
+      "UNC – Lapsed R — 795",
+      "Mixed – Active — 309",
+      "Mixed – Lapsed — 236",
+      "UNC – Non-partisan Ballot — 234",
+      "UNC – No Primary — 1,856",
+      "UNC – Lapsed D — 338"
     ],
     "datasets": [
       {
         "data": [
-          430,
-          407,
-          367,
-          1845,
-          292
+          795,
+          309,
+          236,
+          234,
+          1856,
+          338
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "WAUSEON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

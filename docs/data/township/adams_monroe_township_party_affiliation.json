@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 92 (23%)",
-      "UNC – Lapsed R — 45 (11%)",
-      "Mixed – Active — 52 (13%)",
-      "Mixed – Lapsed — 18 (4%)",
-      "UNC – No Primary — 142 (35%)",
-      "UNC – Lapsed D — 40 (10%)",
-      "Pure D — 15 (4%)"
+      "Pure R — 99 (25%)",
+      "UNC – Lapsed R — 41 (10%)",
+      "Mixed – Active — 55 (14%)",
+      "Mixed – Lapsed — 12 (3%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 132 (33%)",
+      "UNC – Lapsed D — 36 (9%)",
+      "Pure D — 19 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          92,
-          45,
-          52,
-          18,
-          142,
-          40,
-          15
+          99,
+          41,
+          55,
+          12,
+          5,
+          132,
+          36,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONROE TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

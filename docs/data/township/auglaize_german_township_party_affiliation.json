@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 715 (27%)",
-      "UNC – Lapsed R — 503 (19%)",
-      "Mixed – Active — 194 (7%)",
-      "Mixed – Lapsed — 236 (9%)",
-      "UNC – No Primary — 857 (32%)",
-      "UNC – Lapsed D — 137 (5%)",
-      "Pure D — 43 (2%)"
+      "Pure R — 636 (24%)",
+      "UNC – Lapsed R — 620 (23%)",
+      "Mixed – Active — 184 (7%)",
+      "Mixed – Lapsed — 98 (4%)",
+      "UNC – Non-partisan Ballot — 149 (6%)",
+      "UNC – No Primary — 823 (31%)",
+      "UNC – Lapsed D — 128 (5%)",
+      "Pure D — 49 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          715,
-          503,
-          194,
-          236,
-          857,
-          137,
-          43
+          636,
+          620,
+          184,
+          98,
+          149,
+          823,
+          128,
+          49
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GERMAN TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

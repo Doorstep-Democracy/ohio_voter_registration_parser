@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 773 (20%)",
-      "UNC – Lapsed R — 496 (13%)",
-      "Mixed – Active — 478 (12%)",
-      "Mixed – Lapsed — 304 (8%)",
-      "UNC – No Primary — 1,273 (32%)",
-      "UNC – Lapsed D — 406 (10%)",
-      "Pure D — 217 (5%)"
+      "Pure R — 763 (19%)",
+      "UNC – Lapsed R — 494 (12%)",
+      "Mixed – Active — 471 (12%)",
+      "Mixed – Lapsed — 198 (5%)",
+      "UNC – Non-partisan Ballot — 108 (3%)",
+      "UNC – No Primary — 1,302 (33%)",
+      "UNC – Lapsed D — 410 (10%)",
+      "Pure D — 212 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          773,
-          496,
-          478,
-          304,
-          1273,
-          406,
-          217
+          763,
+          494,
+          471,
+          198,
+          108,
+          1302,
+          410,
+          212
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "CALDWELL EX VILL SD (NOBLE)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Caldwell Ex Vill Sd (Noble Co.)",
+  "updated": "2026-11-11"
 }

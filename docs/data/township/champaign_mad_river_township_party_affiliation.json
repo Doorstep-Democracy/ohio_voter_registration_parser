@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 676 (33%)",
-      "UNC – Lapsed R — 198 (10%)",
-      "Mixed – Active — 227 (11%)",
-      "Mixed – Lapsed — 143 (7%)",
-      "UNC – No Primary — 596 (29%)",
-      "UNC – Lapsed D — 115 (6%)",
-      "Pure D — 96 (5%)"
+      "Pure R — 644 (31%)",
+      "UNC – Lapsed R — 226 (11%)",
+      "Mixed – Active — 226 (11%)",
+      "Mixed – Lapsed — 60 (3%)",
+      "UNC – Non-partisan Ballot — 84 (4%)",
+      "UNC – No Primary — 598 (29%)",
+      "UNC – Lapsed D — 105 (5%)",
+      "Pure D — 111 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          676,
-          198,
-          227,
-          143,
-          596,
-          115,
-          96
+          644,
+          226,
+          226,
+          60,
+          84,
+          598,
+          105,
+          111
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MAD RIVER TOWNSHIP (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,151",
-      "Mixed – Active — 1,091",
-      "Mixed – Lapsed — 933",
-      "UNC – No Primary — 2,516",
-      "UNC – Lapsed D — 919"
+      "UNC – Lapsed R — 1,227",
+      "Mixed – Active — 1,122",
+      "Mixed – Lapsed — 522",
+      "UNC – Non-partisan Ballot — 394",
+      "UNC – No Primary — 2,503",
+      "UNC – Lapsed D — 843"
     ],
     "datasets": [
       {
         "data": [
-          1151,
-          1091,
-          933,
-          2516,
-          919
+          1227,
+          1122,
+          522,
+          394,
+          2503,
+          843
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MOOREFIELD TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

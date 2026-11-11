@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
+          0,
           6,
-          53,
-          103,
-          135,
-          72,
-          43,
-          36,
-          18
+          45,
+          93,
+          129,
+          70,
+          44,
+          35,
+          19
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          2,
-          19,
-          34,
-          67,
-          40,
-          46,
-          29,
-          10
+          3,
+          26,
+          43,
+          81,
+          50,
+          51,
+          35,
+          12
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          12,
-          77,
-          113,
-          114,
-          39,
+          11,
+          79,
+          109,
+          121,
+          44,
           20,
-          3,
-          2
+          6,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          7,
-          34,
-          73,
-          89,
-          76,
-          86,
-          41,
-          13
+          0,
+          8,
+          19,
+          39,
+          39,
+          17,
+          17,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          0,
+          12,
+          37,
+          42,
+          52,
+          65,
+          35,
+          13
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          2,
+          1,
           6,
-          25,
-          91,
-          134,
-          159,
-          224,
-          347,
-          324
+          24,
+          84,
+          130,
+          158,
+          221,
+          345,
+          328
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          10,
-          36,
-          66,
-          96,
-          55,
-          61,
-          34,
-          4
+          14,
+          35,
+          53,
+          86,
+          53,
+          58,
+          31,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          11,
-          37,
-          58,
-          46,
           7,
-          16,
-          19,
-          6
+          35,
+          69,
+          53,
+          10,
+          24,
+          26,
+          18
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SHALERSVILLE TOWNSHP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

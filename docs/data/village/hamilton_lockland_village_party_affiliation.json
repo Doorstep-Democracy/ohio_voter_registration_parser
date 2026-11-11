@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 106 (5%)",
-      "UNC – Lapsed R — 131 (6%)",
-      "Mixed – Active — 56 (3%)",
-      "Mixed – Lapsed — 145 (7%)",
-      "UNC – No Primary — 1,286 (60%)",
-      "UNC – Lapsed D — 320 (15%)",
-      "Pure D — 94 (4%)"
+      "Pure R — 98 (4%)",
+      "UNC – Lapsed R — 144 (7%)",
+      "Mixed – Active — 60 (3%)",
+      "Mixed – Lapsed — 45 (2%)",
+      "UNC – Non-partisan Ballot — 96 (4%)",
+      "UNC – No Primary — 1,310 (60%)",
+      "UNC – Lapsed D — 305 (14%)",
+      "Pure D — 131 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          106,
-          131,
-          56,
-          145,
-          1286,
-          320,
-          94
+          98,
+          144,
+          60,
+          45,
+          96,
+          1310,
+          305,
+          131
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LOCKLAND VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

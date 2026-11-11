@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          37,
-          156,
-          294,
-          267,
-          194,
-          150,
-          86,
-          66
+          1,
+          32,
+          138,
+          283,
+          253,
+          188,
+          154,
+          88,
+          53
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          13,
-          42,
-          101,
-          157,
-          143,
+          15,
+          46,
+          104,
+          175,
+          145,
           190,
-          96,
-          15
+          91,
+          29
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          8,
-          44,
-          94,
+          10,
+          45,
+          92,
           73,
-          51,
-          44,
-          7,
-          0
+          54,
+          49,
+          9,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,33 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          6,
-          27,
-          41,
-          80,
-          107,
-          138,
-          46,
-          30
+          0,
+          5,
+          17,
+          31,
+          42,
+          30,
+          39,
+          5,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          4,
+          15,
+          35,
+          74,
+          96,
+          31,
+          24
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +100,12 @@
           0,
           8,
           23,
-          78,
-          174,
-          220,
-          337,
-          423,
-          424
+          67,
+          161,
+          216,
+          323,
+          402,
+          434
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          10,
-          22,
+          9,
+          18,
           30,
-          43,
-          62,
-          76,
-          39,
-          12
+          37,
+          61,
+          74,
+          38,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           1,
-          4,
-          15,
-          44,
-          13,
-          18,
-          14,
+          3,
           17,
-          5
+          42,
+          18,
+          21,
+          17,
+          30,
+          18
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

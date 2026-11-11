@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 24 (11%)",
-      "UNC – Lapsed R — 17 (8%)",
-      "Mixed – Active — 18 (9%)",
-      "Mixed – Lapsed — 16 (8%)",
-      "UNC – No Primary — 94 (45%)",
-      "UNC – Lapsed D — 36 (17%)",
-      "Pure D — 6 (3%)"
+      "Pure R — 19 (9%)",
+      "UNC – Lapsed R — 21 (10%)",
+      "Mixed – Active — 16 (8%)",
+      "Mixed – Lapsed — 9 (4%)",
+      "UNC – Non-partisan Ballot — 8 (4%)",
+      "UNC – No Primary — 93 (44%)",
+      "UNC – Lapsed D — 32 (15%)",
+      "Pure D — 11 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          24,
-          17,
-          18,
+          19,
+          21,
           16,
-          94,
-          36,
-          6
+          9,
+          8,
+          93,
+          32,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WASHINGTONVILLE VILLAGE (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

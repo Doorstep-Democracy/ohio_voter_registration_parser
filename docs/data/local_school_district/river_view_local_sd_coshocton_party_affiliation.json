@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,503 (27%)",
-      "UNC – Lapsed R — 1,212 (13%)",
-      "Mixed – Active — 1,174 (13%)",
-      "Mixed – Lapsed — 566 (6%)",
-      "UNC – No Primary — 2,872 (31%)",
-      "UNC – Lapsed D — 594 (6%)",
-      "Pure D — 356 (4%)"
+      "Pure R — 2,487 (27%)",
+      "UNC – Lapsed R — 1,221 (13%)",
+      "Mixed – Active — 1,168 (13%)",
+      "Mixed – Lapsed — 354 (4%)",
+      "UNC – Non-partisan Ballot — 210 (2%)",
+      "UNC – No Primary — 2,922 (31%)",
+      "UNC – Lapsed D — 593 (6%)",
+      "Pure D — 349 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          2503,
-          1212,
-          1174,
-          566,
-          2872,
-          594,
-          356
+          2487,
+          1221,
+          1168,
+          354,
+          210,
+          2922,
+          593,
+          349
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "River View Local Sd (Coshocton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

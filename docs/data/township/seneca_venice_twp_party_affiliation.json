@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 263 (23%)",
-      "UNC – Lapsed R — 147 (13%)",
-      "Mixed – Active — 103 (9%)",
-      "Mixed – Lapsed — 86 (7%)",
-      "UNC – No Primary — 445 (39%)",
+      "Pure R — 212 (19%)",
+      "UNC – Lapsed R — 205 (18%)",
+      "Mixed – Active — 83 (7%)",
+      "Mixed – Lapsed — 66 (6%)",
+      "UNC – Non-partisan Ballot — 33 (3%)",
+      "UNC – No Primary — 423 (37%)",
       "UNC – Lapsed D — 70 (6%)",
-      "Pure D — 38 (3%)"
+      "Pure D — 41 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          263,
-          147,
-          103,
-          86,
-          445,
+          212,
+          205,
+          83,
+          66,
+          33,
+          423,
           70,
-          38
+          41
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VENICE TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

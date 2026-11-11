@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 355",
-      "Mixed – Active — 233",
-      "Mixed – Lapsed — 158",
-      "UNC – No Primary — 1,214",
-      "UNC – Lapsed D — 243"
+      "UNC – Lapsed R — 312",
+      "Mixed – Active — 264",
+      "Mixed – Lapsed — 90",
+      "UNC – Non-partisan Ballot — 52",
+      "UNC – No Primary — 1,169",
+      "UNC – Lapsed D — 214"
     ],
     "datasets": [
       {
         "data": [
-          355,
-          233,
-          158,
-          1214,
-          243
+          312,
+          264,
+          90,
+          52,
+          1169,
+          214
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PIKE TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

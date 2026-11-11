@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          36,
-          130,
-          196,
-          208,
-          122,
-          83,
+          30,
+          124,
+          209,
+          220,
+          128,
+          82,
           54,
-          30
+          39
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          22,
-          75,
-          124,
-          157,
-          158,
-          124,
-          103,
-          18
+          23,
+          84,
+          115,
+          151,
+          156,
+          130,
+          113,
+          19
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          22,
-          95,
-          122,
-          98,
-          41,
-          26,
-          9,
-          0
+          1,
+          21,
+          84,
+          131,
+          114,
+          48,
+          30,
+          15,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          14,
-          59,
-          105,
-          119,
-          116,
-          75,
+          0,
+          12,
+          44,
+          48,
           37,
-          9
+          37,
+          15,
+          5,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          5,
+          23,
+          49,
+          63,
+          71,
+          57,
+          25,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          16,
-          56,
-          127,
-          191,
-          278,
-          416,
-          663,
-          585
+          15,
+          54,
+          117,
+          175,
+          269,
+          407,
+          646,
+          608
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          19,
+          2,
+          18,
+          57,
+          72,
+          70,
           64,
-          97,
-          79,
-          76,
-          77,
-          38,
-          5
+          72,
+          39,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          4,
-          16,
-          69,
-          70,
-          30,
-          22,
-          22,
+          3,
           17,
-          5
+          75,
+          94,
+          40,
+          36,
+          32,
+          22,
+          21
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SHELBY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

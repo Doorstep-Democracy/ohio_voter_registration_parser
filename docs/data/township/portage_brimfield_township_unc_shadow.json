@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 774",
-      "Mixed – Active — 853",
-      "Mixed – Lapsed — 974",
-      "UNC – No Primary — 2,969",
-      "UNC – Lapsed D — 1,238"
+      "UNC – Lapsed R — 844",
+      "Mixed – Active — 841",
+      "Mixed – Lapsed — 543",
+      "UNC – Non-partisan Ballot — 462",
+      "UNC – No Primary — 2,943",
+      "UNC – Lapsed D — 1,198"
     ],
     "datasets": [
       {
         "data": [
-          774,
-          853,
-          974,
-          2969,
-          1238
+          844,
+          841,
+          543,
+          462,
+          2943,
+          1198
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BRIMFIELD TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

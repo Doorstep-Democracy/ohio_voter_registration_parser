@@ -18,12 +18,12 @@
         "label": "Pure R",
         "data": [
           0,
-          13,
-          54,
-          105,
-          100,
-          67,
-          29,
+          10,
+          52,
+          99,
+          86,
+          65,
+          31,
           26,
           20
         ],
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          6,
+          7,
           19,
-          33,
-          44,
-          38,
-          31,
-          34,
-          1
+          40,
+          53,
+          41,
+          35,
+          35,
+          4
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          23,
-          99,
-          158,
-          140,
-          61,
-          33,
-          7,
-          3
+          1,
+          18,
+          91,
+          152,
+          137,
+          65,
+          27,
+          9,
+          4
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,33 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          9,
-          12,
-          42,
-          49,
-          40,
-          51,
-          18,
-          5
+          0,
+          11,
+          19,
+          31,
+          35,
+          24,
+          26,
+          7,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          6,
+          17,
+          21,
+          18,
+          29,
+          10,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +100,12 @@
           1,
           7,
           35,
-          96,
-          167,
-          189,
-          249,
-          336,
-          283
+          84,
+          169,
+          187,
+          243,
+          345,
+          299
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
-          20,
-          49,
-          99,
-          116,
-          110,
-          89,
-          62,
-          3
+          1,
+          21,
+          59,
+          105,
+          108,
+          106,
+          79,
+          61,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
-          19,
-          78,
-          168,
-          58,
-          38,
-          25,
+          0,
           17,
-          5
+          62,
+          165,
+          66,
+          44,
+          37,
+          24,
+          13
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HUBBARD TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

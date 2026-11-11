@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,320 (12%)",
-      "UNC – Lapsed R — 723 (7%)",
-      "Mixed – Active — 856 (8%)",
-      "Mixed – Lapsed — 654 (6%)",
-      "UNC – No Primary — 5,305 (49%)",
-      "UNC – Lapsed D — 1,379 (13%)",
-      "Pure D — 690 (6%)"
+      "Pure R — 1,288 (12%)",
+      "UNC – Lapsed R — 798 (7%)",
+      "Mixed – Active — 858 (8%)",
+      "Mixed – Lapsed — 350 (3%)",
+      "UNC – Non-partisan Ballot — 311 (3%)",
+      "UNC – No Primary — 5,332 (48%)",
+      "UNC – Lapsed D — 1,284 (12%)",
+      "Pure D — 855 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1320,
-          723,
-          856,
-          654,
-          5305,
-          1379,
-          690
+          1288,
+          798,
+          858,
+          350,
+          311,
+          5332,
+          1284,
+          855
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ALLIANCE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

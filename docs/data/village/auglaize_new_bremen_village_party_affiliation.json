@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 557 (25%)",
-      "UNC – Lapsed R — 412 (18%)",
-      "Mixed – Active — 168 (8%)",
-      "Mixed – Lapsed — 200 (9%)",
-      "UNC – No Primary — 728 (33%)",
-      "UNC – Lapsed D — 130 (6%)",
-      "Pure D — 33 (1%)"
+      "Pure R — 496 (22%)",
+      "UNC – Lapsed R — 501 (23%)",
+      "Mixed – Active — 156 (7%)",
+      "Mixed – Lapsed — 92 (4%)",
+      "UNC – Non-partisan Ballot — 124 (6%)",
+      "UNC – No Primary — 693 (31%)",
+      "UNC – Lapsed D — 115 (5%)",
+      "Pure D — 44 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          557,
-          412,
-          168,
-          200,
-          728,
-          130,
-          33
+          496,
+          501,
+          156,
+          92,
+          124,
+          693,
+          115,
+          44
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW BREMEN VILLAGE (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

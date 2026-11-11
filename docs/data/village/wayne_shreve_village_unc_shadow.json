@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 115",
-      "Mixed – Active — 48",
-      "Mixed – Lapsed — 71",
-      "UNC – No Primary — 397",
-      "UNC – Lapsed D — 66"
+      "UNC – Lapsed R — 91",
+      "Mixed – Active — 56",
+      "Mixed – Lapsed — 42",
+      "UNC – Non-partisan Ballot — 20",
+      "UNC – No Primary — 387",
+      "UNC – Lapsed D — 52"
     ],
     "datasets": [
       {
         "data": [
-          115,
-          48,
-          71,
-          397,
-          66
+          91,
+          56,
+          42,
+          20,
+          387,
+          52
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SHREVE VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

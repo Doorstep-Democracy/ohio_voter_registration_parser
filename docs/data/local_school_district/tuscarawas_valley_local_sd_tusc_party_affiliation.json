@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,024 (15%)",
-      "UNC – Lapsed R — 931 (14%)",
-      "Mixed – Active — 744 (11%)",
-      "Mixed – Lapsed — 636 (9%)",
-      "UNC – No Primary — 2,376 (34%)",
-      "UNC – Lapsed D — 734 (11%)",
-      "Pure D — 444 (6%)"
+      "Pure R — 1,011 (15%)",
+      "UNC – Lapsed R — 925 (13%)",
+      "Mixed – Active — 743 (11%)",
+      "Mixed – Lapsed — 368 (5%)",
+      "UNC – Non-partisan Ballot — 262 (4%)",
+      "UNC – No Primary — 2,423 (35%)",
+      "UNC – Lapsed D — 722 (10%)",
+      "Pure D — 436 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1024,
-          931,
-          744,
-          636,
-          2376,
-          734,
-          444
+          1011,
+          925,
+          743,
+          368,
+          262,
+          2423,
+          722,
+          436
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Tuscarawas Valley Local Sd (Tusc Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

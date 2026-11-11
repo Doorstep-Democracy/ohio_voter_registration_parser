@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 207 (19%)",
-      "UNC – Lapsed R — 132 (12%)",
-      "Mixed – Active — 61 (6%)",
-      "Mixed – Lapsed — 84 (8%)",
-      "UNC – No Primary — 478 (44%)",
-      "UNC – Lapsed D — 71 (7%)",
-      "Pure D — 45 (4%)"
+      "Pure R — 208 (19%)",
+      "UNC – Lapsed R — 144 (13%)",
+      "Mixed – Active — 74 (7%)",
+      "Mixed – Lapsed — 27 (3%)",
+      "UNC – Non-partisan Ballot — 49 (5%)",
+      "UNC – No Primary — 441 (41%)",
+      "UNC – Lapsed D — 66 (6%)",
+      "Pure D — 62 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          207,
-          132,
-          61,
-          84,
-          478,
-          71,
-          45
+          208,
+          144,
+          74,
+          27,
+          49,
+          441,
+          66,
+          62
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CENTERBURG VILLAGE (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

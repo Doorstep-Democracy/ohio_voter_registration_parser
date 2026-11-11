@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,15 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          4,
-          20,
-          50,
-          32,
+          3,
+          17,
+          43,
+          35,
+          11,
+          22,
           10,
-          28,
-          8,
-          2
+          1
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          3,
-          8,
-          21,
+          2,
+          11,
           28,
-          29,
-          20,
-          16,
-          1
+          27,
+          30,
+          31,
+          18,
+          2
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +46,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           6,
-          26,
-          57,
-          47,
-          33,
-          20,
-          4,
+          23,
+          58,
+          56,
+          38,
+          21,
+          3,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          5,
-          18,
-          28,
-          47,
-          46,
-          24,
-          11,
-          3
+          3,
+          15,
+          16,
+          21,
+          16,
+          14,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          6,
+          13,
+          21,
+          26,
+          14,
+          9,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
           1,
-          15,
-          44,
-          64,
-          101,
-          120,
-          165,
-          145
+          14,
+          42,
+          59,
+          95,
+          122,
+          155,
+          152
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +106,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          21,
-          33,
-          73,
-          50,
-          69,
-          61,
-          17,
+          15,
+          30,
+          58,
+          40,
+          60,
+          53,
+          20,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          4,
-          21,
-          47,
-          27,
-          6,
-          1,
-          0,
-          2
+          5,
+          19,
+          58,
+          37,
+          15,
+          5,
+          5,
+          4
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WARWICK TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

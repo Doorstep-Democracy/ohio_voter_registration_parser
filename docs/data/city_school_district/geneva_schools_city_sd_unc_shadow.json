@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 927",
-      "Mixed – Active — 1,036",
-      "Mixed – Lapsed — 927",
-      "UNC – No Primary — 3,854",
-      "UNC – Lapsed D — 1,284"
+      "UNC – Lapsed R — 1,045",
+      "Mixed – Active — 1,069",
+      "Mixed – Lapsed — 452",
+      "UNC – Non-partisan Ballot — 472",
+      "UNC – No Primary — 3,834",
+      "UNC – Lapsed D — 1,172"
     ],
     "datasets": [
       {
         "data": [
-          927,
-          1036,
-          927,
-          3854,
-          1284
+          1045,
+          1069,
+          452,
+          472,
+          3834,
+          1172
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "GENEVA SCHOOLS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

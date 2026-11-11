@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,947 (5%)",
-      "UNC – Lapsed R — 1,780 (5%)",
-      "Mixed – Active — 2,473 (6%)",
-      "Mixed – Lapsed — 1,576 (4%)",
-      "UNC – No Primary — 20,343 (53%)",
-      "UNC – Lapsed D — 5,651 (15%)",
-      "Pure D — 4,537 (12%)"
+      "Pure R — 1,881 (5%)",
+      "UNC – Lapsed R — 1,896 (5%)",
+      "Mixed – Active — 2,385 (6%)",
+      "Mixed – Lapsed — 1,088 (3%)",
+      "UNC – Non-partisan Ballot — 646 (2%)",
+      "UNC – No Primary — 21,521 (54%)",
+      "UNC – Lapsed D — 5,840 (15%)",
+      "Pure D — 4,703 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          1947,
-          1780,
-          2473,
-          1576,
-          20343,
-          5651,
-          4537
+          1881,
+          1896,
+          2385,
+          1088,
+          646,
+          21521,
+          5840,
+          4703
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "CANTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 217 (35%)",
-      "UNC – Lapsed R — 88 (14%)",
-      "Mixed – Active — 51 (8%)",
-      "Mixed – Lapsed — 38 (6%)",
-      "UNC – No Primary — 187 (30%)",
+      "Pure R — 219 (34%)",
+      "UNC – Lapsed R — 98 (15%)",
+      "Mixed – Active — 48 (7%)",
+      "Mixed – Lapsed — 22 (3%)",
+      "UNC – Non-partisan Ballot — 18 (3%)",
+      "UNC – No Primary — 192 (30%)",
       "UNC – Lapsed D — 34 (5%)",
       "Pure D — 12 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          217,
-          88,
-          51,
-          38,
-          187,
+          219,
+          98,
+          48,
+          22,
+          18,
+          192,
           34,
           12
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

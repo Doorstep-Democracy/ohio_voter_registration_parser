@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 14 (16%)",
-      "UNC – Lapsed R — 9 (10%)",
+      "Pure R — 12 (14%)",
+      "UNC – Lapsed R — 10 (11%)",
       "Mixed – Active — 4 (5%)",
-      "Mixed – Lapsed — 10 (12%)",
-      "UNC – No Primary — 35 (41%)",
-      "UNC – Lapsed D — 9 (10%)",
-      "Pure D — 5 (6%)"
+      "Mixed – Lapsed — 3 (3%)",
+      "UNC – Non-partisan Ballot — 7 (8%)",
+      "UNC – No Primary — 38 (43%)",
+      "UNC – Lapsed D — 13 (15%)",
+      "Pure D — 1 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          14,
-          9,
-          4,
+          12,
           10,
-          35,
-          9,
-          5
+          4,
+          3,
+          7,
+          38,
+          13,
+          1
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WEST MILLGROVE VILLAGE (Wood Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 759 (9%)",
-      "UNC – Lapsed R — 522 (6%)",
-      "Mixed – Active — 764 (9%)",
-      "Mixed – Lapsed — 436 (5%)",
-      "UNC – No Primary — 4,358 (52%)",
-      "UNC – Lapsed D — 1,151 (14%)",
-      "Pure D — 426 (5%)"
+      "Pure R — 725 (9%)",
+      "UNC – Lapsed R — 577 (7%)",
+      "Mixed – Active — 730 (9%)",
+      "Mixed – Lapsed — 385 (5%)",
+      "UNC – Non-partisan Ballot — 94 (1%)",
+      "UNC – No Primary — 4,381 (52%)",
+      "UNC – Lapsed D — 1,124 (13%)",
+      "Pure D — 466 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          759,
-          522,
-          764,
-          436,
-          4358,
-          1151,
-          426
+          725,
+          577,
+          730,
+          385,
+          94,
+          4381,
+          1124,
+          466
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "EAST LIVERPOOL CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

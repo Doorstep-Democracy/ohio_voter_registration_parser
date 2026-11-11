@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 380",
-      "Mixed – Active — 449",
-      "Mixed – Lapsed — 376",
-      "UNC – No Primary — 4,216",
-      "UNC – Lapsed D — 1,109"
+      "UNC – Lapsed R — 371",
+      "Mixed – Active — 448",
+      "Mixed – Lapsed — 219",
+      "UNC – Non-partisan Ballot — 151",
+      "UNC – No Primary — 4,327",
+      "UNC – Lapsed D — 1,091"
     ],
     "datasets": [
       {
         "data": [
-          380,
-          449,
-          376,
-          4216,
-          1109
+          371,
+          448,
+          219,
+          151,
+          4327,
+          1091
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Painesville City Local Sd (Lake Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

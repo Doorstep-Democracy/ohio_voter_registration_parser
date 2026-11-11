@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 575 (8%)",
-      "UNC – Lapsed R — 850 (12%)",
-      "Mixed – Active — 555 (8%)",
-      "Mixed – Lapsed — 720 (10%)",
-      "UNC – No Primary — 2,411 (34%)",
-      "UNC – Lapsed D — 1,252 (18%)",
-      "Pure D — 757 (11%)"
+      "Pure R — 441 (6%)",
+      "UNC – Lapsed R — 937 (13%)",
+      "Mixed – Active — 583 (8%)",
+      "Mixed – Lapsed — 469 (7%)",
+      "UNC – Non-partisan Ballot — 231 (3%)",
+      "UNC – No Primary — 2,343 (33%)",
+      "UNC – Lapsed D — 1,163 (16%)",
+      "Pure D — 1,035 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          575,
-          850,
-          555,
-          720,
-          2411,
-          1252,
-          757
+          441,
+          937,
+          583,
+          469,
+          231,
+          2343,
+          1163,
+          1035
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WYOMING CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }
