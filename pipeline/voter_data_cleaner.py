@@ -2949,9 +2949,10 @@ def export_json(
             'geography': 'county',
             'type':      'bar',
             'updated':   today,
-            'note':      (note + ' — share of the regular elections (primary and '
-                          "general, specials excluded) you've been eligible for "
-                          'since registering. Pew Research Center generational '
+            'note':      (note + ' — share of the regular primaries (specials '
+                          "excluded) you've been eligible for "
+                          'since registering in which you took a party ballot. '
+                          'Pew Research Center generational '
                           'boundaries. Generations with no eligible voters show as '
                           'a gap, not zero.'),
             'chartConfig': {
