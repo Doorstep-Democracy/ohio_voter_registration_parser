@@ -8,6 +8,7 @@ Requires polars; skips automatically if not installed.
 import logging
 import os
 import time
+from datetime import date
 from pathlib import Path
 
 import pytest
@@ -110,6 +111,16 @@ class TestCacheIsFresh:
 # ── _write_cache_atomic() ────────────────────────────────────────────────────
 
 class TestWriteCacheAtomic:
+    @pytest.fixture(autouse=True)
+    def _pin_snapshot_date(self, monkeypatch):
+        # voter_data_cleaner._write_cache_atomic stamps the provenance sidecar
+        # with get_snapshot_date(), which reads the staged snapshot under
+        # local/ and raises when none is staged (a fresh checkout / CI).
+        # These tests exercise the atomic write, not snapshot staging, so pin
+        # the date instead of depending on whatever is staged on this machine.
+        monkeypatch.setattr(_v2, "get_snapshot_date",
+                            lambda logger=None: date(2026, 10, 24))
+
     def test_creates_parquet_at_target_path(self, mod, tmp_path, monkeypatch):
         cache = tmp_path / "cache.parquet"
         monkeypatch.setattr(mod, "ENRICHED_CACHE", cache)
