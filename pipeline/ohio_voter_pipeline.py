@@ -797,7 +797,7 @@ def _narrative_phase(
 
     Args:
         levels:       List of LEVELS values to generate, e.g. ['county', 'precinct'].
-        v2:           The voter_data_cleaner_v2 module (already imported by _dispatch).
+        v2:           The pipeline.voter_data_cleaner module (already imported by _dispatch).
         county_names: Optional list of county names (proper-cased) to restrict
                       county/precinct enumeration.  None means all 88 counties.
         logger:       Logger instance.  Defaults to a pipeline logger if None.

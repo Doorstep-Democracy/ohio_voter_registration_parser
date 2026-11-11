@@ -111,7 +111,7 @@ log = logging.getLogger(__name__)
 def county_slug(name: str) -> str:
     """
     Produce the filesystem slug for a county name.
-    'Van Wert' -> 'van_wert'.  Matches voter_data_cleaner_v2 convention.
+    'Van Wert' -> 'van_wert'.  Matches the pipeline/voter_data_cleaner.py convention.
     """
     return name.lower().replace(' ', '_').replace("'", '')
 
@@ -181,7 +181,7 @@ def enumerate_precinct(filter_counties: list[str] | None = None) -> list[dict]:
     Walk each county's {county_slug}_precinct_index.json and yield one entry
     per precinct.
 
-    Precinct index format (written by voter_data_cleaner_v2):
+    Precinct index format (written by pipeline/voter_data_cleaner.py):
       { 'county': 'Hamilton',
         'precincts': [
           {'name': 'ADDYSTON A', 'safe_name': 'addyston_a', ...}, ...

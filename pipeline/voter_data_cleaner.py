@@ -1,6 +1,6 @@
 """
-voter_data_cleaner_v2.py
-════════════════════════
+voter_data_cleaner.py
+═════════════════════
 Voter data cleaner, analyser, and exporter for the Ohio Secretary of State
 statewide voter file format (SWVF_*.txt, 135 columns, ~7.9M rows across 4 files).
 
@@ -4754,7 +4754,7 @@ def run_county_analysis(
 # ══════════════════════════════════════════════════════════════════════════════
 if __name__ == '__main__':
     import sys as _sys
-    # Allow quick smoke-tests: python voter_data_cleaner_v2.py --test
+    # Allow quick smoke-tests: python pipeline/voter_data_cleaner.py --test
     if '--test' in _sys.argv:
         _logger = setup_logging('smoke_test')
         _logger.info('Smoke test: OHIO_COUNTIES has %d entries', len(OHIO_COUNTIES))
@@ -4765,8 +4765,8 @@ if __name__ == '__main__':
             f"County 57 should be Montgomery, got {OHIO_COUNTIES['57']}"
         assert 'strictly alphabetical by county name' in open(__file__, encoding='utf-8').read(), \
             'OHIO_COUNTIES comment block missing'
-        assert hasattr(__import__('voter_data_cleaner_v2'), 'run_county_subset'), \
+        assert callable(globals().get('run_county_subset')), \
             'run_county_subset not found'
         _logger.info('All smoke-test assertions passed.')
     else:
-        print('voter_data_cleaner_v2.py is a library — import it or run with --test')
+        print('voter_data_cleaner.py is a library — import it or run with --test')

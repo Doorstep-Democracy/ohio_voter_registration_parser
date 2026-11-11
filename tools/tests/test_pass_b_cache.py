@@ -2,7 +2,7 @@
 Pass B — Step 0 cache helper tests.
 
 Tests _cache_is_fresh() and _write_cache_atomic() behavior in both
-voter_data_cleaner_v2 and jurisdictional_groupings.
+pipeline/voter_data_cleaner.py and jurisdictional_groupings.
 Requires polars; skips automatically if not installed.
 """
 import logging

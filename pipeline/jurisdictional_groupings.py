@@ -18,7 +18,7 @@ Aggregates pre-classified, enriched voter data by jurisdiction and exports:
   - JSON (6 chart types per jurisdiction, schema identical to precinct/county)
   - Excel (multi-sheet workbook, one sheet per jurisdiction type)
 
-Reuses COHORT_SLICES, export logic, and chart formatting from voter_data_cleaner_v2.
+Reuses COHORT_SLICES, export logic, and chart formatting from pipeline/voter_data_cleaner.py.
 Single-threaded main process reads cached enriched parquet once; ThreadPoolExecutor
 distributes aggregation across 8 workers per jurisdiction type.
 
@@ -145,7 +145,7 @@ def _split_by_freshness(jurisdictions, sentinel_for, cutoff: float):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Cohort definitions (copied from voter_data_cleaner_v2)
+# Cohort definitions (copied from pipeline/voter_data_cleaner.py)
 # ─────────────────────────────────────────────────────────────────────────────
 
 COHORT_SLICES = [
