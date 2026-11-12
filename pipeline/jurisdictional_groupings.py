@@ -270,6 +270,26 @@ JURISDICTIONS = {
     # Part W1 and CLAUDE.md 4 (ward-uniqueness correction).
 }
 
+# Columns main() loads from the enriched cache: 19 of its ~160. Everything a
+# grouping chart or a place/ward resolver reads, and nothing else. No election-
+# history, name or address column is read here, and those are most of the
+# frame's memory (OPEN-001: this step peaked at 46-50 GB loading all of them,
+# then copied every column again in each partition_by).
+#
+# Every name below is read behind an `if col in df.columns` guard somewhere
+# downstream (aggregate_jurisdiction, voter_data_cleaner._place_per_precinct),
+# so a column that went missing would drop a chart or change a place resolution
+# without an error. load_enriched_voters raises KeyError instead.
+# When a grouping starts reading a new column, add it here in the same change;
+# tools/tests/test_groupings_projection.py fails until you do.
+_RESOLVER_COLUMNS = ('COUNTY_NUMBER', 'PRECINCT_NAME', 'WARD', 'RESIDENTIAL_CITY')
+_CHART_COLUMNS    = ('cohort_family', 'Decade', 'Generation')
+GROUPING_COLUMNS  = tuple(dict.fromkeys(
+    _RESOLVER_COLUMNS
+    + tuple(cfg['column'] for cfg in JURISDICTIONS.values())
+    + _CHART_COLUMNS
+))
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Aggregation and export functions
@@ -901,6 +921,16 @@ def main(
     """
     Main entry point: load enriched parquet, aggregate all jurisdictions, export.
 
+    Memory: only GROUPING_COLUMNS are loaded (voter_data_cleaner.
+    load_enriched_voters, cache-first). The per-type partition_by below still
+    copies the frame once per jurisdiction type, but a 19-column frame, not
+    the full one.
+
+    Raises FileNotFoundError when the enriched cache is stale and there is no
+    raw parquet cache to rebuild it from, and KeyError when the cache lacks a
+    GROUPING_COLUMNS name. (The missing-raw-cache case used to log and return
+    False, which the pipeline dispatch ignored.)
+
     Args:
         jurisdictions_to_process: List of jurisdiction type keys (e.g., ['cities', 'townships']).
                                  If None, processes all.
@@ -927,29 +957,14 @@ def main(
     logger.info(f'Processing {len(jurisdictions_to_process)} jurisdiction types: {jurisdictions_to_process}')
     logger.info(f'Output format: {output_format}')
 
-    # Load enriched voter data -- use persistent cache when fresh
+    # Load the enriched frame through the single cache-first loader, projected
+    # to the columns this module reads.
     import voter_data_cleaner as _v2
-    if _v2._cache_is_fresh(logger):
-        logger.info('Loading enriched voter data from persistent cache...')
-        df = pl.read_parquet(ENRICHED_CACHE)
-        logger.info(f'Loaded from cache: {df.height:,} rows x {df.width} columns')
-    else:
-        if not PARQUET_DIR.exists():
-            logger.error(f'Parquet cache not found at {PARQUET_DIR}')
-            logger.error('Run ohio_voter_pipeline.py option 1 to generate it.')
-            return False
-        logger.info('Loading voter parquet cache...')
-        df = pl.read_parquet(parquet_glob(PARQUET_DIR), hive_partitioning=True)
-        logger.info(f'Loaded {df.height:,} rows x {df.width} columns')
-        logger.info('Enriching voter data (cohort classification + demographics)...')
-        df = _v2.clean_voter_data(df, logger)
-        logger.info(f'Enriched: {df.height:,} rows x {df.width} columns')
-        logger.info('Writing enriched voter data to persistent cache...')
-        _v2._write_cache_atomic(df, logger)
+    df = _v2.load_enriched_voters(logger, columns=list(GROUPING_COLUMNS))
 
-    # Get election columns (any column matching PRIMARY-*, GENERAL-*, SPECIAL-* pattern)
-    election_cols = [col for col in df.columns if col.split('-')[0] in ['PRIMARY', 'GENERAL', 'SPECIAL']]
-    logger.info(f'Found {len(election_cols)} election history columns')
+    # aggregate_jurisdiction and build_ward_entities take election_cols for call
+    # compatibility but read no election column, so none is loaded.
+    election_cols: list[str] = []
 
     # Resume cutoff: an existing output file is reused only if it is newer than
     # both the enriched cache it was aggregated from and this module's source
