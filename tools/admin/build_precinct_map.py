@@ -42,15 +42,18 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 from pipeline.cohort_lean import cohort_sides  # noqa: E402
+# Output locations come from the single resolver, so this builder follows
+# ELECTION_DATA_OUT when the pipeline runs it as a subprocess.
+from pipeline.paths import DATA_DIR as DOCS_DATA  # noqa: E402
+from pipeline.paths import DOCS_DIR  # noqa: E402
 
 GEO_DIR = REPO_ROOT / "local" / "source" / "Geo"
 GDB_PATH = GEO_DIR / "57_Montgomery" / "GeoDataBase Files" / "MC_ELECTIONS.gdb"
 GDB_LAYER = "precinct_2022_polygon"
 GDB_VINTAGE = "2022 precinct plan (Montgomery County BoE)"
 
-DOCS_DATA = REPO_ROOT / "docs" / "data"
 PRECINCT_INDEX = DOCS_DATA / "montgomery_precinct_index.json"
-MANIFEST_PATH = REPO_ROOT / "docs" / "manifest.json"
+MANIFEST_PATH = DOCS_DIR / "manifest.json"
 OUT_DIR = DOCS_DATA / "state_map"
 OUT_PATH = OUT_DIR / "precincts_montgomery.geojson"
 PROV_PATH = OUT_DIR / "provenance.json"

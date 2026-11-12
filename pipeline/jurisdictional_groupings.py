@@ -56,25 +56,31 @@ except ImportError:
 # Paths and constants (reuse from pipeline.voter_data_cleaner)
 # ─────────────────────────────────────────────────────────────────────────────
 
-BASE_DIR    = Path(__file__).resolve().parent.parent
-DOCS_DIR    = BASE_DIR / "docs"
-DATA_DIR    = DOCS_DIR / "data"
-LOGS_DIR    = BASE_DIR / "local" / "logs"  # PATCH: Rerouted to local/ workspace
-PARQUET_DIR          = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
-PARQUET_ENRICHED_DIR = BASE_DIR / "local" / "source" / "parquet_enriched"  # PATCH: Rerouted to local/ workspace
-PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
-ENRICHED_CACHE       = PARQUET_ENRICHED_DIR / "enriched_voters.parquet"
-CLASSIFIER_SRC       = BASE_DIR / "pipeline" / "voter_data_cleaner.py"
-OUTPUT_DIR  = BASE_DIR / "local" / "output"  # PATCH: Rerouted to local/ workspace
-
-LOGS_DIR.mkdir(exist_ok=True)
-OUTPUT_DIR.mkdir(exist_ok=True)
-
 # Ensure pipeline/ is on sys.path so sibling modules can be imported as bare names
 # whether this script is run directly or imported as part of the pipeline package.
 _pipeline_dir = str(Path(__file__).resolve().parent)
 if _pipeline_dir not in sys.path:
     sys.path.insert(0, _pipeline_dir)
+
+# Every managed location comes from the single resolver, pipeline/paths.py
+# (CLAUDE.md section 5). The names stay module globals here so callers and
+# tests that read or patch e.g. `jurisdictional_groupings.ENRICHED_CACHE` keep working.
+from paths import (  # noqa: E402,F401
+    BASE_DIR,
+    DATA_DIR,
+    DOCS_DIR,
+    ENRICHED_CACHE,
+    LOGS_DIR,
+    OUTPUT_DIR,
+    PARQUET_DIR,
+    PARQUET_ENRICHED_DIR,
+    parquet_glob,
+)
+PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
+CLASSIFIER_SRC       = BASE_DIR / "pipeline" / "voter_data_cleaner.py"
+
+LOGS_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Logging setup
@@ -939,7 +945,7 @@ def main(
             logger.error('Run ohio_voter_pipeline.py option 1 to generate it.')
             return False
         logger.info('Loading voter parquet cache...')
-        df = pl.read_parquet(str(PARQUET_DIR) + '/**/*.parquet', hive_partitioning=True)
+        df = pl.read_parquet(parquet_glob(PARQUET_DIR), hive_partitioning=True)
         logger.info(f'Loaded {df.height:,} rows x {df.width} columns')
         logger.info('Enriching voter data (cohort classification + demographics)...')
         df = _v2.clean_voter_data(df, logger)

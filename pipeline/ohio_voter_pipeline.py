@@ -27,15 +27,15 @@ from bs4 import BeautifulSoup
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-BASE_DIR   = Path(__file__).resolve().parent.parent
-
 # Ensure pipeline/ is on sys.path (bare sibling imports) and project root
 # is on sys.path (from tools.narrative import ...) regardless of invocation style.
-for _p in [str(Path(__file__).resolve().parent), str(BASE_DIR)]:
+_PIPELINE_DIR = Path(__file__).resolve().parent
+for _p in [str(_PIPELINE_DIR), str(_PIPELINE_DIR.parent)]:
     if _p not in sys.path:
         sys.path.insert(0, _p)
-SOURCE_DIR = BASE_DIR / "local" / "source"  # PATCH: Rerouted to local/ workspace
-TXT_DIR    = SOURCE_DIR / "State Voter Files"
+
+# Every managed location comes from the single resolver (CLAUDE.md section 5).
+from paths import BASE_DIR, DATA_DIR, PARQUET_DIR, SOURCE_DIR, TXT_DIR  # noqa: E402,F401
 MANIFEST   = BASE_DIR / "download_manifest.json"
 
 # Single resolver for snapshot discovery/staging (CLAUDE.md section 5).
@@ -83,7 +83,7 @@ def _build_city_county_map(logger=None):
     Called at the end of every branch that rebuilds precinct indexes.
     """
     import json
-    data_dir = BASE_DIR / 'docs' / 'data'
+    data_dir = DATA_DIR
     city_counties: dict[str, set[str]] = {}
     city_identities: dict[str, dict[str, set[str]]] = {}
     
@@ -376,7 +376,7 @@ def prompt_next_step(txt_files: list[Path]) -> tuple[str, bool, list[str] | None
     county_numbers is None for full-Ohio runs, a list of strings for targeted runs.
     """
     total_rows_est = sum(f.stat().st_size for f in txt_files) // 140
-    parquet_dir    = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
+    parquet_dir    = PARQUET_DIR
     parquet_ready  = parquet_dir.exists() and any(parquet_dir.iterdir())
     cache_label    = "  ✓ Parquet cache ready (fast load)" if parquet_ready else "  ○ No Parquet cache yet (will build on first run)"
 

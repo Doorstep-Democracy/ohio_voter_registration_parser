@@ -27,17 +27,20 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 from pipeline.cohort_lean import cohort_sides  # noqa: E402
+# Output and cache locations come from the single resolver, so this builder
+# follows ELECTION_DATA_OUT when the pipeline runs it as a subprocess.
+from pipeline.paths import DATA_DIR as DOCS_DATA  # noqa: E402
+from pipeline.paths import DOCS_DIR, PARQUET_DIR  # noqa: E402
+from pipeline.paths import ENRICHED_CACHE as ENRICHED_PARQUET  # noqa: E402
 
 GEO_DIR = REPO_ROOT / "local" / "source" / "Geo"
 COUNTIES_GPKG = GEO_DIR / "ohio_census_consolidated.gpkg"
 SOS_DIR = GEO_DIR / "SOS District Maps"
 
-DOCS_DATA = REPO_ROOT / "docs" / "data"
 OUT_DIR = DOCS_DATA / "state_map"
-MANIFEST_PATH = REPO_ROOT / "docs" / "manifest.json"
+MANIFEST_PATH = DOCS_DIR / "manifest.json"
 
-ENRICHED_PARQUET = REPO_ROOT / "local" / "source" / "parquet_enriched" / "enriched_voters.parquet"
-RAW_PARQUET = REPO_ROOT / "local" / "source" / "parquet" / "raw_voters.parquet"
+RAW_PARQUET = PARQUET_DIR / "raw_voters.parquet"
 
 MAX_TARGET_KB = 300
 HARD_FAIL_KB = 600

@@ -87,16 +87,25 @@ import xlsxwriter                    # noqa: F401 — imported for engine availa
 # Paths and constants
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Derive BASE_DIR from the location of this script so the repo works
-# regardless of where it is cloned or what OS it runs on.
-BASE_DIR     = Path(__file__).resolve().parent.parent
-DOCS_DIR     = BASE_DIR / "docs"
-DATA_DIR     = DOCS_DIR / "data"
-LOGS_DIR     = BASE_DIR / "local" / "logs"  # PATCH: Rerouted to local/ workspace
-PARQUET_DIR          = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
-PARQUET_ENRICHED_DIR = BASE_DIR / "local" / "source" / "parquet_enriched"  # PATCH: Rerouted to local/ workspace
+# Every managed location comes from the single resolver, pipeline/paths.py
+# (CLAUDE.md section 5). The names stay module globals here so callers and
+# tests that read or patch e.g. `voter_data_cleaner.ENRICHED_CACHE` keep working.
+# pipeline/ goes on sys.path so the bare sibling import resolves whether this
+# module is loaded as `voter_data_cleaner` or `pipeline.voter_data_cleaner`.
+_PIPELINE_DIR = str(Path(__file__).resolve().parent)
+if _PIPELINE_DIR not in sys.path:
+    sys.path.insert(0, _PIPELINE_DIR)
+from paths import (  # noqa: E402,F401
+    BASE_DIR,
+    DATA_DIR,
+    DOCS_DIR,
+    ENRICHED_CACHE,
+    LOGS_DIR,
+    PARQUET_DIR,
+    PARQUET_ENRICHED_DIR,
+    parquet_glob,
+)
 PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
-ENRICHED_CACHE       = PARQUET_ENRICHED_DIR / "enriched_voters.parquet"
 CLASSIFIER_SRC       = Path(__file__)
 
 # Voter frequency thresholds (fraction of eligible elections in which voter participated).
@@ -835,12 +844,12 @@ def load_voter_files_parquet(
         if not part.exists():
             raise FileNotFoundError(f'No Parquet partition for county {cnum}.')
         log.info('Loading Parquet partition: %s', part.name)
-        df = pl.read_parquet(str(part) + '/**/*.parquet')
+        df = pl.read_parquet(parquet_glob(part))
         if 'COUNTY_NUMBER' not in df.columns:
             df = df.with_columns(pl.lit(cnum).alias('COUNTY_NUMBER'))
     else:
         log.info('Loading full Parquet cache: %s', pdir)
-        df = pl.read_parquet(str(pdir) + '/**/*.parquet', hive_partitioning=True)
+        df = pl.read_parquet(parquet_glob(pdir), hive_partitioning=True)
 
     # PyArrow may infer COUNTY_NUMBER as integer from the Hive partition key.
     # Cast to String so all downstream str.strip_chars() calls work correctly.

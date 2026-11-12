@@ -12,9 +12,9 @@
       ],
       "sites": 10,
       "partition_sites": 1,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-12 (DOO-179 path slice): imports pipeline/paths.py; no managed path or partition name is built here. Names stay module globals because tests patch them."
     },
     {
       "path": "pipeline/ohio_voter_pipeline.py",
@@ -25,9 +25,9 @@
       ],
       "sites": 4,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-12 (DOO-179 path slice): imports pipeline/paths.py; no managed path or partition name is built here. CRLF file; the inline docs/data and parquet paths now use DATA_DIR and PARQUET_DIR."
     },
     {
       "path": "pipeline/snapshot_store.py",
@@ -38,9 +38,9 @@
       ],
       "sites": 4,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-12 (DOO-179 path slice): imports pipeline/paths.py; no managed path or partition name is built here. STAGING_DIR is an alias of paths.TXT_DIR."
     },
     {
       "path": "pipeline/voter_data_cleaner.py",
@@ -51,9 +51,9 @@
       ],
       "sites": 7,
       "partition_sites": 4,
-      "bucket": "",
+      "bucket": "needs-judgment",
       "status": "pending",
-      "notes": ""
+      "notes": "Path constants converted 2026-11-12 (DOO-179 path slice). Still pending: 4 hand-built COUNTY_NUMBER= partition names and the range(1, 89) literal, which belong to DOO-92."
     },
     {
       "path": "serve/roster_api.py",
@@ -86,9 +86,9 @@
       ],
       "sites": 7,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-12 (DOO-179 path slice): imports pipeline/paths.py; no managed path or partition name is built here. Run by the pipeline as a subprocess, so it must follow ELECTION_DATA_OUT."
     },
     {
       "path": "tools/admin/build_state_map.py",
@@ -99,9 +99,9 @@
       ],
       "sites": 9,
       "partition_sites": 0,
-      "bucket": "",
+      "bucket": "safe-mechanical",
       "status": "pending",
-      "notes": ""
+      "notes": "Output paths converted 2026-11-12 (DOO-179 path slice), so it follows ELECTION_DATA_OUT. Still pending: RAW_PARQUET = PARQUET_DIR / 'raw_voters.parquet', a fallback input that is not part of the Hive-partitioned layout."
     },
     {
       "path": "tools/admin/captain_match_report.py",
@@ -302,9 +302,9 @@
       ],
       "sites": 3,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-12 (DOO-179 path slice): imports pipeline/paths.py; no managed path or partition name is built here. Imported by the pipeline, so it must follow ELECTION_DATA_OUT."
     },
     {
       "path": "tools/narrative/llm_enricher.py",

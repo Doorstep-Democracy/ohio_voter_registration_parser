@@ -5,10 +5,10 @@ import pytest
 from pipeline import ohio_voter_pipeline
 
 def test_build_city_county_map_collisions(tmp_path, monkeypatch):
-    # Mock BASE_DIR to tmp_path
-    monkeypatch.setattr(ohio_voter_pipeline, "BASE_DIR", tmp_path)
+    # Point the module's DATA_DIR (imported from pipeline/paths.py) at tmp_path
     data_dir = tmp_path / "docs" / "data"
     data_dir.mkdir(parents=True)
+    monkeypatch.setattr(ohio_voter_pipeline, "DATA_DIR", data_dir)
     
     # 1. Synthetic same-class collision with NO shared identity -> warned/excluded
     c1_index = {
