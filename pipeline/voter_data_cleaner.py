@@ -1170,7 +1170,7 @@ def clean_voter_data(df: pl.DataFrame, logger: logging.Logger) -> pl.DataFrame:
     df = df.with_columns([
         pl.col('PARTY_AFFILIATION')
           .str.strip_chars()
-          .replace(PARTY_MAP, default='Other')
+          .replace_strict(PARTY_MAP, default='Other')
           .alias('PARTY_LABEL'),
     ])
 
@@ -1396,7 +1396,7 @@ def build_county_summary(df: pl.DataFrame) -> pl.DataFrame:
         .with_columns([
             # Add human-readable county name from our lookup dict
             pl.col('COUNTY_NUMBER')
-              .replace(OHIO_COUNTIES, default='Unknown')
+              .replace_strict(OHIO_COUNTIES, default='Unknown')
               .alias('County Name'),
         ])
         .sort('Total Voters', descending=True)
@@ -1566,7 +1566,13 @@ def build_election_participation(
             (pl.col('Voter Count') / len(df) * 100)
               .round(2)
               .cast(pl.Utf8)
-              .str.concat('%')
+              # KNOWN DEFECT, kept on purpose: str.join is an aggregation. It joins the
+              # whole column into one '%'-separated string and broadcasts it, so every
+              # row of this sheet's Percent column holds the same long string. The
+              # intent was a per-row '12.5%'. This line only replaces the deprecated
+              # spelling (str.concat) with the identical current one; the output is
+              # unchanged. Fixing the value is a separate, output-changing decision.
+              .str.join('%')
               .alias('Percent')
         ])
         .rename({'Voter_Frequency': 'Frequency Class'})

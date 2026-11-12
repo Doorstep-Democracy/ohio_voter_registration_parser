@@ -129,7 +129,7 @@ def build_precinct_summary(
         ])
         .with_columns(
             pl.col('COUNTY_NUMBER')
-              .replace(OHIO_COUNTIES, default='Unknown')
+              .replace_strict(OHIO_COUNTIES, default='Unknown')
               .alias('county_name')
         )
         .rename({
