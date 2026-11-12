@@ -4603,20 +4603,34 @@ def load_enriched_voters(
     return df
 
 
+def _county_slice(df: pl.DataFrame, county_num: str) -> pl.DataFrame:
+    """Rows of `df` for one county, in frame order. `county_num` is the stripped,
+    zero-padded COUNTY_NUMBER value. The single spelling of the county filter."""
+    return df.filter(pl.col('COUNTY_NUMBER').str.strip_chars() == county_num)
+
+
 def _export_county_worker(args: tuple) -> tuple:
     """
     Thread worker for ThreadPoolExecutor.
-    Receives (county_num, county_df, election_cols, include_precinct_charts).
+    Receives (county_num, statewide_df, election_cols, include_precinct_charts).
 
-    Threads share the main process address space — no IPC serialisation, no
-    pipe handles, no WinError 1450.  county_df is a pre-sliced, pre-enriched
-    Polars DataFrame (cohort columns already attached by clean_voter_data).
+    Memory: the worker filters its own county out of the shared statewide frame
+    and drops the slice when it returns, so the slices resident at any moment
+    are those of the running workers (at most max_workers), never all 88.
+    Slicing every county before the pool started held a second full copy of
+    the frame for the whole export stage (OPEN-001: 44.3 GB RSS with 8 threads).
+
+    Threads share the main process address space: no IPC serialisation, no
+    pipe handles, no WinError 1450. The statewide frame is pre-enriched (cohort
+    columns attached by clean_voter_data) and is only read here; Polars frames
+    are reference-counted and safe to read from several threads.
     orjson releases the GIL during serialisation so threads overlap on I/O.
     """
-    county_num, county_df, election_cols, include_precinct_charts = args
+    county_num, statewide_df, election_cols, include_precinct_charts = args
     county_name = OHIO_COUNTIES.get(county_num.strip(), f'County {county_num}')
     logger = logging.getLogger('voter_analysis')
     try:
+        county_df = _county_slice(statewide_df, county_num)
         primary_cols = identify_primary_cols(election_cols)
 
         # Fast path: build unc_classified from pre-enriched frame (no classifier re-run).
@@ -4672,15 +4686,14 @@ def run_ohio_analysis(
 
         # ── 3. Parallel county JSON export ────────────────────────────────────
         counties_present = sorted(df['COUNTY_NUMBER'].str.strip_chars().unique().to_list())
-        logger.info('Preparing %d county slices ...', len(counties_present))
+        logger.info('Exporting %d counties; each worker slices its own county ...',
+                    len(counties_present))
 
-        # Build per-county task list.  Threads share address space — no IPC
-        # serialisation needed.  Pass the df slice directly; Polars DataFrames
-        # are reference-counted and safe to read from multiple threads.
-        tasks = []
-        for county_num in counties_present:
-            county_df = df.filter(pl.col('COUNTY_NUMBER').str.strip_chars() == county_num)
-            tasks.append((county_num, county_df, election_cols, include_precinct_charts))
+        # One task per county. Every task carries the same statewide frame by
+        # reference; the worker takes its county slice when it starts and drops
+        # it when it returns (see _export_county_worker).
+        tasks = [(county_num, df, election_cols, include_precinct_charts)
+                 for county_num in counties_present]
 
         # ThreadPoolExecutor: no IPC pipes, no WinError 1450.
         # orjson releases the GIL during serialisation so threads overlap on I/O.
@@ -4713,9 +4726,8 @@ def run_ohio_analysis(
         # export_json over the whole frame: the same resolver as the counties,
         # so the statewide charts carry the same 9 cohort labels. The landing
         # page's headline count and the dashboard's "Ohio" view read these.
-        # The 88 county slices are released first: together they are a second
-        # copy of the dataset, and this pass needs the headroom. Not added to
-        # `processed`: the manifest's county lists name counties only.
+        # No county slice is alive by now: each worker dropped its own on return.
+        # Not added to `processed`: the manifest's county lists name counties only.
         del tasks, futures
         with _timer(logger, 'statewide JSON export'):
             export_json(STATEWIDE_NAME, df, election_cols, logger,
