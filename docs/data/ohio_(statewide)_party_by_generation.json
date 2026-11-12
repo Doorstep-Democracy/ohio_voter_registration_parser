@@ -3,8 +3,8 @@
   "county": "Ohio (Statewide)",
   "geography": "county",
   "type": "bar",
-  "updated": "2026-05-02",
-  "note": "Analysis run 2026-05-02 \u2014 Ohio Secretary of State SWVF voter file \u2014 Pew Research Center generational boundaries",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
       "Silent/Greatest",
@@ -15,46 +15,121 @@
     ],
     "datasets": [
       {
-        "label": "REP",
+        "label": "Pure R",
         "data": [
-          157017,
-          689398,
-          364147,
-          172814,
-          52827
+          92171,
+          441180,
+          248282,
+          135067,
+          55489
         ],
         "backgroundColor": "#ef4444",
-        "borderRadius": 2
+        "borderRadius": 2,
+        "stack": "r_pure"
       },
       {
-        "label": "DEM",
+        "label": "UNC – Lapsed R",
         "data": [
-          92337,
-          369969,
-          159982,
-          120888,
-          37310
+          60626,
+          243373,
+          264144,
+          206040,
+          43918
         ],
-        "backgroundColor": "#3b82f6",
-        "borderRadius": 2
+        "backgroundColor": "#fca5a5",
+        "borderRadius": 2,
+        "stack": "unc_r"
       },
       {
-        "label": "UNC",
+        "label": "Mixed – Active",
         "data": [
-          206502,
-          1104156,
-          1403184,
-          1788574,
-          1173448
+          68144,
+          329387,
+          145873,
+          59046,
+          5091
+        ],
+        "backgroundColor": "#f59e0b",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          36362,
+          127045,
+          99225,
+          43155,
+          2325
+        ],
+        "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          565,
+          4374,
+          4276,
+          4653,
+          1473
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          9947,
+          64372,
+          91441,
+          82374,
+          30228
+        ],
+        "backgroundColor": "#c4b5cd",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          41691,
+          361282,
+          642491,
+          1180021,
+          1115005
         ],
         "backgroundColor": "#9ca3af",
-        "borderRadius": 2
+        "borderRadius": 2,
+        "stack": "unc_mid"
       },
       {
-        "label": "Other",
-        "data": [],
-        "backgroundColor": "#f59e0b",
-        "borderRadius": 2
+        "label": "UNC – Lapsed D",
+        "data": [
+          63206,
+          276601,
+          284450,
+          258423,
+          50258
+        ],
+        "backgroundColor": "#93c5fd",
+        "borderRadius": 2,
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          62784,
+          306215,
+          159248,
+          145246,
+          67256
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 2,
+        "stack": "d_pure"
       }
     ]
   }
