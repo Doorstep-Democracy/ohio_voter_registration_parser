@@ -30,6 +30,7 @@ Output:
 import concurrent.futures
 import json
 import logging
+import os
 import re
 import sys
 import time
@@ -932,6 +933,8 @@ def main(
     copies the frame once per jurisdiction type, but a 19-column frame, not
     the full one.
 
+    Raises memory_budget.MemoryBudgetError, before anything is loaded, when the
+    estimated peak does not fit the memory budget and the memory mode is auto.
     Raises FileNotFoundError when the enriched cache is stale and there is no
     raw parquet cache to rebuild it from, and KeyError when the cache lacks a
     GROUPING_COLUMNS name. (The missing-raw-cache case used to log and return
@@ -965,8 +968,12 @@ def main(
 
     # Load the enriched frame through the single cache-first loader, projected
     # to the columns this module reads.
+    # The memory preflight runs inside the loader, before anything is loaded.
     import voter_data_cleaner as _v2
-    df = _v2.load_enriched_voters(logger, columns=list(GROUPING_COLUMNS))
+    df = _v2.load_enriched_voters(
+        logger, columns=list(GROUPING_COLUMNS),
+        before_load=lambda fresh: _v2._preflight_groupings(logger, fresh, list(GROUPING_COLUMNS)),
+    )
 
     # aggregate_jurisdiction and build_ward_entities take election_cols for call
     # compatibility but read no election column, so none is loaded.
@@ -985,7 +992,11 @@ def main(
     # Aggregate each jurisdiction type
     jurisdiction_results = {}
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+    # Worker threads: --max-workers when given, else the logical CPU count capped at 8.
+    n_workers = _v2.memory_budget.choose_workers(
+        os.cpu_count() or 1, _v2.memory_budget.active().max_workers)
+    logger.info('Aggregating with %d worker thread(s)', n_workers)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=n_workers) as executor:
 
         for jurisdiction_type_key in jurisdictions_to_process:
             if jurisdiction_type_key not in JURISDICTIONS:

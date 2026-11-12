@@ -220,7 +220,7 @@ def test_main_loads_only_grouping_columns_through_the_shared_loader(tmp_path, mo
 
     calls = []
 
-    def _loader(logger, *, txt_files=None, use_parquet=True, columns=None):
+    def _loader(logger, *, txt_files=None, use_parquet=True, columns=None, before_load=None):
         calls.append(columns)
         return _projected(_full_frame())
 

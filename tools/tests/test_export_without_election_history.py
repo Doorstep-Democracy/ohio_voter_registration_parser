@@ -95,7 +95,8 @@ def test_cache_hit_returns_the_frame_without_election_columns(cleaned, tmp_path,
 
 
 def test_rebuild_returns_the_same_three_things_from_memory(cleaned, monkeypatch):
-    monkeypatch.setattr(vdc, "_resolve_enriched", lambda logger, txt_files, use_parquet: cleaned)
+    monkeypatch.setattr(vdc, "_resolve_enriched",
+                        lambda logger, txt_files, use_parquet, before_load=None: cleaned)
     frame, election_cols, read_cells = vdc.load_enriched_for_export(LOG)
     assert_frame_equal(frame, cleaned.drop(election_cols))
     assert_frame_equal(read_cells(election_cols[:3]), cleaned.select(election_cols[:3]))
@@ -103,7 +104,7 @@ def test_rebuild_returns_the_same_three_things_from_memory(cleaned, monkeypatch)
 
 def test_a_frame_without_cohort_family_is_refused(cleaned, monkeypatch):
     monkeypatch.setattr(vdc, "_resolve_enriched",
-                        lambda logger, txt_files, use_parquet: cleaned.drop("cohort_family"))
+                        lambda logger, txt_files, use_parquet, before_load=None: cleaned.drop("cohort_family"))
     with pytest.raises(RuntimeError, match="cohort_family"):
         vdc.load_enriched_for_export(LOG)
 

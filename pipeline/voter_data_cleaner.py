@@ -106,8 +106,10 @@ from paths import (  # noqa: E402,F401
     OUTPUT_OVERRIDDEN,
     PARQUET_DIR,
     PARQUET_ENRICHED_DIR,
+    PARTITION_KEY,
     parquet_glob,
 )
+import memory_budget  # noqa: E402  (sibling module; preflight before heavy loads)
 PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
 CLASSIFIER_SRC       = Path(__file__)
 
@@ -926,6 +928,8 @@ def build_parquet_cache(
 
     log.info('Parquet cache missing %d partition(s). Building from %d txt file(s).',
              len(expected - existing), len(txt_files))
+    # The build below reads the whole raw frame into memory: check it fits first.
+    _preflight_text_build(txt_files, log)
 
     with _timer(log, 'read CSV for Parquet conversion'):
         df = pl.concat([
@@ -4680,10 +4684,168 @@ def _require_columns(wanted: list[str] | None, available: list[str], where: str)
     return [c for c in available if c in want]
 
 
+# Columns add_voter_participation appends: four Int32 counts, two Float64 rates,
+# one String label. Used only to size the export frame before it exists.
+_PARTICIPATION_DTYPES = ['Int32'] * 4 + ['Float64'] * 2 + ['String']
+# Stand-in for the classifier's derived columns when sizing a frame that has
+# not been built yet (a rebuild). Provisional, like the rest of the estimate.
+_DERIVED_DTYPES_ESTIMATE = ['Float64'] * 26
+
+
+def _parquet_rows(path: Path) -> int:
+    """Row count of one parquet file, from its footer. No data page is read."""
+    import pyarrow.parquet as pq
+    return pq.ParquetFile(path).metadata.num_rows
+
+
+def _raw_partition_rows() -> dict[str, int]:
+    """Rows per raw-cache partition directory, from parquet footers only."""
+    return {
+        part.name: sum(_parquet_rows(f) for f in part.rglob('*.parquet'))
+        for part in sorted(PARQUET_DIR.glob(f'{PARTITION_KEY}=*')) if part.is_dir()
+    }
+
+
+def _raw_columns() -> tuple[int, int]:
+    """(column count, election column count) of the raw cache, from the footer of
+    its first file. The Hive partition key is counted even though it is a
+    directory name and not a column inside the files."""
+    first = next((f for part in sorted(PARQUET_DIR.glob(f'{PARTITION_KEY}=*'))
+                  for f in sorted(part.rglob('*.parquet'))), None)
+    if first is None:
+        return 0, 0
+    names = list(pl.read_parquet_schema(first))
+    return len(names) + (0 if PARTITION_KEY in names else 1), len(election_cols_from_names(names))
+
+
+def _text_shape(txt_files: list[Path]) -> tuple[int, int, int]:
+    """(estimated rows, columns, election columns) of the raw text files.
+
+    Reads each file's header line and its first 2 MiB only: rows are estimated
+    as file size / average line length in that sample. Good to a few percent
+    for a file whose rows are alike, which is all a memory estimate needs.
+    """
+    rows, names = 0.0, []
+    for path in txt_files:
+        size = path.stat().st_size
+        with open(path, 'rb') as fh:
+            sample = fh.read(2 * 1024 * 1024)
+        header, _, body = sample.partition(b'\n')
+        if not names:
+            names = [n.strip().strip('"') for n in header.decode('utf-8', errors='replace').split(',')]
+        lines = body.count(b'\n')
+        if lines:
+            rows += (size - len(header) - 1) / (len(body) / lines)
+    return int(rows), len(names), len(election_cols_from_names(names))
+
+
+def _memory_context() -> tuple:
+    """(settings, budget, cpu_count) for a preflight: the active policy and the
+    machine as it is right now."""
+    settings = memory_budget.active()
+    machine = memory_budget.read_machine()
+    return settings, memory_budget.make_budget(machine, settings), machine.cpu_count
+
+
+def _preflight_text_build(txt_files: list[Path], logger: logging.Logger) -> None:
+    """Enforce the memory budget before the raw parquet cache is built from text.
+    That build reads the whole raw frame into memory, and it is the first thing
+    a fresh clone does. Raises memory_budget.MemoryBudgetError when it does not fit."""
+    settings, budget, _ = _memory_context()
+    rows, cols, n_election = _text_shape(txt_files)
+    if not rows:
+        logger.warning('Memory budget: could not size the text files; preflight skipped')
+        return
+    memory_budget.enforce(memory_budget.estimate_text_build(rows, cols, n_election),
+                          budget, settings, logger)
+
+
+def _preflight_rebuild(logger: logging.Logger, settings, budget) -> tuple[int, int, int]:
+    """Enforce the budget for an enriched-cache rebuild. Returns (rows, raw
+    columns, election columns) of the raw cache, (0, 0, 0) when it has no
+    partitions to size the run from."""
+    rows = sum(_raw_partition_rows().values())
+    raw_cols, n_election = _raw_columns()
+    if not rows:
+        logger.warning('Memory budget: no raw parquet partitions to size the rebuild from; '
+                       'preflight skipped')
+        return 0, 0, 0
+    memory_budget.enforce(memory_budget.estimate_rebuild(rows, raw_cols, n_election),
+                          budget, settings, logger)
+    return rows, raw_cols, n_election
+
+
+def _preflight_statewide_export(logger: logging.Logger, fresh: bool, requested_workers: int = 0) -> int:
+    """Size the county export, pick its worker count, and enforce the memory
+    budget. Called by the loader after the cache-first decision and before
+    anything is loaded. Returns the worker count to use.
+
+    Shape comes from parquet footers only: rows and dtypes of the enriched
+    cache when it is fresh, of the raw cache when it has to be rebuilt (in
+    which case the rebuild is enforced first). The largest county's share of
+    rows bounds what one worker can hold.
+
+    Workers: an explicit request (argument, or --max-workers) is used as given.
+    Otherwise the count starts at the logical CPU count capped at 8 and is
+    lowered until the estimate fits; if it does not fit at one worker the run
+    is refused (mode auto) or goes ahead with a warning (mode eager).
+
+    Raises memory_budget.MemoryBudgetError.
+    """
+    settings, budget, cpu_count = _memory_context()
+    requested = requested_workers or settings.max_workers
+    start = memory_budget.choose_workers(cpu_count, requested)
+
+    by_part = _raw_partition_rows()
+    total = sum(by_part.values())
+    largest_share = (max(by_part.values()) / total) if total else 1.0
+
+    if fresh:
+        schema = pl.read_parquet_schema(ENRICHED_CACHE)
+        election = set(election_cols_from_names(list(schema)))
+        rows = _parquet_rows(ENRICHED_CACHE)
+        frame_dtypes = [str(t) for c, t in schema.items() if c not in election] + _PARTICIPATION_DTYPES
+        n_election = len(election)
+    else:
+        rows, raw_cols, n_election = _preflight_rebuild(logger, settings, budget)
+        if not rows:
+            return start
+        frame_dtypes = (['String'] * (raw_cols - n_election)
+                        + _DERIVED_DTYPES_ESTIMATE + _PARTICIPATION_DTYPES)
+
+    def estimate_for(workers: int):
+        return memory_budget.estimate_export(rows, frame_dtypes, n_election, largest_share,
+                                             workers, _PARTICIPATION_BATCH)
+
+    workers = start if requested else memory_budget.fit_workers(estimate_for, budget.bytes, start)
+    if workers != start:
+        logger.info('Memory budget: %d worker(s) instead of %d so the county slices fit', workers, start)
+    memory_budget.enforce(estimate_for(workers), budget, settings, logger)
+    return workers
+
+
+def _preflight_groupings(logger: logging.Logger, fresh: bool, columns: list[str]) -> None:
+    """Enforce the memory budget for jurisdictional groupings before its frame
+    is loaded: the projected frame plus one partitioned copy of it. On a stale
+    cache the rebuild is enforced first. Raises memory_budget.MemoryBudgetError."""
+    settings, budget, _ = _memory_context()
+    if fresh:
+        schema = pl.read_parquet_schema(ENRICHED_CACHE)
+        rows = _parquet_rows(ENRICHED_CACHE)
+        dtypes = [str(schema[c]) for c in columns if c in schema]
+    else:
+        rows, _, _ = _preflight_rebuild(logger, settings, budget)
+        if not rows:
+            return
+        dtypes = ['String'] * len(columns)
+    memory_budget.enforce(memory_budget.estimate_groupings(rows, dtypes), budget, settings, logger)
+
+
 def _resolve_enriched(
     logger:      logging.Logger,
     txt_files:   list[Path] | None,
     use_parquet: bool,
+    before_load=None,
 ) -> pl.DataFrame | None:
     """Make the cache-first decision once. The only place it is made.
 
@@ -4700,14 +4862,21 @@ def _resolve_enriched(
     txt_files   SWVF source files. With use_parquet the raw parquet cache is
                 built from them first (idempotent), because freshness is judged
                 against the raw partitions. Required for a CSV rebuild.
+    before_load callable(fresh: bool), run after the decision and before any
+                load. This is where a caller enforces its memory budget
+                (_preflight_*); whatever it raises stops the run with nothing
+                loaded.
 
     Raises FileNotFoundError (parquet rebuild, no raw cache), ValueError (CSV
-    rebuild without txt_files).
+    rebuild without txt_files), and anything before_load raises.
     """
     if use_parquet and txt_files is not None:
         build_parquet_cache(txt_files, logger=logger)
 
-    if _cache_is_fresh(logger):
+    fresh = _cache_is_fresh(logger)
+    if before_load is not None:
+        before_load(fresh)
+    if fresh:
         return None
 
     if use_parquet:
@@ -4732,6 +4901,7 @@ def load_enriched_voters(
     txt_files:   list[Path] | None = None,
     use_parquet: bool = True,
     columns:     list[str] | None = None,
+    before_load=None,
 ) -> pl.DataFrame:
     """Return the statewide enriched frame, cache-first (see _resolve_enriched).
 
@@ -4742,8 +4912,9 @@ def load_enriched_voters(
 
     Callers that only need election history to compute participation should
     use load_enriched_for_export instead, which never holds it.
+    before_load is passed to _resolve_enriched.
     """
-    rebuilt = _resolve_enriched(logger, txt_files, use_parquet)
+    rebuilt = _resolve_enriched(logger, txt_files, use_parquet, before_load)
     if rebuilt is None:
         ordered = _require_columns(columns, list(pl.read_parquet_schema(ENRICHED_CACHE)), 'enriched cache')
         with _timer(logger, 'loading enriched cache'):
@@ -4763,6 +4934,7 @@ def load_enriched_for_export(
     *,
     txt_files:   list[Path] | None = None,
     use_parquet: bool = True,
+    before_load=None,
 ):
     """Return (frame, election_cols, read_cells) for the county export.
 
@@ -4788,9 +4960,9 @@ def load_enriched_for_export(
 
     Raises RuntimeError if the frame has no cohort_family column: without it
     the export would fall back to re-classifying from election cells that are
-    no longer there.
+    no longer there. before_load is passed to _resolve_enriched.
     """
-    rebuilt = _resolve_enriched(logger, txt_files, use_parquet)
+    rebuilt = _resolve_enriched(logger, txt_files, use_parquet, before_load)
     if rebuilt is None:
         names = list(pl.read_parquet_schema(ENRICHED_CACHE))
         election_cols = election_cols_from_names(names)
@@ -4885,7 +5057,12 @@ def run_ohio_analysis(
     Args:
         txt_files:               SWVF_*.txt source files.
         use_parquet:             Build/use Hive-partitioned Parquet cache. Default True.
-        max_workers:             Parallel worker processes. 0 = auto.
+        max_workers:             Worker threads for the county export. 0 = derive from the
+                                 CPU count and the memory budget (--max-workers, then
+                                 _preflight_statewide_export).
+
+    Raises memory_budget.MemoryBudgetError, before anything is loaded, when the
+    estimated peak does not fit the memory budget and the memory mode is auto.
         include_precinct_charts: Also write per-precinct party + UNC JSON files.
                                  Significantly increases output file count and run time.
     """
@@ -4898,8 +5075,14 @@ def run_ohio_analysis(
         # ── 1. Load + enrich, cache-first, without election history ──────────────
         # The frame carries no election columns; read_cells hands them to the
         # participation step a batch at a time (see load_enriched_for_export).
+        # The memory preflight runs inside the loader, after the cache-first
+        # decision and before any load; it also fixes the worker count.
+        plan: dict = {}
         df, election_cols, read_cells = load_enriched_for_export(
-            logger, txt_files=txt_files, use_parquet=use_parquet)
+            logger, txt_files=txt_files, use_parquet=use_parquet,
+            before_load=lambda fresh: plan.update(
+                workers=_preflight_statewide_export(logger, fresh, max_workers)),
+        )
         logger.info('%d election columns: %s to %s',
                     len(election_cols), election_cols[0], election_cols[-1])
 
@@ -4921,8 +5104,8 @@ def run_ohio_analysis(
 
         # ThreadPoolExecutor: no IPC pipes, no WinError 1450.
         # orjson releases the GIL during serialisation so threads overlap on I/O.
-        # 8 threads matches the i7-9700K physical core count (no hyperthreading).
-        n_workers = max_workers or 8
+        # The count was fixed by the memory preflight (_preflight_statewide_export).
+        n_workers = plan['workers']
         logger.info('Launching %d thread worker(s) ...', n_workers)
 
         processed: list[str] = []
@@ -4973,6 +5156,9 @@ def run_ohio_analysis(
         logger.info('SUCCESS  (%d counties, %d failed)', len(processed), len(failed))
         logger.info('=' * 60)
 
+    except memory_budget.MemoryBudgetError:
+        # A refusal, not a crash: enforce() already logged the numbers.
+        raise
     except Exception:
         logger.exception('Unhandled error in run_ohio_analysis')
         raise

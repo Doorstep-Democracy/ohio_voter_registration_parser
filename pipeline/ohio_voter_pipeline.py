@@ -40,6 +40,7 @@ MANIFEST   = BASE_DIR / "download_manifest.json"
 
 # Single resolver for snapshot discovery/staging (CLAUDE.md section 5).
 import snapshot_store  # noqa: E402  (needs the sys.path setup above)
+import memory_budget   # noqa: E402  (memory policy for the run; see --memory-mode)
 
 SOS_URL    = "https://www6.ohiosos.gov/ords/f?p=VOTERFTP:STWD"
 SOS_BASE   = "https://www6.ohiosos.gov"
@@ -559,6 +560,22 @@ def _run_update_check() -> None:
 
 # -- Argument parsing ----------------------------------------------------------
 
+def _positive_float(text: str) -> float:
+    """argparse type: a number greater than 0."""
+    value = float(text)
+    if not value > 0:
+        raise argparse.ArgumentTypeError(f"must be greater than 0, got {text!r}")
+    return value
+
+
+def _positive_int(text: str) -> int:
+    """argparse type: an integer of at least 1."""
+    value = int(text)
+    if value < 1:
+        raise argparse.ArgumentTypeError(f"must be at least 1, got {text!r}")
+    return value
+
+
 def parse_args(argv=None) -> argparse.Namespace:
     p = argparse.ArgumentParser(
         prog="ohio_voter_pipeline.py",
@@ -579,6 +596,14 @@ def parse_args(argv=None) -> argparse.Namespace:
                    help="Also build per-precinct chart JSON (choices 1/2/3/5).")
     p.add_argument("--no-update-check", action="store_true",
                    help="Skip the interactive SOS update-check prompt.")
+    p.add_argument("--memory-mode", choices=list(memory_budget.MODES), default="auto",
+                   help="auto (default): refuse a stage whose estimated peak does not fit "
+                        "available memory, before loading anything. eager: always run.")
+    p.add_argument("--memory-budget-gb", type=_positive_float, default=None, metavar="GB",
+                   help="Use this memory budget in GB and do not measure available memory.")
+    p.add_argument("--max-workers", type=_positive_int, default=0, metavar="N",
+                   help="Worker threads for parallel stages. Default: logical CPUs, at most 8, "
+                        "lowered if the county slices would not fit the memory budget.")
     return p.parse_args(argv)
 
 
@@ -587,6 +612,10 @@ def parse_args(argv=None) -> argparse.Namespace:
 def main(args: argparse.Namespace | None = None):
     if args is None:
         args = parse_args()
+
+    # One memory policy for the whole run, read by every stage (memory_budget.active()).
+    memory_budget.activate(memory_budget.MemorySettings(
+        mode=args.memory_mode, budget_gb=args.memory_budget_gb, max_workers=args.max_workers))
 
     # --list-snapshots: print and exit before any prompt or network call.
     if args.list_snapshots:
@@ -634,13 +663,32 @@ def main(args: argparse.Namespace | None = None):
             if not county_nums:
                 print(f"  Could not resolve counties from: {args.counties!r}")
                 sys.exit(2)
-        _dispatch(choice, txt_files, include_precincts, county_nums)
+        _dispatch_guarded(choice, txt_files, include_precincts, county_nums)
     else:
         choice, include_precincts, county_nums = prompt_next_step(txt_files)
         if choice == "0":
             print("  Exiting.")
             return
-        _dispatch(choice, txt_files, include_precincts, county_nums)
+        _dispatch_guarded(choice, txt_files, include_precincts, county_nums)
+
+
+def _dispatch_guarded(*args, **kwargs) -> None:
+    """Run _dispatch; report a memory-budget refusal as a refusal.
+
+    A refused run loaded nothing and wrote nothing. It ends with exit code 3
+    and the failure marker in the run log, so the next run's previous-run check
+    reports "failed" and not "died without a marker". Any other exception
+    propagates to the excepthook as before.
+    """
+    try:
+        _dispatch(*args, **kwargs)
+    except memory_budget.MemoryBudgetError as exc:
+        import logging
+        import run_integrity
+        logging.getLogger('voter_analysis').error(
+            '%s: the memory budget refused the run: %s', run_integrity.FAILED_MARKER, exc)
+        print(f"\n  RUN REFUSED. {exc}")
+        sys.exit(3)
 
 
 def _build_maps(logger, include_precincts: bool) -> None:
