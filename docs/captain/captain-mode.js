@@ -34,7 +34,8 @@
   const DEFAULT_API = 'http://127.0.0.1:8000';
   const API = new URLSearchParams(location.search).get('captainApi') || DEFAULT_API;
 
-  // Must match COHORT_SPEC in serve/roster_api.py AND COHORT_LABELS in v2.js.
+  // Must match COHORT_SPEC in serve/roster_api.py AND COHORT_LABELS in v2.js;
+  // tools/tests/test_cohort_lean.py pins the slug order to COHORT_SLICES.
   // Order is the partisan-spectrum left-to-right that the ribbon segments use,
   // so .hero-ribbon-seg index N maps to COHORTS[N] directly.
   const COHORTS = [
@@ -42,6 +43,8 @@
     { slug: 'UNC_LAPSED_R',   label: 'Lapsed Republican', color: '#fca5a5' },
     { slug: 'MIXED_ACTIVE',   label: 'Mixed — Active',    color: '#f59e0b' },
     { slug: 'MIXED_LAPSED',   label: 'Mixed — Lapsed',    color: '#a78bfa' },
+    { slug: 'MINOR_PARTY',    label: 'Minor Party',       color: '#14b8a6' },
+    { slug: 'UNC_NONPARTISAN', label: 'Issues Only (No Party Ballot)', color: '#c4b5cd' },
     { slug: 'UNC_NO_PRIMARY', label: 'No Primary History', color: '#9ca3af' },
     { slug: 'UNC_LAPSED_D',   label: 'Lapsed Democrat',   color: '#93c5fd' },
     { slug: 'PURE_D',         label: 'Solid Democrat',    color: '#3b82f6' },

@@ -5,8 +5,9 @@ shares goes through ``cohort_sides()``: the narrative templates, both map builde
 (by a mirrored ``COHORT_SIDE`` table) the dashboard in ``docs/assets/v2.js``.
 
 Why labels and not positions: the chart's ``data`` array follows ``COHORT_SLICES`` order,
-and that order changed when the UNC - Non-partisan Ballot cohort was inserted at index 4.
-Position-based sums kept running and silently counted UNC - No Primary as Democratic.
+and that order changed when the UNC - Non-partisan Ballot cohort was inserted at index 4
+(and again when Minor Party took index 4 in 2026-11). Position-based sums kept running
+and silently counted UNC - No Primary as Democratic.
 Matching on labels makes the arithmetic independent of order, and requiring the exact
 canonical label set makes any future change to the taxonomy fail loudly here instead of
 producing plausible wrong numbers downstream.
@@ -25,6 +26,7 @@ COHORT_SIDE: dict[str, str] = {
     'UNC – Lapsed R':            'R',
     'Mixed – Active':            'UNC',
     'Mixed – Lapsed':            'UNC',
+    'Minor Party':               'UNC',
     'UNC – Non-partisan Ballot': 'UNC',
     'UNC – No Primary':          'UNC',
     'UNC – Lapsed D':            'D',

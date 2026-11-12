@@ -1,4 +1,4 @@
-"""Party lean is computed by cohort label, against one canonical 8-cohort set.
+"""Party lean is computed by cohort label, against one canonical 9-cohort set.
 
 Pins together the three places the cohort taxonomy is spelled out for lean arithmetic:
 the pipeline writers' COHORT_SLICES, pipeline/cohort_lean.py, and the dashboard's
@@ -31,6 +31,7 @@ CANONICAL = [
     ("UNC – Lapsed R", 50),
     ("Mixed – Active", 10),
     ("Mixed – Lapsed", 20),
+    ("Minor Party", 5),
     ("UNC – Non-partisan Ballot", 30),
     ("UNC – No Primary", 400),
     ("UNC – Lapsed D", 70),
@@ -61,13 +62,56 @@ def test_js_side_table_matches_python():
     assert js == COHORT_SIDE
 
 
+# ── positional mirrors ───────────────────────────────────────────────────────
+# These tables are read by INDEX (ribbon segment N -> entry N), so a set check is not
+# enough: order must equal COHORT_SLICES order. The captain table drifted once, to 7
+# entries against 8 slices, which sent every tap after index 4 to the wrong roster.
+
+def _slices():
+    pytest.importorskip("polars")
+    from pipeline.voter_data_cleaner import COHORT_SLICES
+    return COHORT_SLICES
+
+
+def _js_array(src, name):
+    block = re.search(rf"const {name} = \[(.*?)\];", src, re.S)
+    assert block, f"{name} not found"
+    return re.findall(r"'([^']+)'", block.group(1))
+
+
+def test_js_label_and_color_arrays_follow_slice_order():
+    src = V2_JS.read_text(encoding="utf-8")
+    slices = _slices()
+    assert _js_array(src, "COHORT_LABELS") == [lbl for _, lbl, _ in slices]
+    assert _js_array(src, "COHORT_COLORS") == [c for _, _, c in slices]
+
+
+def test_captain_cohorts_follow_slice_order():
+    src = (ROOT / "docs" / "captain" / "captain-mode.js").read_text(encoding="utf-8")
+    block = re.search(r"const COHORTS = \[(.*?)\];", src, re.S)
+    assert block, "COHORTS not found in captain-mode.js"
+    slugs = re.findall(r"slug:\s*'([A-Z_]+)'", block.group(1))
+    assert slugs == [fam for fam, _, _ in _slices()]
+
+
+def test_roster_api_cohorts_follow_slice_order():
+    # Parsed, not imported: serve/ pulls in web dependencies the test suite does not need.
+    import ast
+    tree = ast.parse((ROOT / "serve" / "roster_api.py").read_text(encoding="utf-8"))
+    consts = {t.id: node.value for node in tree.body if isinstance(node, ast.Assign)
+              for t in node.targets if isinstance(t, ast.Name)}
+    families = [fam for fam, _, _ in _slices()]
+    assert ast.literal_eval(consts["VALID_COHORTS"]) == set(families)
+    assert [s for s, _, _ in ast.literal_eval(consts["COHORT_SPEC"])] == families
+
+
 # ── arithmetic ───────────────────────────────────────────────────────────────
 
 def test_sums_by_side():
     s = cohort_sides(_chart(CANONICAL), "synthetic")
-    assert (s["r"], s["unc"], s["d"]) == (150, 460, 160)
+    assert (s["r"], s["unc"], s["d"]) == (150, 465, 160)
     assert (s["pure_r"], s["pure_d"]) == (100, 90)
-    assert s["total"] == 770
+    assert s["total"] == 775
     # Integer counts stay integers: a float total printed "123,527.0 registered voters".
     assert all(isinstance(s[k], int) for k in ("r", "unc", "d", "pure_r", "pure_d", "total"))
 
@@ -84,9 +128,16 @@ def test_count_suffix_is_stripped():
     assert normalize_label("UNC – Lapsed R — 4,911 (4%)") == "UNC – Lapsed R"
 
 
+def test_rejects_eight_cohort_scheme():
+    """The pre-2026-11 scheme had no Minor Party slice and silently dropped those voters."""
+    eight = [p for p in CANONICAL if p[0] != "Minor Party"]
+    with pytest.raises(ValueError, match="missing=\\['Minor Party'\\]"):
+        cohort_sides(_chart(eight), "eight")
+
+
 def test_rejects_seven_cohort_scheme():
-    seven = [p for p in CANONICAL if p[0] != "UNC – Non-partisan Ballot"]
-    with pytest.raises(ValueError, match="missing=\\['UNC – Non-partisan Ballot'\\]"):
+    seven = [p for p in CANONICAL if p[0] not in ("UNC – Non-partisan Ballot", "Minor Party")]
+    with pytest.raises(ValueError, match="UNC – Non-partisan Ballot"):
         cohort_sides(_chart(seven), "seven")
 
 
@@ -102,8 +153,8 @@ def test_rejects_unknown_and_duplicate_labels():
 def test_narrative_error_names_the_file():
     """A failing chart must be identifiable: the title alone ('Party Affiliation') is not."""
     from tools.narrative.templates import build_metrics_for_level
-    seven = [p for p in CANONICAL if p[0] != "UNC – Non-partisan Ballot"]
-    party = {"title": "Party Affiliation", "chartConfig": _chart(seven)}
+    eight = [p for p in CANONICAL if p[0] != "Minor Party"]
+    party = {"title": "Party Affiliation", "chartConfig": _chart(eight)}
     with pytest.raises(ValueError, match="township/adams_bratton_township"):
         build_metrics_for_level("township", party, source="township/adams_bratton_township")
 

@@ -1720,12 +1720,16 @@ UNC_SHADOW_LABELS = {
     'NO_HISTORY':  'No Primary History',
 }
 
-# 8-cohort partisan-spectrum taxonomy — single source of truth for chart exports.
+# 9-cohort partisan-spectrum taxonomy — single source of truth for chart exports.
 # ORDER IS THE SPECTRUM: charts render this list left-to-right, R -> D, so a
 # slice's position asserts where that behaviour sits partisan-wise.
 # UNC_NONPARTISAN sits in the neutral centre beside UNC_NO_PRIMARY: both are
 # zero-partisan-signal populations. It must NOT sit next to the Mixed slices,
 # which would repeat the very conflation this taxonomy was split to fix.
+# MINOR_PARTY (Libertarian, Green and other non-R/D affiliation or primary
+# ballot) sits at the exact centre: it is on neither side of the D/R
+# spectrum. Before it existed those voters fell to cohort OTHER, which no
+# slice listed, so every chart dropped them (11,904 statewide).
 #
 # NOTE (known duplication, CLAUDE.md sec 5): this list is mirrored in
 # jurisdictional_groupings.py, serve/roster_api.py and
@@ -1737,6 +1741,7 @@ COHORT_SLICES = [
     ('UNC_LAPSED_R',    'UNC – Lapsed R',           '#fca5a5'),
     ('MIXED_ACTIVE',    'Mixed – Active',           '#f59e0b'),
     ('MIXED_LAPSED',    'Mixed – Lapsed',           '#a78bfa'),
+    ('MINOR_PARTY',     'Minor Party',              '#14b8a6'),
     ('UNC_NONPARTISAN', 'UNC – Non-partisan Ballot', '#c4b5cd'),
     ('UNC_NO_PRIMARY',  'UNC – No Primary',         '#9ca3af'),
     ('UNC_LAPSED_D',    'UNC – Lapsed D',           '#93c5fd'),
@@ -1748,6 +1753,7 @@ COHORT_STACK_MAP = {
     'UNC_LAPSED_R':    'unc_r',
     'MIXED_ACTIVE':    'unc_mid',
     'MIXED_LAPSED':    'unc_mid',
+    'MINOR_PARTY':     'unc_mid',
     'UNC_NONPARTISAN': 'unc_mid',
     'UNC_NO_PRIMARY':  'unc_mid',
     'UNC_LAPSED_D':    'unc_d',
@@ -1782,6 +1788,31 @@ def identify_primary_cols(election_cols: list[str]) -> list[str]:
     return [c for c in election_cols if parse_election_meta(c)[1] == 'PRIMARY']
 
 
+def _assert_cohort_coverage(frame: pl.DataFrame) -> None:
+    """Raise unless every voter's cohort_family is one of the COHORT_SLICES families.
+
+    Every chart, hero total and lean figure sums the slices, so a family outside
+    them is a voter silently dropped from all of them. That happened: until
+    MINOR_PARTY existed, non-R/D affiliations fell to cohort OTHER and 11,904
+    voters statewide (2026-10-24 snapshot) vanished from every published party
+    chart while the precinct index still counted them. Fail here instead, where
+    the cause is visible (CLAUDE.md sec 5, loud failures).
+    """
+    families = [fam for fam, _, _ in COHORT_SLICES]
+    bad = (
+        frame.filter(~pl.col('cohort_family').is_in(families)
+                     | pl.col('cohort_family').is_null())
+             .group_by(['cohort', 'cohort_family'])
+             .agg(pl.len().alias('n'))
+             .sort('n', descending=True)
+    )
+    if bad.height:
+        raise ValueError(
+            f'cohort_family outside COHORT_SLICES for {int(bad["n"].sum()):,} voters; '
+            f'every chart would drop them. (cohort, cohort_family, n): {bad.rows()}'
+        )
+
+
 def classify_all_voters_primary_history(
     df:             pl.DataFrame,
     primary_cols:   list[str],
@@ -1811,7 +1842,8 @@ def classify_all_voters_primary_history(
     Returns a DataFrame with columns:
         SOS_VOTERID                  Utf8
         d_primaries, r_primaries     Int32  (count of partisan ballots)
-        x_primaries                  Int32  (non-partisan ballots: not in {D, R, ''})
+        x_primaries                  Int32  (non-partisan ballots: code X)
+        m_primaries                  Int32  (minor-party ballots: not in {D, R, X, ''})
         total_primaries              Int32  (any non-empty ballot)
         partisan_primaries           Int32  (= d + r)
         lean_score                   Float64 nullable  decay-weighted partisan lean
@@ -1828,7 +1860,8 @@ def classify_all_voters_primary_history(
                                              oldest-first; auditable by eye
         cohort                       Utf8    PURE_R/PURE_D/CROSSOVER_R/CROSSOVER_D/
                                              UNC_LAPSED_R/UNC_LAPSED_D/UNC_MIXED/
-                                             UNC_NONPARTISAN/UNC_NO_PRIMARY
+                                             UNC_NONPARTISAN/UNC_NO_PRIMARY/
+                                             MINOR_PARTY
         cohort_family                Utf8    rolled-up family
         crossover_class              Utf8 nullable  LOCKED_D/LEAN_D/TRUE_MIXED/...
         regular_primaries_eligible   Int32   regular primaries since registering
@@ -1849,6 +1882,7 @@ def classify_all_voters_primary_history(
             pl.lit(0).cast(pl.Int32).alias('d_primaries'),
             pl.lit(0).cast(pl.Int32).alias('r_primaries'),
             pl.lit(0).cast(pl.Int32).alias('x_primaries'),
+            pl.lit(0).cast(pl.Int32).alias('m_primaries'),
             pl.lit(0).cast(pl.Int32).alias('total_primaries'),
             pl.lit(0).cast(pl.Int32).alias('partisan_primaries'),
             pl.lit(None).cast(pl.Float64).alias('lean_score'),
@@ -1872,6 +1906,7 @@ def classify_all_voters_primary_history(
         cohort_expr = (
             pl.when(pl.col('_party') == 'R').then(pl.lit('PURE_R'))
               .when(pl.col('_party') == 'D').then(pl.lit('PURE_D'))
+              .when(~pl.col('_party').is_in(['R', 'D', ''])).then(pl.lit('MINOR_PARTY'))
               .otherwise(pl.lit('UNC_NO_PRIMARY'))
               .alias('cohort')
         )
@@ -1883,6 +1918,7 @@ def classify_all_voters_primary_history(
             'UNC_NONPARTISAN': 'UNC_NONPARTISAN',
             'MIXED_ACTIVE':    'MIXED_ACTIVE',
             'MIXED_LAPSED':    'MIXED_LAPSED',
+            'MINOR_PARTY':     'MINOR_PARTY',
         }
         out = out.with_columns(
             pl.col('cohort').replace(family_map).alias('cohort_family')
@@ -1905,6 +1941,7 @@ def classify_all_voters_primary_history(
             out = out.join(reg, on='SOS_VOTERID', how='left')
         else:
             out = out.with_columns(pl.lit(False).alias('is_new_registrant'))
+        _assert_cohort_coverage(out)
         return out
 
     logger.info('  classify_all_voters_primary_history: %s voters x %d primary columns',
@@ -1955,13 +1992,19 @@ def classify_all_voters_primary_history(
     d_exprs:   list[pl.Expr] = []
     r_exprs:   list[pl.Expr] = []
     x_exprs:   list[pl.Expr] = []
+    m_exprs:   list[pl.Expr] = []
     any_exprs: list[pl.Expr] = []
 
     for c, _ in col_meta:
         v = pl.col(c).str.strip_chars()
         d_exprs.append((v == 'D').cast(pl.Int32))
         r_exprs.append((v == 'R').cast(pl.Int32))
-        x_exprs.append(((v != '') & (v != 'D') & (v != 'R')).cast(pl.Int32))
+        # X is the non-partisan (issues-only) ballot. Any other non-empty code
+        # is a minor-party ballot (L, G, C, S, N, E seen statewide). Counting
+        # those as X labelled minor-party voters "never a party ballot"
+        # (DATA_QUALITY.md X-PRIMARIES-MINORPARTY-CONFLATION).
+        x_exprs.append((v == 'X').cast(pl.Int32))
+        m_exprs.append(((v != '') & ~v.is_in(['D', 'R', 'X'])).cast(pl.Int32))
         any_exprs.append((v != '').cast(pl.Int32))
 
     # -- Lean numerator/denominator + recent-5yr variant --------------------
@@ -2110,6 +2153,7 @@ def classify_all_voters_primary_history(
         pl.sum_horizontal(d_exprs).alias('d_primaries'),
         pl.sum_horizontal(r_exprs).alias('r_primaries'),
         pl.sum_horizontal(x_exprs).alias('x_primaries'),
+        pl.sum_horizontal(m_exprs).alias('m_primaries'),
         pl.sum_horizontal(any_exprs).alias('total_primaries'),
         (pl.sum_horizontal(lean_num_exprs) if lean_num_exprs
             else pl.lit(0.0)).alias('_lean_num'),
@@ -2234,6 +2278,18 @@ def classify_all_voters_primary_history(
           .then(pl.lit('UNC_LAPSED_R'))
         .when((pl.col('_party') == '') & (pl.col('r_primaries') == 0) & (pl.col('d_primaries') >= 1))
           .then(pl.lit('UNC_LAPSED_D'))
+        # Minor-party voters: affiliated with a party other than R or D (the
+        # SWVF carries L, and once N), or unaffiliated with a minor-party
+        # primary ballot and no D or R ballot. Evaluated BEFORE
+        # UNC_NONPARTISAN: a Green ballot is a party ballot, not an
+        # issues-only one. An unaffiliated voter with any D/R ballot stays on
+        # the lapsed/mixed ladder. A null affiliation matches nothing here,
+        # falls to OTHER, and _assert_cohort_coverage raises.
+        .when(~pl.col('_party').is_in(['R', 'D', '']))
+          .then(pl.lit('MINOR_PARTY'))
+        .when((pl.col('_party') == '') & (pl.col('m_primaries') >= 1) &
+              (pl.col('d_primaries') == 0) & (pl.col('r_primaries') == 0))
+          .then(pl.lit('MINOR_PARTY'))
         # Never cast a partisan ballot, but DID turn out for non-partisan
         # ones (issues, levies, judicial). Evaluated BEFORE the mixed branch:
         # first-match-wins means order is the control flow here. Previously
@@ -2268,11 +2324,13 @@ def classify_all_voters_primary_history(
         'UNC_MIXED':       'MIXED_LAPSED',  # UNC who voted BOTH parties
         'UNC_NONPARTISAN': 'UNC_NONPARTISAN',  # turned out, never a party ballot
         'UNC_NO_PRIMARY':  'UNC_NO_PRIMARY',
-        'OTHER':           'OTHER',
+        'MINOR_PARTY':     'MINOR_PARTY',
+        'OTHER':           'OTHER',  # unreachable by design; the assertion below raises
     }
     work = work.with_columns(
         pl.col('cohort').replace(family_map).alias('cohort_family')
     )
+    _assert_cohort_coverage(work)
 
     # -- crossover_class: applies only to R_CROSSOVER, D_CROSSOVER, UNC_MIXED
     # Tightened thresholds for affiliated crossovers (LOCKED 0.5, LEAN 0.3);
@@ -2333,7 +2391,7 @@ def classify_all_voters_primary_history(
 
     out = work.select([
         'SOS_VOTERID',
-        'd_primaries', 'r_primaries', 'x_primaries',
+        'd_primaries', 'r_primaries', 'x_primaries', 'm_primaries',
         'total_primaries', 'partisan_primaries',
         'lean_score', 'confidence', 'recent_5yr_lean',
         'last_three_party', 'years_since_last_partisan',
@@ -2584,7 +2642,7 @@ def export_json(
     }, DATA_DIR / f'{slug}_decade_distribution.json', logger)
 
     # ── Party affiliation (doughnut chart) ────────────────────────────────────
-    # 8-slice partisan-spectrum layout based on cohort_family.  Falls back to
+    # 9-slice partisan-spectrum layout based on cohort_family.  Falls back to
     # the legacy PARTY_LABEL doughnut when the universal classifier output is
     # not present.  COHORT_SLICES + COHORT_STACK_MAP are module-level constants.
     meta_block: dict | None = None
@@ -3389,7 +3447,7 @@ def export_precinct_charts(
         total = len(pdf)
 
         # ── Party doughnut ────────────────────────────────────────────────────
-        # 8-cohort partisan-spectrum layout — mirrors export_json() exactly so
+        # 9-cohort partisan-spectrum layout — mirrors export_json() exactly so
         # precinct, county, ward, and district charts are visually identical.
         p_unc_ids = set(pdf['SOS_VOTERID'].to_list()) if 'SOS_VOTERID' in pdf.columns else set()
         if 'cohort_family' in pdf.columns:
