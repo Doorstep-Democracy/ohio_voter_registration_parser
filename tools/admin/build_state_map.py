@@ -155,6 +155,16 @@ def load_manifest_county_slugs():
     return {county_slug(n) for n in names}
 
 
+def manifest_snapshot_date():
+    """The snapshot the published party JSON was built from. The map layers
+    bake in lean and total_voters from that JSON, so they share its vintage."""
+    with open(MANIFEST_PATH, encoding="utf-8") as f:
+        snap = json.load(f).get("provenanceSnapshotDate")
+    if not snap:
+        fail("manifest.json has no provenanceSnapshotDate")
+    return snap
+
+
 def build_counties(manifest_slugs):
     print("Reading counties layer...")
     gdf = gpd.read_file(COUNTIES_GPKG, layer="counties")
@@ -254,6 +264,7 @@ def serialize_layer(layer_name, rows, bounds, generated):
 def run_build():
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     manifest_slugs = load_manifest_county_slugs()
+    snapshot = manifest_snapshot_date()
 
     county_rows, bounds = build_counties(manifest_slugs)
 
@@ -301,13 +312,15 @@ def run_build():
 
     provenance = {
         "generated": generated,
+        "provenance_snapshot_date": snapshot,
         "party_data_join": (
             "docs/data/<county_slug>_party_affiliation.json (counties); "
             "docs/data/<dtype>/<id>_party_affiliation.json (districts); "
-            "manifest snapshot 2026-07-14 per current docs/manifest.json"
+            f"snapshot {snapshot} per docs/manifest.json provenanceSnapshotDate"
         ),
         "layers": {
             "counties": {
+                "provenance_snapshot_date": snapshot,
                 "source": str(COUNTIES_GPKG.relative_to(REPO_ROOT)).replace("\\", "/"),
                 "layer": "counties",
                 "note": "full-resolution TIGER/Line county geometry (not generalized cb_*_500k)",
@@ -319,6 +332,7 @@ def run_build():
     }
     for layer_name, config in DISTRICT_LAYERS.items():
         provenance["layers"][layer_name] = {
+            "provenance_snapshot_date": snapshot,
             "source": str(config["shapefile"].relative_to(REPO_ROOT)).replace("\\", "/"),
             "plan_vintage": config["plan_vintage"],
             "feature_count": len(district_rows[layer_name]),

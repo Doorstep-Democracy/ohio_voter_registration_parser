@@ -50,6 +50,7 @@ GDB_VINTAGE = "2022 precinct plan (Montgomery County BoE)"
 
 DOCS_DATA = REPO_ROOT / "docs" / "data"
 PRECINCT_INDEX = DOCS_DATA / "montgomery_precinct_index.json"
+MANIFEST_PATH = REPO_ROOT / "docs" / "manifest.json"
 OUT_DIR = DOCS_DATA / "state_map"
 OUT_PATH = OUT_DIR / "precincts_montgomery.geojson"
 PROV_PATH = OUT_DIR / "provenance.json"
@@ -271,8 +272,16 @@ def write_provenance(layer_name, generated, raw_rows, feature_count, size_kb, to
         fail(f"missing provenance file: {PROV_PATH} (run build_state_map.py first)")
     with open(PROV_PATH, encoding="utf-8") as f:
         provenance = json.load(f)
+    with open(MANIFEST_PATH, encoding="utf-8") as f:
+        snapshot = json.load(f).get("provenanceSnapshotDate")
+    # These layers merge into the file build_state_map.py writes; refuse to
+    # merge into one stamped for a different snapshot.
+    if not snapshot or provenance.get("provenance_snapshot_date") != snapshot:
+        fail(f"provenance.json is for snapshot {provenance.get('provenance_snapshot_date')!r}, "
+             f"manifest is {snapshot!r}: run build_state_map.py first")
 
     provenance.setdefault("layers", {})[layer_name] = {
+        "provenance_snapshot_date": snapshot,
         "source": str(GDB_PATH.relative_to(REPO_ROOT)).replace("\\", "/"),
         "source_layer": GDB_LAYER,
         "plan_vintage": GDB_VINTAGE,
