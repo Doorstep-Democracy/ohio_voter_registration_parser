@@ -352,6 +352,17 @@
       "notes": "Added 2026-11-12 with the MINOR_PARTY fix (evaluation P5); reads published precinct indexes and party charts under docs/data. Converts with the other tests when pipeline.paths lands."
     },
     {
+      "path": "tools/tests/test_published_vintage.py",
+      "families": [
+        "docs_data"
+      ],
+      "sites": 3,
+      "partition_sites": 0,
+      "bucket": "",
+      "status": "pending",
+      "notes": "Added 2026-11-12 with Next 3 (evaluation M5/P4/P7/M10): vintage and completeness gate over docs/data and docs/manifest.json. Converts with the other tests when pipeline.paths lands."
+    },
+    {
       "path": "tools/tests/test_data_slug_naming.py",
       "families": [
         "docs_data"
