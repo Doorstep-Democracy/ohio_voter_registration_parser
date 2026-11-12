@@ -14,8 +14,8 @@
   'use strict';
 
   // ── Canonical cohort colors (must match data files) ────────
-  const COHORT_COLORS = ['#ef4444', '#fca5a5', '#f59e0b', '#a78bfa', '#9ca3af', '#93c5fd', '#3b82f6'];
-  const COHORT_LABELS = ['Pure R', 'UNC – Lapsed R', 'Mixed – Active', 'Mixed – Lapsed', 'UNC – No Primary', 'UNC – Lapsed D', 'Pure D'];
+  const COHORT_COLORS = ['#ef4444', '#fca5a5', '#f59e0b', '#a78bfa', '#14b8a6', '#c4b5cd', '#9ca3af', '#93c5fd', '#3b82f6'];
+  const COHORT_LABELS = ['Pure R', 'UNC – Lapsed R', 'Mixed – Active', 'Mixed – Lapsed', 'Minor Party', 'UNC – Non-partisan Ballot', 'UNC – No Primary', 'UNC – Lapsed D', 'Pure D'];
   // Cohort label -> partisan side. Mirrors COHORT_SIDE in pipeline/cohort_lean.py;
   // tools/tests/test_cohort_lean.py pins the two (and COHORT_SLICES) together.
   const COHORT_SIDE = {
@@ -23,6 +23,7 @@
     'UNC – Lapsed R':            'R',
     'Mixed – Active':            'UNC',
     'Mixed – Lapsed':            'UNC',
+    'Minor Party':               'UNC',
     'UNC – Non-partisan Ballot': 'UNC',
     'UNC – No Primary':          'UNC',
     'UNC – Lapsed D':            'D',
