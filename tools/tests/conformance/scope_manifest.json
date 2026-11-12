@@ -341,6 +341,17 @@
       "notes": "Added 2026-11-11 with the lean-by-label fix; reads published party charts under docs/data. Converts with the other tests when pipeline.paths lands."
     },
     {
+      "path": "tools/tests/test_precinct_totals_reconcile.py",
+      "families": [
+        "docs_data"
+      ],
+      "sites": 4,
+      "partition_sites": 0,
+      "bucket": "",
+      "status": "pending",
+      "notes": "Added 2026-11-12 with the MINOR_PARTY fix (evaluation P5); reads published precinct indexes and party charts under docs/data. Converts with the other tests when pipeline.paths lands."
+    },
+    {
       "path": "tools/tests/test_data_slug_naming.py",
       "families": [
         "docs_data"
