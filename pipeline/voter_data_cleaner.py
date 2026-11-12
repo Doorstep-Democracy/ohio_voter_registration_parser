@@ -4528,6 +4528,84 @@ def build_workbook(
 # Public entry points  (called by ohio_voter_pipeline.py)
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _require_columns(wanted: list[str] | None, available: list[str], where: str) -> list[str] | None:
+    """Return `wanted` re-ordered to the frame's own column order, or None for "all".
+
+    Frame order is kept because callers derive the election-column list from
+    df.columns, and that order is chronological and load-bearing. Raises
+    KeyError naming every missing column: a caller must never proceed on a
+    narrower frame than it asked for.
+    """
+    if wanted is None:
+        return None
+    have = set(available)
+    missing = sorted(set(wanted) - have)
+    if missing:
+        raise KeyError(f'{len(missing)} requested column(s) not in the {where}: {missing}')
+    want = set(wanted)
+    return [c for c in available if c in want]
+
+
+def load_enriched_voters(
+    logger:      logging.Logger,
+    *,
+    txt_files:   list[Path] | None = None,
+    use_parquet: bool = True,
+    columns:     list[str] | None = None,
+) -> pl.DataFrame:
+    """Return the statewide enriched frame, cache-first. The single loader for it.
+
+    Order is the contract: freshness is decided BEFORE anything is loaded.
+      hit   read ENRICHED_CACHE only. The raw parquet is never loaded, so the
+            raw and enriched frames are never resident together. Loading raw
+            first and then replacing it held ~21 GB twice and was the trigger
+            for OPEN-001 incident 2 (2026-11-11).
+      miss  load raw (parquet, or CSV when use_parquet is False), clean, write
+            the cache atomically. Raw and enriched overlap while
+            clean_voter_data runs; that is the cost of a rebuild, paid once.
+
+    txt_files   SWVF source files. With use_parquet the raw parquet cache is
+                built from them first (idempotent), because freshness is judged
+                against the raw partitions. Required for a CSV miss.
+    columns     Projection of the returned frame, in the frame's own column
+                order. On a hit only these columns are read from disk. On a
+                miss the cache is still written whole. See _require_columns.
+
+    Raises FileNotFoundError (parquet miss, no raw cache), ValueError (CSV miss
+    without txt_files), KeyError (projection names a missing column).
+    """
+    if use_parquet and txt_files is not None:
+        build_parquet_cache(txt_files, logger=logger)
+
+    if _cache_is_fresh(logger):
+        ordered = _require_columns(columns, list(pl.read_parquet_schema(ENRICHED_CACHE)), 'enriched cache')
+        with _timer(logger, 'loading enriched cache'):
+            df = pl.read_parquet(ENRICHED_CACHE, columns=ordered)
+            if ordered is not None:
+                df = df.select(ordered)
+        logger.info('Loaded from enriched cache: %s rows x %d columns%s', f'{df.height:,}', df.width,
+                    '' if ordered is None else ' (projected)')
+        return df
+
+    if use_parquet:
+        with _timer(logger, 'loading voter files (Parquet)'):
+            raw = load_voter_files_parquet(logger=logger)
+    else:
+        if txt_files is None:
+            raise ValueError('enriched cache is stale and use_parquet is False: txt_files is required')
+        with _timer(logger, 'loading voter files (CSV)'):
+            raw = load_voter_files(txt_files, logger=logger)
+    with _timer(logger, 'cleaning voter data'):
+        df = clean_voter_data(raw, logger)
+    del raw
+    logger.info('Writing enriched voter data to persistent cache...')
+    _write_cache_atomic(df, logger)
+    ordered = _require_columns(columns, df.columns, 'enriched frame')
+    if ordered is not None:
+        df = df.select(ordered)
+    return df
+
+
 def _export_county_worker(args: tuple) -> tuple:
     """
     Thread worker for ThreadPoolExecutor.
@@ -4585,24 +4663,8 @@ def run_ohio_analysis(
     logger.info('=' * 60)
 
     try:
-        # ── 1. Load ───────────────────────────────────────────────────────────
-        if use_parquet:
-            build_parquet_cache(txt_files, logger=logger)
-            with _timer(logger, 'loading voter files (Parquet)'):
-                df = load_voter_files_parquet(logger=logger)
-        else:
-            with _timer(logger, 'loading voter files (CSV)'):
-                df = load_voter_files(txt_files, logger=logger)
-
-        # ── 2. Clean + enrich ─────────────────────────────────────────────────────────────────────
-        if _cache_is_fresh(logger):
-            logger.info('Loading enriched voter data from persistent cache...')
-            df = pl.read_parquet(ENRICHED_CACHE)
-        else:
-            with _timer(logger, 'cleaning voter data'):
-                df = clean_voter_data(df, logger)
-            logger.info('Writing enriched voter data to persistent cache...')
-            _write_cache_atomic(df, logger)
+        # ── 1. Load + enrich, cache-first (see load_enriched_voters) ──────────
+        df = load_enriched_voters(logger, txt_files=txt_files, use_parquet=use_parquet)
 
         election_cols = identify_election_cols(df)
         logger.info('%d election columns: %s to %s',
