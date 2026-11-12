@@ -1092,22 +1092,32 @@ def clean_voter_data(df: pl.DataFrame, logger: logging.Logger) -> pl.DataFrame:
 # Participation metrics  (Polars — single pass via sum_horizontal)
 # ─────────────────────────────────────────────────────────────────────────────
 
+# Election columns evaluated per pass in add_voter_participation. It bounds the
+# transient memory of that step to one batch of Boolean flags; 8 matches the
+# default worker count, so a batch is evaluated in one parallel pass.
+_PARTICIPATION_BATCH = 8
+
+
 def add_voter_participation(
     df:            pl.DataFrame,
     election_cols: list[str],
     logger:        logging.Logger,
 ) -> pl.DataFrame:
     """
-    Compute per-voter participation metrics across all 89 election columns.
+    Compute per-voter participation metrics across every election column.
 
-    WHY sum_horizontal INSTEAD OF A PYTHON LOOP:
-    The pandas v1 approach looped over each election column in Python, creating
-    a series per column and accumulating.  With 89 columns × 7.9M rows that's
-    ~700M boolean evaluations executed serially.
+    Memory shape (OPEN-001; this step took RSS from 26 to 47 GB on the
+    2026-11-12 statewide run). Each election column yields two Boolean flags,
+    eligible and cast, each evaluated once and reused for the all-elections
+    and the generals-only counts. Columns are processed _PARTICIPATION_BATCH at
+    a time and folded into four Int32 running totals, so the transient cost is
+    one batch of flags plus the totals. The previous form built one Int32
+    expression per column per count and handed all of them to sum_horizontal
+    at once, with the cast test evaluated twice per column.
 
-    Polars' sum_horizontal() evaluates all 89 expressions in a single columnar
-    pass using SIMD instructions and thread-level parallelism.  Expect ~10–20×
-    faster execution compared to the pandas loop on Ohio-scale data.
+    Semantics are unchanged from that form, including the exact cast test
+    (str.strip_chars() != ''); tools/tests/test_participation_equivalence.py
+    compares the two on randomized frames.
 
     Columns added (all-elections, backward-compatible names):
       Elections_Eligible — number of elections held after the voter's registration date
@@ -1126,70 +1136,57 @@ def add_voter_participation(
     that election's date.  A voter "voted" if they were eligible AND their
     participation value is non-empty (X, R, or D).
     """
-    logger.info('Building participation metric expressions for %d election columns ...',
-                len(election_cols))
-
-    # Build one Polars expression per election column for each of:
-    #   elig  — 1 if voter was registered on/before election date, else 0
-    #   voted — 1 if voter was eligible AND has a non-empty participation value
-    # All expressions are Int32 so sum_horizontal produces an integer total.
-    #
-    # Two parallel sets are built: all-elections and generals-only.
-    # Voter_Frequency is based on the generals-only rate so that the ≥75%
-    # "Frequent" threshold is reachable (a voter attending every general
-    # since 2000 scores ~100% instead of ~28% when diluted by 89 elections).
-    elig_exprs:  list[pl.Expr] = []
-    voted_exprs: list[pl.Expr] = []
-    gen_elig_exprs:  list[pl.Expr] = []
-    gen_voted_exprs: list[pl.Expr] = []
-
     # Single resolver: date/type/regular facts come ONLY from build_col_meta,
     # never from the column name here. The "generals" set below is the resolved
     # type_code == 'GENERAL', not a startswith test.
     col_meta = build_col_meta(df, election_cols, logger)
+    logger.info('Computing participation over %d election columns (%d generals), %d per batch ...',
+                len(col_meta), sum(m.type_code == 'GENERAL' for m in col_meta),
+                _PARTICIPATION_BATCH)
 
-    for m in col_meta:
-        # Polars stores Python date objects directly in comparisons with Date columns
-        elig = (
-            pl.col('REGDATE_DT').is_not_null() &
-            (pl.col('REGDATE_DT') <= pl.lit(m.date))
-        ).cast(pl.Int32)
+    # Voter_Frequency is based on the generals-only rate so that the 75%
+    # "Frequent" threshold is reachable: a voter attending every general since
+    # 2000 scores ~100%, not ~28% diluted by every primary and special.
+    count_cols = ('Elections_Eligible', 'Elections_Voted', 'General_Eligible', 'General_Voted')
+    totals = {name: pl.zeros(df.height, dtype=pl.Int32, eager=True) for name in count_cols}
+    reg = pl.col('REGDATE_DT')
 
-        voted = (
-            elig.cast(pl.Boolean) &                     # must be eligible
-            pl.col(m.col).is_not_null() &               # participation value must exist
-            (pl.col(m.col).str.strip_chars() != '')      # and be non-empty (X / R / D)
-        ).cast(pl.Int32)
+    def _count_true(frame: pl.DataFrame, names: list[str]) -> pl.Series:
+        """Row-wise count of True across `names` as Int32. The flags hold no nulls."""
+        return frame.select(
+            pl.sum_horizontal([pl.col(n).cast(pl.Int32) for n in names])
+        ).to_series()
 
-        elig_exprs.append(elig)
-        voted_exprs.append(voted)
+    for start in range(0, len(col_meta), _PARTICIPATION_BATCH):
+        batch = col_meta[start:start + _PARTICIPATION_BATCH]
+        idx = range(len(batch))
+        # eligible: registered on or before the election date.
+        # cast:     the cell holds a ballot code (non-null and non-blank).
+        # Both are Boolean and never null: a null registration date or a null
+        # cell makes the left operand False, and False & null is False.
+        flags = df.select(
+            [(reg.is_not_null() & (reg <= pl.lit(m.date))).alias(f'_elig_{i}')
+             for i, m in enumerate(batch)]
+            + [(pl.col(m.col).is_not_null() & (pl.col(m.col).str.strip_chars() != '')).alias(f'_cast_{i}')
+               for i, m in enumerate(batch)]
+        )
+        # voted: eligible AND cast. A ballot recorded before the registration
+        # date is therefore not counted. REGISTRATION_DATE resets on cancellation
+        # and reactivation, so such ballots exist (CLAUDE.md section 4).
+        flags = flags.with_columns(
+            [(pl.col(f'_elig_{i}') & pl.col(f'_cast_{i}')).alias(f'_voted_{i}') for i in idx]
+        )
+        generals = [i for i in idx if batch[i].type_code == 'GENERAL']
+        totals['Elections_Eligible'] = totals['Elections_Eligible'] + _count_true(flags, [f'_elig_{i}' for i in idx])
+        totals['Elections_Voted'] = totals['Elections_Voted'] + _count_true(flags, [f'_voted_{i}' for i in idx])
+        if generals:
+            totals['General_Eligible'] = totals['General_Eligible'] + _count_true(flags, [f'_elig_{i}' for i in generals])
+            totals['General_Voted'] = totals['General_Voted'] + _count_true(flags, [f'_voted_{i}' for i in generals])
+        del flags
 
-        if m.type_code == 'GENERAL':
-            gen_elig_exprs.append(elig)
-            gen_voted_exprs.append(voted)
-
-    logger.info('  %d total election expressions, %d generals-only',
-                len(elig_exprs), len(gen_elig_exprs))
-
-    # sum_horizontal adds across all expressions row-by-row, fully vectorised.
-    # This replaces the 89-iteration Python for-loop from v1.
-    df = df.with_columns([
-        pl.sum_horizontal(elig_exprs).alias('Elections_Eligible'),
-        pl.sum_horizontal(voted_exprs).alias('Elections_Voted'),
-    ])
-
-    # Generals-only metrics
-    if gen_elig_exprs:
-        df = df.with_columns([
-            pl.sum_horizontal(gen_elig_exprs).alias('General_Eligible'),
-            pl.sum_horizontal(gen_voted_exprs).alias('General_Voted'),
-        ])
-    else:
-        # Edge case: no GENERAL- columns in the data at all
-        df = df.with_columns([
-            pl.lit(0).cast(pl.Int32).alias('General_Eligible'),
-            pl.lit(0).cast(pl.Int32).alias('General_Voted'),
-        ])
+    # A frame with no GENERAL column keeps General_* at 0, which the frequency
+    # label below reports as 'No Eligible Elections'.
+    df = df.with_columns([totals[name].alias(name) for name in count_cols])
 
     # Turnout rate: voted / eligible.  Divide-by-zero → null (not 0), which
     # correctly propagates to 'No Eligible Elections' in the frequency label.
