@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 59 (16%)",
-      "UNC – Lapsed R — 52 (14%)",
-      "Mixed – Active — 31 (9%)",
-      "Mixed – Lapsed — 34 (9%)",
-      "UNC – No Primary — 152 (42%)",
-      "UNC – Lapsed D — 26 (7%)",
+      "Pure R — 58 (16%)",
+      "UNC – Lapsed R — 54 (15%)",
+      "Mixed – Active — 31 (8%)",
+      "Mixed – Lapsed — 21 (6%)",
+      "UNC – Non-partisan Ballot — 11 (3%)",
+      "UNC – No Primary — 156 (43%)",
+      "UNC – Lapsed D — 27 (7%)",
       "Pure D — 7 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          59,
-          52,
+          58,
+          54,
           31,
-          34,
-          152,
-          26,
+          21,
+          11,
+          156,
+          27,
           7
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MT. VICTORY VILLAGE (Hardin Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 673 (18%)",
-      "UNC – Lapsed R — 449 (12%)",
-      "Mixed – Active — 274 (7%)",
-      "Mixed – Lapsed — 285 (8%)",
-      "UNC – No Primary — 1,581 (42%)",
-      "UNC – Lapsed D — 313 (8%)",
-      "Pure D — 185 (5%)"
+      "Pure R — 668 (18%)",
+      "UNC – Lapsed R — 453 (12%)",
+      "Mixed – Active — 272 (7%)",
+      "Mixed – Lapsed — 112 (3%)",
+      "UNC – Non-partisan Ballot — 174 (5%)",
+      "UNC – No Primary — 1,602 (42%)",
+      "UNC – Lapsed D — 314 (8%)",
+      "Pure D — 183 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          673,
-          449,
-          274,
-          285,
-          1581,
-          313,
-          185
+          668,
+          453,
+          272,
+          112,
+          174,
+          1602,
+          314,
+          183
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "New London Local Sd (Huron Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

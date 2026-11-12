@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 579 (27%)",
-      "UNC – Lapsed R — 319 (15%)",
-      "Mixed – Active — 198 (9%)",
-      "Mixed – Lapsed — 167 (8%)",
-      "UNC – No Primary — 622 (29%)",
-      "UNC – Lapsed D — 173 (8%)",
-      "Pure D — 88 (4%)"
+      "Pure R — 521 (24%)",
+      "UNC – Lapsed R — 377 (17%)",
+      "Mixed – Active — 194 (9%)",
+      "Mixed – Lapsed — 111 (5%)",
+      "UNC – Non-partisan Ballot — 64 (3%)",
+      "UNC – No Primary — 637 (29%)",
+      "UNC – Lapsed D — 188 (9%)",
+      "Pure D — 81 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          579,
-          319,
-          198,
-          167,
-          622,
-          173,
-          88
+          521,
+          377,
+          194,
+          111,
+          64,
+          637,
+          188,
+          81
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CONGRESS TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

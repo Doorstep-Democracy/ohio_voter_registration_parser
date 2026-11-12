@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 820 (15%)",
-      "UNC – Lapsed R — 590 (11%)",
-      "Mixed – Active — 512 (10%)",
-      "Mixed – Lapsed — 373 (7%)",
-      "UNC – No Primary — 2,222 (41%)",
-      "UNC – Lapsed D — 590 (11%)",
-      "Pure D — 268 (5%)"
+      "Pure R — 744 (14%)",
+      "UNC – Lapsed R — 684 (13%)",
+      "Mixed – Active — 480 (9%)",
+      "Mixed – Lapsed — 269 (5%)",
+      "UNC – Non-partisan Ballot — 139 (3%)",
+      "UNC – No Primary — 2,247 (41%)",
+      "UNC – Lapsed D — 578 (11%)",
+      "Pure D — 293 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          820,
-          590,
-          512,
-          373,
-          2222,
-          590,
-          268
+          744,
+          684,
+          480,
+          269,
+          139,
+          2247,
+          578,
+          293
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

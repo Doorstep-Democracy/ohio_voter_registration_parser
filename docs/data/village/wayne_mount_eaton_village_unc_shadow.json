@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 22",
-      "Mixed – Active — 0",
-      "Mixed – Lapsed — 10",
-      "UNC – No Primary — 50",
+      "UNC – Lapsed R — 24",
+      "Mixed – Active — 1",
+      "Mixed – Lapsed — 3",
+      "UNC – Non-partisan Ballot — 6",
+      "UNC – No Primary — 44",
       "UNC – Lapsed D — 10"
     ],
     "datasets": [
       {
         "data": [
-          22,
-          0,
-          10,
-          50,
+          24,
+          1,
+          3,
+          6,
+          44,
           10
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "MOUNT EATON VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

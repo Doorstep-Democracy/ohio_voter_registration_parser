@@ -18,7 +18,7 @@ Aggregates pre-classified, enriched voter data by jurisdiction and exports:
   - JSON (6 chart types per jurisdiction, schema identical to precinct/county)
   - Excel (multi-sheet workbook, one sheet per jurisdiction type)
 
-Reuses COHORT_SLICES, export logic, and chart formatting from voter_data_cleaner_v2.
+Reuses COHORT_SLICES, export logic, and chart formatting from pipeline/voter_data_cleaner.py.
 Single-threaded main process reads cached enriched parquet once; ThreadPoolExecutor
 distributes aggregation across 8 workers per jurisdiction type.
 
@@ -107,11 +107,45 @@ def setup_logger(name='groupings', log_dir=LOGS_DIR):
     logger.addHandler(fh)
     logger.addHandler(ch)
 
+    # Verbose defaults: run context + native-crash tracebacks in this log.
+    # Rationale: voter_data_cleaner.setup_logging() docstring, "Logging policy".
+    import voter_data_cleaner as _v2
+    _v2.enable_crash_log(log_file, logger)
+    _v2.log_run_context(logger)
+
     return logger, log_file
 
 
+def _split_by_freshness(jurisdictions, sentinel_for, cutoff: float):
+    """Partition jurisdictions for resume into (current, stale, missing).
+
+    current -- sentinel exists and is newer than `cutoff`: reuse, skip.
+    stale   -- sentinel exists but is not newer than `cutoff`: regenerate.
+    missing -- no sentinel: generate.
+
+    Why a cutoff and not existence: until 2026-11-11 resume skipped any
+    jurisdiction whose sentinel existed. Files written under the old 7-cohort
+    taxonomy (May to July 2026) were then skipped as "already exported" by
+    every later regeneration, so the public site mixed data vintages (repo
+    evaluation P4). The caller sets `cutoff` to max(enriched cache mtime, this
+    module's mtime): a file older than the data or code that should produce it
+    is stale. Crash-resume still works, since files written earlier in an
+    interrupted run are newer than both.
+    """
+    current, stale, missing = set(), [], []
+    for j in jurisdictions:
+        s = sentinel_for(j)
+        if not s.exists():
+            missing.append(j)
+        elif s.stat().st_mtime > cutoff:
+            current.add(j)
+        else:
+            stale.append(j)
+    return current, stale, missing
+
+
 # ─────────────────────────────────────────────────────────────────────────────
-# Cohort definitions (copied from voter_data_cleaner_v2)
+# Cohort definitions (copied from pipeline/voter_data_cleaner.py)
 # ─────────────────────────────────────────────────────────────────────────────
 
 COHORT_SLICES = [
@@ -649,17 +683,8 @@ def export_jurisdiction_json(
 
 
 
-def _cache_is_fresh() -> bool:
-    """Return True iff enriched cache is newer than raw partitions AND classifier."""
-    if not ENRICHED_CACHE.exists():
-        return False
-    cache_mt = ENRICHED_CACHE.stat().st_mtime
-    raw_partitions = list(PARQUET_DIR.glob("COUNTY_NUMBER=*"))
-    if not raw_partitions:
-        return False
-    latest_raw    = max(p.stat().st_mtime for p in raw_partitions)
-    classifier_mt = CLASSIFIER_SRC.stat().st_mtime
-    return cache_mt > max(latest_raw, classifier_mt)
+# Enriched-cache freshness: voter_data_cleaner._cache_is_fresh() is the single
+# resolver (it also logs the verdict); this module used to keep a copy.
 
 
 def _write_cache_atomic(df, logger) -> None:
@@ -908,7 +933,7 @@ def main(
 
     # Load enriched voter data -- use persistent cache when fresh
     import voter_data_cleaner as _v2
-    if _cache_is_fresh():
+    if _v2._cache_is_fresh(logger):
         logger.info('Loading enriched voter data from persistent cache...')
         df = pl.read_parquet(ENRICHED_CACHE)
         logger.info(f'Loaded from cache: {df.height:,} rows x {df.width} columns')
@@ -929,6 +954,16 @@ def main(
     # Get election columns (any column matching PRIMARY-*, GENERAL-*, SPECIAL-* pattern)
     election_cols = [col for col in df.columns if col.split('-')[0] in ['PRIMARY', 'GENERAL', 'SPECIAL']]
     logger.info(f'Found {len(election_cols)} election history columns')
+
+    # Resume cutoff: an existing output file is reused only if it is newer than
+    # both the enriched cache it was aggregated from and this module's source
+    # (output shape is defined here). See _split_by_freshness().
+    resume_cutoff = max(ENRICHED_CACHE.stat().st_mtime, Path(__file__).stat().st_mtime)
+    logger.info(
+        'Resume cutoff %s: max(enriched cache %s, %s source %s)',
+        _v2._fmt_mtime(resume_cutoff), _v2._fmt_mtime(ENRICHED_CACHE.stat().st_mtime),
+        Path(__file__).name, _v2._fmt_mtime(Path(__file__).stat().st_mtime),
+    )
 
     # Aggregate each jurisdiction type
     jurisdiction_results = {}
@@ -989,11 +1024,11 @@ def main(
 
             logger.info(f'Aggregating {jurisdiction_type_key} ({column}): {len(jurisdictions)} jurisdictions')
 
-            # ── Resume: skip jurisdictions already exported ──────────────────
+            # ── Resume: skip jurisdictions already exported AND current ──────
             # Sentinel file: {slug}_party_affiliation.json.  Exists ⇒ all other
             # chart files for that jurisdiction were written in the same call
-            # (export_jurisdiction_json writes the bundle together), so the
-            # whole jurisdiction can safely be skipped on re-run.
+            # (export_jurisdiction_json writes the bundle together).  Existence
+            # alone is not enough: see _split_by_freshness() for the cutoff.
             type_dir = DATA_DIR / display.lower().replace(' ', '_')
 
             def _slug_for(jur_key) -> str:
@@ -1017,13 +1052,21 @@ def main(
                 logger.info(f'  {jurisdiction_type_key}: pruned {_pruned} ghost files before regen')
 
             if type_dir.exists():
-                already_done = {j for j in jurisdictions if _sentinel_for(j).exists()}
-                if already_done:
-                    logger.info(
-                        f'  Resume: {len(already_done)}/{len(jurisdictions)} '
-                        f'{jurisdiction_type_key} already exported — skipping'
+                current, stale, missing = _split_by_freshness(
+                    jurisdictions, _sentinel_for, resume_cutoff,
+                )
+                logger.info(
+                    f'  Resume {jurisdiction_type_key}: {len(current)} current (skipped), '
+                    f'{len(stale)} stale (older than cutoff, regenerating), '
+                    f'{len(missing)} missing'
+                )
+                if stale:
+                    oldest = min(_sentinel_for(j).stat().st_mtime for j in stale)
+                    logger.debug(
+                        f'    stale examples (oldest {_v2._fmt_mtime(oldest)}): '
+                        f'{[_slug_for(j) for j in stale[:10]]}'
                     )
-                    jurisdictions = [j for j in jurisdictions if j not in already_done]
+                jurisdictions = [j for j in jurisdictions if j not in current]
 
             if not jurisdictions:
                 logger.info(f'  {jurisdiction_type_key}: fully exported, skipping')

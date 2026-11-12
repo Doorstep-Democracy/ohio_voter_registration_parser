@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 276 (23%)",
-      "UNC – Lapsed R — 202 (17%)",
-      "Mixed – Active — 104 (9%)",
-      "Mixed – Lapsed — 73 (6%)",
-      "UNC – No Primary — 486 (40%)",
-      "UNC – Lapsed D — 67 (5%)",
-      "Pure D — 15 (1%)"
+      "Pure R — 268 (22%)",
+      "UNC – Lapsed R — 219 (18%)",
+      "Mixed – Active — 112 (9%)",
+      "Mixed – Lapsed — 37 (3%)",
+      "UNC – Non-partisan Ballot — 32 (3%)",
+      "UNC – No Primary — 483 (39%)",
+      "UNC – Lapsed D — 70 (6%)",
+      "Pure D — 14 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          276,
-          202,
-          104,
-          73,
-          486,
-          67,
-          15
+          268,
+          219,
+          112,
+          37,
+          32,
+          483,
+          70,
+          14
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MECHANIC (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,912",
-      "Mixed – Active — 924",
-      "Mixed – Lapsed — 1,062",
-      "UNC – No Primary — 6,789",
-      "UNC – Lapsed D — 1,531"
+      "UNC – Lapsed R — 1,598",
+      "Mixed – Active — 1,156",
+      "Mixed – Lapsed — 333",
+      "UNC – Non-partisan Ballot — 616",
+      "UNC – No Primary — 6,346",
+      "UNC – Lapsed D — 1,178"
     ],
     "datasets": [
       {
         "data": [
-          1912,
-          924,
-          1062,
-          6789,
-          1531
+          1598,
+          1156,
+          333,
+          616,
+          6346,
+          1178
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

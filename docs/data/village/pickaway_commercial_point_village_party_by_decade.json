@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          2,
+          1,
           27,
-          65,
-          92,
-          111,
-          149,
-          78,
-          20
+          62,
+          108,
+          113,
+          148,
+          72,
+          21
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          15,
-          25,
-          63,
-          49,
-          94,
-          52,
-          3
+          13,
+          30,
+          51,
+          54,
+          104,
+          62,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,14 +46,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
-          7,
-          28,
-          23,
-          52,
-          33,
-          11,
-          0
+          2,
+          9,
+          31,
+          35,
+          55,
+          34,
+          13,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -61,29 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          18,
-          17,
-          56,
-          47,
-          102,
-          56,
-          26
+          1,
+          10,
+          8,
+          20,
+          11,
+          21,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          6,
+          8,
+          27,
+          31,
+          81,
+          54,
+          22
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          12,
-          29,
+          10,
+          25,
           72,
-          128,
-          242,
-          319,
-          211
+          140,
+          265,
+          340,
+          243
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,13 +107,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          13,
-          20,
-          25,
-          65,
-          56,
-          34,
-          1
+          10,
+          15,
+          23,
+          58,
+          62,
+          36,
+          0
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -106,22 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          11,
+          1,
+          13,
+          31,
+          25,
+          36,
+          46,
           27,
-          15,
-          29,
-          39,
-          15,
-          11
+          18
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "COMMERCIAL POINT VILLAGE (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

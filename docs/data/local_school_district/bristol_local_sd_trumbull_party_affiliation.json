@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 506 (16%)",
-      "UNC – Lapsed R — 315 (10%)",
-      "Mixed – Active — 402 (13%)",
-      "Mixed – Lapsed — 239 (8%)",
-      "UNC – No Primary — 1,222 (38%)",
-      "UNC – Lapsed D — 291 (9%)",
-      "Pure D — 202 (6%)"
+      "Pure R — 502 (16%)",
+      "UNC – Lapsed R — 309 (10%)",
+      "Mixed – Active — 397 (13%)",
+      "Mixed – Lapsed — 128 (4%)",
+      "UNC – Non-partisan Ballot — 115 (4%)",
+      "UNC – No Primary — 1,236 (39%)",
+      "UNC – Lapsed D — 288 (9%)",
+      "Pure D — 197 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          506,
-          315,
-          402,
-          239,
-          1222,
-          291,
-          202
+          502,
+          309,
+          397,
+          128,
+          115,
+          1236,
+          288,
+          197
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Bristol Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

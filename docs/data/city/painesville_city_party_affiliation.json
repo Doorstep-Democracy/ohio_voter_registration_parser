@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 724 (7%)",
-      "UNC – Lapsed R — 577 (6%)",
-      "Mixed – Active — 578 (6%)",
-      "Mixed – Lapsed — 560 (6%)",
-      "UNC – No Primary — 5,460 (54%)",
-      "UNC – Lapsed D — 1,556 (15%)",
-      "Pure D — 673 (7%)"
+      "Pure R — 652 (6%)",
+      "UNC – Lapsed R — 659 (6%)",
+      "Mixed – Active — 566 (6%)",
+      "Mixed – Lapsed — 353 (3%)",
+      "UNC – Non-partisan Ballot — 237 (2%)",
+      "UNC – No Primary — 5,469 (53%)",
+      "UNC – Lapsed D — 1,466 (14%)",
+      "Pure D — 861 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          724,
-          577,
-          578,
-          560,
-          5460,
-          1556,
-          673
+          652,
+          659,
+          566,
+          353,
+          237,
+          5469,
+          1466,
+          861
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "PAINESVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

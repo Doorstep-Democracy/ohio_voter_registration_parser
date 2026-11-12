@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,752 (19%)",
-      "UNC – Lapsed R — 1,837 (20%)",
-      "Mixed – Active — 614 (7%)",
-      "Mixed – Lapsed — 900 (10%)",
-      "UNC – No Primary — 2,961 (32%)",
-      "UNC – Lapsed D — 867 (9%)",
-      "Pure D — 419 (4%)"
+      "Pure R — 1,739 (18%)",
+      "UNC – Lapsed R — 1,829 (19%)",
+      "Mixed – Active — 608 (6%)",
+      "Mixed – Lapsed — 418 (4%)",
+      "UNC – Non-partisan Ballot — 484 (5%)",
+      "UNC – No Primary — 3,074 (33%)",
+      "UNC – Lapsed D — 862 (9%)",
+      "Pure D — 411 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1752,
-          1837,
-          614,
-          900,
-          2961,
-          867,
-          419
+          1739,
+          1829,
+          608,
+          418,
+          484,
+          3074,
+          862,
+          411
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Bloom-Carroll Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

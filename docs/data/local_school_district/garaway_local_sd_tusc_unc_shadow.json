@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 951",
+      "UNC – Lapsed R — 954",
       "Mixed – Active — 263",
-      "Mixed – Lapsed — 395",
-      "UNC – No Primary — 2,194",
-      "UNC – Lapsed D — 316"
+      "Mixed – Lapsed — 194",
+      "UNC – Non-partisan Ballot — 194",
+      "UNC – No Primary — 2,214",
+      "UNC – Lapsed D — 312"
     ],
     "datasets": [
       {
         "data": [
-          951,
+          954,
           263,
-          395,
-          2194,
-          316
+          194,
+          194,
+          2214,
+          312
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Garaway Local Sd (Tusc Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

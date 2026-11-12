@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 276 (12%)",
-      "UNC – Lapsed R — 388 (17%)",
+      "Pure R — 277 (12%)",
+      "UNC – Lapsed R — 385 (17%)",
       "Mixed – Active — 147 (7%)",
-      "Mixed – Lapsed — 157 (7%)",
-      "UNC – No Primary — 1,075 (48%)",
+      "Mixed – Lapsed — 122 (5%)",
+      "UNC – Non-partisan Ballot — 35 (2%)",
+      "UNC – No Primary — 1,094 (48%)",
       "UNC – Lapsed D — 143 (6%)",
       "Pure D — 57 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          276,
-          388,
+          277,
+          385,
           147,
-          157,
-          1075,
+          122,
+          35,
+          1094,
           143,
           57
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Mississinawa Valley Local Sd (Darke Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

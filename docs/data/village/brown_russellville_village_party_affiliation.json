@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 62 (19%)",
-      "UNC – Lapsed R — 25 (8%)",
+      "Pure R — 72 (21%)",
+      "UNC – Lapsed R — 23 (7%)",
       "Mixed – Active — 29 (9%)",
-      "Mixed – Lapsed — 15 (5%)",
-      "UNC – No Primary — 152 (46%)",
-      "UNC – Lapsed D — 35 (11%)",
-      "Pure D — 15 (5%)"
+      "Mixed – Lapsed — 12 (4%)",
+      "UNC – Non-partisan Ballot — 3 (1%)",
+      "UNC – No Primary — 147 (44%)",
+      "UNC – Lapsed D — 29 (9%)",
+      "Pure D — 20 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          62,
-          25,
+          72,
+          23,
           29,
-          15,
-          152,
-          35,
-          15
+          12,
+          3,
+          147,
+          29,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "RUSSELLVILLE VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

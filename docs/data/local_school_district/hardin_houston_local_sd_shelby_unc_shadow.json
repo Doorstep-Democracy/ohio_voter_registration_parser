@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 503",
-      "Mixed – Active — 321",
-      "Mixed – Lapsed — 261",
-      "UNC – No Primary — 1,142",
-      "UNC – Lapsed D — 199"
+      "UNC – Lapsed R — 501",
+      "Mixed – Active — 317",
+      "Mixed – Lapsed — 194",
+      "UNC – Non-partisan Ballot — 62",
+      "UNC – No Primary — 1,161",
+      "UNC – Lapsed D — 197"
     ],
     "datasets": [
       {
         "data": [
-          503,
-          321,
-          261,
-          1142,
-          199
+          501,
+          317,
+          194,
+          62,
+          1161,
+          197
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Hardin-Houston Local Sd (Shelby Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

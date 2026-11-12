@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,607 (17%)",
+      "Pure R — 1,589 (17%)",
       "UNC – Lapsed R — 1,103 (12%)",
-      "Mixed – Active — 1,079 (11%)",
-      "Mixed – Lapsed — 977 (10%)",
-      "UNC – No Primary — 2,844 (30%)",
-      "UNC – Lapsed D — 1,019 (11%)",
-      "Pure D — 806 (9%)"
+      "Mixed – Active — 1,073 (11%)",
+      "Mixed – Lapsed — 489 (5%)",
+      "UNC – Non-partisan Ballot — 488 (5%)",
+      "UNC – No Primary — 2,920 (31%)",
+      "UNC – Lapsed D — 1,010 (11%)",
+      "Pure D — 799 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1607,
+          1589,
           1103,
-          1079,
-          977,
-          2844,
-          1019,
-          806
+          1073,
+          489,
+          488,
+          2920,
+          1010,
+          799
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Northwest Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

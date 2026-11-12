@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 32",
-      "Mixed – Active — 37",
-      "Mixed – Lapsed — 27",
-      "UNC – No Primary — 147",
-      "UNC – Lapsed D — 25"
+      "UNC – Lapsed R — 36",
+      "Mixed – Active — 40",
+      "Mixed – Lapsed — 12",
+      "UNC – Non-partisan Ballot — 14",
+      "UNC – No Primary — 138",
+      "UNC – Lapsed D — 23"
     ],
     "datasets": [
       {
         "data": [
-          32,
-          37,
-          27,
-          147,
-          25
+          36,
+          40,
+          12,
+          14,
+          138,
+          23
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

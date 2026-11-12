@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,050 (14%)",
-      "UNC – Lapsed R — 3,528 (12%)",
-      "Mixed – Active — 2,789 (10%)",
-      "Mixed – Lapsed — 2,801 (10%)",
-      "UNC – No Primary — 8,998 (31%)",
-      "UNC – Lapsed D — 3,253 (11%)",
-      "Pure D — 3,455 (12%)"
+      "Pure R — 3,316 (11%)",
+      "UNC – Lapsed R — 4,061 (14%)",
+      "Mixed – Active — 2,871 (10%)",
+      "Mixed – Lapsed — 1,491 (5%)",
+      "UNC – Non-partisan Ballot — 1,294 (4%)",
+      "UNC – No Primary — 8,804 (30%)",
+      "UNC – Lapsed D — 3,223 (11%)",
+      "Pure D — 4,118 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          4050,
-          3528,
-          2789,
-          2801,
-          8998,
-          3253,
-          3455
+          3316,
+          4061,
+          2871,
+          1491,
+          1294,
+          8804,
+          3223,
+          4118
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "UPPER ARLINGTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 41 (23%)",
-      "UNC – Lapsed R — 20 (11%)",
-      "Mixed – Active — 7 (4%)",
-      "Mixed – Lapsed — 17 (9%)",
-      "UNC – No Primary — 79 (44%)",
+      "Pure R — 38 (21%)",
+      "UNC – Lapsed R — 24 (13%)",
+      "Mixed – Active — 9 (5%)",
+      "Mixed – Lapsed — 4 (2%)",
+      "UNC – Non-partisan Ballot — 10 (6%)",
+      "UNC – No Primary — 77 (43%)",
       "UNC – Lapsed D — 15 (8%)",
-      "Pure D — 2 (1%)"
+      "Pure D — 3 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          41,
-          20,
-          7,
-          17,
-          79,
+          38,
+          24,
+          9,
+          4,
+          10,
+          77,
           15,
-          2
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BEAVERDAM VILLAGE (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

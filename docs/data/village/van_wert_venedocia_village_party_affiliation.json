@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 12 (13%)",
-      "UNC – Lapsed R — 12 (13%)",
-      "Mixed – Active — 5 (5%)",
-      "Mixed – Lapsed — 8 (9%)",
-      "UNC – No Primary — 52 (55%)",
-      "UNC – Lapsed D — 5 (5%)",
+      "Pure R — 13 (14%)",
+      "UNC – Lapsed R — 13 (14%)",
+      "Mixed – Active — 7 (7%)",
+      "Mixed – Lapsed — 4 (4%)",
+      "UNC – Non-partisan Ballot — 4 (4%)",
+      "UNC – No Primary — 50 (53%)",
+      "UNC – Lapsed D — 4 (4%)",
       "Pure D — 0 (0%)"
     ],
     "datasets": [
       {
         "data": [
-          12,
-          12,
-          5,
-          8,
-          52,
-          5,
+          13,
+          13,
+          7,
+          4,
+          4,
+          50,
+          4,
           0
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "VENEDOCIA VILLAGE (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

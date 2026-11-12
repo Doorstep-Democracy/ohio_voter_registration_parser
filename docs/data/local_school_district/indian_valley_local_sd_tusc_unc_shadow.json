@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 589",
-      "Mixed – Active — 625",
-      "Mixed – Lapsed — 623",
-      "UNC – No Primary — 2,457",
-      "UNC – Lapsed D — 893"
+      "UNC – Lapsed R — 584",
+      "Mixed – Active — 627",
+      "Mixed – Lapsed — 315",
+      "UNC – Non-partisan Ballot — 304",
+      "UNC – No Primary — 2,484",
+      "UNC – Lapsed D — 884"
     ],
     "datasets": [
       {
         "data": [
-          589,
-          625,
-          623,
-          2457,
-          893
+          584,
+          627,
+          315,
+          304,
+          2484,
+          884
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Indian Valley Local Sd (Tusc Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

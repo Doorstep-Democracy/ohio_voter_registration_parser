@@ -284,7 +284,7 @@ def export_cohort_targets(df: pl.DataFrame, primary_cols: list[str],
                            logger: logging.Logger) -> None:
     """
     Write per-cohort CSVs for currently-affiliated D and R voters using the
-    universal classifier defined in voter_data_cleaner_v2.
+    universal classifier defined in pipeline/voter_data_cleaner.py.
 
     Outputs (one CSV per cohort, full source columns + cohort scoring fields):
         All_Affiliated_D/{county}_ALL_AFFILIATED_D_targets.csv

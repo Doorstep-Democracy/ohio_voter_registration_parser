@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,560 (17%)",
-      "UNC – Lapsed R — 2,110 (14%)",
-      "Mixed – Active — 1,277 (9%)",
-      "Mixed – Lapsed — 896 (6%)",
+      "Pure R — 2,265 (15%)",
+      "UNC – Lapsed R — 2,452 (17%)",
+      "Mixed – Active — 1,158 (8%)",
+      "Mixed – Lapsed — 924 (6%)",
+      "UNC – Non-partisan Ballot — 93 (1%)",
       "UNC – No Primary — 5,809 (39%)",
-      "UNC – Lapsed D — 1,533 (10%)",
-      "Pure D — 531 (4%)"
+      "UNC – Lapsed D — 1,468 (10%)",
+      "Pure D — 596 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          2560,
-          2110,
-          1277,
-          896,
+          2265,
+          2452,
+          1158,
+          924,
+          93,
           5809,
-          1533,
-          531
+          1468,
+          596
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "IRONTON (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

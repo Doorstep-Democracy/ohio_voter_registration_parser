@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 198",
-      "Mixed – Active — 113",
-      "Mixed – Lapsed — 93",
-      "UNC – No Primary — 643",
-      "UNC – Lapsed D — 104"
+      "UNC – Lapsed R — 206",
+      "Mixed – Active — 115",
+      "Mixed – Lapsed — 63",
+      "UNC – Non-partisan Ballot — 34",
+      "UNC – No Primary — 627",
+      "UNC – Lapsed D — 101"
     ],
     "datasets": [
       {
         "data": [
-          198,
-          113,
-          93,
-          643,
-          104
+          206,
+          115,
+          63,
+          34,
+          627,
+          101
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

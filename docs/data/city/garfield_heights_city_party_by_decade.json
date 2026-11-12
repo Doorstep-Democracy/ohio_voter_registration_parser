@@ -18,12 +18,12 @@
         "label": "Pure R",
         "data": [
           2,
-          16,
+          15,
           67,
-          136,
-          102,
-          47,
-          23,
+          135,
+          101,
+          48,
+          22,
           25,
           8
         ],
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          19,
-          36,
-          89,
-          141,
+          20,
+          35,
+          88,
+          140,
           62,
+          56,
           55,
-          54,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -50,11 +50,11 @@
         "label": "Mixed – Active",
         "data": [
           4,
-          56,
+          53,
           169,
-          269,
-          176,
-          84,
+          267,
+          171,
+          85,
           32,
           20,
           5
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           5,
-          33,
-          86,
-          218,
-          235,
-          191,
-          154,
-          110,
-          52
+          27,
+          55,
+          128,
+          103,
+          65,
+          37,
+          5,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          5,
+          28,
+          79,
+          113,
+          113,
+          111,
+          93,
+          41
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          7,
-          15,
-          126,
-          381,
-          788,
-          1166,
-          1804,
-          2601,
-          1861
+          6,
+          16,
+          125,
+          391,
+          822,
+          1208,
+          1843,
+          2708,
+          2100
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          13,
-          105,
-          258,
-          589,
-          832,
-          916,
-          874,
-          451,
-          35
+          11,
+          99,
+          254,
+          579,
+          833,
+          912,
+          872,
+          455,
+          36
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           7,
-          104,
-          323,
-          683,
-          593,
-          438,
-          241,
-          186,
-          119
+          95,
+          319,
+          684,
+          595,
+          434,
+          243,
+          190,
+          114
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "GARFIELD HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

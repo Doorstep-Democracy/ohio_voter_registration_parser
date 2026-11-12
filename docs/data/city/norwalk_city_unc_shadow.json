@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 906",
-      "Mixed – Active — 714",
-      "Mixed – Lapsed — 776",
-      "UNC – No Primary — 4,687",
-      "UNC – Lapsed D — 1,031"
+      "UNC – Lapsed R — 957",
+      "Mixed – Active — 759",
+      "Mixed – Lapsed — 315",
+      "UNC – Non-partisan Ballot — 448",
+      "UNC – No Primary — 4,595",
+      "UNC – Lapsed D — 948"
     ],
     "datasets": [
       {
         "data": [
-          906,
-          714,
-          776,
-          4687,
-          1031
+          957,
+          759,
+          315,
+          448,
+          4595,
+          948
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NORWALK CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

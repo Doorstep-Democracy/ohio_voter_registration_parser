@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 689",
-      "Mixed – Active — 544",
-      "Mixed – Lapsed — 485",
-      "UNC – No Primary — 2,319",
-      "UNC – Lapsed D — 362"
+      "UNC – Lapsed R — 1,174",
+      "Mixed – Active — 428",
+      "Mixed – Lapsed — 322",
+      "UNC – Non-partisan Ballot — 291",
+      "UNC – No Primary — 2,324",
+      "UNC – Lapsed D — 415"
     ],
     "datasets": [
       {
         "data": [
-          689,
-          544,
-          485,
-          2319,
-          362
+          1174,
+          428,
+          322,
+          291,
+          2324,
+          415
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CLINTON TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

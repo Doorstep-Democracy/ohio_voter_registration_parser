@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 67",
-      "Mixed – Active — 90",
-      "Mixed – Lapsed — 30",
-      "UNC – No Primary — 261",
-      "UNC – Lapsed D — 49"
+      "UNC – Lapsed R — 70",
+      "Mixed – Active — 98",
+      "Mixed – Lapsed — 17",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 247",
+      "UNC – Lapsed D — 41"
     ],
     "datasets": [
       {
         "data": [
-          67,
-          90,
-          30,
-          261,
-          49
+          70,
+          98,
+          17,
+          9,
+          247,
+          41
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALEM TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

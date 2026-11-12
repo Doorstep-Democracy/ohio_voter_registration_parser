@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 185",
-      "Mixed – Active — 344",
-      "Mixed – Lapsed — 252",
-      "UNC – No Primary — 997",
-      "UNC – Lapsed D — 492"
+      "UNC – Lapsed R — 188",
+      "Mixed – Active — 341",
+      "Mixed – Lapsed — 181",
+      "UNC – Non-partisan Ballot — 73",
+      "UNC – No Primary — 1,023",
+      "UNC – Lapsed D — 498"
     ],
     "datasets": [
       {
         "data": [
-          185,
-          344,
-          252,
-          997,
-          492
+          188,
+          341,
+          181,
+          73,
+          1023,
+          498
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "ORANGE CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,588 (13%)",
-      "UNC – Lapsed R — 1,567 (13%)",
-      "Mixed – Active — 776 (6%)",
-      "Mixed – Lapsed — 770 (6%)",
-      "UNC – No Primary — 6,194 (50%)",
-      "UNC – Lapsed D — 1,197 (10%)",
-      "Pure D — 369 (3%)"
+      "Pure R — 1,525 (12%)",
+      "UNC – Lapsed R — 1,638 (13%)",
+      "Mixed – Active — 841 (7%)",
+      "Mixed – Lapsed — 543 (4%)",
+      "UNC – Non-partisan Ballot — 194 (2%)",
+      "UNC – No Primary — 6,174 (49%)",
+      "UNC – Lapsed D — 1,087 (9%)",
+      "Pure D — 526 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1588,
-          1567,
-          776,
-          770,
-          6194,
-          1197,
-          369
+          1525,
+          1638,
+          841,
+          543,
+          194,
+          6174,
+          1087,
+          526
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "PIQUA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

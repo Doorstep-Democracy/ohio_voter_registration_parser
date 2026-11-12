@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,197 (12%)",
-      "UNC – Lapsed R — 1,399 (14%)",
-      "Mixed – Active — 1,215 (12%)",
-      "Mixed – Lapsed — 1,171 (12%)",
-      "UNC – No Primary — 2,769 (28%)",
-      "UNC – Lapsed D — 1,012 (10%)",
-      "Pure D — 1,035 (11%)"
+      "Pure R — 1,333 (12%)",
+      "UNC – Lapsed R — 1,536 (14%)",
+      "Mixed – Active — 1,349 (12%)",
+      "Mixed – Lapsed — 767 (7%)",
+      "UNC – Non-partisan Ballot — 534 (5%)",
+      "UNC – No Primary — 3,109 (28%)",
+      "UNC – Lapsed D — 1,156 (11%)",
+      "Pure D — 1,162 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1197,
-          1399,
-          1215,
-          1171,
-          2769,
-          1012,
-          1035
+          1333,
+          1536,
+          1349,
+          767,
+          534,
+          3109,
+          1156,
+          1162
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BRECKSVILLE CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

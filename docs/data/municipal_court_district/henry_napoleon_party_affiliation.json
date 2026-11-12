@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,775 (25%)",
-      "UNC – Lapsed R — 2,245 (12%)",
-      "Mixed – Active — 1,705 (9%)",
-      "Mixed – Lapsed — 1,324 (7%)",
-      "UNC – No Primary — 6,537 (35%)",
-      "UNC – Lapsed D — 1,386 (7%)",
-      "Pure D — 833 (4%)"
+      "Pure R — 4,762 (25%)",
+      "UNC – Lapsed R — 2,320 (12%)",
+      "Mixed – Active — 1,713 (9%)",
+      "Mixed – Lapsed — 632 (3%)",
+      "UNC – Non-partisan Ballot — 677 (4%)",
+      "UNC – No Primary — 6,548 (35%)",
+      "UNC – Lapsed D — 1,328 (7%)",
+      "Pure D — 928 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          4775,
-          2245,
-          1705,
-          1324,
-          6537,
-          1386,
-          833
+          4762,
+          2320,
+          1713,
+          632,
+          677,
+          6548,
+          1328,
+          928
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "NAPOLEON (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 422",
-      "Mixed – Active — 240",
-      "Mixed – Lapsed — 231",
-      "UNC – No Primary — 1,533",
-      "UNC – Lapsed D — 365"
+      "UNC – Lapsed R — 463",
+      "Mixed – Active — 226",
+      "Mixed – Lapsed — 185",
+      "UNC – Non-partisan Ballot — 57",
+      "UNC – No Primary — 1,532",
+      "UNC – Lapsed D — 356"
     ],
     "datasets": [
       {
         "data": [
-          422,
-          240,
-          231,
-          1533,
-          365
+          463,
+          226,
+          185,
+          57,
+          1532,
+          356
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

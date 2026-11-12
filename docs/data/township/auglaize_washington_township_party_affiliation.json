@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 453 (32%)",
-      "UNC – Lapsed R — 299 (21%)",
-      "Mixed – Active — 73 (5%)",
-      "Mixed – Lapsed — 90 (6%)",
-      "UNC – No Primary — 437 (31%)",
-      "UNC – Lapsed D — 44 (3%)",
-      "Pure D — 11 (1%)"
+      "Pure R — 427 (30%)",
+      "UNC – Lapsed R — 342 (24%)",
+      "Mixed – Active — 76 (5%)",
+      "Mixed – Lapsed — 52 (4%)",
+      "UNC – Non-partisan Ballot — 34 (2%)",
+      "UNC – No Primary — 418 (30%)",
+      "UNC – Lapsed D — 38 (3%)",
+      "Pure D — 15 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          453,
-          299,
-          73,
-          90,
-          437,
-          44,
-          11
+          427,
+          342,
+          76,
+          52,
+          34,
+          418,
+          38,
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 643 (4%)",
-      "UNC – Lapsed R — 828 (5%)",
-      "Mixed – Active — 943 (5%)",
-      "Mixed – Lapsed — 789 (5%)",
-      "UNC – No Primary — 8,439 (49%)",
-      "UNC – Lapsed D — 2,830 (16%)",
-      "Pure D — 2,722 (16%)"
+      "Pure R — 637 (3%)",
+      "UNC – Lapsed R — 833 (5%)",
+      "Mixed – Active — 998 (5%)",
+      "Mixed – Lapsed — 536 (3%)",
+      "UNC – Non-partisan Ballot — 287 (2%)",
+      "UNC – No Primary — 9,062 (50%)",
+      "UNC – Lapsed D — 2,802 (15%)",
+      "Pure D — 3,111 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          643,
-          828,
-          943,
-          789,
-          8439,
-          2830,
-          2722
+          637,
+          833,
+          998,
+          536,
+          287,
+          9062,
+          2802,
+          3111
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ATHENS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

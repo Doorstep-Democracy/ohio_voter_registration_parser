@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 7 (12%)",
-      "UNC – Lapsed R — 6 (10%)",
+      "Pure R — 10 (17%)",
+      "UNC – Lapsed R — 4 (7%)",
       "Mixed – Active — 4 (7%)",
       "Mixed – Lapsed — 4 (7%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
       "UNC – No Primary — 25 (42%)",
-      "UNC – Lapsed D — 10 (17%)",
-      "Pure D — 3 (5%)"
+      "UNC – Lapsed D — 8 (14%)",
+      "Pure D — 4 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          7,
-          6,
-          4,
-          4,
-          25,
           10,
-          3
+          4,
+          4,
+          4,
+          0,
+          25,
+          8,
+          4
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GRATIOT VILLAGE (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

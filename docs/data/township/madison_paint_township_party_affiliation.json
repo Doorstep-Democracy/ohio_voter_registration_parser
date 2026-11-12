@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 143 (37%)",
-      "UNC – Lapsed R — 47 (12%)",
-      "Mixed – Active — 31 (8%)",
-      "Mixed – Lapsed — 28 (7%)",
-      "UNC – No Primary — 108 (28%)",
-      "UNC – Lapsed D — 25 (6%)",
-      "Pure D — 6 (2%)"
+      "Pure R — 137 (36%)",
+      "UNC – Lapsed R — 49 (13%)",
+      "Mixed – Active — 32 (8%)",
+      "Mixed – Lapsed — 7 (2%)",
+      "UNC – Non-partisan Ballot — 22 (6%)",
+      "UNC – No Primary — 107 (28%)",
+      "UNC – Lapsed D — 20 (5%)",
+      "Pure D — 11 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          143,
-          47,
-          31,
-          28,
-          108,
-          25,
-          6
+          137,
+          49,
+          32,
+          7,
+          22,
+          107,
+          20,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PAINT TOWNSHIP (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

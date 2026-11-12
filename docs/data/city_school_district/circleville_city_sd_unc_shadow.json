@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 790",
-      "Mixed – Active — 1,089",
-      "Mixed – Lapsed — 546",
-      "UNC – No Primary — 3,621",
-      "UNC – Lapsed D — 845"
+      "UNC – Lapsed R — 959",
+      "Mixed – Active — 1,075",
+      "Mixed – Lapsed — 345",
+      "UNC – Non-partisan Ballot — 238",
+      "UNC – No Primary — 3,637",
+      "UNC – Lapsed D — 791"
     ],
     "datasets": [
       {
         "data": [
-          790,
-          1089,
-          546,
-          3621,
-          845
+          959,
+          1075,
+          345,
+          238,
+          3637,
+          791
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "CIRCLEVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

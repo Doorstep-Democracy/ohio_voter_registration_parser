@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 94 (14%)",
-      "UNC – Lapsed R — 74 (11%)",
+      "Pure R — 79 (12%)",
+      "UNC – Lapsed R — 87 (13%)",
       "Mixed – Active — 39 (6%)",
-      "Mixed – Lapsed — 38 (6%)",
-      "UNC – No Primary — 303 (46%)",
-      "UNC – Lapsed D — 83 (13%)",
+      "Mixed – Lapsed — 36 (5%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 313 (47%)",
+      "UNC – Lapsed D — 86 (13%)",
       "Pure D — 22 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          94,
-          74,
+          79,
+          87,
           39,
-          38,
-          303,
-          83,
+          36,
+          5,
+          313,
+          86,
           22
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MIFFLIN TOWNSHIP (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

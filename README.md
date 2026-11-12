@@ -27,14 +27,13 @@ Outputs interactive web dashboard JSON for all 88 counties and optional Excel wo
 
 | File | Purpose |
 |---|---|
-| `tools/lookup/voter_lookup.py` | Parquet-backed individual voter lookup |
-| `tools/lookup/raw_voter_lookup.py` | Raw text file voter lookup (pre-Parquet) |
+| `tools/lookup/voter_lookup_parquet.py` | Parquet-backed individual voter lookup |
+| `tools/lookup/voter_lookup_source.py` | Raw text file voter lookup (pre-Parquet) |
 
 **Admin (`tools/admin/`)**
 
 | File | Purpose |
 |---|---|
-| `tools/admin/archive_state.py` | Timestamped snapshot of CLAUDE.md / MEMORY.md before overwrite |
 | `tools/admin/precinct_key_manager.py` | Scrape and aggregate Ohio BoE precinct keys |
 | `tools/admin/clean_precinct_keys.py` | Remove redundant columns from scraped precinct CSVs |
 | `tools/admin/regen_city_summary.py` | Repair operator: regenerate `*_city_summary.json` from Parquet |

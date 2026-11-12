@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,080 (24%)",
-      "UNC – Lapsed R — 894 (19%)",
-      "Mixed – Active — 237 (5%)",
-      "Mixed – Lapsed — 452 (10%)",
-      "UNC – No Primary — 1,565 (34%)",
-      "UNC – Lapsed D — 252 (5%)",
-      "Pure D — 105 (2%)"
+      "Pure R — 1,104 (24%)",
+      "UNC – Lapsed R — 916 (20%)",
+      "Mixed – Active — 288 (6%)",
+      "Mixed – Lapsed — 187 (4%)",
+      "UNC – Non-partisan Ballot — 212 (5%)",
+      "UNC – No Primary — 1,557 (34%)",
+      "UNC – Lapsed D — 238 (5%)",
+      "Pure D — 128 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1080,
-          894,
-          237,
-          452,
-          1565,
-          252,
-          105
+          1104,
+          916,
+          288,
+          187,
+          212,
+          1557,
+          238,
+          128
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GERMAN TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

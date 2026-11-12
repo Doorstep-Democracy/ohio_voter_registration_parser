@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 304 (33%)",
-      "UNC – Lapsed R — 110 (12%)",
-      "Mixed – Active — 74 (8%)",
-      "Mixed – Lapsed — 30 (3%)",
-      "UNC – No Primary — 322 (35%)",
-      "UNC – Lapsed D — 43 (5%)",
-      "Pure D — 30 (3%)"
+      "Pure R — 298 (33%)",
+      "UNC – Lapsed R — 123 (13%)",
+      "Mixed – Active — 69 (8%)",
+      "Mixed – Lapsed — 29 (3%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 318 (35%)",
+      "UNC – Lapsed D — 38 (4%)",
+      "Pure D — 29 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          304,
-          110,
-          74,
-          30,
-          322,
-          43,
-          30
+          298,
+          123,
+          69,
+          29,
+          9,
+          318,
+          38,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BRATTON TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

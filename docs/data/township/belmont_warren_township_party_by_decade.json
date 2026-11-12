@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           3,
-          28,
-          64,
-          106,
-          99,
-          66,
-          64,
-          30,
-          13
+          25,
+          63,
+          113,
+          103,
+          70,
+          58,
+          31,
+          22
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          12,
-          29,
-          61,
-          67,
-          62,
+          14,
+          30,
+          57,
           63,
-          47,
-          5
+          66,
+          72,
+          54,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          22,
-          57,
-          110,
-          70,
-          46,
           19,
-          6,
+          59,
+          113,
+          81,
+          50,
+          20,
+          5,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -67,29 +67,45 @@
         "data": [
           1,
           8,
-          43,
-          54,
-          84,
-          61,
-          76,
-          19,
-          3
+          26,
+          27,
+          37,
+          23,
+          28,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          14,
+          25,
+          42,
+          32,
+          48,
+          18,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          7,
-          37,
-          89,
-          148,
-          192,
-          315,
-          367,
-          320
+          6,
+          34,
+          82,
+          145,
+          182,
+          307,
+          371,
+          332
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          23,
-          53,
-          94,
-          123,
-          69,
+          18,
+          48,
+          78,
+          111,
           63,
-          39,
-          5
+          61,
+          36,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           1,
-          20,
-          44,
-          73,
-          39,
-          14,
-          7,
-          7,
-          4
+          19,
+          46,
+          86,
+          43,
+          18,
+          9,
+          10,
+          9
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WARREN TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

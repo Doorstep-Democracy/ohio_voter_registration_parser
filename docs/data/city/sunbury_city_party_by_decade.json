@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          21,
-          89,
-          158,
-          156,
-          155,
-          149,
-          48,
-          27
+          1,
+          20,
+          91,
+          165,
+          153,
+          147,
+          186,
+          65,
+          35
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
-          25,
-          41,
-          76,
-          122,
-          179,
-          209,
-          147,
-          18
+          6,
+          24,
+          42,
+          85,
+          133,
+          208,
+          210,
+          151,
+          22
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
+          1,
           11,
-          52,
-          70,
+          47,
           72,
-          64,
-          38,
-          9,
+          76,
+          70,
+          50,
+          15,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -65,17 +65,33 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          2,
           7,
-          27,
-          61,
-          74,
-          116,
-          114,
-          46,
-          8
+          20,
+          44,
+          42,
+          53,
+          40,
+          12,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          12,
+          22,
+          30,
+          66,
+          71,
+          34,
+          9
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           2,
           7,
-          35,
-          74,
-          135,
-          242,
-          527,
-          595,
-          516
+          30,
+          67,
+          129,
+          243,
+          517,
+          613,
+          554
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +114,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          6,
-          30,
-          50,
+          5,
+          28,
+          45,
           71,
-          113,
-          148,
-          59,
+          112,
+          140,
+          58,
           9
         ],
         "backgroundColor": "#93c5fd",
@@ -115,21 +131,21 @@
         "data": [
           0,
           4,
-          28,
-          38,
-          33,
+          29,
+          49,
+          39,
+          50,
+          51,
           43,
-          33,
-          24,
-          12
+          32
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SUNBURY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          27,
-          107,
-          169,
-          129,
-          63,
-          28,
-          22,
-          18
+          0,
+          21,
+          94,
+          170,
+          148,
+          75,
+          53,
+          41,
+          20
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          8,
-          38,
-          89,
-          132,
-          93,
-          79,
-          62,
-          8
+          10,
+          48,
+          85,
+          117,
+          92,
+          70,
+          58,
+          14
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          37,
-          163,
-          238,
-          138,
-          53,
-          19,
-          5,
+          28,
+          167,
+          254,
+          174,
+          75,
+          23,
+          7,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          14,
-          86,
-          134,
-          155,
-          140,
-          58,
-          39,
-          19
+          18,
+          66,
+          76,
+          83,
+          59,
+          23,
+          7,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          15,
+          43,
+          43,
+          54,
+          32,
+          32,
+          17
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          13,
-          42,
-          98,
-          130,
-          187,
-          252,
-          362,
-          398
+          9,
+          37,
+          89,
+          114,
+          171,
+          239,
+          352,
+          404
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          27,
+          24,
+          55,
+          105,
+          103,
+          117,
+          116,
           59,
-          138,
-          131,
-          135,
-          135,
-          58,
-          13
+          12
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +131,21 @@
         "data": [
           1,
           16,
-          98,
-          126,
-          54,
-          39,
-          27,
-          9,
-          3
+          102,
+          163,
+          75,
+          61,
+          50,
+          18,
+          18
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "HURON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

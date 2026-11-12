@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,852 (26%)",
-      "UNC – Lapsed R — 948 (14%)",
-      "Mixed – Active — 614 (9%)",
-      "Mixed – Lapsed — 545 (8%)",
-      "UNC – No Primary — 2,364 (34%)",
-      "UNC – Lapsed D — 390 (6%)",
-      "Pure D — 286 (4%)"
+      "Pure R — 1,838 (26%)",
+      "UNC – Lapsed R — 951 (14%)",
+      "Mixed – Active — 605 (9%)",
+      "Mixed – Lapsed — 228 (3%)",
+      "UNC – Non-partisan Ballot — 311 (4%)",
+      "UNC – No Primary — 2,401 (34%)",
+      "UNC – Lapsed D — 387 (6%)",
+      "Pure D — 277 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1852,
-          948,
-          614,
-          545,
-          2364,
-          390,
-          286
+          1838,
+          951,
+          605,
+          228,
+          311,
+          2401,
+          387,
+          277
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "MILTON-UNION EX VILL SD (MIAMI)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Milton-Union Ex Vill Sd (Miami Co.)",
+  "updated": "2026-11-11"
 }

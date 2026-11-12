@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,140 (22%)",
-      "UNC – Lapsed R — 631 (12%)",
-      "Mixed – Active — 533 (10%)",
-      "Mixed – Lapsed — 378 (7%)",
-      "UNC – No Primary — 1,903 (36%)",
-      "UNC – Lapsed D — 441 (8%)",
-      "Pure D — 243 (5%)"
+      "Pure R — 1,123 (21%)",
+      "UNC – Lapsed R — 679 (13%)",
+      "Mixed – Active — 547 (10%)",
+      "Mixed – Lapsed — 234 (4%)",
+      "UNC – Non-partisan Ballot — 141 (3%)",
+      "UNC – No Primary — 1,842 (35%)",
+      "UNC – Lapsed D — 395 (7%)",
+      "Pure D — 322 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1140,
-          631,
-          533,
-          378,
-          1903,
-          441,
-          243
+          1123,
+          679,
+          547,
+          234,
+          141,
+          1842,
+          395,
+          322
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GERMAN TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,370 (10%)",
-      "UNC – Lapsed R — 1,414 (11%)",
-      "Mixed – Active — 966 (7%)",
-      "Mixed – Lapsed — 1,015 (8%)",
-      "UNC – No Primary — 5,189 (39%)",
-      "UNC – Lapsed D — 2,057 (16%)",
-      "Pure D — 1,181 (9%)"
+      "Pure R — 1,242 (9%)",
+      "UNC – Lapsed R — 1,530 (11%)",
+      "Mixed – Active — 959 (7%)",
+      "Mixed – Lapsed — 660 (5%)",
+      "UNC – Non-partisan Ballot — 398 (3%)",
+      "UNC – No Primary — 5,188 (39%)",
+      "UNC – Lapsed D — 1,971 (15%)",
+      "Pure D — 1,449 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1370,
-          1414,
-          966,
-          1015,
-          5189,
-          2057,
-          1181
+          1242,
+          1530,
+          959,
+          660,
+          398,
+          5188,
+          1971,
+          1449
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "COPLEY TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

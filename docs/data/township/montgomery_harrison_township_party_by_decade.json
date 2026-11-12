@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          27,
-          106,
-          190,
-          171,
-          70,
-          48,
-          31,
-          17
+          22,
+          91,
+          184,
+          159,
+          75,
+          52,
+          33,
+          22
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          22,
-          70,
-          122,
-          157,
-          125,
+          24,
+          72,
+          135,
+          169,
+          126,
           83,
-          53,
-          9
+          59,
+          10
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          23,
-          113,
-          181,
-          151,
-          40,
-          28,
-          8,
-          0
+          19,
+          102,
+          180,
+          148,
+          47,
+          33,
+          6,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          12,
-          51,
-          109,
-          132,
-          120,
-          89,
-          38,
-          8
+          1,
+          15,
+          49,
+          81,
+          83,
+          53,
+          31,
+          9,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          9,
+          29,
+          46,
+          68,
+          51,
+          27,
+          12
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          17,
-          133,
-          531,
-          861,
-          1040,
-          1292,
-          1854,
-          1470
+          16,
+          128,
+          502,
+          834,
+          1043,
+          1324,
+          1908,
+          1702
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          4,
+          3,
           49,
-          225,
-          505,
-          561,
-          492,
-          366,
-          212,
-          10
+          229,
+          469,
+          527,
+          465,
+          371,
+          220,
+          23
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           6,
-          44,
-          289,
-          508,
-          383,
-          195,
-          130,
-          76,
-          33
+          34,
+          275,
+          555,
+          448,
+          234,
+          163,
+          108,
+          58
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

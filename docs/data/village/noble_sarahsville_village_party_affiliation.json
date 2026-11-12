@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 19 (20%)",
-      "UNC – Lapsed R — 15 (15%)",
-      "Mixed – Active — 16 (16%)",
+      "UNC – Lapsed R — 16 (17%)",
+      "Mixed – Active — 14 (15%)",
       "Mixed – Lapsed — 8 (8%)",
-      "UNC – No Primary — 23 (24%)",
-      "UNC – Lapsed D — 12 (12%)",
-      "Pure D — 4 (4%)"
+      "UNC – Non-partisan Ballot — 2 (2%)",
+      "UNC – No Primary — 21 (22%)",
+      "UNC – Lapsed D — 8 (8%)",
+      "Pure D — 7 (7%)"
     ],
     "datasets": [
       {
         "data": [
           19,
-          15,
           16,
+          14,
           8,
-          23,
-          12,
-          4
+          2,
+          21,
+          8,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SARAHSVILLE VILLAGE (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

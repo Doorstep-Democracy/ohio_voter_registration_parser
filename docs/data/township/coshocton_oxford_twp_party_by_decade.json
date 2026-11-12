@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,15 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          8,
-          49,
-          53,
-          64,
-          36,
-          33,
-          20,
-          10
+          5,
+          41,
+          48,
+          57,
+          31,
+          29,
+          14,
+          11
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,14 +31,13 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          0,
-          4,
-          16,
-          23,
-          26,
-          21,
+          3,
           10,
+          21,
+          31,
+          32,
+          25,
+          18,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -49,12 +46,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          4,
-          25,
+          5,
+          20,
           26,
-          40,
-          13,
+          43,
+          14,
           12,
           3,
           0
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          3,
-          7,
-          15,
-          22,
-          13,
+          2,
           10,
-          3,
+          14,
+          12,
+          7,
+          8,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          2,
+          2,
+          9,
           5,
+          2,
+          2,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          4,
           8,
-          25,
+          23,
           44,
-          56,
-          63,
-          70,
-          78
+          61,
+          61,
+          68,
+          82
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +106,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          7,
+          8,
           11,
-          17,
-          18,
+          15,
           16,
-          10,
-          1,
+          18,
+          11,
+          2,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          4,
+          3,
           7,
           12,
-          8,
-          3,
-          6,
-          3,
-          1
+          9,
+          2,
+          5,
+          2,
+          3
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OXFORD TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

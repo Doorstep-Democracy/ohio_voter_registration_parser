@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 165 (22%)",
-      "UNC – Lapsed R — 132 (17%)",
-      "Mixed – Active — 82 (11%)",
-      "Mixed – Lapsed — 46 (6%)",
-      "UNC – No Primary — 253 (33%)",
-      "UNC – Lapsed D — 52 (7%)",
-      "Pure D — 29 (4%)"
+      "UNC – Lapsed R — 130 (17%)",
+      "Mixed – Active — 92 (12%)",
+      "Mixed – Lapsed — 27 (4%)",
+      "UNC – Non-partisan Ballot — 10 (1%)",
+      "UNC – No Primary — 251 (33%)",
+      "UNC – Lapsed D — 46 (6%)",
+      "Pure D — 39 (5%)"
     ],
     "datasets": [
       {
         "data": [
           165,
-          132,
-          82,
+          130,
+          92,
+          27,
+          10,
+          251,
           46,
-          253,
-          52,
-          29
+          39
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ORANGE TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

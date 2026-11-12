@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 60",
-      "Mixed – Active — 87",
-      "Mixed – Lapsed — 64",
-      "UNC – No Primary — 504",
-      "UNC – Lapsed D — 165"
+      "UNC – Lapsed R — 59",
+      "Mixed – Active — 86",
+      "Mixed – Lapsed — 54",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 525",
+      "UNC – Lapsed D — 167"
     ],
     "datasets": [
       {
         "data": [
-          60,
-          87,
-          64,
-          504,
-          165
+          59,
+          86,
+          54,
+          9,
+          525,
+          167
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "New Boston Local Sd (Scioto Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 970",
-      "Mixed – Active — 817",
-      "Mixed – Lapsed — 551",
-      "UNC – No Primary — 2,582",
-      "UNC – Lapsed D — 530"
+      "UNC – Lapsed R — 972",
+      "Mixed – Active — 807",
+      "Mixed – Lapsed — 248",
+      "UNC – Non-partisan Ballot — 301",
+      "UNC – No Primary — 2,633",
+      "UNC – Lapsed D — 535"
     ],
     "datasets": [
       {
         "data": [
-          970,
-          817,
-          551,
-          2582,
-          530
+          972,
+          807,
+          248,
+          301,
+          2633,
+          535
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "North Fork Local Sd (Licking Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

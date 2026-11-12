@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 225 (26%)",
-      "UNC – Lapsed R — 107 (13%)",
-      "Mixed – Active — 70 (8%)",
-      "Mixed – Lapsed — 57 (7%)",
-      "UNC – No Primary — 294 (35%)",
-      "UNC – Lapsed D — 53 (6%)",
+      "Pure R — 211 (25%)",
+      "UNC – Lapsed R — 126 (15%)",
+      "Mixed – Active — 71 (8%)",
+      "Mixed – Lapsed — 27 (3%)",
+      "UNC – Non-partisan Ballot — 32 (4%)",
+      "UNC – No Primary — 288 (34%)",
+      "UNC – Lapsed D — 50 (6%)",
       "Pure D — 46 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          225,
-          107,
-          70,
-          57,
-          294,
-          53,
+          211,
+          126,
+          71,
+          27,
+          32,
+          288,
+          50,
           46
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WESTFIELD TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

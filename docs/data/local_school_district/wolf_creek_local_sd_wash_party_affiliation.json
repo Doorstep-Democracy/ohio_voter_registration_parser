@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 622 (27%)",
-      "UNC – Lapsed R — 240 (10%)",
-      "Mixed – Active — 311 (13%)",
-      "Mixed – Lapsed — 108 (5%)",
-      "UNC – No Primary — 769 (33%)",
-      "UNC – Lapsed D — 143 (6%)",
-      "Pure D — 131 (6%)"
+      "Pure R — 621 (27%)",
+      "UNC – Lapsed R — 239 (10%)",
+      "Mixed – Active — 308 (13%)",
+      "Mixed – Lapsed — 61 (3%)",
+      "UNC – Non-partisan Ballot — 48 (2%)",
+      "UNC – No Primary — 793 (34%)",
+      "UNC – Lapsed D — 140 (6%)",
+      "Pure D — 128 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          622,
-          240,
-          311,
-          108,
-          769,
-          143,
-          131
+          621,
+          239,
+          308,
+          61,
+          48,
+          793,
+          140,
+          128
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Wolf Creek Local Sd (Wash Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

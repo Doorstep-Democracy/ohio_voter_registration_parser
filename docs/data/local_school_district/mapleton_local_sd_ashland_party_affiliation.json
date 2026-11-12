@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,049 (24%)",
-      "UNC – Lapsed R — 611 (14%)",
-      "Mixed – Active — 314 (7%)",
-      "Mixed – Lapsed — 480 (11%)",
-      "UNC – No Primary — 1,383 (32%)",
-      "UNC – Lapsed D — 283 (7%)",
-      "Pure D — 165 (4%)"
+      "Pure R — 1,038 (24%)",
+      "UNC – Lapsed R — 613 (14%)",
+      "Mixed – Active — 309 (7%)",
+      "Mixed – Lapsed — 111 (3%)",
+      "UNC – Non-partisan Ballot — 366 (9%)",
+      "UNC – No Primary — 1,405 (33%)",
+      "UNC – Lapsed D — 286 (7%)",
+      "Pure D — 162 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1049,
-          611,
-          314,
-          480,
-          1383,
-          283,
-          165
+          1038,
+          613,
+          309,
+          111,
+          366,
+          1405,
+          286,
+          162
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Mapleton Local Sd (Ashland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

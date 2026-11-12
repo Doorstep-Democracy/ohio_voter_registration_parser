@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 556",
-      "Mixed – Active — 248",
-      "Mixed – Lapsed — 224",
-      "UNC – No Primary — 1,243",
-      "UNC – Lapsed D — 292"
+      "UNC – Lapsed R — 644",
+      "Mixed – Active — 243",
+      "Mixed – Lapsed — 175",
+      "UNC – Non-partisan Ballot — 64",
+      "UNC – No Primary — 1,239",
+      "UNC – Lapsed D — 277"
     ],
     "datasets": [
       {
         "data": [
-          556,
-          248,
-          224,
-          1243,
-          292
+          644,
+          243,
+          175,
+          64,
+          1239,
+          277
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

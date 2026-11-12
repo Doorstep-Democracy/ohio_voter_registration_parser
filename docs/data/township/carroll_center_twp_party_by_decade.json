@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          24,
-          103,
-          144,
-          106,
-          56,
-          48,
-          32,
-          18
+          1,
+          23,
+          84,
+          127,
+          114,
+          47,
+          39,
+          34,
+          16
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          8,
-          34,
-          52,
-          86,
-          64,
-          60,
-          41,
-          10
+          3,
+          9,
+          49,
+          74,
+          85,
+          75,
+          72,
+          39,
+          17
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,12 +51,12 @@
         "data": [
           0,
           10,
-          47,
-          74,
-          58,
-          38,
-          12,
-          4,
+          46,
+          64,
+          54,
+          33,
+          10,
+          3,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          13,
-          31,
+          7,
+          28,
           33,
-          40,
+          39,
           38,
-          29,
-          11,
-          1
+          21,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          7,
+          4,
+          9,
+          5,
+          8,
+          8,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          6,
-          36,
-          83,
-          108,
-          134,
-          212,
-          266,
-          285
+          5,
+          33,
+          78,
+          105,
+          131,
+          208,
+          259,
+          303
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          4,
+          3,
           11,
-          46,
-          62,
+          43,
+          56,
           50,
-          73,
-          39,
-          22,
-          2
+          63,
+          38,
+          25,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +131,21 @@
         "data": [
           0,
           5,
-          41,
-          36,
+          40,
+          44,
           15,
-          9,
-          6,
+          17,
+          7,
           4,
-          4
+          8
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CENTER TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 544 (31%)",
-      "UNC – Lapsed R — 224 (13%)",
-      "Mixed – Active — 180 (10%)",
-      "Mixed – Lapsed — 81 (5%)",
-      "UNC – No Primary — 588 (34%)",
-      "UNC – Lapsed D — 83 (5%)",
+      "Pure R — 486 (28%)",
+      "UNC – Lapsed R — 275 (16%)",
+      "Mixed – Active — 181 (10%)",
+      "Mixed – Lapsed — 47 (3%)",
+      "UNC – Non-partisan Ballot — 43 (2%)",
+      "UNC – No Primary — 591 (34%)",
+      "UNC – Lapsed D — 87 (5%)",
       "Pure D — 54 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          544,
-          224,
-          180,
-          81,
-          588,
-          83,
+          486,
+          275,
+          181,
+          47,
+          43,
+          591,
+          87,
           54
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SALEM TOWNSHIP (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

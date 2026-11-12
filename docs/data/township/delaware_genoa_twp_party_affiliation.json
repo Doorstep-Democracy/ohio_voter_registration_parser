@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,662 (19%)",
-      "UNC – Lapsed R — 2,921 (15%)",
-      "Mixed – Active — 1,955 (10%)",
-      "Mixed – Lapsed — 1,855 (9%)",
-      "UNC – No Primary — 5,985 (30%)",
-      "UNC – Lapsed D — 1,768 (9%)",
-      "Pure D — 1,568 (8%)"
+      "Pure R — 3,448 (17%)",
+      "UNC – Lapsed R — 3,118 (16%)",
+      "Mixed – Active — 2,019 (10%)",
+      "Mixed – Lapsed — 1,077 (5%)",
+      "UNC – Non-partisan Ballot — 792 (4%)",
+      "UNC – No Primary — 5,936 (30%)",
+      "UNC – Lapsed D — 1,682 (8%)",
+      "Pure D — 1,798 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          3662,
-          2921,
-          1955,
-          1855,
-          5985,
-          1768,
-          1568
+          3448,
+          3118,
+          2019,
+          1077,
+          792,
+          5936,
+          1682,
+          1798
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GENOA TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

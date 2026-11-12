@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 491 (19%)",
-      "UNC – Lapsed R — 310 (12%)",
-      "Mixed – Active — 212 (8%)",
-      "Mixed – Lapsed — 313 (12%)",
-      "UNC – No Primary — 898 (35%)",
-      "UNC – Lapsed D — 207 (8%)",
-      "Pure D — 127 (5%)"
+      "Pure R — 546 (21%)",
+      "UNC – Lapsed R — 292 (11%)",
+      "Mixed – Active — 242 (9%)",
+      "Mixed – Lapsed — 89 (3%)",
+      "UNC – Non-partisan Ballot — 181 (7%)",
+      "UNC – No Primary — 843 (33%)",
+      "UNC – Lapsed D — 181 (7%)",
+      "Pure D — 181 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          491,
-          310,
-          212,
-          313,
-          898,
-          207,
-          127
+          546,
+          292,
+          242,
+          89,
+          181,
+          843,
+          181,
+          181
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SANDUSKY TWP (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

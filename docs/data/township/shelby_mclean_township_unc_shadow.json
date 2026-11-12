@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 300",
-      "Mixed – Active — 325",
-      "Mixed – Lapsed — 176",
-      "UNC – No Primary — 742",
+      "UNC – Lapsed R — 384",
+      "Mixed – Active — 308",
+      "Mixed – Lapsed — 114",
+      "UNC – Non-partisan Ballot — 81",
+      "UNC – No Primary — 740",
       "UNC – Lapsed D — 94"
     ],
     "datasets": [
       {
         "data": [
-          300,
-          325,
-          176,
-          742,
+          384,
+          308,
+          114,
+          81,
+          740,
           94
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MCLEAN TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

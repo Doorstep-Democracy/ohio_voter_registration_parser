@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,213 (19%)",
-      "UNC – Lapsed R — 1,367 (8%)",
-      "Mixed – Active — 1,610 (10%)",
-      "Mixed – Lapsed — 1,253 (7%)",
-      "UNC – No Primary — 6,535 (39%)",
-      "UNC – Lapsed D — 1,680 (10%)",
-      "Pure D — 1,238 (7%)"
+      "Pure R — 2,784 (16%)",
+      "UNC – Lapsed R — 1,762 (10%)",
+      "Mixed – Active — 1,509 (9%)",
+      "Mixed – Lapsed — 617 (4%)",
+      "UNC – Non-partisan Ballot — 756 (4%)",
+      "UNC – No Primary — 6,588 (39%)",
+      "UNC – Lapsed D — 1,728 (10%)",
+      "Pure D — 1,338 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          3213,
-          1367,
-          1610,
-          1253,
-          6535,
-          1680,
-          1238
+          2784,
+          1762,
+          1509,
+          617,
+          756,
+          6588,
+          1728,
+          1338
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WOOSTER CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

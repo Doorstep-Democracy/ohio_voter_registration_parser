@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 22 (15%)",
-      "UNC – Lapsed R — 10 (7%)",
-      "Mixed – Active — 5 (3%)",
-      "Mixed – Lapsed — 14 (10%)",
-      "UNC – No Primary — 68 (47%)",
-      "UNC – Lapsed D — 18 (12%)",
+      "Pure R — 18 (13%)",
+      "UNC – Lapsed R — 13 (9%)",
+      "Mixed – Active — 8 (6%)",
+      "Mixed – Lapsed — 8 (6%)",
+      "UNC – Non-partisan Ballot — 5 (4%)",
+      "UNC – No Primary — 65 (46%)",
+      "UNC – Lapsed D — 17 (12%)",
       "Pure D — 8 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          22,
-          10,
-          5,
-          14,
-          68,
           18,
+          13,
+          8,
+          8,
+          5,
+          65,
+          17,
           8
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BURBANK VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

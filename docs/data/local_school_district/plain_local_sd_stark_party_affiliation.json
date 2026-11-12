@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,397 (13%)",
-      "UNC – Lapsed R — 3,069 (9%)",
-      "Mixed – Active — 3,732 (11%)",
-      "Mixed – Lapsed — 2,481 (7%)",
-      "UNC – No Primary — 11,255 (33%)",
-      "UNC – Lapsed D — 4,392 (13%)",
-      "Pure D — 4,327 (13%)"
+      "Pure R — 4,363 (13%)",
+      "UNC – Lapsed R — 3,061 (9%)",
+      "Mixed – Active — 3,691 (11%)",
+      "Mixed – Lapsed — 1,460 (4%)",
+      "UNC – Non-partisan Ballot — 1,046 (3%)",
+      "UNC – No Primary — 11,721 (34%)",
+      "UNC – Lapsed D — 4,397 (13%)",
+      "Pure D — 4,291 (13%)"
     ],
     "datasets": [
       {
         "data": [
+          4363,
+          3061,
+          3691,
+          1460,
+          1046,
+          11721,
           4397,
-          3069,
-          3732,
-          2481,
-          11255,
-          4392,
-          4327
+          4291
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Plain Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

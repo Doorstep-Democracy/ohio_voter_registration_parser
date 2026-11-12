@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 811",
-      "Mixed – Active — 841",
-      "Mixed – Lapsed — 909",
-      "UNC – No Primary — 3,458",
-      "UNC – Lapsed D — 1,295"
+      "UNC – Lapsed R — 874",
+      "Mixed – Active — 851",
+      "Mixed – Lapsed — 367",
+      "UNC – Non-partisan Ballot — 493",
+      "UNC – No Primary — 3,566",
+      "UNC – Lapsed D — 1,238"
     ],
     "datasets": [
       {
         "data": [
-          811,
-          841,
-          909,
-          3458,
-          1295
+          874,
+          851,
+          367,
+          493,
+          3566,
+          1238
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "CLAYTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

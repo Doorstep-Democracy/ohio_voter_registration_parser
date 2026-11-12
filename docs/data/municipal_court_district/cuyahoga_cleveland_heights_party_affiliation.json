@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 538 (2%)",
-      "UNC – Lapsed R — 728 (2%)",
-      "Mixed – Active — 1,915 (6%)",
-      "Mixed – Lapsed — 1,903 (6%)",
-      "UNC – No Primary — 13,901 (41%)",
-      "UNC – Lapsed D — 6,947 (20%)",
-      "Pure D — 8,350 (24%)"
+      "Pure R — 440 (1%)",
+      "UNC – Lapsed R — 765 (2%)",
+      "Mixed – Active — 1,715 (5%)",
+      "Mixed – Lapsed — 957 (3%)",
+      "UNC – Non-partisan Ballot — 598 (2%)",
+      "UNC – No Primary — 14,584 (42%)",
+      "UNC – Lapsed D — 7,373 (21%)",
+      "Pure D — 8,555 (24%)"
     ],
     "datasets": [
       {
         "data": [
-          538,
-          728,
-          1915,
-          1903,
-          13901,
-          6947,
-          8350
+          440,
+          765,
+          1715,
+          957,
+          598,
+          14584,
+          7373,
+          8555
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "CLEVELAND-HEIGHTS (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

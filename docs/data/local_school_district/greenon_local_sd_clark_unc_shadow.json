@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,169",
-      "Mixed – Active — 963",
-      "Mixed – Lapsed — 825",
-      "UNC – No Primary — 2,800",
-      "UNC – Lapsed D — 662"
+      "UNC – Lapsed R — 1,172",
+      "Mixed – Active — 950",
+      "Mixed – Lapsed — 415",
+      "UNC – Non-partisan Ballot — 413",
+      "UNC – No Primary — 2,882",
+      "UNC – Lapsed D — 661"
     ],
     "datasets": [
       {
         "data": [
-          1169,
-          963,
-          825,
-          2800,
-          662
+          1172,
+          950,
+          415,
+          413,
+          2882,
+          661
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Greenon Local Sd (Clark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

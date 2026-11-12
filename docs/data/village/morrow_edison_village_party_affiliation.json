@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 61 (22%)",
-      "UNC – Lapsed R — 28 (10%)",
-      "Mixed – Active — 21 (8%)",
-      "Mixed – Lapsed — 19 (7%)",
-      "UNC – No Primary — 118 (43%)",
-      "UNC – Lapsed D — 19 (7%)",
-      "Pure D — 10 (4%)"
+      "Pure R — 60 (21%)",
+      "UNC – Lapsed R — 31 (11%)",
+      "Mixed – Active — 24 (9%)",
+      "Mixed – Lapsed — 8 (3%)",
+      "UNC – Non-partisan Ballot — 11 (4%)",
+      "UNC – No Primary — 115 (41%)",
+      "UNC – Lapsed D — 18 (6%)",
+      "Pure D — 13 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          61,
-          28,
-          21,
-          19,
-          118,
-          19,
-          10
+          60,
+          31,
+          24,
+          8,
+          11,
+          115,
+          18,
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "EDISON VILLAGE (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

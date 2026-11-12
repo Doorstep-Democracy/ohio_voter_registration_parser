@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,085",
-      "Mixed – Active — 1,031",
-      "Mixed – Lapsed — 753",
-      "UNC – No Primary — 2,732",
-      "UNC – Lapsed D — 634"
+      "UNC – Lapsed R — 1,082",
+      "Mixed – Active — 1,021",
+      "Mixed – Lapsed — 399",
+      "UNC – Non-partisan Ballot — 346",
+      "UNC – No Primary — 2,790",
+      "UNC – Lapsed D — 633"
     ],
     "datasets": [
       {
         "data": [
-          1085,
-          1031,
-          753,
-          2732,
-          634
+          1082,
+          1021,
+          399,
+          346,
+          2790,
+          633
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "West Branch Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

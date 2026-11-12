@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,001 (21%)",
-      "UNC – Lapsed R — 450 (9%)",
-      "Mixed – Active — 543 (11%)",
-      "Mixed – Lapsed — 379 (8%)",
-      "UNC – No Primary — 1,673 (35%)",
-      "UNC – Lapsed D — 470 (10%)",
-      "Pure D — 251 (5%)"
+      "Pure R — 978 (20%)",
+      "UNC – Lapsed R — 492 (10%)",
+      "Mixed – Active — 566 (12%)",
+      "Mixed – Lapsed — 151 (3%)",
+      "UNC – Non-partisan Ballot — 203 (4%)",
+      "UNC – No Primary — 1,622 (34%)",
+      "UNC – Lapsed D — 438 (9%)",
+      "Pure D — 328 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1001,
-          450,
-          543,
-          379,
-          1673,
-          470,
-          251
+          978,
+          492,
+          566,
+          151,
+          203,
+          1622,
+          438,
+          328
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "ONTARIO CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

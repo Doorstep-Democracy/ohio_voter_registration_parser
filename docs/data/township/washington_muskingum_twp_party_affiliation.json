@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 840 (26%)",
-      "UNC – Lapsed R — 383 (12%)",
-      "Mixed – Active — 397 (12%)",
-      "Mixed – Lapsed — 232 (7%)",
-      "UNC – No Primary — 987 (30%)",
-      "UNC – Lapsed D — 272 (8%)",
-      "Pure D — 175 (5%)"
+      "Pure R — 842 (25%)",
+      "UNC – Lapsed R — 392 (12%)",
+      "Mixed – Active — 438 (13%)",
+      "Mixed – Lapsed — 121 (4%)",
+      "UNC – Non-partisan Ballot — 92 (3%)",
+      "UNC – No Primary — 948 (29%)",
+      "UNC – Lapsed D — 225 (7%)",
+      "Pure D — 249 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          840,
-          383,
-          397,
-          232,
-          987,
-          272,
-          175
+          842,
+          392,
+          438,
+          121,
+          92,
+          948,
+          225,
+          249
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MUSKINGUM TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

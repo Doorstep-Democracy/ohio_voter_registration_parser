@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 814 (15%)",
-      "UNC – Lapsed R — 708 (13%)",
-      "Mixed – Active — 436 (8%)",
-      "Mixed – Lapsed — 276 (5%)",
-      "UNC – No Primary — 2,661 (48%)",
-      "UNC – Lapsed D — 427 (8%)",
-      "Pure D — 248 (4%)"
+      "Pure R — 813 (15%)",
+      "UNC – Lapsed R — 702 (13%)",
+      "Mixed – Active — 437 (8%)",
+      "Mixed – Lapsed — 241 (4%)",
+      "UNC – Non-partisan Ballot — 28 (0%)",
+      "UNC – No Primary — 2,709 (48%)",
+      "UNC – Lapsed D — 422 (8%)",
+      "Pure D — 249 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          814,
-          708,
-          436,
-          276,
-          2661,
-          427,
-          248
+          813,
+          702,
+          437,
+          241,
+          28,
+          2709,
+          422,
+          249
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FAYETTE TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

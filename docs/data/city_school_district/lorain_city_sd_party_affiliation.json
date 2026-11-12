@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 978 (3%)",
-      "UNC – Lapsed R — 933 (3%)",
-      "Mixed – Active — 1,874 (6%)",
-      "Mixed – Lapsed — 976 (3%)",
-      "UNC – No Primary — 15,983 (53%)",
-      "UNC – Lapsed D — 5,168 (17%)",
-      "Pure D — 4,328 (14%)"
+      "Pure R — 1,007 (3%)",
+      "UNC – Lapsed R — 1,021 (3%)",
+      "Mixed – Active — 1,858 (6%)",
+      "Mixed – Lapsed — 777 (3%)",
+      "UNC – Non-partisan Ballot — 343 (1%)",
+      "UNC – No Primary — 16,030 (52%)",
+      "UNC – Lapsed D — 5,065 (17%)",
+      "Pure D — 4,583 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          978,
-          933,
-          1874,
-          976,
-          15983,
-          5168,
-          4328
+          1007,
+          1021,
+          1858,
+          777,
+          343,
+          16030,
+          5065,
+          4583
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "LORAIN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

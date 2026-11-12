@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,594 (16%)",
-      "UNC – Lapsed R — 2,037 (12%)",
-      "Mixed – Active — 1,062 (7%)",
-      "Mixed – Lapsed — 1,287 (8%)",
-      "UNC – No Primary — 7,018 (43%)",
-      "UNC – Lapsed D — 1,623 (10%)",
-      "Pure D — 691 (4%)"
+      "Pure R — 2,669 (16%)",
+      "UNC – Lapsed R — 2,066 (12%)",
+      "Mixed – Active — 1,172 (7%)",
+      "Mixed – Lapsed — 650 (4%)",
+      "UNC – Non-partisan Ballot — 553 (3%)",
+      "UNC – No Primary — 7,627 (45%)",
+      "UNC – Lapsed D — 1,479 (9%)",
+      "Pure D — 921 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2594,
-          2037,
-          1062,
-          1287,
-          7018,
-          1623,
-          691
+          2669,
+          2066,
+          1172,
+          650,
+          553,
+          7627,
+          1479,
+          921
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "XENIA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

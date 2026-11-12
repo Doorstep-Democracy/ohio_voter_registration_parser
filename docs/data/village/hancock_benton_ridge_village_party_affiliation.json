@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 54 (26%)",
-      "UNC – Lapsed R — 24 (11%)",
-      "Mixed – Active — 16 (8%)",
-      "Mixed – Lapsed — 24 (11%)",
-      "UNC – No Primary — 74 (35%)",
-      "UNC – Lapsed D — 10 (5%)",
+      "Pure R — 50 (24%)",
+      "UNC – Lapsed R — 25 (12%)",
+      "Mixed – Active — 18 (9%)",
+      "Mixed – Lapsed — 7 (3%)",
+      "UNC – Non-partisan Ballot — 15 (7%)",
+      "UNC – No Primary — 71 (35%)",
+      "UNC – Lapsed D — 12 (6%)",
       "Pure D — 7 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          54,
-          24,
-          16,
-          24,
-          74,
-          10,
+          50,
+          25,
+          18,
+          7,
+          15,
+          71,
+          12,
           7
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BENTON RIDGE VILLAGE (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 53 (10%)",
-      "UNC – Lapsed R — 47 (9%)",
-      "Mixed – Active — 42 (8%)",
-      "Mixed – Lapsed — 41 (8%)",
+      "Pure R — 45 (9%)",
+      "UNC – Lapsed R — 57 (11%)",
+      "Mixed – Active — 38 (7%)",
+      "Mixed – Lapsed — 33 (6%)",
+      "UNC – Non-partisan Ballot — 12 (2%)",
       "UNC – No Primary — 241 (46%)",
-      "UNC – Lapsed D — 78 (15%)",
-      "Pure D — 18 (3%)"
+      "UNC – Lapsed D — 67 (13%)",
+      "Pure D — 31 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          53,
-          47,
-          42,
-          41,
+          45,
+          57,
+          38,
+          33,
+          12,
           241,
-          78,
-          18
+          67,
+          31
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WAYNE VILLAGE (Wood Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

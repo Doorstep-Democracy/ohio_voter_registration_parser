@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 191 (19%)",
-      "UNC – Lapsed R — 120 (12%)",
-      "Mixed – Active — 104 (10%)",
-      "Mixed – Lapsed — 56 (6%)",
-      "UNC – No Primary — 387 (38%)",
-      "UNC – Lapsed D — 94 (9%)",
-      "Pure D — 62 (6%)"
+      "Pure R — 198 (19%)",
+      "UNC – Lapsed R — 127 (12%)",
+      "Mixed – Active — 119 (11%)",
+      "Mixed – Lapsed — 41 (4%)",
+      "UNC – Non-partisan Ballot — 8 (1%)",
+      "UNC – No Primary — 389 (38%)",
+      "UNC – Lapsed D — 87 (8%)",
+      "Pure D — 67 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          191,
-          120,
-          104,
-          56,
-          387,
-          94,
-          62
+          198,
+          127,
+          119,
+          41,
+          8,
+          389,
+          87,
+          67
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TOWNSHIP (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

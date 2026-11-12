@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 10",
-      "Mixed – Active — 5",
-      "Mixed – Lapsed — 4",
-      "UNC – No Primary — 17",
+      "UNC – Lapsed R — 11",
+      "Mixed – Active — 4",
+      "Mixed – Lapsed — 5",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 13",
       "UNC – Lapsed D — 5"
     ],
     "datasets": [
       {
         "data": [
-          10,
-          5,
+          11,
           4,
-          17,
+          5,
+          0,
+          13,
           5
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "DEERSVILLE VILLAGE (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

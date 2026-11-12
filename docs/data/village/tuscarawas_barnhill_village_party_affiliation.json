@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 9 (5%)",
+      "Pure R — 11 (6%)",
       "UNC – Lapsed R — 9 (5%)",
-      "Mixed – Active — 15 (9%)",
-      "Mixed – Lapsed — 9 (5%)",
-      "UNC – No Primary — 90 (52%)",
-      "UNC – Lapsed D — 37 (21%)",
-      "Pure D — 4 (2%)"
+      "Mixed – Active — 14 (8%)",
+      "Mixed – Lapsed — 5 (3%)",
+      "UNC – Non-partisan Ballot — 3 (2%)",
+      "UNC – No Primary — 91 (52%)",
+      "UNC – Lapsed D — 32 (18%)",
+      "Pure D — 10 (6%)"
     ],
     "datasets": [
       {
         "data": [
+          11,
           9,
-          9,
-          15,
-          9,
-          90,
-          37,
-          4
+          14,
+          5,
+          3,
+          91,
+          32,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BARNHILL VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

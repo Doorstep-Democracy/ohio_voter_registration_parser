@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,303",
-      "Mixed – Active — 488",
-      "Mixed – Lapsed — 673",
-      "UNC – No Primary — 2,506",
-      "UNC – Lapsed D — 460"
+      "UNC – Lapsed R — 1,300",
+      "Mixed – Active — 484",
+      "Mixed – Lapsed — 342",
+      "UNC – Non-partisan Ballot — 331",
+      "UNC – No Primary — 2,566",
+      "UNC – Lapsed D — 459"
     ],
     "datasets": [
       {
         "data": [
-          1303,
-          488,
-          673,
-          2506,
-          460
+          1300,
+          484,
+          342,
+          331,
+          2566,
+          459
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "WAUSEON EX VILL SD (FULTON)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Wauseon Ex Vill Sd (Fulton Co.)",
+  "updated": "2026-11-11"
 }

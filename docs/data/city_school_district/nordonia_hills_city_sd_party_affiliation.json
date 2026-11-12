@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,653 (15%)",
-      "UNC – Lapsed R — 1,735 (7%)",
-      "Mixed – Active — 3,055 (13%)",
-      "Mixed – Lapsed — 3,318 (14%)",
-      "UNC – No Primary — 6,600 (27%)",
-      "UNC – Lapsed D — 3,376 (14%)",
-      "Pure D — 2,429 (10%)"
+      "Pure R — 3,436 (14%)",
+      "UNC – Lapsed R — 1,926 (8%)",
+      "Mixed – Active — 3,083 (13%)",
+      "Mixed – Lapsed — 1,130 (5%)",
+      "UNC – Non-partisan Ballot — 2,043 (8%)",
+      "UNC – No Primary — 6,608 (27%)",
+      "UNC – Lapsed D — 3,073 (13%)",
+      "Pure D — 2,998 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          3653,
-          1735,
-          3055,
-          3318,
-          6600,
-          3376,
-          2429
+          3436,
+          1926,
+          3083,
+          1130,
+          2043,
+          6608,
+          3073,
+          2998
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NORDONIA HILLS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

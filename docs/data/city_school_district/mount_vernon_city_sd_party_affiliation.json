@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,397 (21%)",
-      "UNC – Lapsed R — 2,224 (11%)",
-      "Mixed – Active — 1,403 (7%)",
-      "Mixed – Lapsed — 1,354 (6%)",
-      "UNC – No Primary — 9,068 (43%)",
-      "UNC – Lapsed D — 1,682 (8%)",
-      "Pure D — 933 (4%)"
+      "Pure R — 4,522 (21%)",
+      "UNC – Lapsed R — 2,256 (11%)",
+      "Mixed – Active — 1,556 (7%)",
+      "Mixed – Lapsed — 585 (3%)",
+      "UNC – Non-partisan Ballot — 674 (3%)",
+      "UNC – No Primary — 9,096 (42%)",
+      "UNC – Lapsed D — 1,431 (7%)",
+      "Pure D — 1,337 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          4397,
-          2224,
-          1403,
-          1354,
-          9068,
-          1682,
-          933
+          4522,
+          2256,
+          1556,
+          585,
+          674,
+          9096,
+          1431,
+          1337
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MOUNT VERNON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

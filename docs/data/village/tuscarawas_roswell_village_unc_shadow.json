@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 10",
-      "Mixed – Active — 8",
-      "Mixed – Lapsed — 11",
+      "UNC – Lapsed R — 8",
+      "Mixed – Active — 10",
+      "Mixed – Lapsed — 5",
+      "UNC – Non-partisan Ballot — 4",
       "UNC – No Primary — 62",
-      "UNC – Lapsed D — 23"
+      "UNC – Lapsed D — 21"
     ],
     "datasets": [
       {
         "data": [
-          10,
           8,
-          11,
+          10,
+          5,
+          4,
           62,
-          23
+          21
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ROSWELL VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

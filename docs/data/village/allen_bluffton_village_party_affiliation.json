@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 598 (24%)",
-      "UNC – Lapsed R — 359 (15%)",
-      "Mixed – Active — 193 (8%)",
-      "Mixed – Lapsed — 211 (9%)",
-      "UNC – No Primary — 720 (29%)",
+      "Pure R — 522 (21%)",
+      "UNC – Lapsed R — 458 (18%)",
+      "Mixed – Active — 175 (7%)",
+      "Mixed – Lapsed — 113 (5%)",
+      "UNC – Non-partisan Ballot — 125 (5%)",
+      "UNC – No Primary — 701 (28%)",
       "UNC – Lapsed D — 178 (7%)",
-      "Pure D — 192 (8%)"
+      "Pure D — 204 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          598,
-          359,
-          193,
-          211,
-          720,
+          522,
+          458,
+          175,
+          113,
+          125,
+          701,
           178,
-          192
+          204
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BLUFFTON VILLAGE (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 305",
-      "Mixed – Active — 157",
-      "Mixed – Lapsed — 324",
-      "UNC – No Primary — 1,014",
-      "UNC – Lapsed D — 217"
+      "UNC – Lapsed R — 323",
+      "Mixed – Active — 180",
+      "Mixed – Lapsed — 77",
+      "UNC – Non-partisan Ballot — 230",
+      "UNC – No Primary — 1,096",
+      "UNC – Lapsed D — 207"
     ],
     "datasets": [
       {
         "data": [
-          305,
-          157,
-          324,
-          1014,
-          217
+          323,
+          180,
+          77,
+          230,
+          1096,
+          207
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "COMMERCIAL POINT VILLAGE (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

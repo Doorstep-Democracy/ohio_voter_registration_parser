@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,908 (12%)",
-      "UNC – Lapsed R — 2,477 (10%)",
-      "Mixed – Active — 2,191 (9%)",
-      "Mixed – Lapsed — 2,129 (9%)",
-      "UNC – No Primary — 9,269 (38%)",
-      "UNC – Lapsed D — 3,517 (14%)",
-      "Pure D — 2,027 (8%)"
+      "Pure R — 2,618 (11%)",
+      "UNC – Lapsed R — 2,737 (11%)",
+      "Mixed – Active — 2,190 (9%)",
+      "Mixed – Lapsed — 1,353 (5%)",
+      "UNC – Non-partisan Ballot — 788 (3%)",
+      "UNC – No Primary — 9,271 (37%)",
+      "UNC – Lapsed D — 3,317 (13%)",
+      "Pure D — 2,527 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          2908,
-          2477,
-          2191,
-          2129,
-          9269,
-          3517,
-          2027
+          2618,
+          2737,
+          2190,
+          1353,
+          788,
+          9271,
+          3317,
+          2527
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "STOW CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

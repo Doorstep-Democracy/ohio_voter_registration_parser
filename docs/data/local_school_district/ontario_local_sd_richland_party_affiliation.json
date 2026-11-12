@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,827 (22%)",
-      "UNC – Lapsed R — 967 (12%)",
-      "Mixed – Active — 911 (11%)",
-      "Mixed – Lapsed — 688 (8%)",
-      "UNC – No Primary — 2,692 (32%)",
-      "UNC – Lapsed D — 679 (8%)",
-      "Pure D — 600 (7%)"
+      "Pure R — 1,816 (22%)",
+      "UNC – Lapsed R — 963 (11%)",
+      "Mixed – Active — 897 (11%)",
+      "Mixed – Lapsed — 280 (3%)",
+      "UNC – Non-partisan Ballot — 391 (5%)",
+      "UNC – No Primary — 2,755 (33%)",
+      "UNC – Lapsed D — 683 (8%)",
+      "Pure D — 589 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1827,
-          967,
-          911,
-          688,
-          2692,
-          679,
-          600
+          1816,
+          963,
+          897,
+          280,
+          391,
+          2755,
+          683,
+          589
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Ontario Local Sd (Richland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

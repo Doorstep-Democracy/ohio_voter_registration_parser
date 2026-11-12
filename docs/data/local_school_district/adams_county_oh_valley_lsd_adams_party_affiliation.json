@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,408 (30%)",
-      "UNC – Lapsed R — 1,536 (11%)",
-      "Mixed – Active — 1,311 (9%)",
-      "Mixed – Lapsed — 487 (3%)",
-      "UNC – No Primary — 5,510 (38%)",
-      "UNC – Lapsed D — 766 (5%)",
-      "Pure D — 536 (4%)"
+      "Pure R — 4,372 (30%)",
+      "UNC – Lapsed R — 1,532 (10%)",
+      "Mixed – Active — 1,297 (9%)",
+      "Mixed – Lapsed — 379 (3%)",
+      "UNC – Non-partisan Ballot — 113 (1%)",
+      "UNC – No Primary — 5,612 (38%)",
+      "UNC – Lapsed D — 769 (5%)",
+      "Pure D — 532 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          4408,
-          1536,
-          1311,
-          487,
-          5510,
-          766,
-          536
+          4372,
+          1532,
+          1297,
+          379,
+          113,
+          5612,
+          769,
+          532
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Adams County/Oh Valley Lsd (Adams Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

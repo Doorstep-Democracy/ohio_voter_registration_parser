@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 463 (8%)",
-      "UNC – Lapsed R — 435 (8%)",
-      "Mixed – Active — 505 (9%)",
-      "Mixed – Lapsed — 547 (10%)",
-      "UNC – No Primary — 2,308 (40%)",
-      "UNC – Lapsed D — 903 (16%)",
-      "Pure D — 577 (10%)"
+      "Pure R — 470 (8%)",
+      "UNC – Lapsed R — 446 (8%)",
+      "Mixed – Active — 538 (9%)",
+      "Mixed – Lapsed — 261 (5%)",
+      "UNC – Non-partisan Ballot — 266 (5%)",
+      "UNC – No Primary — 2,269 (39%)",
+      "UNC – Lapsed D — 792 (14%)",
+      "Pure D — 731 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          463,
-          435,
-          505,
-          547,
-          2308,
-          903,
-          577
+          470,
+          446,
+          538,
+          261,
+          266,
+          2269,
+          792,
+          731
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SHEFFIELD LAKE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

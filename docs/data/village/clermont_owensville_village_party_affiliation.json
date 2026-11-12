@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 72 (16%)",
-      "UNC – Lapsed R — 51 (11%)",
-      "Mixed – Active — 24 (5%)",
-      "Mixed – Lapsed — 38 (8%)",
+      "Pure R — 76 (17%)",
+      "UNC – Lapsed R — 50 (11%)",
+      "Mixed – Active — 27 (6%)",
+      "Mixed – Lapsed — 25 (5%)",
+      "UNC – Non-partisan Ballot — 13 (3%)",
       "UNC – No Primary — 209 (46%)",
-      "UNC – Lapsed D — 39 (9%)",
+      "UNC – Lapsed D — 41 (9%)",
       "Pure D — 18 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          72,
-          51,
-          24,
-          38,
+          76,
+          50,
+          27,
+          25,
+          13,
           209,
-          39,
+          41,
           18
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "OWENSVILLE VILLAGE (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

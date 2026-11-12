@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 942 (15%)",
-      "UNC – Lapsed R — 1,001 (16%)",
-      "Mixed – Active — 552 (9%)",
-      "Mixed – Lapsed — 673 (11%)",
-      "UNC – No Primary — 2,174 (34%)",
-      "UNC – Lapsed D — 658 (10%)",
-      "Pure D — 396 (6%)"
+      "Pure R — 936 (15%)",
+      "UNC – Lapsed R — 1,003 (16%)",
+      "Mixed – Active — 548 (9%)",
+      "Mixed – Lapsed — 423 (7%)",
+      "UNC – Non-partisan Ballot — 250 (4%)",
+      "UNC – No Primary — 2,224 (35%)",
+      "UNC – Lapsed D — 652 (10%)",
+      "Pure D — 391 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          942,
-          1001,
-          552,
-          673,
-          2174,
-          658,
-          396
+          936,
+          1003,
+          548,
+          423,
+          250,
+          2224,
+          652,
+          391
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Chippewa Local Sd (Wayne Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 254 (4%)",
-      "UNC – Lapsed R — 208 (3%)",
-      "Mixed – Active — 432 (6%)",
-      "Mixed – Lapsed — 324 (5%)",
-      "UNC – No Primary — 2,602 (36%)",
-      "UNC – Lapsed D — 1,472 (21%)",
-      "Pure D — 1,844 (26%)"
+      "Pure R — 245 (3%)",
+      "UNC – Lapsed R — 213 (3%)",
+      "Mixed – Active — 425 (6%)",
+      "Mixed – Lapsed — 162 (2%)",
+      "UNC – Non-partisan Ballot — 158 (2%)",
+      "UNC – No Primary — 2,636 (37%)",
+      "UNC – Lapsed D — 1,484 (21%)",
+      "Pure D — 1,828 (26%)"
     ],
     "datasets": [
       {
         "data": [
-          254,
-          208,
-          432,
-          324,
-          2602,
-          1472,
-          1844
+          245,
+          213,
+          425,
+          162,
+          158,
+          2636,
+          1484,
+          1828
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Richmond Heights Local Sd (Cuy Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

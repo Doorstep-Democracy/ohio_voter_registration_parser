@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 72 (26%)",
+      "Pure R — 76 (28%)",
       "UNC – Lapsed R — 24 (9%)",
-      "Mixed – Active — 35 (13%)",
-      "Mixed – Lapsed — 15 (5%)",
-      "UNC – No Primary — 108 (39%)",
-      "UNC – Lapsed D — 16 (6%)",
-      "Pure D — 7 (3%)"
+      "Mixed – Active — 34 (12%)",
+      "Mixed – Lapsed — 7 (3%)",
+      "UNC – Non-partisan Ballot — 7 (3%)",
+      "UNC – No Primary — 105 (38%)",
+      "UNC – Lapsed D — 10 (4%)",
+      "Pure D — 10 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          72,
+          76,
           24,
-          35,
-          15,
-          108,
-          16,
-          7
+          34,
+          7,
+          7,
+          105,
+          10,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MOUNT BLANCHARD VILLAGE (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

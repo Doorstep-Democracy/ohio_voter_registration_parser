@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 4",
-      "Mixed – Active — 11",
-      "Mixed – Lapsed — 9",
-      "UNC – No Primary — 35",
-      "UNC – Lapsed D — 16"
+      "UNC – Lapsed R — 5",
+      "Mixed – Active — 12",
+      "Mixed – Lapsed — 4",
+      "UNC – Non-partisan Ballot — 3",
+      "UNC – No Primary — 32",
+      "UNC – Lapsed D — 13"
     ],
     "datasets": [
       {
         "data": [
+          5,
+          12,
           4,
-          11,
-          9,
-          35,
-          16
+          3,
+          32,
+          13
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "AMESVILLE VILLAGE (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

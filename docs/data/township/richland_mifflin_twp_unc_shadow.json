@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 471",
-      "Mixed – Active — 318",
-      "Mixed – Lapsed — 387",
-      "UNC – No Primary — 1,622",
-      "UNC – Lapsed D — 444"
+      "UNC – Lapsed R — 445",
+      "Mixed – Active — 377",
+      "Mixed – Lapsed — 116",
+      "UNC – Non-partisan Ballot — 223",
+      "UNC – No Primary — 1,490",
+      "UNC – Lapsed D — 339"
     ],
     "datasets": [
       {
         "data": [
-          471,
-          318,
-          387,
-          1622,
-          444
+          445,
+          377,
+          116,
+          223,
+          1490,
+          339
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MIFFLIN TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

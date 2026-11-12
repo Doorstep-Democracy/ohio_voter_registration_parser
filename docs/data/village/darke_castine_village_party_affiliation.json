@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 13 (19%)",
-      "UNC – Lapsed R — 7 (10%)",
+      "Pure R — 10 (15%)",
+      "UNC – Lapsed R — 12 (18%)",
       "Mixed – Active — 3 (4%)",
       "Mixed – Lapsed — 4 (6%)",
-      "UNC – No Primary — 32 (47%)",
-      "UNC – Lapsed D — 9 (13%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 29 (43%)",
+      "UNC – Lapsed D — 8 (12%)",
       "Pure D — 0 (0%)"
     ],
     "datasets": [
       {
         "data": [
-          13,
-          7,
+          10,
+          12,
           3,
           4,
-          32,
-          9,
+          1,
+          29,
+          8,
           0
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CASTINE VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

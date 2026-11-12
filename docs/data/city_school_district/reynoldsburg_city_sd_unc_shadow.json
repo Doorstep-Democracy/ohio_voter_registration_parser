@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 483",
-      "Mixed – Active — 313",
-      "Mixed – Lapsed — 443",
-      "UNC – No Primary — 3,910",
-      "UNC – Lapsed D — 1,192"
+      "UNC – Lapsed R — 515",
+      "Mixed – Active — 342",
+      "Mixed – Lapsed — 224",
+      "UNC – Non-partisan Ballot — 193",
+      "UNC – No Primary — 3,899",
+      "UNC – Lapsed D — 1,090"
     ],
     "datasets": [
       {
         "data": [
-          483,
-          313,
-          443,
-          3910,
-          1192
+          515,
+          342,
+          224,
+          193,
+          3899,
+          1090
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "REYNOLDSBURG CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

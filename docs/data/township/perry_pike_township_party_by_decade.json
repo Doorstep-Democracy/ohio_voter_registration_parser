@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          12,
-          67,
-          134,
-          125,
-          77,
-          83,
-          80,
-          17
+          11,
+          64,
+          129,
+          123,
+          78,
+          81,
+          76,
+          23
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          10,
-          31,
-          55,
-          54,
+          8,
+          30,
+          58,
+          57,
           68,
-          50,
-          39,
-          5
+          54,
+          49,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          13,
-          49,
-          129,
-          92,
-          62,
-          45,
+          12,
+          53,
+          133,
+          99,
+          67,
+          48,
           7,
-          2
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          8,
-          30,
-          39,
-          41,
-          45,
+          0,
+          5,
+          16,
           36,
-          9,
-          1
+          26,
+          28,
+          26,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          3,
+          12,
+          8,
+          15,
+          17,
+          15,
+          8,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          3,
-          37,
-          110,
+          1,
+          35,
+          111,
           191,
-          260,
-          313,
-          503,
-          376
+          252,
+          308,
+          500,
+          390
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +115,13 @@
         "data": [
           0,
           11,
-          50,
-          119,
-          108,
-          86,
-          87,
-          32,
-          3
+          45,
+          110,
+          93,
+          82,
+          83,
+          33,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           1,
-          7,
+          6,
           47,
-          91,
-          40,
-          23,
-          16,
-          16,
-          7
+          90,
+          47,
+          25,
+          15,
+          22,
+          12
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PIKE TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

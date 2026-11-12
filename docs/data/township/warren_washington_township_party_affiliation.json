@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 619 (28%)",
-      "UNC – Lapsed R — 392 (18%)",
-      "Mixed – Active — 135 (6%)",
-      "Mixed – Lapsed — 217 (10%)",
-      "UNC – No Primary — 675 (31%)",
-      "UNC – Lapsed D — 107 (5%)",
-      "Pure D — 62 (3%)"
+      "Pure R — 617 (28%)",
+      "UNC – Lapsed R — 405 (18%)",
+      "Mixed – Active — 145 (7%)",
+      "Mixed – Lapsed — 81 (4%)",
+      "UNC – Non-partisan Ballot — 116 (5%)",
+      "UNC – No Primary — 668 (30%)",
+      "UNC – Lapsed D — 96 (4%)",
+      "Pure D — 79 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          619,
-          392,
-          135,
-          217,
-          675,
-          107,
-          62
+          617,
+          405,
+          145,
+          81,
+          116,
+          668,
+          96,
+          79
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

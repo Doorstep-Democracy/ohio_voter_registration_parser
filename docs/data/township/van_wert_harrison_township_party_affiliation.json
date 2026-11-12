@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 199 (26%)",
-      "UNC – Lapsed R — 121 (16%)",
-      "Mixed – Active — 47 (6%)",
-      "Mixed – Lapsed — 45 (6%)",
-      "UNC – No Primary — 303 (39%)",
-      "UNC – Lapsed D — 45 (6%)",
+      "Pure R — 206 (27%)",
+      "UNC – Lapsed R — 122 (16%)",
+      "Mixed – Active — 46 (6%)",
+      "Mixed – Lapsed — 37 (5%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 297 (38%)",
+      "UNC – Lapsed D — 42 (5%)",
       "Pure D — 14 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          199,
-          121,
-          47,
-          45,
-          303,
-          45,
+          206,
+          122,
+          46,
+          37,
+          9,
+          297,
+          42,
           14
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

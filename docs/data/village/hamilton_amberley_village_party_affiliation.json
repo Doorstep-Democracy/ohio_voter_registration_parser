@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 413 (13%)",
-      "UNC – Lapsed R — 355 (11%)",
-      "Mixed – Active — 329 (10%)",
-      "Mixed – Lapsed — 286 (9%)",
-      "UNC – No Primary — 1,041 (32%)",
-      "UNC – Lapsed D — 478 (15%)",
-      "Pure D — 360 (11%)"
+      "Pure R — 351 (11%)",
+      "UNC – Lapsed R — 421 (13%)",
+      "Mixed – Active — 304 (9%)",
+      "Mixed – Lapsed — 256 (8%)",
+      "UNC – Non-partisan Ballot — 73 (2%)",
+      "UNC – No Primary — 1,025 (31%)",
+      "UNC – Lapsed D — 442 (13%)",
+      "Pure D — 434 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          413,
-          355,
-          329,
-          286,
-          1041,
-          478,
-          360
+          351,
+          421,
+          304,
+          256,
+          73,
+          1025,
+          442,
+          434
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "AMBERLEY VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

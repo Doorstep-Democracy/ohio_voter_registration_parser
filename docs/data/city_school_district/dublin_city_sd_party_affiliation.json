@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,080 (14%)",
-      "UNC – Lapsed R — 2,378 (15%)",
-      "Mixed – Active — 824 (5%)",
-      "Mixed – Lapsed — 1,024 (7%)",
-      "UNC – No Primary — 6,957 (45%)",
-      "UNC – Lapsed D — 1,448 (9%)",
-      "Pure D — 660 (4%)"
+      "Pure R — 1,958 (12%)",
+      "UNC – Lapsed R — 2,572 (16%)",
+      "Mixed – Active — 879 (6%)",
+      "Mixed – Lapsed — 669 (4%)",
+      "UNC – Non-partisan Ballot — 403 (3%)",
+      "UNC – No Primary — 7,104 (45%)",
+      "UNC – Lapsed D — 1,416 (9%)",
+      "Pure D — 907 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2080,
-          2378,
-          824,
-          1024,
-          6957,
-          1448,
-          660
+          1958,
+          2572,
+          879,
+          669,
+          403,
+          7104,
+          1416,
+          907
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "DUBLIN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

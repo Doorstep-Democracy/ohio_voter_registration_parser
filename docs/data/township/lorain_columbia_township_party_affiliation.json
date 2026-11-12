@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 744 (12%)",
-      "UNC – Lapsed R — 823 (13%)",
-      "Mixed – Active — 604 (9%)",
-      "Mixed – Lapsed — 801 (12%)",
-      "UNC – No Primary — 2,244 (35%)",
-      "UNC – Lapsed D — 890 (14%)",
-      "Pure D — 326 (5%)"
+      "Pure R — 740 (11%)",
+      "UNC – Lapsed R — 886 (13%)",
+      "Mixed – Active — 649 (10%)",
+      "Mixed – Lapsed — 405 (6%)",
+      "UNC – Non-partisan Ballot — 382 (6%)",
+      "UNC – No Primary — 2,291 (35%)",
+      "UNC – Lapsed D — 798 (12%)",
+      "Pure D — 488 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          744,
-          823,
-          604,
-          801,
-          2244,
-          890,
-          326
+          740,
+          886,
+          649,
+          405,
+          382,
+          2291,
+          798,
+          488
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "COLUMBIA TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

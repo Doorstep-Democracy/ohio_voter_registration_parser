@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 59",
-      "Mixed – Active — 68",
-      "Mixed – Lapsed — 117",
-      "UNC – No Primary — 1,309",
-      "UNC – Lapsed D — 686"
+      "UNC – Lapsed R — 51",
+      "Mixed – Active — 74",
+      "Mixed – Lapsed — 47",
+      "UNC – Non-partisan Ballot — 57",
+      "UNC – No Primary — 1,312",
+      "UNC – Lapsed D — 600"
     ],
     "datasets": [
       {
         "data": [
-          59,
-          68,
-          117,
-          1309,
-          686
+          51,
+          74,
+          47,
+          57,
+          1312,
+          600
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "WOODLAWN VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

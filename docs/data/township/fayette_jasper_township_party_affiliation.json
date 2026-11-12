@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 134 (31%)",
-      "UNC – Lapsed R — 57 (13%)",
-      "Mixed – Active — 43 (10%)",
-      "Mixed – Lapsed — 33 (8%)",
-      "UNC – No Primary — 133 (31%)",
+      "Pure R — 139 (32%)",
+      "UNC – Lapsed R — 64 (15%)",
+      "Mixed – Active — 45 (10%)",
+      "Mixed – Lapsed — 24 (6%)",
+      "UNC – Non-partisan Ballot — 8 (2%)",
+      "UNC – No Primary — 125 (29%)",
       "UNC – Lapsed D — 23 (5%)",
-      "Pure D — 11 (3%)"
+      "Pure D — 8 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          134,
-          57,
-          43,
-          33,
-          133,
+          139,
+          64,
+          45,
+          24,
+          8,
+          125,
           23,
-          11
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JASPER TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

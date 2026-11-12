@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,965 (23%)",
-      "UNC – Lapsed R — 1,802 (14%)",
-      "Mixed – Active — 922 (7%)",
-      "Mixed – Lapsed — 663 (5%)",
-      "UNC – No Primary — 5,653 (43%)",
-      "UNC – Lapsed D — 733 (6%)",
-      "Pure D — 270 (2%)"
+      "Pure R — 2,485 (19%)",
+      "UNC – Lapsed R — 2,377 (18%)",
+      "Mixed – Active — 829 (6%)",
+      "Mixed – Lapsed — 506 (4%)",
+      "UNC – Non-partisan Ballot — 258 (2%)",
+      "UNC – No Primary — 5,563 (43%)",
+      "UNC – Lapsed D — 709 (5%)",
+      "Pure D — 308 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          2965,
-          1802,
-          922,
-          663,
-          5653,
-          733,
-          270
+          2485,
+          2377,
+          829,
+          506,
+          258,
+          5563,
+          709,
+          308
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WAPAKONETA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 168",
-      "Mixed – Active — 145",
-      "Mixed – Lapsed — 84",
-      "UNC – No Primary — 602",
-      "UNC – Lapsed D — 198"
+      "UNC – Lapsed R — 156",
+      "Mixed – Active — 191",
+      "Mixed – Lapsed — 52",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 544",
+      "UNC – Lapsed D — 160"
     ],
     "datasets": [
       {
         "data": [
-          168,
-          145,
-          84,
-          602,
-          198
+          156,
+          191,
+          52,
+          12,
+          544,
+          160
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NILE TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

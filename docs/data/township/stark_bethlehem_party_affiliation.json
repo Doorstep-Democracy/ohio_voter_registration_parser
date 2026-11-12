@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 604 (16%)",
-      "UNC – Lapsed R — 423 (12%)",
-      "Mixed – Active — 394 (11%)",
-      "Mixed – Lapsed — 322 (9%)",
-      "UNC – No Primary — 1,286 (35%)",
-      "UNC – Lapsed D — 453 (12%)",
-      "Pure D — 194 (5%)"
+      "Pure R — 563 (15%)",
+      "UNC – Lapsed R — 482 (13%)",
+      "Mixed – Active — 398 (11%)",
+      "Mixed – Lapsed — 187 (5%)",
+      "UNC – Non-partisan Ballot — 135 (4%)",
+      "UNC – No Primary — 1,269 (34%)",
+      "UNC – Lapsed D — 409 (11%)",
+      "Pure D — 252 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          604,
-          423,
-          394,
-          322,
-          1286,
-          453,
-          194
+          563,
+          482,
+          398,
+          187,
+          135,
+          1269,
+          409,
+          252
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BETHLEHEM (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

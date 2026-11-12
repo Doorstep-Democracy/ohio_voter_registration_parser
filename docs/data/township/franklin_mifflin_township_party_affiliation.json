@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,802 (10%)",
-      "UNC – Lapsed R — 2,934 (11%)",
-      "Mixed – Active — 1,860 (7%)",
-      "Mixed – Lapsed — 2,589 (9%)",
-      "UNC – No Primary — 10,555 (38%)",
-      "UNC – Lapsed D — 4,154 (15%)",
-      "Pure D — 2,960 (11%)"
+      "Pure R — 2,442 (9%)",
+      "UNC – Lapsed R — 3,159 (11%)",
+      "Mixed – Active — 1,990 (7%)",
+      "Mixed – Lapsed — 1,273 (5%)",
+      "UNC – Non-partisan Ballot — 1,186 (4%)",
+      "UNC – No Primary — 10,265 (37%)",
+      "UNC – Lapsed D — 3,832 (14%)",
+      "Pure D — 3,795 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          2802,
-          2934,
-          1860,
-          2589,
-          10555,
-          4154,
-          2960
+          2442,
+          3159,
+          1990,
+          1273,
+          1186,
+          10265,
+          3832,
+          3795
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Mifflin Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

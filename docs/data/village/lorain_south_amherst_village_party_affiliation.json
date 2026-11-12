@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 126 (12%)",
+      "Pure R — 130 (12%)",
       "UNC – Lapsed R — 100 (9%)",
-      "Mixed – Active — 135 (13%)",
-      "Mixed – Lapsed — 82 (8%)",
-      "UNC – No Primary — 375 (35%)",
-      "UNC – Lapsed D — 146 (14%)",
-      "Pure D — 97 (9%)"
+      "Mixed – Active — 147 (14%)",
+      "Mixed – Lapsed — 48 (5%)",
+      "UNC – Non-partisan Ballot — 34 (3%)",
+      "UNC – No Primary — 359 (34%)",
+      "UNC – Lapsed D — 123 (12%)",
+      "Pure D — 114 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          126,
+          130,
           100,
-          135,
-          82,
-          375,
-          146,
-          97
+          147,
+          48,
+          34,
+          359,
+          123,
+          114
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SOUTH AMHERST VILLAGE (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

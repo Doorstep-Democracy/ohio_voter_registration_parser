@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 366",
-      "Mixed – Active — 150",
-      "Mixed – Lapsed — 172",
-      "UNC – No Primary — 731",
-      "UNC – Lapsed D — 220"
+      "UNC – Lapsed R — 422",
+      "Mixed – Active — 146",
+      "Mixed – Lapsed — 116",
+      "UNC – Non-partisan Ballot — 66",
+      "UNC – No Primary — 712",
+      "UNC – Lapsed D — 205"
     ],
     "datasets": [
       {
         "data": [
-          366,
-          150,
-          172,
-          731,
-          220
+          422,
+          146,
+          116,
+          66,
+          712,
+          205
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HOPEWELL TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

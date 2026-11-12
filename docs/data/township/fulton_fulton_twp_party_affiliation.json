@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 387 (18%)",
-      "UNC – Lapsed R — 234 (11%)",
-      "Mixed – Active — 214 (10%)",
-      "Mixed – Lapsed — 209 (10%)",
-      "UNC – No Primary — 773 (35%)",
-      "UNC – Lapsed D — 244 (11%)",
-      "Pure D — 134 (6%)"
+      "Pure R — 357 (16%)",
+      "UNC – Lapsed R — 271 (12%)",
+      "Mixed – Active — 213 (10%)",
+      "Mixed – Lapsed — 121 (6%)",
+      "UNC – Non-partisan Ballot — 85 (4%)",
+      "UNC – No Primary — 760 (35%)",
+      "UNC – Lapsed D — 237 (11%)",
+      "Pure D — 149 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          387,
-          234,
-          214,
-          209,
-          773,
-          244,
-          134
+          357,
+          271,
+          213,
+          121,
+          85,
+          760,
+          237,
+          149
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FULTON TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

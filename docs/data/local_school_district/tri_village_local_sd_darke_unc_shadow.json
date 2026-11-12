@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 526",
-      "Mixed – Active — 232",
-      "Mixed – Lapsed — 163",
-      "UNC – No Primary — 1,015",
-      "UNC – Lapsed D — 118"
+      "UNC – Lapsed R — 525",
+      "Mixed – Active — 233",
+      "Mixed – Lapsed — 117",
+      "UNC – Non-partisan Ballot — 46",
+      "UNC – No Primary — 1,032",
+      "UNC – Lapsed D — 119"
     ],
     "datasets": [
       {
         "data": [
-          526,
-          232,
-          163,
-          1015,
-          118
+          525,
+          233,
+          117,
+          46,
+          1032,
+          119
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Tri-Village Local Sd (Darke Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

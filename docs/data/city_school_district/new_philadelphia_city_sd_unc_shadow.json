@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,429",
-      "Mixed – Active — 1,251",
-      "Mixed – Lapsed — 1,574",
-      "UNC – No Primary — 4,663",
-      "UNC – Lapsed D — 2,189"
+      "UNC – Lapsed R — 1,153",
+      "Mixed – Active — 1,714",
+      "Mixed – Lapsed — 519",
+      "UNC – Non-partisan Ballot — 621",
+      "UNC – No Primary — 4,430",
+      "UNC – Lapsed D — 1,449"
     ],
     "datasets": [
       {
         "data": [
-          1429,
-          1251,
-          1574,
-          4663,
-          2189
+          1153,
+          1714,
+          519,
+          621,
+          4430,
+          1449
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "NEW PHILADELPHIA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

@@ -15,10 +15,10 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          3,
-          3,
           2,
+          3,
+          3,
+          0,
           1,
           0,
           0
@@ -29,10 +29,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
+          0,
           3,
-          2,
-          3,
+          0,
+          5,
           2,
           0,
           0
@@ -44,10 +44,10 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          4,
+          5,
           2,
-          3,
-          1,
+          2,
+          0,
           0,
           0
         ],
@@ -58,14 +58,28 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
+          2,
           3,
           2,
           1,
           0,
-          0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -75,8 +89,8 @@
           1,
           3,
           5,
-          8,
-          4,
+          7,
+          5,
           5
         ],
         "backgroundColor": "#9ca3af",
@@ -85,10 +99,10 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
+          1,
           3,
           4,
-          1,
+          0,
           0,
           0,
           0
@@ -99,7 +113,7 @@
       {
         "label": "Pure D",
         "data": [
-          1,
+          0,
           0,
           0,
           0,
@@ -112,8 +126,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "RIDGEWAY VILLAGE (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

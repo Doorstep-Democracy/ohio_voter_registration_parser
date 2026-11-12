@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 24 (26%)",
-      "UNC – Lapsed R — 13 (14%)",
-      "Mixed – Active — 10 (11%)",
-      "Mixed – Lapsed — 4 (4%)",
+      "Pure R — 22 (24%)",
+      "UNC – Lapsed R — 14 (15%)",
+      "Mixed – Active — 8 (9%)",
+      "Mixed – Lapsed — 6 (7%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
       "UNC – No Primary — 32 (35%)",
-      "UNC – Lapsed D — 7 (8%)",
-      "Pure D — 2 (2%)"
+      "UNC – Lapsed D — 6 (7%)",
+      "Pure D — 3 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          24,
-          13,
-          10,
-          4,
+          22,
+          14,
+          8,
+          6,
+          0,
           32,
-          7,
-          2
+          6,
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CHESHIRE VILLAGE (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

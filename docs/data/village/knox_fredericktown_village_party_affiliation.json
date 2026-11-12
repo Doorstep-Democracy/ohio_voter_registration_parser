@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 458 (26%)",
-      "UNC – Lapsed R — 216 (12%)",
-      "Mixed – Active — 130 (7%)",
-      "Mixed – Lapsed — 99 (6%)",
-      "UNC – No Primary — 709 (40%)",
-      "UNC – Lapsed D — 118 (7%)",
-      "Pure D — 61 (3%)"
+      "Pure R — 419 (23%)",
+      "UNC – Lapsed R — 250 (14%)",
+      "Mixed – Active — 141 (8%)",
+      "Mixed – Lapsed — 53 (3%)",
+      "UNC – Non-partisan Ballot — 45 (2%)",
+      "UNC – No Primary — 722 (40%)",
+      "UNC – Lapsed D — 108 (6%)",
+      "Pure D — 73 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          458,
-          216,
-          130,
-          99,
-          709,
-          118,
-          61
+          419,
+          250,
+          141,
+          53,
+          45,
+          722,
+          108,
+          73
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FREDERICKTOWN VILLAGE (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

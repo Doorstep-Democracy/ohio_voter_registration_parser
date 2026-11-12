@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,862 (13%)",
-      "UNC – Lapsed R — 3,752 (13%)",
-      "Mixed – Active — 2,543 (9%)",
-      "Mixed – Lapsed — 2,656 (9%)",
-      "UNC – No Primary — 9,820 (33%)",
-      "UNC – Lapsed D — 3,959 (13%)",
-      "Pure D — 2,743 (9%)"
+      "Pure R — 3,489 (12%)",
+      "UNC – Lapsed R — 4,019 (14%)",
+      "Mixed – Active — 2,695 (9%)",
+      "Mixed – Lapsed — 1,612 (5%)",
+      "UNC – Non-partisan Ballot — 991 (3%)",
+      "UNC – No Primary — 9,666 (33%)",
+      "UNC – Lapsed D — 3,739 (13%)",
+      "Pure D — 3,435 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          3862,
-          3752,
-          2543,
-          2656,
-          9820,
-          3959,
-          2743
+          3489,
+          4019,
+          2695,
+          1612,
+          991,
+          9666,
+          3739,
+          3435
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WESTERVILLE CITY ",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

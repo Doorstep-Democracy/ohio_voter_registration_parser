@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 350",
-      "Mixed – Active — 306",
-      "Mixed – Lapsed — 142",
-      "UNC – No Primary — 825",
-      "UNC – Lapsed D — 116"
+      "UNC – Lapsed R — 354",
+      "Mixed – Active — 304",
+      "Mixed – Lapsed — 99",
+      "UNC – Non-partisan Ballot — 42",
+      "UNC – No Primary — 842",
+      "UNC – Lapsed D — 115"
     ],
     "datasets": [
       {
         "data": [
-          350,
-          306,
-          142,
-          825,
-          116
+          354,
+          304,
+          99,
+          42,
+          842,
+          115
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

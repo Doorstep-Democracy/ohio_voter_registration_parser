@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 287",
-      "Mixed – Active — 204",
-      "Mixed – Lapsed — 116",
-      "UNC – No Primary — 737",
-      "UNC – Lapsed D — 110"
+      "UNC – Lapsed R — 411",
+      "Mixed – Active — 198",
+      "Mixed – Lapsed — 87",
+      "UNC – Non-partisan Ballot — 33",
+      "UNC – No Primary — 745",
+      "UNC – Lapsed D — 109"
     ],
     "datasets": [
       {
         "data": [
-          287,
-          204,
-          116,
-          737,
-          110
+          411,
+          198,
+          87,
+          33,
+          745,
+          109
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

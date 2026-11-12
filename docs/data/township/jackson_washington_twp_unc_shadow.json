@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 104",
-      "Mixed – Active — 31",
-      "Mixed – Lapsed — 49",
-      "UNC – No Primary — 186",
-      "UNC – Lapsed D — 37"
+      "UNC – Lapsed R — 102",
+      "Mixed – Active — 41",
+      "Mixed – Lapsed — 35",
+      "UNC – Non-partisan Ballot — 5",
+      "UNC – No Primary — 192",
+      "UNC – Lapsed D — 31"
     ],
     "datasets": [
       {
         "data": [
-          104,
-          31,
-          49,
-          186,
-          37
+          102,
+          41,
+          35,
+          5,
+          192,
+          31
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TWP (Jackson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

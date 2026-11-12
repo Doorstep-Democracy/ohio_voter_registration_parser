@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 143 (26%)",
-      "UNC – Lapsed R — 107 (20%)",
-      "Mixed – Active — 38 (7%)",
-      "Mixed – Lapsed — 19 (3%)",
-      "UNC – No Primary — 201 (37%)",
-      "UNC – Lapsed D — 31 (6%)",
-      "Pure D — 7 (1%)"
+      "Pure R — 120 (22%)",
+      "UNC – Lapsed R — 134 (25%)",
+      "Mixed – Active — 33 (6%)",
+      "Mixed – Lapsed — 18 (3%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 195 (36%)",
+      "UNC – Lapsed D — 30 (6%)",
+      "Pure D — 8 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          143,
-          107,
-          38,
-          19,
-          201,
-          31,
-          7
+          120,
+          134,
+          33,
+          18,
+          7,
+          195,
+          30,
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLAY TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

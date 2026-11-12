@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 284",
-      "Mixed – Active — 530",
-      "Mixed – Lapsed — 570",
-      "UNC – No Primary — 1,121",
-      "UNC – Lapsed D — 570"
+      "UNC – Lapsed R — 309",
+      "Mixed – Active — 529",
+      "Mixed – Lapsed — 193",
+      "UNC – Non-partisan Ballot — 365",
+      "UNC – No Primary — 1,139",
+      "UNC – Lapsed D — 511"
     ],
     "datasets": [
       {
         "data": [
-          284,
-          530,
-          570,
-          1121,
-          570
+          309,
+          529,
+          193,
+          365,
+          1139,
+          511
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NORTHFIELD CTR TP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

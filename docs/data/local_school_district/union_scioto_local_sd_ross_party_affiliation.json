@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,046 (14%)",
-      "UNC – Lapsed R — 846 (11%)",
-      "Mixed – Active — 716 (10%)",
-      "Mixed – Lapsed — 529 (7%)",
-      "UNC – No Primary — 2,980 (40%)",
-      "UNC – Lapsed D — 813 (11%)",
-      "Pure D — 533 (7%)"
+      "Pure R — 1,039 (14%)",
+      "UNC – Lapsed R — 848 (11%)",
+      "Mixed – Active — 706 (9%)",
+      "Mixed – Lapsed — 335 (4%)",
+      "UNC – Non-partisan Ballot — 193 (3%)",
+      "UNC – No Primary — 3,055 (41%)",
+      "UNC – Lapsed D — 808 (11%)",
+      "Pure D — 530 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1046,
-          846,
-          716,
-          529,
-          2980,
-          813,
-          533
+          1039,
+          848,
+          706,
+          335,
+          193,
+          3055,
+          808,
+          530
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Union-Scioto Local Sd (Ross Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

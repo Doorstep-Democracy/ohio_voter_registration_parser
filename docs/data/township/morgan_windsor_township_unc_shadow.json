@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 188",
+      "UNC – Lapsed R — 208",
       "Mixed – Active — 121",
-      "Mixed – Lapsed — 70",
-      "UNC – No Primary — 393",
-      "UNC – Lapsed D — 75"
+      "Mixed – Lapsed — 60",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 385",
+      "UNC – Lapsed D — 77"
     ],
     "datasets": [
       {
         "data": [
-          188,
+          208,
           121,
-          70,
-          393,
-          75
+          60,
+          12,
+          385,
+          77
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WINDSOR TOWNSHIP (Morgan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

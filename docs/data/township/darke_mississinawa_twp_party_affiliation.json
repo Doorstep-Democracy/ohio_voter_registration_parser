@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 113 (24%)",
-      "UNC – Lapsed R — 61 (13%)",
-      "Mixed – Active — 28 (6%)",
-      "Mixed – Lapsed — 25 (5%)",
-      "UNC – No Primary — 193 (41%)",
+      "Pure R — 71 (15%)",
+      "UNC – Lapsed R — 104 (22%)",
+      "Mixed – Active — 20 (4%)",
+      "Mixed – Lapsed — 23 (5%)",
+      "UNC – Non-partisan Ballot — 12 (3%)",
+      "UNC – No Primary — 195 (42%)",
       "UNC – Lapsed D — 34 (7%)",
-      "Pure D — 13 (3%)"
+      "Pure D — 8 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          113,
-          61,
-          28,
-          25,
-          193,
+          71,
+          104,
+          20,
+          23,
+          12,
+          195,
           34,
-          13
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MISSISSINAWA TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

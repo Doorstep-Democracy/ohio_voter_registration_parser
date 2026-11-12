@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 68",
-      "Mixed – Active — 48",
-      "Mixed – Lapsed — 47",
-      "UNC – No Primary — 117",
-      "UNC – Lapsed D — 46"
+      "UNC – Lapsed R — 80",
+      "Mixed – Active — 46",
+      "Mixed – Lapsed — 25",
+      "UNC – Non-partisan Ballot — 24",
+      "UNC – No Primary — 120",
+      "UNC – Lapsed D — 49"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          48,
-          47,
-          117,
-          46
+          80,
+          46,
+          25,
+          24,
+          120,
+          49
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "WAITE HILL VILLAGE (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

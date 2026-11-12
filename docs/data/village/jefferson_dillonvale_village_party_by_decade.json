@@ -17,13 +17,13 @@
         "label": "Pure R",
         "data": [
           1,
-          0,
+          1,
           2,
           5,
           1,
-          7,
+          5,
           1,
-          1
+          2
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,12 +32,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          1,
+          0,
           5,
+          2,
+          2,
+          8,
           1,
-          2,
-          6,
-          2,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -46,11 +46,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
+          1,
           10,
-          6,
-          8,
-          4,
+          11,
+          9,
+          3,
           2,
           0,
           0
@@ -61,16 +61,31 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           1,
-          7,
-          6,
-          6,
+          2,
           3,
+          4,
+          6,
           1,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,12 +93,12 @@
         "data": [
           1,
           4,
-          12,
-          15,
-          20,
-          44,
-          44,
-          35
+          13,
+          16,
+          19,
+          43,
+          47,
+          34
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -93,8 +108,8 @@
         "data": [
           2,
           2,
-          16,
           15,
+          12,
           5,
           11,
           2,
@@ -107,10 +122,10 @@
         "label": "Pure D",
         "data": [
           1,
-          10,
-          13,
-          4,
-          2,
+          9,
+          12,
+          6,
+          3,
           1,
           0,
           0
@@ -120,8 +135,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "DILLONVALE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

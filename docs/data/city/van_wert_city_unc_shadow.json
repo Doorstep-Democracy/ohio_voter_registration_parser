@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,020",
-      "Mixed – Active — 540",
-      "Mixed – Lapsed — 388",
-      "UNC – No Primary — 3,460",
-      "UNC – Lapsed D — 412"
+      "UNC – Lapsed R — 1,220",
+      "Mixed – Active — 469",
+      "Mixed – Lapsed — 357",
+      "UNC – Non-partisan Ballot — 115",
+      "UNC – No Primary — 3,415",
+      "UNC – Lapsed D — 423"
     ],
     "datasets": [
       {
         "data": [
-          1020,
-          540,
-          388,
-          3460,
-          412
+          1220,
+          469,
+          357,
+          115,
+          3415,
+          423
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "VAN WERT CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

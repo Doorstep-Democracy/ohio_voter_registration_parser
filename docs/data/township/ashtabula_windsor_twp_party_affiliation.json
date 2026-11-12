@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 121 (16%)",
-      "UNC – Lapsed R — 75 (10%)",
+      "Pure R — 107 (14%)",
+      "UNC – Lapsed R — 94 (12%)",
       "Mixed – Active — 91 (12%)",
-      "Mixed – Lapsed — 70 (9%)",
-      "UNC – No Primary — 291 (38%)",
-      "UNC – Lapsed D — 64 (8%)",
-      "Pure D — 49 (6%)"
+      "Mixed – Lapsed — 29 (4%)",
+      "UNC – Non-partisan Ballot — 38 (5%)",
+      "UNC – No Primary — 292 (38%)",
+      "UNC – Lapsed D — 63 (8%)",
+      "Pure D — 50 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          121,
-          75,
+          107,
+          94,
           91,
-          70,
-          291,
-          64,
-          49
+          29,
+          38,
+          292,
+          63,
+          50
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WINDSOR TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

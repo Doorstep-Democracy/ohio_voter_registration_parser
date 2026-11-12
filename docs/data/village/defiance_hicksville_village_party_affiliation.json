@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 274 (13%)",
-      "UNC – Lapsed R — 296 (14%)",
-      "Mixed – Active — 99 (5%)",
-      "Mixed – Lapsed — 155 (7%)",
-      "UNC – No Primary — 1,091 (52%)",
-      "UNC – Lapsed D — 147 (7%)",
-      "Pure D — 52 (2%)"
+      "Pure R — 233 (11%)",
+      "UNC – Lapsed R — 352 (17%)",
+      "Mixed – Active — 98 (5%)",
+      "Mixed – Lapsed — 103 (5%)",
+      "UNC – Non-partisan Ballot — 49 (2%)",
+      "UNC – No Primary — 1,074 (51%)",
+      "UNC – Lapsed D — 140 (7%)",
+      "Pure D — 69 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          274,
-          296,
-          99,
-          155,
-          1091,
-          147,
-          52
+          233,
+          352,
+          98,
+          103,
+          49,
+          1074,
+          140,
+          69
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HICKSVILLE VILLAGE (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

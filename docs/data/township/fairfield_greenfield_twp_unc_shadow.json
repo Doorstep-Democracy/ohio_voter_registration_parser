@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 655",
-      "Mixed – Active — 301",
-      "Mixed – Lapsed — 340",
-      "UNC – No Primary — 1,327",
-      "UNC – Lapsed D — 355"
+      "UNC – Lapsed R — 775",
+      "Mixed – Active — 270",
+      "Mixed – Lapsed — 196",
+      "UNC – Non-partisan Ballot — 181",
+      "UNC – No Primary — 1,314",
+      "UNC – Lapsed D — 337"
     ],
     "datasets": [
       {
         "data": [
-          655,
-          301,
-          340,
-          1327,
-          355
+          775,
+          270,
+          196,
+          181,
+          1314,
+          337
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GREENFIELD TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          19,
-          405,
-          1319,
-          2257,
-          1977,
-          1087,
-          842,
-          445,
-          255
+          13,
+          329,
+          1233,
+          2210,
+          1946,
+          1084,
+          844,
+          458,
+          270
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          17,
-          270,
-          591,
-          1129,
-          1635,
-          1406,
-          1138,
-          932,
-          77
+          18,
+          296,
+          624,
+          1150,
+          1679,
+          1435,
+          1170,
+          968,
+          151
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          19,
-          472,
-          1983,
-          2966,
-          2143,
-          938,
-          523,
-          177,
-          5
+          16,
+          404,
+          1993,
+          3055,
+          2240,
+          1007,
+          641,
+          232,
+          19
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          13,
-          295,
-          888,
-          1451,
-          1987,
-          1788,
-          1466,
-          670,
-          259
+          15,
+          263,
+          635,
+          923,
+          1201,
+          778,
+          437,
+          133,
+          2
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          66,
+          239,
+          477,
+          756,
+          936,
+          953,
+          498,
+          238
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          0,
-          15,
-          160,
-          722,
-          1883,
-          2872,
-          3843,
-          5788,
-          8578,
-          6765
+          13,
+          151,
+          662,
+          1788,
+          2772,
+          3759,
+          5529,
+          8330,
+          7108
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          45,
-          403,
-          1099,
-          2029,
-          2575,
-          2308,
-          2328,
-          1361,
-          166
+          35,
+          380,
+          971,
+          1787,
+          2197,
+          2053,
+          2138,
+          1319,
+          196
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          24,
-          434,
-          1491,
-          2298,
-          1396,
-          879,
+          23,
+          411,
+          1579,
+          2570,
+          1778,
+          1231,
+          1465,
           1017,
-          646,
-          301
+          584
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "BEREA (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

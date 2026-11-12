@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 350",
-      "Mixed – Active — 383",
-      "Mixed – Lapsed — 449",
-      "UNC – No Primary — 1,025",
-      "UNC – Lapsed D — 383"
+      "UNC – Lapsed R — 386",
+      "Mixed – Active — 387",
+      "Mixed – Lapsed — 168",
+      "UNC – Non-partisan Ballot — 295",
+      "UNC – No Primary — 1,032",
+      "UNC – Lapsed D — 347"
     ],
     "datasets": [
       {
         "data": [
-          350,
-          383,
-          449,
-          1025,
-          383
+          386,
+          387,
+          168,
+          295,
+          1032,
+          347
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MANTUA TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

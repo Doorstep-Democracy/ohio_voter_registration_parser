@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 17,130 (13%)",
-      "UNC – Lapsed R — 10,909 (9%)",
-      "Mixed – Active — 11,729 (9%)",
-      "Mixed – Lapsed — 9,487 (7%)",
-      "UNC – No Primary — 50,264 (39%)",
-      "UNC – Lapsed D — 16,381 (13%)",
-      "Pure D — 11,953 (9%)"
+      "Pure R — 17,223 (13%)",
+      "UNC – Lapsed R — 11,414 (9%)",
+      "Mixed – Active — 12,281 (9%)",
+      "Mixed – Lapsed — 4,702 (4%)",
+      "UNC – Non-partisan Ballot — 4,617 (4%)",
+      "UNC – No Primary — 51,124 (39%)",
+      "UNC – Lapsed D — 15,280 (12%)",
+      "Pure D — 13,760 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          17130,
-          10909,
-          11729,
-          9487,
-          50264,
-          16381,
-          11953
+          17223,
+          11414,
+          12281,
+          4702,
+          4617,
+          51124,
+          15280,
+          13760
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "CANTON (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

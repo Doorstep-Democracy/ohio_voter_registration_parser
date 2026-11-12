@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,683 (20%)",
-      "UNC – Lapsed R — 965 (11%)",
-      "Mixed – Active — 854 (10%)",
-      "Mixed – Lapsed — 508 (6%)",
-      "UNC – No Primary — 3,627 (43%)",
-      "UNC – Lapsed D — 582 (7%)",
-      "Pure D — 233 (3%)"
+      "Pure R — 1,269 (15%)",
+      "UNC – Lapsed R — 1,384 (16%)",
+      "Mixed – Active — 687 (8%)",
+      "Mixed – Lapsed — 559 (7%)",
+      "UNC – Non-partisan Ballot — 124 (1%)",
+      "UNC – No Primary — 3,639 (43%)",
+      "UNC – Lapsed D — 567 (7%)",
+      "Pure D — 263 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1683,
-          965,
-          854,
-          508,
-          3627,
-          582,
-          233
+          1269,
+          1384,
+          687,
+          559,
+          124,
+          3639,
+          567,
+          263
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "GREENVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

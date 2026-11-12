@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 407 (18%)",
-      "UNC – Lapsed R — 317 (14%)",
+      "Pure R — 404 (18%)",
+      "UNC – Lapsed R — 315 (14%)",
       "Mixed – Active — 114 (5%)",
-      "Mixed – Lapsed — 146 (7%)",
-      "UNC – No Primary — 953 (43%)",
-      "UNC – Lapsed D — 161 (7%)",
-      "Pure D — 107 (5%)"
+      "Mixed – Lapsed — 63 (3%)",
+      "UNC – Non-partisan Ballot — 81 (4%)",
+      "UNC – No Primary — 991 (44%)",
+      "UNC – Lapsed D — 163 (7%)",
+      "Pure D — 106 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          407,
-          317,
+          404,
+          315,
           114,
-          146,
-          953,
-          161,
-          107
+          63,
+          81,
+          991,
+          163,
+          106
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Perry Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

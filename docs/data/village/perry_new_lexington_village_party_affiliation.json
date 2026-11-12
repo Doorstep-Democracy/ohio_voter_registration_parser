@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 265 (11%)",
-      "UNC – Lapsed R — 182 (8%)",
-      "Mixed – Active — 212 (9%)",
-      "Mixed – Lapsed — 106 (4%)",
-      "UNC – No Primary — 1,205 (50%)",
-      "UNC – Lapsed D — 305 (13%)",
-      "Pure D — 140 (6%)"
+      "Pure R — 268 (11%)",
+      "UNC – Lapsed R — 182 (7%)",
+      "Mixed – Active — 226 (9%)",
+      "Mixed – Lapsed — 82 (3%)",
+      "UNC – Non-partisan Ballot — 33 (1%)",
+      "UNC – No Primary — 1,204 (50%)",
+      "UNC – Lapsed D — 284 (12%)",
+      "Pure D — 148 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          265,
+          268,
           182,
-          212,
-          106,
-          1205,
-          305,
-          140
+          226,
+          82,
+          33,
+          1204,
+          284,
+          148
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW LEXINGTON VILLAGE (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

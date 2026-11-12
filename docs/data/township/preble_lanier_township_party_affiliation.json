@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 603 (25%)",
-      "UNC – Lapsed R — 378 (15%)",
-      "Mixed – Active — 218 (9%)",
-      "Mixed – Lapsed — 173 (7%)",
-      "UNC – No Primary — 861 (35%)",
-      "UNC – Lapsed D — 169 (7%)",
-      "Pure D — 44 (2%)"
+      "Pure R — 585 (24%)",
+      "UNC – Lapsed R — 404 (17%)",
+      "Mixed – Active — 216 (9%)",
+      "Mixed – Lapsed — 117 (5%)",
+      "UNC – Non-partisan Ballot — 67 (3%)",
+      "UNC – No Primary — 835 (34%)",
+      "UNC – Lapsed D — 145 (6%)",
+      "Pure D — 69 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          603,
-          378,
-          218,
-          173,
-          861,
-          169,
-          44
+          585,
+          404,
+          216,
+          117,
+          67,
+          835,
+          145,
+          69
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LANIER TOWNSHIP (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

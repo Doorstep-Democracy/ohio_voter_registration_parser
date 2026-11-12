@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 116",
-      "Mixed – Active — 103",
-      "Mixed – Lapsed — 60",
-      "UNC – No Primary — 585",
-      "UNC – Lapsed D — 79"
+      "UNC – Lapsed R — 130",
+      "Mixed – Active — 98",
+      "Mixed – Lapsed — 48",
+      "UNC – Non-partisan Ballot — 17",
+      "UNC – No Primary — 576",
+      "UNC – Lapsed D — 81"
     ],
     "datasets": [
       {
         "data": [
-          116,
-          103,
-          60,
-          585,
-          79
+          130,
+          98,
+          48,
+          17,
+          576,
+          81
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BUCK TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

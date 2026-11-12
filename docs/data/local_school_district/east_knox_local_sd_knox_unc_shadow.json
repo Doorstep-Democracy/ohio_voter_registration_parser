@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,008",
-      "Mixed – Active — 583",
-      "Mixed – Lapsed — 460",
-      "UNC – No Primary — 2,196",
-      "UNC – Lapsed D — 440"
+      "UNC – Lapsed R — 1,020",
+      "Mixed – Active — 567",
+      "Mixed – Lapsed — 240",
+      "UNC – Non-partisan Ballot — 214",
+      "UNC – No Primary — 2,238",
+      "UNC – Lapsed D — 439"
     ],
     "datasets": [
       {
         "data": [
-          1008,
-          583,
-          460,
-          2196,
-          440
+          1020,
+          567,
+          240,
+          214,
+          2238,
+          439
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "East Knox Local Sd (Knox Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 110 (19%)",
-      "UNC – Lapsed R — 34 (6%)",
-      "Mixed – Active — 84 (14%)",
-      "Mixed – Lapsed — 37 (6%)",
-      "UNC – No Primary — 174 (30%)",
-      "UNC – Lapsed D — 69 (12%)",
-      "Pure D — 72 (12%)"
+      "Pure R — 98 (17%)",
+      "UNC – Lapsed R — 50 (9%)",
+      "Mixed – Active — 81 (14%)",
+      "Mixed – Lapsed — 25 (4%)",
+      "UNC – Non-partisan Ballot — 14 (2%)",
+      "UNC – No Primary — 180 (31%)",
+      "UNC – Lapsed D — 66 (11%)",
+      "Pure D — 70 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          110,
-          34,
-          84,
-          37,
-          174,
-          69,
-          72
+          98,
+          50,
+          81,
+          25,
+          14,
+          180,
+          66,
+          70
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GUSTAVUS TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

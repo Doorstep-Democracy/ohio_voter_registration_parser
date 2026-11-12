@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 755",
-      "Mixed – Active — 878",
-      "Mixed – Lapsed — 862",
-      "UNC – No Primary — 3,447",
-      "UNC – Lapsed D — 1,459"
+      "UNC – Lapsed R — 803",
+      "Mixed – Active — 944",
+      "Mixed – Lapsed — 449",
+      "UNC – Non-partisan Ballot — 383",
+      "UNC – No Primary — 3,419",
+      "UNC – Lapsed D — 1,303"
     ],
     "datasets": [
       {
         "data": [
-          755,
-          878,
-          862,
-          3447,
-          1459
+          803,
+          944,
+          449,
+          383,
+          3419,
+          1303
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "SHEFFIELD-SHEFFIELD LAKE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 739 (9%)",
-      "UNC – Lapsed R — 711 (8%)",
-      "Mixed – Active — 677 (8%)",
-      "Mixed – Lapsed — 1,007 (12%)",
-      "UNC – No Primary — 3,495 (40%)",
-      "UNC – Lapsed D — 1,486 (17%)",
-      "Pure D — 567 (7%)"
+      "Pure R — 1,072 (12%)",
+      "UNC – Lapsed R — 548 (6%)",
+      "Mixed – Active — 929 (11%)",
+      "Mixed – Lapsed — 336 (4%)",
+      "UNC – Non-partisan Ballot — 453 (5%)",
+      "UNC – No Primary — 3,187 (36%)",
+      "UNC – Lapsed D — 1,007 (11%)",
+      "Pure D — 1,262 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          739,
-          711,
-          677,
+          1072,
+          548,
+          929,
+          336,
+          453,
+          3187,
           1007,
-          3495,
-          1486,
-          567
+          1262
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WICKLIFFE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

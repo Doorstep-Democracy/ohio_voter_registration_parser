@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 865",
-      "Mixed – Active — 764",
-      "Mixed – Lapsed — 969",
-      "UNC – No Primary — 4,471",
-      "UNC – Lapsed D — 951"
+      "UNC – Lapsed R — 744",
+      "Mixed – Active — 675",
+      "Mixed – Lapsed — 302",
+      "UNC – Non-partisan Ballot — 577",
+      "UNC – No Primary — 4,276",
+      "UNC – Lapsed D — 896"
     ],
     "datasets": [
       {
         "data": [
-          865,
-          764,
-          969,
-          4471,
-          951
+          744,
+          675,
+          302,
+          577,
+          4276,
+          896
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "FREMONT CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

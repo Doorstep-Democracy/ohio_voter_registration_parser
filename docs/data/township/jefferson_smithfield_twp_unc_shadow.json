@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 125",
-      "Mixed – Active — 221",
-      "Mixed – Lapsed — 125",
-      "UNC – No Primary — 765",
-      "UNC – Lapsed D — 350"
+      "UNC – Lapsed R — 122",
+      "Mixed – Active — 222",
+      "Mixed – Lapsed — 100",
+      "UNC – Non-partisan Ballot — 29",
+      "UNC – No Primary — 756",
+      "UNC – Lapsed D — 320"
     ],
     "datasets": [
       {
         "data": [
-          125,
-          221,
-          125,
-          765,
-          350
+          122,
+          222,
+          100,
+          29,
+          756,
+          320
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SMITHFIELD TWP (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

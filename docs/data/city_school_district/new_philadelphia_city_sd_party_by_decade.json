@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          4,
-          64,
-          271,
-          432,
-          354,
-          222,
-          144,
-          121,
-          62
+          5,
+          54,
+          289,
+          482,
+          446,
+          333,
+          277,
+          185,
+          112
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          6,
-          50,
-          135,
-          226,
-          281,
-          298,
-          248,
-          159,
-          25
+          3,
+          45,
+          113,
+          181,
+          224,
+          220,
+          179,
+          158,
+          30
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           1,
-          58,
-          241,
-          382,
-          300,
-          153,
-          85,
-          29,
-          2
+          64,
+          276,
+          494,
+          425,
+          256,
+          150,
+          42,
+          6
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          4,
-          55,
-          155,
-          266,
-          304,
-          287,
-          248,
-          170,
-          85
+          2,
+          36,
+          78,
+          120,
+          110,
+          105,
+          53,
+          14,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          6,
+          42,
+          62,
+          88,
+          116,
+          129,
+          121,
+          55
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          0,
           1,
-          29,
-          105,
-          311,
-          515,
-          607,
-          835,
-          1240,
-          1020
+          26,
+          101,
+          281,
+          485,
+          562,
+          775,
+          1170,
+          1029
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          11,
-          94,
-          287,
-          418,
-          476,
-          375,
-          313,
-          199,
-          16
+          7,
+          70,
+          180,
+          250,
+          306,
+          252,
+          219,
+          150,
+          15
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          2,
-          50,
-          219,
-          295,
-          119,
-          72,
-          37,
-          44,
-          16
+          3,
+          58,
+          294,
+          434,
+          253,
+          161,
+          133,
+          125,
+          82
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "NEW PHILADELPHIA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

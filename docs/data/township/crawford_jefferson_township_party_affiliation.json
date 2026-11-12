@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 269 (24%)",
-      "UNC – Lapsed R — 137 (12%)",
-      "Mixed – Active — 83 (7%)",
-      "Mixed – Lapsed — 115 (10%)",
-      "UNC – No Primary — 353 (32%)",
-      "UNC – Lapsed D — 104 (9%)",
-      "Pure D — 49 (4%)"
+      "Pure R — 226 (20%)",
+      "UNC – Lapsed R — 186 (17%)",
+      "Mixed – Active — 76 (7%)",
+      "Mixed – Lapsed — 66 (6%)",
+      "UNC – Non-partisan Ballot — 62 (6%)",
+      "UNC – No Primary — 346 (31%)",
+      "UNC – Lapsed D — 110 (10%)",
+      "Pure D — 38 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          269,
-          137,
-          83,
-          115,
-          353,
-          104,
-          49
+          226,
+          186,
+          76,
+          66,
+          62,
+          346,
+          110,
+          38
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

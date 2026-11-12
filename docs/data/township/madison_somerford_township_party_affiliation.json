@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 589 (24%)",
-      "UNC – Lapsed R — 382 (16%)",
-      "Mixed – Active — 198 (8%)",
-      "Mixed – Lapsed — 205 (8%)",
-      "UNC – No Primary — 760 (31%)",
-      "UNC – Lapsed D — 211 (9%)",
-      "Pure D — 94 (4%)"
+      "Pure R — 577 (23%)",
+      "UNC – Lapsed R — 410 (17%)",
+      "Mixed – Active — 202 (8%)",
+      "Mixed – Lapsed — 132 (5%)",
+      "UNC – Non-partisan Ballot — 69 (3%)",
+      "UNC – No Primary — 749 (30%)",
+      "UNC – Lapsed D — 196 (8%)",
+      "Pure D — 122 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          589,
-          382,
-          198,
-          205,
-          760,
-          211,
-          94
+          577,
+          410,
+          202,
+          132,
+          69,
+          749,
+          196,
+          122
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SOMERFORD TOWNSHIP (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 214 (27%)",
-      "UNC – Lapsed R — 77 (10%)",
-      "Mixed – Active — 101 (13%)",
-      "Mixed – Lapsed — 39 (5%)",
-      "UNC – No Primary — 278 (35%)",
+      "Pure R — 203 (25%)",
+      "UNC – Lapsed R — 94 (12%)",
+      "Mixed – Active — 100 (12%)",
+      "Mixed – Lapsed — 28 (4%)",
+      "UNC – Non-partisan Ballot — 11 (1%)",
+      "UNC – No Primary — 275 (34%)",
       "UNC – Lapsed D — 48 (6%)",
       "Pure D — 41 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          214,
-          77,
-          101,
-          39,
-          278,
+          203,
+          94,
+          100,
+          28,
+          11,
+          275,
           48,
           41
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

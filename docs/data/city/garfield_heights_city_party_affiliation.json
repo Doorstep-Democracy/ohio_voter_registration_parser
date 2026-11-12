@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 426 (2%)",
-      "UNC – Lapsed R — 464 (3%)",
-      "Mixed – Active — 815 (4%)",
-      "Mixed – Lapsed — 1,084 (6%)",
-      "UNC – No Primary — 8,749 (48%)",
-      "UNC – Lapsed D — 4,073 (22%)",
-      "Pure D — 2,694 (15%)"
+      "Pure R — 423 (2%)",
+      "UNC – Lapsed R — 464 (2%)",
+      "Mixed – Active — 806 (4%)",
+      "Mixed – Lapsed — 426 (2%)",
+      "UNC – Non-partisan Ballot — 583 (3%)",
+      "UNC – No Primary — 9,219 (49%)",
+      "UNC – Lapsed D — 4,051 (22%)",
+      "Pure D — 2,681 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          426,
+          423,
           464,
-          815,
-          1084,
-          8749,
-          4073,
-          2694
+          806,
+          426,
+          583,
+          9219,
+          4051,
+          2681
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "GARFIELD HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

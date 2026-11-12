@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          45,
-          181,
-          324,
-          266,
+          41,
           183,
-          131,
-          73,
-          44
+          361,
+          304,
+          224,
+          203,
+          100,
+          80
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          23,
+          19,
           47,
-          105,
-          104,
-          138,
-          167,
-          83,
-          10
+          73,
+          72,
+          125,
+          123,
+          72,
+          20
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          16,
+          19,
           85,
-          143,
-          83,
-          55,
-          36,
-          15,
-          1
+          154,
+          110,
+          75,
+          57,
+          23,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          17,
-          39,
-          54,
-          70,
-          70,
-          62,
-          28,
-          10
+          9,
+          23,
+          21,
+          25,
+          23,
+          12,
+          4,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          6,
+          14,
+          26,
+          28,
+          33,
+          42,
+          20,
+          15
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          10,
-          41,
-          100,
-          169,
-          225,
-          340,
-          411,
-          474
+          9,
+          30,
+          76,
+          142,
+          189,
+          302,
+          375,
+          456
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          17,
-          36,
-          80,
-          81,
-          72,
-          91,
-          27,
-          5
+          14,
+          25,
+          59,
+          41,
+          53,
+          79,
+          24,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
-          7,
-          43,
-          83,
-          47,
-          42,
-          31,
-          10,
-          7
+          0,
+          9,
+          50,
+          102,
+          82,
+          62,
+          49,
+          26,
+          19
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TROY TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

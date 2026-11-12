@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 899 (12%)",
-      "UNC – Lapsed R — 715 (10%)",
-      "Mixed – Active — 781 (11%)",
-      "Mixed – Lapsed — 740 (10%)",
-      "UNC – No Primary — 2,329 (32%)",
-      "UNC – Lapsed D — 769 (11%)",
-      "Pure D — 961 (13%)"
+      "Pure R — 836 (12%)",
+      "UNC – Lapsed R — 746 (10%)",
+      "Mixed – Active — 795 (11%)",
+      "Mixed – Lapsed — 357 (5%)",
+      "UNC – Non-partisan Ballot — 329 (5%)",
+      "UNC – No Primary — 2,334 (32%)",
+      "UNC – Lapsed D — 744 (10%)",
+      "Pure D — 1,109 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          899,
-          715,
-          781,
-          740,
-          2329,
-          769,
-          961
+          836,
+          746,
+          795,
+          357,
+          329,
+          2334,
+          744,
+          1109
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "OAKWOOD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

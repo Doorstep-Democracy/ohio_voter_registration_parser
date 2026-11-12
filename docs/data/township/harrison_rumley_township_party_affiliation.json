@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 153 (20%)",
-      "UNC – Lapsed R — 59 (8%)",
-      "Mixed – Active — 126 (16%)",
+      "Pure R — 144 (19%)",
+      "UNC – Lapsed R — 66 (9%)",
+      "Mixed – Active — 122 (16%)",
       "Mixed – Lapsed — 40 (5%)",
-      "UNC – No Primary — 274 (36%)",
-      "UNC – Lapsed D — 74 (10%)",
-      "Pure D — 44 (6%)"
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 282 (36%)",
+      "UNC – Lapsed D — 73 (9%)",
+      "Pure D — 42 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          153,
-          59,
-          126,
+          144,
+          66,
+          122,
           40,
-          274,
-          74,
-          44
+          7,
+          282,
+          73,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RUMLEY TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

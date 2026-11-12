@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 71 (31%)",
-      "UNC – Lapsed R — 30 (13%)",
-      "Mixed – Active — 23 (10%)",
-      "Mixed – Lapsed — 13 (6%)",
-      "UNC – No Primary — 69 (30%)",
-      "UNC – Lapsed D — 11 (5%)",
+      "Pure R — 70 (30%)",
+      "UNC – Lapsed R — 31 (13%)",
+      "Mixed – Active — 30 (13%)",
+      "Mixed – Lapsed — 7 (3%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 70 (30%)",
+      "UNC – Lapsed D — 9 (4%)",
       "Pure D — 11 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          71,
+          70,
+          31,
           30,
-          23,
-          13,
-          69,
-          11,
+          7,
+          4,
+          70,
+          9,
           11
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARLBORO TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

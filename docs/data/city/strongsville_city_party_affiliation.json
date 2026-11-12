@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,677 (14%)",
-      "UNC – Lapsed R — 3,043 (9%)",
-      "Mixed – Active — 4,324 (13%)",
-      "Mixed – Lapsed — 3,580 (11%)",
-      "UNC – No Primary — 10,272 (31%)",
-      "UNC – Lapsed D — 3,234 (10%)",
-      "Pure D — 4,031 (12%)"
+      "Pure R — 4,632 (14%)",
+      "UNC – Lapsed R — 3,046 (9%)",
+      "Mixed – Active — 4,306 (13%)",
+      "Mixed – Lapsed — 1,503 (4%)",
+      "UNC – Non-partisan Ballot — 2,067 (6%)",
+      "UNC – No Primary — 10,651 (32%)",
+      "UNC – Lapsed D — 3,241 (10%)",
+      "Pure D — 3,992 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          4677,
-          3043,
-          4324,
-          3580,
-          10272,
-          3234,
-          4031
+          4632,
+          3046,
+          4306,
+          1503,
+          2067,
+          10651,
+          3241,
+          3992
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "STRONGSVILLE CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,285 (19%)",
-      "UNC – Lapsed R — 1,871 (16%)",
-      "Mixed – Active — 639 (5%)",
-      "Mixed – Lapsed — 1,034 (9%)",
-      "UNC – No Primary — 4,550 (38%)",
-      "UNC – Lapsed D — 960 (8%)",
-      "Pure D — 552 (5%)"
+      "Pure R — 2,255 (19%)",
+      "UNC – Lapsed R — 1,863 (16%)",
+      "Mixed – Active — 626 (5%)",
+      "Mixed – Lapsed — 389 (3%)",
+      "UNC – Non-partisan Ballot — 635 (5%)",
+      "UNC – No Primary — 4,727 (39%)",
+      "UNC – Lapsed D — 968 (8%)",
+      "Pure D — 551 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2285,
-          1871,
-          639,
-          1034,
-          4550,
-          960,
-          552
+          2255,
+          1863,
+          626,
+          389,
+          635,
+          4727,
+          968,
+          551
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Elida Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

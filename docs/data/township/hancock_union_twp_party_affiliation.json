@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 417 (36%)",
-      "UNC – Lapsed R — 146 (13%)",
-      "Mixed – Active — 79 (7%)",
-      "Mixed – Lapsed — 42 (4%)",
-      "UNC – No Primary — 386 (33%)",
-      "UNC – Lapsed D — 57 (5%)",
-      "Pure D — 35 (3%)"
+      "UNC – Lapsed R — 153 (13%)",
+      "Mixed – Active — 81 (7%)",
+      "Mixed – Lapsed — 23 (2%)",
+      "UNC – Non-partisan Ballot — 11 (1%)",
+      "UNC – No Primary — 383 (33%)",
+      "UNC – Lapsed D — 53 (5%)",
+      "Pure D — 39 (3%)"
     ],
     "datasets": [
       {
         "data": [
           417,
-          146,
-          79,
-          42,
-          386,
-          57,
-          35
+          153,
+          81,
+          23,
+          11,
+          383,
+          53,
+          39
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

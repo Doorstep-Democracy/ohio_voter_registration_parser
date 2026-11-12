@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 550 (14%)",
-      "UNC – Lapsed R — 513 (14%)",
-      "Mixed – Active — 278 (7%)",
-      "Mixed – Lapsed — 287 (8%)",
-      "UNC – No Primary — 1,598 (42%)",
-      "UNC – Lapsed D — 422 (11%)",
-      "Pure D — 146 (4%)"
+      "Pure R — 542 (14%)",
+      "UNC – Lapsed R — 514 (13%)",
+      "Mixed – Active — 273 (7%)",
+      "Mixed – Lapsed — 223 (6%)",
+      "UNC – Non-partisan Ballot — 63 (2%)",
+      "UNC – No Primary — 1,630 (43%)",
+      "UNC – Lapsed D — 424 (11%)",
+      "Pure D — 144 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          550,
-          513,
-          278,
-          287,
-          1598,
-          422,
-          146
+          542,
+          514,
+          273,
+          223,
+          63,
+          1630,
+          424,
+          144
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Southeastern Local Sd (Ross Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

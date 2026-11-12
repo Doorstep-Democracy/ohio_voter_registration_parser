@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,864 (2%)",
-      "UNC – Lapsed R — 4,967 (2%)",
-      "Mixed – Active — 6,926 (3%)",
-      "Mixed – Lapsed — 11,005 (5%)",
-      "UNC – No Primary — 135,667 (57%)",
-      "UNC – Lapsed D — 46,076 (19%)",
-      "Pure D — 29,422 (12%)"
+      "Pure R — 3,526 (1%)",
+      "UNC – Lapsed R — 5,312 (2%)",
+      "Mixed – Active — 6,693 (3%)",
+      "Mixed – Lapsed — 4,194 (2%)",
+      "UNC – Non-partisan Ballot — 6,002 (2%)",
+      "UNC – No Primary — 142,710 (58%)",
+      "UNC – Lapsed D — 45,628 (19%)",
+      "Pure D — 32,088 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          3864,
-          4967,
-          6926,
-          11005,
-          135667,
-          46076,
-          29422
+          3526,
+          5312,
+          6693,
+          4194,
+          6002,
+          142710,
+          45628,
+          32088
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "CLEVELAND (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

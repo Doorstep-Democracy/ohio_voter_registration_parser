@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 377 (19%)",
-      "UNC – Lapsed R — 204 (10%)",
-      "Mixed – Active — 206 (11%)",
-      "Mixed – Lapsed — 183 (9%)",
-      "UNC – No Primary — 612 (31%)",
-      "UNC – Lapsed D — 248 (13%)",
-      "Pure D — 120 (6%)"
+      "Pure R — 361 (18%)",
+      "UNC – Lapsed R — 227 (12%)",
+      "Mixed – Active — 205 (10%)",
+      "Mixed – Lapsed — 93 (5%)",
+      "UNC – Non-partisan Ballot — 99 (5%)",
+      "UNC – No Primary — 607 (31%)",
+      "UNC – Lapsed D — 222 (11%)",
+      "Pure D — 150 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          377,
-          204,
-          206,
-          183,
-          612,
-          248,
-          120
+          361,
+          227,
+          205,
+          93,
+          99,
+          607,
+          222,
+          150
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARPERSFIELD TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

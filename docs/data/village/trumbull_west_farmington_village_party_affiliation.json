@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 30 (10%)",
-      "UNC – Lapsed R — 33 (11%)",
+      "Pure R — 45 (16%)",
+      "UNC – Lapsed R — 27 (9%)",
       "Mixed – Active — 32 (11%)",
-      "Mixed – Lapsed — 22 (7%)",
-      "UNC – No Primary — 146 (50%)",
-      "UNC – Lapsed D — 22 (7%)",
-      "Pure D — 9 (3%)"
+      "Mixed – Lapsed — 14 (5%)",
+      "UNC – Non-partisan Ballot — 11 (4%)",
+      "UNC – No Primary — 132 (46%)",
+      "UNC – Lapsed D — 18 (6%)",
+      "Pure D — 10 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          30,
-          33,
+          45,
+          27,
           32,
-          22,
-          146,
-          22,
-          9
+          14,
+          11,
+          132,
+          18,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WEST FARMINGTON VILLAGE (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

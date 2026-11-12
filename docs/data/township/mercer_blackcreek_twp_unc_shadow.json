@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 59",
-      "Mixed – Active — 24",
-      "Mixed – Lapsed — 42",
-      "UNC – No Primary — 157",
-      "UNC – Lapsed D — 21"
+      "UNC – Lapsed R — 73",
+      "Mixed – Active — 28",
+      "Mixed – Lapsed — 30",
+      "UNC – Non-partisan Ballot — 10",
+      "UNC – No Primary — 155",
+      "UNC – Lapsed D — 20"
     ],
     "datasets": [
       {
         "data": [
-          59,
-          24,
-          42,
-          157,
-          21
+          73,
+          28,
+          30,
+          10,
+          155,
+          20
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BLACKCREEK TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

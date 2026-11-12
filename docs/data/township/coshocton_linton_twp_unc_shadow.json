@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 40",
-      "Mixed – Active — 60",
-      "Mixed – Lapsed — 37",
-      "UNC – No Primary — 131",
+      "UNC – Lapsed R — 51",
+      "Mixed – Active — 62",
+      "Mixed – Lapsed — 23",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 133",
       "UNC – Lapsed D — 48"
     ],
     "datasets": [
       {
         "data": [
-          40,
-          60,
-          37,
-          131,
+          51,
+          62,
+          23,
+          12,
+          133,
           48
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LINTON TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

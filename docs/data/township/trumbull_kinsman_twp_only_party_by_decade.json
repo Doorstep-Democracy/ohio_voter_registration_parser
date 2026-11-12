@@ -18,13 +18,13 @@
         "label": "Pure R",
         "data": [
           0,
-          7,
+          6,
           27,
-          57,
+          58,
           50,
-          45,
-          21,
-          22,
+          44,
+          23,
+          16,
           13
         ],
         "backgroundColor": "#ef4444",
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          7,
+          6,
           11,
-          9,
+          11,
           16,
-          26,
+          29,
           13,
-          12,
-          4
+          17,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          6,
+          8,
           31,
-          48,
-          44,
-          35,
-          11,
+          49,
+          43,
+          37,
+          12,
           3,
           0
         ],
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          1,
+          5,
+          13,
+          13,
+          5,
+          4,
           3,
-          5,
-          12,
-          19,
-          15,
-          10,
-          5,
-          2
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          8,
+          6,
+          1,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +100,12 @@
           0,
           1,
           7,
-          20,
-          35,
-          66,
-          67,
-          90,
-          105
+          16,
+          37,
+          65,
+          72,
+          92,
+          114
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          5,
-          6,
-          20,
-          23,
-          23,
-          13,
+          4,
+          4,
+          14,
+          21,
+          21,
+          15,
           12,
-          3
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -116,10 +132,10 @@
           1,
           1,
           30,
-          32,
-          14,
-          13,
-          7,
+          34,
+          17,
+          17,
+          4,
           4,
           6
         ],
@@ -128,8 +144,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "KINSMAN TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

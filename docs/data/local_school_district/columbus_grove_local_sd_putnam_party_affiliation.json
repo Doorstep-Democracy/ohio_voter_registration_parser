@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 916 (27%)",
-      "UNC – Lapsed R — 571 (17%)",
-      "Mixed – Active — 321 (10%)",
-      "Mixed – Lapsed — 197 (6%)",
-      "UNC – No Primary — 1,122 (33%)",
-      "UNC – Lapsed D — 165 (5%)",
+      "Pure R — 914 (27%)",
+      "UNC – Lapsed R — 572 (17%)",
+      "Mixed – Active — 319 (9%)",
+      "Mixed – Lapsed — 125 (4%)",
+      "UNC – Non-partisan Ballot — 70 (2%)",
+      "UNC – No Primary — 1,147 (34%)",
+      "UNC – Lapsed D — 163 (5%)",
       "Pure D — 77 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          916,
-          571,
-          321,
-          197,
-          1122,
-          165,
+          914,
+          572,
+          319,
+          125,
+          70,
+          1147,
+          163,
           77
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Columbus Grove Local Sd (Putnam Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

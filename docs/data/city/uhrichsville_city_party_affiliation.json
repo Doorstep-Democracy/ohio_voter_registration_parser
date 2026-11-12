@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 90 (3%)",
-      "UNC – Lapsed R — 164 (6%)",
-      "Mixed – Active — 245 (9%)",
-      "Mixed – Lapsed — 172 (6%)",
-      "UNC – No Primary — 1,416 (51%)",
-      "UNC – Lapsed D — 374 (14%)",
-      "Pure D — 289 (11%)"
+      "Pure R — 85 (3%)",
+      "UNC – Lapsed R — 183 (7%)",
+      "Mixed – Active — 204 (7%)",
+      "Mixed – Lapsed — 159 (6%)",
+      "UNC – Non-partisan Ballot — 62 (2%)",
+      "UNC – No Primary — 1,418 (51%)",
+      "UNC – Lapsed D — 468 (17%)",
+      "Pure D — 190 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          90,
-          164,
-          245,
-          172,
-          1416,
-          374,
-          289
+          85,
+          183,
+          204,
+          159,
+          62,
+          1418,
+          468,
+          190
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "UHRICHSVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 842",
-      "Mixed – Active — 550",
-      "Mixed – Lapsed — 445",
-      "UNC – No Primary — 2,746",
-      "UNC – Lapsed D — 761"
+      "UNC – Lapsed R — 971",
+      "Mixed – Active — 488",
+      "Mixed – Lapsed — 437",
+      "UNC – Non-partisan Ballot — 59",
+      "UNC – No Primary — 2,748",
+      "UNC – Lapsed D — 734"
     ],
     "datasets": [
       {
         "data": [
-          842,
-          550,
-          445,
-          2746,
-          761
+          971,
+          488,
+          437,
+          59,
+          2748,
+          734
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "IRONTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

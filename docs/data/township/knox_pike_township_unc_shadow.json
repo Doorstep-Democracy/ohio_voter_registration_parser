@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 106",
-      "Mixed – Active — 64",
-      "Mixed – Lapsed — 64",
-      "UNC – No Primary — 290",
-      "UNC – Lapsed D — 59"
+      "UNC – Lapsed R — 137",
+      "Mixed – Active — 69",
+      "Mixed – Lapsed — 26",
+      "UNC – Non-partisan Ballot — 34",
+      "UNC – No Primary — 289",
+      "UNC – Lapsed D — 53"
     ],
     "datasets": [
       {
         "data": [
-          106,
-          64,
-          64,
-          290,
-          59
+          137,
+          69,
+          26,
+          34,
+          289,
+          53
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PIKE TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,333 (27%)",
-      "UNC – Lapsed R — 625 (13%)",
-      "Mixed – Active — 407 (8%)",
-      "Mixed – Lapsed — 328 (7%)",
-      "UNC – No Primary — 1,567 (32%)",
-      "UNC – Lapsed D — 365 (7%)",
-      "Pure D — 262 (5%)"
+      "Pure R — 1,428 (29%)",
+      "UNC – Lapsed R — 620 (13%)",
+      "Mixed – Active — 440 (9%)",
+      "Mixed – Lapsed — 131 (3%)",
+      "UNC – Non-partisan Ballot — 166 (3%)",
+      "UNC – No Primary — 1,460 (30%)",
+      "UNC – Lapsed D — 281 (6%)",
+      "Pure D — 354 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1333,
-          625,
-          407,
-          328,
-          1567,
-          365,
-          262
+          1428,
+          620,
+          440,
+          131,
+          166,
+          1460,
+          281,
+          354
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

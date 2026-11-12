@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,933 (18%)",
-      "UNC – Lapsed R — 3,064 (14%)",
-      "Mixed – Active — 1,406 (6%)",
-      "Mixed – Lapsed — 2,380 (11%)",
-      "UNC – No Primary — 9,073 (40%)",
-      "UNC – Lapsed D — 1,773 (8%)",
-      "Pure D — 791 (4%)"
+      "Pure R — 4,257 (19%)",
+      "UNC – Lapsed R — 3,089 (14%)",
+      "Mixed – Active — 1,537 (7%)",
+      "Mixed – Lapsed — 793 (4%)",
+      "UNC – Non-partisan Ballot — 1,318 (6%)",
+      "UNC – No Primary — 8,894 (39%)",
+      "UNC – Lapsed D — 1,586 (7%)",
+      "Pure D — 1,068 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          3933,
-          3064,
-          1406,
-          2380,
-          9073,
-          1773,
-          791
+          4257,
+          3089,
+          1537,
+          793,
+          1318,
+          8894,
+          1586,
+          1068
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 311 (6%)",
-      "UNC – Lapsed R — 222 (4%)",
-      "Mixed – Active — 829 (15%)",
-      "Mixed – Lapsed — 384 (7%)",
-      "UNC – No Primary — 1,919 (35%)",
-      "UNC – Lapsed D — 991 (18%)",
-      "Pure D — 751 (14%)"
+      "Pure R — 281 (5%)",
+      "UNC – Lapsed R — 256 (5%)",
+      "Mixed – Active — 814 (15%)",
+      "Mixed – Lapsed — 302 (6%)",
+      "UNC – Non-partisan Ballot — 132 (2%)",
+      "UNC – No Primary — 1,939 (36%)",
+      "UNC – Lapsed D — 960 (18%)",
+      "Pure D — 776 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          311,
-          222,
-          829,
-          384,
-          1919,
-          991,
-          751
+          281,
+          256,
+          814,
+          302,
+          132,
+          1939,
+          960,
+          776
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "HUBBARD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

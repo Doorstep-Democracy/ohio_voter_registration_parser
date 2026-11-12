@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,069 (15%)",
-      "UNC – Lapsed R — 1,239 (17%)",
-      "Mixed – Active — 569 (8%)",
-      "Mixed – Lapsed — 604 (8%)",
-      "UNC – No Primary — 2,545 (35%)",
-      "UNC – Lapsed D — 746 (10%)",
-      "Pure D — 517 (7%)"
+      "Pure R — 845 (11%)",
+      "UNC – Lapsed R — 1,408 (19%)",
+      "Mixed – Active — 573 (8%)",
+      "Mixed – Lapsed — 410 (6%)",
+      "UNC – Non-partisan Ballot — 195 (3%)",
+      "UNC – No Primary — 2,555 (35%)",
+      "UNC – Lapsed D — 752 (10%)",
+      "Pure D — 615 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1069,
-          1239,
-          569,
-          604,
-          2545,
-          746,
-          517
+          845,
+          1408,
+          573,
+          410,
+          195,
+          2555,
+          752,
+          615
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MADEIRA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          7,
-          28,
-          58,
-          42,
+          1,
+          5,
+          23,
+          57,
           33,
+          31,
           28,
-          21,
-          17
+          16,
+          20
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,13 +35,13 @@
         "data": [
           0,
           8,
-          12,
+          16,
+          29,
+          48,
+          37,
           31,
-          39,
-          33,
-          28,
           56,
-          1
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          32,
-          112,
-          231,
-          162,
-          86,
-          72,
-          35,
+          26,
+          99,
+          213,
+          155,
+          70,
+          61,
+          24,
           7
         ],
         "backgroundColor": "#f59e0b",
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          8,
+          9,
+          27,
+          69,
+          47,
+          51,
           31,
-          39,
-          60,
-          54,
-          52,
-          25,
-          7
+          33,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          11,
+          14,
+          28,
+          21,
+          31,
+          7,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           11,
-          49,
-          122,
-          195,
-          289,
-          452,
+          48,
+          119,
+          198,
+          294,
+          455,
           718,
-          611
+          654
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          32,
-          86,
-          161,
-          209,
-          181,
+          4,
+          44,
+          128,
           224,
-          149,
-          12
+          300,
+          234,
+          300,
+          220,
+          41
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          5,
-          70,
-          207,
-          437,
-          342,
-          176,
-          194,
-          145,
-          85
+          3,
+          55,
+          157,
+          349,
+          240,
+          129,
+          121,
+          89,
+          73
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "GIRARD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

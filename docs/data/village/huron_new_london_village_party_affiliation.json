@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 161 (12%)",
-      "UNC – Lapsed R — 119 (9%)",
-      "Mixed – Active — 77 (6%)",
-      "Mixed – Lapsed — 128 (9%)",
-      "UNC – No Primary — 688 (51%)",
-      "UNC – Lapsed D — 132 (10%)",
-      "Pure D — 56 (4%)"
+      "Pure R — 163 (12%)",
+      "UNC – Lapsed R — 132 (10%)",
+      "Mixed – Active — 82 (6%)",
+      "Mixed – Lapsed — 40 (3%)",
+      "UNC – Non-partisan Ballot — 79 (6%)",
+      "UNC – No Primary — 687 (50%)",
+      "UNC – Lapsed D — 116 (8%)",
+      "Pure D — 75 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          161,
-          119,
-          77,
-          128,
-          688,
+          163,
           132,
-          56
+          82,
+          40,
+          79,
+          687,
+          116,
+          75
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW LONDON VILLAGE (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

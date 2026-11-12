@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 204 (24%)",
-      "UNC – Lapsed R — 91 (11%)",
-      "Mixed – Active — 76 (9%)",
-      "Mixed – Lapsed — 31 (4%)",
-      "UNC – No Primary — 372 (44%)",
-      "UNC – Lapsed D — 42 (5%)",
-      "Pure D — 27 (3%)"
+      "Pure R — 219 (26%)",
+      "UNC – Lapsed R — 100 (12%)",
+      "Mixed – Active — 72 (8%)",
+      "Mixed – Lapsed — 26 (3%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 357 (42%)",
+      "UNC – Lapsed D — 39 (5%)",
+      "Pure D — 28 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          204,
-          91,
-          76,
-          31,
-          372,
-          42,
-          27
+          219,
+          100,
+          72,
+          26,
+          9,
+          357,
+          39,
+          28
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "EAGLE TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 971 (8%)",
-      "UNC – Lapsed R — 1,143 (9%)",
-      "Mixed – Active — 751 (6%)",
-      "Mixed – Lapsed — 1,231 (10%)",
-      "UNC – No Primary — 5,364 (43%)",
-      "UNC – Lapsed D — 2,063 (16%)",
-      "Pure D — 1,007 (8%)"
+      "Pure R — 907 (7%)",
+      "UNC – Lapsed R — 1,217 (10%)",
+      "Mixed – Active — 764 (6%)",
+      "Mixed – Lapsed — 505 (4%)",
+      "UNC – Non-partisan Ballot — 659 (5%)",
+      "UNC – No Primary — 5,396 (43%)",
+      "UNC – Lapsed D — 1,904 (15%)",
+      "Pure D — 1,260 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          971,
-          1143,
-          751,
-          1231,
-          5364,
-          2063,
-          1007
+          907,
+          1217,
+          764,
+          505,
+          659,
+          5396,
+          1904,
+          1260
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MAUMEE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

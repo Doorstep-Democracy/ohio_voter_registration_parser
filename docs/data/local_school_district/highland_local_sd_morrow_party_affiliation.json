@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 84 (31%)",
-      "UNC – Lapsed R — 40 (15%)",
-      "Mixed – Active — 25 (9%)",
-      "Mixed – Lapsed — 14 (5%)",
-      "UNC – No Primary — 78 (29%)",
+      "Pure R — 83 (31%)",
+      "UNC – Lapsed R — 39 (15%)",
+      "Mixed – Active — 24 (9%)",
+      "Mixed – Lapsed — 7 (3%)",
+      "UNC – Non-partisan Ballot — 10 (4%)",
+      "UNC – No Primary — 79 (29%)",
       "UNC – Lapsed D — 15 (6%)",
       "Pure D — 11 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          84,
-          40,
-          25,
-          14,
-          78,
+          83,
+          39,
+          24,
+          7,
+          10,
+          79,
           15,
           11
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Highland Local Sd (Morrow Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

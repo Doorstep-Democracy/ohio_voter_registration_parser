@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 160",
-      "Mixed – Active — 53",
-      "Mixed – Lapsed — 55",
-      "UNC – No Primary — 318",
-      "UNC – Lapsed D — 46"
+      "UNC – Lapsed R — 179",
+      "Mixed – Active — 52",
+      "Mixed – Lapsed — 27",
+      "UNC – Non-partisan Ballot — 29",
+      "UNC – No Primary — 316",
+      "UNC – Lapsed D — 43"
     ],
     "datasets": [
       {
         "data": [
-          160,
-          53,
-          55,
-          318,
-          46
+          179,
+          52,
+          27,
+          29,
+          316,
+          43
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ORANGE TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

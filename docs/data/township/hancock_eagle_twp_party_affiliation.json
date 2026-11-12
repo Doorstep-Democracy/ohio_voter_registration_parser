@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 382 (47%)",
-      "UNC – Lapsed R — 133 (16%)",
-      "Mixed – Active — 42 (5%)",
-      "Mixed – Lapsed — 45 (6%)",
-      "UNC – No Primary — 182 (22%)",
+      "Pure R — 359 (45%)",
+      "UNC – Lapsed R — 139 (17%)",
+      "Mixed – Active — 47 (6%)",
+      "Mixed – Lapsed — 25 (3%)",
+      "UNC – Non-partisan Ballot — 21 (3%)",
+      "UNC – No Primary — 180 (22%)",
       "UNC – Lapsed D — 18 (2%)",
-      "Pure D — 11 (1%)"
+      "Pure D — 12 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          382,
-          133,
-          42,
-          45,
-          182,
+          359,
+          139,
+          47,
+          25,
+          21,
+          180,
           18,
-          11
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "EAGLE TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

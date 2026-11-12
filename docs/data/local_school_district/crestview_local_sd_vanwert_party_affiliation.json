@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 692 (21%)",
-      "UNC – Lapsed R — 624 (19%)",
-      "Mixed – Active — 217 (7%)",
-      "Mixed – Lapsed — 185 (6%)",
-      "UNC – No Primary — 1,321 (41%)",
-      "UNC – Lapsed D — 171 (5%)",
+      "Pure R — 687 (21%)",
+      "UNC – Lapsed R — 617 (19%)",
+      "Mixed – Active — 216 (7%)",
+      "Mixed – Lapsed — 150 (5%)",
+      "UNC – Non-partisan Ballot — 35 (1%)",
+      "UNC – No Primary — 1,344 (41%)",
+      "UNC – Lapsed D — 172 (5%)",
       "Pure D — 51 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          692,
-          624,
-          217,
-          185,
-          1321,
-          171,
+          687,
+          617,
+          216,
+          150,
+          35,
+          1344,
+          172,
           51
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Crestview Local Sd (Vanwert Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

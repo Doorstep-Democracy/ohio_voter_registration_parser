@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 491 (20%)",
-      "UNC – Lapsed R — 312 (13%)",
-      "Mixed – Active — 245 (10%)",
-      "Mixed – Lapsed — 129 (5%)",
-      "UNC – No Primary — 928 (38%)",
-      "UNC – Lapsed D — 249 (10%)",
-      "Pure D — 89 (4%)"
+      "Pure R — 489 (20%)",
+      "UNC – Lapsed R — 329 (13%)",
+      "Mixed – Active — 246 (10%)",
+      "Mixed – Lapsed — 106 (4%)",
+      "UNC – Non-partisan Ballot — 29 (1%)",
+      "UNC – No Primary — 913 (37%)",
+      "UNC – Lapsed D — 228 (9%)",
+      "Pure D — 114 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          491,
-          312,
-          245,
-          129,
-          928,
-          249,
-          89
+          489,
+          329,
+          246,
+          106,
+          29,
+          913,
+          228,
+          114
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

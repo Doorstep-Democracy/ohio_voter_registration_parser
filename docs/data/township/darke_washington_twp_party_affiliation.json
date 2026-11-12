@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 207 (27%)",
-      "UNC – Lapsed R — 91 (12%)",
-      "Mixed – Active — 76 (10%)",
-      "Mixed – Lapsed — 41 (5%)",
-      "UNC – No Primary — 288 (37%)",
-      "UNC – Lapsed D — 59 (8%)",
-      "Pure D — 15 (2%)"
+      "Pure R — 149 (19%)",
+      "UNC – Lapsed R — 151 (19%)",
+      "Mixed – Active — 59 (8%)",
+      "Mixed – Lapsed — 45 (6%)",
+      "UNC – Non-partisan Ballot — 14 (2%)",
+      "UNC – No Primary — 291 (37%)",
+      "UNC – Lapsed D — 56 (7%)",
+      "Pure D — 17 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          207,
-          91,
-          76,
-          41,
-          288,
+          149,
+          151,
           59,
-          15
+          45,
+          14,
+          291,
+          56,
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -19,11 +19,11 @@
         "data": [
           1,
           15,
-          77,
-          143,
-          131,
-          110,
-          91,
+          70,
+          144,
+          126,
+          113,
+          95,
           74,
           30
         ],
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          15,
-          14,
-          31,
-          43,
-          36,
-          26,
+          9,
+          17,
           29,
-          4
+          46,
+          37,
+          24,
+          28,
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          14,
-          24,
+          13,
+          27,
+          60,
           58,
-          56,
-          32,
-          20,
-          9,
-          0
+          36,
+          26,
+          10,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          3,
+          4,
+          5,
+          11,
           6,
-          13,
           10,
-          18,
-          14,
-          2,
-          2
+          7,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          4,
+          5,
+          7,
+          3,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          5,
-          32,
-          71,
+          4,
+          29,
+          67,
           117,
-          155,
-          201,
-          238,
-          211
+          152,
+          198,
+          228,
+          225
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,13 +113,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
+          1,
           2,
-          2,
+          10,
+          16,
           17,
-          20,
-          23,
-          20,
-          22,
+          18,
+          19,
           5,
           0
         ],
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          1,
+          0,
+          15,
+          15,
+          15,
+          10,
           9,
-          11,
-          11,
-          7,
-          7,
-          3,
-          2
+          6,
+          8
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MEIGS TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

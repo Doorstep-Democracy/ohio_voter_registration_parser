@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 714 (30%)",
-      "UNC – Lapsed R — 357 (15%)",
-      "Mixed – Active — 210 (9%)",
-      "Mixed – Lapsed — 204 (8%)",
-      "UNC – No Primary — 665 (28%)",
-      "UNC – Lapsed D — 131 (5%)",
+      "Pure R — 708 (30%)",
+      "UNC – Lapsed R — 353 (15%)",
+      "Mixed – Active — 208 (9%)",
+      "Mixed – Lapsed — 94 (4%)",
+      "UNC – Non-partisan Ballot — 108 (5%)",
+      "UNC – No Primary — 674 (28%)",
+      "UNC – Lapsed D — 129 (5%)",
       "Pure D — 125 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          714,
-          357,
-          210,
-          204,
-          665,
-          131,
+          708,
+          353,
+          208,
+          94,
+          108,
+          674,
+          129,
           125
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lucas Local Local Sd (Richland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

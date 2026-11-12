@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,008",
-      "Mixed – Active — 405",
-      "Mixed – Lapsed — 621",
-      "UNC – No Primary — 2,303",
-      "UNC – Lapsed D — 571"
+      "UNC – Lapsed R — 1,082",
+      "Mixed – Active — 475",
+      "Mixed – Lapsed — 305",
+      "UNC – Non-partisan Ballot — 308",
+      "UNC – No Primary — 2,446",
+      "UNC – Lapsed D — 595"
     ],
     "datasets": [
       {
         "data": [
-          1008,
-          405,
-          621,
-          2303,
-          571
+          1082,
+          475,
+          305,
+          308,
+          2446,
+          595
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BERKSHIRE TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 184 (17%)",
-      "UNC – Lapsed R — 129 (12%)",
-      "Mixed – Active — 129 (12%)",
-      "Mixed – Lapsed — 105 (10%)",
-      "UNC – No Primary — 348 (32%)",
-      "UNC – Lapsed D — 115 (11%)",
-      "Pure D — 62 (6%)"
+      "Pure R — 171 (16%)",
+      "UNC – Lapsed R — 142 (13%)",
+      "Mixed – Active — 121 (11%)",
+      "Mixed – Lapsed — 58 (5%)",
+      "UNC – Non-partisan Ballot — 57 (5%)",
+      "UNC – No Primary — 353 (33%)",
+      "UNC – Lapsed D — 107 (10%)",
+      "Pure D — 76 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          184,
-          129,
-          129,
-          105,
-          348,
-          115,
-          62
+          171,
+          142,
+          121,
+          58,
+          57,
+          353,
+          107,
+          76
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BOSTON HEIGHTS VILLAGE (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,516 (19%)",
-      "UNC – Lapsed R — 1,572 (19%)",
-      "Mixed – Active — 663 (8%)",
-      "Mixed – Lapsed — 604 (7%)",
-      "UNC – No Primary — 3,009 (37%)",
-      "UNC – Lapsed D — 555 (7%)",
-      "Pure D — 217 (3%)"
+      "Pure R — 1,500 (18%)",
+      "UNC – Lapsed R — 1,580 (19%)",
+      "Mixed – Active — 660 (8%)",
+      "Mixed – Lapsed — 425 (5%)",
+      "UNC – Non-partisan Ballot — 170 (2%)",
+      "UNC – No Primary — 3,074 (38%)",
+      "UNC – Lapsed D — 563 (7%)",
+      "Pure D — 213 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1516,
-          1572,
-          663,
-          604,
-          3009,
-          555,
-          217
+          1500,
+          1580,
+          660,
+          425,
+          170,
+          3074,
+          563,
+          213
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Indian Lake Local Sd (Logan Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

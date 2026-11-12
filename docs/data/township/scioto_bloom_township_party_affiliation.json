@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 289 (17%)",
-      "UNC – Lapsed R — 192 (11%)",
-      "Mixed – Active — 136 (8%)",
-      "Mixed – Lapsed — 119 (7%)",
-      "UNC – No Primary — 680 (41%)",
-      "UNC – Lapsed D — 206 (12%)",
+      "Pure R — 349 (21%)",
+      "UNC – Lapsed R — 173 (10%)",
+      "Mixed – Active — 182 (11%)",
+      "Mixed – Lapsed — 68 (4%)",
+      "UNC – Non-partisan Ballot — 29 (2%)",
+      "UNC – No Primary — 652 (39%)",
+      "UNC – Lapsed D — 180 (11%)",
       "Pure D — 53 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          289,
-          192,
-          136,
-          119,
-          680,
-          206,
+          349,
+          173,
+          182,
+          68,
+          29,
+          652,
+          180,
           53
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BLOOM TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

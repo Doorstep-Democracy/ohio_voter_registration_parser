@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,522 (20%)",
-      "UNC – Lapsed R — 1,123 (15%)",
-      "Mixed – Active — 624 (8%)",
-      "Mixed – Lapsed — 425 (6%)",
-      "UNC – No Primary — 2,997 (40%)",
-      "UNC – Lapsed D — 544 (7%)",
-      "Pure D — 281 (4%)"
+      "Pure R — 1,519 (20%)",
+      "UNC – Lapsed R — 1,139 (15%)",
+      "Mixed – Active — 617 (8%)",
+      "Mixed – Lapsed — 296 (4%)",
+      "UNC – Non-partisan Ballot — 135 (2%)",
+      "UNC – No Primary — 3,038 (40%)",
+      "UNC – Lapsed D — 541 (7%)",
+      "Pure D — 270 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1522,
-          1123,
-          624,
-          425,
-          2997,
-          544,
-          281
+          1519,
+          1139,
+          617,
+          296,
+          135,
+          3038,
+          541,
+          270
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Licking Valley Local Sd (Licking Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

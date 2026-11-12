@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 195 (25%)",
-      "UNC – Lapsed R — 92 (12%)",
-      "Mixed – Active — 94 (12%)",
-      "Mixed – Lapsed — 41 (5%)",
-      "UNC – No Primary — 273 (36%)",
-      "UNC – Lapsed D — 51 (7%)",
-      "Pure D — 20 (3%)"
+      "Pure R — 194 (25%)",
+      "UNC – Lapsed R — 103 (13%)",
+      "Mixed – Active — 90 (12%)",
+      "Mixed – Lapsed — 32 (4%)",
+      "UNC – Non-partisan Ballot — 11 (1%)",
+      "UNC – No Primary — 267 (35%)",
+      "UNC – Lapsed D — 48 (6%)",
+      "Pure D — 22 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          195,
-          92,
-          94,
-          41,
-          273,
-          51,
-          20
+          194,
+          103,
+          90,
+          32,
+          11,
+          267,
+          48,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

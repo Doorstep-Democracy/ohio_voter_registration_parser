@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,002 (27%)",
-      "UNC – Lapsed R — 677 (18%)",
-      "Mixed – Active — 250 (7%)",
-      "Mixed – Lapsed — 357 (10%)",
-      "UNC – No Primary — 1,150 (31%)",
-      "UNC – Lapsed D — 197 (5%)",
-      "Pure D — 79 (2%)"
+      "Pure R — 999 (27%)",
+      "UNC – Lapsed R — 693 (19%)",
+      "Mixed – Active — 269 (7%)",
+      "Mixed – Lapsed — 119 (3%)",
+      "UNC – Non-partisan Ballot — 210 (6%)",
+      "UNC – No Primary — 1,133 (31%)",
+      "UNC – Lapsed D — 176 (5%)",
+      "Pure D — 111 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1002,
-          677,
-          250,
-          357,
-          1150,
-          197,
-          79
+          999,
+          693,
+          269,
+          119,
+          210,
+          1133,
+          176,
+          111
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARLAN TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

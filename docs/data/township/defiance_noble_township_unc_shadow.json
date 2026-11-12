@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 402",
-      "Mixed – Active — 236",
-      "Mixed – Lapsed — 212",
-      "UNC – No Primary — 1,213",
-      "UNC – Lapsed D — 293"
+      "UNC – Lapsed R — 430",
+      "Mixed – Active — 255",
+      "Mixed – Lapsed — 161",
+      "UNC – Non-partisan Ballot — 43",
+      "UNC – No Primary — 1,196",
+      "UNC – Lapsed D — 252"
     ],
     "datasets": [
       {
         "data": [
-          402,
-          236,
-          212,
-          1213,
-          293
+          430,
+          255,
+          161,
+          43,
+          1196,
+          252
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NOBLE TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

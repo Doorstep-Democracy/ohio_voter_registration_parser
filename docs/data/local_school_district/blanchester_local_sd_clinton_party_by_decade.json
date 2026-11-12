@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          32,
+          30,
           126,
-          295,
-          290,
-          216,
+          294,
+          291,
+          214,
           160,
-          74,
-          57
+          73,
+          56
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          19,
-          64,
-          137,
-          164,
-          174,
-          184,
-          128,
-          33
+          18,
+          62,
+          144,
+          162,
+          173,
+          189,
+          130,
+          35
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,11 +50,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          7,
-          59,
-          116,
+          6,
+          56,
+          115,
           103,
-          59,
+          57,
           32,
           9,
           3
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          14,
-          34,
-          52,
-          75,
-          68,
-          60,
-          27,
-          14
+          8,
+          32,
+          38,
+          53,
+          33,
+          21,
+          6,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          3,
+          13,
+          24,
+          38,
+          38,
+          22,
+          13
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           5,
-          46,
-          154,
-          282,
-          303,
-          409,
-          575,
-          539
+          43,
+          157,
+          285,
+          306,
+          412,
+          578,
+          574
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          8,
-          33,
-          43,
-          63,
-          48,
+          9,
+          32,
+          44,
+          64,
+          50,
           42,
-          26,
-          5
+          27,
+          7
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           1,
-          5,
+          4,
           12,
           45,
-          30,
+          28,
           24,
           15,
-          13,
-          12
+          11,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Blanchester Local Sd (Clinton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

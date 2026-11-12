@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,684 (10%)",
-      "UNC – Lapsed R — 1,676 (10%)",
-      "Mixed – Active — 691 (4%)",
-      "Mixed – Lapsed — 1,495 (9%)",
-      "UNC – No Primary — 8,416 (48%)",
-      "UNC – Lapsed D — 2,561 (15%)",
-      "Pure D — 957 (5%)"
+      "Pure R — 2,180 (12%)",
+      "UNC – Lapsed R — 1,373 (8%)",
+      "Mixed – Active — 967 (5%)",
+      "Mixed – Lapsed — 419 (2%)",
+      "UNC – Non-partisan Ballot — 905 (5%)",
+      "UNC – No Primary — 8,029 (45%)",
+      "UNC – Lapsed D — 1,890 (11%)",
+      "Pure D — 2,111 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          1684,
-          1676,
-          691,
-          1495,
-          8416,
-          2561,
-          957
+          2180,
+          1373,
+          967,
+          419,
+          905,
+          8029,
+          1890,
+          2111
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "PICKERINGTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,241 (18%)",
-      "UNC – Lapsed R — 854 (12%)",
-      "Mixed – Active — 585 (8%)",
-      "Mixed – Lapsed — 511 (7%)",
+      "Pure R — 1,210 (17%)",
+      "UNC – Lapsed R — 905 (13%)",
+      "Mixed – Active — 602 (9%)",
+      "Mixed – Lapsed — 290 (4%)",
+      "UNC – Non-partisan Ballot — 218 (3%)",
       "UNC – No Primary — 2,758 (40%)",
-      "UNC – Lapsed D — 615 (9%)",
-      "Pure D — 361 (5%)"
+      "UNC – Lapsed D — 572 (8%)",
+      "Pure D — 420 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1241,
-          854,
-          585,
-          511,
+          1210,
+          905,
+          602,
+          290,
+          218,
           2758,
-          615,
-          361
+          572,
+          420
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "HEATH CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

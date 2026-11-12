@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 33 (28%)",
-      "UNC – Lapsed R — 13 (11%)",
-      "Mixed – Active — 15 (12%)",
+      "Pure R — 30 (25%)",
+      "UNC – Lapsed R — 19 (16%)",
+      "Mixed – Active — 16 (13%)",
       "Mixed – Lapsed — 5 (4%)",
-      "UNC – No Primary — 41 (34%)",
-      "UNC – Lapsed D — 7 (6%)",
-      "Pure D — 6 (5%)"
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 40 (33%)",
+      "UNC – Lapsed D — 6 (5%)",
+      "Pure D — 5 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          33,
-          13,
-          15,
+          30,
+          19,
+          16,
           5,
-          41,
-          7,
-          6
+          0,
+          40,
+          6,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "KETTLERSVILLE VILLAGE (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

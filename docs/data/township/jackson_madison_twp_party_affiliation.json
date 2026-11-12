@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 194 (14%)",
-      "UNC – Lapsed R — 271 (20%)",
-      "Mixed – Active — 61 (4%)",
-      "Mixed – Lapsed — 99 (7%)",
-      "UNC – No Primary — 621 (46%)",
-      "UNC – Lapsed D — 102 (7%)",
-      "Pure D — 13 (1%)"
+      "Pure R — 211 (15%)",
+      "UNC – Lapsed R — 264 (19%)",
+      "Mixed – Active — 74 (5%)",
+      "Mixed – Lapsed — 77 (6%)",
+      "UNC – Non-partisan Ballot — 13 (1%)",
+      "UNC – No Primary — 610 (44%)",
+      "UNC – Lapsed D — 98 (7%)",
+      "Pure D — 28 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          194,
-          271,
-          61,
-          99,
-          621,
-          102,
-          13
+          211,
+          264,
+          74,
+          77,
+          13,
+          610,
+          98,
+          28
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TWP (Jackson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

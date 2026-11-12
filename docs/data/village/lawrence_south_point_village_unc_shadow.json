@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 301",
-      "Mixed – Active — 235",
-      "Mixed – Lapsed — 110",
-      "UNC – No Primary — 1,131",
-      "UNC – Lapsed D — 236"
+      "UNC – Lapsed R — 348",
+      "Mixed – Active — 221",
+      "Mixed – Lapsed — 105",
+      "UNC – Non-partisan Ballot — 13",
+      "UNC – No Primary — 1,169",
+      "UNC – Lapsed D — 228"
     ],
     "datasets": [
       {
         "data": [
-          301,
-          235,
-          110,
-          1131,
-          236
+          348,
+          221,
+          105,
+          13,
+          1169,
+          228
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SOUTH POINT VILLAGE (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

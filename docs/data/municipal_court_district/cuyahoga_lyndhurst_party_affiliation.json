@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,242 (8%)",
-      "UNC – Lapsed R — 3,024 (7%)",
-      "Mixed – Active — 3,721 (9%)",
-      "Mixed – Lapsed — 3,180 (7%)",
-      "UNC – No Primary — 15,919 (37%)",
-      "UNC – Lapsed D — 7,719 (18%)",
-      "Pure D — 6,170 (14%)"
+      "Pure R — 2,883 (7%)",
+      "UNC – Lapsed R — 3,270 (8%)",
+      "Mixed – Active — 3,659 (8%)",
+      "Mixed – Lapsed — 2,067 (5%)",
+      "UNC – Non-partisan Ballot — 1,130 (3%)",
+      "UNC – No Primary — 15,920 (37%)",
+      "UNC – Lapsed D — 7,268 (17%)",
+      "Pure D — 7,160 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          3242,
-          3024,
-          3721,
-          3180,
-          15919,
-          7719,
-          6170
+          2883,
+          3270,
+          3659,
+          2067,
+          1130,
+          15920,
+          7268,
+          7160
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "LYNDHURST (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 314",
-      "Mixed – Active — 418",
-      "Mixed – Lapsed — 456",
-      "UNC – No Primary — 3,758",
-      "UNC – Lapsed D — 2,009"
+      "UNC – Lapsed R — 311",
+      "Mixed – Active — 417",
+      "Mixed – Lapsed — 260",
+      "UNC – Non-partisan Ballot — 195",
+      "UNC – No Primary — 3,856",
+      "UNC – Lapsed D — 2,008"
     ],
     "datasets": [
       {
         "data": [
-          314,
-          418,
-          456,
-          3758,
-          2009
+          311,
+          417,
+          260,
+          195,
+          3856,
+          2008
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "BEDFORD CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

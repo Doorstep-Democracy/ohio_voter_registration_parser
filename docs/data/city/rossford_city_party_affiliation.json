@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 411 (9%)",
-      "UNC – Lapsed R — 392 (9%)",
-      "Mixed – Active — 388 (9%)",
-      "Mixed – Lapsed — 464 (10%)",
-      "UNC – No Primary — 1,694 (38%)",
-      "UNC – Lapsed D — 717 (16%)",
-      "Pure D — 451 (10%)"
+      "Pure R — 372 (8%)",
+      "UNC – Lapsed R — 437 (10%)",
+      "Mixed – Active — 363 (8%)",
+      "Mixed – Lapsed — 254 (6%)",
+      "UNC – Non-partisan Ballot — 243 (5%)",
+      "UNC – No Primary — 1,679 (37%)",
+      "UNC – Lapsed D — 763 (17%)",
+      "Pure D — 420 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          411,
-          392,
-          388,
-          464,
-          1694,
-          717,
-          451
+          372,
+          437,
+          363,
+          254,
+          243,
+          1679,
+          763,
+          420
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "ROSSFORD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

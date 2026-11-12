@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 438",
-      "Mixed – Active — 186",
-      "Mixed – Lapsed — 172",
-      "UNC – No Primary — 1,466",
-      "UNC – Lapsed D — 205"
+      "UNC – Lapsed R — 450",
+      "Mixed – Active — 201",
+      "Mixed – Lapsed — 98",
+      "UNC – Non-partisan Ballot — 61",
+      "UNC – No Primary — 1,456",
+      "UNC – Lapsed D — 185"
     ],
     "datasets": [
       {
         "data": [
-          438,
-          186,
-          172,
-          1466,
-          205
+          450,
+          201,
+          98,
+          61,
+          1456,
+          185
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "STERLING TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

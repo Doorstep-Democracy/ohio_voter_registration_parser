@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 572 (20%)",
-      "UNC – Lapsed R — 291 (10%)",
-      "Mixed – Active — 286 (10%)",
-      "Mixed – Lapsed — 171 (6%)",
-      "UNC – No Primary — 1,114 (40%)",
-      "UNC – Lapsed D — 244 (9%)",
-      "Pure D — 123 (4%)"
+      "Pure R — 477 (17%)",
+      "UNC – Lapsed R — 392 (14%)",
+      "Mixed – Active — 225 (8%)",
+      "Mixed – Lapsed — 139 (5%)",
+      "UNC – Non-partisan Ballot — 81 (3%)",
+      "UNC – No Primary — 1,136 (40%)",
+      "UNC – Lapsed D — 247 (9%)",
+      "Pure D — 128 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          572,
-          291,
-          286,
-          171,
-          1114,
-          244,
-          123
+          477,
+          392,
+          225,
+          139,
+          81,
+          1136,
+          247,
+          128
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CONCORD TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

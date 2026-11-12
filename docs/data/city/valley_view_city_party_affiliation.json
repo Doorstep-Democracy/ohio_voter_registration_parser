@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 286 (19%)",
+      "Pure R — 282 (19%)",
       "UNC – Lapsed R — 130 (9%)",
-      "Mixed – Active — 254 (17%)",
-      "Mixed – Lapsed — 156 (10%)",
-      "UNC – No Primary — 348 (23%)",
-      "UNC – Lapsed D — 143 (10%)",
-      "Pure D — 169 (11%)"
+      "Mixed – Active — 252 (17%)",
+      "Mixed – Lapsed — 62 (4%)",
+      "UNC – Non-partisan Ballot — 96 (6%)",
+      "UNC – No Primary — 356 (24%)",
+      "UNC – Lapsed D — 144 (10%)",
+      "Pure D — 167 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          286,
+          282,
           130,
-          254,
-          156,
-          348,
-          143,
-          169
+          252,
+          62,
+          96,
+          356,
+          144,
+          167
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "VALLEY VIEW CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

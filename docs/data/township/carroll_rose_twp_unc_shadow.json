@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 115",
-      "Mixed – Active — 120",
-      "Mixed – Lapsed — 70",
-      "UNC – No Primary — 400",
-      "UNC – Lapsed D — 136"
+      "UNC – Lapsed R — 128",
+      "Mixed – Active — 123",
+      "Mixed – Lapsed — 56",
+      "UNC – Non-partisan Ballot — 22",
+      "UNC – No Primary — 376",
+      "UNC – Lapsed D — 121"
     ],
     "datasets": [
       {
         "data": [
-          115,
-          120,
-          70,
-          400,
-          136
+          128,
+          123,
+          56,
+          22,
+          376,
+          121
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ROSE TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

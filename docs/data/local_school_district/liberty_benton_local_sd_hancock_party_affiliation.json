@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,341 (27%)",
-      "UNC – Lapsed R — 827 (16%)",
-      "Mixed – Active — 335 (7%)",
-      "Mixed – Lapsed — 460 (9%)",
-      "UNC – No Primary — 1,662 (33%)",
-      "UNC – Lapsed D — 264 (5%)",
-      "Pure D — 159 (3%)"
+      "Pure R — 1,329 (27%)",
+      "UNC – Lapsed R — 821 (16%)",
+      "Mixed – Active — 339 (7%)",
+      "Mixed – Lapsed — 165 (3%)",
+      "UNC – Non-partisan Ballot — 288 (6%)",
+      "UNC – No Primary — 1,629 (33%)",
+      "UNC – Lapsed D — 261 (5%)",
+      "Pure D — 154 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1341,
-          827,
-          335,
-          460,
-          1662,
-          264,
-          159
+          1329,
+          821,
+          339,
+          165,
+          288,
+          1629,
+          261,
+          154
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Liberty-Benton Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

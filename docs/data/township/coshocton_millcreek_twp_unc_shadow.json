@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 35",
-      "Mixed – Active — 24",
-      "Mixed – Lapsed — 12",
-      "UNC – No Primary — 78",
-      "UNC – Lapsed D — 7"
+      "UNC – Lapsed R — 36",
+      "Mixed – Active — 28",
+      "Mixed – Lapsed — 6",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 71",
+      "UNC – Lapsed D — 9"
     ],
     "datasets": [
       {
         "data": [
-          35,
-          24,
-          12,
-          78,
-          7
+          36,
+          28,
+          6,
+          4,
+          71,
+          9
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MILLCREEK TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

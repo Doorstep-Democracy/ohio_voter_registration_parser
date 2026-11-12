@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          75,
-          259,
-          407,
-          409,
-          205,
-          154,
-          94,
-          64
+          1,
+          61,
+          240,
+          395,
+          390,
+          219,
+          151,
+          103,
+          80
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
-          33,
-          94,
-          170,
-          227,
+          3,
+          39,
+          102,
+          174,
+          245,
           184,
-          173,
-          114,
-          14
+          183,
+          115,
+          20
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
-          29,
-          226,
-          248,
-          188,
-          93,
-          49,
-          13,
+          1,
+          20,
+          208,
+          264,
+          196,
+          102,
+          52,
+          18,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          21,
-          74,
-          139,
-          137,
-          150,
-          151,
-          76,
-          44
+          19,
+          70,
+          82,
+          73,
+          75,
+          48,
+          10,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          6,
+          22,
+          45,
+          57,
+          71,
+          94,
+          60,
+          34
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          16,
-          56,
-          157,
-          247,
-          301,
-          525,
+          13,
+          49,
+          150,
+          237,
+          291,
+          510,
           676,
-          675
+          696
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
+          3,
           22,
-          50,
-          105,
-          155,
-          152,
-          127,
+          44,
+          90,
+          129,
+          132,
+          116,
           64,
-          6
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          13,
-          72,
-          111,
-          62,
-          38,
-          37,
-          24,
-          12
+          1,
+          11,
+          74,
+          124,
+          94,
+          57,
+          60,
+          42,
+          37
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MAD RIVER TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 144",
-      "Mixed – Active — 188",
-      "Mixed – Lapsed — 132",
-      "UNC – No Primary — 775",
-      "UNC – Lapsed D — 176"
+      "UNC – Lapsed R — 185",
+      "Mixed – Active — 192",
+      "Mixed – Lapsed — 74",
+      "UNC – Non-partisan Ballot — 53",
+      "UNC – No Primary — 768",
+      "UNC – Lapsed D — 173"
     ],
     "datasets": [
       {
         "data": [
-          144,
-          188,
-          132,
-          775,
-          176
+          185,
+          192,
+          74,
+          53,
+          768,
+          173
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NELSON TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

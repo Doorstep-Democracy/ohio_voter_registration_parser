@@ -5,10 +5,11 @@
     "labels": [
       "Pure R — 25 (13%)",
       "UNC – Lapsed R — 23 (12%)",
-      "Mixed – Active — 26 (13%)",
-      "Mixed – Lapsed — 29 (15%)",
-      "UNC – No Primary — 49 (25%)",
-      "UNC – Lapsed D — 30 (16%)",
+      "Mixed – Active — 21 (11%)",
+      "Mixed – Lapsed — 24 (13%)",
+      "UNC – Non-partisan Ballot — 10 (5%)",
+      "UNC – No Primary — 50 (26%)",
+      "UNC – Lapsed D — 26 (14%)",
       "Pure D — 11 (6%)"
     ],
     "datasets": [
@@ -16,10 +17,11 @@
         "data": [
           25,
           23,
+          21,
+          24,
+          10,
+          50,
           26,
-          29,
-          49,
-          30,
           11
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BETHEL TOWNSHIP (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

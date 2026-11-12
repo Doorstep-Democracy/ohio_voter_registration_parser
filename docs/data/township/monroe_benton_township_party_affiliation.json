@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 23 (11%)",
-      "UNC – Lapsed R — 6 (3%)",
+      "UNC – Lapsed R — 9 (4%)",
       "Mixed – Active — 44 (21%)",
-      "Mixed – Lapsed — 16 (8%)",
-      "UNC – No Primary — 73 (36%)",
-      "UNC – Lapsed D — 34 (17%)",
-      "Pure D — 9 (4%)"
+      "Mixed – Lapsed — 14 (7%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 74 (36%)",
+      "UNC – Lapsed D — 33 (16%)",
+      "Pure D — 7 (3%)"
     ],
     "datasets": [
       {
         "data": [
           23,
-          6,
+          9,
           44,
-          16,
-          73,
-          34,
-          9
+          14,
+          2,
+          74,
+          33,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BENTON TOWNSHIP (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

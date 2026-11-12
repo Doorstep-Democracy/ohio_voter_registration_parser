@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,218 (24%)",
-      "UNC – Lapsed R — 2,748 (11%)",
-      "Mixed – Active — 2,144 (8%)",
-      "Mixed – Lapsed — 1,828 (7%)",
-      "UNC – No Primary — 10,426 (40%)",
-      "UNC – Lapsed D — 1,879 (7%)",
-      "Pure D — 758 (3%)"
+      "Pure R — 5,849 (22%)",
+      "UNC – Lapsed R — 3,014 (12%)",
+      "Mixed – Active — 2,188 (8%)",
+      "Mixed – Lapsed — 830 (3%)",
+      "UNC – Non-partisan Ballot — 952 (4%)",
+      "UNC – No Primary — 10,580 (40%)",
+      "UNC – Lapsed D — 1,800 (7%)",
+      "Pure D — 986 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          6218,
-          2748,
-          2144,
-          1828,
-          10426,
-          1879,
-          758
+          5849,
+          3014,
+          2188,
+          830,
+          952,
+          10580,
+          1800,
+          986
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "FINDLAY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

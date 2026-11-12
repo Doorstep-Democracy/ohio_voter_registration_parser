@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 269 (3%)",
-      "UNC – Lapsed R — 228 (3%)",
-      "Mixed – Active — 469 (6%)",
-      "Mixed – Lapsed — 349 (5%)",
-      "UNC – No Primary — 2,815 (36%)",
-      "UNC – Lapsed D — 1,593 (21%)",
-      "Pure D — 1,990 (26%)"
+      "Pure R — 260 (3%)",
+      "UNC – Lapsed R — 234 (3%)",
+      "Mixed – Active — 462 (6%)",
+      "Mixed – Lapsed — 175 (2%)",
+      "UNC – Non-partisan Ballot — 169 (2%)",
+      "UNC – No Primary — 2,859 (37%)",
+      "UNC – Lapsed D — 1,606 (21%)",
+      "Pure D — 1,975 (26%)"
     ],
     "datasets": [
       {
         "data": [
-          269,
-          228,
-          469,
-          349,
-          2815,
-          1593,
-          1990
+          260,
+          234,
+          462,
+          175,
+          169,
+          2859,
+          1606,
+          1975
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "RICHMOND HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,403",
-      "Mixed – Active — 1,265",
-      "Mixed – Lapsed — 976",
-      "UNC – No Primary — 9,541",
-      "UNC – Lapsed D — 2,136"
+      "UNC – Lapsed R — 1,605",
+      "Mixed – Active — 1,239",
+      "Mixed – Lapsed — 675",
+      "UNC – Non-partisan Ballot — 392",
+      "UNC – No Primary — 9,467",
+      "UNC – Lapsed D — 2,054"
     ],
     "datasets": [
       {
         "data": [
-          1403,
-          1265,
-          976,
-          9541,
-          2136
+          1605,
+          1239,
+          675,
+          392,
+          9467,
+          2054
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MARION CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

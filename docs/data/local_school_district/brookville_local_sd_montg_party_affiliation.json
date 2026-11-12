@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,236 (18%)",
-      "UNC – Lapsed R — 1,290 (19%)",
-      "Mixed – Active — 618 (9%)",
-      "Mixed – Lapsed — 686 (10%)",
-      "UNC – No Primary — 2,332 (33%)",
-      "UNC – Lapsed D — 505 (7%)",
-      "Pure D — 300 (4%)"
+      "Pure R — 1,229 (17%)",
+      "UNC – Lapsed R — 1,287 (18%)",
+      "Mixed – Active — 617 (9%)",
+      "Mixed – Lapsed — 377 (5%)",
+      "UNC – Non-partisan Ballot — 314 (4%)",
+      "UNC – No Primary — 2,400 (34%)",
+      "UNC – Lapsed D — 501 (7%)",
+      "Pure D — 303 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1236,
-          1290,
-          618,
-          686,
-          2332,
-          505,
-          300
+          1229,
+          1287,
+          617,
+          377,
+          314,
+          2400,
+          501,
+          303
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Brookville Local Sd (Montg Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

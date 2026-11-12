@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 294",
-      "Mixed – Active — 593",
-      "Mixed – Lapsed — 345",
-      "UNC – No Primary — 1,071",
-      "UNC – Lapsed D — 150"
+      "UNC – Lapsed R — 421",
+      "Mixed – Active — 573",
+      "Mixed – Lapsed — 133",
+      "UNC – Non-partisan Ballot — 238",
+      "UNC – No Primary — 1,114",
+      "UNC – Lapsed D — 159"
     ],
     "datasets": [
       {
         "data": [
-          294,
-          593,
-          345,
-          1071,
-          150
+          421,
+          573,
+          133,
+          238,
+          1114,
+          159
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

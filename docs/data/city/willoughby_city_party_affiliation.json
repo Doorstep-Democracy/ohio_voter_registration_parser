@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,832 (11%)",
-      "UNC – Lapsed R — 1,614 (10%)",
-      "Mixed – Active — 1,617 (10%)",
-      "Mixed – Lapsed — 1,674 (10%)",
-      "UNC – No Primary — 6,151 (37%)",
-      "UNC – Lapsed D — 2,577 (15%)",
-      "Pure D — 1,301 (8%)"
+      "Pure R — 1,645 (10%)",
+      "UNC – Lapsed R — 1,783 (10%)",
+      "Mixed – Active — 1,597 (9%)",
+      "Mixed – Lapsed — 985 (6%)",
+      "UNC – Non-partisan Ballot — 722 (4%)",
+      "UNC – No Primary — 6,186 (36%)",
+      "UNC – Lapsed D — 2,528 (15%)",
+      "Pure D — 1,556 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1832,
-          1614,
-          1617,
-          1674,
-          6151,
-          2577,
-          1301
+          1645,
+          1783,
+          1597,
+          985,
+          722,
+          6186,
+          2528,
+          1556
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WILLOUGHBY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

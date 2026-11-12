@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,263",
-      "Mixed – Active — 1,485",
-      "Mixed – Lapsed — 969",
-      "UNC – No Primary — 3,928",
-      "UNC – Lapsed D — 1,341"
+      "UNC – Lapsed R — 1,432",
+      "Mixed – Active — 1,496",
+      "Mixed – Lapsed — 512",
+      "UNC – Non-partisan Ballot — 472",
+      "UNC – No Primary — 3,933",
+      "UNC – Lapsed D — 1,304"
     ],
     "datasets": [
       {
         "data": [
-          1263,
-          1485,
-          969,
-          3928,
-          1341
+          1432,
+          1496,
+          512,
+          472,
+          3933,
+          1304
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NORTH CANTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 540 (7%)",
-      "UNC – Lapsed R — 356 (4%)",
-      "Mixed – Active — 901 (11%)",
-      "Mixed – Lapsed — 511 (6%)",
-      "UNC – No Primary — 3,914 (49%)",
-      "UNC – Lapsed D — 1,118 (14%)",
-      "Pure D — 631 (8%)"
+      "Pure R — 571 (7%)",
+      "UNC – Lapsed R — 380 (5%)",
+      "Mixed – Active — 958 (12%)",
+      "Mixed – Lapsed — 263 (3%)",
+      "UNC – Non-partisan Ballot — 219 (3%)",
+      "UNC – No Primary — 3,890 (49%)",
+      "UNC – Lapsed D — 1,024 (13%)",
+      "Pure D — 688 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          540,
-          356,
-          901,
-          511,
-          3914,
-          1118,
-          631
+          571,
+          380,
+          958,
+          263,
+          219,
+          3890,
+          1024,
+          688
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PEASE TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

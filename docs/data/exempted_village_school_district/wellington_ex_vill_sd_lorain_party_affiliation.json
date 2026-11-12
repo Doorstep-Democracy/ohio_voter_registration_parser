@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 834 (14%)",
+      "Pure R — 822 (14%)",
       "UNC – Lapsed R — 663 (11%)",
-      "Mixed – Active — 636 (11%)",
-      "Mixed – Lapsed — 559 (10%)",
-      "UNC – No Primary — 2,085 (36%)",
-      "UNC – Lapsed D — 576 (10%)",
-      "Pure D — 430 (7%)"
+      "Mixed – Active — 629 (11%)",
+      "Mixed – Lapsed — 263 (5%)",
+      "UNC – Non-partisan Ballot — 285 (5%)",
+      "UNC – No Primary — 2,148 (37%)",
+      "UNC – Lapsed D — 575 (10%)",
+      "Pure D — 419 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          834,
+          822,
           663,
-          636,
-          559,
-          2085,
-          576,
-          430
+          629,
+          263,
+          285,
+          2148,
+          575,
+          419
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "WELLINGTON EX VILL SD (LORAIN)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Wellington Ex Vill Sd (Lorain Co.)",
+  "updated": "2026-11-11"
 }

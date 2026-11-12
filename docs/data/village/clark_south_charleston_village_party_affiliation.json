@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 191 (20%)",
-      "UNC – Lapsed R — 104 (11%)",
-      "Mixed – Active — 102 (11%)",
-      "Mixed – Lapsed — 51 (5%)",
-      "UNC – No Primary — 375 (39%)",
-      "UNC – Lapsed D — 86 (9%)",
-      "Pure D — 44 (5%)"
+      "Pure R — 193 (21%)",
+      "UNC – Lapsed R — 106 (11%)",
+      "Mixed – Active — 103 (11%)",
+      "Mixed – Lapsed — 31 (3%)",
+      "UNC – Non-partisan Ballot — 25 (3%)",
+      "UNC – No Primary — 360 (38%)",
+      "UNC – Lapsed D — 76 (8%)",
+      "Pure D — 46 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          191,
-          104,
-          102,
-          51,
-          375,
-          86,
-          44
+          193,
+          106,
+          103,
+          31,
+          25,
+          360,
+          76,
+          46
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SOUTH CHARLESTON VILLAGE (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

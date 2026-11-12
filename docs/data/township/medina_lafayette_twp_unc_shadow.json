@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 576",
-      "Mixed – Active — 449",
-      "Mixed – Lapsed — 529",
-      "UNC – No Primary — 1,801",
-      "UNC – Lapsed D — 503"
+      "UNC – Lapsed R — 629",
+      "Mixed – Active — 455",
+      "Mixed – Lapsed — 224",
+      "UNC – Non-partisan Ballot — 301",
+      "UNC – No Primary — 1,785",
+      "UNC – Lapsed D — 462"
     ],
     "datasets": [
       {
         "data": [
-          576,
-          449,
-          529,
-          1801,
-          503
+          629,
+          455,
+          224,
+          301,
+          1785,
+          462
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Lafayette TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

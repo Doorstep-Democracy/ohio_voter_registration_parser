@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 80",
+      "UNC – Lapsed R — 79",
       "Mixed – Active — 58",
-      "Mixed – Lapsed — 56",
-      "UNC – No Primary — 209",
-      "UNC – Lapsed D — 45"
+      "Mixed – Lapsed — 27",
+      "UNC – Non-partisan Ballot — 27",
+      "UNC – No Primary — 213",
+      "UNC – Lapsed D — 47"
     ],
     "datasets": [
       {
         "data": [
-          80,
+          79,
           58,
-          56,
-          209,
-          45
+          27,
+          27,
+          213,
+          47
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TULLY TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

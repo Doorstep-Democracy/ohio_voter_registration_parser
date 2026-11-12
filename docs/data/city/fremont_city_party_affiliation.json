@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,224 (12%)",
-      "UNC – Lapsed R — 865 (9%)",
-      "Mixed – Active — 764 (8%)",
-      "Mixed – Lapsed — 969 (10%)",
-      "UNC – No Primary — 4,471 (44%)",
-      "UNC – Lapsed D — 951 (9%)",
-      "Pure D — 821 (8%)"
+      "Pure R — 997 (11%)",
+      "UNC – Lapsed R — 744 (8%)",
+      "Mixed – Active — 675 (7%)",
+      "Mixed – Lapsed — 302 (3%)",
+      "UNC – Non-partisan Ballot — 577 (6%)",
+      "UNC – No Primary — 4,276 (46%)",
+      "UNC – Lapsed D — 896 (10%)",
+      "Pure D — 758 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1224,
-          865,
-          764,
-          969,
-          4471,
-          951,
-          821
+          997,
+          744,
+          675,
+          302,
+          577,
+          4276,
+          896,
+          758
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "FREMONT CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 32",
-      "Mixed – Active — 12",
-      "Mixed – Lapsed — 18",
-      "UNC – No Primary — 159",
-      "UNC – Lapsed D — 35"
+      "UNC – Lapsed R — 36",
+      "Mixed – Active — 18",
+      "Mixed – Lapsed — 13",
+      "UNC – Non-partisan Ballot — 5",
+      "UNC – No Primary — 157",
+      "UNC – Lapsed D — 30"
     ],
     "datasets": [
       {
         "data": [
-          32,
-          12,
+          36,
           18,
-          159,
-          35
+          13,
+          5,
+          157,
+          30
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "OAKWOOD VILLAGE PAULDING (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

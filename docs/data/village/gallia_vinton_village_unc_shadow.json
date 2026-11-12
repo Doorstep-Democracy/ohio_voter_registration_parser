@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 21",
-      "Mixed – Active — 10",
-      "Mixed – Lapsed — 7",
-      "UNC – No Primary — 67",
-      "UNC – Lapsed D — 16"
+      "UNC – Lapsed R — 25",
+      "Mixed – Active — 9",
+      "Mixed – Lapsed — 10",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 71",
+      "UNC – Lapsed D — 9"
     ],
     "datasets": [
       {
         "data": [
-          21,
+          25,
+          9,
           10,
-          7,
-          67,
-          16
+          0,
+          71,
+          9
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "VINTON VILLAGE (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

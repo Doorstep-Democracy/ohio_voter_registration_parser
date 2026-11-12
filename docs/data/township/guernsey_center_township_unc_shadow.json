@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 144",
-      "Mixed – Active — 91",
-      "Mixed – Lapsed — 54",
-      "UNC – No Primary — 441",
-      "UNC – Lapsed D — 110"
+      "UNC – Lapsed R — 162",
+      "Mixed – Active — 83",
+      "Mixed – Lapsed — 48",
+      "UNC – Non-partisan Ballot — 18",
+      "UNC – No Primary — 435",
+      "UNC – Lapsed D — 100"
     ],
     "datasets": [
       {
         "data": [
-          144,
-          91,
-          54,
-          441,
-          110
+          162,
+          83,
+          48,
+          18,
+          435,
+          100
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CENTER TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 128 (6%)",
-      "UNC – Lapsed R — 116 (5%)",
-      "Mixed – Active — 266 (12%)",
-      "Mixed – Lapsed — 171 (8%)",
-      "UNC – No Primary — 675 (31%)",
-      "UNC – Lapsed D — 465 (21%)",
-      "Pure D — 376 (17%)"
+      "Pure R — 133 (6%)",
+      "UNC – Lapsed R — 124 (6%)",
+      "Mixed – Active — 261 (12%)",
+      "Mixed – Lapsed — 106 (5%)",
+      "UNC – Non-partisan Ballot — 81 (4%)",
+      "UNC – No Primary — 660 (30%)",
+      "UNC – Lapsed D — 450 (20%)",
+      "Pure D — 385 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          128,
-          116,
-          266,
-          171,
-          675,
-          465,
-          376
+          133,
+          124,
+          261,
+          106,
+          81,
+          660,
+          450,
+          385
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MCDONALD VILLAGE (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

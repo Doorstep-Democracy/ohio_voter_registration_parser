@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 169 (20%)",
-      "UNC – Lapsed R — 110 (13%)",
+      "Pure R — 144 (17%)",
+      "UNC – Lapsed R — 140 (17%)",
       "Mixed – Active — 55 (7%)",
-      "Mixed – Lapsed — 71 (9%)",
-      "UNC – No Primary — 369 (45%)",
-      "UNC – Lapsed D — 41 (5%)",
-      "Pure D — 13 (2%)"
+      "Mixed – Lapsed — 35 (4%)",
+      "UNC – Non-partisan Ballot — 34 (4%)",
+      "UNC – No Primary — 374 (45%)",
+      "UNC – Lapsed D — 37 (4%)",
+      "Pure D — 20 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          169,
-          110,
+          144,
+          140,
           55,
-          71,
-          369,
-          41,
-          13
+          35,
+          34,
+          374,
+          37,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DEGRAFF VILLAGE (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

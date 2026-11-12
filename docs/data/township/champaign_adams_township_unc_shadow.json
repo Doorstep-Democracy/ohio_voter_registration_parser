@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 53",
-      "Mixed – Active — 78",
-      "Mixed – Lapsed — 30",
-      "UNC – No Primary — 181",
-      "UNC – Lapsed D — 36"
+      "UNC – Lapsed R — 75",
+      "Mixed – Active — 75",
+      "Mixed – Lapsed — 24",
+      "UNC – Non-partisan Ballot — 13",
+      "UNC – No Primary — 182",
+      "UNC – Lapsed D — 29"
     ],
     "datasets": [
       {
         "data": [
-          53,
-          78,
-          30,
-          181,
-          36
+          75,
+          75,
+          24,
+          13,
+          182,
+          29
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TOWNSHIP (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

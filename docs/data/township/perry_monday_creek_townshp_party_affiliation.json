@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 110 (23%)",
-      "UNC – Lapsed R — 65 (13%)",
-      "Mixed – Active — 21 (4%)",
-      "Mixed – Lapsed — 25 (5%)",
-      "UNC – No Primary — 215 (44%)",
-      "UNC – Lapsed D — 39 (8%)",
-      "Pure D — 13 (3%)"
+      "Pure R — 97 (20%)",
+      "UNC – Lapsed R — 82 (17%)",
+      "Mixed – Active — 19 (4%)",
+      "Mixed – Lapsed — 15 (3%)",
+      "UNC – Non-partisan Ballot — 12 (2%)",
+      "UNC – No Primary — 205 (42%)",
+      "UNC – Lapsed D — 40 (8%)",
+      "Pure D — 15 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          110,
-          65,
-          21,
-          25,
-          215,
-          39,
-          13
+          97,
+          82,
+          19,
+          15,
+          12,
+          205,
+          40,
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONDAY CREEK TOWNSHP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

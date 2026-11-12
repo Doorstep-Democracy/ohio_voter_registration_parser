@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 65",
-      "Mixed – Active — 72",
-      "Mixed – Lapsed — 15",
-      "UNC – No Primary — 232",
-      "UNC – Lapsed D — 46"
+      "UNC – Lapsed R — 76",
+      "Mixed – Active — 70",
+      "Mixed – Lapsed — 10",
+      "UNC – Non-partisan Ballot — 6",
+      "UNC – No Primary — 243",
+      "UNC – Lapsed D — 44"
     ],
     "datasets": [
       {
         "data": [
-          65,
-          72,
-          15,
-          232,
-          46
+          76,
+          70,
+          10,
+          6,
+          243,
+          44
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OLIVER TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

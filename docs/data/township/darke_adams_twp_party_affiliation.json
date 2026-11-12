@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 459 (23%)",
-      "UNC – Lapsed R — 307 (15%)",
-      "Mixed – Active — 161 (8%)",
-      "Mixed – Lapsed — 119 (6%)",
-      "UNC – No Primary — 769 (39%)",
-      "UNC – Lapsed D — 123 (6%)",
-      "Pure D — 52 (3%)"
+      "Pure R — 365 (18%)",
+      "UNC – Lapsed R — 400 (20%)",
+      "Mixed – Active — 136 (7%)",
+      "Mixed – Lapsed — 108 (5%)",
+      "UNC – Non-partisan Ballot — 40 (2%)",
+      "UNC – No Primary — 785 (39%)",
+      "UNC – Lapsed D — 115 (6%)",
+      "Pure D — 57 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          459,
-          307,
-          161,
-          119,
-          769,
-          123,
-          52
+          365,
+          400,
+          136,
+          108,
+          40,
+          785,
+          115,
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

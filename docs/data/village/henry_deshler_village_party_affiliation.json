@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 205 (21%)",
-      "UNC – Lapsed R — 138 (14%)",
-      "Mixed – Active — 80 (8%)",
-      "Mixed – Lapsed — 78 (8%)",
-      "UNC – No Primary — 373 (38%)",
-      "UNC – Lapsed D — 73 (8%)",
-      "Pure D — 26 (3%)"
+      "Pure R — 198 (20%)",
+      "UNC – Lapsed R — 139 (14%)",
+      "Mixed – Active — 77 (8%)",
+      "Mixed – Lapsed — 47 (5%)",
+      "UNC – Non-partisan Ballot — 35 (4%)",
+      "UNC – No Primary — 378 (38%)",
+      "UNC – Lapsed D — 65 (7%)",
+      "Pure D — 43 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          205,
-          138,
-          80,
-          78,
-          373,
-          73,
-          26
+          198,
+          139,
+          77,
+          47,
+          35,
+          378,
+          65,
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DESHLER VILLAGE (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

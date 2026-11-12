@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,024 (12%)",
-      "UNC – Lapsed R — 1,174 (14%)",
-      "Mixed – Active — 492 (6%)",
-      "Mixed – Lapsed — 690 (8%)",
-      "UNC – No Primary — 3,770 (44%)",
-      "UNC – Lapsed D — 945 (11%)",
-      "Pure D — 485 (6%)"
+      "Pure R — 827 (9%)",
+      "UNC – Lapsed R — 1,370 (16%)",
+      "Mixed – Active — 494 (6%)",
+      "Mixed – Lapsed — 463 (5%)",
+      "UNC – Non-partisan Ballot — 256 (3%)",
+      "UNC – No Primary — 3,761 (43%)",
+      "UNC – Lapsed D — 942 (11%)",
+      "Pure D — 603 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1024,
-          1174,
-          492,
-          690,
-          3770,
-          945,
-          485
+          827,
+          1370,
+          494,
+          463,
+          256,
+          3761,
+          942,
+          603
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NEW ALBANY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

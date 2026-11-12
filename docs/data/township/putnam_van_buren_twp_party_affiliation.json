@@ -4,22 +4,24 @@
   "chartConfig": {
     "labels": [
       "Pure R — 359 (20%)",
-      "UNC – Lapsed R — 213 (12%)",
-      "Mixed – Active — 170 (10%)",
-      "Mixed – Lapsed — 63 (4%)",
-      "UNC – No Primary — 785 (44%)",
-      "UNC – Lapsed D — 123 (7%)",
+      "UNC – Lapsed R — 214 (12%)",
+      "Mixed – Active — 167 (9%)",
+      "Mixed – Lapsed — 45 (3%)",
+      "UNC – Non-partisan Ballot — 19 (1%)",
+      "UNC – No Primary — 788 (44%)",
+      "UNC – Lapsed D — 124 (7%)",
       "Pure D — 63 (4%)"
     ],
     "datasets": [
       {
         "data": [
           359,
-          213,
-          170,
-          63,
-          785,
-          123,
+          214,
+          167,
+          45,
+          19,
+          788,
+          124,
           63
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VAN BUREN TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

@@ -3,10 +3,11 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 38 (13%)",
+      "Pure R — 37 (13%)",
       "UNC – Lapsed R — 62 (21%)",
       "Mixed – Active — 29 (10%)",
-      "Mixed – Lapsed — 26 (9%)",
+      "Mixed – Lapsed — 24 (8%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
       "UNC – No Primary — 101 (35%)",
       "UNC – Lapsed D — 29 (10%)",
       "Pure D — 7 (2%)"
@@ -14,10 +15,11 @@
     "datasets": [
       {
         "data": [
-          38,
+          37,
           62,
           29,
-          26,
+          24,
+          0,
           101,
           29,
           7
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SYMMES TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

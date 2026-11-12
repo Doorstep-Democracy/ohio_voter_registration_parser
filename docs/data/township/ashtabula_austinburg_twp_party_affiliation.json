@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 315 (20%)",
-      "UNC – Lapsed R — 164 (10%)",
-      "Mixed – Active — 203 (13%)",
-      "Mixed – Lapsed — 137 (9%)",
-      "UNC – No Primary — 495 (31%)",
-      "UNC – Lapsed D — 167 (10%)",
-      "Pure D — 121 (8%)"
+      "Pure R — 276 (17%)",
+      "UNC – Lapsed R — 204 (13%)",
+      "Mixed – Active — 200 (13%)",
+      "Mixed – Lapsed — 62 (4%)",
+      "UNC – Non-partisan Ballot — 71 (4%)",
+      "UNC – No Primary — 488 (31%)",
+      "UNC – Lapsed D — 153 (10%)",
+      "Pure D — 137 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          315,
-          164,
-          203,
-          137,
-          495,
-          167,
-          121
+          276,
+          204,
+          200,
+          62,
+          71,
+          488,
+          153,
+          137
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "AUSTINBURG TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

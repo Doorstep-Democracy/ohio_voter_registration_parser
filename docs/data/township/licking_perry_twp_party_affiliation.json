@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 257 (23%)",
-      "UNC – Lapsed R — 174 (15%)",
-      "Mixed – Active — 82 (7%)",
-      "Mixed – Lapsed — 66 (6%)",
-      "UNC – No Primary — 444 (40%)",
-      "UNC – Lapsed D — 68 (6%)",
-      "Pure D — 33 (3%)"
+      "Pure R — 255 (22%)",
+      "UNC – Lapsed R — 177 (16%)",
+      "Mixed – Active — 94 (8%)",
+      "Mixed – Lapsed — 43 (4%)",
+      "UNC – Non-partisan Ballot — 23 (2%)",
+      "UNC – No Primary — 443 (39%)",
+      "UNC – Lapsed D — 64 (6%)",
+      "Pure D — 40 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          257,
-          174,
-          82,
-          66,
-          444,
-          68,
-          33
+          255,
+          177,
+          94,
+          43,
+          23,
+          443,
+          64,
+          40
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PERRY TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

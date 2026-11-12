@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          13,
-          77,
-          318,
-          473,
-          440,
-          268,
-          207,
-          154,
-          65
+          9,
+          65,
+          286,
+          459,
+          398,
+          227,
+          166,
+          129,
+          59
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          3,
-          40,
-          118,
-          212,
-          284,
-          283,
-          221,
-          229,
-          19
+          7,
+          49,
+          142,
+          234,
+          357,
+          338,
+          269,
+          273,
+          37
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           8,
-          103,
-          392,
-          614,
-          426,
-          259,
-          126,
-          44,
-          3
+          82,
+          345,
+          606,
+          388,
+          220,
+          115,
+          46,
+          6
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           5,
-          50,
-          150,
-          241,
-          239,
-          219,
-          188,
-          110,
-          22
+          55,
+          168,
+          184,
+          224,
+          189,
+          121,
+          29,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          7,
+          25,
+          65,
+          65,
+          89,
+          91,
+          91,
+          27
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          1,
-          53,
-          181,
-          554,
-          909,
-          1143,
-          1669,
-          2368,
-          1741
+          44,
+          165,
+          546,
+          876,
+          1124,
+          1662,
+          2358,
+          1914
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          13,
-          97,
-          258,
-          533,
-          559,
+          12,
+          101,
+          277,
+          511,
+          549,
           525,
-          501,
-          286,
-          28
+          520,
+          288,
+          42
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          8,
-          91,
-          312,
-          535,
-          295,
-          212,
-          181,
-          103,
-          53
+          5,
+          74,
+          268,
+          536,
+          306,
+          216,
+          196,
+          144,
+          81
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MASSILLON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

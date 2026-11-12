@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,451",
-      "Mixed – Active — 729",
-      "Mixed – Lapsed — 995",
-      "UNC – No Primary — 6,010",
-      "UNC – Lapsed D — 1,768"
+      "UNC – Lapsed R — 1,510",
+      "Mixed – Active — 785",
+      "Mixed – Lapsed — 446",
+      "UNC – Non-partisan Ballot — 523",
+      "UNC – No Primary — 5,901",
+      "UNC – Lapsed D — 1,606"
     ],
     "datasets": [
       {
         "data": [
-          1451,
-          729,
-          995,
-          6010,
-          1768
+          1510,
+          785,
+          446,
+          523,
+          5901,
+          1606
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Jefferson Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

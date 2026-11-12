@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,260 (8%)",
-      "UNC – Lapsed R — 1,304 (8%)",
-      "Mixed – Active — 1,058 (7%)",
-      "Mixed – Lapsed — 1,397 (9%)",
-      "UNC – No Primary — 6,419 (41%)",
-      "UNC – Lapsed D — 2,839 (18%)",
-      "Pure D — 1,541 (10%)"
+      "Pure R — 1,288 (8%)",
+      "UNC – Lapsed R — 1,344 (8%)",
+      "Mixed – Active — 1,124 (7%)",
+      "Mixed – Lapsed — 707 (4%)",
+      "UNC – Non-partisan Ballot — 600 (4%)",
+      "UNC – No Primary — 6,514 (41%)",
+      "UNC – Lapsed D — 2,699 (17%)",
+      "Pure D — 1,719 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1260,
-          1304,
-          1058,
-          1397,
-          6419,
-          2839,
-          1541
+          1288,
+          1344,
+          1124,
+          707,
+          600,
+          6514,
+          2699,
+          1719
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "OREGON (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

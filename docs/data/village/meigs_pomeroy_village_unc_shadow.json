@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 133",
-      "Mixed – Active — 46",
-      "Mixed – Lapsed — 63",
-      "UNC – No Primary — 376",
-      "UNC – Lapsed D — 76"
+      "UNC – Lapsed R — 115",
+      "Mixed – Active — 62",
+      "Mixed – Lapsed — 43",
+      "UNC – Non-partisan Ballot — 8",
+      "UNC – No Primary — 380",
+      "UNC – Lapsed D — 69"
     ],
     "datasets": [
       {
         "data": [
-          133,
-          46,
-          63,
-          376,
-          76
+          115,
+          62,
+          43,
+          8,
+          380,
+          69
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "POMEROY VILLAGE (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

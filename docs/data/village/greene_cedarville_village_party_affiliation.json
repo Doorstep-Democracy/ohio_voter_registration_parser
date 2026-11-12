@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 289 (22%)",
-      "UNC – Lapsed R — 206 (15%)",
-      "Mixed – Active — 33 (2%)",
-      "Mixed – Lapsed — 36 (3%)",
-      "UNC – No Primary — 721 (54%)",
-      "UNC – Lapsed D — 35 (3%)",
-      "Pure D — 14 (1%)"
+      "Pure R — 297 (22%)",
+      "UNC – Lapsed R — 211 (16%)",
+      "Mixed – Active — 39 (3%)",
+      "Mixed – Lapsed — 17 (1%)",
+      "UNC – Non-partisan Ballot — 6 (0%)",
+      "UNC – No Primary — 723 (54%)",
+      "UNC – Lapsed D — 34 (3%)",
+      "Pure D — 19 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          289,
-          206,
-          33,
-          36,
-          721,
-          35,
-          14
+          297,
+          211,
+          39,
+          17,
+          6,
+          723,
+          34,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CEDARVILLE VILLAGE (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

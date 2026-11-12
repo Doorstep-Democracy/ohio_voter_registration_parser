@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,272 (20%)",
-      "UNC – Lapsed R — 839 (13%)",
-      "Mixed – Active — 382 (6%)",
-      "Mixed – Lapsed — 619 (10%)",
-      "UNC – No Primary — 2,663 (42%)",
-      "UNC – Lapsed D — 403 (6%)",
-      "Pure D — 185 (3%)"
+      "Pure R — 1,276 (20%)",
+      "UNC – Lapsed R — 846 (13%)",
+      "Mixed – Active — 374 (6%)",
+      "Mixed – Lapsed — 192 (3%)",
+      "UNC – Non-partisan Ballot — 426 (7%)",
+      "UNC – No Primary — 2,719 (42%)",
+      "UNC – Lapsed D — 402 (6%)",
+      "Pure D — 181 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1272,
-          839,
-          382,
-          619,
-          2663,
-          403,
-          185
+          1276,
+          846,
+          374,
+          192,
+          426,
+          2719,
+          402,
+          181
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Bethel-Tate Local Sd (Clermont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

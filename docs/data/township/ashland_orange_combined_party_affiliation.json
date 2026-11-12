@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 487 (29%)",
-      "UNC – Lapsed R — 178 (11%)",
-      "Mixed – Active — 100 (6%)",
-      "Mixed – Lapsed — 214 (13%)",
-      "UNC – No Primary — 518 (31%)",
-      "UNC – Lapsed D — 114 (7%)",
-      "Pure D — 43 (3%)"
+      "Pure R — 445 (27%)",
+      "UNC – Lapsed R — 242 (15%)",
+      "Mixed – Active — 105 (6%)",
+      "Mixed – Lapsed — 35 (2%)",
+      "UNC – Non-partisan Ballot — 163 (10%)",
+      "UNC – No Primary — 506 (31%)",
+      "UNC – Lapsed D — 107 (6%)",
+      "Pure D — 54 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          487,
-          178,
-          100,
-          214,
-          518,
-          114,
-          43
+          445,
+          242,
+          105,
+          35,
+          163,
+          506,
+          107,
+          54
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ORANGE-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

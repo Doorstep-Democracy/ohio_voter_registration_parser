@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 147",
-      "Mixed – Active — 89",
-      "Mixed – Lapsed — 101",
+      "UNC – Lapsed R — 181",
+      "Mixed – Active — 83",
+      "Mixed – Lapsed — 34",
+      "UNC – Non-partisan Ballot — 68",
       "UNC – No Primary — 369",
-      "UNC – Lapsed D — 87"
+      "UNC – Lapsed D — 85"
     ],
     "datasets": [
       {
         "data": [
-          147,
-          89,
-          101,
+          181,
+          83,
+          34,
+          68,
           369,
-          87
+          85
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

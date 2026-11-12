@@ -36,7 +36,7 @@ OUT_DIR     = BASE_DIR / "local" / "exports" / "Precinct_Summary"  # PATCH: Rero
 # ── Import shared helpers from existing pipeline ──────────────────────────────
 
 sys.path.insert(0, str(BASE_DIR))
-import voter_data_cleaner_v2 as v2
+from pipeline import voter_data_cleaner as v2
 
 OHIO_COUNTIES   = v2.OHIO_COUNTIES          # dict[str, str]  '01' → 'Adams'
 setup_logging   = v2.setup_logging

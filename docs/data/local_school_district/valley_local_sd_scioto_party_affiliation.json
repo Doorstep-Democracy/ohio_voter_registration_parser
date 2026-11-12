@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 576 (18%)",
-      "UNC – Lapsed R — 414 (13%)",
-      "Mixed – Active — 321 (10%)",
-      "Mixed – Lapsed — 190 (6%)",
-      "UNC – No Primary — 1,273 (39%)",
-      "UNC – Lapsed D — 334 (10%)",
+      "Pure R — 574 (18%)",
+      "UNC – Lapsed R — 419 (13%)",
+      "Mixed – Active — 318 (10%)",
+      "Mixed – Lapsed — 133 (4%)",
+      "UNC – Non-partisan Ballot — 57 (2%)",
+      "UNC – No Primary — 1,290 (40%)",
+      "UNC – Lapsed D — 328 (10%)",
       "Pure D — 120 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          576,
-          414,
-          321,
-          190,
-          1273,
-          334,
+          574,
+          419,
+          318,
+          133,
+          57,
+          1290,
+          328,
           120
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Valley Local Sd (Scioto Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

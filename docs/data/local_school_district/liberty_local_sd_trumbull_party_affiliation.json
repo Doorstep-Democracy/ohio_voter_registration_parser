@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 609 (7%)",
-      "UNC – Lapsed R — 382 (4%)",
-      "Mixed – Active — 968 (11%)",
-      "Mixed – Lapsed — 469 (5%)",
-      "UNC – No Primary — 3,234 (37%)",
-      "UNC – Lapsed D — 1,535 (18%)",
-      "Pure D — 1,513 (17%)"
+      "Pure R — 607 (7%)",
+      "UNC – Lapsed R — 379 (4%)",
+      "Mixed – Active — 969 (11%)",
+      "Mixed – Lapsed — 320 (4%)",
+      "UNC – Non-partisan Ballot — 153 (2%)",
+      "UNC – No Primary — 3,311 (38%)",
+      "UNC – Lapsed D — 1,520 (17%)",
+      "Pure D — 1,503 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          609,
-          382,
-          968,
-          469,
-          3234,
-          1535,
-          1513
+          607,
+          379,
+          969,
+          320,
+          153,
+          3311,
+          1520,
+          1503
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Liberty Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

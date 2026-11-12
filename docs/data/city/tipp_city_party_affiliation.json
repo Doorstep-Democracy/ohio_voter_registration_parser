@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,867 (24%)",
-      "UNC – Lapsed R — 1,116 (14%)",
-      "Mixed – Active — 717 (9%)",
-      "Mixed – Lapsed — 605 (8%)",
-      "UNC – No Primary — 2,526 (33%)",
-      "UNC – Lapsed D — 502 (7%)",
-      "Pure D — 384 (5%)"
+      "Pure R — 1,823 (23%)",
+      "UNC – Lapsed R — 1,188 (15%)",
+      "Mixed – Active — 722 (9%)",
+      "Mixed – Lapsed — 295 (4%)",
+      "UNC – Non-partisan Ballot — 323 (4%)",
+      "UNC – No Primary — 2,557 (33%)",
+      "UNC – Lapsed D — 477 (6%)",
+      "Pure D — 443 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1867,
-          1116,
-          717,
-          605,
-          2526,
-          502,
-          384
+          1823,
+          1188,
+          722,
+          295,
+          323,
+          2557,
+          477,
+          443
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "TIPP CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

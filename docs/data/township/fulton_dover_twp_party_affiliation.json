@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 316 (27%)",
-      "UNC – Lapsed R — 135 (11%)",
-      "Mixed – Active — 114 (10%)",
-      "Mixed – Lapsed — 91 (8%)",
-      "UNC – No Primary — 413 (35%)",
-      "UNC – Lapsed D — 63 (5%)",
-      "Pure D — 46 (4%)"
+      "Pure R — 213 (18%)",
+      "UNC – Lapsed R — 244 (21%)",
+      "Mixed – Active — 93 (8%)",
+      "Mixed – Lapsed — 53 (4%)",
+      "UNC – Non-partisan Ballot — 55 (5%)",
+      "UNC – No Primary — 415 (35%)",
+      "UNC – Lapsed D — 72 (6%)",
+      "Pure D — 39 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          316,
-          135,
-          114,
-          91,
-          413,
-          63,
-          46
+          213,
+          244,
+          93,
+          53,
+          55,
+          415,
+          72,
+          39
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DOVER TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 132 (20%)",
-      "UNC – Lapsed R — 85 (13%)",
-      "Mixed – Active — 66 (10%)",
-      "Mixed – Lapsed — 55 (8%)",
-      "UNC – No Primary — 212 (33%)",
-      "UNC – Lapsed D — 69 (11%)",
+      "Pure R — 126 (19%)",
+      "UNC – Lapsed R — 95 (14%)",
+      "Mixed – Active — 70 (11%)",
+      "Mixed – Lapsed — 49 (7%)",
+      "UNC – Non-partisan Ballot — 10 (2%)",
+      "UNC – No Primary — 214 (32%)",
+      "UNC – Lapsed D — 66 (10%)",
       "Pure D — 33 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          132,
-          85,
+          126,
+          95,
+          70,
+          49,
+          10,
+          214,
           66,
-          55,
-          212,
-          69,
           33
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

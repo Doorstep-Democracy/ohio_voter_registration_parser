@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          108,
-          522,
-          1000,
-          1064,
-          731,
-          639,
-          225,
-          192
+          104,
+          518,
+          996,
+          1050,
+          725,
+          635,
+          216,
+          189
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           5,
-          69,
-          224,
-          344,
-          609,
-          514,
-          409,
-          330,
-          67
+          67,
+          222,
+          353,
+          619,
+          526,
+          415,
+          343,
+          66
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           35,
-          210,
-          428,
-          351,
-          295,
-          194,
-          55,
-          11
+          207,
+          418,
+          347,
+          291,
+          193,
+          53,
+          10
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          25,
-          136,
-          265,
-          327,
-          395,
-          377,
-          160,
-          118
+          20,
+          91,
+          156,
+          166,
+          141,
+          76,
+          30,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          49,
+          107,
+          163,
+          258,
+          307,
+          131,
+          119
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           3,
-          44,
-          168,
-          394,
-          683,
-          882,
-          1348,
-          2044,
-          2027
+          45,
+          177,
+          401,
+          685,
+          895,
+          1369,
+          2039,
+          2193
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -100,12 +116,12 @@
           2,
           25,
           107,
-          191,
-          252,
+          189,
+          255,
+          261,
+          327,
           270,
-          323,
-          270,
-          80
+          85
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +131,21 @@
         "data": [
           0,
           16,
-          131,
-          265,
-          217,
-          327,
+          133,
+          261,
+          218,
+          322,
           364,
-          143,
-          160
+          140,
+          148
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Kings Local Sd (Warren Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 800 (10%)",
-      "UNC – Lapsed R — 630 (8%)",
-      "Mixed – Active — 558 (7%)",
-      "Mixed – Lapsed — 463 (6%)",
-      "UNC – No Primary — 3,971 (51%)",
-      "UNC – Lapsed D — 964 (12%)",
-      "Pure D — 457 (6%)"
+      "Pure R — 716 (9%)",
+      "UNC – Lapsed R — 707 (9%)",
+      "Mixed – Active — 532 (7%)",
+      "Mixed – Lapsed — 325 (4%)",
+      "UNC – Non-partisan Ballot — 178 (2%)",
+      "UNC – No Primary — 3,959 (50%)",
+      "UNC – Lapsed D — 896 (11%)",
+      "Pure D — 557 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          800,
-          630,
-          558,
-          463,
-          3971,
-          964,
-          457
+          716,
+          707,
+          532,
+          325,
+          178,
+          3959,
+          896,
+          557
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "FOSTORIA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

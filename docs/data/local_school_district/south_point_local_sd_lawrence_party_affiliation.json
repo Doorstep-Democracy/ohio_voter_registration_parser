@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,036 (13%)",
-      "UNC – Lapsed R — 970 (12%)",
-      "Mixed – Active — 560 (7%)",
-      "Mixed – Lapsed — 367 (5%)",
-      "UNC – No Primary — 3,865 (49%)",
-      "UNC – Lapsed D — 678 (9%)",
-      "Pure D — 336 (4%)"
+      "Pure R — 1,033 (13%)",
+      "UNC – Lapsed R — 963 (12%)",
+      "Mixed – Active — 561 (7%)",
+      "Mixed – Lapsed — 321 (4%)",
+      "UNC – Non-partisan Ballot — 39 (0%)",
+      "UNC – No Primary — 3,950 (50%)",
+      "UNC – Lapsed D — 673 (9%)",
+      "Pure D — 333 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1036,
-          970,
-          560,
-          367,
-          3865,
-          678,
-          336
+          1033,
+          963,
+          561,
+          321,
+          39,
+          3950,
+          673,
+          333
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "South Point Local Sd (Lawrence Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 97",
-      "Mixed – Active — 60",
-      "Mixed – Lapsed — 34",
-      "UNC – No Primary — 220",
-      "UNC – Lapsed D — 38"
+      "UNC – Lapsed R — 105",
+      "Mixed – Active — 53",
+      "Mixed – Lapsed — 29",
+      "UNC – Non-partisan Ballot — 13",
+      "UNC – No Primary — 229",
+      "UNC – Lapsed D — 37"
     ],
     "datasets": [
       {
         "data": [
-          97,
-          60,
-          34,
-          220,
-          38
+          105,
+          53,
+          29,
+          13,
+          229,
+          37
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

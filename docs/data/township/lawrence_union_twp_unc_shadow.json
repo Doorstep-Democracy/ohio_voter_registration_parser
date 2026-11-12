@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 760",
-      "Mixed – Active — 354",
-      "Mixed – Lapsed — 284",
-      "UNC – No Primary — 2,770",
-      "UNC – Lapsed D — 437"
+      "UNC – Lapsed R — 754",
+      "Mixed – Active — 353",
+      "Mixed – Lapsed — 256",
+      "UNC – Non-partisan Ballot — 28",
+      "UNC – No Primary — 2,834",
+      "UNC – Lapsed D — 434"
     ],
     "datasets": [
       {
         "data": [
-          760,
-          354,
-          284,
-          2770,
-          437
+          754,
+          353,
+          256,
+          28,
+          2834,
+          434
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 49 (3%)",
-      "UNC – Lapsed R — 16 (1%)",
-      "Mixed – Active — 53 (3%)",
-      "Mixed – Lapsed — 48 (2%)",
-      "UNC – No Primary — 1,461 (76%)",
-      "UNC – Lapsed D — 156 (8%)",
-      "Pure D — 140 (7%)"
+      "Pure R — 43 (2%)",
+      "UNC – Lapsed R — 20 (1%)",
+      "Mixed – Active — 57 (3%)",
+      "Mixed – Lapsed — 11 (1%)",
+      "UNC – Non-partisan Ballot — 29 (1%)",
+      "UNC – No Primary — 1,639 (78%)",
+      "UNC – Lapsed D — 160 (8%)",
+      "Pure D — 148 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          49,
-          16,
-          53,
-          48,
-          1461,
-          156,
-          140
+          43,
+          20,
+          57,
+          11,
+          29,
+          1639,
+          160,
+          148
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GAMBIER VILLAGE (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

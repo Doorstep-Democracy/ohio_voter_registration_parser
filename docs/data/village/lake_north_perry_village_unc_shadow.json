@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 79",
-      "Mixed – Active — 56",
-      "Mixed – Lapsed — 59",
-      "UNC – No Primary — 251",
-      "UNC – Lapsed D — 73"
+      "UNC – Lapsed R — 87",
+      "Mixed – Active — 65",
+      "Mixed – Lapsed — 24",
+      "UNC – Non-partisan Ballot — 26",
+      "UNC – No Primary — 238",
+      "UNC – Lapsed D — 70"
     ],
     "datasets": [
       {
         "data": [
-          79,
-          56,
-          59,
-          251,
-          73
+          87,
+          65,
+          24,
+          26,
+          238,
+          70
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "NORTH PERRY VILLAGE (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

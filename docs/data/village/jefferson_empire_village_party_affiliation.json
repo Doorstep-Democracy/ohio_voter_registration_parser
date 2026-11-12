@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 10 (6%)",
-      "UNC – Lapsed R — 8 (5%)",
-      "Mixed – Active — 24 (14%)",
-      "Mixed – Lapsed — 11 (7%)",
-      "UNC – No Primary — 76 (45%)",
-      "UNC – Lapsed D — 27 (16%)",
+      "Pure R — 15 (9%)",
+      "UNC – Lapsed R — 7 (4%)",
+      "Mixed – Active — 26 (15%)",
+      "Mixed – Lapsed — 6 (4%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 74 (44%)",
+      "UNC – Lapsed D — 25 (15%)",
       "Pure D — 13 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          10,
-          8,
-          24,
-          11,
-          76,
-          27,
+          15,
+          7,
+          26,
+          6,
+          4,
+          74,
+          25,
           13
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "EMPIRE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

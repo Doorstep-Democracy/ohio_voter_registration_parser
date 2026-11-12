@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 434",
-      "Mixed – Active — 405",
-      "Mixed – Lapsed — 392",
-      "UNC – No Primary — 2,033",
-      "UNC – Lapsed D — 704"
+      "UNC – Lapsed R — 432",
+      "Mixed – Active — 475",
+      "Mixed – Lapsed — 244",
+      "UNC – Non-partisan Ballot — 125",
+      "UNC – No Primary — 1,957",
+      "UNC – Lapsed D — 608"
     ],
     "datasets": [
       {
         "data": [
-          434,
-          405,
-          392,
-          2033,
-          704
+          432,
+          475,
+          244,
+          125,
+          1957,
+          608
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MENTOR-ON-THE-LAKE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

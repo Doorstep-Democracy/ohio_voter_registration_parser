@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 222",
-      "Mixed – Active — 220",
-      "Mixed – Lapsed — 213",
-      "UNC – No Primary — 721",
-      "UNC – Lapsed D — 215"
+      "UNC – Lapsed R — 325",
+      "Mixed – Active — 180",
+      "Mixed – Lapsed — 149",
+      "UNC – Non-partisan Ballot — 102",
+      "UNC – No Primary — 713",
+      "UNC – Lapsed D — 221"
     ],
     "datasets": [
       {
         "data": [
-          222,
-          220,
-          213,
-          721,
-          215
+          325,
+          180,
+          149,
+          102,
+          713,
+          221
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "DOYLESTOWN VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

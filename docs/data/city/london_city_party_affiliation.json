@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,196 (18%)",
-      "UNC – Lapsed R — 676 (10%)",
-      "Mixed – Active — 537 (8%)",
-      "Mixed – Lapsed — 416 (6%)",
-      "UNC – No Primary — 2,970 (46%)",
-      "UNC – Lapsed D — 547 (8%)",
-      "Pure D — 182 (3%)"
+      "Pure R — 1,035 (16%)",
+      "UNC – Lapsed R — 849 (13%)",
+      "Mixed – Active — 504 (8%)",
+      "Mixed – Lapsed — 277 (4%)",
+      "UNC – Non-partisan Ballot — 188 (3%)",
+      "UNC – No Primary — 2,998 (45%)",
+      "UNC – Lapsed D — 529 (8%)",
+      "Pure D — 275 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1196,
-          676,
-          537,
-          416,
-          2970,
-          547,
-          182
+          1035,
+          849,
+          504,
+          277,
+          188,
+          2998,
+          529,
+          275
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "LONDON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 713",
-      "Mixed – Active — 422",
-      "Mixed – Lapsed — 832",
-      "UNC – No Primary — 1,947",
-      "UNC – Lapsed D — 325"
+      "UNC – Lapsed R — 1,299",
+      "Mixed – Active — 318",
+      "Mixed – Lapsed — 286",
+      "UNC – Non-partisan Ballot — 627",
+      "UNC – No Primary — 1,945",
+      "UNC – Lapsed D — 392"
     ],
     "datasets": [
       {
         "data": [
-          713,
-          422,
-          832,
-          1947,
-          325
+          1299,
+          318,
+          286,
+          627,
+          1945,
+          392
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ROSS TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

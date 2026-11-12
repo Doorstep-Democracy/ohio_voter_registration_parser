@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 651 (13%)",
-      "UNC – Lapsed R — 389 (8%)",
-      "Mixed – Active — 779 (16%)",
-      "Mixed – Lapsed — 429 (9%)",
-      "UNC – No Primary — 1,509 (31%)",
-      "UNC – Lapsed D — 677 (14%)",
-      "Pure D — 394 (8%)"
+      "Pure R — 565 (12%)",
+      "UNC – Lapsed R — 493 (10%)",
+      "Mixed – Active — 765 (16%)",
+      "Mixed – Lapsed — 370 (8%)",
+      "UNC – Non-partisan Ballot — 119 (2%)",
+      "UNC – No Primary — 1,488 (31%)",
+      "UNC – Lapsed D — 637 (13%)",
+      "Pure D — 422 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          651,
-          389,
-          779,
-          429,
-          1509,
-          677,
-          394
+          565,
+          493,
+          765,
+          370,
+          119,
+          1488,
+          637,
+          422
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BEAVER TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 193",
-      "Mixed – Active — 302",
-      "Mixed – Lapsed — 249",
-      "UNC – No Primary — 703",
-      "UNC – Lapsed D — 446"
+      "UNC – Lapsed R — 192",
+      "Mixed – Active — 298",
+      "Mixed – Lapsed — 151",
+      "UNC – Non-partisan Ballot — 99",
+      "UNC – No Primary — 720",
+      "UNC – Lapsed D — 447"
     ],
     "datasets": [
       {
         "data": [
-          193,
-          302,
-          249,
-          703,
-          446
+          192,
+          298,
+          151,
+          99,
+          720,
+          447
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Lordstown Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

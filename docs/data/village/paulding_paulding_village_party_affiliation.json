@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 326 (15%)",
-      "UNC – Lapsed R — 246 (12%)",
-      "Mixed – Active — 142 (7%)",
-      "Mixed – Lapsed — 125 (6%)",
-      "UNC – No Primary — 992 (47%)",
-      "UNC – Lapsed D — 213 (10%)",
-      "Pure D — 71 (3%)"
+      "Pure R — 402 (19%)",
+      "UNC – Lapsed R — 221 (10%)",
+      "Mixed – Active — 185 (9%)",
+      "Mixed – Lapsed — 75 (4%)",
+      "UNC – Non-partisan Ballot — 44 (2%)",
+      "UNC – No Primary — 939 (44%)",
+      "UNC – Lapsed D — 153 (7%)",
+      "Pure D — 123 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          326,
-          246,
-          142,
-          125,
-          992,
-          213,
-          71
+          402,
+          221,
+          185,
+          75,
+          44,
+          939,
+          153,
+          123
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PAULDING VILLAGE (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

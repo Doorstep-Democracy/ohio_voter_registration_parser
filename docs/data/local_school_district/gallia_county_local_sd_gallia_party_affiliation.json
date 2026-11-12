@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,050 (23%)",
-      "UNC – Lapsed R — 1,232 (14%)",
-      "Mixed – Active — 865 (10%)",
-      "Mixed – Lapsed — 431 (5%)",
-      "UNC – No Primary — 3,469 (38%)",
-      "UNC – Lapsed D — 730 (8%)",
-      "Pure D — 311 (3%)"
+      "Pure R — 2,035 (22%)",
+      "UNC – Lapsed R — 1,239 (14%)",
+      "Mixed – Active — 855 (9%)",
+      "Mixed – Lapsed — 381 (4%)",
+      "UNC – Non-partisan Ballot — 50 (1%)",
+      "UNC – No Primary — 3,523 (39%)",
+      "UNC – Lapsed D — 729 (8%)",
+      "Pure D — 309 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2050,
-          1232,
-          865,
-          431,
-          3469,
-          730,
-          311
+          2035,
+          1239,
+          855,
+          381,
+          50,
+          3523,
+          729,
+          309
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Gallia County Local Sd (Gallia Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

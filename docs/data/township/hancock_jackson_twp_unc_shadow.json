@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 85",
+      "UNC – Lapsed R — 98",
       "Mixed – Active — 42",
-      "Mixed – Lapsed — 35",
-      "UNC – No Primary — 181",
+      "Mixed – Lapsed — 20",
+      "UNC – Non-partisan Ballot — 21",
+      "UNC – No Primary — 177",
       "UNC – Lapsed D — 29"
     ],
     "datasets": [
       {
         "data": [
-          85,
+          98,
           42,
-          35,
-          181,
+          20,
+          21,
+          177,
           29
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

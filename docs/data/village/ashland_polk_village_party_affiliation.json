@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 53 (25%)",
-      "UNC – Lapsed R — 17 (8%)",
-      "Mixed – Active — 15 (7%)",
-      "Mixed – Lapsed — 29 (14%)",
-      "UNC – No Primary — 75 (36%)",
-      "UNC – Lapsed D — 10 (5%)",
-      "Pure D — 9 (4%)"
+      "Pure R — 47 (23%)",
+      "UNC – Lapsed R — 21 (10%)",
+      "Mixed – Active — 17 (8%)",
+      "Mixed – Lapsed — 1 (0%)",
+      "UNC – Non-partisan Ballot — 27 (13%)",
+      "UNC – No Primary — 73 (35%)",
+      "UNC – Lapsed D — 8 (4%)",
+      "Pure D — 12 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          53,
+          47,
+          21,
           17,
-          15,
-          29,
-          75,
-          10,
-          9
+          1,
+          27,
+          73,
+          8,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "POLK VILLAGE (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

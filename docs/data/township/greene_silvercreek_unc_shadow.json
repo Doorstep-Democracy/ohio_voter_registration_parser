@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 332",
-      "Mixed – Active — 223",
-      "Mixed – Lapsed — 156",
-      "UNC – No Primary — 846",
-      "UNC – Lapsed D — 152"
+      "UNC – Lapsed R — 356",
+      "Mixed – Active — 228",
+      "Mixed – Lapsed — 89",
+      "UNC – Non-partisan Ballot — 59",
+      "UNC – No Primary — 852",
+      "UNC – Lapsed D — 144"
     ],
     "datasets": [
       {
         "data": [
-          332,
-          223,
-          156,
-          846,
-          152
+          356,
+          228,
+          89,
+          59,
+          852,
+          144
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SILVERCREEK (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

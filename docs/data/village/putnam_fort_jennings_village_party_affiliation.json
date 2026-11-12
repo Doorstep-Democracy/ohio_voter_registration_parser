@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 64 (17%)",
-      "UNC – Lapsed R — 64 (17%)",
-      "Mixed – Active — 37 (10%)",
-      "Mixed – Lapsed — 37 (10%)",
-      "UNC – No Primary — 137 (37%)",
+      "Pure R — 69 (19%)",
+      "UNC – Lapsed R — 68 (18%)",
+      "Mixed – Active — 38 (10%)",
+      "Mixed – Lapsed — 16 (4%)",
+      "UNC – Non-partisan Ballot — 16 (4%)",
+      "UNC – No Primary — 131 (35%)",
       "UNC – Lapsed D — 21 (6%)",
-      "Pure D — 12 (3%)"
+      "Pure D — 11 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          64,
-          64,
-          37,
-          37,
-          137,
+          69,
+          68,
+          38,
+          16,
+          16,
+          131,
           21,
-          12
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FORT JENNINGS VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

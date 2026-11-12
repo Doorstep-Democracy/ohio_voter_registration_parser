@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 196 (20%)",
-      "UNC – Lapsed R — 60 (6%)",
-      "Mixed – Active — 144 (15%)",
-      "Mixed – Lapsed — 40 (4%)",
-      "UNC – No Primary — 396 (40%)",
-      "UNC – Lapsed D — 87 (9%)",
-      "Pure D — 61 (6%)"
+      "Pure R — 184 (19%)",
+      "UNC – Lapsed R — 76 (8%)",
+      "Mixed – Active — 141 (14%)",
+      "Mixed – Lapsed — 23 (2%)",
+      "UNC – Non-partisan Ballot — 17 (2%)",
+      "UNC – No Primary — 392 (40%)",
+      "UNC – Lapsed D — 89 (9%)",
+      "Pure D — 57 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          196,
-          60,
-          144,
-          40,
-          396,
-          87,
-          61
+          184,
+          76,
+          141,
+          23,
+          17,
+          392,
+          89,
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DEERCREEK TOWNSHIP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

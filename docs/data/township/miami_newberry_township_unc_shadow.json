@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 654",
-      "Mixed – Active — 259",
-      "Mixed – Lapsed — 342",
-      "UNC – No Primary — 1,719",
-      "UNC – Lapsed D — 242"
+      "UNC – Lapsed R — 700",
+      "Mixed – Active — 266",
+      "Mixed – Lapsed — 167",
+      "UNC – Non-partisan Ballot — 172",
+      "UNC – No Primary — 1,679",
+      "UNC – Lapsed D — 228"
     ],
     "datasets": [
       {
         "data": [
-          654,
-          259,
-          342,
-          1719,
-          242
+          700,
+          266,
+          167,
+          172,
+          1679,
+          228
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NEWBERRY TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

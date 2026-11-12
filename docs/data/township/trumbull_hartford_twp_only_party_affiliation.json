@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 201 (15%)",
-      "UNC – Lapsed R — 97 (7%)",
-      "Mixed – Active — 212 (15%)",
-      "Mixed – Lapsed — 96 (7%)",
-      "UNC – No Primary — 475 (34%)",
-      "UNC – Lapsed D — 172 (12%)",
-      "Pure D — 133 (10%)"
+      "Pure R — 197 (14%)",
+      "UNC – Lapsed R — 112 (8%)",
+      "Mixed – Active — 210 (15%)",
+      "Mixed – Lapsed — 65 (5%)",
+      "UNC – Non-partisan Ballot — 31 (2%)",
+      "UNC – No Primary — 474 (34%)",
+      "UNC – Lapsed D — 169 (12%)",
+      "Pure D — 126 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          201,
-          97,
-          212,
-          96,
-          475,
-          172,
-          133
+          197,
+          112,
+          210,
+          65,
+          31,
+          474,
+          169,
+          126
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARTFORD TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          13,
-          125,
-          282,
-          444,
-          360,
-          193,
-          120,
-          70,
-          38
+          9,
+          107,
+          255,
+          397,
+          310,
+          147,
+          100,
+          62,
+          33
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          8,
-          89,
-          148,
-          209,
-          335,
-          343,
-          288,
-          230,
-          15
+          11,
+          88,
+          171,
+          242,
+          375,
+          374,
+          297,
+          236,
+          29
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          6,
-          118,
-          408,
-          591,
-          443,
-          240,
+          5,
+          115,
+          401,
+          601,
+          441,
+          254,
           159,
-          37,
-          3
+          42,
+          5
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           6,
-          80,
-          150,
-          248,
-          358,
-          337,
-          269,
-          132,
-          63
+          65,
+          122,
+          196,
+          276,
+          196,
+          133,
+          33,
+          2
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          2,
-          33,
-          149,
-          256,
-          433,
-          627,
-          1026,
-          1508,
-          1362
+          13,
+          32,
+          49,
+          93,
+          140,
+          148,
+          80,
+          51
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          1,
+          29,
+          144,
+          250,
+          423,
+          611,
+          1004,
+          1463,
+          1466
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          8,
-          78,
-          172,
-          321,
-          383,
-          434,
-          429,
-          303,
-          54
+          6,
+          63,
+          158,
+          268,
+          339,
+          389,
+          417,
+          297,
+          77
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          6,
-          82,
-          326,
-          484,
-          299,
-          254,
-          360,
-          194,
-          86
+          7,
+          80,
+          334,
+          546,
+          352,
+          313,
+          416,
+          261,
+          140
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "ROCKY RIVER CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

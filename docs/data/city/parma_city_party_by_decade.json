@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           6,
-          83,
-          422,
+          80,
+          417,
+          868,
           879,
-          890,
-          489,
-          393,
-          310,
-          151
+          486,
+          392,
+          311,
+          152
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          13,
-          101,
-          230,
-          515,
-          660,
-          584,
-          520,
-          552,
-          64
+          12,
+          98,
+          223,
+          510,
+          659,
+          582,
+          516,
+          561,
+          63
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          17,
-          256,
-          996,
-          1863,
-          1406,
-          644,
-          365,
-          149,
+          15,
+          249,
+          979,
+          1852,
+          1396,
+          640,
+          363,
+          152,
           14
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          15,
-          144,
-          412,
-          821,
-          1086,
-          871,
-          839,
-          551,
-          229
+          10,
+          114,
+          311,
+          532,
+          650,
+          406,
+          245,
+          98,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          16,
+          97,
+          281,
+          433,
+          458,
+          592,
+          444,
+          220
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          82,
-          396,
-          1076,
-          1965,
-          2499,
-          3937,
-          6180,
-          3977
+          79,
+          397,
+          1089,
+          1985,
+          2517,
+          3978,
+          6209,
+          4257
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +113,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          29,
-          220,
-          535,
-          1049,
-          1420,
-          1219,
-          1328,
-          951,
+          22,
+          203,
+          523,
+          1051,
+          1417,
+          1212,
+          1324,
+          970,
           88
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          18,
-          226,
-          857,
-          1616,
-          1122,
-          669,
-          824,
-          795,
-          326
+          17,
+          217,
+          836,
+          1602,
+          1114,
+          668,
+          815,
+          780,
+          315
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "PARMA CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

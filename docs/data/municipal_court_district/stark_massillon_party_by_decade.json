@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          30,
-          567,
-          2256,
-          3568,
-          3242,
-          1826,
-          1314,
-          759,
-          410
+          20,
+          462,
+          2027,
+          3357,
+          3005,
+          1610,
+          1163,
+          698,
+          426
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          43,
-          267,
-          758,
-          1332,
-          1958,
-          1769,
-          1579,
-          1254,
-          117
+          39,
+          317,
+          920,
+          1538,
+          2265,
+          2045,
+          1794,
+          1385,
+          221
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          19,
-          394,
-          1857,
-          2872,
-          2063,
-          1142,
-          635,
-          170,
-          17
+          15,
+          327,
+          1729,
+          2944,
+          2091,
+          1078,
+          646,
+          204,
+          25
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          22,
-          218,
-          745,
-          1235,
-          1537,
-          1367,
-          1199,
-          627,
-          248
+          23,
+          225,
+          660,
+          884,
+          1025,
+          816,
+          542,
+          129,
+          7
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          30,
+          191,
+          374,
+          568,
+          657,
+          678,
+          491,
+          228
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
-          8,
-          211,
-          870,
-          2157,
-          3493,
-          4315,
-          6383,
-          8880,
-          7796
+          6,
+          191,
+          810,
+          2064,
+          3346,
+          4211,
+          6288,
+          8772,
+          8292
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          25,
-          358,
-          1096,
-          2065,
-          2237,
-          2158,
-          2143,
-          1215,
-          157
+          23,
+          360,
+          1039,
+          1832,
+          1998,
+          1977,
+          1986,
+          1156,
+          188
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          25,
-          309,
-          1359,
-          2069,
-          1059,
-          692,
-          625,
-          337,
-          216
+          18,
+          252,
+          1348,
+          2256,
+          1315,
+          917,
+          878,
+          612,
+          443
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "MASSILLON (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

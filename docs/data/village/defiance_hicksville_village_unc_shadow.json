@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 296",
-      "Mixed – Active — 99",
-      "Mixed – Lapsed — 155",
-      "UNC – No Primary — 1,091",
-      "UNC – Lapsed D — 147"
+      "UNC – Lapsed R — 352",
+      "Mixed – Active — 98",
+      "Mixed – Lapsed — 103",
+      "UNC – Non-partisan Ballot — 49",
+      "UNC – No Primary — 1,074",
+      "UNC – Lapsed D — 140"
     ],
     "datasets": [
       {
         "data": [
-          296,
-          99,
-          155,
-          1091,
-          147
+          352,
+          98,
+          103,
+          49,
+          1074,
+          140
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "HICKSVILLE VILLAGE (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

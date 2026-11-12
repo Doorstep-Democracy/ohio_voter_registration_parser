@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 251 (26%)",
-      "UNC – Lapsed R — 144 (15%)",
-      "Mixed – Active — 58 (6%)",
-      "Mixed – Lapsed — 56 (6%)",
-      "UNC – No Primary — 409 (42%)",
-      "UNC – Lapsed D — 34 (3%)",
-      "Pure D — 24 (2%)"
+      "Pure R — 176 (18%)",
+      "UNC – Lapsed R — 213 (22%)",
+      "Mixed – Active — 48 (5%)",
+      "Mixed – Lapsed — 38 (4%)",
+      "UNC – Non-partisan Ballot — 30 (3%)",
+      "UNC – No Primary — 418 (43%)",
+      "UNC – Lapsed D — 37 (4%)",
+      "Pure D — 23 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          251,
-          144,
-          58,
-          56,
-          409,
-          34,
-          24
+          176,
+          213,
+          48,
+          38,
+          30,
+          418,
+          37,
+          23
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FORT RECOVERY VILLAGE (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

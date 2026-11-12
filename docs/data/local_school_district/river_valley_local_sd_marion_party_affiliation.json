@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,547 (19%)",
-      "UNC – Lapsed R — 1,042 (13%)",
-      "Mixed – Active — 793 (10%)",
-      "Mixed – Lapsed — 679 (8%)",
-      "UNC – No Primary — 2,744 (34%)",
-      "UNC – Lapsed D — 722 (9%)",
-      "Pure D — 466 (6%)"
+      "Pure R — 1,535 (19%)",
+      "UNC – Lapsed R — 1,056 (13%)",
+      "Mixed – Active — 787 (10%)",
+      "Mixed – Lapsed — 356 (4%)",
+      "UNC – Non-partisan Ballot — 320 (4%)",
+      "UNC – No Primary — 2,822 (35%)",
+      "UNC – Lapsed D — 713 (9%)",
+      "Pure D — 458 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1547,
-          1042,
-          793,
-          679,
-          2744,
-          722,
-          466
+          1535,
+          1056,
+          787,
+          356,
+          320,
+          2822,
+          713,
+          458
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "River Valley Local Sd (Marion Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

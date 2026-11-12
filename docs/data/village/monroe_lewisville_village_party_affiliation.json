@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 19 (12%)",
-      "UNC – Lapsed R — 7 (5%)",
-      "Mixed – Active — 34 (22%)",
-      "Mixed – Lapsed — 6 (4%)",
-      "UNC – No Primary — 45 (29%)",
+      "Pure R — 18 (11%)",
+      "UNC – Lapsed R — 9 (6%)",
+      "Mixed – Active — 30 (19%)",
+      "Mixed – Lapsed — 10 (6%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 46 (29%)",
       "UNC – Lapsed D — 31 (20%)",
       "Pure D — 13 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          19,
-          7,
-          34,
-          6,
-          45,
+          18,
+          9,
+          30,
+          10,
+          1,
+          46,
           31,
           13
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LEWISVILLE VILLAGE (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

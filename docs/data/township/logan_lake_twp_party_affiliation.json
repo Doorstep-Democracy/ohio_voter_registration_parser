@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,294 (17%)",
-      "UNC – Lapsed R — 946 (12%)",
-      "Mixed – Active — 526 (7%)",
-      "Mixed – Lapsed — 454 (6%)",
-      "UNC – No Primary — 3,847 (49%)",
-      "UNC – Lapsed D — 578 (7%)",
-      "Pure D — 161 (2%)"
+      "Pure R — 1,048 (13%)",
+      "UNC – Lapsed R — 1,174 (15%)",
+      "Mixed – Active — 500 (6%)",
+      "Mixed – Lapsed — 296 (4%)",
+      "UNC – Non-partisan Ballot — 185 (2%)",
+      "UNC – No Primary — 3,815 (49%)",
+      "UNC – Lapsed D — 534 (7%)",
+      "Pure D — 250 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1294,
-          946,
-          526,
-          454,
-          3847,
-          578,
-          161
+          1048,
+          1174,
+          500,
+          296,
+          185,
+          3815,
+          534,
+          250
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LAKE TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

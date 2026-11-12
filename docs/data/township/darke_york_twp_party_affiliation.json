@@ -3,10 +3,11 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 88 (26%)",
-      "UNC – Lapsed R — 48 (14%)",
-      "Mixed – Active — 38 (11%)",
+      "Pure R — 67 (20%)",
+      "UNC – Lapsed R — 70 (21%)",
+      "Mixed – Active — 30 (9%)",
       "Mixed – Lapsed — 23 (7%)",
+      "UNC – Non-partisan Ballot — 9 (3%)",
       "UNC – No Primary — 106 (31%)",
       "UNC – Lapsed D — 22 (6%)",
       "Pure D — 14 (4%)"
@@ -14,10 +15,11 @@
     "datasets": [
       {
         "data": [
-          88,
-          48,
-          38,
+          67,
+          70,
+          30,
           23,
+          9,
           106,
           22,
           14
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "YORK TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

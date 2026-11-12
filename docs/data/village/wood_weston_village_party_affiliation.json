@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 137 (16%)",
-      "UNC – Lapsed R — 76 (9%)",
-      "Mixed – Active — 67 (8%)",
-      "Mixed – Lapsed — 57 (7%)",
-      "UNC – No Primary — 383 (44%)",
-      "UNC – Lapsed D — 82 (9%)",
-      "Pure D — 68 (8%)"
+      "Pure R — 138 (16%)",
+      "UNC – Lapsed R — 86 (10%)",
+      "Mixed – Active — 84 (10%)",
+      "Mixed – Lapsed — 24 (3%)",
+      "UNC – Non-partisan Ballot — 21 (2%)",
+      "UNC – No Primary — 373 (43%)",
+      "UNC – Lapsed D — 69 (8%)",
+      "Pure D — 79 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          137,
-          76,
-          67,
-          57,
-          383,
-          82,
-          68
+          138,
+          86,
+          84,
+          24,
+          21,
+          373,
+          69,
+          79
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WESTON VILLAGE (Wood Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

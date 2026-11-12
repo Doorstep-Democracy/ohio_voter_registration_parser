@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,546 (16%)",
-      "UNC – Lapsed R — 2,640 (12%)",
-      "Mixed – Active — 2,221 (10%)",
-      "Mixed – Lapsed — 1,812 (8%)",
-      "UNC – No Primary — 7,344 (33%)",
-      "UNC – Lapsed D — 2,550 (12%)",
-      "Pure D — 1,898 (9%)"
+      "Pure R — 3,254 (15%)",
+      "UNC – Lapsed R — 2,964 (13%)",
+      "Mixed – Active — 2,268 (10%)",
+      "Mixed – Lapsed — 996 (4%)",
+      "UNC – Non-partisan Ballot — 819 (4%)",
+      "UNC – No Primary — 7,306 (33%)",
+      "UNC – Lapsed D — 2,410 (11%)",
+      "Pure D — 2,200 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          3546,
-          2640,
-          2221,
-          1812,
-          7344,
-          2550,
-          1898
+          3254,
+          2964,
+          2268,
+          996,
+          819,
+          7306,
+          2410,
+          2200
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NORTH CANTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

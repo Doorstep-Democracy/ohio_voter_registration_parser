@@ -6,6 +6,13 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8091", "--directory", "docs"],
       "port": 8091
+    },
+    {
+      "name": "polling-review-tailscale",
+      "runtimeExecutable": "D:/vibe/election-data/.venv/Scripts/python.exe",
+      "runtimeArgs": ["-I", "-m", "http.server", "8093", "--bind", "100.89.192.29", "--directory", "D:/vibe/election-data-polling/docs"],
+      "port": 8093,
+      "url": "http://100.89.192.29:8093/reports/montgomery-polling-place-review.htm"
     }
   ]
 }

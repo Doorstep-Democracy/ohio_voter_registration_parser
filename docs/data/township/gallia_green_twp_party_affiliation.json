@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 905 (26%)",
-      "UNC – Lapsed R — 394 (11%)",
-      "Mixed – Active — 359 (10%)",
-      "Mixed – Lapsed — 134 (4%)",
-      "UNC – No Primary — 1,318 (38%)",
-      "UNC – Lapsed D — 252 (7%)",
-      "Pure D — 109 (3%)"
+      "Pure R — 848 (24%)",
+      "UNC – Lapsed R — 471 (14%)",
+      "Mixed – Active — 366 (10%)",
+      "Mixed – Lapsed — 135 (4%)",
+      "UNC – Non-partisan Ballot — 10 (0%)",
+      "UNC – No Primary — 1,306 (37%)",
+      "UNC – Lapsed D — 237 (7%)",
+      "Pure D — 113 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          905,
-          394,
-          359,
-          134,
-          1318,
-          252,
-          109
+          848,
+          471,
+          366,
+          135,
+          10,
+          1306,
+          237,
+          113
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREEN TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

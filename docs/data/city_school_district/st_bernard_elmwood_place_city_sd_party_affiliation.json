@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 256 (6%)",
-      "UNC – Lapsed R — 321 (8%)",
-      "Mixed – Active — 142 (3%)",
-      "Mixed – Lapsed — 349 (8%)",
-      "UNC – No Primary — 2,129 (52%)",
-      "UNC – Lapsed D — 676 (16%)",
-      "Pure D — 244 (6%)"
+      "Pure R — 225 (5%)",
+      "UNC – Lapsed R — 341 (8%)",
+      "Mixed – Active — 139 (3%)",
+      "Mixed – Lapsed — 170 (4%)",
+      "UNC – Non-partisan Ballot — 169 (4%)",
+      "UNC – No Primary — 2,225 (52%)",
+      "UNC – Lapsed D — 624 (15%)",
+      "Pure D — 363 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          256,
-          321,
-          142,
-          349,
-          2129,
-          676,
-          244
+          225,
+          341,
+          139,
+          170,
+          169,
+          2225,
+          624,
+          363
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ST BERNARD-ELMWOOD PLACE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

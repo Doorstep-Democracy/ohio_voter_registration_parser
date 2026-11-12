@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,971 (7%)",
-      "UNC – Lapsed R — 1,996 (7%)",
-      "Mixed – Active — 1,298 (5%)",
-      "Mixed – Lapsed — 1,650 (6%)",
-      "UNC – No Primary — 14,304 (52%)",
-      "UNC – Lapsed D — 4,122 (15%)",
-      "Pure D — 2,278 (8%)"
+      "Pure R — 1,786 (6%)",
+      "UNC – Lapsed R — 2,091 (7%)",
+      "Mixed – Active — 1,402 (5%)",
+      "Mixed – Lapsed — 895 (3%)",
+      "UNC – Non-partisan Ballot — 679 (2%)",
+      "UNC – No Primary — 14,244 (51%)",
+      "UNC – Lapsed D — 3,733 (13%)",
+      "Pure D — 3,170 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1971,
-          1996,
-          1298,
-          1650,
-          14304,
-          4122,
-          2278
+          1786,
+          2091,
+          1402,
+          895,
+          679,
+          14244,
+          3733,
+          3170
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "REYNOLDSBURG CITY ",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

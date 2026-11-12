@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 84 (19%)",
-      "UNC – Lapsed R — 72 (16%)",
-      "Mixed – Active — 35 (8%)",
-      "Mixed – Lapsed — 21 (5%)",
+      "Pure R — 83 (18%)",
+      "UNC – Lapsed R — 70 (16%)",
+      "Mixed – Active — 43 (10%)",
+      "Mixed – Lapsed — 19 (4%)",
+      "UNC – Non-partisan Ballot — 3 (1%)",
       "UNC – No Primary — 163 (36%)",
-      "UNC – Lapsed D — 41 (9%)",
-      "Pure D — 32 (7%)"
+      "UNC – Lapsed D — 33 (7%)",
+      "Pure D — 35 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          84,
-          72,
-          35,
-          21,
+          83,
+          70,
+          43,
+          19,
+          3,
           163,
-          41,
-          32
+          33,
+          35
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -1,6 +1,6 @@
 """
-voter_data_cleaner_v2.py
-════════════════════════
+voter_data_cleaner.py
+═════════════════════
 Voter data cleaner, analyser, and exporter for the Ohio Secretary of State
 statewide voter file format (SWVF_*.txt, 135 columns, ~7.9M rows across 4 files).
 
@@ -151,17 +151,39 @@ MANIFEST_PATH = BASE_DIR / 'download_manifest.json'
 
 
 
-def _cache_is_fresh() -> bool:
-    """Return True iff enriched cache is newer than raw partitions AND classifier."""
+def _fmt_mtime(ts: float) -> str:
+    """Render an mtime for logs: local time to the second."""
+    return datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+
+
+def _cache_is_fresh(logger: logging.Logger | None = None) -> bool:
+    """Return True iff enriched cache is newer than raw partitions AND classifier.
+
+    Single freshness resolver for the enriched cache (jurisdictional_groupings
+    calls this one rather than keeping a copy). Logs the verdict and the three
+    timestamps it compared, per the logging policy in setup_logging(): a cache
+    decision that is not in the run log cannot be audited after the fact.
+    """
+    log = logger or logging.getLogger('voter_analysis')
     if not ENRICHED_CACHE.exists():
+        log.info('Enriched cache freshness: STALE -- %s does not exist', ENRICHED_CACHE)
         return False
     cache_mt = ENRICHED_CACHE.stat().st_mtime
     raw_partitions = list(PARQUET_DIR.glob("COUNTY_NUMBER=*"))
     if not raw_partitions:
+        log.info('Enriched cache freshness: STALE -- no raw partitions under %s', PARQUET_DIR)
         return False
-    latest_raw    = max(p.stat().st_mtime for p in raw_partitions)
+    newest_raw    = max(raw_partitions, key=lambda p: p.stat().st_mtime)
+    latest_raw    = newest_raw.stat().st_mtime
     classifier_mt = CLASSIFIER_SRC.stat().st_mtime
-    return cache_mt > max(latest_raw, classifier_mt)
+    fresh = cache_mt > max(latest_raw, classifier_mt)
+    log.info(
+        'Enriched cache freshness: %s -- cache %s vs newest raw partition %s (%s) '
+        'and classifier source %s (%s)',
+        'FRESH' if fresh else 'STALE', _fmt_mtime(cache_mt), _fmt_mtime(latest_raw),
+        newest_raw.name, _fmt_mtime(classifier_mt), CLASSIFIER_SRC.name,
+    )
+    return fresh
 
 
 def _write_cache_atomic(df: pl.DataFrame, logger: logging.Logger) -> None:
@@ -363,6 +385,54 @@ OHIO_COUNTIES: dict[str, str] = {
 # Logging setup
 # ─────────────────────────────────────────────────────────────────────────────
 
+# File objects faulthandler writes to. faulthandler holds only the file descriptor,
+# so the Python file object must stay referenced for the life of the process.
+_CRASH_LOG_HANDLES: list = []
+
+
+def enable_crash_log(log_path: Path, logger: logging.Logger) -> None:
+    """Route native-crash tracebacks (faulthandler) into this run's log file.
+
+    See the logging policy in setup_logging() for why. Re-enabling points the
+    handler at the newest run log, so a crash lands in the log of the phase
+    that was running (pipeline vs. groupings).
+    """
+    import faulthandler
+    handle = open(log_path, 'a', encoding='utf-8')
+    faulthandler.enable(file=handle, all_threads=True)
+    _CRASH_LOG_HANDLES.append(handle)
+    logger.debug('faulthandler enabled -> %s', log_path)
+
+
+def log_run_context(logger: logging.Logger) -> None:
+    """Record what produced this run: process, interpreter, libraries, code, memory.
+
+    See the logging policy in setup_logging() for why each item is here.
+    """
+    import os
+    import subprocess
+    logger.info('Run context: pid=%d argv=%s cwd=%s', os.getpid(), sys.argv, Path.cwd())
+    logger.info(
+        'Run context: python %s (%s), polars %s, polars thread pool %d',
+        sys.version.split()[0], sys.executable, pl.__version__, pl.thread_pool_size(),
+    )
+    sha = subprocess.run(['git', '-C', str(BASE_DIR), 'rev-parse', 'HEAD'],
+                         capture_output=True, text=True, check=False)
+    branch = subprocess.run(['git', '-C', str(BASE_DIR), 'rev-parse', '--abbrev-ref', 'HEAD'],
+                            capture_output=True, text=True, check=False)
+    if sha.returncode == 0 and branch.returncode == 0:
+        logger.info('Run context: git %s on %s', sha.stdout.strip(), branch.stdout.strip())
+    else:
+        logger.info('Run context: git commit not recorded (%s)',
+                    (sha.stderr or branch.stderr).strip()[:200])
+    if _psutil is not None:
+        vm = _psutil.virtual_memory()
+        logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
+                    vm.total / 1e9, vm.available / 1e9)
+    else:
+        logger.info('Run context: psutil not installed; RAM not recorded')
+
+
 def setup_logging(run_label: str = '') -> logging.Logger:
     """
     Configure a logger that writes to both:
@@ -371,6 +441,30 @@ def setup_logging(run_label: str = '') -> logging.Logger:
 
     The log file is timestamped so each run produces its own file, making
     it easy to compare across runs or share a failing run's log for review.
+
+    Logging policy (verbose by default, added 2026-11-11)
+    ─────────────────────────────────────────────────────
+    Each item below exists because a real run went wrong and the log could not
+    say why. The log file is the record of a run; keep these on by default.
+
+    * Run context at start (log_run_context): pid, argv, Python and polars
+      versions, polars thread pool, git commit and branch, total and available
+      RAM. Two full-state runs died at ~21 GB RSS (2026-10-30 and 2026-11-11,
+      KNOWN_ISSUES.md OPEN-001) with no record of what memory was free, which
+      code was running, or which libraries were loaded.
+    * Native crash tracebacks (enable_crash_log): faulthandler writes the
+      Python stack of every thread into this log file on a segfault or access
+      violation. The 2026-11-11 crash (0xc0000005 in VCRUNTIME140.dll) left no
+      traceback and no log line; it was found only in the Windows event log.
+    * Freshness verdicts (_cache_is_fresh and the groupings resume check):
+      every reuse-or-rebuild decision logs FRESH/STALE with the timestamps it
+      compared. The groupings resume check once skipped 3,062 outdated
+      7-cohort files as "already exported" on every regeneration (May to
+      November 2026), silently mixing data vintages on the public site.
+    * Completion line (ohio_voter_pipeline._dispatch): "PIPELINE COMPLETE" is
+      the last line of a successful run. A native crash returns the shell
+      prompt as if the run had finished quickly; a log without that line
+      ended abnormally, however it looked in the terminal.
 
     Returns the root logger configured with both handlers.
     """
@@ -406,6 +500,8 @@ def setup_logging(run_label: str = '') -> logging.Logger:
     logger.addHandler(file_handler)
 
     logger.info('Log file: %s', log_path)
+    enable_crash_log(log_path, logger)
+    log_run_context(logger)
     return logger
 
 
@@ -1518,7 +1614,7 @@ def build_precinct_summary(df: pl.DataFrame) -> pl.DataFrame:
             (pl.col('ACTIVE') + pl.col('CONFIRMATION')).alias('Total Registered'),
             pl.lit('N/A').alias('Est. Unregistered'),
         ])
-        .sort('Total Registered', descending=True)
+        .sort(['Total Registered', 'PRECINCT_NAME'], descending=[True, False])
     )
 
 
@@ -2853,9 +2949,10 @@ def export_json(
             'geography': 'county',
             'type':      'bar',
             'updated':   today,
-            'note':      (note + ' — share of the regular elections (primary and '
-                          "general, specials excluded) you've been eligible for "
-                          'since registering. Pew Research Center generational '
+            'note':      (note + ' — share of the regular primaries (specials '
+                          "excluded) you've been eligible for "
+                          'since registering in which you took a party ballot. '
+                          'Pew Research Center generational '
                           'boundaries. Generations with no eligible voters show as '
                           'a gap, not zero.'),
             'chartConfig': {
@@ -4365,7 +4462,7 @@ def run_ohio_analysis(
                 df = load_voter_files(txt_files, logger=logger)
 
         # ── 2. Clean + enrich ─────────────────────────────────────────────────────────────────────
-        if _cache_is_fresh():
+        if _cache_is_fresh(logger):
             logger.info('Loading enriched voter data from persistent cache...')
             df = pl.read_parquet(ENRICHED_CACHE)
         else:
@@ -4658,7 +4755,7 @@ def run_county_analysis(
 # ══════════════════════════════════════════════════════════════════════════════
 if __name__ == '__main__':
     import sys as _sys
-    # Allow quick smoke-tests: python voter_data_cleaner_v2.py --test
+    # Allow quick smoke-tests: python pipeline/voter_data_cleaner.py --test
     if '--test' in _sys.argv:
         _logger = setup_logging('smoke_test')
         _logger.info('Smoke test: OHIO_COUNTIES has %d entries', len(OHIO_COUNTIES))
@@ -4669,8 +4766,8 @@ if __name__ == '__main__':
             f"County 57 should be Montgomery, got {OHIO_COUNTIES['57']}"
         assert 'strictly alphabetical by county name' in open(__file__, encoding='utf-8').read(), \
             'OHIO_COUNTIES comment block missing'
-        assert hasattr(__import__('voter_data_cleaner_v2'), 'run_county_subset'), \
+        assert callable(globals().get('run_county_subset')), \
             'run_county_subset not found'
         _logger.info('All smoke-test assertions passed.')
     else:
-        print('voter_data_cleaner_v2.py is a library — import it or run with --test')
+        print('voter_data_cleaner.py is a library — import it or run with --test')

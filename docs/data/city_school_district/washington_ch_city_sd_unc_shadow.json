@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 991",
-      "Mixed – Active — 473",
-      "Mixed – Lapsed — 574",
-      "UNC – No Primary — 3,633",
-      "UNC – Lapsed D — 559"
+      "UNC – Lapsed R — 979",
+      "Mixed – Active — 516",
+      "Mixed – Lapsed — 350",
+      "UNC – Non-partisan Ballot — 182",
+      "UNC – No Primary — 3,604",
+      "UNC – Lapsed D — 530"
     ],
     "datasets": [
       {
         "data": [
-          991,
-          473,
-          574,
-          3633,
-          559
+          979,
+          516,
+          350,
+          182,
+          3604,
+          530
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "WASHINGTON CH CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

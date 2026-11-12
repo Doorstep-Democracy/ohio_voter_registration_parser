@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,124 (14%)",
-      "UNC – Lapsed R — 1,339 (17%)",
-      "Mixed – Active — 566 (7%)",
-      "Mixed – Lapsed — 576 (7%)",
-      "UNC – No Primary — 3,333 (42%)",
-      "UNC – Lapsed D — 748 (9%)",
-      "Pure D — 247 (3%)"
+      "Pure R — 1,112 (14%)",
+      "UNC – Lapsed R — 1,348 (17%)",
+      "Mixed – Active — 558 (7%)",
+      "Mixed – Lapsed — 430 (5%)",
+      "UNC – Non-partisan Ballot — 149 (2%)",
+      "UNC – No Primary — 3,367 (42%)",
+      "UNC – Lapsed D — 742 (9%)",
+      "Pure D — 244 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1124,
-          1339,
-          566,
-          576,
-          3333,
-          748,
-          247
+          1112,
+          1348,
+          558,
+          430,
+          149,
+          3367,
+          742,
+          244
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Franklin Local Sd (Musk Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

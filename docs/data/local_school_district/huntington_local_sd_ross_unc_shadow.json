@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 405",
-      "Mixed – Active — 221",
-      "Mixed – Lapsed — 202",
-      "UNC – No Primary — 1,802",
+      "UNC – Lapsed R — 412",
+      "Mixed – Active — 219",
+      "Mixed – Lapsed — 151",
+      "UNC – Non-partisan Ballot — 50",
+      "UNC – No Primary — 1,834",
       "UNC – Lapsed D — 372"
     ],
     "datasets": [
       {
         "data": [
-          405,
-          221,
-          202,
-          1802,
+          412,
+          219,
+          151,
+          50,
+          1834,
           372
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Huntington Local Sd (Ross Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

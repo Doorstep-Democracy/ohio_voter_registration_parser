@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 224 (14%)",
-      "UNC – Lapsed R — 148 (9%)",
-      "Mixed – Active — 312 (19%)",
-      "Mixed – Lapsed — 132 (8%)",
-      "UNC – No Primary — 503 (30%)",
-      "UNC – Lapsed D — 230 (14%)",
-      "Pure D — 102 (6%)"
+      "Pure R — 212 (13%)",
+      "UNC – Lapsed R — 161 (10%)",
+      "Mixed – Active — 299 (18%)",
+      "Mixed – Lapsed — 114 (7%)",
+      "UNC – Non-partisan Ballot — 28 (2%)",
+      "UNC – No Primary — 498 (30%)",
+      "UNC – Lapsed D — 219 (13%)",
+      "Pure D — 108 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          224,
-          148,
-          312,
-          132,
-          503,
-          230,
-          102
+          212,
+          161,
+          299,
+          114,
+          28,
+          498,
+          219,
+          108
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ELLSWORTH TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

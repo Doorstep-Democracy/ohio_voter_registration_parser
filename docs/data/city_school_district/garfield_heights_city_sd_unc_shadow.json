@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 455",
-      "Mixed – Active — 777",
-      "Mixed – Lapsed — 1,102",
-      "UNC – No Primary — 8,016",
-      "UNC – Lapsed D — 3,889"
+      "UNC – Lapsed R — 463",
+      "Mixed – Active — 776",
+      "Mixed – Lapsed — 412",
+      "UNC – Non-partisan Ballot — 560",
+      "UNC – No Primary — 8,333",
+      "UNC – Lapsed D — 3,633"
     ],
     "datasets": [
       {
         "data": [
-          455,
-          777,
-          1102,
-          8016,
-          3889
+          463,
+          776,
+          412,
+          560,
+          8333,
+          3633
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "GARFIELD HEIGHTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 691 (6%)",
-      "UNC – Lapsed R — 726 (7%)",
-      "Mixed – Active — 1,034 (10%)",
-      "Mixed – Lapsed — 784 (7%)",
-      "UNC – No Primary — 3,560 (33%)",
-      "UNC – Lapsed D — 1,786 (17%)",
-      "Pure D — 2,138 (20%)"
+      "Pure R — 684 (6%)",
+      "UNC – Lapsed R — 715 (7%)",
+      "Mixed – Active — 1,016 (9%)",
+      "Mixed – Lapsed — 504 (5%)",
+      "UNC – Non-partisan Ballot — 273 (3%)",
+      "UNC – No Primary — 3,664 (34%)",
+      "UNC – Lapsed D — 1,801 (17%)",
+      "Pure D — 2,136 (20%)"
     ],
     "datasets": [
       {
         "data": [
-          691,
-          726,
-          1034,
-          784,
-          3560,
-          1786,
-          2138
+          684,
+          715,
+          1016,
+          504,
+          273,
+          3664,
+          1801,
+          2136
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "LYNDHURST CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

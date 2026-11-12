@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 450 (26%)",
-      "UNC – Lapsed R — 396 (23%)",
-      "Mixed – Active — 37 (2%)",
-      "Mixed – Lapsed — 87 (5%)",
-      "UNC – No Primary — 703 (41%)",
-      "UNC – Lapsed D — 36 (2%)",
-      "Pure D — 23 (1%)"
+      "Pure R — 420 (24%)",
+      "UNC – Lapsed R — 417 (24%)",
+      "Mixed – Active — 40 (2%)",
+      "Mixed – Lapsed — 21 (1%)",
+      "UNC – Non-partisan Ballot — 65 (4%)",
+      "UNC – No Primary — 698 (41%)",
+      "UNC – Lapsed D — 32 (2%)",
+      "Pure D — 29 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          450,
-          396,
-          37,
-          87,
-          703,
-          36,
-          23
+          420,
+          417,
+          40,
+          21,
+          65,
+          698,
+          32,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BERLIN (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

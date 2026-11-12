@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 516 (24%)",
-      "UNC – Lapsed R — 336 (16%)",
-      "Mixed – Active — 179 (8%)",
-      "Mixed – Lapsed — 180 (8%)",
-      "UNC – No Primary — 770 (36%)",
-      "UNC – Lapsed D — 109 (5%)",
+      "Pure R — 513 (24%)",
+      "UNC – Lapsed R — 336 (15%)",
+      "Mixed – Active — 176 (8%)",
+      "Mixed – Lapsed — 109 (5%)",
+      "UNC – Non-partisan Ballot — 71 (3%)",
+      "UNC – No Primary — 794 (36%)",
+      "UNC – Lapsed D — 107 (5%)",
       "Pure D — 72 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          516,
+          513,
           336,
-          179,
-          180,
-          770,
+          176,
           109,
+          71,
+          794,
+          107,
           72
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Edon-Northwest Local Sd (Williams Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

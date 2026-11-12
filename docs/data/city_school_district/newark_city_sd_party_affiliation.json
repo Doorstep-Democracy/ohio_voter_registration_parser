@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,297 (14%)",
-      "UNC – Lapsed R — 3,260 (11%)",
-      "Mixed – Active — 2,270 (7%)",
-      "Mixed – Lapsed — 1,990 (6%)",
-      "UNC – No Primary — 14,367 (47%)",
-      "UNC – Lapsed D — 3,199 (10%)",
-      "Pure D — 1,440 (5%)"
+      "Pure R — 4,130 (13%)",
+      "UNC – Lapsed R — 3,496 (11%)",
+      "Mixed – Active — 2,354 (8%)",
+      "Mixed – Lapsed — 1,321 (4%)",
+      "UNC – Non-partisan Ballot — 729 (2%)",
+      "UNC – No Primary — 14,231 (46%)",
+      "UNC – Lapsed D — 2,931 (9%)",
+      "Pure D — 1,925 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          4297,
-          3260,
-          2270,
-          1990,
-          14367,
-          3199,
-          1440
+          4130,
+          3496,
+          2354,
+          1321,
+          729,
+          14231,
+          2931,
+          1925
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NEWARK CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

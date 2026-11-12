@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 40 (18%)",
-      "UNC – Lapsed R — 13 (6%)",
-      "Mixed – Active — 28 (12%)",
-      "Mixed – Lapsed — 14 (6%)",
-      "UNC – No Primary — 65 (29%)",
-      "UNC – Lapsed D — 41 (18%)",
-      "Pure D — 23 (10%)"
+      "Pure R — 37 (17%)",
+      "UNC – Lapsed R — 16 (7%)",
+      "Mixed – Active — 26 (12%)",
+      "Mixed – Lapsed — 12 (6%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 59 (27%)",
+      "UNC – Lapsed D — 38 (17%)",
+      "Pure D — 26 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          40,
-          13,
-          28,
-          14,
-          65,
-          41,
-          23
+          37,
+          16,
+          26,
+          12,
+          4,
+          59,
+          38,
+          26
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

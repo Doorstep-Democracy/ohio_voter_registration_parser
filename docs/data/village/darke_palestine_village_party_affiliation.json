@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 32 (29%)",
-      "UNC – Lapsed R — 9 (8%)",
-      "Mixed – Active — 11 (10%)",
-      "Mixed – Lapsed — 1 (1%)",
-      "UNC – No Primary — 49 (44%)",
-      "UNC – Lapsed D — 4 (4%)",
+      "Pure R — 25 (23%)",
+      "UNC – Lapsed R — 17 (16%)",
+      "Mixed – Active — 9 (8%)",
+      "Mixed – Lapsed — 3 (3%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 47 (43%)",
+      "UNC – Lapsed D — 3 (3%)",
       "Pure D — 5 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          32,
+          25,
+          17,
           9,
-          11,
-          1,
-          49,
-          4,
+          3,
+          0,
+          47,
+          3,
           5
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PALESTINE VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

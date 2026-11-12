@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 315 (26%)",
-      "UNC – Lapsed R — 164 (13%)",
-      "Mixed – Active — 87 (7%)",
-      "Mixed – Lapsed — 135 (11%)",
-      "UNC – No Primary — 406 (33%)",
-      "UNC – Lapsed D — 70 (6%)",
-      "Pure D — 51 (4%)"
+      "Pure R — 281 (23%)",
+      "UNC – Lapsed R — 203 (17%)",
+      "Mixed – Active — 80 (7%)",
+      "Mixed – Lapsed — 50 (4%)",
+      "UNC – Non-partisan Ballot — 85 (7%)",
+      "UNC – No Primary — 399 (33%)",
+      "UNC – Lapsed D — 68 (6%)",
+      "Pure D — 54 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          315,
-          164,
-          87,
-          135,
-          406,
-          70,
-          51
+          281,
+          203,
+          80,
+          50,
+          85,
+          399,
+          68,
+          54
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DALTON VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

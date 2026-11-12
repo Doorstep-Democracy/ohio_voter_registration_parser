@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 510",
-      "Mixed – Active — 547",
-      "Mixed – Lapsed — 317",
-      "UNC – No Primary — 2,011",
-      "UNC – Lapsed D — 405"
+      "UNC – Lapsed R — 872",
+      "Mixed – Active — 425",
+      "Mixed – Lapsed — 295",
+      "UNC – Non-partisan Ballot — 157",
+      "UNC – No Primary — 2,002",
+      "UNC – Lapsed D — 382"
     ],
     "datasets": [
       {
         "data": [
-          510,
-          547,
-          317,
-          2011,
-          405
+          872,
+          425,
+          295,
+          157,
+          2002,
+          382
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "ORRVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

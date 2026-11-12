@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 251",
-      "Mixed – Active — 233",
-      "Mixed – Lapsed — 149",
-      "UNC – No Primary — 664",
-      "UNC – Lapsed D — 224"
+      "UNC – Lapsed R — 269",
+      "Mixed – Active — 231",
+      "Mixed – Lapsed — 98",
+      "UNC – Non-partisan Ballot — 50",
+      "UNC – No Primary — 670",
+      "UNC – Lapsed D — 231"
     ],
     "datasets": [
       {
         "data": [
-          251,
-          233,
-          149,
-          664,
-          224
+          269,
+          231,
+          98,
+          50,
+          670,
+          231
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OLIVE TOWNSHIP (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

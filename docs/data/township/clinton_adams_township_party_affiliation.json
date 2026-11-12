@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 464 (30%)",
-      "UNC – Lapsed R — 299 (19%)",
-      "Mixed – Active — 134 (9%)",
-      "Mixed – Lapsed — 166 (11%)",
-      "UNC – No Primary — 394 (25%)",
-      "UNC – Lapsed D — 75 (5%)",
-      "Pure D — 30 (2%)"
+      "Pure R — 430 (27%)",
+      "UNC – Lapsed R — 348 (22%)",
+      "Mixed – Active — 125 (8%)",
+      "Mixed – Lapsed — 65 (4%)",
+      "UNC – Non-partisan Ballot — 107 (7%)",
+      "UNC – No Primary — 408 (26%)",
+      "UNC – Lapsed D — 68 (4%)",
+      "Pure D — 40 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          464,
-          299,
-          134,
-          166,
-          394,
-          75,
-          30
+          430,
+          348,
+          125,
+          65,
+          107,
+          408,
+          68,
+          40
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

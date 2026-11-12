@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          67,
-          194,
-          299,
-          269,
-          137,
-          109,
+          2,
+          61,
+          180,
+          290,
+          264,
+          128,
           93,
-          43
+          81,
+          41
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          39,
-          91,
-          133,
-          174,
-          148,
+          4,
+          38,
+          98,
           140,
-          106,
-          17
+          186,
+          163,
+          159,
+          128,
+          28
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          4,
-          34,
-          115,
-          210,
-          142,
-          91,
+          3,
+          31,
+          108,
+          203,
+          135,
+          88,
           53,
-          12,
-          4
+          11,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          21,
-          59,
-          97,
-          102,
-          78,
-          81,
-          40,
-          6
+          2,
+          20,
+          55,
+          88,
+          93,
+          55,
+          56,
+          18,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          5,
+          25,
+          22,
+          33,
+          28,
+          23,
+          9
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          24,
-          104,
-          246,
-          392,
-          524,
-          706,
-          981,
-          759
+          19,
+          100,
+          241,
+          386,
+          514,
+          702,
+          972,
+          814
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +113,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          35,
-          93,
-          155,
-          165,
-          147,
-          151,
-          82,
+          2,
+          33,
+          96,
+          157,
+          152,
+          143,
+          148,
+          81,
           8
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          4,
-          20,
-          76,
-          123,
-          57,
-          44,
-          28,
-          21,
-          5
+          2,
+          16,
+          75,
+          121,
+          69,
+          48,
+          41,
+          38,
+          20
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CAMBRIDGE TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

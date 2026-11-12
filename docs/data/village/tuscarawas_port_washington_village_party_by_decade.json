@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -18,10 +17,9 @@
         "label": "Pure R",
         "data": [
           0,
-          0,
-          5,
-          9,
-          8,
+          3,
+          11,
+          6,
           2,
           3,
           5,
@@ -34,13 +32,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          0,
-          1,
-          8,
-          5,
-          6,
           3,
-          2,
+          6,
+          7,
+          7,
+          4,
+          1,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -49,13 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           1,
-          5,
-          6,
+          4,
+          9,
           3,
           3,
-          2,
+          3,
           0,
           0
         ],
@@ -65,30 +61,43 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           1,
           2,
-          10,
-          5,
-          8,
+          2,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
           6,
+          1,
+          8,
+          5,
           6,
           2
         ],
-        "backgroundColor": "#a78bfa",
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          0,
           3,
-          12,
+          10,
           9,
-          23,
-          25,
-          38,
+          22,
+          26,
+          37,
           31
         ],
         "backgroundColor": "#9ca3af",
@@ -97,13 +106,12 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
           2,
           5,
-          10,
           4,
-          12,
-          2,
+          3,
+          8,
+          3,
           2,
           0
         ],
@@ -115,21 +123,20 @@
         "data": [
           0,
           0,
-          0,
-          2,
+          6,
           4,
-          2,
+          5,
           0,
-          0,
-          1
+          1,
+          0
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "PORT WASHINGTON VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

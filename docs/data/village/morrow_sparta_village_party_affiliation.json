@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 21 (17%)",
-      "UNC – Lapsed R — 16 (13%)",
-      "Mixed – Active — 7 (6%)",
-      "Mixed – Lapsed — 9 (7%)",
-      "UNC – No Primary — 41 (34%)",
-      "UNC – Lapsed D — 16 (13%)",
+      "Pure R — 18 (15%)",
+      "UNC – Lapsed R — 17 (15%)",
+      "Mixed – Active — 9 (8%)",
+      "Mixed – Lapsed — 3 (3%)",
+      "UNC – Non-partisan Ballot — 5 (4%)",
+      "UNC – No Primary — 41 (35%)",
+      "UNC – Lapsed D — 13 (11%)",
       "Pure D — 11 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          21,
-          16,
-          7,
+          18,
+          17,
           9,
+          3,
+          5,
           41,
-          16,
+          13,
           11
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SPARTA VILLAGE (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

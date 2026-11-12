@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1940s",
       "1950s",
       "1960s",
@@ -16,13 +15,12 @@
       {
         "label": "Pure R",
         "data": [
-          0,
           2,
           0,
           3,
-          2,
+          4,
           3,
-          0,
+          1,
           0
         ],
         "backgroundColor": "#ef4444",
@@ -31,11 +29,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           1,
           2,
           2,
-          2,
+          1,
           1,
           2,
           1
@@ -47,7 +44,6 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          2,
           1,
           2,
           1,
@@ -63,10 +59,9 @@
         "data": [
           0,
           0,
-          1,
           0,
-          1,
-          1,
+          0,
+          0,
           0,
           0
         ],
@@ -74,14 +69,27 @@
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
           0,
-          0,
           1,
           1,
-          5,
-          11,
+          4,
+          12,
           10,
           6
         ],
@@ -91,7 +99,6 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
           0,
           2,
           3,
@@ -106,7 +113,6 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           1,
           1,
           0,
@@ -120,8 +126,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "KIRBY VILLAGE (Wyandot Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

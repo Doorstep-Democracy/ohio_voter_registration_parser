@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 9 (6%)",
-      "UNC – Lapsed R — 4 (3%)",
-      "Mixed – Active — 18 (13%)",
-      "Mixed – Lapsed — 11 (8%)",
-      "UNC – No Primary — 68 (48%)",
-      "UNC – Lapsed D — 25 (18%)",
-      "Pure D — 7 (5%)"
+      "Pure R — 8 (6%)",
+      "UNC – Lapsed R — 6 (4%)",
+      "Mixed – Active — 18 (12%)",
+      "Mixed – Lapsed — 10 (7%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 71 (49%)",
+      "UNC – Lapsed D — 25 (17%)",
+      "Pure D — 6 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          9,
-          4,
+          8,
+          6,
           18,
-          11,
-          68,
+          10,
+          1,
+          71,
           25,
-          7
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BELLE VALLEY VILLAGE (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

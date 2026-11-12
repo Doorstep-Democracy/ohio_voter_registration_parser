@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 521",
-      "Mixed – Active — 193",
-      "Mixed – Lapsed — 403",
-      "UNC – No Primary — 1,102",
-      "UNC – Lapsed D — 234"
+      "UNC – Lapsed R — 560",
+      "Mixed – Active — 202",
+      "Mixed – Lapsed — 120",
+      "UNC – Non-partisan Ballot — 280",
+      "UNC – No Primary — 1,096",
+      "UNC – Lapsed D — 209"
     ],
     "datasets": [
       {
         "data": [
-          521,
-          193,
-          403,
-          1102,
-          234
+          560,
+          202,
+          120,
+          280,
+          1096,
+          209
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

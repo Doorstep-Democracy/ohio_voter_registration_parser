@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 977 (10%)",
-      "UNC – Lapsed R — 768 (8%)",
-      "Mixed – Active — 621 (7%)",
-      "Mixed – Lapsed — 577 (6%)",
-      "UNC – No Primary — 4,499 (48%)",
-      "UNC – Lapsed D — 1,322 (14%)",
-      "Pure D — 576 (6%)"
+      "Pure R — 991 (11%)",
+      "UNC – Lapsed R — 783 (8%)",
+      "Mixed – Active — 740 (8%)",
+      "Mixed – Lapsed — 327 (3%)",
+      "UNC – Non-partisan Ballot — 190 (2%)",
+      "UNC – No Primary — 4,454 (47%)",
+      "UNC – Lapsed D — 1,211 (13%)",
+      "Pure D — 682 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          977,
-          768,
-          621,
-          577,
-          4499,
-          1322,
-          576
+          991,
+          783,
+          740,
+          327,
+          190,
+          4454,
+          1211,
+          682
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "PORTSMOUTH CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

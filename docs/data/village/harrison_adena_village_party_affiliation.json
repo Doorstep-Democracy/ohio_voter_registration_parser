@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5 (5%)",
-      "UNC – Lapsed R — 4 (4%)",
-      "Mixed – Active — 16 (17%)",
-      "Mixed – Lapsed — 9 (9%)",
-      "UNC – No Primary — 31 (32%)",
-      "UNC – Lapsed D — 23 (24%)",
-      "Pure D — 8 (8%)"
+      "Pure R — 4 (4%)",
+      "UNC – Lapsed R — 5 (5%)",
+      "Mixed – Active — 17 (18%)",
+      "Mixed – Lapsed — 4 (4%)",
+      "UNC – Non-partisan Ballot — 5 (5%)",
+      "UNC – No Primary — 32 (34%)",
+      "UNC – Lapsed D — 17 (18%)",
+      "Pure D — 11 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          5,
           4,
-          16,
-          9,
-          31,
-          23,
-          8
+          5,
+          17,
+          4,
+          5,
+          32,
+          17,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ADENA VILLAGE (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

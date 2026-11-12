@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 111",
+      "UNC – Lapsed R — 118",
       "Mixed – Active — 96",
-      "Mixed – Lapsed — 101",
-      "UNC – No Primary — 534",
-      "UNC – Lapsed D — 76"
+      "Mixed – Lapsed — 42",
+      "UNC – Non-partisan Ballot — 61",
+      "UNC – No Primary — 532",
+      "UNC – Lapsed D — 72"
     ],
     "datasets": [
       {
         "data": [
-          111,
+          118,
           96,
-          101,
-          534,
-          76
+          42,
+          61,
+          532,
+          72
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

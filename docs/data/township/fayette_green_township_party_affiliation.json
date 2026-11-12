@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 76 (29%)",
-      "UNC – Lapsed R — 46 (18%)",
-      "Mixed – Active — 13 (5%)",
-      "Mixed – Lapsed — 9 (3%)",
-      "UNC – No Primary — 94 (36%)",
+      "Pure R — 86 (33%)",
+      "UNC – Lapsed R — 41 (16%)",
+      "Mixed – Active — 14 (5%)",
+      "Mixed – Lapsed — 5 (2%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 92 (35%)",
       "UNC – Lapsed D — 16 (6%)",
       "Pure D — 6 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          76,
-          46,
-          13,
-          9,
-          94,
+          86,
+          41,
+          14,
+          5,
+          2,
+          92,
           16,
           6
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREEN TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

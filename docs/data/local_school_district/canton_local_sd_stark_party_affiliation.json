@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,131 (14%)",
-      "UNC – Lapsed R — 736 (9%)",
-      "Mixed – Active — 822 (10%)",
-      "Mixed – Lapsed — 644 (8%)",
-      "UNC – No Primary — 3,151 (38%)",
-      "UNC – Lapsed D — 984 (12%)",
-      "Pure D — 803 (10%)"
+      "Pure R — 1,129 (14%)",
+      "UNC – Lapsed R — 743 (9%)",
+      "Mixed – Active — 820 (10%)",
+      "Mixed – Lapsed — 338 (4%)",
+      "UNC – Non-partisan Ballot — 300 (4%)",
+      "UNC – No Primary — 3,221 (39%)",
+      "UNC – Lapsed D — 989 (12%)",
+      "Pure D — 796 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          1131,
-          736,
-          822,
-          644,
-          3151,
-          984,
-          803
+          1129,
+          743,
+          820,
+          338,
+          300,
+          3221,
+          989,
+          796
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Canton Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

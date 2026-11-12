@@ -132,6 +132,17 @@ match; if anything else imports this by the old filename/path, update the refere
 - **Outputs:** none (stdout report only); `--strict` exits non-zero if any HIGH-severity mislabel exists.
 - **Usage:** `python tools/admin/validate_jurisdiction_fields.py [--strict] [--show N]`
 
+### `jurisdiction_collisions_report.py`
+- **Function:** Standalone report (moved from `tools/tests/test_jurisdiction_collisions.py`,
+  whose `test_` name made pytest try to collect it). Detects jurisdiction name collisions: the
+  same name (e.g. a TOWNSHIP or VILLAGE value) under more than one `COUNTY_NUMBER` partition,
+  which would silently merge into one output file if a grouping script slugged on name alone
+  instead of a `(COUNTY_NUMBER, name)` composite key. Checks all 12 jurisdiction-type columns.
+- **Inputs:** `local/source/parquet/**/*.parquet` (hive-partitioned by `COUNTY_NUMBER`).
+- **Outputs:** `local/working/collision_report.md` (colliding names + county lists per
+  jurisdiction type); also prints an OK/COLLIDE summary per type to stdout.
+- **Usage:** `uv run python tools/admin/jurisdiction_collisions_report.py`
+
 ## Precinct key sourcing
 
 ### `precinct_key_manager.py`

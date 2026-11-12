@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 385 (29%)",
-      "UNC – Lapsed R — 166 (13%)",
-      "Mixed – Active — 156 (12%)",
-      "Mixed – Lapsed — 80 (6%)",
-      "UNC – No Primary — 398 (30%)",
-      "UNC – Lapsed D — 82 (6%)",
-      "Pure D — 44 (3%)"
+      "Pure R — 368 (28%)",
+      "UNC – Lapsed R — 198 (15%)",
+      "Mixed – Active — 163 (12%)",
+      "Mixed – Lapsed — 42 (3%)",
+      "UNC – Non-partisan Ballot — 32 (2%)",
+      "UNC – No Primary — 388 (30%)",
+      "UNC – Lapsed D — 77 (6%)",
+      "Pure D — 47 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          385,
-          166,
-          156,
-          80,
-          398,
-          82,
-          44
+          368,
+          198,
+          163,
+          42,
+          32,
+          388,
+          77,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

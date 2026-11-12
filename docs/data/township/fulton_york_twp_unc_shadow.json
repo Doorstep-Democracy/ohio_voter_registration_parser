@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 259",
-      "Mixed – Active — 257",
-      "Mixed – Lapsed — 284",
-      "UNC – No Primary — 932",
-      "UNC – Lapsed D — 209"
+      "UNC – Lapsed R — 358",
+      "Mixed – Active — 237",
+      "Mixed – Lapsed — 128",
+      "UNC – Non-partisan Ballot — 166",
+      "UNC – No Primary — 944",
+      "UNC – Lapsed D — 211"
     ],
     "datasets": [
       {
         "data": [
-          259,
-          257,
-          284,
-          932,
-          209
+          358,
+          237,
+          128,
+          166,
+          944,
+          211
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "YORK TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

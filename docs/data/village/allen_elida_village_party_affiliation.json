@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 362 (27%)",
-      "UNC – Lapsed R — 223 (16%)",
-      "Mixed – Active — 92 (7%)",
-      "Mixed – Lapsed — 179 (13%)",
-      "UNC – No Primary — 373 (27%)",
-      "UNC – Lapsed D — 84 (6%)",
-      "Pure D — 48 (4%)"
+      "Pure R — 301 (22%)",
+      "UNC – Lapsed R — 288 (21%)",
+      "Mixed – Active — 85 (6%)",
+      "Mixed – Lapsed — 63 (5%)",
+      "UNC – Non-partisan Ballot — 116 (8%)",
+      "UNC – No Primary — 385 (28%)",
+      "UNC – Lapsed D — 88 (6%)",
+      "Pure D — 45 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          362,
-          223,
-          92,
-          179,
-          373,
-          84,
-          48
+          301,
+          288,
+          85,
+          63,
+          116,
+          385,
+          88,
+          45
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ELIDA VILLAGE (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

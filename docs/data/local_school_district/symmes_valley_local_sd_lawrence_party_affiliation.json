@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 495 (18%)",
-      "UNC – Lapsed R — 522 (19%)",
-      "Mixed – Active — 219 (8%)",
-      "Mixed – Lapsed — 176 (6%)",
-      "UNC – No Primary — 1,069 (38%)",
-      "UNC – Lapsed D — 239 (9%)",
+      "Pure R — 491 (17%)",
+      "UNC – Lapsed R — 522 (18%)",
+      "Mixed – Active — 218 (8%)",
+      "Mixed – Lapsed — 165 (6%)",
+      "UNC – Non-partisan Ballot — 10 (0%)",
+      "UNC – No Primary — 1,095 (39%)",
+      "UNC – Lapsed D — 238 (8%)",
       "Pure D — 89 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          495,
+          491,
           522,
-          219,
-          176,
-          1069,
-          239,
+          218,
+          165,
+          10,
+          1095,
+          238,
           89
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Symmes Valley Local Sd (Lawrence Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

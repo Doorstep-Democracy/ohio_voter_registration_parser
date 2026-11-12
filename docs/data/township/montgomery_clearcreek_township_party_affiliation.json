@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 70 (9%)",
-      "UNC – Lapsed R — 142 (19%)",
-      "Mixed – Active — 38 (5%)",
-      "Mixed – Lapsed — 65 (9%)",
-      "UNC – No Primary — 352 (46%)",
-      "UNC – Lapsed D — 72 (9%)",
-      "Pure D — 24 (3%)"
+      "Pure R — 62 (8%)",
+      "UNC – Lapsed R — 153 (19%)",
+      "Mixed – Active — 30 (4%)",
+      "Mixed – Lapsed — 39 (5%)",
+      "UNC – Non-partisan Ballot — 33 (4%)",
+      "UNC – No Primary — 364 (46%)",
+      "UNC – Lapsed D — 73 (9%)",
+      "Pure D — 31 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          70,
-          142,
-          38,
-          65,
-          352,
-          72,
-          24
+          62,
+          153,
+          30,
+          39,
+          33,
+          364,
+          73,
+          31
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLEARCREEK TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 265",
-      "Mixed – Active — 141",
-      "Mixed – Lapsed — 183",
-      "UNC – No Primary — 614",
-      "UNC – Lapsed D — 161"
+      "UNC – Lapsed R — 328",
+      "Mixed – Active — 143",
+      "Mixed – Lapsed — 67",
+      "UNC – Non-partisan Ballot — 111",
+      "UNC – No Primary — 636",
+      "UNC – Lapsed D — 157"
     ],
     "datasets": [
       {
         "data": [
-          265,
-          141,
-          183,
-          614,
-          161
+          328,
+          143,
+          67,
+          111,
+          636,
+          157
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "AMANDA TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

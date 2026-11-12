@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,953 (6%)",
-      "UNC – Lapsed R — 1,612 (5%)",
-      "Mixed – Active — 2,449 (8%)",
-      "Mixed – Lapsed — 1,832 (6%)",
-      "UNC – No Primary — 14,428 (47%)",
-      "UNC – Lapsed D — 4,881 (16%)",
-      "Pure D — 3,603 (12%)"
+      "Pure R — 1,925 (6%)",
+      "UNC – Lapsed R — 1,772 (6%)",
+      "Mixed – Active — 2,502 (8%)",
+      "Mixed – Lapsed — 1,122 (4%)",
+      "UNC – Non-partisan Ballot — 717 (2%)",
+      "UNC – No Primary — 14,683 (47%)",
+      "UNC – Lapsed D — 4,566 (15%)",
+      "Pure D — 4,192 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          1953,
-          1612,
-          2449,
-          1832,
-          14428,
-          4881,
-          3603
+          1925,
+          1772,
+          2502,
+          1122,
+          717,
+          14683,
+          4566,
+          4192
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ELYRIA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

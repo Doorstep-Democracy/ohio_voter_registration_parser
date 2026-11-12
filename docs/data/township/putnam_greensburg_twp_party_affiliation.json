@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 358 (35%)",
-      "UNC – Lapsed R — 124 (12%)",
-      "Mixed – Active — 172 (17%)",
-      "Mixed – Lapsed — 53 (5%)",
-      "UNC – No Primary — 244 (24%)",
-      "UNC – Lapsed D — 34 (3%)",
+      "Pure R — 355 (35%)",
+      "UNC – Lapsed R — 126 (12%)",
+      "Mixed – Active — 171 (17%)",
+      "Mixed – Lapsed — 41 (4%)",
+      "UNC – Non-partisan Ballot — 12 (1%)",
+      "UNC – No Primary — 248 (24%)",
+      "UNC – Lapsed D — 37 (4%)",
       "Pure D — 25 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          358,
-          124,
-          172,
-          53,
-          244,
-          34,
+          355,
+          126,
+          171,
+          41,
+          12,
+          248,
+          37,
           25
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREENSBURG TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

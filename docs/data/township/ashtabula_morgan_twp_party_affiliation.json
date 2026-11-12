@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 217 (15%)",
-      "UNC – Lapsed R — 134 (9%)",
-      "Mixed – Active — 123 (8%)",
-      "Mixed – Lapsed — 133 (9%)",
-      "UNC – No Primary — 656 (44%)",
-      "UNC – Lapsed D — 140 (9%)",
-      "Pure D — 90 (6%)"
+      "Pure R — 226 (15%)",
+      "UNC – Lapsed R — 153 (10%)",
+      "Mixed – Active — 126 (8%)",
+      "Mixed – Lapsed — 73 (5%)",
+      "UNC – Non-partisan Ballot — 53 (4%)",
+      "UNC – No Primary — 647 (43%)",
+      "UNC – Lapsed D — 118 (8%)",
+      "Pure D — 113 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          217,
-          134,
-          123,
-          133,
-          656,
-          140,
-          90
+          226,
+          153,
+          126,
+          73,
+          53,
+          647,
+          118,
+          113
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MORGAN TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

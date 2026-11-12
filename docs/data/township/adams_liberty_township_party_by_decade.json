@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          10,
-          40,
-          83,
-          75,
-          71,
-          58,
-          40,
-          18
+          11,
+          37,
+          78,
+          69,
+          68,
+          56,
+          41,
+          23
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          5,
-          8,
-          22,
-          17,
+          4,
+          9,
+          26,
+          24,
           39,
-          22,
-          13,
-          4
+          24,
+          18,
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           3,
-          10,
-          36,
+          9,
+          32,
           23,
-          26,
+          29,
           12,
-          3,
+          4,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -65,17 +65,33 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          5,
+          1,
+          4,
           6,
-          12,
           13,
-          8,
-          3,
+          12,
+          6,
           2,
-          1
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           1,
-          13,
-          32,
-          53,
-          72,
-          87,
-          91,
-          123
+          11,
+          30,
+          52,
+          67,
+          90,
+          94,
+          118
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +115,13 @@
         "data": [
           0,
           1,
-          6,
-          12,
-          14,
-          18,
-          12,
-          4,
-          0
+          8,
+          8,
+          15,
+          17,
+          9,
+          8,
+          1
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,12 +131,12 @@
         "data": [
           0,
           1,
-          6,
-          11,
-          4,
-          3,
           5,
+          16,
           4,
+          5,
+          7,
+          1,
           1
         ],
         "backgroundColor": "#3b82f6",
@@ -128,8 +144,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

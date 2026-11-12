@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,390",
+      "UNC – Lapsed R — 1,597",
       "Mixed – Active — 577",
-      "Mixed – Lapsed — 790",
-      "UNC – No Primary — 4,314",
-      "UNC – Lapsed D — 1,088"
+      "Mixed – Lapsed — 521",
+      "UNC – Non-partisan Ballot — 297",
+      "UNC – No Primary — 4,299",
+      "UNC – Lapsed D — 1,084"
     ],
     "datasets": [
       {
         "data": [
-          1390,
+          1597,
           577,
-          790,
-          4314,
-          1088
+          521,
+          297,
+          4299,
+          1084
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Plain Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

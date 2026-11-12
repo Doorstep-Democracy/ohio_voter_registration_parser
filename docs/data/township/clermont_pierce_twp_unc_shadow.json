@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,766",
-      "Mixed – Active — 648",
-      "Mixed – Lapsed — 1,381",
-      "UNC – No Primary — 4,548",
-      "UNC – Lapsed D — 971"
+      "UNC – Lapsed R — 1,611",
+      "Mixed – Active — 747",
+      "Mixed – Lapsed — 356",
+      "UNC – Non-partisan Ballot — 860",
+      "UNC – No Primary — 4,481",
+      "UNC – Lapsed D — 805"
     ],
     "datasets": [
       {
         "data": [
-          1766,
-          648,
-          1381,
-          4548,
-          971
+          1611,
+          747,
+          356,
+          860,
+          4481,
+          805
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PIERCE TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

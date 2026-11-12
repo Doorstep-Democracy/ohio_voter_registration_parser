@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          26,
-          117,
-          216,
-          164,
-          88,
-          74,
-          46,
-          21
+          21,
+          103,
+          206,
+          158,
+          89,
+          66,
+          53,
+          22
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          11,
-          41,
-          89,
-          151,
-          122,
-          87,
-          42,
-          7
+          13,
+          51,
+          97,
+          155,
+          125,
+          98,
+          45,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           13,
-          66,
-          98,
+          61,
           102,
-          50,
-          22,
+          103,
+          53,
+          24,
           6,
-          2
+          4
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          6,
-          34,
-          55,
-          86,
-          78,
-          64,
-          27,
-          7
+          5,
+          28,
+          44,
+          59,
+          33,
+          17,
+          5,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          8,
+          13,
+          30,
+          43,
+          46,
+          25,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +100,12 @@
           0,
           3,
           32,
-          64,
-          137,
+          65,
+          131,
+          173,
           177,
-          174,
-          260,
-          293
+          251,
+          315
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          15,
-          24,
-          47,
-          99,
-          73,
-          43,
-          27,
-          7
+          14,
+          26,
+          37,
+          84,
+          68,
+          44,
+          23,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          10,
-          40,
-          37,
-          13,
+          8,
+          38,
+          41,
+          26,
+          14,
+          14,
           9,
-          15,
-          6,
-          5
+          11
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LICKING TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

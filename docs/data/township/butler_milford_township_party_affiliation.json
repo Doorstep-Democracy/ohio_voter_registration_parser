@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 499 (19%)",
-      "UNC – Lapsed R — 433 (17%)",
-      "Mixed – Active — 179 (7%)",
-      "Mixed – Lapsed — 208 (8%)",
-      "UNC – No Primary — 980 (38%)",
-      "UNC – Lapsed D — 207 (8%)",
-      "Pure D — 84 (3%)"
+      "Pure R — 517 (20%)",
+      "UNC – Lapsed R — 430 (16%)",
+      "Mixed – Active — 198 (8%)",
+      "Mixed – Lapsed — 108 (4%)",
+      "UNC – Non-partisan Ballot — 96 (4%)",
+      "UNC – No Primary — 976 (37%)",
+      "UNC – Lapsed D — 175 (7%)",
+      "Pure D — 114 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          499,
-          433,
-          179,
-          208,
-          980,
-          207,
-          84
+          517,
+          430,
+          198,
+          108,
+          96,
+          976,
+          175,
+          114
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MILFORD TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

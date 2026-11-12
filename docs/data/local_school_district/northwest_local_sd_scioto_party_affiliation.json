@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 856 (16%)",
+      "Pure R — 849 (15%)",
       "UNC – Lapsed R — 584 (11%)",
-      "Mixed – Active — 527 (10%)",
-      "Mixed – Lapsed — 283 (5%)",
-      "UNC – No Primary — 2,269 (41%)",
-      "UNC – Lapsed D — 665 (12%)",
+      "Mixed – Active — 525 (9%)",
+      "Mixed – Lapsed — 226 (4%)",
+      "UNC – Non-partisan Ballot — 58 (1%)",
+      "UNC – No Primary — 2,320 (42%)",
+      "UNC – Lapsed D — 662 (12%)",
       "Pure D — 321 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          856,
+          849,
           584,
-          527,
-          283,
-          2269,
-          665,
+          525,
+          226,
+          58,
+          2320,
+          662,
           321
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Northwest Local Sd (Scioto Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

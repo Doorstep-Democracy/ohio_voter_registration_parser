@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 160",
-      "Mixed – Active — 122",
-      "Mixed – Lapsed — 117",
-      "UNC – No Primary — 464",
-      "UNC – Lapsed D — 151"
+      "UNC – Lapsed R — 172",
+      "Mixed – Active — 129",
+      "Mixed – Lapsed — 78",
+      "UNC – Non-partisan Ballot — 37",
+      "UNC – No Primary — 450",
+      "UNC – Lapsed D — 147"
     ],
     "datasets": [
       {
         "data": [
-          160,
-          122,
-          117,
-          464,
-          151
+          172,
+          129,
+          78,
+          37,
+          450,
+          147
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "AMBOY TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

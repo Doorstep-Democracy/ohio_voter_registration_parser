@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,679",
-      "Mixed – Active — 2,549",
-      "Mixed – Lapsed — 2,088",
-      "UNC – No Primary — 9,107",
-      "UNC – Lapsed D — 3,877"
+      "UNC – Lapsed R — 2,673",
+      "Mixed – Active — 2,832",
+      "Mixed – Lapsed — 1,152",
+      "UNC – Non-partisan Ballot — 865",
+      "UNC – No Primary — 8,989",
+      "UNC – Lapsed D — 3,331"
     ],
     "datasets": [
       {
         "data": [
-          2679,
-          2549,
-          2088,
-          9107,
-          3877
+          2673,
+          2832,
+          1152,
+          865,
+          8989,
+          3331
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLAIN (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

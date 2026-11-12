@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          37,
-          153,
-          228,
-          213,
-          160,
-          121,
-          60,
-          35
+          0,
+          29,
+          149,
+          226,
+          219,
+          137,
+          103,
+          65,
+          31
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          15,
-          35,
-          81,
-          84,
-          109,
-          104,
-          58,
-          7
+          1,
+          17,
+          37,
+          86,
+          93,
+          132,
+          126,
+          60,
+          19
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          15,
-          65,
-          76,
-          67,
-          26,
-          27,
-          3,
+          13,
+          69,
+          84,
+          70,
+          33,
+          21,
+          4,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          13,
-          30,
-          45,
-          51,
-          42,
-          36,
+          0,
+          6,
+          15,
           12,
-          3
+          21,
+          13,
+          20,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          7,
+          12,
+          26,
+          28,
+          27,
+          23,
+          10,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          2,
-          35,
-          69,
-          100,
-          138,
-          192,
-          279,
-          253
+          1,
+          31,
+          60,
+          90,
+          128,
+          186,
+          273,
+          255
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          10,
-          20,
-          56,
-          54,
-          46,
-          40,
-          18,
-          4
+          9,
+          19,
+          44,
+          42,
+          38,
+          34,
+          16,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          4,
+          3,
           29,
-          60,
-          23,
+          71,
+          39,
+          17,
+          18,
           8,
-          11,
-          5,
-          6
+          8
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

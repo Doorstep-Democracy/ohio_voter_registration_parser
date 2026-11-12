@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 216 (6%)",
-      "UNC – Lapsed R — 345 (10%)",
-      "Mixed – Active — 171 (5%)",
-      "Mixed – Lapsed — 219 (6%)",
-      "UNC – No Primary — 1,489 (43%)",
-      "UNC – Lapsed D — 524 (15%)",
-      "Pure D — 466 (14%)"
+      "Pure R — 214 (6%)",
+      "UNC – Lapsed R — 343 (10%)",
+      "Mixed – Active — 169 (5%)",
+      "Mixed – Lapsed — 130 (4%)",
+      "UNC – Non-partisan Ballot — 85 (2%)",
+      "UNC – No Primary — 1,544 (45%)",
+      "UNC – Lapsed D — 516 (15%)",
+      "Pure D — 454 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          216,
-          345,
-          171,
-          219,
-          1489,
-          524,
-          466
+          214,
+          343,
+          169,
+          130,
+          85,
+          1544,
+          516,
+          454
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "COLUMBIA TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

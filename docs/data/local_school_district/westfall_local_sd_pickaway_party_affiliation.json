@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,362 (24%)",
-      "UNC – Lapsed R — 592 (11%)",
-      "Mixed – Active — 681 (12%)",
-      "Mixed – Lapsed — 305 (5%)",
-      "UNC – No Primary — 1,975 (35%)",
-      "UNC – Lapsed D — 429 (8%)",
+      "Pure R — 1,352 (24%)",
+      "UNC – Lapsed R — 602 (11%)",
+      "Mixed – Active — 680 (12%)",
+      "Mixed – Lapsed — 181 (3%)",
+      "UNC – Non-partisan Ballot — 131 (2%)",
+      "UNC – No Primary — 1,991 (36%)",
+      "UNC – Lapsed D — 423 (8%)",
       "Pure D — 236 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1362,
-          592,
-          681,
-          305,
-          1975,
-          429,
+          1352,
+          602,
+          680,
+          181,
+          131,
+          1991,
+          423,
           236
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Westfall Local Sd (Pickaway Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

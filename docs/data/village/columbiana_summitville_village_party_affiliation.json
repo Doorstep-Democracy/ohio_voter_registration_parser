@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 21 (28%)",
+      "Pure R — 20 (26%)",
       "UNC – Lapsed R — 4 (5%)",
-      "Mixed – Active — 12 (16%)",
-      "Mixed – Lapsed — 5 (7%)",
-      "UNC – No Primary — 25 (33%)",
+      "Mixed – Active — 11 (14%)",
+      "Mixed – Lapsed — 3 (4%)",
+      "UNC – Non-partisan Ballot — 3 (4%)",
+      "UNC – No Primary — 26 (34%)",
       "UNC – Lapsed D — 7 (9%)",
       "Pure D — 2 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          21,
+          20,
           4,
-          12,
-          5,
-          25,
+          11,
+          3,
+          3,
+          26,
           7,
           2
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SUMMITVILLE VILLAGE (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

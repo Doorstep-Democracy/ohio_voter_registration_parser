@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 982 (19%)",
-      "UNC – Lapsed R — 386 (7%)",
-      "Mixed – Active — 602 (12%)",
-      "Mixed – Lapsed — 271 (5%)",
-      "UNC – No Primary — 2,318 (45%)",
-      "UNC – Lapsed D — 433 (8%)",
-      "Pure D — 183 (4%)"
+      "Pure R — 928 (18%)",
+      "UNC – Lapsed R — 444 (9%)",
+      "Mixed – Active — 577 (11%)",
+      "Mixed – Lapsed — 224 (4%)",
+      "UNC – Non-partisan Ballot — 75 (1%)",
+      "UNC – No Primary — 2,317 (45%)",
+      "UNC – Lapsed D — 426 (8%)",
+      "Pure D — 205 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          982,
-          386,
-          602,
-          271,
-          2318,
-          433,
-          183
+          928,
+          444,
+          577,
+          224,
+          75,
+          2317,
+          426,
+          205
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "EAST PALESTINE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

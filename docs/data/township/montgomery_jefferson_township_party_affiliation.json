@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 301 (7%)",
-      "UNC – Lapsed R — 235 (6%)",
-      "Mixed – Active — 167 (4%)",
-      "Mixed – Lapsed — 209 (5%)",
-      "UNC – No Primary — 1,788 (44%)",
-      "UNC – Lapsed D — 756 (19%)",
-      "Pure D — 614 (15%)"
+      "Pure R — 313 (8%)",
+      "UNC – Lapsed R — 253 (6%)",
+      "Mixed – Active — 165 (4%)",
+      "Mixed – Lapsed — 112 (3%)",
+      "UNC – Non-partisan Ballot — 89 (2%)",
+      "UNC – No Primary — 1,766 (43%)",
+      "UNC – Lapsed D — 707 (17%)",
+      "Pure D — 683 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          301,
-          235,
-          167,
-          209,
-          1788,
-          756,
-          614
+          313,
+          253,
+          165,
+          112,
+          89,
+          1766,
+          707,
+          683
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

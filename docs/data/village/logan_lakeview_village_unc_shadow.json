@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 102",
-      "Mixed – Active — 42",
-      "Mixed – Lapsed — 56",
-      "UNC – No Primary — 415",
-      "UNC – Lapsed D — 60"
+      "UNC – Lapsed R — 127",
+      "Mixed – Active — 41",
+      "Mixed – Lapsed — 45",
+      "UNC – Non-partisan Ballot — 16",
+      "UNC – No Primary — 420",
+      "UNC – Lapsed D — 55"
     ],
     "datasets": [
       {
         "data": [
-          102,
-          42,
-          56,
-          415,
-          60
+          127,
+          41,
+          45,
+          16,
+          420,
+          55
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "LAKEVIEW VILLAGE (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          49,
-          225,
+          2,
+          38,
+          205,
           349,
           293,
-          136,
-          98,
-          52,
-          28
+          160,
+          96,
+          55,
+          26
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          32,
-          64,
-          136,
-          173,
-          146,
-          145,
-          78,
-          5
+          34,
+          77,
+          134,
+          188,
+          138,
+          157,
+          79,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          32,
-          125,
-          185,
+          0,
+          27,
           112,
-          45,
-          25,
-          10,
-          1
+          181,
+          114,
+          53,
+          32,
+          11,
+          0
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          18,
-          68,
-          84,
-          97,
-          110,
-          97,
-          33,
-          25
+          17,
+          59,
+          57,
+          61,
+          48,
+          29,
+          3,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          15,
+          22,
+          27,
+          55,
+          57,
+          33,
+          23
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           10,
-          74,
-          150,
-          232,
-          296,
-          422,
-          499,
-          467
+          65,
+          137,
+          228,
+          287,
+          420,
+          502,
+          521
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          20,
-          71,
-          115,
-          144,
-          127,
+          2,
+          21,
+          63,
+          91,
           128,
-          78,
-          7
+          127,
+          122,
+          80,
+          13
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          16,
-          78,
-          123,
-          58,
-          32,
-          27,
-          21,
-          11
+          1,
+          12,
+          82,
+          150,
+          75,
+          45,
+          45,
+          34,
+          21
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8,105 (5%)",
-      "UNC – Lapsed R — 8,125 (5%)",
-      "Mixed – Active — 10,401 (7%)",
-      "Mixed – Lapsed — 7,995 (5%)",
-      "UNC – No Primary — 72,451 (48%)",
-      "UNC – Lapsed D — 23,647 (16%)",
-      "Pure D — 20,785 (14%)"
+      "Pure R — 7,411 (5%)",
+      "UNC – Lapsed R — 9,019 (6%)",
+      "Mixed – Active — 9,420 (6%)",
+      "Mixed – Lapsed — 5,497 (4%)",
+      "UNC – Non-partisan Ballot — 3,336 (2%)",
+      "UNC – No Primary — 75,332 (48%)",
+      "UNC – Lapsed D — 26,316 (17%)",
+      "Pure D — 19,564 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          8105,
-          8125,
-          10401,
-          7995,
-          72451,
-          23647,
-          20785
+          7411,
+          9019,
+          9420,
+          5497,
+          3336,
+          75332,
+          26316,
+          19564
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "AKRON (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

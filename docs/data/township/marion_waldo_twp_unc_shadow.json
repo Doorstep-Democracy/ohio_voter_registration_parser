@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 120",
+      "UNC – Lapsed R — 121",
       "Mixed – Active — 71",
-      "Mixed – Lapsed — 74",
-      "UNC – No Primary — 249",
-      "UNC – Lapsed D — 74"
+      "Mixed – Lapsed — 41",
+      "UNC – Non-partisan Ballot — 32",
+      "UNC – No Primary — 258",
+      "UNC – Lapsed D — 72"
     ],
     "datasets": [
       {
         "data": [
-          120,
+          121,
           71,
-          74,
-          249,
-          74
+          41,
+          32,
+          258,
+          72
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WALDO TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

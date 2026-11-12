@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 428 (4%)",
-      "UNC – Lapsed R — 413 (4%)",
-      "Mixed – Active — 1,393 (12%)",
-      "Mixed – Lapsed — 599 (5%)",
-      "UNC – No Primary — 4,639 (40%)",
-      "UNC – Lapsed D — 2,032 (18%)",
-      "Pure D — 2,050 (18%)"
+      "Pure R — 419 (4%)",
+      "UNC – Lapsed R — 454 (4%)",
+      "Mixed – Active — 1,379 (12%)",
+      "Mixed – Lapsed — 512 (4%)",
+      "UNC – Non-partisan Ballot — 175 (2%)",
+      "UNC – No Primary — 4,628 (40%)",
+      "UNC – Lapsed D — 2,110 (18%)",
+      "Pure D — 1,894 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          428,
-          413,
-          1393,
-          599,
-          4639,
-          2032,
-          2050
+          419,
+          454,
+          1379,
+          512,
+          175,
+          4628,
+          2110,
+          1894
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NILES CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

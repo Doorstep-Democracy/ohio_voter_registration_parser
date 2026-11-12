@@ -662,6 +662,16 @@ def _dispatch(
     _log     = v2.setup_logging('pipeline')
     src_date = v2.get_source_date(_log)
 
+    # Output integrity (pipeline/run_integrity.py): log uncaught exceptions into the
+    # run log, report how the previous run ended, and validate every output changed
+    # since it began -- before this run writes anything.
+    import time as _time
+    import run_integrity
+    run_integrity.install_excepthook(_log)
+    run_start = _time.time()
+    current_log = Path(next(h.baseFilename for h in _log.handlers if hasattr(h, 'baseFilename')))
+    startup_problems = run_integrity.check_previous_run(v2.LOGS_DIR, current_log, v2.DOCS_DIR, _log)
+
     if choice in ("1", "2"):
         # Step A — build county + precinct chart JSON for all 88 counties.
         v2.run_ohio_analysis(txt_files, use_parquet=True,
@@ -754,6 +764,22 @@ def _dispatch(
             logger=_log,
         )
 
+    # Seal: flush this run's outputs to disk and validate them, then repeat the
+    # startup findings. PIPELINE COMPLETE is logged only when both are clean, so it
+    # means "outputs are on disk and valid", not merely "the process got here".
+    # A log without either marker ended abnormally even if the terminal looked
+    # normal. Rationale: pipeline/run_integrity.py and voter_data_cleaner.setup_logging().
+    sealed_bad = run_integrity.seal_outputs(v2.DOCS_DIR, run_start, _log)
+    still_bad = run_integrity.recheck(startup_problems, v2.DOCS_DIR, _log)
+    if sealed_bad or still_bad:
+        _log.error(
+            '%s: choice=%s, source date %s -- %d invalid file(s) written this run, '
+            '%d damaged file(s) from before this run still present (listed above)',
+            run_integrity.FAILED_MARKER, choice, src_date, len(sealed_bad), len(still_bad),
+        )
+        sys.exit(1)
+    _log.info('%s: choice=%s, source date %s', run_integrity.COMPLETE_MARKER, choice, src_date)
+
 # ── Narrative phase ───────────────────────────────────────────────────────────
 
 def _narrative_phase(
@@ -771,7 +797,7 @@ def _narrative_phase(
 
     Args:
         levels:       List of LEVELS values to generate, e.g. ['county', 'precinct'].
-        v2:           The voter_data_cleaner_v2 module (already imported by _dispatch).
+        v2:           The pipeline.voter_data_cleaner module (already imported by _dispatch).
         county_names: Optional list of county names (proper-cased) to restrict
                       county/precinct enumeration.  None means all 88 counties.
         logger:       Logger instance.  Defaults to a pipeline logger if None.

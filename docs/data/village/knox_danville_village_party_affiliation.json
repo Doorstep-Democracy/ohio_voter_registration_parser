@@ -4,29 +4,32 @@
   "chartConfig": {
     "labels": [
       "Pure R — 136 (24%)",
-      "UNC – Lapsed R — 66 (12%)",
-      "Mixed – Active — 45 (8%)",
-      "Mixed – Lapsed — 28 (5%)",
-      "UNC – No Primary — 247 (43%)",
-      "UNC – Lapsed D — 40 (7%)",
-      "Pure D — 10 (2%)"
+      "UNC – Lapsed R — 72 (13%)",
+      "Mixed – Active — 47 (8%)",
+      "Mixed – Lapsed — 15 (3%)",
+      "UNC – Non-partisan Ballot — 13 (2%)",
+      "UNC – No Primary — 238 (42%)",
+      "UNC – Lapsed D — 35 (6%)",
+      "Pure D — 15 (3%)"
     ],
     "datasets": [
       {
         "data": [
           136,
-          66,
-          45,
-          28,
-          247,
-          40,
-          10
+          72,
+          47,
+          15,
+          13,
+          238,
+          35,
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DANVILLE VILLAGE (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

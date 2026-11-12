@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 187 (20%)",
-      "UNC – Lapsed R — 147 (16%)",
-      "Mixed – Active — 65 (7%)",
-      "Mixed – Lapsed — 74 (8%)",
-      "UNC – No Primary — 363 (40%)",
-      "UNC – Lapsed D — 66 (7%)",
-      "Pure D — 15 (2%)"
+      "Pure R — 165 (18%)",
+      "UNC – Lapsed R — 172 (19%)",
+      "Mixed – Active — 67 (7%)",
+      "Mixed – Lapsed — 44 (5%)",
+      "UNC – Non-partisan Ballot — 29 (3%)",
+      "UNC – No Primary — 365 (40%)",
+      "UNC – Lapsed D — 63 (7%)",
+      "Pure D — 16 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          187,
-          147,
-          65,
-          74,
-          363,
-          66,
-          15
+          165,
+          172,
+          67,
+          44,
+          29,
+          365,
+          63,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BOKESCREEK TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

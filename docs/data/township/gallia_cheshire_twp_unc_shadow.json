@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 80",
+      "UNC – Lapsed R — 93",
       "Mixed – Active — 44",
-      "Mixed – Lapsed — 16",
-      "UNC – No Primary — 213",
-      "UNC – Lapsed D — 50"
+      "Mixed – Lapsed — 18",
+      "UNC – Non-partisan Ballot — 2",
+      "UNC – No Primary — 216",
+      "UNC – Lapsed D — 44"
     ],
     "datasets": [
       {
         "data": [
-          80,
+          93,
           44,
-          16,
-          213,
-          50
+          18,
+          2,
+          216,
+          44
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CHESHIRE TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

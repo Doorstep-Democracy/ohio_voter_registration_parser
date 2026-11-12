@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,630 (22%)",
-      "UNC – Lapsed R — 2,253 (19%)",
-      "Mixed – Active — 694 (6%)",
-      "Mixed – Lapsed — 941 (8%)",
-      "UNC – No Primary — 4,286 (36%)",
-      "UNC – Lapsed D — 787 (7%)",
-      "Pure D — 334 (3%)"
+      "Pure R — 2,612 (22%)",
+      "UNC – Lapsed R — 2,404 (20%)",
+      "Mixed – Active — 753 (6%)",
+      "Mixed – Lapsed — 482 (4%)",
+      "UNC – Non-partisan Ballot — 446 (4%)",
+      "UNC – No Primary — 4,247 (35%)",
+      "UNC – Lapsed D — 754 (6%)",
+      "Pure D — 446 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          2630,
-          2253,
-          694,
-          941,
-          4286,
-          787,
-          334
+          2612,
+          2404,
+          753,
+          482,
+          446,
+          4247,
+          754,
+          446
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TURTLECREEK TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,090 (26%)",
+      "Pure R — 1,078 (26%)",
       "UNC – Lapsed R — 581 (14%)",
-      "Mixed – Active — 322 (8%)",
-      "Mixed – Lapsed — 230 (5%)",
-      "UNC – No Primary — 1,590 (38%)",
-      "UNC – Lapsed D — 218 (5%)",
-      "Pure D — 164 (4%)"
+      "Mixed – Active — 319 (8%)",
+      "Mixed – Lapsed — 103 (2%)",
+      "UNC – Non-partisan Ballot — 127 (3%)",
+      "UNC – No Primary — 1,616 (38%)",
+      "UNC – Lapsed D — 220 (5%)",
+      "Pure D — 161 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1090,
+          1078,
           581,
-          322,
-          230,
-          1590,
-          218,
-          164
+          319,
+          103,
+          127,
+          1616,
+          220,
+          161
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Crestview Local Sd (Richland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

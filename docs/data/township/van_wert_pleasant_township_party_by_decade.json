@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          5,
-          83,
-          355,
-          459,
+          4,
+          69,
+          312,
+          424,
           326,
-          214,
-          180,
-          111,
-          95
+          183,
+          144,
+          97,
+          73
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          46,
-          112,
-          188,
-          239,
-          224,
-          195,
-          151,
-          44
+          49,
+          143,
+          220,
+          253,
+          269,
+          246,
+          175,
+          84
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
+          29,
+          120,
+          204,
+          117,
+          54,
           42,
-          144,
-          221,
-          132,
-          60,
-          49,
-          14,
-          1
+          17,
+          4
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          12,
-          55,
-          84,
-          88,
-          72,
-          65,
-          42,
-          18
+          18,
+          80,
+          96,
+          81,
+          62,
+          51,
+          13,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          7,
+          15,
+          19,
+          18,
+          30,
+          30,
+          14
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          21,
-          71,
-          225,
-          410,
-          519,
-          658,
-          934,
-          1001
+          18,
+          68,
+          214,
+          393,
+          505,
+          643,
+          923,
+          1020
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
-          13,
-          44,
-          87,
-          79,
-          91,
-          105,
+          1,
+          14,
+          41,
+          89,
+          71,
+          100,
+          106,
           49,
-          9
+          17
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          5,
-          9,
-          40,
-          66,
-          24,
-          28,
-          25,
-          11,
-          15
+          3,
+          4,
+          35,
+          59,
+          31,
+          20,
+          26,
+          14,
+          17
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

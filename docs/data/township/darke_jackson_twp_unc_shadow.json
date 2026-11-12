@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 135",
-      "Mixed – Active — 129",
-      "Mixed – Lapsed — 77",
-      "UNC – No Primary — 799",
-      "UNC – Lapsed D — 75"
+      "UNC – Lapsed R — 237",
+      "Mixed – Active — 103",
+      "Mixed – Lapsed — 84",
+      "UNC – Non-partisan Ballot — 19",
+      "UNC – No Primary — 804",
+      "UNC – Lapsed D — 85"
     ],
     "datasets": [
       {
         "data": [
-          135,
-          129,
-          77,
-          799,
-          75
+          237,
+          103,
+          84,
+          19,
+          804,
+          85
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

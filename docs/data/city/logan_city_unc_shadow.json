@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 343",
-      "Mixed – Active — 406",
-      "Mixed – Lapsed — 206",
-      "UNC – No Primary — 2,078",
-      "UNC – Lapsed D — 456"
+      "UNC – Lapsed R — 391",
+      "Mixed – Active — 415",
+      "Mixed – Lapsed — 160",
+      "UNC – Non-partisan Ballot — 54",
+      "UNC – No Primary — 2,068",
+      "UNC – Lapsed D — 419"
     ],
     "datasets": [
       {
         "data": [
-          343,
-          406,
-          206,
-          2078,
-          456
+          391,
+          415,
+          160,
+          54,
+          2068,
+          419
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "LOGAN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

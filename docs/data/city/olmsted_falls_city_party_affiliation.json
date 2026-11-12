@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 594 (9%)",
-      "UNC – Lapsed R — 668 (10%)",
-      "Mixed – Active — 703 (11%)",
-      "Mixed – Lapsed — 660 (10%)",
-      "UNC – No Primary — 2,169 (33%)",
-      "UNC – Lapsed D — 926 (14%)",
-      "Pure D — 876 (13%)"
+      "Pure R — 588 (9%)",
+      "UNC – Lapsed R — 673 (10%)",
+      "Mixed – Active — 696 (10%)",
+      "Mixed – Lapsed — 357 (5%)",
+      "UNC – Non-partisan Ballot — 308 (5%)",
+      "UNC – No Primary — 2,235 (34%)",
+      "UNC – Lapsed D — 934 (14%)",
+      "Pure D — 867 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          594,
-          668,
-          703,
-          660,
-          2169,
-          926,
-          876
+          588,
+          673,
+          696,
+          357,
+          308,
+          2235,
+          934,
+          867
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "OLMSTED FALLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

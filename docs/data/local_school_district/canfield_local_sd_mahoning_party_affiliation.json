@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,684 (11%)",
-      "UNC – Lapsed R — 1,499 (10%)",
-      "Mixed – Active — 2,626 (17%)",
-      "Mixed – Lapsed — 1,477 (10%)",
-      "UNC – No Primary — 4,193 (28%)",
-      "UNC – Lapsed D — 2,100 (14%)",
-      "Pure D — 1,531 (10%)"
+      "Pure R — 1,675 (11%)",
+      "UNC – Lapsed R — 1,501 (10%)",
+      "Mixed – Active — 2,611 (17%)",
+      "Mixed – Lapsed — 1,188 (8%)",
+      "UNC – Non-partisan Ballot — 281 (2%)",
+      "UNC – No Primary — 4,339 (29%)",
+      "UNC – Lapsed D — 2,102 (14%)",
+      "Pure D — 1,520 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          1684,
-          1499,
-          2626,
-          1477,
-          4193,
-          2100,
-          1531
+          1675,
+          1501,
+          2611,
+          1188,
+          281,
+          4339,
+          2102,
+          1520
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Canfield Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

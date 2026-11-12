@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 54 (13%)",
-      "UNC – Lapsed R — 71 (17%)",
-      "Mixed – Active — 30 (7%)",
-      "Mixed – Lapsed — 23 (5%)",
-      "UNC – No Primary — 193 (46%)",
-      "UNC – Lapsed D — 43 (10%)",
-      "Pure D — 10 (2%)"
+      "Pure R — 47 (11%)",
+      "UNC – Lapsed R — 80 (19%)",
+      "Mixed – Active — 27 (6%)",
+      "Mixed – Lapsed — 19 (4%)",
+      "UNC – Non-partisan Ballot — 9 (2%)",
+      "UNC – No Primary — 196 (46%)",
+      "UNC – Lapsed D — 40 (9%)",
+      "Pure D — 11 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          54,
-          71,
-          30,
-          23,
-          193,
-          43,
-          10
+          47,
+          80,
+          27,
+          19,
+          9,
+          196,
+          40,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BRADFORD VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

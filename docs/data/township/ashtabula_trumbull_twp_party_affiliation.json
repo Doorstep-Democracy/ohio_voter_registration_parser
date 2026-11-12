@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 210 (21%)",
-      "UNC – Lapsed R — 107 (11%)",
-      "Mixed – Active — 120 (12%)",
-      "Mixed – Lapsed — 86 (9%)",
-      "UNC – No Primary — 315 (32%)",
-      "UNC – Lapsed D — 105 (11%)",
-      "Pure D — 56 (6%)"
+      "Pure R — 208 (21%)",
+      "UNC – Lapsed R — 124 (12%)",
+      "Mixed – Active — 122 (12%)",
+      "Mixed – Lapsed — 30 (3%)",
+      "UNC – Non-partisan Ballot — 47 (5%)",
+      "UNC – No Primary — 315 (31%)",
+      "UNC – Lapsed D — 104 (10%)",
+      "Pure D — 57 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          210,
-          107,
-          120,
-          86,
+          208,
+          124,
+          122,
+          30,
+          47,
           315,
-          105,
-          56
+          104,
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TRUMBULL TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

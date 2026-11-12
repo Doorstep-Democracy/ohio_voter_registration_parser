@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 738",
-      "Mixed – Active — 350",
-      "Mixed – Lapsed — 391",
-      "UNC – No Primary — 1,516",
-      "UNC – Lapsed D — 416"
+      "UNC – Lapsed R — 833",
+      "Mixed – Active — 347",
+      "Mixed – Lapsed — 212",
+      "UNC – Non-partisan Ballot — 190",
+      "UNC – No Primary — 1,537",
+      "UNC – Lapsed D — 402"
     ],
     "datasets": [
       {
         "data": [
-          738,
-          350,
-          391,
-          1516,
-          416
+          833,
+          347,
+          212,
+          190,
+          1537,
+          402
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

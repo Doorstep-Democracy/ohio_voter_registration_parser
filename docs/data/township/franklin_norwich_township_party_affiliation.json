@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,643 (12%)",
-      "UNC – Lapsed R — 3,330 (11%)",
-      "Mixed – Active — 2,423 (8%)",
-      "Mixed – Lapsed — 2,857 (10%)",
-      "UNC – No Primary — 11,449 (39%)",
-      "UNC – Lapsed D — 3,294 (11%)",
-      "Pure D — 2,424 (8%)"
+      "Pure R — 3,285 (11%)",
+      "UNC – Lapsed R — 3,491 (12%)",
+      "Mixed – Active — 2,705 (9%)",
+      "Mixed – Lapsed — 1,327 (4%)",
+      "UNC – Non-partisan Ballot — 1,146 (4%)",
+      "UNC – No Primary — 11,266 (38%)",
+      "UNC – Lapsed D — 2,934 (10%)",
+      "Pure D — 3,530 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          3643,
-          3330,
-          2423,
-          2857,
-          11449,
-          3294,
-          2424
+          3285,
+          3491,
+          2705,
+          1327,
+          1146,
+          11266,
+          2934,
+          3530
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Norwich Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,852 (14%)",
-      "UNC – Lapsed R — 4,529 (13%)",
-      "Mixed – Active — 2,383 (7%)",
-      "Mixed – Lapsed — 3,455 (10%)",
-      "UNC – No Primary — 14,551 (40%)",
-      "UNC – Lapsed D — 3,928 (11%)",
-      "Pure D — 2,233 (6%)"
+      "Pure R — 4,675 (13%)",
+      "UNC – Lapsed R — 4,748 (13%)",
+      "Mixed – Active — 2,678 (7%)",
+      "Mixed – Lapsed — 1,415 (4%)",
+      "UNC – Non-partisan Ballot — 1,909 (5%)",
+      "UNC – No Primary — 14,304 (39%)",
+      "UNC – Lapsed D — 3,364 (9%)",
+      "Pure D — 3,410 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          4852,
-          4529,
-          2383,
-          3455,
-          14551,
-          3928,
-          2233
+          4675,
+          4748,
+          2678,
+          1415,
+          1909,
+          14304,
+          3364,
+          3410
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Jackson Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 130 (36%)",
-      "UNC – Lapsed R — 43 (12%)",
-      "Mixed – Active — 39 (11%)",
-      "Mixed – Lapsed — 19 (5%)",
-      "UNC – No Primary — 91 (25%)",
-      "UNC – Lapsed D — 25 (7%)",
+      "Pure R — 118 (33%)",
+      "UNC – Lapsed R — 48 (14%)",
+      "Mixed – Active — 41 (12%)",
+      "Mixed – Lapsed — 15 (4%)",
+      "UNC – Non-partisan Ballot — 4 (1%)",
+      "UNC – No Primary — 91 (26%)",
+      "UNC – Lapsed D — 24 (7%)",
       "Pure D — 12 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          130,
-          43,
-          39,
-          19,
+          118,
+          48,
+          41,
+          15,
+          4,
           91,
-          25,
+          24,
           12
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LYNN TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

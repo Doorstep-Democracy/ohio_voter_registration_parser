@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 690",
-      "Mixed – Active — 499",
-      "Mixed – Lapsed — 511",
-      "UNC – No Primary — 3,277",
-      "UNC – Lapsed D — 673"
+      "UNC – Lapsed R — 679",
+      "Mixed – Active — 566",
+      "Mixed – Lapsed — 166",
+      "UNC – Non-partisan Ballot — 290",
+      "UNC – No Primary — 3,130",
+      "UNC – Lapsed D — 533"
     ],
     "datasets": [
       {
         "data": [
-          690,
-          499,
-          511,
-          3277,
-          673
+          679,
+          566,
+          166,
+          290,
+          3130,
+          533
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MADISON TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

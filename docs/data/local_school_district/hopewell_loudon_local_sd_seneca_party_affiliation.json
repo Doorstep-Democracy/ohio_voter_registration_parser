@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 666 (23%)",
-      "UNC – Lapsed R — 449 (16%)",
-      "Mixed – Active — 315 (11%)",
-      "Mixed – Lapsed — 253 (9%)",
-      "UNC – No Primary — 825 (29%)",
-      "UNC – Lapsed D — 230 (8%)",
-      "Pure D — 118 (4%)"
+      "Pure R — 663 (23%)",
+      "UNC – Lapsed R — 445 (16%)",
+      "Mixed – Active — 314 (11%)",
+      "Mixed – Lapsed — 169 (6%)",
+      "UNC – Non-partisan Ballot — 80 (3%)",
+      "UNC – No Primary — 851 (30%)",
+      "UNC – Lapsed D — 229 (8%)",
+      "Pure D — 117 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          666,
-          449,
-          315,
-          253,
-          825,
-          230,
-          118
+          663,
+          445,
+          314,
+          169,
+          80,
+          851,
+          229,
+          117
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Hopewell-Loudon Local Sd (Seneca Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

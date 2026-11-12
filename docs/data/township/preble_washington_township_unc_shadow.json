@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 202",
-      "Mixed – Active — 109",
-      "Mixed – Lapsed — 85",
-      "UNC – No Primary — 406",
-      "UNC – Lapsed D — 61"
+      "UNC – Lapsed R — 207",
+      "Mixed – Active — 107",
+      "Mixed – Lapsed — 59",
+      "UNC – Non-partisan Ballot — 29",
+      "UNC – No Primary — 397",
+      "UNC – Lapsed D — 57"
     ],
     "datasets": [
       {
         "data": [
-          202,
-          109,
-          85,
-          406,
-          61
+          207,
+          107,
+          59,
+          29,
+          397,
+          57
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 974",
-      "Mixed – Active — 1,021",
-      "Mixed – Lapsed — 597",
-      "UNC – No Primary — 3,287",
-      "UNC – Lapsed D — 861"
+      "UNC – Lapsed R — 961",
+      "Mixed – Active — 1,012",
+      "Mixed – Lapsed — 414",
+      "UNC – Non-partisan Ballot — 181",
+      "UNC – No Primary — 3,346",
+      "UNC – Lapsed D — 851"
     ],
     "datasets": [
       {
         "data": [
-          974,
-          1021,
-          597,
-          3287,
-          861
+          961,
+          1012,
+          414,
+          181,
+          3346,
+          851
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Beaver Local Sd (Columbiana Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

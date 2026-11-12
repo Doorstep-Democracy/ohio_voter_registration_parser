@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,265 (8%)",
-      "UNC – Lapsed R — 1,748 (6%)",
-      "Mixed – Active — 1,750 (6%)",
-      "Mixed – Lapsed — 1,463 (5%)",
-      "UNC – No Primary — 14,602 (52%)",
-      "UNC – Lapsed D — 4,204 (15%)",
-      "Pure D — 2,117 (8%)"
+      "Pure R — 2,232 (8%)",
+      "UNC – Lapsed R — 1,836 (6%)",
+      "Mixed – Active — 1,765 (6%)",
+      "Mixed – Lapsed — 923 (3%)",
+      "UNC – Non-partisan Ballot — 557 (2%)",
+      "UNC – No Primary — 14,547 (51%)",
+      "UNC – Lapsed D — 3,886 (14%)",
+      "Pure D — 2,630 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          2265,
-          1748,
-          1750,
-          1463,
-          14602,
-          4204,
-          2117
+          2232,
+          1836,
+          1765,
+          923,
+          557,
+          14547,
+          3886,
+          2630
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SPRINGFIELD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

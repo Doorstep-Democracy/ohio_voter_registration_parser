@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 456 (19%)",
-      "UNC – Lapsed R — 367 (15%)",
-      "Mixed – Active — 174 (7%)",
-      "Mixed – Lapsed — 305 (12%)",
-      "UNC – No Primary — 923 (38%)",
-      "UNC – Lapsed D — 166 (7%)",
+      "Pure R — 437 (18%)",
+      "UNC – Lapsed R — 392 (16%)",
+      "Mixed – Active — 180 (7%)",
+      "Mixed – Lapsed — 158 (6%)",
+      "UNC – Non-partisan Ballot — 148 (6%)",
+      "UNC – No Primary — 934 (38%)",
+      "UNC – Lapsed D — 173 (7%)",
       "Pure D — 66 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          456,
-          367,
-          174,
-          305,
-          923,
-          166,
+          437,
+          392,
+          180,
+          158,
+          148,
+          934,
+          173,
           66
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SOMERS TOWNSHIP (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

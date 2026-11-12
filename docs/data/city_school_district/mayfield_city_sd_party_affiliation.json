@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,191 (9%)",
-      "UNC – Lapsed R — 2,121 (9%)",
-      "Mixed – Active — 2,235 (9%)",
-      "Mixed – Lapsed — 2,023 (8%)",
-      "UNC – No Primary — 9,355 (38%)",
-      "UNC – Lapsed D — 4,050 (17%)",
-      "Pure D — 2,567 (10%)"
+      "Pure R — 1,939 (8%)",
+      "UNC – Lapsed R — 2,321 (9%)",
+      "Mixed – Active — 2,181 (9%)",
+      "Mixed – Lapsed — 1,388 (6%)",
+      "UNC – Non-partisan Ballot — 688 (3%)",
+      "UNC – No Primary — 9,397 (38%)",
+      "UNC – Lapsed D — 3,861 (16%)",
+      "Pure D — 3,049 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          2191,
-          2121,
-          2235,
-          2023,
-          9355,
-          4050,
-          2567
+          1939,
+          2321,
+          2181,
+          1388,
+          688,
+          9397,
+          3861,
+          3049
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MAYFIELD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

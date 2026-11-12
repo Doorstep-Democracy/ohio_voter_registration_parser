@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 148 (14%)",
-      "UNC – Lapsed R — 173 (16%)",
+      "Pure R — 147 (14%)",
+      "UNC – Lapsed R — 172 (16%)",
       "Mixed – Active — 111 (11%)",
-      "Mixed – Lapsed — 90 (9%)",
-      "UNC – No Primary — 364 (35%)",
-      "UNC – Lapsed D — 114 (11%)",
+      "Mixed – Lapsed — 80 (8%)",
+      "UNC – Non-partisan Ballot — 8 (1%)",
+      "UNC – No Primary — 366 (35%)",
+      "UNC – Lapsed D — 113 (11%)",
       "Pure D — 49 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          148,
-          173,
+          147,
+          172,
           111,
-          90,
-          364,
-          114,
+          80,
+          8,
+          366,
+          113,
           49
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HAMILTON TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

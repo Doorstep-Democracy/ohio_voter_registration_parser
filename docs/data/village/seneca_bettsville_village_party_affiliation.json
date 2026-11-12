@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 55 (14%)",
-      "UNC – Lapsed R — 38 (10%)",
-      "Mixed – Active — 35 (9%)",
-      "Mixed – Lapsed — 19 (5%)",
-      "UNC – No Primary — 196 (50%)",
-      "UNC – Lapsed D — 36 (9%)",
-      "Pure D — 15 (4%)"
+      "Pure R — 56 (14%)",
+      "UNC – Lapsed R — 41 (10%)",
+      "Mixed – Active — 34 (9%)",
+      "Mixed – Lapsed — 12 (3%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 187 (47%)",
+      "UNC – Lapsed D — 34 (9%)",
+      "Pure D — 25 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          55,
-          38,
-          35,
-          19,
-          196,
-          36,
-          15
+          56,
+          41,
+          34,
+          12,
+          5,
+          187,
+          34,
+          25
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BETTSVILLE VILLAGE (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

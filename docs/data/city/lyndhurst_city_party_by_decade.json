@@ -19,12 +19,12 @@
         "data": [
           2,
           40,
-          145,
-          196,
+          144,
+          193,
           144,
           57,
-          57,
-          33,
+          56,
+          31,
           17
         ],
         "backgroundColor": "#ef4444",
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          38,
-          66,
+          35,
+          67,
           125,
-          160,
+          159,
           109,
-          111,
-          109,
+          108,
+          104,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           3,
-          64,
-          237,
-          353,
-          204,
+          62,
+          232,
+          348,
+          203,
           66,
-          73,
+          68,
           33,
           1
         ],
@@ -65,31 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          7,
-          49,
-          130,
-          190,
-          141,
-          93,
-          102,
-          59,
-          13
+          5,
+          45,
+          94,
+          140,
+          94,
+          58,
+          51,
+          16,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          24,
-          107,
-          264,
-          296,
-          369,
-          692,
-          1155,
-          653
+          7,
+          33,
+          52,
+          46,
+          32,
+          51,
+          40,
+          12
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          2,
+          23,
+          109,
+          271,
+          300,
+          378,
+          702,
+          1172,
+          707
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          14,
-          68,
-          163,
-          285,
+          16,
+          65,
+          165,
+          293,
           309,
-          277,
-          365,
-          281,
-          24
+          272,
+          364,
+          290,
+          27
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           8,
-          88,
-          365,
+          85,
+          369,
           538,
-          343,
-          211,
-          297,
-          235,
-          53
+          342,
+          213,
+          294,
+          233,
+          54
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "LYNDHURST CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-11"
 }

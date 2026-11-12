@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,253 (19%)",
-      "UNC – Lapsed R — 776 (12%)",
-      "Mixed – Active — 770 (12%)",
-      "Mixed – Lapsed — 747 (11%)",
-      "UNC – No Primary — 1,992 (30%)",
-      "UNC – Lapsed D — 668 (10%)",
-      "Pure D — 425 (6%)"
+      "Pure R — 1,483 (22%)",
+      "UNC – Lapsed R — 712 (11%)",
+      "Mixed – Active — 913 (14%)",
+      "Mixed – Lapsed — 230 (3%)",
+      "UNC – Non-partisan Ballot — 371 (6%)",
+      "UNC – No Primary — 1,874 (28%)",
+      "UNC – Lapsed D — 517 (8%)",
+      "Pure D — 575 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1253,
-          776,
-          770,
-          747,
-          1992,
-          668,
-          425
+          1483,
+          712,
+          913,
+          230,
+          371,
+          1874,
+          517,
+          575
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NIMISHILLEN (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

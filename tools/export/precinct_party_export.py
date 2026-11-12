@@ -14,7 +14,7 @@ Tab layout (7-tab partisan spectrum — colours match dashboard doughnut):
   Pure_D          #3b82f6   affiliated D, zero R primary ballots ever
   Summary         #1e293b   row counts per tab
 
-Cohort assignment uses classify_all_voters_primary_history() (voter_data_cleaner_v2).
+Cohort assignment uses classify_all_voters_primary_history() (pipeline/voter_data_cleaner.py).
 cohort_family is the segmentation key; internal cohort column preserved for
 future proprietary crossover analysis but not surfaced in output tabs.
 
@@ -41,7 +41,7 @@ OUT_DIR     = BASE_DIR / "local" / "exports" / "Workbooks"  # PATCH: Rerouted to
 
 # ── Import shared helpers ─────────────────────────────────────────────────────
 sys.path.insert(0, str(BASE_DIR))
-import voter_data_cleaner_v2 as v2
+from pipeline import voter_data_cleaner as v2
 
 OHIO_COUNTIES  = v2.OHIO_COUNTIES
 identify_cols  = v2.identify_election_cols

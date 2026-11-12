@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 527 (7%)",
-      "UNC – Lapsed R — 545 (8%)",
-      "Mixed – Active — 344 (5%)",
-      "Mixed – Lapsed — 527 (7%)",
-      "UNC – No Primary — 3,204 (45%)",
-      "UNC – Lapsed D — 1,342 (19%)",
-      "Pure D — 671 (9%)"
+      "Pure R — 502 (7%)",
+      "UNC – Lapsed R — 577 (8%)",
+      "Mixed – Active — 361 (5%)",
+      "Mixed – Lapsed — 247 (3%)",
+      "UNC – Non-partisan Ballot — 240 (3%)",
+      "UNC – No Primary — 3,208 (44%)",
+      "UNC – Lapsed D — 1,122 (15%)",
+      "Pure D — 992 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          527,
-          545,
-          344,
-          527,
-          3204,
-          1342,
-          671
+          502,
+          577,
+          361,
+          247,
+          240,
+          3208,
+          1122,
+          992
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SPRINGDALE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

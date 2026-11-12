@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 713",
-      "Mixed – Active — 601",
-      "Mixed – Lapsed — 645",
-      "UNC – No Primary — 2,164",
-      "UNC – Lapsed D — 764"
+      "UNC – Lapsed R — 704",
+      "Mixed – Active — 599",
+      "Mixed – Lapsed — 321",
+      "UNC – Non-partisan Ballot — 311",
+      "UNC – No Primary — 2,193",
+      "UNC – Lapsed D — 769"
     ],
     "datasets": [
       {
         "data": [
-          713,
-          601,
-          645,
-          2164,
-          764
+          704,
+          599,
+          321,
+          311,
+          2193,
+          769
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Swanton Local Sd (Fulton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          25,
-          60,
+          15,
+          53,
           136,
-          139,
-          161,
-          134,
-          54,
-          35
+          145,
+          165,
+          130,
+          56,
+          31
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          4,
-          17,
+          9,
+          22,
+          22,
+          52,
+          48,
+          52,
           26,
-          50,
-          44,
-          43,
-          23,
-          6
+          12
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          10,
-          45,
-          67,
+          9,
+          44,
+          70,
           86,
-          56,
-          34,
-          6,
-          1
+          59,
+          35,
+          8,
+          0
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          5,
+          4,
+          9,
+          10,
+          10,
           11,
-          20,
-          25,
-          37,
-          34,
-          31,
-          36
+          4,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          3,
+          8,
+          10,
+          25,
+          27,
+          22,
+          34
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +99,13 @@
         "data": [
           0,
           1,
-          9,
+          6,
           37,
-          38,
-          71,
-          106,
-          122,
-          168
+          32,
+          67,
+          100,
+          123,
+          197
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -100,12 +116,12 @@
           0,
           5,
           9,
-          23,
-          33,
-          28,
-          31,
-          13,
-          2
+          22,
+          30,
+          25,
+          29,
+          14,
+          1
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          6,
-          12,
-          29,
-          19,
-          11,
-          11,
-          7,
-          3
+          3,
+          10,
+          30,
+          22,
+          14,
+          14,
+          10,
+          7
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WALNUT TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,10 +3,11 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 98 (17%)",
+      "Pure R — 97 (17%)",
       "UNC – Lapsed R — 69 (12%)",
       "Mixed – Active — 73 (13%)",
-      "Mixed – Lapsed — 80 (14%)",
+      "Mixed – Lapsed — 35 (6%)",
+      "UNC – Non-partisan Ballot — 44 (8%)",
       "UNC – No Primary — 152 (26%)",
       "UNC – Lapsed D — 49 (8%)",
       "Pure D — 59 (10%)"
@@ -14,10 +15,11 @@
     "datasets": [
       {
         "data": [
-          98,
+          97,
           69,
           73,
-          80,
+          35,
+          44,
           152,
           49,
           59
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Put-In-Bay Local Sd (Ottawa Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

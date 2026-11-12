@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          16,
-          93,
-          243,
-          250,
-          176,
-          101,
-          43,
-          40
+          1,
+          11,
+          81,
+          221,
+          232,
+          153,
+          85,
+          34,
+          32
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          24,
-          46,
-          86,
-          199,
-          194,
-          149,
-          76,
-          4
+          29,
+          57,
+          101,
+          217,
+          226,
+          179,
+          88,
+          21
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          19,
-          65,
+          21,
+          69,
           138,
-          96,
+          91,
+          52,
           51,
-          43,
           5,
           1
         ],
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          18,
-          32,
-          42,
-          114,
-          137,
-          149,
-          32,
-          36
+          14,
+          19,
+          35,
+          65,
+          40,
+          36,
+          7,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          8,
+          11,
+          59,
+          94,
+          104,
+          28,
+          33
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          9,
-          31,
-          83,
-          172,
-          208,
-          262,
-          325,
-          500
+          7,
+          33,
+          82,
+          157,
+          209,
+          252,
+          324,
+          530
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +114,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          21,
-          44,
-          66,
-          91,
-          95,
-          92,
+          19,
           43,
-          12
+          48,
+          80,
+          83,
+          80,
+          43,
+          16
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          10,
-          31,
-          65,
-          38,
-          30,
-          15,
-          10,
-          14
+          12,
+          33,
+          83,
+          61,
+          43,
+          41,
+          29,
+          16
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Sharon TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

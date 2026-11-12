@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,136 (17%)",
-      "UNC – Lapsed R — 987 (15%)",
-      "Mixed – Active — 592 (9%)",
-      "Mixed – Lapsed — 781 (12%)",
-      "UNC – No Primary — 2,342 (36%)",
-      "UNC – Lapsed D — 408 (6%)",
-      "Pure D — 263 (4%)"
+      "Pure R — 1,129 (17%)",
+      "UNC – Lapsed R — 985 (15%)",
+      "Mixed – Active — 588 (9%)",
+      "Mixed – Lapsed — 264 (4%)",
+      "UNC – Non-partisan Ballot — 520 (8%)",
+      "UNC – No Primary — 2,373 (36%)",
+      "UNC – Lapsed D — 412 (6%)",
+      "Pure D — 261 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1136,
-          987,
-          592,
-          781,
-          2342,
-          408,
-          263
+          1129,
+          985,
+          588,
+          264,
+          520,
+          2373,
+          412,
+          261
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Cardinal Local Sd (Geauga Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

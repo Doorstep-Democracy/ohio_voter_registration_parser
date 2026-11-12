@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 120 (16%)",
-      "UNC – Lapsed R — 97 (13%)",
-      "Mixed – Active — 83 (11%)",
-      "Mixed – Lapsed — 76 (10%)",
-      "UNC – No Primary — 248 (33%)",
-      "UNC – Lapsed D — 100 (13%)",
-      "Pure D — 34 (4%)"
+      "Pure R — 124 (16%)",
+      "UNC – Lapsed R — 96 (13%)",
+      "Mixed – Active — 86 (11%)",
+      "Mixed – Lapsed — 43 (6%)",
+      "UNC – Non-partisan Ballot — 30 (4%)",
+      "UNC – No Primary — 251 (33%)",
+      "UNC – Lapsed D — 80 (10%)",
+      "Pure D — 54 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          120,
-          97,
-          83,
-          76,
-          248,
-          100,
-          34
+          124,
+          96,
+          86,
+          43,
+          30,
+          251,
+          80,
+          54
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WARREN TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

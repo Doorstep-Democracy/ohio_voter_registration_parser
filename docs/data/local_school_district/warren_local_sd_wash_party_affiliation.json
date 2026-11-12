@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,492 (24%)",
-      "UNC – Lapsed R — 1,202 (11%)",
-      "Mixed – Active — 1,132 (11%)",
-      "Mixed – Lapsed — 1,060 (10%)",
-      "UNC – No Primary — 3,508 (33%)",
-      "UNC – Lapsed D — 679 (6%)",
-      "Pure D — 490 (5%)"
+      "Pure R — 2,473 (23%)",
+      "UNC – Lapsed R — 1,189 (11%)",
+      "Mixed – Active — 1,127 (11%)",
+      "Mixed – Lapsed — 357 (3%)",
+      "UNC – Non-partisan Ballot — 699 (7%)",
+      "UNC – No Primary — 3,591 (34%)",
+      "UNC – Lapsed D — 672 (6%)",
+      "Pure D — 483 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2492,
-          1202,
-          1132,
-          1060,
-          3508,
-          679,
-          490
+          2473,
+          1189,
+          1127,
+          357,
+          699,
+          3591,
+          672,
+          483
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Warren Local Sd (Wash Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

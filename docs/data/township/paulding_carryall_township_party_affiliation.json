@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 323 (17%)",
-      "UNC – Lapsed R — 279 (14%)",
-      "Mixed – Active — 126 (6%)",
-      "Mixed – Lapsed — 152 (8%)",
-      "UNC – No Primary — 793 (41%)",
-      "UNC – Lapsed D — 200 (10%)",
-      "Pure D — 71 (4%)"
+      "Pure R — 264 (13%)",
+      "UNC – Lapsed R — 347 (18%)",
+      "Mixed – Active — 124 (6%)",
+      "Mixed – Lapsed — 91 (5%)",
+      "UNC – Non-partisan Ballot — 63 (3%)",
+      "UNC – No Primary — 823 (42%)",
+      "UNC – Lapsed D — 198 (10%)",
+      "Pure D — 68 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          323,
-          279,
-          126,
-          152,
-          793,
-          200,
-          71
+          264,
+          347,
+          124,
+          91,
+          63,
+          823,
+          198,
+          68
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CARRYALL TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

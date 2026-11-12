@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 36",
-      "Mixed – Active — 43",
-      "Mixed – Lapsed — 24",
-      "UNC – No Primary — 138",
+      "UNC – Lapsed R — 35",
+      "Mixed – Active — 45",
+      "Mixed – Lapsed — 11",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 137",
       "UNC – Lapsed D — 30"
     ],
     "datasets": [
       {
         "data": [
-          36,
-          43,
-          24,
-          138,
+          35,
+          45,
+          11,
+          12,
+          137,
           30
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PALMER TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

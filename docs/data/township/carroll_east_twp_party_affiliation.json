@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 107 (24%)",
-      "UNC – Lapsed R — 58 (13%)",
-      "Mixed – Active — 50 (11%)",
-      "Mixed – Lapsed — 30 (7%)",
-      "UNC – No Primary — 152 (34%)",
-      "UNC – Lapsed D — 36 (8%)",
+      "Pure R — 104 (23%)",
+      "UNC – Lapsed R — 63 (14%)",
+      "Mixed – Active — 55 (12%)",
+      "Mixed – Lapsed — 22 (5%)",
+      "UNC – Non-partisan Ballot — 6 (1%)",
+      "UNC – No Primary — 150 (33%)",
+      "UNC – Lapsed D — 34 (8%)",
       "Pure D — 17 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          107,
-          58,
-          50,
-          30,
-          152,
-          36,
+          104,
+          63,
+          55,
+          22,
+          6,
+          150,
+          34,
           17
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "EAST TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

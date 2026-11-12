@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 153 (7%)",
-      "UNC – Lapsed R — 169 (8%)",
-      "Mixed – Active — 326 (15%)",
-      "Mixed – Lapsed — 168 (8%)",
-      "UNC – No Primary — 675 (31%)",
-      "UNC – Lapsed D — 435 (20%)",
-      "Pure D — 217 (10%)"
+      "Pure R — 144 (7%)",
+      "UNC – Lapsed R — 184 (9%)",
+      "Mixed – Active — 329 (15%)",
+      "Mixed – Lapsed — 125 (6%)",
+      "UNC – Non-partisan Ballot — 58 (3%)",
+      "UNC – No Primary — 689 (32%)",
+      "UNC – Lapsed D — 426 (20%)",
+      "Pure D — 198 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          153,
-          169,
-          326,
-          168,
-          675,
-          435,
-          217
+          144,
+          184,
+          329,
+          125,
+          58,
+          689,
+          426,
+          198
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CENTER TOWNSHIP (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

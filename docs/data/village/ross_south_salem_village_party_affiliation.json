@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8 (6%)",
-      "UNC – Lapsed R — 13 (10%)",
-      "Mixed – Active — 4 (3%)",
-      "Mixed – Lapsed — 9 (7%)",
-      "UNC – No Primary — 73 (57%)",
-      "UNC – Lapsed D — 17 (13%)",
-      "Pure D — 3 (2%)"
+      "Pure R — 10 (8%)",
+      "UNC – Lapsed R — 14 (11%)",
+      "Mixed – Active — 3 (2%)",
+      "Mixed – Lapsed — 6 (5%)",
+      "UNC – Non-partisan Ballot — 3 (2%)",
+      "UNC – No Primary — 68 (55%)",
+      "UNC – Lapsed D — 15 (12%)",
+      "Pure D — 5 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          8,
-          13,
-          4,
-          9,
-          73,
-          17,
-          3
+          10,
+          14,
+          3,
+          6,
+          3,
+          68,
+          15,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SOUTH SALEM VILLAGE (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

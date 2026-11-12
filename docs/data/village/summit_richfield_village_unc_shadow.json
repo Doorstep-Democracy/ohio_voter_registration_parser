@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 404",
-      "Mixed – Active — 308",
-      "Mixed – Lapsed — 382",
-      "UNC – No Primary — 990",
-      "UNC – Lapsed D — 409"
+      "UNC – Lapsed R — 446",
+      "Mixed – Active — 329",
+      "Mixed – Lapsed — 181",
+      "UNC – Non-partisan Ballot — 179",
+      "UNC – No Primary — 982",
+      "UNC – Lapsed D — 394"
     ],
     "datasets": [
       {
         "data": [
-          404,
-          308,
-          382,
-          990,
-          409
+          446,
+          329,
+          181,
+          179,
+          982,
+          394
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "RICHFIELD VILLAGE (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

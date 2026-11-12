@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 342 (22%)",
-      "UNC – Lapsed R — 187 (12%)",
-      "Mixed – Active — 230 (15%)",
-      "Mixed – Lapsed — 127 (8%)",
-      "UNC – No Primary — 438 (28%)",
-      "UNC – Lapsed D — 158 (10%)",
-      "Pure D — 84 (5%)"
+      "Pure R — 330 (21%)",
+      "UNC – Lapsed R — 188 (12%)",
+      "Mixed – Active — 234 (15%)",
+      "Mixed – Lapsed — 75 (5%)",
+      "UNC – Non-partisan Ballot — 47 (3%)",
+      "UNC – No Primary — 449 (29%)",
+      "UNC – Lapsed D — 143 (9%)",
+      "Pure D — 99 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          342,
-          187,
-          230,
-          127,
-          438,
-          158,
-          84
+          330,
+          188,
+          234,
+          75,
+          47,
+          449,
+          143,
+          99
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PICKAWAY TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

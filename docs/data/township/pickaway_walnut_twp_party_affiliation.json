@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 744 (33%)",
-      "UNC – Lapsed R — 214 (9%)",
-      "Mixed – Active — 306 (14%)",
-      "Mixed – Lapsed — 199 (9%)",
-      "UNC – No Primary — 552 (24%)",
-      "UNC – Lapsed D — 144 (6%)",
-      "Pure D — 98 (4%)"
+      "Pure R — 731 (32%)",
+      "UNC – Lapsed R — 244 (11%)",
+      "Mixed – Active — 312 (14%)",
+      "Mixed – Lapsed — 50 (2%)",
+      "UNC – Non-partisan Ballot — 131 (6%)",
+      "UNC – No Primary — 563 (25%)",
+      "UNC – Lapsed D — 135 (6%)",
+      "Pure D — 110 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          744,
-          214,
-          306,
-          199,
-          552,
-          144,
-          98
+          731,
+          244,
+          312,
+          50,
+          131,
+          563,
+          135,
+          110
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WALNUT TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

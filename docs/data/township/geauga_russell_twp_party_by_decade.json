@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          51,
-          157,
-          251,
-          217,
-          94,
+          42,
+          152,
+          227,
+          200,
+          86,
           64,
-          43,
-          30
+          35,
+          26
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          11,
-          48,
+          16,
+          51,
+          96,
+          144,
+          132,
           79,
-          130,
-          118,
-          74,
-          61,
-          3
+          69,
+          10
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,13 +51,13 @@
         "data": [
           1,
           27,
-          147,
-          223,
-          154,
-          73,
-          28,
+          148,
+          236,
+          160,
+          69,
+          34,
           9,
-          4
+          6
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          16,
-          51,
-          92,
-          102,
-          80,
-          54,
-          17,
-          10
+          12,
+          39,
+          63,
+          74,
+          44,
+          29,
+          7,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          9,
+          25,
+          30,
+          41,
+          22,
+          12,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          6,
+          5,
           26,
-          72,
-          131,
-          141,
-          195,
-          294,
-          375
+          64,
+          118,
+          135,
+          187,
+          304,
+          393
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          12,
-          25,
-          85,
-          91,
-          80,
-          67,
-          58,
-          24
+          2,
+          14,
+          22,
+          68,
+          74,
+          77,
+          61,
+          63,
+          28
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          6,
-          37,
-          64,
-          40,
-          25,
-          18,
+          1,
+          5,
+          38,
+          85,
+          63,
+          30,
+          27,
           19,
-          10
+          16
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RUSSELL TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

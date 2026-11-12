@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 108",
-      "Mixed – Active — 59",
-      "Mixed – Lapsed — 47",
-      "UNC – No Primary — 200",
-      "UNC – Lapsed D — 36"
+      "UNC – Lapsed R — 120",
+      "Mixed – Active — 72",
+      "Mixed – Lapsed — 33",
+      "UNC – Non-partisan Ballot — 11",
+      "UNC – No Primary — 185",
+      "UNC – Lapsed D — 31"
     ],
     "datasets": [
       {
         "data": [
-          108,
-          59,
-          47,
-          200,
-          36
+          120,
+          72,
+          33,
+          11,
+          185,
+          31
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

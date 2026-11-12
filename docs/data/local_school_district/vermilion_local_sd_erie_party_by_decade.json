@@ -17,14 +17,14 @@
       {
         "label": "Pure R",
         "data": [
-          3,
+          1,
           44,
-          239,
-          327,
-          262,
-          126,
-          84,
-          66,
+          235,
+          326,
+          259,
+          128,
+          83,
+          65,
           19
         ],
         "backgroundColor": "#ef4444",
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          35,
-          129,
-          177,
-          294,
-          182,
-          152,
-          95,
-          16
+          32,
+          130,
+          180,
+          296,
+          185,
+          153,
+          101,
+          17
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,11 +50,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          50,
-          279,
-          433,
+          48,
+          275,
+          427,
           288,
-          101,
+          100,
           51,
           13,
           0
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          46,
-          130,
-          212,
-          236,
-          194,
-          151,
-          91,
-          43
+          37,
+          101,
+          154,
+          150,
+          104,
+          50,
+          8,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          8,
+          31,
+          64,
+          89,
+          88,
+          104,
+          84,
+          45
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           5,
-          23,
+          21,
           131,
-          289,
-          420,
-          509,
-          612,
-          903,
-          731
+          294,
+          432,
+          514,
+          623,
+          920,
+          779
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          8,
-          58,
-          190,
-          280,
-          304,
+          7,
+          57,
+          193,
+          284,
+          310,
           258,
-          194,
-          128,
-          20
+          199,
+          131,
+          24
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           1,
-          30,
+          29,
           197,
-          304,
-          170,
-          89,
+          299,
+          168,
+          87,
           53,
-          67,
-          38
+          64,
+          33
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Vermilion Local Sd (Erie Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

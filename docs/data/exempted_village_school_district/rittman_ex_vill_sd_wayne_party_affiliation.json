@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 683 (16%)",
-      "UNC – Lapsed R — 511 (12%)",
-      "Mixed – Active — 317 (7%)",
-      "Mixed – Lapsed — 360 (8%)",
-      "UNC – No Primary — 1,820 (42%)",
-      "UNC – Lapsed D — 374 (9%)",
-      "Pure D — 303 (7%)"
+      "Pure R — 675 (15%)",
+      "UNC – Lapsed R — 515 (12%)",
+      "Mixed – Active — 309 (7%)",
+      "Mixed – Lapsed — 133 (3%)",
+      "UNC – Non-partisan Ballot — 230 (5%)",
+      "UNC – No Primary — 1,836 (42%)",
+      "UNC – Lapsed D — 372 (9%)",
+      "Pure D — 300 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          683,
-          511,
-          317,
-          360,
-          1820,
-          374,
-          303
+          675,
+          515,
+          309,
+          133,
+          230,
+          1836,
+          372,
+          300
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "RITTMAN EX VILL SD (WAYNE)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Rittman Ex Vill Sd (Wayne Co.)",
+  "updated": "2026-11-11"
 }

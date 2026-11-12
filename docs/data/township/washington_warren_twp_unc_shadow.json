@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 289",
-      "Mixed – Active — 314",
-      "Mixed – Lapsed — 303",
-      "UNC – No Primary — 974",
-      "UNC – Lapsed D — 235"
+      "UNC – Lapsed R — 292",
+      "Mixed – Active — 341",
+      "Mixed – Lapsed — 88",
+      "UNC – Non-partisan Ballot — 178",
+      "UNC – No Primary — 971",
+      "UNC – Lapsed D — 204"
     ],
     "datasets": [
       {
         "data": [
-          289,
-          314,
-          303,
-          974,
-          235
+          292,
+          341,
+          88,
+          178,
+          971,
+          204
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WARREN TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

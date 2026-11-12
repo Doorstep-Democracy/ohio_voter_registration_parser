@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 237 (17%)",
-      "UNC – Lapsed R — 225 (16%)",
-      "Mixed – Active — 83 (6%)",
-      "Mixed – Lapsed — 87 (6%)",
-      "UNC – No Primary — 660 (48%)",
-      "UNC – Lapsed D — 73 (5%)",
-      "Pure D — 20 (1%)"
+      "Pure R — 230 (17%)",
+      "UNC – Lapsed R — 246 (18%)",
+      "Mixed – Active — 95 (7%)",
+      "Mixed – Lapsed — 62 (4%)",
+      "UNC – Non-partisan Ballot — 12 (1%)",
+      "UNC – No Primary — 650 (47%)",
+      "UNC – Lapsed D — 79 (6%)",
+      "Pure D — 19 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          237,
-          225,
-          83,
-          87,
-          660,
-          73,
-          20
+          230,
+          246,
+          95,
+          62,
+          12,
+          650,
+          79,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TULLY TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

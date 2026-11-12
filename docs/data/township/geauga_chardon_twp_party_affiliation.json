@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 818 (23%)",
-      "UNC – Lapsed R — 445 (13%)",
-      "Mixed – Active — 562 (16%)",
-      "Mixed – Lapsed — 315 (9%)",
-      "UNC – No Primary — 986 (28%)",
-      "UNC – Lapsed D — 281 (8%)",
-      "Pure D — 139 (4%)"
+      "Pure R — 769 (22%)",
+      "UNC – Lapsed R — 501 (14%)",
+      "Mixed – Active — 550 (16%)",
+      "Mixed – Lapsed — 210 (6%)",
+      "UNC – Non-partisan Ballot — 118 (3%)",
+      "UNC – No Primary — 968 (27%)",
+      "UNC – Lapsed D — 266 (7%)",
+      "Pure D — 166 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          818,
-          445,
-          562,
-          315,
-          986,
-          281,
-          139
+          769,
+          501,
+          550,
+          210,
+          118,
+          968,
+          266,
+          166
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CHARDON TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

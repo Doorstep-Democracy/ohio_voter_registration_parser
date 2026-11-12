@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 233",
-      "Mixed – Active — 201",
-      "Mixed – Lapsed — 155",
-      "UNC – No Primary — 924",
-      "UNC – Lapsed D — 286"
+      "UNC – Lapsed R — 227",
+      "Mixed – Active — 222",
+      "Mixed – Lapsed — 113",
+      "UNC – Non-partisan Ballot — 35",
+      "UNC – No Primary — 899",
+      "UNC – Lapsed D — 245"
     ],
     "datasets": [
       {
         "data": [
-          233,
-          201,
-          155,
-          924,
-          286
+          227,
+          222,
+          113,
+          35,
+          899,
+          245
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CLAY TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

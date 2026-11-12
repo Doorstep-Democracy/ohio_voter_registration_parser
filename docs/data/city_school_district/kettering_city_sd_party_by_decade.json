@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          23,
-          248,
-          884,
-          1433,
-          1103,
-          601,
-          476,
-          264,
-          137
+          13,
+          192,
+          783,
+          1445,
+          1209,
+          703,
+          558,
+          337,
+          205
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          20,
-          195,
-          387,
-          746,
-          1018,
-          815,
-          851,
-          717,
-          52
+          25,
+          218,
+          442,
+          697,
+          936,
+          743,
+          772,
+          649,
+          80
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          12,
-          171,
-          690,
-          1049,
-          678,
-          399,
-          261,
-          98,
-          8
+          10,
+          137,
+          681,
+          1130,
+          783,
+          503,
+          406,
+          166,
+          14
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           12,
-          105,
-          301,
-          535,
-          577,
-          516,
-          427,
-          229,
-          77
+          107,
+          254,
+          382,
+          356,
+          274,
+          192,
+          56,
+          3
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          6,
+          65,
+          130,
+          150,
+          180,
+          239,
+          195,
+          105
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          0,
           8,
-          78,
-          357,
-          952,
-          1421,
-          1910,
-          3223,
-          5098,
-          3792
+          76,
+          336,
+          882,
+          1318,
+          1771,
+          2908,
+          4779,
+          3865
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          13,
-          116,
-          358,
-          671,
-          707,
-          820,
-          1077,
-          770,
-          85
+          15,
+          120,
+          325,
+          563,
+          617,
+          642,
+          872,
+          689,
+          100
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          13,
-          111,
-          470,
-          792,
-          491,
-          449,
-          513,
-          476,
-          161
+          8,
+          100,
+          497,
+          911,
+          615,
+          701,
+          883,
+          847,
+          358
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "KETTERING CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

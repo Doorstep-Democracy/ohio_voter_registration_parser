@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 676 (21%)",
-      "UNC – Lapsed R — 460 (14%)",
-      "Mixed – Active — 310 (10%)",
-      "Mixed – Lapsed — 352 (11%)",
-      "UNC – No Primary — 981 (30%)",
-      "UNC – Lapsed D — 312 (10%)",
-      "Pure D — 145 (4%)"
+      "Pure R — 614 (19%)",
+      "UNC – Lapsed R — 513 (16%)",
+      "Mixed – Active — 325 (10%)",
+      "Mixed – Lapsed — 160 (5%)",
+      "UNC – Non-partisan Ballot — 189 (6%)",
+      "UNC – No Primary — 975 (30%)",
+      "UNC – Lapsed D — 310 (10%)",
+      "Pure D — 165 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          676,
-          460,
+          614,
+          513,
+          325,
+          160,
+          189,
+          975,
           310,
-          352,
-          981,
-          312,
-          145
+          165
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

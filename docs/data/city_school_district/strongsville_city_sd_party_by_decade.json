@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          9,
-          211,
-          691,
-          1196,
-          1059,
-          589,
-          502,
-          196,
-          128
+          7,
+          168,
+          654,
+          1188,
+          1087,
+          607,
+          568,
+          212,
+          158
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           7,
-          127,
-          276,
-          514,
-          715,
-          546,
-          455,
-          365,
-          25
+          148,
+          282,
+          509,
+          706,
+          551,
+          428,
+          378,
+          54
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          10,
-          184,
-          902,
-          1322,
-          916,
-          407,
-          243,
-          62,
-          2
+          8,
+          165,
+          919,
+          1372,
+          992,
+          454,
+          312,
+          90,
+          8
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          2,
-          135,
-          379,
-          549,
-          825,
-          768,
-          681,
-          287,
-          129
+          3,
+          117,
+          247,
+          308,
+          420,
+          230,
+          147,
+          36,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          27,
+          125,
+          211,
+          359,
+          478,
+          511,
+          236,
+          133
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          0,
-          8,
-          58,
-          290,
-          674,
-          1026,
-          1386,
-          2066,
-          2885,
-          2619
+          6,
+          53,
+          270,
+          636,
+          966,
+          1339,
+          1917,
+          2778,
+          2751
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +113,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          20,
-          117,
-          372,
-          648,
-          746,
-          665,
-          731,
-          430,
-          57
+          15,
+          116,
+          317,
+          538,
+          600,
+          578,
+          632,
+          404,
+          62
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +129,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           9,
-          136,
-          536,
-          803,
-          507,
-          361,
-          464,
-          217,
-          107
+          131,
+          587,
+          917,
+          661,
+          491,
+          672,
+          348,
+          198
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "STRONGSVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

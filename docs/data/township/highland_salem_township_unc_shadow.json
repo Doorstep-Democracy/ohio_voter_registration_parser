@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 67",
-      "Mixed – Active — 33",
-      "Mixed – Lapsed — 29",
+      "UNC – Lapsed R — 70",
+      "Mixed – Active — 30",
+      "Mixed – Lapsed — 24",
+      "UNC – Non-partisan Ballot — 7",
       "UNC – No Primary — 217",
-      "UNC – Lapsed D — 38"
+      "UNC – Lapsed D — 34"
     ],
     "datasets": [
       {
         "data": [
-          67,
-          33,
-          29,
+          70,
+          30,
+          24,
+          7,
           217,
-          38
+          34
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALEM TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

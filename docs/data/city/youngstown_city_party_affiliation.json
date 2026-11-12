@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 540 (2%)",
-      "UNC – Lapsed R — 581 (2%)",
-      "Mixed – Active — 1,751 (5%)",
-      "Mixed – Lapsed — 959 (3%)",
-      "UNC – No Primary — 17,654 (52%)",
-      "UNC – Lapsed D — 7,335 (21%)",
-      "Pure D — 5,453 (16%)"
+      "Pure R — 542 (2%)",
+      "UNC – Lapsed R — 658 (2%)",
+      "Mixed – Active — 1,749 (5%)",
+      "Mixed – Lapsed — 889 (3%)",
+      "UNC – Non-partisan Ballot — 169 (0%)",
+      "UNC – No Primary — 18,513 (52%)",
+      "UNC – Lapsed D — 7,049 (20%)",
+      "Pure D — 5,839 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          540,
-          581,
-          1751,
-          959,
-          17654,
-          7335,
-          5453
+          542,
+          658,
+          1749,
+          889,
+          169,
+          18513,
+          7049,
+          5839
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "YOUNGSTOWN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

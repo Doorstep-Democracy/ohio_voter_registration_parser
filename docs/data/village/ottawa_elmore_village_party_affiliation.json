@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 159 (16%)",
-      "UNC – Lapsed R — 125 (12%)",
-      "Mixed – Active — 54 (5%)",
-      "Mixed – Lapsed — 142 (14%)",
-      "UNC – No Primary — 326 (33%)",
-      "UNC – Lapsed D — 143 (14%)",
-      "Pure D — 52 (5%)"
+      "Pure R — 144 (14%)",
+      "UNC – Lapsed R — 145 (14%)",
+      "Mixed – Active — 65 (6%)",
+      "Mixed – Lapsed — 41 (4%)",
+      "UNC – Non-partisan Ballot — 92 (9%)",
+      "UNC – No Primary — 324 (32%)",
+      "UNC – Lapsed D — 125 (12%)",
+      "Pure D — 70 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          159,
+          144,
+          145,
+          65,
+          41,
+          92,
+          324,
           125,
-          54,
-          142,
-          326,
-          143,
-          52
+          70
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ELMORE VILLAGE (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

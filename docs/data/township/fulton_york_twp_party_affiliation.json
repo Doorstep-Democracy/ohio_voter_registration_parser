@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 578 (22%)",
-      "UNC – Lapsed R — 259 (10%)",
-      "Mixed – Active — 257 (10%)",
-      "Mixed – Lapsed — 284 (11%)",
-      "UNC – No Primary — 932 (35%)",
-      "UNC – Lapsed D — 209 (8%)",
-      "Pure D — 138 (5%)"
+      "Pure R — 502 (19%)",
+      "UNC – Lapsed R — 358 (13%)",
+      "Mixed – Active — 237 (9%)",
+      "Mixed – Lapsed — 128 (5%)",
+      "UNC – Non-partisan Ballot — 166 (6%)",
+      "UNC – No Primary — 944 (35%)",
+      "UNC – Lapsed D — 211 (8%)",
+      "Pure D — 148 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          578,
-          259,
-          257,
-          284,
-          932,
-          209,
-          138
+          502,
+          358,
+          237,
+          128,
+          166,
+          944,
+          211,
+          148
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "YORK TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

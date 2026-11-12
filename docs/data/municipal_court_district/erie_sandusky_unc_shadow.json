@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,755",
-      "Mixed – Active — 2,105",
-      "Mixed – Lapsed — 2,173",
-      "UNC – No Primary — 11,037",
-      "UNC – Lapsed D — 4,379"
+      "UNC – Lapsed R — 1,857",
+      "Mixed – Active — 2,106",
+      "Mixed – Lapsed — 1,330",
+      "UNC – Non-partisan Ballot — 864",
+      "UNC – No Primary — 11,063",
+      "UNC – Lapsed D — 4,097"
     ],
     "datasets": [
       {
         "data": [
-          1755,
-          2105,
-          2173,
-          11037,
-          4379
+          1857,
+          2106,
+          1330,
+          864,
+          11063,
+          4097
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "SANDUSKY (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

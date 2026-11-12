@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 51",
-      "Mixed – Active — 9",
-      "Mixed – Lapsed — 19",
-      "UNC – No Primary — 143",
-      "UNC – Lapsed D — 14"
+      "UNC – Lapsed R — 60",
+      "Mixed – Active — 8",
+      "Mixed – Lapsed — 11",
+      "UNC – Non-partisan Ballot — 7",
+      "UNC – No Primary — 141",
+      "UNC – Lapsed D — 16"
     ],
     "datasets": [
       {
         "data": [
-          51,
-          9,
-          19,
-          143,
-          14
+          60,
+          8,
+          11,
+          7,
+          141,
+          16
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PIKE TOWNSHIP (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

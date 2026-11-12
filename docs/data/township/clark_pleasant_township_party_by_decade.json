@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,15 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          6,
-          45,
-          89,
-          140,
-          100,
-          61,
-          31,
-          18
+          8,
+          42,
+          87,
+          126,
+          98,
+          58,
+          39,
+          21
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          8,
-          12,
-          24,
-          62,
-          65,
-          55,
-          48,
-          0
+          6,
+          13,
+          29,
+          75,
+          74,
+          67,
+          51,
+          1
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +46,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           7,
-          46,
-          62,
-          71,
-          42,
-          17,
+          41,
+          63,
+          73,
+          47,
+          13,
           3,
-          1
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           3,
           15,
-          31,
-          49,
-          40,
-          32,
-          30,
-          9
+          21,
+          26,
+          20,
+          10,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          5,
+          1,
+          11,
           19,
-          34,
-          74,
-          92,
-          132,
-          198,
-          170
+          19,
+          21,
+          21,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          4,
+          19,
+          32,
+          71,
+          91,
+          129,
+          197,
+          180
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,11 +107,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          1,
-          10,
-          28,
-          44,
-          40,
+          8,
+          27,
+          33,
+          33,
           22,
           11,
           0
@@ -113,23 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           2,
-          16,
-          21,
-          20,
-          7,
-          6,
-          3,
-          2
+          17,
+          18,
+          32,
+          10,
+          9,
+          5,
+          6
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

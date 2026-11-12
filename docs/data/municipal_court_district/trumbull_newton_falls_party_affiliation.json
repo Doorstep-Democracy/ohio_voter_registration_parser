@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,091 (13%)",
-      "UNC – Lapsed R — 1,265 (8%)",
-      "Mixed – Active — 1,873 (11%)",
-      "Mixed – Lapsed — 1,269 (8%)",
-      "UNC – No Primary — 6,398 (39%)",
-      "UNC – Lapsed D — 2,209 (13%)",
-      "Pure D — 1,415 (9%)"
+      "Pure R — 2,001 (12%)",
+      "UNC – Lapsed R — 1,438 (9%)",
+      "Mixed – Active — 1,834 (11%)",
+      "Mixed – Lapsed — 752 (5%)",
+      "UNC – Non-partisan Ballot — 595 (4%)",
+      "UNC – No Primary — 6,367 (38%)",
+      "UNC – Lapsed D — 2,150 (13%)",
+      "Pure D — 1,436 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          2091,
-          1265,
-          1873,
-          1269,
-          6398,
-          2209,
-          1415
+          2001,
+          1438,
+          1834,
+          752,
+          595,
+          6367,
+          2150,
+          1436
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "NEWTON-FALLS (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

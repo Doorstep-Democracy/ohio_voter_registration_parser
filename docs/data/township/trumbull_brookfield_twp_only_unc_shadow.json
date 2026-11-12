@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 299",
-      "Mixed – Active — 579",
-      "Mixed – Lapsed — 380",
-      "UNC – No Primary — 2,267",
-      "UNC – Lapsed D — 833"
+      "UNC – Lapsed R — 351",
+      "Mixed – Active — 558",
+      "Mixed – Lapsed — 207",
+      "UNC – Non-partisan Ballot — 201",
+      "UNC – No Primary — 2,229",
+      "UNC – Lapsed D — 840"
     ],
     "datasets": [
       {
         "data": [
-          299,
-          579,
-          380,
-          2267,
-          833
+          351,
+          558,
+          207,
+          201,
+          2229,
+          840
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BROOKFIELD TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

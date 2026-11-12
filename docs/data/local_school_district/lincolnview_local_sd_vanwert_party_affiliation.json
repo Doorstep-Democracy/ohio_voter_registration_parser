@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 833 (27%)",
-      "UNC – Lapsed R — 543 (18%)",
-      "Mixed – Active — 174 (6%)",
-      "Mixed – Lapsed — 133 (4%)",
-      "UNC – No Primary — 1,200 (39%)",
-      "UNC – Lapsed D — 115 (4%)",
+      "Pure R — 831 (27%)",
+      "UNC – Lapsed R — 552 (18%)",
+      "Mixed – Active — 173 (6%)",
+      "Mixed – Lapsed — 99 (3%)",
+      "UNC – Non-partisan Ballot — 33 (1%)",
+      "UNC – No Primary — 1,216 (39%)",
+      "UNC – Lapsed D — 117 (4%)",
       "Pure D — 69 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          833,
-          543,
-          174,
-          133,
-          1200,
-          115,
+          831,
+          552,
+          173,
+          99,
+          33,
+          1216,
+          117,
           69
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lincolnview Local Sd (Vanwert Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

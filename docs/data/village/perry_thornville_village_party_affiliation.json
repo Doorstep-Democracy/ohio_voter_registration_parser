@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 194 (27%)",
-      "UNC – Lapsed R — 65 (9%)",
-      "Mixed – Active — 82 (11%)",
-      "Mixed – Lapsed — 49 (7%)",
-      "UNC – No Primary — 233 (32%)",
-      "UNC – Lapsed D — 64 (9%)",
-      "Pure D — 45 (6%)"
+      "Pure R — 173 (23%)",
+      "UNC – Lapsed R — 84 (11%)",
+      "Mixed – Active — 71 (10%)",
+      "Mixed – Lapsed — 40 (5%)",
+      "UNC – Non-partisan Ballot — 21 (3%)",
+      "UNC – No Primary — 239 (32%)",
+      "UNC – Lapsed D — 62 (8%)",
+      "Pure D — 47 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          194,
-          65,
-          82,
-          49,
-          233,
-          64,
-          45
+          173,
+          84,
+          71,
+          40,
+          21,
+          239,
+          62,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "THORNVILLE VILLAGE (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

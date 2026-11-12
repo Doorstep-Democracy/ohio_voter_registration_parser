@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 85 (19%)",
-      "UNC – Lapsed R — 60 (14%)",
-      "Mixed – Active — 35 (8%)",
-      "Mixed – Lapsed — 26 (6%)",
+      "Pure R — 69 (16%)",
+      "UNC – Lapsed R — 78 (18%)",
+      "Mixed – Active — 29 (7%)",
+      "Mixed – Lapsed — 24 (5%)",
+      "UNC – Non-partisan Ballot — 8 (2%)",
       "UNC – No Primary — 193 (44%)",
-      "UNC – Lapsed D — 29 (7%)",
-      "Pure D — 11 (3%)"
+      "UNC – Lapsed D — 24 (5%)",
+      "Pure D — 13 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          85,
-          60,
-          35,
-          26,
-          193,
+          69,
+          78,
           29,
-          11
+          24,
+          8,
+          193,
+          24,
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "OHIO CITY VILLAGE (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 222 (17%)",
-      "UNC – Lapsed R — 237 (18%)",
-      "Mixed – Active — 97 (7%)",
-      "Mixed – Lapsed — 76 (6%)",
-      "UNC – No Primary — 542 (41%)",
-      "UNC – Lapsed D — 98 (7%)",
-      "Pure D — 43 (3%)"
+      "Pure R — 221 (17%)",
+      "UNC – Lapsed R — 238 (18%)",
+      "Mixed – Active — 96 (7%)",
+      "Mixed – Lapsed — 70 (5%)",
+      "UNC – Non-partisan Ballot — 5 (0%)",
+      "UNC – No Primary — 551 (42%)",
+      "UNC – Lapsed D — 99 (7%)",
+      "Pure D — 42 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          222,
-          237,
-          97,
-          76,
-          542,
-          98,
-          43
+          221,
+          238,
+          96,
+          70,
+          5,
+          551,
+          99,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WINDSOR TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-11"
 }

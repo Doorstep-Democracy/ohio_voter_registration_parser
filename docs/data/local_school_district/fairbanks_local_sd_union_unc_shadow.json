@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 765",
-      "Mixed – Active — 501",
-      "Mixed – Lapsed — 339",
-      "UNC – No Primary — 1,757",
-      "UNC – Lapsed D — 266"
+      "UNC – Lapsed R — 784",
+      "Mixed – Active — 494",
+      "Mixed – Lapsed — 173",
+      "UNC – Non-partisan Ballot — 170",
+      "UNC – No Primary — 1,802",
+      "UNC – Lapsed D — 278"
     ],
     "datasets": [
       {
         "data": [
-          765,
-          501,
-          339,
-          1757,
-          266
+          784,
+          494,
+          173,
+          170,
+          1802,
+          278
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Fairbanks Local Sd (Union Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

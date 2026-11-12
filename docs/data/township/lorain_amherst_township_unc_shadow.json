@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 441",
-      "Mixed – Active — 557",
-      "Mixed – Lapsed — 372",
-      "UNC – No Primary — 1,872",
-      "UNC – Lapsed D — 747"
+      "UNC – Lapsed R — 434",
+      "Mixed – Active — 644",
+      "Mixed – Lapsed — 203",
+      "UNC – Non-partisan Ballot — 152",
+      "UNC – No Primary — 1,762",
+      "UNC – Lapsed D — 642"
     ],
     "datasets": [
       {
         "data": [
-          441,
-          557,
-          372,
-          1872,
-          747
+          434,
+          644,
+          203,
+          152,
+          1762,
+          642
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "AMHERST TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

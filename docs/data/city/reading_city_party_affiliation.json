@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 916 (13%)",
-      "UNC – Lapsed R — 717 (10%)",
-      "Mixed – Active — 439 (6%)",
-      "Mixed – Lapsed — 575 (8%)",
-      "UNC – No Primary — 3,525 (48%)",
-      "UNC – Lapsed D — 800 (11%)",
-      "Pure D — 341 (5%)"
+      "Pure R — 1,091 (15%)",
+      "UNC – Lapsed R — 676 (9%)",
+      "Mixed – Active — 531 (7%)",
+      "Mixed – Lapsed — 211 (3%)",
+      "UNC – Non-partisan Ballot — 433 (6%)",
+      "UNC – No Primary — 3,190 (43%)",
+      "UNC – Lapsed D — 665 (9%)",
+      "Pure D — 565 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          916,
-          717,
-          439,
-          575,
-          3525,
-          800,
-          341
+          1091,
+          676,
+          531,
+          211,
+          433,
+          3190,
+          665,
+          565
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "READING CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

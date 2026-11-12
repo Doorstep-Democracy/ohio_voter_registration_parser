@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,595 (15%)",
-      "UNC – Lapsed R — 1,396 (13%)",
-      "Mixed – Active — 1,060 (10%)",
-      "Mixed – Lapsed — 1,068 (10%)",
-      "UNC – No Primary — 3,496 (33%)",
-      "UNC – Lapsed D — 1,091 (10%)",
-      "Pure D — 993 (9%)"
+      "Pure R — 1,578 (15%)",
+      "UNC – Lapsed R — 1,417 (13%)",
+      "Mixed – Active — 1,048 (10%)",
+      "Mixed – Lapsed — 518 (5%)",
+      "UNC – Non-partisan Ballot — 553 (5%)",
+      "UNC – No Primary — 3,649 (34%)",
+      "UNC – Lapsed D — 1,105 (10%)",
+      "Pure D — 988 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1595,
-          1396,
-          1060,
-          1068,
-          3496,
-          1091,
-          993
+          1578,
+          1417,
+          1048,
+          518,
+          553,
+          3649,
+          1105,
+          988
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "GRANVILLE EX VILL SD (LICKING)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Granville Ex Vill Sd (Licking Co.)",
+  "updated": "2026-11-11"
 }

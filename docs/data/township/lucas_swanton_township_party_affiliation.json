@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 239 (13%)",
-      "UNC – Lapsed R — 157 (9%)",
-      "Mixed – Active — 146 (8%)",
-      "Mixed – Lapsed — 161 (9%)",
-      "UNC – No Primary — 735 (40%)",
-      "UNC – Lapsed D — 238 (13%)",
-      "Pure D — 160 (9%)"
+      "Pure R — 221 (12%)",
+      "UNC – Lapsed R — 189 (10%)",
+      "Mixed – Active — 149 (8%)",
+      "Mixed – Lapsed — 72 (4%)",
+      "UNC – Non-partisan Ballot — 78 (4%)",
+      "UNC – No Primary — 729 (40%)",
+      "UNC – Lapsed D — 219 (12%)",
+      "Pure D — 183 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          239,
-          157,
-          146,
-          161,
-          735,
-          238,
-          160
+          221,
+          189,
+          149,
+          72,
+          78,
+          729,
+          219,
+          183
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SWANTON TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

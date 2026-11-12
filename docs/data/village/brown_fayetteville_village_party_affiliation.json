@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 55 (24%)",
-      "UNC – Lapsed R — 29 (12%)",
-      "Mixed – Active — 19 (8%)",
-      "Mixed – Lapsed — 14 (6%)",
+      "Pure R — 59 (26%)",
+      "UNC – Lapsed R — 25 (11%)",
+      "Mixed – Active — 21 (9%)",
+      "Mixed – Lapsed — 12 (5%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
       "UNC – No Primary — 70 (30%)",
-      "UNC – Lapsed D — 28 (12%)",
-      "Pure D — 17 (7%)"
+      "UNC – Lapsed D — 23 (10%)",
+      "Pure D — 19 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          55,
-          29,
-          19,
-          14,
+          59,
+          25,
+          21,
+          12,
+          1,
           70,
-          28,
-          17
+          23,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FAYETTEVILLE VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-11"
 }

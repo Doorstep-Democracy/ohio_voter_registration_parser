@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          5,
+          4,
           106,
-          265,
+          257,
           437,
-          362,
-          151,
-          104,
-          48,
-          28
+          357,
+          148,
+          107,
+          50,
+          27
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          15,
-          88,
-          176,
-          328,
+          12,
+          87,
+          178,
+          327,
           486,
           395,
-          392,
-          202,
-          41
+          395,
+          204,
+          42
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           3,
-          38,
-          158,
-          251,
-          180,
-          86,
           37,
+          156,
+          250,
+          177,
+          85,
+          38,
           16,
           1
         ],
@@ -66,30 +66,46 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          46,
-          116,
-          207,
-          207,
-          320,
-          210,
-          61,
-          36
+          42,
+          97,
+          161,
+          138,
+          127,
+          77,
+          19,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          5,
+          18,
+          47,
+          65,
+          193,
+          135,
+          44,
+          34
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           5,
-          35,
-          89,
-          184,
-          329,
-          574,
-          733,
-          939,
-          1115
+          34,
+          91,
+          186,
+          331,
+          576,
+          755,
+          960,
+          1204
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +114,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          40,
-          74,
-          136,
-          174,
-          211,
-          226,
-          170,
+          41,
+          73,
+          137,
+          176,
+          214,
+          231,
+          168,
           53
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           3,
-          23,
+          24,
           107,
-          166,
+          162,
           97,
           112,
           86,
-          61,
-          57
+          60,
+          56
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "INDIAN HILL EX VILL SD (HAMILTON)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Indian Hill Ex Vill Sd (Hamilton Co.)",
+  "updated": "2026-11-11"
 }

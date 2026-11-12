@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 49 (16%)",
-      "UNC – Lapsed R — 34 (11%)",
+      "Pure R — 47 (15%)",
+      "UNC – Lapsed R — 39 (12%)",
       "Mixed – Active — 35 (11%)",
-      "Mixed – Lapsed — 34 (11%)",
-      "UNC – No Primary — 123 (40%)",
-      "UNC – Lapsed D — 29 (9%)",
-      "Pure D — 6 (2%)"
+      "Mixed – Lapsed — 12 (4%)",
+      "UNC – Non-partisan Ballot — 24 (8%)",
+      "UNC – No Primary — 122 (39%)",
+      "UNC – Lapsed D — 27 (9%)",
+      "Pure D — 8 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          49,
-          34,
+          47,
+          39,
           35,
-          34,
-          123,
-          29,
-          6
+          12,
+          24,
+          122,
+          27,
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "KIRKERSVILLE VILLAGE (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

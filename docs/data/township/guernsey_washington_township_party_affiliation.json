@@ -3,22 +3,24 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 50 (23%)",
-      "UNC – Lapsed R — 28 (13%)",
-      "Mixed – Active — 29 (13%)",
-      "Mixed – Lapsed — 13 (6%)",
-      "UNC – No Primary — 82 (38%)",
+      "Pure R — 44 (20%)",
+      "UNC – Lapsed R — 34 (15%)",
+      "Mixed – Active — 20 (9%)",
+      "Mixed – Lapsed — 18 (8%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 87 (39%)",
       "UNC – Lapsed D — 6 (3%)",
       "Pure D — 9 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          50,
-          28,
-          29,
-          13,
-          82,
+          44,
+          34,
+          20,
+          18,
+          4,
+          87,
           6,
           9
         ],
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

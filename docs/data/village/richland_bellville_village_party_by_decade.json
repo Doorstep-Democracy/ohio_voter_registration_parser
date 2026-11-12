@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          24,
-          90,
-          100,
-          63,
-          56,
-          41,
-          25,
-          16
+          0,
+          18,
+          91,
+          98,
+          61,
+          54,
+          37,
+          27,
+          14
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          10,
-          19,
-          29,
-          29,
-          46,
-          39,
-          21,
-          3
+          1,
+          11,
+          18,
+          33,
+          37,
+          50,
+          41,
+          23,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          10,
-          33,
+          9,
+          35,
+          27,
           25,
-          24,
-          12,
-          15,
-          2,
+          14,
+          9,
+          1,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -66,29 +66,45 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          4,
+          8,
+          4,
+          8,
           6,
-          13,
-          18,
-          23,
-          13,
-          14,
-          6,
+          9,
+          1,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          4,
+          10,
+          13,
+          8,
+          12,
+          4,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
           0,
-          2,
+          1,
           23,
-          30,
-          39,
-          47,
-          81,
-          105,
+          24,
+          41,
+          41,
+          79,
+          100,
           113
         ],
         "backgroundColor": "#9ca3af",
@@ -100,10 +116,10 @@
           0,
           5,
           9,
-          16,
-          19,
-          15,
+          13,
           17,
+          13,
+          14,
           5,
           0
         ],
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          4,
-          15,
-          19,
-          11,
-          2,
+          3,
+          14,
+          24,
+          16,
+          7,
+          9,
           5,
-          2,
-          3
+          6
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "BELLVILLE VILLAGE (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

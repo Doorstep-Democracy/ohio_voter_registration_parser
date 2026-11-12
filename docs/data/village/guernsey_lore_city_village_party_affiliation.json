@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 27 (16%)",
-      "UNC – Lapsed R — 18 (11%)",
-      "Mixed – Active — 17 (10%)",
-      "Mixed – Lapsed — 14 (8%)",
-      "UNC – No Primary — 65 (39%)",
-      "UNC – Lapsed D — 14 (8%)",
-      "Pure D — 11 (7%)"
+      "Pure R — 24 (14%)",
+      "UNC – Lapsed R — 22 (13%)",
+      "Mixed – Active — 19 (11%)",
+      "Mixed – Lapsed — 6 (4%)",
+      "UNC – Non-partisan Ballot — 6 (4%)",
+      "UNC – No Primary — 62 (37%)",
+      "UNC – Lapsed D — 12 (7%)",
+      "Pure D — 16 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          27,
-          18,
-          17,
-          14,
-          65,
-          14,
-          11
+          24,
+          22,
+          19,
+          6,
+          6,
+          62,
+          12,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LORE CITY VILLAGE (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

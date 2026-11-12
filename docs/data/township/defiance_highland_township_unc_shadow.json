@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 170",
-      "Mixed – Active — 201",
-      "Mixed – Lapsed — 96",
-      "UNC – No Primary — 447",
-      "UNC – Lapsed D — 107"
+      "UNC – Lapsed R — 334",
+      "Mixed – Active — 147",
+      "Mixed – Lapsed — 97",
+      "UNC – Non-partisan Ballot — 47",
+      "UNC – No Primary — 454",
+      "UNC – Lapsed D — 123"
     ],
     "datasets": [
       {
         "data": [
-          170,
-          201,
-          96,
-          447,
-          107
+          334,
+          147,
+          97,
+          47,
+          454,
+          123
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HIGHLAND TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

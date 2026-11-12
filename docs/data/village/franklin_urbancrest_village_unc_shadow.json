@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 11",
+      "UNC – Lapsed R — 9",
       "Mixed – Active — 10",
-      "Mixed – Lapsed — 23",
-      "UNC – No Primary — 362",
-      "UNC – Lapsed D — 92"
+      "Mixed – Lapsed — 8",
+      "UNC – Non-partisan Ballot — 10",
+      "UNC – No Primary — 355",
+      "UNC – Lapsed D — 77"
     ],
     "datasets": [
       {
         "data": [
-          11,
+          9,
           10,
-          23,
-          362,
-          92
+          8,
+          10,
+          355,
+          77
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "URBANCREST VILLAGE (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

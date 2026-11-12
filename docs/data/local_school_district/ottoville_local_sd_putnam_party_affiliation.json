@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 465 (24%)",
-      "UNC – Lapsed R — 306 (16%)",
+      "Pure R — 463 (24%)",
+      "UNC – Lapsed R — 300 (16%)",
       "Mixed – Active — 269 (14%)",
-      "Mixed – Lapsed — 95 (5%)",
-      "UNC – No Primary — 622 (32%)",
-      "UNC – Lapsed D — 126 (7%)",
+      "Mixed – Lapsed — 80 (4%)",
+      "UNC – Non-partisan Ballot — 17 (1%)",
+      "UNC – No Primary — 628 (32%)",
+      "UNC – Lapsed D — 125 (6%)",
       "Pure D — 53 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          465,
-          306,
+          463,
+          300,
           269,
-          95,
-          622,
-          126,
+          80,
+          17,
+          628,
+          125,
           53
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Ottoville Local Sd (Putnam Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

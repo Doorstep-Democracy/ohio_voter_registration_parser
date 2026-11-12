@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,326",
-      "Mixed – Active — 1,290",
-      "Mixed – Lapsed — 1,077",
-      "UNC – No Primary — 9,943",
-      "UNC – Lapsed D — 2,565"
+      "UNC – Lapsed R — 1,583",
+      "Mixed – Active — 1,255",
+      "Mixed – Lapsed — 592",
+      "UNC – Non-partisan Ballot — 535",
+      "UNC – No Primary — 9,917",
+      "UNC – Lapsed D — 2,440"
     ],
     "datasets": [
       {
         "data": [
-          1326,
-          1290,
-          1077,
-          9943,
-          2565
+          1583,
+          1255,
+          592,
+          535,
+          9917,
+          2440
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "MANSFIELD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

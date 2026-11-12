@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 474 (13%)",
-      "UNC – Lapsed R — 313 (9%)",
-      "Mixed – Active — 384 (10%)",
-      "Mixed – Lapsed — 313 (9%)",
-      "UNC – No Primary — 1,265 (34%)",
-      "UNC – Lapsed D — 522 (14%)",
-      "Pure D — 404 (11%)"
+      "Pure R — 412 (11%)",
+      "UNC – Lapsed R — 382 (10%)",
+      "Mixed – Active — 374 (10%)",
+      "Mixed – Lapsed — 202 (5%)",
+      "UNC – Non-partisan Ballot — 123 (3%)",
+      "UNC – No Primary — 1,282 (34%)",
+      "UNC – Lapsed D — 489 (13%)",
+      "Pure D — 459 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          474,
-          313,
-          384,
-          313,
-          1265,
-          522,
-          404
+          412,
+          382,
+          374,
+          202,
+          123,
+          1282,
+          489,
+          459
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MUNROE FALLS CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

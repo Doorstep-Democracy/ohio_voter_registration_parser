@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 197",
-      "Mixed – Active — 157",
-      "Mixed – Lapsed — 133",
-      "UNC – No Primary — 573",
-      "UNC – Lapsed D — 107"
+      "UNC – Lapsed R — 251",
+      "Mixed – Active — 128",
+      "Mixed – Lapsed — 110",
+      "UNC – Non-partisan Ballot — 50",
+      "UNC – No Primary — 562",
+      "UNC – Lapsed D — 110"
     ],
     "datasets": [
       {
         "data": [
-          197,
-          157,
-          133,
-          573,
-          107
+          251,
+          128,
+          110,
+          50,
+          562,
+          110
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DUBLIN TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

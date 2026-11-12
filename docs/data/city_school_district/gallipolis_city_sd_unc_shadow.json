@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,006",
-      "Mixed – Active — 887",
-      "Mixed – Lapsed — 358",
-      "UNC – No Primary — 3,500",
-      "UNC – Lapsed D — 640"
+      "UNC – Lapsed R — 1,182",
+      "Mixed – Active — 891",
+      "Mixed – Lapsed — 352",
+      "UNC – Non-partisan Ballot — 40",
+      "UNC – No Primary — 3,458",
+      "UNC – Lapsed D — 604"
     ],
     "datasets": [
       {
         "data": [
-          1006,
-          887,
-          358,
-          3500,
-          640
+          1182,
+          891,
+          352,
+          40,
+          3458,
+          604
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "GALLIPOLIS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

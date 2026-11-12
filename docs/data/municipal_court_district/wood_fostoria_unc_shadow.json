@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 51",
-      "Mixed – Active — 55",
-      "Mixed – Lapsed — 43",
-      "UNC – No Primary — 291",
-      "UNC – Lapsed D — 76"
+      "UNC – Lapsed R — 55",
+      "Mixed – Active — 51",
+      "Mixed – Lapsed — 24",
+      "UNC – Non-partisan Ballot — 20",
+      "UNC – No Primary — 297",
+      "UNC – Lapsed D — 66"
     ],
     "datasets": [
       {
         "data": [
-          51,
           55,
-          43,
-          291,
-          76
+          51,
+          24,
+          20,
+          297,
+          66
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "FOSTORIA (Wood Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

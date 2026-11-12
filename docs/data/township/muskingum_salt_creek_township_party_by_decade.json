@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          4,
+          2,
+          22,
+          29,
+          39,
           21,
-          30,
-          41,
-          17,
-          20,
-          14,
-          4
+          12,
+          13,
+          2
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           6,
-          7,
-          14,
+          6,
+          15,
           34,
-          29,
-          16,
-          17,
-          1
+          26,
+          24,
+          19,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,11 +46,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          16,
-          17,
-          9,
-          4,
+          0,
+          11,
+          18,
+          12,
+          5,
           5,
           0,
           0
@@ -61,29 +61,44 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          0,
-          8,
-          16,
-          21,
           2,
-          4,
-          5
+          5,
+          7,
+          13,
+          13,
+          1,
+          1,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          2,
+          6,
+          2,
+          3,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
+          3,
           4,
-          6,
-          29,
-          42,
+          27,
+          40,
           50,
-          54,
-          85,
-          76
+          55,
+          84,
+          82
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -91,13 +106,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
+          2,
           8,
-          16,
-          11,
-          15,
-          12,
-          3,
+          19,
+          9,
+          13,
+          9,
+          4,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -106,22 +121,22 @@
       {
         "label": "Pure D",
         "data": [
-          1,
+          0,
           2,
-          7,
           4,
-          1,
-          1,
-          1,
-          1
+          8,
+          3,
+          3,
+          0,
+          4
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALT CREEK TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

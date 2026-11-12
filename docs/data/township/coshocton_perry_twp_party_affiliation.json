@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 92 (21%)",
-      "UNC – Lapsed R — 66 (15%)",
-      "Mixed – Active — 48 (11%)",
-      "Mixed – Lapsed — 28 (6%)",
-      "UNC – No Primary — 157 (36%)",
+      "Pure R — 96 (22%)",
+      "UNC – Lapsed R — 68 (16%)",
+      "Mixed – Active — 47 (11%)",
+      "Mixed – Lapsed — 18 (4%)",
+      "UNC – Non-partisan Ballot — 10 (2%)",
+      "UNC – No Primary — 148 (35%)",
       "UNC – Lapsed D — 31 (7%)",
-      "Pure D — 11 (3%)"
+      "Pure D — 10 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          92,
-          66,
-          48,
-          28,
-          157,
+          96,
+          68,
+          47,
+          18,
+          10,
+          148,
           31,
-          11
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PERRY TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

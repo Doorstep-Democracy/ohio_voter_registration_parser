@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 310 (9%)",
-      "UNC – Lapsed R — 258 (8%)",
-      "Mixed – Active — 229 (7%)",
-      "Mixed – Lapsed — 385 (11%)",
-      "UNC – No Primary — 1,416 (41%)",
-      "UNC – Lapsed D — 586 (17%)",
-      "Pure D — 252 (7%)"
+      "Pure R — 343 (10%)",
+      "UNC – Lapsed R — 246 (7%)",
+      "Mixed – Active — 256 (7%)",
+      "Mixed – Lapsed — 132 (4%)",
+      "UNC – Non-partisan Ballot — 205 (6%)",
+      "UNC – No Primary — 1,355 (39%)",
+      "UNC – Lapsed D — 460 (13%)",
+      "Pure D — 460 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          310,
-          258,
-          229,
-          385,
-          1416,
-          586,
-          252
+          343,
+          246,
+          256,
+          132,
+          205,
+          1355,
+          460,
+          460
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "REMINDERVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

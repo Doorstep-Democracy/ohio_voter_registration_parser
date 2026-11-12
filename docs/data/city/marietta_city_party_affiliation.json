@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 974 (12%)",
-      "UNC – Lapsed R — 616 (8%)",
-      "Mixed – Active — 836 (10%)",
-      "Mixed – Lapsed — 543 (7%)",
-      "UNC – No Primary — 3,705 (46%)",
-      "UNC – Lapsed D — 898 (11%)",
-      "Pure D — 482 (6%)"
+      "Pure R — 973 (12%)",
+      "UNC – Lapsed R — 672 (8%)",
+      "Mixed – Active — 873 (11%)",
+      "Mixed – Lapsed — 345 (4%)",
+      "UNC – Non-partisan Ballot — 184 (2%)",
+      "UNC – No Primary — 3,691 (45%)",
+      "UNC – Lapsed D — 781 (10%)",
+      "Pure D — 656 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          974,
-          616,
-          836,
-          543,
-          3705,
-          898,
-          482
+          973,
+          672,
+          873,
+          345,
+          184,
+          3691,
+          781,
+          656
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MARIETTA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-11"
 }

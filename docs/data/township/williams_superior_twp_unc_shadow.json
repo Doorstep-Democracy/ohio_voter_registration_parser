@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 160",
-      "Mixed – Active — 100",
-      "Mixed – Lapsed — 71",
-      "UNC – No Primary — 268",
-      "UNC – Lapsed D — 43"
+      "UNC – Lapsed R — 176",
+      "Mixed – Active — 99",
+      "Mixed – Lapsed — 55",
+      "UNC – Non-partisan Ballot — 16",
+      "UNC – No Primary — 264",
+      "UNC – Lapsed D — 35"
     ],
     "datasets": [
       {
         "data": [
-          160,
-          100,
-          71,
-          268,
-          43
+          176,
+          99,
+          55,
+          16,
+          264,
+          35
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SUPERIOR TWP (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

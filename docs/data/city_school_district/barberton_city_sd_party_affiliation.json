@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 774 (5%)",
-      "UNC – Lapsed R — 831 (6%)",
-      "Mixed – Active — 1,854 (12%)",
-      "Mixed – Lapsed — 842 (6%)",
-      "UNC – No Primary — 6,382 (42%)",
-      "UNC – Lapsed D — 2,025 (13%)",
-      "Pure D — 2,332 (16%)"
+      "Pure R — 929 (6%)",
+      "UNC – Lapsed R — 810 (5%)",
+      "Mixed – Active — 1,775 (12%)",
+      "Mixed – Lapsed — 728 (5%)",
+      "UNC – Non-partisan Ballot — 313 (2%)",
+      "UNC – No Primary — 6,305 (42%)",
+      "UNC – Lapsed D — 2,561 (17%)",
+      "Pure D — 1,734 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          774,
-          831,
-          1854,
-          842,
-          6382,
-          2025,
-          2332
+          929,
+          810,
+          1775,
+          728,
+          313,
+          6305,
+          2561,
+          1734
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "BARBERTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

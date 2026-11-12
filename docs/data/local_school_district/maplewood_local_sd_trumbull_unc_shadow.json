@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 331",
-      "Mixed – Active — 504",
-      "Mixed – Lapsed — 257",
-      "UNC – No Primary — 1,078",
-      "UNC – Lapsed D — 399"
+      "UNC – Lapsed R — 330",
+      "Mixed – Active — 502",
+      "Mixed – Lapsed — 136",
+      "UNC – Non-partisan Ballot — 118",
+      "UNC – No Primary — 1,104",
+      "UNC – Lapsed D — 397"
     ],
     "datasets": [
       {
         "data": [
-          331,
-          504,
-          257,
-          1078,
-          399
+          330,
+          502,
+          136,
+          118,
+          1104,
+          397
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Maplewood Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }

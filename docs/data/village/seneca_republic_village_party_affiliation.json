@@ -3,23 +3,25 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 69 (19%)",
-      "UNC – Lapsed R — 43 (12%)",
+      "Pure R — 50 (14%)",
+      "UNC – Lapsed R — 71 (20%)",
       "Mixed – Active — 43 (12%)",
-      "Mixed – Lapsed — 16 (4%)",
-      "UNC – No Primary — 152 (42%)",
-      "UNC – Lapsed D — 27 (8%)",
-      "Pure D — 9 (3%)"
+      "Mixed – Lapsed — 10 (3%)",
+      "UNC – Non-partisan Ballot — 7 (2%)",
+      "UNC – No Primary — 147 (41%)",
+      "UNC – Lapsed D — 24 (7%)",
+      "Pure D — 9 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          69,
+          50,
+          71,
           43,
-          43,
-          16,
-          152,
-          27,
+          10,
+          7,
+          147,
+          24,
           9
         ],
         "backgroundColor": [
@@ -27,6 +29,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "REPUBLIC VILLAGE (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

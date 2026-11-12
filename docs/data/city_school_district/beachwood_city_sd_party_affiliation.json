@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 285 (3%)",
-      "UNC – Lapsed R — 390 (4%)",
-      "Mixed – Active — 1,260 (13%)",
-      "Mixed – Lapsed — 819 (8%)",
-      "UNC – No Primary — 3,453 (34%)",
-      "UNC – Lapsed D — 1,731 (17%)",
-      "Pure D — 2,117 (21%)"
+      "Pure R — 236 (2%)",
+      "UNC – Lapsed R — 451 (4%)",
+      "Mixed – Active — 1,010 (10%)",
+      "Mixed – Lapsed — 754 (7%)",
+      "UNC – Non-partisan Ballot — 298 (3%)",
+      "UNC – No Primary — 3,486 (34%)",
+      "UNC – Lapsed D — 1,975 (19%)",
+      "Pure D — 1,958 (19%)"
     ],
     "datasets": [
       {
         "data": [
-          285,
-          390,
-          1260,
-          819,
-          3453,
-          1731,
-          2117
+          236,
+          451,
+          1010,
+          754,
+          298,
+          3486,
+          1975,
+          1958
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "BEACHWOOD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-11"
 }

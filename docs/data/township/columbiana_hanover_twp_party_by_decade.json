@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          19,
+          15,
+          58,
+          150,
+          96,
+          81,
           66,
-          155,
-          105,
-          87,
-          66,
-          40,
-          28
+          34,
+          27
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          4,
-          17,
-          37,
-          56,
-          46,
-          48,
+          6,
           26,
-          3
+          40,
+          62,
+          51,
+          52,
+          35,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,11 +50,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          8,
-          54,
-          87,
-          66,
-          34,
+          7,
+          50,
+          88,
+          61,
+          32,
           23,
           4,
           0
@@ -66,16 +66,32 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          4,
+          27,
+          26,
+          26,
+          24,
+          15,
           7,
-          29,
-          42,
-          32,
-          30,
-          34,
-          16,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          6,
+          16,
+          10,
+          8,
+          19,
+          9,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +100,12 @@
           0,
           2,
           16,
-          60,
+          61,
           105,
-          137,
-          139,
+          132,
+          140,
           191,
-          195
+          201
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,12 +114,12 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          4,
+          5,
           21,
-          48,
-          39,
-          33,
-          25,
+          44,
+          43,
+          34,
+          23,
           5,
           1
         ],
@@ -114,22 +130,22 @@
         "label": "Pure D",
         "data": [
           0,
-          2,
-          16,
-          20,
-          25,
-          9,
+          1,
+          14,
+          24,
+          24,
+          12,
           7,
-          2,
-          2
+          3,
+          6
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HANOVER TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-11"
 }

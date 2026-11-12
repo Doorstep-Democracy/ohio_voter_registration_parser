@@ -3,30 +3,33 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 358 (10%)",
-      "UNC – Lapsed R — 216 (6%)",
-      "Mixed – Active — 590 (17%)",
-      "Mixed – Lapsed — 254 (7%)",
-      "UNC – No Primary — 1,289 (37%)",
-      "UNC – Lapsed D — 467 (13%)",
-      "Pure D — 335 (10%)"
+      "Pure R — 356 (10%)",
+      "UNC – Lapsed R — 215 (6%)",
+      "Mixed – Active — 587 (17%)",
+      "Mixed – Lapsed — 146 (4%)",
+      "UNC – Non-partisan Ballot — 108 (3%)",
+      "UNC – No Primary — 1,334 (38%)",
+      "UNC – Lapsed D — 463 (13%)",
+      "Pure D — 332 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          358,
-          216,
-          590,
-          254,
-          1289,
-          467,
-          335
+          356,
+          215,
+          587,
+          146,
+          108,
+          1334,
+          463,
+          332
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +37,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-11 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Shadyside Local Sd (Belmont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-11"
 }
