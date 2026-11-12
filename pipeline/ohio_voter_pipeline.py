@@ -643,6 +643,40 @@ def main(args: argparse.Namespace | None = None):
         _dispatch(choice, txt_files, include_precincts, county_nums)
 
 
+def _build_maps(logger, include_precincts: bool) -> None:
+    """
+    Rebuild the landing-map GeoJSON layers in docs/data/state_map/ from the
+    party JSON this run just wrote. The layers bake in lean and total_voters,
+    so a run that skips this leaves the map on an older snapshot (evaluation
+    M5). Reads only docs/data/, docs/manifest.json and local/source/Geo/.
+
+    The Montgomery precinct layers join the per-precinct party files, so they
+    are rebuilt only when this run wrote those files; otherwise they keep
+    their old stamp and the vintage gate reports them.
+
+    Each builder runs as a subprocess, which keeps geopandas out of the
+    pipeline's address space. A builder whose gates fail exits non-zero, and
+    that raises here.
+    """
+    import os
+    import subprocess
+    # UTF-8 both ways and errors='replace': a stray non-ASCII byte from a
+    # builder must not raise at the very end of a multi-hour run.
+    env = {**os.environ, 'PYTHONIOENCODING': 'utf-8'}
+    builders = [BASE_DIR / 'tools' / 'admin' / 'build_state_map.py']
+    if include_precincts:
+        builders.append(BASE_DIR / 'tools' / 'admin' / 'build_precinct_map.py')
+    for script in builders:
+        res = subprocess.run([sys.executable, str(script)], cwd=BASE_DIR, env=env,
+                             capture_output=True, text=True, encoding='utf-8',
+                             errors='replace')
+        for line in (res.stdout + res.stderr).splitlines():
+            logger.info('[maps] %s', line)
+        if res.returncode != 0:
+            raise RuntimeError(f'{script.name} failed (exit {res.returncode}); '
+                               f'see the [maps] lines above')
+
+
 def _dispatch(
     choice:            str,
     txt_files:         list[Path],
@@ -651,7 +685,8 @@ def _dispatch(
 ):
     """Route the user's menu choice to the appropriate analysis functions.
 
-    "1" — Full rebuild: county/precinct JSON then all 12 jurisdictional groupings.
+    "1" — Full rebuild: county/precinct JSON then all 12 jurisdictional groupings,
+          narratives, and the landing-map layers.
     "2" — Same as "1" plus an Excel workbook export.
     "3" — Counties + precincts only; jurisdictional groupings not run.
     "4" — Jurisdictional groupings only (all 12 types); county rebuild skipped.
@@ -709,6 +744,10 @@ def _dispatch(
 
         # Cross-county city map — inverts the freshly-written precinct indexes.
         _build_city_county_map(logger=_log)
+
+        # Landing-map layers: last, because they bake in the county, district
+        # and precinct party JSON written above and the manifest's snapshot.
+        _build_maps(logger=_log, include_precincts=include_precincts)
 
     elif choice == "3":
         # Counties + precincts only — identical to the county pass in option 1

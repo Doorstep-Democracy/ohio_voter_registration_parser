@@ -17,9 +17,6 @@ from pipeline.cohort_lean import COHORT_SIDE, cohort_sides, normalize_label
 ROOT = Path(__file__).resolve().parent.parent.parent
 V2_JS = ROOT / "docs" / "assets" / "v2.js"
 DOCS_DATA = ROOT / "docs" / "data"
-# The statewide file predates the cohort taxonomy (UNC/REP/DEM) and is not read for lean;
-# replacing it is tracked separately.
-STATEWIDE_PARTY = DOCS_DATA / "ohio_(statewide)_party_affiliation.json"
 
 
 def _chart(pairs):
@@ -186,9 +183,9 @@ def test_every_published_party_chart_uses_canonical_cohorts():
         pytest.skip("docs/data not present")
     expected = set(COHORT_SIDE)
     stale = {}
+    # Includes ohio_(statewide)_party_affiliation.json: since 2026-11-12 the full
+    # rebuild writes it with export_json, like a county.
     for p in DOCS_DATA.rglob("*party_affiliation.json"):
-        if p == STATEWIDE_PARTY:
-            continue
         labels = json.loads(p.read_text(encoding="utf-8"))["chartConfig"]["labels"]
         if {normalize_label(l) for l in labels} != expected or len(labels) != len(expected):
             level = p.relative_to(DOCS_DATA).parts[0] if p.parent != DOCS_DATA else "(root)"
