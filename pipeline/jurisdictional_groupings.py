@@ -44,12 +44,6 @@ try:
     import orjson as _orjson
 except ImportError:
     _orjson = None
-try:
-    import psutil as _psutil
-    _psutil_proc = _psutil.Process()
-except ImportError:
-    _psutil = None
-    _psutil_proc = None
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1181,8 +1175,8 @@ def main(
     elapsed = time.time() - start_time
     logger.info(f'Done in {elapsed:.1f}s')
 
-    if _psutil_proc:
-        logger.info(f'Peak RSS: {_psutil_proc.memory_info().rss / 1e9:.2f} GB')
+    # A reading at the end of the run, not a peak (see _memory_line).
+    logger.info('Memory at end: %s', _v2._memory_line())
 
     return True
 

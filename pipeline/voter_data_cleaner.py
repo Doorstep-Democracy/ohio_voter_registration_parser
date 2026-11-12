@@ -64,12 +64,10 @@ try:
     import orjson as _orjson
 except ImportError:
     _orjson = None
-try:
-    import psutil as _psutil
-    _psutil_proc = _psutil.Process()
-except ImportError:
-    _psutil = None
-    _psutil_proc = None
+# psutil is a declared dependency and a hard import: stage memory lines are
+# the evidence for OPEN-001, and must fail loudly rather than go missing.
+import psutil as _psutil
+_psutil_proc = _psutil.Process()
 import logging
 import re
 import sys
@@ -101,6 +99,8 @@ from paths import (  # noqa: E402,F401
     DOCS_DIR,
     ENRICHED_CACHE,
     LOGS_DIR,
+    OUTPUT_ENV_VAR,
+    OUTPUT_OVERRIDDEN,
     PARQUET_DIR,
     PARQUET_ENRICHED_DIR,
     parquet_glob,
@@ -419,9 +419,11 @@ def enable_crash_log(log_path: Path, logger: logging.Logger) -> None:
 
 
 def log_run_context(logger: logging.Logger) -> None:
-    """Record what produced this run: process, interpreter, libraries, code, memory.
+    """Record what produced this run: process, interpreter, libraries, code, memory, output root.
 
     See the logging policy in setup_logging() for why each item is here.
+    The output-root line states whether ELECTION_DATA_OUT redirected this run;
+    it is the first thing to check when output lands somewhere unexpected.
     """
     import os
     import subprocess
@@ -439,12 +441,11 @@ def log_run_context(logger: logging.Logger) -> None:
     else:
         logger.info('Run context: git commit not recorded (%s)',
                     (sha.stderr or branch.stderr).strip()[:200])
-    if _psutil is not None:
-        vm = _psutil.virtual_memory()
-        logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
-                    vm.total / 1e9, vm.available / 1e9)
-    else:
-        logger.info('Run context: psutil not installed; RAM not recorded')
+    vm = _psutil.virtual_memory()
+    logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
+                vm.total / 1e9, vm.available / 1e9)
+    logger.info('Run context: output root %s (%s)', DOCS_DIR,
+                f'{OUTPUT_ENV_VAR} override' if OUTPUT_OVERRIDDEN else 'default, the published tree')
 
 
 def setup_logging(run_label: str = '') -> logging.Logger:
@@ -519,9 +520,31 @@ def setup_logging(run_label: str = '') -> logging.Logger:
     return logger
 
 
+def _memory_line() -> str:
+    """Process and system memory for one log line, in MB, from psutil only.
+
+    RSS   resident set: physical pages this process holds now.
+    VMS   virtual size. On Windows psutil reports pagefile-backed private
+          commit here, the figure the commit limit applies to. OPEN-001
+          incident 2 failed on commit while RSS still fit, so RSS alone
+          does not show that failure coming.
+    avail system memory obtainable without paging, the number a memory
+          budget is measured against.
+
+    A point-in-time reading at the moment of the call, not a peak: memory
+    freed inside a stage is not visible here. The allocator can also keep
+    freed pages, so RSS may not fall after a large frame is released.
+    """
+    mem = _psutil_proc.memory_info()
+    avail = _psutil.virtual_memory().available
+    return (f'RSS={mem.rss / 1_048_576:,.0f} MB  VMS={mem.vms / 1_048_576:,.0f} MB  '
+            f'avail={avail / 1_048_576:,.0f} MB')
+
+
 def _timer(logger: logging.Logger, step: str):
     """
-    Context manager that logs how long a labelled step took.
+    Context manager that logs how long a labelled step took and the memory
+    reading at its end (_memory_line), on success and on failure.
 
     Usage:
         with _timer(log, "loading voter files"):
@@ -534,18 +557,12 @@ def _timer(logger: logging.Logger, step: str):
             return self
         def __exit__(self, exc_type, exc_val, exc_tb):
             elapsed = time.perf_counter() - self._start
-            rss_str = ''
-            if _psutil_proc is not None:
-                try:
-                    rss_mb = _psutil_proc.memory_info().rss / 1_048_576
-                    rss_str = f'  RSS={rss_mb:,.0f} MB'
-                except Exception:
-                    pass
+            mem_str = _memory_line()
             if exc_type:
-                logger.error('✗ %s failed after %.1f s — %s: %s',
-                             step, elapsed, exc_type.__name__, exc_val)
+                logger.error('✗ %s failed after %.1f s — %s: %s  %s',
+                             step, elapsed, exc_type.__name__, exc_val, mem_str)
             else:
-                logger.info('  ✓ %s  (%.1f s)%s', step, elapsed, rss_str)
+                logger.info('  ✓ %s  (%.1f s)  %s', step, elapsed, mem_str)
             return False   # do not suppress exceptions
     return _T()
 
