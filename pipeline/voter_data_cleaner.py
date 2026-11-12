@@ -667,7 +667,17 @@ def identify_election_cols(df: pl.DataFrame) -> list[str]:
     Returns columns sorted chronologically by election date so participation
     metrics accumulate in the correct order.
     """
-    cols = [c for c in df.columns if ELEC_RE.match(c)]
+    return election_cols_from_names(df.columns)
+
+
+def election_cols_from_names(names) -> list[str]:
+    """Election participation column names among `names`, in chronological order.
+
+    Works from names alone, so the election columns of a parquet file can be
+    listed from its schema without loading a row. identify_election_cols is
+    this applied to a frame's columns; there is no second matcher.
+    """
+    cols = [c for c in names if ELEC_RE.match(c)]
     # Sort key routes through the resolver: parse_election_meta is the only place
     # an election column name is decomposed into a date (single-resolver law).
     cols.sort(key=lambda c: parse_election_meta(c)[0])
@@ -730,6 +740,8 @@ def build_col_meta(
     df:            pl.DataFrame,
     election_cols: list[str],
     logger:        'logging.Logger | None' = None,
+    *,
+    read_cells=None,
 ) -> list[ColMeta]:
     """THE single election-column resolver (CLAUDE.md sec 5 single-resolver law).
 
@@ -739,6 +751,12 @@ def build_col_meta(
     a bounded per-column ballot-code profile). Every downstream consumer — the
     cohort classifier, the participation engine, the Excel summaries — obtains
     date/type/regular/partisan facts ONLY from here. There is no second parser.
+
+    read_cells: optional callable(list of names) -> DataFrame of those election
+    columns. Give it when `df` does not hold the election columns itself (the
+    county export: load_enriched_for_export). The ballot-code profile is then
+    taken _PARTICIPATION_BATCH columns at a time. Without it the profile reads
+    `df` in one pass, as before.
 
     partisan_capable: profiled, not named. For each column we count D and R
     ballots in a single vectorised pass; partisan_capable == (n_D + n_R >= 1).
@@ -767,11 +785,21 @@ def build_col_meta(
     partisan_capable: dict[str, bool] = {}
     if parsed:
         cols = [c for c, _, _ in parsed]
-        counts = df.select([
-            ((pl.col(c).str.strip_chars() == 'D') |
-             (pl.col(c).str.strip_chars() == 'R')).sum().alias(c)
-            for c in cols
-        ]).row(0)
+
+        def _partisan_counts(frame: pl.DataFrame, names: list[str]) -> tuple:
+            return frame.select([
+                ((pl.col(c).str.strip_chars() == 'D') |
+                 (pl.col(c).str.strip_chars() == 'R')).sum().alias(c)
+                for c in names
+            ]).row(0)
+
+        if read_cells is None:
+            counts = _partisan_counts(df, cols)
+        else:
+            counts = ()
+            for start in range(0, len(cols), _PARTICIPATION_BATCH):
+                batch = cols[start:start + _PARTICIPATION_BATCH]
+                counts += _partisan_counts(read_cells(batch), batch)
         for (c, _, _), n_partisan in zip(parsed, counts):
             partisan_capable[c] = (n_partisan or 0) >= 1
 
@@ -1187,6 +1215,8 @@ def add_voter_participation(
     df:            pl.DataFrame,
     election_cols: list[str],
     logger:        logging.Logger,
+    *,
+    read_cells=None,
 ) -> pl.DataFrame:
     """
     Compute per-voter participation metrics across every election column.
@@ -1199,6 +1229,12 @@ def add_voter_participation(
     one batch of flags plus the totals. The previous form built one Int32
     expression per column per count and handed all of them to sum_horizontal
     at once, with the cast test evaluated twice per column.
+
+    read_cells: optional callable(list of names) -> DataFrame of those election
+    columns, row-aligned with `df`. Give it when `df` does not hold the
+    election columns (load_enriched_for_export); each batch is then read
+    through it and released. Without it the columns are taken from `df`.
+    Raises ValueError if a batch does not have exactly as many rows as `df`.
 
     Semantics are unchanged from that form, including the exact cast test
     (str.strip_chars() != ''); tools/tests/test_participation_equivalence.py
@@ -1224,7 +1260,8 @@ def add_voter_participation(
     # Single resolver: date/type/regular facts come ONLY from build_col_meta,
     # never from the column name here. The "generals" set below is the resolved
     # type_code == 'GENERAL', not a startswith test.
-    col_meta = build_col_meta(df, election_cols, logger)
+    col_meta = build_col_meta(df, election_cols, logger, read_cells=read_cells)
+    read = read_cells or df.select
     logger.info('Computing participation over %d election columns (%d generals), %d per batch ...',
                 len(col_meta), sum(m.type_code == 'GENERAL' for m in col_meta),
                 _PARTICIPATION_BATCH)
@@ -1249,12 +1286,21 @@ def add_voter_participation(
         # cast:     the cell holds a ballot code (non-null and non-blank).
         # Both are Boolean and never null: a null registration date or a null
         # cell makes the left operand False, and False & null is False.
+        cells = read([m.col for m in batch])
+        if cells.height != df.height:
+            raise ValueError(
+                f'election cells have {cells.height:,} rows but the frame has {df.height:,}: '
+                'read_cells is not row-aligned with the frame'
+            )
+        # hstack requires equal heights, which the check above guarantees.
         flags = df.select(
             [(reg.is_not_null() & (reg <= pl.lit(m.date))).alias(f'_elig_{i}')
              for i, m in enumerate(batch)]
-            + [(pl.col(m.col).is_not_null() & (pl.col(m.col).str.strip_chars() != '')).alias(f'_cast_{i}')
-               for i, m in enumerate(batch)]
-        )
+        ).hstack(cells.select(
+            [(pl.col(m.col).is_not_null() & (pl.col(m.col).str.strip_chars() != '')).alias(f'_cast_{i}')
+             for i, m in enumerate(batch)]
+        ))
+        del cells
         # voted: eligible AND cast. A ballot recorded before the registration
         # date is therefore not counted. REGISTRATION_DATE resets on cancellation
         # and reactivation, so such ballots exist (CLAUDE.md section 4).
@@ -4628,46 +4674,35 @@ def _require_columns(wanted: list[str] | None, available: list[str], where: str)
     return [c for c in available if c in want]
 
 
-def load_enriched_voters(
+def _resolve_enriched(
     logger:      logging.Logger,
-    *,
-    txt_files:   list[Path] | None = None,
-    use_parquet: bool = True,
-    columns:     list[str] | None = None,
-) -> pl.DataFrame:
-    """Return the statewide enriched frame, cache-first. The single loader for it.
+    txt_files:   list[Path] | None,
+    use_parquet: bool,
+) -> pl.DataFrame | None:
+    """Make the cache-first decision once. The only place it is made.
+
+    Returns None when ENRICHED_CACHE is fresh: the caller reads what it needs
+    from the file and nothing has been loaded. Otherwise rebuilds (load raw,
+    clean, write the cache atomically) and returns the full enriched frame.
 
     Order is the contract: freshness is decided BEFORE anything is loaded.
-      hit   read ENRICHED_CACHE only. The raw parquet is never loaded, so the
-            raw and enriched frames are never resident together. Loading raw
-            first and then replacing it held ~21 GB twice and was the trigger
-            for OPEN-001 incident 2 (2026-11-11).
-      miss  load raw (parquet, or CSV when use_parquet is False), clean, write
-            the cache atomically. Raw and enriched overlap while
-            clean_voter_data runs; that is the cost of a rebuild, paid once.
+    Loading raw first and then replacing it with the cache held ~21 GB twice
+    and was the trigger for OPEN-001 incident 2 (2026-11-11). On a rebuild the
+    raw and enriched frames do overlap while clean_voter_data runs; that is the
+    cost of a rebuild, paid once per snapshot or classifier change.
 
     txt_files   SWVF source files. With use_parquet the raw parquet cache is
                 built from them first (idempotent), because freshness is judged
-                against the raw partitions. Required for a CSV miss.
-    columns     Projection of the returned frame, in the frame's own column
-                order. On a hit only these columns are read from disk. On a
-                miss the cache is still written whole. See _require_columns.
+                against the raw partitions. Required for a CSV rebuild.
 
-    Raises FileNotFoundError (parquet miss, no raw cache), ValueError (CSV miss
-    without txt_files), KeyError (projection names a missing column).
+    Raises FileNotFoundError (parquet rebuild, no raw cache), ValueError (CSV
+    rebuild without txt_files).
     """
     if use_parquet and txt_files is not None:
         build_parquet_cache(txt_files, logger=logger)
 
     if _cache_is_fresh(logger):
-        ordered = _require_columns(columns, list(pl.read_parquet_schema(ENRICHED_CACHE)), 'enriched cache')
-        with _timer(logger, 'loading enriched cache'):
-            df = pl.read_parquet(ENRICHED_CACHE, columns=ordered)
-            if ordered is not None:
-                df = df.select(ordered)
-        logger.info('Loaded from enriched cache: %s rows x %d columns%s', f'{df.height:,}', df.width,
-                    '' if ordered is None else ' (projected)')
-        return df
+        return None
 
     if use_parquet:
         with _timer(logger, 'loading voter files (Parquet)'):
@@ -4682,10 +4717,103 @@ def load_enriched_voters(
     del raw
     logger.info('Writing enriched voter data to persistent cache...')
     _write_cache_atomic(df, logger)
-    ordered = _require_columns(columns, df.columns, 'enriched frame')
-    if ordered is not None:
-        df = df.select(ordered)
     return df
+
+
+def load_enriched_voters(
+    logger:      logging.Logger,
+    *,
+    txt_files:   list[Path] | None = None,
+    use_parquet: bool = True,
+    columns:     list[str] | None = None,
+) -> pl.DataFrame:
+    """Return the statewide enriched frame, cache-first (see _resolve_enriched).
+
+    columns     Projection of the returned frame, in the frame's own column
+                order. On a cache hit only these columns are read from disk.
+                On a rebuild the cache is still written whole. Raises KeyError
+                naming any requested column the frame lacks (_require_columns).
+
+    Callers that only need election history to compute participation should
+    use load_enriched_for_export instead, which never holds it.
+    """
+    rebuilt = _resolve_enriched(logger, txt_files, use_parquet)
+    if rebuilt is None:
+        ordered = _require_columns(columns, list(pl.read_parquet_schema(ENRICHED_CACHE)), 'enriched cache')
+        with _timer(logger, 'loading enriched cache'):
+            df = pl.read_parquet(ENRICHED_CACHE, columns=ordered)
+            if ordered is not None:
+                df = df.select(ordered)
+        logger.info('Loaded from enriched cache: %s rows x %d columns%s', f'{df.height:,}', df.width,
+                    '' if ordered is None else ' (projected)')
+        return df
+
+    ordered = _require_columns(columns, rebuilt.columns, 'enriched frame')
+    return rebuilt if ordered is None else rebuilt.select(ordered)
+
+
+def load_enriched_for_export(
+    logger:      logging.Logger,
+    *,
+    txt_files:   list[Path] | None = None,
+    use_parquet: bool = True,
+):
+    """Return (frame, election_cols, read_cells) for the county export.
+
+    frame          the enriched frame WITHOUT its election-history columns.
+    election_cols  the names of those columns, chronological.
+    read_cells     callable(list of names) -> DataFrame of exactly those
+                   election columns, row-aligned with `frame`. Pass it to
+                   add_voter_participation, then drop the reference.
+
+    Why: the export reads election cells for one thing, the participation
+    counts. Everything after that works from the cohort and participation
+    columns. Election history is 91 String columns, about 13 GB statewide, more
+    than the rest of the frame put together, and the export stages used to
+    carry it unread through every county slice and the statewide pass.
+
+    Cache hit   frame is read from ENRICHED_CACHE without those columns, and
+                read_cells reads the requested ones from the same file, so at
+                most one batch of them is ever in memory. Both reads return
+                rows in file order, which is what keeps them aligned.
+    Rebuild     the classifier needs every election column, so the full frame
+                exists anyway. read_cells selects from it and keeps it alive;
+                dropping the read_cells reference releases it.
+
+    Raises RuntimeError if the frame has no cohort_family column: without it
+    the export would fall back to re-classifying from election cells that are
+    no longer there.
+    """
+    rebuilt = _resolve_enriched(logger, txt_files, use_parquet)
+    if rebuilt is None:
+        names = list(pl.read_parquet_schema(ENRICHED_CACHE))
+        election_cols = election_cols_from_names(names)
+        skip = set(election_cols)
+        keep = [c for c in names if c not in skip]
+        cache = ENRICHED_CACHE
+        with _timer(logger, 'loading enriched cache (without election history)'):
+            frame = pl.read_parquet(cache, columns=keep).select(keep)
+
+        def read_cells(cols: list[str]) -> pl.DataFrame:
+            return pl.read_parquet(cache, columns=cols).select(cols)
+
+        logger.info('Loaded from enriched cache: %s rows x %d columns; %d election columns '
+                    'left on disk and read in batches', f'{frame.height:,}', frame.width,
+                    len(election_cols))
+    else:
+        election_cols = identify_election_cols(rebuilt)
+        frame = rebuilt.drop(election_cols)
+        read_cells = rebuilt.select
+        logger.info('Enriched frame rebuilt: %s rows x %d columns plus %d election columns, '
+                    'held until participation is computed', f'{frame.height:,}', frame.width,
+                    len(election_cols))
+
+    if 'cohort_family' not in frame.columns:
+        raise RuntimeError(
+            'enriched frame has no cohort_family column; the county export cannot run '
+            'without the cohort classifier output (see load_enriched_for_export)'
+        )
+    return frame, election_cols, read_cells
 
 
 def _county_slice(df: pl.DataFrame, county_num: str) -> pl.DataFrame:
@@ -4702,6 +4830,8 @@ def _export_county_worker(args: tuple) -> tuple:
     Memory: the worker filters its own county out of the shared statewide frame
     and drops the slice when it returns, so the slices resident at any moment
     are those of the running workers (at most max_workers), never all 88.
+    The statewide frame carries no election-history columns by this point
+    (load_enriched_for_export), so neither do the slices.
     Slicing every county before the pool started held a second full copy of
     the frame for the whole export stage (OPEN-001: 44.3 GB RSS with 8 threads).
 
@@ -4759,15 +4889,18 @@ def run_ohio_analysis(
     logger.info('=' * 60)
 
     try:
-        # ── 1. Load + enrich, cache-first (see load_enriched_voters) ──────────
-        df = load_enriched_voters(logger, txt_files=txt_files, use_parquet=use_parquet)
-
-        election_cols = identify_election_cols(df)
+        # ── 1. Load + enrich, cache-first, without election history ──────────────
+        # The frame carries no election columns; read_cells hands them to the
+        # participation step a batch at a time (see load_enriched_for_export).
+        df, election_cols, read_cells = load_enriched_for_export(
+            logger, txt_files=txt_files, use_parquet=use_parquet)
         logger.info('%d election columns: %s to %s',
                     len(election_cols), election_cols[0], election_cols[-1])
 
         with _timer(logger, 'computing participation metrics'):
-            df = add_voter_participation(df, election_cols, logger)
+            df = add_voter_participation(df, election_cols, logger, read_cells=read_cells)
+        # After a rebuild read_cells is the last reference to the full frame.
+        del read_cells
 
         # ── 3. Parallel county JSON export ────────────────────────────────────
         counties_present = sorted(df['COUNTY_NUMBER'].str.strip_chars().unique().to_list())

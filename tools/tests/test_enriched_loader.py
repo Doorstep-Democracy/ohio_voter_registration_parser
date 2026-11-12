@@ -123,6 +123,16 @@ def test_run_ohio_analysis_loads_through_the_cache_first_loader():
     """Guard against the ordering regressing: the statewide entry point must
     not call a raw loader itself."""
     src = inspect.getsource(vdc.run_ohio_analysis)
-    assert "load_enriched_voters(" in src
+    assert "load_enriched_for_export(" in src
     assert "load_voter_files_parquet(" not in src
     assert "load_voter_files(" not in src
+
+
+def test_both_loaders_share_the_one_cache_first_decision():
+    """_resolve_enriched is the only place freshness is checked and the only
+    place a raw loader is called; the two public loaders go through it."""
+    for loader in (vdc.load_enriched_voters, vdc.load_enriched_for_export):
+        src = inspect.getsource(loader)
+        assert "_resolve_enriched(" in src
+        assert "_cache_is_fresh(" not in src
+        assert "load_voter_files_parquet(" not in src and "clean_voter_data(" not in src
