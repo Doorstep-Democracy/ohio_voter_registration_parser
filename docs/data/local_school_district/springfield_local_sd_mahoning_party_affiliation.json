@@ -3,14 +3,15 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 751 (13%)",
+      "Pure R — 751 (12%)",
       "UNC – Lapsed R — 475 (8%)",
       "Mixed – Active — 1,110 (18%)",
       "Mixed – Lapsed — 336 (6%)",
-      "UNC – Non-partisan Ballot — 124 (2%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 123 (2%)",
       "UNC – No Primary — 1,779 (30%)",
       "UNC – Lapsed D — 798 (13%)",
-      "Pure D — 631 (11%)"
+      "Pure D — 631 (10%)"
     ],
     "datasets": [
       {
@@ -19,7 +20,8 @@
           475,
           1110,
           336,
-          124,
+          9,
+          123,
           1779,
           798,
           631
@@ -29,6 +31,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
