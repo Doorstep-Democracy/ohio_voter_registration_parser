@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from typing import Optional
 
 from pipeline.cohort_lean import cohort_sides
@@ -63,6 +64,15 @@ LEVEL_CONFIGS: dict[str, dict] = {
         'render_generation': False, 'render_decade_trend': False,
         'embed_parent': True, 'lead_with_geography': False,
         'officeholder_offices': ['mayor', 'village_council'],
+    },
+    'ward': {
+        # Municipality-scoped ward entities (jurisdictional_groupings.
+        # build_ward_entities). The parent city/village is named in the subject
+        # line (see _format_jurisdiction_subject); no ward officeholder source.
+        'noun': 'ward', 'small_n_threshold': 500,
+        'render_generation': False, 'render_decade_trend': False,
+        'embed_parent': False, 'lead_with_geography': False,
+        'officeholder_offices': [],
     },
     'township': {
         'noun': 'township', 'small_n_threshold': 500,
@@ -219,6 +229,14 @@ def _lean_phrase(net):
     return party, magnitude
 
 
+_WARD_NAME_RE = re.compile(r'^(.+) \((.+) (City|Village)\)$')
+
+
+def _capwords(s):
+    # str.title() renders '1ST WARD' as '1St Ward'; capitalize per word instead.
+    return ' '.join(w.capitalize() for w in s.split())
+
+
 def _format_jurisdiction_subject(metrics, cfg):
     name  = metrics['name']
     noun  = cfg['noun']
@@ -233,6 +251,13 @@ def _format_jurisdiction_subject(metrics, cfg):
 
     if level == 'county':
         return f'{bare_title} County'
+    if level == 'ward':
+        # Ward display names are 'AKRON WARD 1 (AKRON City)' / 'FIRST WARD
+        # (ALLIANCE City)': render 'Akron Ward 1 (City of Akron)'.
+        m = _WARD_NAME_RE.match(name)
+        if m:
+            ward, place, kind = m.groups()
+            return f'{_capwords(ward)} ({kind.title()} of {_capwords(place)})'
     if cfg['embed_parent'] and parent:
         return f'{bare_title} ({noun} in {parent.title()} County)'
     if cfg['lead_with_geography']:

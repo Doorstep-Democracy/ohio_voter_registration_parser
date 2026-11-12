@@ -760,7 +760,8 @@ def build_ward_entities(df, election_cols, today, logger):
     voter_data_cleaner._ward_map_per_county -- the single ward resolver
     (CLAUDE.md 5) also used by the precinct-index ward stamp, so a precinct's
     ward_slug and these entity slugs can never diverge. Wards carry the same
-    4-chart shape as township/village (no generation charts).
+    6 chart types as township/village; their narrative is written afterwards by
+    tools/narrative/generate_narratives.py (level 'ward').
     """
     import voter_data_cleaner as _v2
 
@@ -816,8 +817,9 @@ def build_ward_entities(df, election_cols, today, logger):
             {'WARD': [r[0] for r in rows], '_ward_slug': [r[1] for r in rows]}
         )
         # inner join keeps only ward-holding, non-abuse rows; select the minimal
-        # columns the chart aggregation needs (cohort_family, Decade) to keep the
-        # statewide concat small. Must collapse internal whitespace the same way
+        # columns the chart aggregation needs (cohort_family, Decade, Generation)
+        # to keep the statewide concat small. Dropping Generation here is what
+        # left every ward without its two generation charts (evaluation P7). Must collapse internal whitespace the same way
         # _ward_map_per_county does (map_df's WARD keys are already collapsed) --
         # strip_chars() alone only trims leading/trailing space, so a raw value
         # like Licking's 'CITY OF NEWARK  WD2' (irregular internal spacing) would
@@ -828,7 +830,7 @@ def build_ward_entities(df, election_cols, today, logger):
                 pl.col('WARD').str.strip_chars().str.replace_all(r'\s+', ' ').alias('WARD')
             )
                     .join(map_df, on='WARD', how='inner')
-                    .select(['cohort_family', 'Decade', '_ward_slug'])
+                    .select(['cohort_family', 'Decade', 'Generation', '_ward_slug'])
         )
         cc = sub.group_by('_ward_slug').agg(pl.len().alias('n'))
         for s, n in zip(cc['_ward_slug'].to_list(), cc['n'].to_list()):
@@ -853,10 +855,6 @@ def build_ward_entities(df, election_cols, today, logger):
                                    election_cols, today, logger, None)
         if not r:
             continue
-        # Wards mirror township/village: no generation charts (they 404 into the
-        # frontend's placeholder path).
-        r.pop('generation_distribution', None)
-        r.pop('party_by_generation', None)
 
         ccounts = counties_by_slug.get(slug, {})
         county_slugs = [c for c, _ in sorted(ccounts.items(), key=lambda kv: (-kv[1], kv[0]))]
@@ -872,7 +870,8 @@ def build_ward_entities(df, election_cols, today, logger):
         results.append(r)
 
         charts = [ct for ct in ('party_affiliation', 'decade_distribution',
-                                'party_by_decade', 'unc_shadow') if ct in r]
+                                'party_by_decade', 'generation_distribution',
+                                'party_by_generation', 'unc_shadow') if ct in r]
         index_entries.append({
             'slug':              slug,
             'name':              desc['name'],
