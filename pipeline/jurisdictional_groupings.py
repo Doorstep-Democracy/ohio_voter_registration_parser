@@ -81,9 +81,20 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def setup_logger(name='groupings', log_dir=LOGS_DIR):
-    """Create timestamped logger for this run."""
+    """Create this run's timestamped groupings logger. Returns (logger, log_file).
+
+    Follows the cleaner's logging policy (voter_data_cleaner.setup_logging):
+    ISO 8601 timestamps with UTC offset, native-crash tracebacks and the run
+    context. The file name carries this log's own start time. The run id
+    written inside it is the process-wide one (claim_run_id), so it equals the
+    id in the pipeline log of the same run and the two logs join on it. Run on
+    its own, this log's stamp becomes the run id.
+    """
+    import voter_data_cleaner as _v2
+
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     log_file = log_dir / f'{name}_{timestamp}.log'
+    _v2.claim_run_id(timestamp)
 
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
@@ -96,11 +107,7 @@ def setup_logger(name='groupings', log_dir=LOGS_DIR):
     ch = logging.StreamHandler(sys.stdout)
     ch.setLevel(logging.INFO)
 
-    # Formatter
-    fmt = logging.Formatter(
-        '%(asctime)s [%(levelname)s] %(name)s: %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
-    )
+    fmt = _v2.IsoOffsetFormatter('%(asctime)s [%(levelname)s] %(name)s: %(message)s')
     fh.setFormatter(fmt)
     ch.setFormatter(fmt)
 
@@ -109,7 +116,6 @@ def setup_logger(name='groupings', log_dir=LOGS_DIR):
 
     # Verbose defaults: run context + native-crash tracebacks in this log.
     # Rationale: voter_data_cleaner.setup_logging() docstring, "Logging policy".
-    import voter_data_cleaner as _v2
     _v2.enable_crash_log(log_file, logger)
     _v2.log_run_context(logger)
 

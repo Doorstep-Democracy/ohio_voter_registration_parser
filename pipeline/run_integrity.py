@@ -151,8 +151,11 @@ def check_previous_run(logs_dir: Path, current_log: Path, root: Path,
     return problems
 
 
-def install_excepthook(logger: logging.Logger) -> None:
+def install_excepthook(logger: logging.Logger, run_id: str = '') -> None:
     """Write any uncaught exception, with its traceback, into the run log.
+
+    `run_id`, when given, is appended to the failure-marker line so a failed
+    run is identified the same way as a completed one.
 
     Python prints uncaught tracebacks to stderr only, so a run that died on an
     exception left a log that simply stopped. The hook logs it at CRITICAL followed by
@@ -165,7 +168,8 @@ def install_excepthook(logger: logging.Logger) -> None:
     def _hook(exc_type, exc, tb):
         if not issubclass(exc_type, KeyboardInterrupt):
             logger.critical('Uncaught exception', exc_info=(exc_type, exc, tb))
-        logger.error('%s: uncaught %s: %s', FAILED_MARKER, exc_type.__name__, exc)
+        logger.error('%s: uncaught %s: %s%s', FAILED_MARKER, exc_type.__name__, exc,
+                     f' (run id {run_id})' if run_id else '')
         original(exc_type, exc, tb)
 
     sys.excepthook = _hook

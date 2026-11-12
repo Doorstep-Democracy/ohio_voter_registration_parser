@@ -19,7 +19,7 @@ import gzip
 import json
 import shutil
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import requests
@@ -702,8 +702,16 @@ def _dispatch(
     # since it began -- before this run writes anything.
     import time as _time
     import run_integrity
-    run_integrity.install_excepthook(_log)
     run_start = _time.time()
+    # setup_logging above claimed the run id; this call only reads it back.
+    run_id = v2.claim_run_id(datetime.now().strftime('%Y%m%d_%H%M%S'))
+    run_integrity.install_excepthook(_log, run_id=run_id)
+
+    def _end_stamp() -> str:
+        """Run id, UTC wall clock and elapsed seconds for the closing log line."""
+        ended = datetime.now(timezone.utc).isoformat(timespec='seconds')
+        return f'run id {run_id}, ended {ended} UTC, elapsed {_time.time() - run_start:.0f} s'
+
     current_log = Path(next(h.baseFilename for h in _log.handlers if hasattr(h, 'baseFilename')))
     startup_problems = run_integrity.check_previous_run(v2.LOGS_DIR, current_log, v2.DOCS_DIR, _log)
 
@@ -812,12 +820,14 @@ def _dispatch(
     still_bad = run_integrity.recheck(startup_problems, v2.DOCS_DIR, _log)
     if sealed_bad or still_bad:
         _log.error(
-            '%s: choice=%s, source date %s -- %d invalid file(s) written this run, '
+            '%s: choice=%s, source date %s, %s -- %d invalid file(s) written this run, '
             '%d damaged file(s) from before this run still present (listed above)',
-            run_integrity.FAILED_MARKER, choice, src_date, len(sealed_bad), len(still_bad),
+            run_integrity.FAILED_MARKER, choice, src_date, _end_stamp(),
+            len(sealed_bad), len(still_bad),
         )
         sys.exit(1)
-    _log.info('%s: choice=%s, source date %s', run_integrity.COMPLETE_MARKER, choice, src_date)
+    _log.info('%s: choice=%s, source date %s, %s',
+              run_integrity.COMPLETE_MARKER, choice, src_date, _end_stamp())
 
 # ── Narrative phase ───────────────────────────────────────────────────────────
 

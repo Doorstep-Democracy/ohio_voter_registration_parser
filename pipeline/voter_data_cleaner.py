@@ -68,12 +68,15 @@ except ImportError:
 # the evidence for OPEN-001, and must fail loudly rather than go missing.
 import psutil as _psutil
 _psutil_proc = _psutil.Process()
+import hashlib
 import logging
+import os
+import platform
 import re
 import sys
 import time
 from datetime import date as date_t
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import polars as pl                  # fast columnar processing — replaces pandas for analysis
@@ -418,15 +421,82 @@ def enable_crash_log(log_path: Path, logger: logging.Logger) -> None:
     logger.debug('faulthandler enabled -> %s', log_path)
 
 
+class IsoOffsetFormatter(logging.Formatter):
+    """Log formatter whose %(asctime)s is ISO 8601 local time with its UTC offset,
+    e.g. 2026-11-12T01:34:07-05:00.
+
+    The offset is what lets a log line be matched against OS event logs (kept
+    in UTC) and against logs from other machines without guessing a time zone
+    or a daylight-saving state. It is computed per record, so a run that
+    crosses a DST change stays correct. `datefmt` is ignored.
+    """
+
+    def formatTime(self, record, datefmt=None):
+        return datetime.fromtimestamp(record.created).astimezone().isoformat(timespec='seconds')
+
+
+_RUN_ID: str | None = None
+
+
+def claim_run_id(stamp: str) -> str:
+    """Return this process's run id, setting it to `stamp` if none is set yet.
+
+    The run id is the YYYYMMDD_HHMMSS stamp of the first log file the process
+    opens, so it equals the stamp in that log's file name. Every later log of
+    the same process (the groupings log) records the same id, which is what the
+    logs of one run are joined on. First caller wins; later stamps are ignored.
+    """
+    global _RUN_ID
+    if _RUN_ID is None:
+        _RUN_ID = stamp
+    return _RUN_ID
+
+
+def machine_fingerprint() -> dict:
+    """Platform-neutral description of the machine this run is on.
+
+    Sources: `platform`, os.cpu_count and psutil only. No OS-specific query,
+    and nothing that identifies a person or a host: no hostname, user name or
+    path. It records what the machine was, not whether it is healthy.
+
+    config_id   12 hex chars of SHA-256 over (os, cpu, cpu_count, ram_total_gb).
+                A different id in two run logs means the OS build, the CPU or
+                the installed RAM changed between them. Swap is left out on
+                purpose: a dynamically sized pagefile changes total swap from
+                run to run with no configuration change. Limit: replacing DIMMs
+                with others of the same total size does not change the id.
+    boot_time   When the machine last started, with UTC offset. A different
+                value in two consecutive run logs means a reboot or a crash
+                happened between them.
+    Sizes are GiB (2**30 bytes), labelled GB like the MB figures in _memory_line.
+    """
+    fp = {
+        'os':           platform.platform(),
+        'cpu':          platform.processor() or platform.machine(),
+        'cpu_count':    os.cpu_count(),
+        'ram_total_gb': round(_psutil.virtual_memory().total / 2**30, 1),
+    }
+    fp['config_id'] = hashlib.sha256(
+        '|'.join(str(fp[k]) for k in ('os', 'cpu', 'cpu_count', 'ram_total_gb')).encode('utf-8')
+    ).hexdigest()[:12]
+    fp['swap_total_gb'] = round(_psutil.swap_memory().total / 2**30, 1)
+    fp['boot_time'] = (datetime.fromtimestamp(_psutil.boot_time()).astimezone()
+                       .isoformat(timespec='seconds'))
+    return fp
+
+
 def log_run_context(logger: logging.Logger) -> None:
-    """Record what produced this run: process, interpreter, libraries, code, memory, output root.
+    """Record what produced this run: run id, process, interpreter, libraries,
+    code, memory, output root and machine fingerprint.
 
     See the logging policy in setup_logging() for why each item is here.
     The output-root line states whether ELECTION_DATA_OUT redirected this run;
     it is the first thing to check when output lands somewhere unexpected.
     """
-    import os
     import subprocess
+    run = claim_run_id(datetime.now().strftime('%Y%m%d_%H%M%S'))
+    logger.info('Run context: run id %s, started %s UTC', run,
+                datetime.now(timezone.utc).isoformat(timespec='seconds'))
     logger.info('Run context: pid=%d argv=%s cwd=%s', os.getpid(), sys.argv, Path.cwd())
     logger.info(
         'Run context: python %s (%s), polars %s, polars thread pool %d',
@@ -443,7 +513,11 @@ def log_run_context(logger: logging.Logger) -> None:
                     (sha.stderr or branch.stderr).strip()[:200])
     vm = _psutil.virtual_memory()
     logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
-                vm.total / 1e9, vm.available / 1e9)
+                vm.total / 2**30, vm.available / 2**30)
+    fp = machine_fingerprint()
+    logger.info('Run context: machine %s | %s | %d logical CPUs | RAM %.1f GB | swap %.1f GB',
+                fp['os'], fp['cpu'], fp['cpu_count'], fp['ram_total_gb'], fp['swap_total_gb'])
+    logger.info('Run context: machine config id %s, booted %s', fp['config_id'], fp['boot_time'])
     logger.info('Run context: output root %s (%s)', DOCS_DIR,
                 f'{OUTPUT_ENV_VAR} override' if OUTPUT_OVERRIDDEN else 'default, the published tree')
 
@@ -481,11 +555,23 @@ def setup_logging(run_label: str = '') -> logging.Logger:
       prompt as if the run had finished quickly; a log without that line
       ended abnormally, however it looked in the terminal.
 
+    * Machine fingerprint (machine_fingerprint): OS build, CPU, logical CPU
+      count, total RAM and swap, boot time and a short config id, from
+      platform and psutil only. The November 2026 crashes had to be matched
+      to the machine's state from memory; the log now records what the
+      machine was. The fingerprint holds no hostname, user name or path.
+    * Timestamps with UTC offset (IsoOffsetFormatter) and one run id per
+      process (claim_run_id), written into every log of the run and onto the
+      completion line. Matching the 2026-11-11 crash to the OS event log,
+      which is kept in UTC, meant inferring the offset; and the pipeline and
+      groupings logs of one run had nothing in common to join on.
+
     Returns the root logger configured with both handlers.
     """
     LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
     timestamp    = datetime.now().strftime('%Y%m%d_%H%M%S')
+    claim_run_id(timestamp)   # first log of the process: its stamp is the run id
     suffix       = f'_{run_label}' if run_label else ''
     log_path     = LOGS_DIR / f'voter_analysis_{timestamp}{suffix}.log'
 
@@ -508,9 +594,8 @@ def setup_logging(run_label: str = '') -> logging.Logger:
     # ── File handler: DEBUG and above, full timestamps for forensic debugging ──
     file_handler = logging.FileHandler(log_path, encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
-    file_handler.setFormatter(logging.Formatter(
+    file_handler.setFormatter(IsoOffsetFormatter(
         '%(asctime)s  %(levelname)-8s  %(funcName)s:%(lineno)d  %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S',
     ))
     logger.addHandler(file_handler)
 
