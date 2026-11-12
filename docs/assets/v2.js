@@ -41,8 +41,9 @@
   const SUBCOUNTY_LEVELS = ['city', 'township', 'village', 'ward'];
 
   // The county shown when a URL names no jurisdiction, and the fallback any
-  // code path uses when it needs *some* county to report on (there is no
-  // statewide aggregate data file for all 88 -- see the select-state handler).
+  // code path uses when it needs *some* county to report on. The whole state
+  // is its own level ('state', files under STATE_SLUG), reached from the
+  // hierarchy's "Ohio" row, the breadcrumb and the Geography view toggle.
   //
   // This was 'hamilton', which arrived as an arbitrary placeholder in the
   // original V2 prototype import (5b2d4a89fd) and was never a data decision:
@@ -52,6 +53,10 @@
   // view the site can render. Declared once so the default is a single edit,
   // not 13 scattered string literals.
   const DEFAULT_COUNTY = 'montgomery';
+  // Statewide aggregate files: data/ohio_(statewide)_<chart>.json, written by
+  // the pipeline's export_json over all 88 counties (same resolver, same
+  // 9-cohort labels as a county).
+  const STATE_SLUG = 'ohio_(statewide)';
 
   // ── In-memory caches ───────────────────────────────────────
   const cache = { manifest: null, byUrl: {} };
@@ -294,7 +299,17 @@
     const tries = [];
     function add(key, url) { tries.push({ key, url }); }
 
-    if (level === 'county') {
+    if (level === 'state') {
+      const s = STATE_SLUG;
+      add('party',       `data/${s}_party_affiliation.json`);
+      add('decade',      `data/${s}_decade_distribution.json`);
+      add('gen',         `data/${s}_generation_distribution.json`);
+      add('partyDecade', `data/${s}_party_by_decade.json`);
+      add('partyGen',    `data/${s}_party_by_generation.json`);
+      add('participationGen', `data/${s}_participation_by_generation.json`);
+      add('uncShadow',   `data/${s}_unc_shadow.json`);
+      add('citySummary', `data/${s}_city_summary.json`);
+    } else if (level === 'county') {
       const s = id;
       add('party',       `data/${s}_party_affiliation.json`);
       add('decade',      `data/${s}_decade_distribution.json`);
@@ -873,7 +888,7 @@
       const counties = manifestCounties();
       const html = ['<div class="hier-section">',
         '<span class="eyebrow">Statewide</span>',
-        '<div class="hier-row depth-0" data-action="select-state"><span class="twirl"></span><span class="label">Ohio</span><span class="count">' + counties.length + '</span></div>',
+        '<div class="hier-row depth-0 ' + (S.level === 'state' ? 'is-selected' : '') + '" data-action="select-state"><span class="twirl"></span><span class="label">Ohio</span><span class="count">' + counties.length + '</span></div>',
         '</div>'];
 
       // Cities spanning multiple counties: the unified, county-independent view.
@@ -1209,9 +1224,8 @@
       if (action === 'select-precinct') return;
       el.onclick = async () => {
         if (action === 'select-state') {
-          // No state-level data file exists for all 88; just zoom out the breadcrumb
-          S.level = 'county'; S.id = DEFAULT_COUNTY; S.county = null;
-          writeState({ level: 'county', id: DEFAULT_COUNTY, compare: null, county: null });
+          S.level = 'state'; S.id = 'ohio'; S.county = null; S.district_type = null;
+          writeState({ level: 'state', id: 'ohio', compare: null, county: null, type: null });
           emit('select_jurisdiction', { level: 'state', id: 'ohio' });
         } else if (action === 'select-county') {
           const slug = el.getAttribute('data-county');
@@ -1593,7 +1607,8 @@
   function renderBreadcrumb(bag) {
     const root = $('breadcrumb');
     if (!root) return;
-    const parts = [{ label: 'Ohio', action: 'state' }];
+    const parts = [bag.level === 'state' ? { label: 'Ohio', here: true }
+                                          : { label: 'Ohio', action: 'state' }];
     if (bag.level === 'county') {
       parts.push({ label: bag.displayName, here: true });
     } else if (bag.level === 'city') {
@@ -1628,8 +1643,8 @@
       a.onclick = async () => {
         const action = a.getAttribute('data-bc');
         if (action === 'state') {
-          S.level = 'county'; S.id = DEFAULT_COUNTY;
-          writeState({ level: 'county', id: DEFAULT_COUNTY });
+          S.level = 'state'; S.id = 'ohio'; S.county = null;
+          writeState({ level: 'state', id: 'ohio', county: null });
         } else if (action === 'county') {
           const slug = a.getAttribute('data-county');
           S.level = 'county'; S.id = countyToSlug(slug);
@@ -1898,7 +1913,10 @@
       destroyAll();
 
       let bag;
-      if (S.level === 'county') {
+      if (S.level === 'state') {
+        bag = await loadJurisdiction('state', 'ohio', null);
+        bag.displayName = 'Ohio';
+      } else if (S.level === 'county') {
         bag = await loadJurisdiction('county', S.id, null);
         bag.displayName = slugToCountyName(S.id);
       } else if (S.level === 'city') {
@@ -1990,8 +2008,8 @@
     } else {
       // Statewide overview: the URL carries no explicit ?id=, so nothing is
       // selected and the map draws all 88 undimmed. S.level/S.id still read
-      // the default county for the CENTER pane's benefit (no statewide data file
-      // exists), so the map scope is derived from the URL rather than from
+      // the default county for the CENTER pane's benefit (a bare URL opens on
+      // DEFAULT_COUNTY), so the map scope is derived from the URL rather than from
       // S.id -- otherwise switching back to Geography arrives with 87 counties
       // greyed around one arbitrary highlight.
       const explicitId = new URLSearchParams(location.search).get('id');
@@ -2101,7 +2119,8 @@
       toast('PNG exported');
     } else if (fmt === 'json') {
       // Re-derive source URL based on current state + chart id
-      const slug = S.level === 'county' ? S.id : (S.county || DEFAULT_COUNTY);
+      const slug = S.level === 'state' ? STATE_SLUG
+                 : S.level === 'county' ? S.id : (S.county || DEFAULT_COUNTY);
       const map = {
         'chart-party':        `data/${slug}_party_affiliation.json`,
         'chart-decade':       `data/${slug}_decade_distribution.json`,
@@ -2293,11 +2312,8 @@
         // A selection made in one view cannot be shown by the other, so reset
         // to that view's own overview rather than stranding S.level/S.id.
         //
-        // There is no S.level === 'state': the hierarchy's own "Ohio" row
-        // (select-state, :1089) falls back to the default county because no
-        // state-wide data file exists for all 88. Follow that same convention
-        // here -- inventing a 'state' level would leave refreshView() with no
-        // matching loadJurisdiction branch and an empty center pane.
+        // Geography's overview is the statewide view (S.level 'state'), the
+        // same place the hierarchy's "Ohio" row (select-state) leads.
         S.county = null; S.city = null; S.compare = null;
         if (val === 'district') {
           // The hierarchy lists Congressional first; match it rather than
@@ -2311,15 +2327,12 @@
                        county: null, city: null,
                        type: 'congressional_district', compare: null });
         } else {
-          // Geography's overview is the whole state. The center pane still
-          // needs a jurisdiction to report on (no statewide data file exists
-          // for all 88 -- see select-state, :1089), so S.level/S.id fall back
-          // to the default county exactly as that row does. The MAP, though, must
-          // show all 88 undimmed: that is driven by the absence of ?id= in the
-          // URL, which renderMapForState() reads back -- not by a flag here.
+          // Geography's overview is the whole state: the statewide files fill
+          // the center pane, and renderMapForState() draws all 88 undimmed
+          // because a 'state' level names no county to highlight.
           S.district_type = null;
-          S.level = 'county'; S.id = DEFAULT_COUNTY;
-          writeState({ view: val, level: null, id: null, county: null,
+          S.level = 'state'; S.id = 'ohio';
+          writeState({ view: val, level: 'state', id: 'ohio', county: null,
                        city: null, type: null, compare: null });
         }
         emit('view_change', { view: val });

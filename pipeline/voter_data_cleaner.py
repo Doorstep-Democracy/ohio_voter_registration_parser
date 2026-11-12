@@ -355,6 +355,11 @@ def get_source_date(logger: logging.Logger) -> str:
 #   - SWVF COUNTY_NUMBER field values
 #   - manifest slug lookups and dashboard data file prefixes
 # Source: Ohio Secretary of State Statewide Voter File documentation.
+# Display name of the statewide aggregate. export_json slugs it to
+# 'ohio_(statewide)', the file prefix the dashboard's 'state' level and the
+# landing page's headline count read (docs/assets/v2.js STATE_SLUG).
+STATEWIDE_NAME = 'Ohio (Statewide)'
+
 OHIO_COUNTIES: dict[str, str] = {
     '01': 'Adams',       '02': 'Allen',       '03': 'Ashland',     '04': 'Ashtabula',
     '05': 'Athens',      '06': 'Auglaize',    '07': 'Belmont',     '08': 'Brown',
@@ -2596,6 +2601,7 @@ def export_json(
     update_manifest:         bool = True,
     unc_classified:          'pl.DataFrame | None' = None,
     include_precinct_charts: bool = False,
+    write_precinct_summary:  bool = True,
 ):
     """
     Write four JSON files into docs/data/ matching the exact schema expected by
@@ -3025,26 +3031,30 @@ def export_json(
         }, DATA_DIR / f'{slug}_participation_by_generation.json', logger)
 
     # ── Precinct summary (table) ──────────────────────────────────────────────
-    precinct_df = build_precinct_summary(df)
-    rows = []
-    for row in precinct_df.iter_rows(named=True):
-        rows.append([
-            row.get('PRECINCT_NAME', ''),
-            f"{row.get('ACTIVE', 0):,}",
-            f"{row.get('CONFIRMATION', 0):,}",
-            f"{row.get('Total Registered', 0):,}",
-            row.get('Est. Unregistered', 'N/A'),
-        ])
-    _dump_json({
-        'title':     'Registration by Precinct',
-        'county':    county_name,
-        'geography': 'precinct',
-        'type':      'table',
-        'updated':   today,
-        'note':      note + ' — Est. Unregistered requires Census integration (future)',
-        'headers':   ['Precinct', 'Active', 'Confirmation', 'Total Registered', 'Est. Unregistered'],
-        'rows':      rows,
-    }, DATA_DIR / f'{slug}_precinct_summary.json', logger)
+    # Rows name the precinct only, which identifies it within one county. A
+    # statewide table would list ~8,900 names without their counties, so the
+    # statewide export skips it (write_precinct_summary=False).
+    if write_precinct_summary:
+        precinct_df = build_precinct_summary(df)
+        rows = []
+        for row in precinct_df.iter_rows(named=True):
+            rows.append([
+                row.get('PRECINCT_NAME', ''),
+                f"{row.get('ACTIVE', 0):,}",
+                f"{row.get('CONFIRMATION', 0):,}",
+                f"{row.get('Total Registered', 0):,}",
+                row.get('Est. Unregistered', 'N/A'),
+            ])
+        _dump_json({
+            'title':     'Registration by Precinct',
+            'county':    county_name,
+            'geography': 'precinct',
+            'type':      'table',
+            'updated':   today,
+            'note':      note + ' — Est. Unregistered requires Census integration (future)',
+            'headers':   ['Precinct', 'Active', 'Confirmation', 'Total Registered', 'Est. Unregistered'],
+            'rows':      rows,
+        }, DATA_DIR / f'{slug}_precinct_summary.json', logger)
 
     # ── City/township summary (table) ─────────────────────────────────────────
     city_df = build_city_summary(df)
@@ -3910,9 +3920,40 @@ def export_precinct_charts(
         'precincts': index_entries,
     }, DATA_DIR / f'{slug}_precinct_index.json', logger)
 
+    _prune_orphan_precinct_files(slug, [e['safe_name'] for e in index_entries], logger)
+
     logger.info(
         '  Precinct charts: wrote %d precincts for %s', len(index_entries), county_name
     )
+
+
+# Per-precinct file kinds: {county_slug}_precinct_{safe_name}_{kind}.json.
+# 'narrative' is written later by tools/narrative/generate_narratives.py.
+PRECINCT_FILE_KINDS = ('party', 'unc', 'decade', 'generation', 'party_by_decade',
+                       'party_by_generation', 'narrative')
+
+
+def _prune_orphan_precinct_files(slug: str, safe_names: list, logger: logging.Logger) -> None:
+    """
+    Delete this county's per-precinct files whose precinct is not in the index
+    just written. Precincts are renamed and merged between snapshots, and this
+    export only ever wrote files, so a vanished precinct's files stayed
+    published at their old vintage (2026-11-12: 8 precincts in 4 counties,
+    56 files, last written 2026-07-25). Matching against the exact names the
+    index implies avoids parsing safe names, which contain underscores.
+    The files are tracked in git, so a wrong prune is recoverable.
+    """
+    if not safe_names:
+        raise ValueError(f'{slug}: precinct index is empty; refusing to prune its precinct files')
+    expected = {f'{slug}_precinct_{s}_{k}.json' for s in safe_names for k in PRECINCT_FILE_KINDS}
+    expected |= {f'{slug}_precinct_index.json', f'{slug}_precinct_summary.json'}
+    orphans = sorted(p for p in DATA_DIR.glob(f'{slug}_precinct_*.json')
+                     if p.name not in expected)
+    for p in orphans:
+        p.unlink()
+    if orphans:
+        logger.info('  Precinct charts: removed %d file(s) of precincts no longer in the %s index: %s',
+                    len(orphans), slug, [p.name for p in orphans])
 
 
 def _update_manifest(
@@ -4148,7 +4189,15 @@ def _write_manifest_bulk(
     for county_name in processed_counties:
         slug = county_name.lower().replace(' ', '_')
         new_sections.extend(_sections_for_county(county_name, slug))
-    manifest['sections'] = kept_sections + new_sections
+    # A section whose data file is gone would send charts.js (v1.html) to a
+    # 404, e.g. the statewide precinct summary, which is no longer written.
+    sections = kept_sections + new_sections
+    manifest['sections'] = [s for s in sections
+                            if (DOCS_DIR / s.get('dataUrl', '')).is_file()]
+    if len(manifest['sections']) != len(sections):
+        logger.info('manifest.json: dropped %d section(s) whose data file is missing: %s',
+                    len(sections) - len(manifest['sections']),
+                    sorted(s.get('dataUrl') for s in sections if s not in manifest['sections']))
 
     manifest_path.write_text(json.dumps(manifest, indent=2), encoding='utf-8')
     logger.info(
@@ -4575,6 +4624,23 @@ def run_ohio_analysis(
                         logger.error('FAIL %s: %s', cname, exc)
                         failed.append((cname, str(exc)))
 
+        # ── 3b. Statewide aggregate (evaluation M10) ──────────────────────────────
+        # export_json over the whole frame: the same resolver as the counties,
+        # so the statewide charts carry the same 9 cohort labels. The landing
+        # page's headline count and the dashboard's "Ohio" view read these.
+        # The 88 county slices are released first: together they are a second
+        # copy of the dataset, and this pass needs the headroom. Not added to
+        # `processed`: the manifest's county lists name counties only.
+        del tasks, futures
+        with _timer(logger, 'statewide JSON export'):
+            export_json(STATEWIDE_NAME, df, election_cols, logger,
+                        update_manifest=False, write_precinct_summary=False)
+            export_unc_shadow_json(STATEWIDE_NAME, df, identify_primary_cols(election_cols),
+                                   logger, unc_classified=_unc_classified_from_enriched_df(df))
+        state_slug = STATEWIDE_NAME.lower().replace(' ', '_')
+        # Written by earlier versions; skipped now (see export_json).
+        (DATA_DIR / f'{state_slug}_precinct_summary.json').unlink(missing_ok=True)
+
         # ── 4. Write manifest once — no race condition, no O(N²) I/O ──────────
         today = date_t.today().isoformat()
         _write_manifest_bulk(sorted(processed), today, logger)
@@ -4727,7 +4793,7 @@ def run_ohio_excel(
 
         with _timer(logger, 'writing Excel workbook'):
             build_workbook(df, election_cols, output_path,
-                           county_name='Ohio (Statewide)',
+                           county_name=STATEWIDE_NAME,
                            include_raw=False,
                            logger=logger)
         logger.info('Workbook saved: %s', output_path)
