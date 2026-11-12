@@ -658,13 +658,18 @@ def _build_maps(logger, include_precincts: bool) -> None:
     pipeline's address space. A builder whose gates fail exits non-zero, and
     that raises here.
     """
+    import os
     import subprocess
+    # UTF-8 both ways and errors='replace': a stray non-ASCII byte from a
+    # builder must not raise at the very end of a multi-hour run.
+    env = {**os.environ, 'PYTHONIOENCODING': 'utf-8'}
     builders = [BASE_DIR / 'tools' / 'admin' / 'build_state_map.py']
     if include_precincts:
         builders.append(BASE_DIR / 'tools' / 'admin' / 'build_precinct_map.py')
     for script in builders:
-        res = subprocess.run([sys.executable, str(script)], cwd=BASE_DIR,
-                             capture_output=True, text=True, encoding='utf-8')
+        res = subprocess.run([sys.executable, str(script)], cwd=BASE_DIR, env=env,
+                             capture_output=True, text=True, encoding='utf-8',
+                             errors='replace')
         for line in (res.stdout + res.stderr).splitlines():
             logger.info('[maps] %s', line)
         if res.returncode != 0:

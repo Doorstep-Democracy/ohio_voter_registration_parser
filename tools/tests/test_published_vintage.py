@@ -160,3 +160,14 @@ def test_map_layers_carry_the_snapshot(manifest):
              for p in STATE_MAP.glob("*.geojson")}
     stale = {k: v for k, v in stale.items() if v != snap}
     assert not stale, f"map layers not built from snapshot {snap}: {stale}"
+
+
+def test_statewide_total_equals_the_county_sum(manifest):
+    """The landing headline and the Ohio view read the statewide party chart.
+    It must count the same voters as the 88 county charts (evaluation P4)."""
+    def total(path):
+        return sum(json.loads(path.read_text(encoding="utf-8"))["chartConfig"]["datasets"][0]["data"])
+    counties = sum(total(DATA / f"{_county_slug(n)}_party_affiliation.json")
+                   for n in manifest["processedCounties"])
+    state = total(DATA / f"{STATE_SLUG}_party_affiliation.json")
+    assert state == counties, f"statewide party chart counts {state:,}; the counties sum to {counties:,}"
