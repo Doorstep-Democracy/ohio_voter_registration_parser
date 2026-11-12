@@ -685,16 +685,11 @@ def export_jurisdiction_json(
 
 
 
-# Enriched-cache freshness: voter_data_cleaner._cache_is_fresh() is the single
-# resolver (it also logs the verdict); this module used to keep a copy.
-
-
-def _write_cache_atomic(df, logger) -> None:
-    """Atomic tmp-then-replace write so a crash cannot corrupt the cache."""
-    tmp = ENRICHED_CACHE.with_suffix(".parquet.tmp")
-    df.write_parquet(tmp, compression="zstd")
-    tmp.replace(ENRICHED_CACHE)
-    logger.info("Enriched cache written: %s", ENRICHED_CACHE)
+# Enriched-cache freshness and writing: voter_data_cleaner owns the single
+# _cache_is_fresh() and _write_cache_atomic(). This module used to keep copies;
+# its writer skipped the provenance sidecar (snapshot date + affiliation
+# window), so a cache rebuilt on this path left the sidecar describing an
+# older snapshot.
 
 
 
@@ -951,7 +946,7 @@ def main(
         df = _v2.clean_voter_data(df, logger)
         logger.info(f'Enriched: {df.height:,} rows x {df.width} columns')
         logger.info('Writing enriched voter data to persistent cache...')
-        _write_cache_atomic(df, logger)
+        _v2._write_cache_atomic(df, logger)
 
     # Get election columns (any column matching PRIMARY-*, GENERAL-*, SPECIAL-* pattern)
     election_cols = [col for col in df.columns if col.split('-')[0] in ['PRIMARY', 'GENERAL', 'SPECIAL']]

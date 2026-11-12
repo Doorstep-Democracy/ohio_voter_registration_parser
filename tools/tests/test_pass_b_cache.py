@@ -111,6 +111,26 @@ class TestCacheIsFresh:
 # ── _write_cache_atomic() ────────────────────────────────────────────────────
 
 class TestWriteCacheAtomic:
+    # voter_data_cleaner owns the single _write_cache_atomic(); jurisdictional_groupings
+    # delegates to it (its copy, which wrote no provenance sidecar, was removed
+    # 2026-11-12), so only one module is tested.
+    @pytest.fixture
+    def mod(self):
+        return _v2
+
+    def test_groupings_keeps_no_copy(self):
+        assert not hasattr(_jg, "_write_cache_atomic")
+        assert not hasattr(_jg, "_cache_is_fresh")
+
+    def test_writes_provenance_sidecar(self, mod, tmp_path, monkeypatch):
+        import json
+        cache = tmp_path / "cache.parquet"
+        monkeypatch.setattr(mod, "ENRICHED_CACHE", cache)
+        mod._write_cache_atomic(polars.DataFrame({"x": [1]}), logging.getLogger("test"))
+        side = json.loads(cache.with_suffix(".provenance.json").read_text(encoding="utf-8"))
+        assert side["provenance_snapshot_date"] == "2026-10-24"
+        assert "affiliation_window_years" in side
+
     @pytest.fixture(autouse=True)
     def _pin_snapshot_date(self, monkeypatch):
         # voter_data_cleaner._write_cache_atomic stamps the provenance sidecar
