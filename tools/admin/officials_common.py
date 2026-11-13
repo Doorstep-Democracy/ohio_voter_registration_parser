@@ -24,14 +24,20 @@ import csv
 import json
 import os
 import re
+import sys
 import tempfile
 from dataclasses import dataclass, field
 from pathlib import Path
 
 # tools/admin/ -> tools/ -> repo root
 ROOT = Path(__file__).resolve().parent.parent.parent
+# Callers import this module with only tools/admin on sys.path, so it puts the
+# repo root there itself before reading the shared path resolver.
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from pipeline.paths import ENRICHED_CACHE as ENRICHED_PARQUET  # noqa: E402
+
 PRECINCT_KEYS_DIR = ROOT / "local" / "source" / "precinct_keys"
-ENRICHED_PARQUET = ROOT / "local" / "source" / "parquet_enriched" / "enriched_voters.parquet"
 
 # County slug <-> SWVF COUNTY_NUMBER (string, as stored in the parquet).
 COUNTY_NUMBER: dict[str, str] = {

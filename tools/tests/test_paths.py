@@ -173,3 +173,9 @@ def test_partition_glob_matches_partition_directories_only(tmp_path):
         (tmp_path / name).mkdir()
     (tmp_path / "not_a_partition").mkdir()
     assert sorted(p.name for p in tmp_path.glob(paths.PARTITION_GLOB)) == sorted(names)
+
+
+def test_county_partition_file_is_under_the_padded_directory(tmp_path):
+    p = paths.county_partition_file("7", tmp_path)
+    assert p == tmp_path / paths.county_partition(7) / paths.PARTITION_FILE
+    assert paths.county_partition_file(7).parent.parent == paths.PARQUET_DIR

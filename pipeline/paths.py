@@ -118,6 +118,15 @@ COUNTY_COUNT = COUNTY_COUNT_BY_STATE[STATE]
 # Glob matching every county partition directory under PARQUET_DIR.
 PARTITION_GLOB = f"{PARTITION_KEY}=*"
 
+# The one file the partitioned writer puts in each county directory
+# (88 of 88 directories on disk, checked 2026-11-13).
+PARTITION_FILE = "part-0.parquet"
+
+
+def county_partition_file(county_number: int | str, parquet_dir: Path = PARQUET_DIR) -> Path:
+    """Path of one county's partition file, e.g. .../COUNTY_NUMBER=07/part-0.parquet."""
+    return parquet_dir / county_partition(county_number) / PARTITION_FILE
+
 
 def expected_partitions() -> set[str]:
     """Every partition directory name a complete raw cache holds for STATE."""

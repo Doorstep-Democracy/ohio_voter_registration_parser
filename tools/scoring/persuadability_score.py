@@ -76,8 +76,12 @@ from pathlib import Path
 import polars as pl
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-ENRICHED = ROOT / 'local' / 'source' / 'parquet_enriched' / 'enriched_voters.parquet'
-COUNTIES_GEOJSON = ROOT / 'docs' / 'data' / 'state_map' / 'counties.geojson'
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from pipeline.paths import DATA_DIR  # noqa: E402
+from pipeline.paths import ENRICHED_CACHE as ENRICHED  # noqa: E402
+
+COUNTIES_GEOJSON = DATA_DIR / 'state_map' / 'counties.geojson'
 
 
 def county_names() -> dict[str, str]:
