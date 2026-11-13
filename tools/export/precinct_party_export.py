@@ -38,12 +38,12 @@ import polars as pl
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR    = Path(__file__).resolve().parent.parent.parent
-PARQUET_DIR = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
 OUT_DIR     = BASE_DIR / "local" / "exports" / "Workbooks"  # PATCH: Rerouted to local/ workspace
 
 # ── Import shared helpers ─────────────────────────────────────────────────────
 sys.path.insert(0, str(BASE_DIR))
 from pipeline import voter_data_cleaner as v2
+from pipeline.paths import PARQUET_DIR, county_partition
 
 OHIO_COUNTIES  = v2.OHIO_COUNTIES
 identify_cols  = v2.identify_election_cols
@@ -80,7 +80,7 @@ def _build_logger() -> logging.Logger:
 # ── Data loading ──────────────────────────────────────────────────────────────
 def _load_county(county_num: str, logger) -> pl.DataFrame:
     """Load one county from Parquet cache."""
-    part = PARQUET_DIR / f"COUNTY_NUMBER={county_num}"
+    part = PARQUET_DIR / county_partition(county_num)
     if not part.exists():
         logger.error("Parquet partition not found: %s", part)
         sys.exit(1)

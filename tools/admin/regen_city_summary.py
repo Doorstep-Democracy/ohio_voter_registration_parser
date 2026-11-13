@@ -20,10 +20,10 @@ _ROOT = Path(__file__).resolve().parent.parent.parent
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 from pipeline import voter_data_cleaner as _v2
+from pipeline.paths import DATA_DIR, county_partition
+from pipeline.paths import PARQUET_DIR as PAR_DIR
 
 ROOT     = Path(__file__).resolve().parent.parent.parent
-DATA_DIR = ROOT / 'docs' / 'data'
-PAR_DIR  = ROOT / 'local' / 'source' / 'parquet'
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 log = logging.getLogger(__name__)
@@ -38,7 +38,7 @@ NUM_TO_SLUG = {v: k for k, v in SLUG_TO_NUM.items()}
 
 
 def regen_county(county_num: str, county_name: str, slug: str) -> None:
-    par_path = PAR_DIR / f'COUNTY_NUMBER={county_num}'
+    par_path = PAR_DIR / county_partition(county_num)
     if not par_path.exists():
         log.warning('  [skip] %s — no parquet', slug)
         return
