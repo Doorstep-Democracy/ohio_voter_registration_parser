@@ -59,6 +59,15 @@ acceptance criteria for DOO-86 and will start executing the moment it lands.
 cleared three `test_stale_references.py` tests (section 6). CI runs this
 directory as a non-blocking job until it is green (`tools/tests/README.md`, "CI").
 
+**2026-11-13:** `0 failed, 24 passed, 1 skipped` (branch `fix/path-consolidation`).
+`pipeline/paths.py` landed with the memory-budget work (2026-11-12) and every
+file in `scope_manifest.json` is now classified: 32 `converted`, 1 `excluded`
+(`tools/admin/fingerprint_audit.py`, allowlisted in `conftest.py` with its reason).
+Three superseded Montgomery demo scripts were removed and dropped from the
+manifest, which now lists 33 files. The skip is
+`test_partition_form_matches_on_disk` in a checkout with no parquet cache; the
+same assertions passed against the real cache (all 88 directories).
+
 Detector output at baseline, which is also the corrected scope figure:
 
 | Detector | Result |
@@ -177,9 +186,10 @@ opposite residue: a file that imports the resolver and keeps its old constant
 beside it, which is the worst of both — two live definitions, one silently
 shadowed.
 
-**Status.** Green but vacuous today, because nothing is marked `converted`. It
-acquires teeth one file at a time as the refactor lands, which is the intent:
-each conversion is verified individually rather than the batch being trusted.
+**Status (2026-11-13).** Green, and no longer vacuous: it checks all 32 files
+marked `converted`. It acquired teeth one file at a time as the refactor
+landed, which was the intent: each conversion verified individually rather
+than the batch being trusted.
 
 ---
 
@@ -237,8 +247,8 @@ This is §6's rule as an executable check for the first time.
 discovered by introspection, so that quietly dropping one is a test failure
 instead of a silent reduction in coverage.
 
-**Status.** All skipped — `pipeline/paths.py` does not exist yet. These *are*
-the acceptance criteria for DOO-86.
+**Status (2026-11-13).** All pass. They started running when `pipeline/paths.py`
+landed on 2026-11-12; they are the acceptance criteria for DOO-86.
 
 ---
 
@@ -260,8 +270,9 @@ everything adjusted".
 
 **Status (2026-11-11).** The first three pass: every `voter_data_cleaner_v2`
 import and mention was repointed, and the README rows for the renamed lookup
-tools and the removed `archive_state.py` were fixed. The fourth still fails on
-four module docstrings that name pre-reorganisation paths.
+tools and the removed `archive_state.py` were fixed. The fourth failed on four
+module docstrings that named pre-reorganisation paths; those were repointed on
+2026-11-13, so all four pass.
 
 **Why it exists, concretely.** The `voter_data_cleaner_v2` → `voter_data_cleaner`
 rename left references behind across seven files. Three of them are not stale
@@ -345,9 +356,9 @@ internalising before trusting any future inventory:
 1. **Inline construction inside a function** — `data_dir = BASE_DIR / 'docs' / 'data'`
    in a function body has no module-level constant to grep for. 43 of the 100
    core sites are inline.
-2. **`os.path.join`** — the pre-pathlib idiom, still live in
-   `build_montgomery_demo.py`. A `/`-operator matcher alone reports a clean tree
-   that isn't one.
+2. **`os.path.join`** — the pre-pathlib idiom, live in `build_montgomery_demo.py`
+   until that script was removed on 2026-11-13. A `/`-operator matcher alone
+   reports a clean tree that isn't one.
 3. **Bare string literals** — a path in a dict value with no variable name
    at all (`captain_match_report.py:352`). 9 sites.
 4. **Paths assembled across statements** — `DOCS = BASE / "docs"` then

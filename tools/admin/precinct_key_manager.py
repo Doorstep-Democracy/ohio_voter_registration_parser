@@ -17,18 +17,18 @@ Functions:
    Sub-field rule: last token is a sub iff it matches ^[A-Z]$ or ^\\d+-[A-Z]$
    Everything else after the leading code is treated as part of the name.
 
-2. AGGREGATE: Compiles all individual {county}_precincts.csv files into a 
+2. AGGREGATE: Compiles all individual {NN}_{County}_precinct_key.csv files into a 
    single multi-tab Excel workbook with formatted headers, auto-filters, 
    and frozen panes.
 
 Output:
 ───────
-- CSVs: ./source/precinct_keys/{county}_precincts.csv
-- XLSX: ./precinct_keys_master.xlsx
+- CSVs: local/source/County Data Files/{NN}_{County}/{NN}_{County}_precinct_key.csv
+- XLSX: local/source/County Data Files/precinct_keys_master.xlsx
 
 Usage:
 ──────
-    python tools/precinct_key_manager.py
+    python tools/admin/precinct_key_manager.py
 
 Requires: curl_cffi, beautifulsoup4, xlsxwriter
 """

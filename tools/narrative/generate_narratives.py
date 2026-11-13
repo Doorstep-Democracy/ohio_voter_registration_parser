@@ -1,6 +1,6 @@
 """
-tools/generate_narratives.py
-────────────────────────────
+tools/narrative/generate_narratives.py
+──────────────────────────────────────
 Reads existing chart JSON from docs/data/ and writes a {slug}_narrative.json
 for every jurisdiction at the specified level(s).
 
@@ -20,34 +20,34 @@ on the next run (no --overwrite needed).
 Usage (CLI)
 ───────────
   # All 88 counties (default level)
-  python tools/generate_narratives.py --templated
+  python -m tools.narrative.generate_narratives --templated
 
   # Targeted county run
-  python tools/generate_narratives.py Hamilton Franklin --templated
+  python -m tools.narrative.generate_narratives Hamilton Franklin --templated
 
   # All Hamilton precincts
-  python tools/generate_narratives.py --level precinct Hamilton --templated
+  python -m tools.narrative.generate_narratives --level precinct Hamilton --templated
 
   # All cities
-  python tools/generate_narratives.py --level city --templated
+  python -m tools.narrative.generate_narratives --level city --templated
 
   # Every level in sequence
-  python tools/generate_narratives.py --all-levels --templated
+  python -m tools.narrative.generate_narratives --all-levels --templated
 
   # Inspect output without writing
-  python tools/generate_narratives.py Hamilton --templated --dry-run
+  python -m tools.narrative.generate_narratives Hamilton --templated --dry-run
 
   # Force regeneration despite unchanged metrics
-  python tools/generate_narratives.py --templated --overwrite
+  python -m tools.narrative.generate_narratives --templated --overwrite
 
   # Template + LLM sync enrichment (one API call per jurisdiction)
-  python tools/generate_narratives.py Hamilton --templated --llm
+  python -m tools.narrative.generate_narratives Hamilton --templated --llm
 
   # Template + LLM Batch API enrichment (50% cheaper, waits for completion)
-  python tools/generate_narratives.py --all-levels --templated --llm-batch
+  python -m tools.narrative.generate_narratives --all-levels --templated --llm-batch
 
   # Force re-enrich even if captain_metrics_hash is current
-  python tools/generate_narratives.py Hamilton --templated --llm --llm-force
+  python -m tools.narrative.generate_narratives Hamilton --templated --llm --llm-force
 
 Usage (programmatic -- called by ohio_voter_pipeline.py)
 ────────────────────────────────────────────────────────

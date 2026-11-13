@@ -5,7 +5,7 @@ build_city_summary() which groups on the CITY column instead of
 PRECINCT_NAME prefix-matching.
 
 Does NOT touch precinct charts, cohort data, or any other pipeline output.
-Run from the project root: python tools/regen_city_summary.py
+Run from the project root: python tools/admin/regen_city_summary.py
 """
 import json
 import logging

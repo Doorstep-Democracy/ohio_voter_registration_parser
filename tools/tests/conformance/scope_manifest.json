@@ -62,22 +62,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
-    },
-    {
-      "path": "tools/admin/build_montgomery_demo.py",
-      "families": [
-        "parquet_enriched",
-        "parquet",
-        "docs_data"
-      ],
-      "sites": 3,
-      "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): the localhost default is paths.ENRICHED_CACHE; ROSTER_ENRICHED_CACHE still overrides it. Adds the repo root to sys.path (it previously added only serve/)."
     },
     {
       "path": "tools/admin/build_precinct_map.py",
@@ -100,8 +87,8 @@
       "sites": 9,
       "partition_sites": 0,
       "bucket": "safe-mechanical",
-      "status": "pending",
-      "notes": "Output paths converted 2026-11-12 (DOO-179 path slice), so it follows ELECTION_DATA_OUT. Still pending: RAW_PARQUET = PARQUET_DIR / 'raw_voters.parquet', a fallback input that is not part of the Hive-partitioned layout."
+      "status": "converted",
+      "notes": "Output paths converted 2026-11-12 (DOO-179 path slice). Converted 2026-11-13 (DOO-86): the RAW_PARQUET fallback (PARQUET_DIR / 'raw_voters.parquet') was removed. No code writes that file and it is not on disk, so the fallback could only fail; the vintage check now reads the enriched cache and reports only that path when it is missing."
     },
     {
       "path": "tools/admin/captain_match_report.py",
@@ -110,9 +97,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): the 'voters' provenance label is ENRICHED_CACHE.relative_to(BASE_DIR).as_posix(), the identical string the literal held. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/admin/emit_county_fingerprint.py",
@@ -122,9 +109,9 @@
       ],
       "sites": 3,
       "partition_sites": 1,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86, DOO-92): --parquet-dir and --staged-from defaults come from pipeline/paths.py and the flags still override them; the partition glob is PARTITION_GLOB/PARTITION_FILE. CRLF file. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/admin/encoding_census.py",
@@ -133,9 +120,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): DEFAULT_PARQUET is paths.ENRICHED_CACHE and stays the --parquet default. Behavior change: the default was a relative Path, so it only resolved when run from the repo root; it is now absolute."
     },
     {
       "path": "tools/admin/fingerprint_audit.py",
@@ -144,9 +131,9 @@
       ],
       "sites": 4,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "excluded",
+      "notes": "Excluded 2026-11-13 and added to conftest.ALLOWLIST_RELPATHS: its four flagged sites (lines 121, 246, 319, 611) are audit output files named *.parquet under its own local/working/fingerprint_audit/ folder. The parquet family matched the file suffix, not the managed raw cache. Cost: a future managed path added to this file would go undetected."
     },
     {
       "path": "tools/admin/ingest_elected_officials.py",
@@ -155,9 +142,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): WARD_INDEX_JSON is DATA_DIR / 'ward' / 'index.json', so it follows ELECTION_DATA_OUT. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/admin/officials_common.py",
@@ -166,31 +153,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
-    },
-    {
-      "path": "tools/admin/patch_choropleth.py",
-      "families": [
-        "docs_data"
-      ],
-      "sites": 1,
-      "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
-    },
-    {
-      "path": "tools/admin/patch_html.py",
-      "families": [
-        "docs_data"
-      ],
-      "sites": 2,
-      "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): ENRICHED_PARQUET is paths.ENRICHED_CACHE under its old name. Callers import this module with only tools/admin on sys.path, so it adds the repo root itself."
     },
     {
       "path": "tools/admin/precinct_key_manager.py",
@@ -199,9 +164,9 @@
       ],
       "sites": 2,
       "partition_sites": 2,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86, DOO-92): both partition-file paths use county_partition_file(). County numbers come from a padded lookup; an unknown county (None) keeps the not-found branch instead of raising. CRLF file. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/admin/regen_city_summary.py",
@@ -211,9 +176,9 @@
       ],
       "sites": 4,
       "partition_sites": 1,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86, DOO-92): DATA_DIR and PAR_DIR (alias of PARQUET_DIR) come from pipeline/paths.py, the partition name from county_partition(). County numbers are the padded OHIO_COUNTIES keys. CRLF file."
     },
     {
       "path": "tools/admin/regen_precinct_index_places.py",
@@ -223,9 +188,9 @@
       ],
       "sites": 4,
       "partition_sites": 1,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86, DOO-92): DATA_DIR and PAR_DIR (alias of PARQUET_DIR) come from pipeline/paths.py, the partition name from county_partition(). Follows ELECTION_DATA_OUT."
     },
     {
       "path": "tools/admin/validate_jurisdiction_fields.py",
@@ -235,9 +200,9 @@
       ],
       "sites": 5,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): DOCS_DATA is paths.DATA_DIR (follows ELECTION_DATA_OUT); DEFAULT_PARQUET is paths.ENRICHED_CACHE and stays the --parquet default. Behavior change: that default was a relative Path that only resolved from the repo root; it is now absolute."
     },
     {
       "path": "tools/export/precinct_party_export.py",
@@ -246,9 +211,9 @@
       ],
       "sites": 2,
       "partition_sites": 1,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86, DOO-92): PARQUET_DIR from pipeline/paths.py, the partition name from county_partition(). County numbers are zero-padded by _pick_county. CRLF file."
     },
     {
       "path": "tools/export/precinct_unc_export.py",
@@ -258,9 +223,9 @@
       ],
       "sites": 2,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): TXT_DIR from pipeline/paths.py. The unused SOURCE_DIR and PARQUET_DIR module constants were dropped. CRLF file."
     },
     {
       "path": "tools/lookup/match_officials_to_voters.py",
@@ -269,9 +234,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): PARQUET is paths.ENRICHED_CACHE under its old name. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/lookup/voter_lookup_parquet.py",
@@ -280,9 +245,9 @@
       ],
       "sites": 1,
       "partition_sites": 1,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86, DOO-92): the default search root is paths.PARQUET_DIR and the parquet_dir argument still overrides it; the partition glob is PARTITION_GLOB. CRLF file. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/lookup/voter_lookup_source.py",
@@ -291,9 +256,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): the default search root is paths.TXT_DIR and the raw_dir argument still overrides it. CRLF file. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/narrative/generate_narratives.py",
@@ -313,9 +278,9 @@
       ],
       "sites": 5,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "needs-judgment",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): the dry-run reads narratives from paths.DATA_DIR, so it follows ELECTION_DATA_OUT. The import sits inside _cli_dry_run, which also puts the repo root on sys.path for standalone runs."
     },
     {
       "path": "tools/scoring/persuadability_score.py",
@@ -325,9 +290,9 @@
       ],
       "sites": 2,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): ENRICHED is paths.ENRICHED_CACHE; COUNTIES_GEOJSON is DATA_DIR / 'state_map' / 'counties.geojson'. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/tests/test_cohort_lean.py",
@@ -336,9 +301,9 @@
       ],
       "sites": 3,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": "Added 2026-11-11 with the lean-by-label fix; reads published party charts under docs/data. Converts with the other tests when pipeline.paths lands."
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): DOCS_DATA is paths.DATA_DIR, so under ELECTION_DATA_OUT the test checks that output."
     },
     {
       "path": "tools/tests/test_precinct_totals_reconcile.py",
@@ -347,9 +312,9 @@
       ],
       "sites": 4,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": "Added 2026-11-12 with the MINOR_PARTY fix (evaluation P5); reads published precinct indexes and party charts under docs/data. Converts with the other tests when pipeline.paths lands."
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): DOCS and DATA are paths.DOCS_DIR and paths.DATA_DIR, so under ELECTION_DATA_OUT the test checks that output."
     },
     {
       "path": "tools/tests/test_published_vintage.py",
@@ -358,9 +323,9 @@
       ],
       "sites": 3,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": "Added 2026-11-12 with Next 3 (evaluation M5/P4/P7/M10): vintage and completeness gate over docs/data and docs/manifest.json. Converts with the other tests when pipeline.paths lands."
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): DOCS and DATA are paths.DOCS_DIR and paths.DATA_DIR, so under ELECTION_DATA_OUT the test checks that output."
     },
     {
       "path": "tools/tests/test_data_slug_naming.py",
@@ -369,9 +334,9 @@
       ],
       "sites": 1,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): CITY_DATA is paths.DATA_DIR / 'city'."
     },
     {
       "path": "tools/admin/jurisdiction_collisions_report.py",
@@ -380,9 +345,9 @@
       ],
       "sites": 2,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): PARQUET_DIR from pipeline/paths.py; the read glob is parquet_glob(PARQUET_DIR), the identical string. CRLF file. Adds a repo-root bootstrap."
     },
     {
       "path": "tools/tests/test_pass_b_index.py",
@@ -391,9 +356,9 @@
       ],
       "sites": 3,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): DOCS_DATA is paths.DATA_DIR."
     },
     {
       "path": "tools/tests/test_pass_b_manifest_frontend.py",
@@ -402,18 +367,18 @@
       ],
       "sites": 3,
       "partition_sites": 0,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-86): DOCS and DATA_DIR are paths.DOCS_DIR and paths.DATA_DIR."
     },
     {
       "path": "tools/tests/test_pass_b_cache.py",
       "families": [],
       "sites": 0,
       "partition_sites": 1,
-      "bucket": "",
-      "status": "pending",
-      "notes": ""
+      "bucket": "safe-mechanical",
+      "status": "converted",
+      "notes": "Converted 2026-11-13 (DOO-92): the fixture partition name is county_partition(1) instead of the literal 'COUNTY_NUMBER=01'. CRLF file."
     }
   ]
 }
