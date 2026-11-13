@@ -30,10 +30,17 @@ SCAN_DIRS = ("pipeline", "tools", "serve")
 # Paths never treated as offenders.
 #   pipeline/paths.py  -- the single resolver this suite exists to protect
 #   this directory     -- the tests necessarily mention the patterns they detect
+#   tools/admin/fingerprint_audit.py -- excluded 2026-11-13 (DOO-86). Its four
+#       flagged sites are audit output files named *.parquet under its own
+#       local/working/fingerprint_audit/ folder; the "parquet" family matches the
+#       file suffix, not the managed raw cache. Moving a one-off audit folder into
+#       pipeline/paths.py would grow the resolver for no consumer. Cost: a future
+#       managed path added to this one file would go undetected.
 ALLOWLIST_RELPATHS = frozenset(
     {
         "pipeline/paths.py",
         "tools/tests/conformance/conftest.py",
+        "tools/admin/fingerprint_audit.py",
     }
 )
 ALLOWLIST_DIR_PREFIXES = ("tools/tests/conformance/",)
@@ -156,9 +163,9 @@ def _is_path_expression(node: ast.AST) -> bool:
     if isinstance(node, ast.Call):
         func = node.func
         name = func.id if isinstance(func, ast.Name) else getattr(func, "attr", "")
-        # os.path.join is the pre-pathlib idiom and is still live in this repo
-        # (build_montgomery_demo.py). Omitting it is how a scanner reports a
-        # clean tree that isn't one.
+        # os.path.join is the pre-pathlib idiom (build_montgomery_demo.py used
+        # it until that script was removed on 2026-11-13). Omitting it is how a
+        # scanner reports a clean tree that isn't one.
         return name in {"Path", "PurePath", "PosixPath", "WindowsPath", "join"}
     if isinstance(node, ast.Constant) and isinstance(node.value, str):
         return "/" in node.value or "\\" in node.value
