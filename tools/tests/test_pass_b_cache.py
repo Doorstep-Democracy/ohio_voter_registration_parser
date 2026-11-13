@@ -16,6 +16,7 @@ import pytest
 polars = pytest.importorskip("polars")
 from pipeline import voter_data_cleaner as _v2
 from pipeline import jurisdictional_groupings as _jg
+from pipeline.paths import county_partition
 
 
 # ── _cache_is_fresh() ────────────────────────────────────────────────────────
@@ -25,7 +26,7 @@ def mod(request):
     return request.param
 
 
-def _make_partition(parquet_dir: Path, name="COUNTY_NUMBER=01"):
+def _make_partition(parquet_dir: Path, name=county_partition(1)):
     p = parquet_dir / name
     p.mkdir(parents=True, exist_ok=True)
     return p

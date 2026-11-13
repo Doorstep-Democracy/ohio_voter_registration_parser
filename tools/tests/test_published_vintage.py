@@ -21,11 +21,11 @@ from pathlib import Path
 
 import pytest
 
+from pipeline.paths import DATA_DIR as DATA
+from pipeline.paths import DOCS_DIR as DOCS
 from pipeline.voter_data_cleaner import PRECINCT_FILE_KINDS, STATEWIDE_NAME
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-DOCS = ROOT / "docs"
-DATA = DOCS / "data"
 STATE_MAP = DATA / "state_map"
 STATE_SLUG = STATEWIDE_NAME.lower().replace(" ", "_")
 

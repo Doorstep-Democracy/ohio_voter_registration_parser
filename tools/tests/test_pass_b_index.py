@@ -5,11 +5,10 @@ Validates the per-type index.json files written to docs/data/{type}/
 by build_jur_indexes.py / export_jurisdiction_index().
 """
 import json
-from pathlib import Path
 
 import pytest
 
-DOCS_DATA = Path(__file__).resolve().parent.parent.parent / "docs" / "data"
+from pipeline.paths import DATA_DIR as DOCS_DATA
 COUNTY_SCOPED = {"township", "village", "municipal_court_district"}
 REQUIRED_KEYS = {"slug", "name", "display_name", "county", "county_slug",
                  "voter_count", "charts"}
