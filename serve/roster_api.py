@@ -73,11 +73,14 @@ import polars as pl
 import captain_db  # SQLite write tier — captain identity, touches, walk lists
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+from pipeline.paths import ENRICHED_CACHE as _DEFAULT_ENRICHED_CACHE  # noqa: E402
 # Config-driven: ROSTER_ENRICHED_CACHE overrides the localhost default so a
 # hosted deploy can point at a different mount with zero code change.
 ENRICHED_CACHE = Path(os.environ.get(
     "ROSTER_ENRICHED_CACHE",
-    str(BASE_DIR / "local" / "source" / "parquet_enriched" / "enriched_voters.parquet"),
+    str(_DEFAULT_ENRICHED_CACHE),
 ))
 # As of 2026-06-21 the UI is docs/index.htm + captain/captain-mode.js — this
 # API is JSON-only. (Earlier prototype served preview.html / pc.html here; those
