@@ -157,3 +157,19 @@ def test_parquet_glob_is_the_recursive_pattern(tmp_path):
     assert pattern.startswith(str(tmp_path))
     tail = pattern[len(str(tmp_path)):]
     assert tail.split("/") == ["", "**", "*.parquet"]
+
+
+def test_expected_partitions_cover_every_county_once():
+    parts = paths.expected_partitions()
+    assert len(parts) == paths.COUNTY_COUNT == paths.COUNTY_COUNT_BY_STATE["OH"]
+    assert paths.county_partition(1) in parts
+    assert paths.county_partition(paths.COUNTY_COUNT) in parts
+    assert paths.county_partition(paths.COUNTY_COUNT + 1) not in parts
+
+
+def test_partition_glob_matches_partition_directories_only(tmp_path):
+    names = [paths.county_partition(1), paths.county_partition(paths.COUNTY_COUNT)]
+    for name in names:
+        (tmp_path / name).mkdir()
+    (tmp_path / "not_a_partition").mkdir()
+    assert sorted(p.name for p in tmp_path.glob(paths.PARTITION_GLOB)) == sorted(names)

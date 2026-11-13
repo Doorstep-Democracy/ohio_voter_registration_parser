@@ -109,6 +109,21 @@ def county_partition(county_number: int | str) -> str:
     return f"{PARTITION_KEY}={number:02d}"
 
 
+# Counties per registered state. The set of partitions a complete raw cache
+# holds is derived from this table, never from a bare range literal, so a
+# second state's partitions are a table row rather than a hunt for range(1, 89).
+COUNTY_COUNT_BY_STATE = {"OH": 88}
+COUNTY_COUNT = COUNTY_COUNT_BY_STATE[STATE]
+
+# Glob matching every county partition directory under PARQUET_DIR.
+PARTITION_GLOB = f"{PARTITION_KEY}=*"
+
+
+def expected_partitions() -> set[str]:
+    """Every partition directory name a complete raw cache holds for STATE."""
+    return {county_partition(n) for n in range(1, COUNTY_COUNT + 1)}
+
+
 def parquet_glob(directory: Path) -> str:
     """Recursive glob string matching every parquet file under `directory`.
 

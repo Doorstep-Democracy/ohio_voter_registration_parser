@@ -106,7 +106,10 @@ from paths import (  # noqa: E402,F401
     OUTPUT_OVERRIDDEN,
     PARQUET_DIR,
     PARQUET_ENRICHED_DIR,
+    PARTITION_GLOB,
     PARTITION_KEY,
+    county_partition,
+    expected_partitions,
     parquet_glob,
 )
 import memory_budget  # noqa: E402  (sibling module; preflight before heavy loads)
@@ -183,7 +186,7 @@ def _cache_is_fresh(logger: logging.Logger | None = None) -> bool:
         log.info('Enriched cache freshness: STALE -- %s does not exist', ENRICHED_CACHE)
         return False
     cache_mt = ENRICHED_CACHE.stat().st_mtime
-    raw_partitions = list(PARQUET_DIR.glob("COUNTY_NUMBER=*"))
+    raw_partitions = list(PARQUET_DIR.glob(PARTITION_GLOB))
     if not raw_partitions:
         log.info('Enriched cache freshness: STALE -- no raw partitions under %s', PARQUET_DIR)
         return False
@@ -921,7 +924,7 @@ def build_parquet_cache(
     pdir.mkdir(parents=True, exist_ok=True)
 
     existing = {p.name for p in pdir.iterdir() if p.is_dir()}
-    expected = {f'COUNTY_NUMBER={n:02d}' for n in range(1, 89)}
+    expected = expected_partitions()
     if existing >= expected:
         log.info('Parquet cache complete (%d partitions) — skipping.', len(existing))
         return pdir
@@ -972,9 +975,7 @@ def load_voter_files_parquet(
 
     if county_number:
         cnum = county_number.strip().zfill(2)
-        part = pdir / f'COUNTY_NUMBER={cnum}'
-        if not part.exists():
-            part = pdir / f'COUNTY_NUMBER={int(cnum)}'
+        part = pdir / county_partition(cnum)
         if not part.exists():
             raise FileNotFoundError(f'No Parquet partition for county {cnum}.')
         log.info('Loading Parquet partition: %s', part.name)

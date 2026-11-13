@@ -52,8 +52,8 @@
       "sites": 7,
       "partition_sites": 4,
       "bucket": "needs-judgment",
-      "status": "pending",
-      "notes": "Path constants converted 2026-11-12 (DOO-179 path slice). Still pending: 4 hand-built COUNTY_NUMBER= partition names and the range(1, 89) literal, which belong to DOO-92."
+      "status": "converted",
+      "notes": "Path constants converted 2026-11-12 (DOO-179 path slice). Partition names converted 2026-11-13 (DOO-92): the cache-freshness glob uses PARTITION_GLOB, the completeness check uses expected_partitions() instead of range(1, 89), and the partition loader uses county_partition(). The unpadded int(cnum) fallback was dropped: cnum is always zfill(2)-padded and all 88 directories on disk are padded (checked 2026-11-13)."
     },
     {
       "path": "serve/roster_api.py",
