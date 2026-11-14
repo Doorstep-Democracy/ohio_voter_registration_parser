@@ -48,6 +48,21 @@ requirement stands unchanged.
 - **Security:** output directory must be gitignored before running; voter-record data and
   generated artifacts never leave it (see terminology note above; not a PII-specific concern).
 
+### `export_crosser_targets.py`
+- **Function:** Axis A subscriber export v1 (Linear DOO-7). Per-county CSV of non-locked crossers
+  (voters with both D and R primary ballots who have not re-settled into one party), with
+  `fresh_defector` and `voted_last_even_november_general` appended. Predicates come from
+  `tools/scoring/axis_a_segments.py`. The columns are an explicit whitelist (46 static SWVF
+  columns, election history, three computed columns); no derived pipeline field, `switch_count`
+  included, can reach a CSV.
+- **Inputs:** the enriched cache (`pipeline.paths.ENRICHED_CACHE`), refused if stale or missing its
+  snapshot-date and affiliation-window metadata; `--parquet` reads another file instead.
+- **Outputs:** `local/exports/Crosser_Targets/{NN_County}/{county}_CROSSER_targets.csv` plus a
+  `.provenance.json` (snapshot date, affiliation window, anchor column, row counts).
+- **Usage:** `python tools/export/export_crosser_targets.py --county 57 --county-name montgomery`
+  or `--all-counties` (also prunes county directories no longer in the source).
+- **Security:** writes only under the gitignored `local/exports/`.
+
 ### `precinct_unc_export.py`
 - **Function:** For every precinct across all 88 Ohio counties (or one county via `--county`),
   computes registration totals and cohort breakdowns (pure D/R, D/R crossover, UNC-lifetime-D/R,
