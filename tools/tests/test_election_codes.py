@@ -142,6 +142,15 @@ def test_unseen_code_stops_clean_voter_data():
         vdc.clean_voter_data(df, LOG)
 
 
+def test_unseen_code_stops_the_classifier_on_a_string_frame():
+    """Tools such as precinct_party_export and export_unc_targets read raw data
+    themselves and hand the classifier a String frame; it must be strict too."""
+    df = _with_unseen(fx.string_frame(n_random=50))
+    with pytest.raises(vdc.UnknownElectionCodeError, match="'Q'"):
+        vdc.classify_all_voters_primary_history(
+            df, fx.PRIMARY_COLS, LOG, reference_date=fx.REFERENCE_DATE)
+
+
 def test_nonstring_election_column_is_refused():
     df = pl.DataFrame({"SOS_VOTERID": ["a"], "PRIMARY-05/03/2022": [1]})
     with pytest.raises(TypeError, match="cannot cast to codes"):

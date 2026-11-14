@@ -2098,6 +2098,14 @@ def classify_all_voters_primary_history(
     """
     from math import exp
 
+    # Every election cell is checked against the code set here, whatever the
+    # frame's source (DOO-184, operator decision 3). Frames from the loaders
+    # already hold codes and pass through unchanged. A String frame read
+    # straight from a raw partition, the text files or the enriched cache is
+    # cast here, so an unseen code raises instead of counting as a
+    # minor-party ballot.
+    df = to_codes(df, identify_election_cols(df))
+
     party_col = 'PARTY_AFFILIATION' if 'PARTY_AFFILIATION' in df.columns else 'PARTYAFFIL'
 
     # -- Empty-primary-cols edge case ----------------------------------------
