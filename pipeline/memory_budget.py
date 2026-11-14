@@ -232,25 +232,35 @@ def estimate_export(rows: int, frame_dtypes: Iterable[str], election_cols: int,
 
 def estimate_rebuild(rows: int, raw_cols: int, election_cols: int,
                      largest_partition_rows: int | None = None) -> Estimate:
-    """Rebuilding the enriched cache: the raw frame and the enriched frame it
-    becomes are both resident while the classifier runs.
+    """Rebuilding the enriched cache, as three phases that do not coexist; the
+    peak is the largest of them.
+
+    load       raw frame + partition cast
+    classify   raw frame + enriched frame + working
+    write      raw frame + enriched frame + cache write
 
     raw frame        non-election columns String; election cells as compact codes,
                      because the loader casts each partition as it is read.
     partition cast   one partition's election cells still String during its cast.
                      `largest_partition_rows` bounds it; None charges every row,
                      the conservative bound when the partition sizes are unknown.
-    The cache write streams its cast back to String, so it adds no full copy.
+    enriched frame   raw columns plus the derived ones.
+    cache write      the cache is written as String. The cast back is streamed,
+                     but streaming was measured (2026-11-14, synthetic) at up to
+                     a full String copy of the election columns at 2.5M rows and
+                     about half of one at 5-10M, so it is charged at a full copy.
     """
     raw = frame_bytes(rows, ["String"] * (raw_cols - election_cols), election_cols=election_cols,
                       election_cell_bytes=COMPACT_ELECTION_CELL_BYTES)
     part_rows = rows if largest_partition_rows is None else min(largest_partition_rows, rows)
     cast = frame_bytes(part_rows, (), election_cols=election_cols)
-    enriched = int(raw * 1.1)          # raw columns plus the derived ones
+    enriched = int(raw * 1.1)
     working = int(raw * WORKING_FACTOR)
-    return Estimate("enriched-cache rebuild", raw + cast + enriched + working,
-                    (("raw frame", raw), ("partition cast", cast),
-                     ("enriched frame", enriched), ("working", working)))
+    write = frame_bytes(rows, (), election_cols=election_cols)
+    peak = max(raw + cast, raw + enriched + working, raw + enriched + write)
+    return Estimate("enriched-cache rebuild", peak,
+                    (("raw frame", raw), ("partition cast", cast), ("enriched frame", enriched),
+                     ("working", working), ("cache write", write)))
 
 
 def estimate_groupings(rows: int, frame_dtypes: Iterable[str]) -> Estimate:

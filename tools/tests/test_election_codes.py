@@ -225,11 +225,16 @@ def test_rebuild_estimate_charges_compact_cells():
     non_election = mb.frame_bytes(rows, ["String"] * (raw_cols - n_el))
     assert parts["raw frame"] == non_election + int(rows * n_el * 1.0)
     assert parts["partition cast"] == int(largest * n_el * mb.ELECTION_CELL_BYTES)
+    # The cache is written as String: charged at a full String copy of the election cells.
+    assert parts["cache write"] == int(rows * n_el * mb.ELECTION_CELL_BYTES)
+    raw, enriched = parts["raw frame"], parts["enriched frame"]
+    assert est.peak == max(raw + parts["partition cast"],
+                           raw + enriched + parts["working"],
+                           raw + enriched + parts["cache write"])
+    # Statewide shape (8.0M rows, 91 election columns): well under the all-String estimate.
     string_raw = mb.frame_bytes(rows, ["String"] * (raw_cols - n_el), election_cols=n_el)
     old_peak = string_raw + int(string_raw * 1.1) + int(string_raw * mb.WORKING_FACTOR)
-    saved_per_frame = rows * n_el * (mb.ELECTION_CELL_BYTES - 1.0)
-    assert old_peak - est.peak == pytest.approx(
-        saved_per_frame * (1 + 1.1 + mb.WORKING_FACTOR) - parts["partition cast"], rel=1e-6)
+    assert est.peak < 0.6 * old_peak
 
 
 def test_rebuild_estimate_without_partition_sizes_is_conservative():
