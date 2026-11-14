@@ -40,8 +40,8 @@ from pipeline import voter_data_cleaner as _v
 from pipeline.ohio_voter_pipeline import _build_city_county_map
 from tools.admin import regen_city_summary
 
-DATA_DIR = _ROOT / 'docs' / 'data'
-PAR_DIR = _ROOT / 'local' / 'source' / 'parquet'
+from pipeline.paths import DATA_DIR, county_partition  # noqa: E402
+from pipeline.paths import PARQUET_DIR as PAR_DIR  # noqa: E402
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 log = logging.getLogger(__name__)
@@ -64,7 +64,7 @@ def stamp_county(county_num: str, county_name: str, slug: str) -> bool:
     if not idx_path.exists():
         log.warning('  [skip] %s -- no precinct index', slug)
         return False
-    par_path = PAR_DIR / f'COUNTY_NUMBER={county_num}'
+    par_path = PAR_DIR / county_partition(county_num)
     if not par_path.exists():
         log.warning('  [skip] %s -- no parquet', slug)
         return False

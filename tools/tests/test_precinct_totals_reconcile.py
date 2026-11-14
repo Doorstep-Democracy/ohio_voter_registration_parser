@@ -15,8 +15,8 @@ from pathlib import Path
 
 import pytest
 
-DOCS = Path(__file__).resolve().parent.parent.parent / "docs"
-DATA = DOCS / "data"
+from pipeline.paths import DATA_DIR as DATA
+from pipeline.paths import DOCS_DIR as DOCS
 
 
 def _chart_sum(path: Path) -> int:

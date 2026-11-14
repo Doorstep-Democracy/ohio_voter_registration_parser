@@ -35,6 +35,11 @@ from datetime import datetime
 import argparse
 import sys
 
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+from pipeline.paths import PARQUET_DIR, PARTITION_GLOB  # noqa: E402
+
 # Windows console default (cp1252) crashes on non-ASCII output (e.g. a
 # diacritic in a jurisdiction name) -- reconfigure stdout to UTF-8 so the
 # console summary print never raises UnicodeEncodeError mid-run, after the
@@ -57,7 +62,7 @@ def run_global_parquet_search(term: str = None, parquet_dir: str = None,
     script_dir = Path(__file__).parent.resolve()
     project_root = script_dir.parent.parent
     if parquet_dir is None:
-        base_path = project_root / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
+        base_path = PARQUET_DIR
     else:
         base_path = Path(parquet_dir).resolve()
 
@@ -87,7 +92,7 @@ def run_global_parquet_search(term: str = None, parquet_dir: str = None,
     print(f"Source: {base_path}")
     print("-" * 60)
 
-    partitions = list(base_path.glob("COUNTY_NUMBER=*"))
+    partitions = list(base_path.glob(PARTITION_GLOB))
     if not partitions:
         print(f"No county partitions found in {base_path}")
         return

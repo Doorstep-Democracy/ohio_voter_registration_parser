@@ -28,15 +28,13 @@ import polars as pl
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
 BASE_DIR    = Path(__file__).resolve().parent.parent.parent
-SOURCE_DIR  = BASE_DIR / "local" / "source"  # PATCH: Rerouted to local/ workspace
-TXT_DIR     = SOURCE_DIR / "State Voter Files"
-PARQUET_DIR = SOURCE_DIR / "parquet"
 OUT_DIR     = BASE_DIR / "local" / "exports" / "Precinct_Summary"  # PATCH: Rerouted to local/ workspace
 
 # ── Import shared helpers from existing pipeline ──────────────────────────────
 
 sys.path.insert(0, str(BASE_DIR))
 from pipeline import voter_data_cleaner as v2
+from pipeline.paths import TXT_DIR
 
 OHIO_COUNTIES   = v2.OHIO_COUNTIES          # dict[str, str]  '01' → 'Adams'
 setup_logging   = v2.setup_logging

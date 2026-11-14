@@ -14,6 +14,11 @@ from datetime import datetime
 import argparse
 import sys
 
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+from pipeline.paths import TXT_DIR  # noqa: E402
+
 def run_global_raw_search(term: str = None, raw_dir: str = None):
     # 1. Handle Prompting
     if not term:
@@ -26,7 +31,7 @@ def run_global_raw_search(term: str = None, raw_dir: str = None):
     script_dir = Path(__file__).parent.resolve()
     project_root = script_dir.parent.parent
     if raw_dir is None:
-        raw_path = project_root / "local" / "source" / "State Voter Files"  # PATCH: Rerouted to local/ workspace
+        raw_path = TXT_DIR
     else:
         raw_path = Path(raw_dir).resolve()
 

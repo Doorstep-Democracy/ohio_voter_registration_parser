@@ -13,10 +13,10 @@ from pathlib import Path
 import pytest
 
 from pipeline.cohort_lean import COHORT_SIDE, cohort_sides, normalize_label
+from pipeline.paths import DATA_DIR as DOCS_DATA
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 V2_JS = ROOT / "docs" / "assets" / "v2.js"
-DOCS_DATA = ROOT / "docs" / "data"
 
 
 def _chart(pairs):

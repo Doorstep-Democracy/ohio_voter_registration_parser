@@ -71,7 +71,8 @@ from data_profile import (  # noqa: E402
     nonblank,
 )
 
-DEFAULT_PARQUET = Path('local/source/parquet_enriched/enriched_voters.parquet')
+# The --parquet default, from the single resolver; the flag still overrides it.
+from pipeline.paths import ENRICHED_CACHE as DEFAULT_PARQUET  # noqa: E402
 CENSUS_COLS = ['COUNTY_NUMBER', 'PRECINCT_NAME', 'CITY', 'VILLAGE', 'WARD',
                'TOWNSHIP', 'RESIDENTIAL_CITY']
 # Rule 4's gates are IMPORTED from the resolver (_WARD_CITY_PREFIX_RE,

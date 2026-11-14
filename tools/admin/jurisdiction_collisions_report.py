@@ -14,12 +14,15 @@ Run:
     uv run python tools/admin/jurisdiction_collisions_report.py
 """
 
+import sys
 from datetime import datetime
 from pathlib import Path
 import polars as pl
 
 BASE_DIR    = Path(__file__).resolve().parent.parent.parent
-PARQUET_DIR = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+from pipeline.paths import PARQUET_DIR, parquet_glob  # noqa: E402
 REPORT_PATH = BASE_DIR / "local" / "working" / "collision_report.md"
 
 JURISDICTION_COLUMNS = {
@@ -44,7 +47,7 @@ LOAD_COLS = ["COUNTY_NUMBER"] + list(JURISDICTION_COLUMNS.values())
 def main():
     print(f"Loading parquet from {PARQUET_DIR} ...")
     df = pl.read_parquet(
-        str(PARQUET_DIR) + "/**/*.parquet",
+        parquet_glob(PARQUET_DIR),
         columns=LOAD_COLS,
         hive_partitioning=True,
     )

@@ -4,8 +4,8 @@ snapshot_store.py
 Single resolver for SOS voter-file snapshots (CLAUDE.md section 5: never
 duplicate discovery/staging logic).  Every consumer -- the interactive
 pipeline (`ohio_voter_pipeline.py`), the wrapper
-(`ohio_voter_pipeline_wrapper.py`), and the future temporal engine
-(`pipeline/temporal/snapshot_state.py`) -- imports this module rather than
+(`ohio_voter_pipeline_wrapper.py`), and any future temporal engine (not yet
+written) -- imports this module rather than
 re-deriving where snapshots live or how one gets staged.
 
 Layout this module owns

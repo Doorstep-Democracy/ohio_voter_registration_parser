@@ -30,7 +30,7 @@ from pipeline.cohort_lean import cohort_sides  # noqa: E402
 # Output and cache locations come from the single resolver, so this builder
 # follows ELECTION_DATA_OUT when the pipeline runs it as a subprocess.
 from pipeline.paths import DATA_DIR as DOCS_DATA  # noqa: E402
-from pipeline.paths import DOCS_DIR, PARQUET_DIR  # noqa: E402
+from pipeline.paths import DOCS_DIR  # noqa: E402
 from pipeline.paths import ENRICHED_CACHE as ENRICHED_PARQUET  # noqa: E402
 
 GEO_DIR = REPO_ROOT / "local" / "source" / "Geo"
@@ -39,8 +39,6 @@ SOS_DIR = GEO_DIR / "SOS District Maps"
 
 OUT_DIR = DOCS_DATA / "state_map"
 MANIFEST_PATH = DOCS_DIR / "manifest.json"
-
-RAW_PARQUET = PARQUET_DIR / "raw_voters.parquet"
 
 MAX_TARGET_KB = 300
 HARD_FAIL_KB = 600
@@ -352,9 +350,9 @@ def run_build():
 
 def check_congress_vintage():
     print("Running congressional plan vintage check (voter file vs 2026-2032 adopted shapefile)...")
-    parquet_path = ENRICHED_PARQUET if ENRICHED_PARQUET.exists() else RAW_PARQUET
+    parquet_path = ENRICHED_PARQUET
     if not parquet_path.exists():
-        fail(f"no parquet source found at {ENRICHED_PARQUET} or {RAW_PARQUET}")
+        fail(f"no parquet source found at {ENRICHED_PARQUET}")
 
     print(f"  voter-file crosswalk from {parquet_path.relative_to(REPO_ROOT)}")
     df = (

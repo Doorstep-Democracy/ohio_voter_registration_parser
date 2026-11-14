@@ -47,8 +47,12 @@ from pathlib import Path
 import polars as pl
 
 _ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_PARQUET_DIR = _ROOT / 'local' / 'source' / 'parquet'
-DEFAULT_STAGED_FROM = _ROOT / 'local' / 'source' / 'State Voter Files' / 'staged_from.json'
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
+# CLI defaults from the single resolver; --parquet-dir and --staged-from still override them.
+from pipeline.paths import PARTITION_FILE, PARTITION_GLOB, TXT_DIR  # noqa: E402
+from pipeline.paths import PARQUET_DIR as DEFAULT_PARQUET_DIR  # noqa: E402
+DEFAULT_STAGED_FROM = TXT_DIR / 'staged_from.json'
 DEFAULT_OUT_DIR = _ROOT / 'local' / 'exports' / 'fingerprints'
 DATA_QUALITY_MD = _ROOT / 'DATA_QUALITY.md'
 
@@ -387,9 +391,9 @@ def main():
         print(f'ERROR: parquet dir not found: {args.parquet_dir}', file=sys.stderr)
         return 2
 
-    parts = sorted(args.parquet_dir.glob('COUNTY_NUMBER=*/part-0.parquet'))
+    parts = sorted(args.parquet_dir.glob(f'{PARTITION_GLOB}/{PARTITION_FILE}'))
     if not parts:
-        print(f'ERROR: no COUNTY_NUMBER=*/part-0.parquet under {args.parquet_dir}', file=sys.stderr)
+        print(f'ERROR: no {PARTITION_GLOB}/{PARTITION_FILE} under {args.parquet_dir}', file=sys.stderr)
         return 2
 
     snapshot_date = resolve_snapshot_date(args.staged_from, args.snapshot_date)

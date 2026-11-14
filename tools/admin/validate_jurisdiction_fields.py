@@ -74,8 +74,10 @@ from data_profile import (  # noqa: E402
 # runnable standalone; the validator runs it on every drop.
 from encoding_census import run_census, summarize as census_summarize  # noqa: E402
 
-DEFAULT_PARQUET = Path('local/source/parquet_enriched/enriched_voters.parquet')
-DOCS_DATA = _ROOT / 'docs' / 'data'
+# Locations come from the single resolver. DEFAULT_PARQUET stays the --parquet
+# default, so the flag still overrides it; DOCS_DATA follows ELECTION_DATA_OUT.
+from pipeline.paths import DATA_DIR as DOCS_DATA  # noqa: E402
+from pipeline.paths import ENRICHED_CACHE as DEFAULT_PARQUET  # noqa: E402
 WARD_INDEX_JSON = DOCS_DATA / 'ward' / 'index.json'
 DATA_QUALITY_MD = _ROOT / 'DATA_QUALITY.md'
 LEDGER_BEGIN = '<!-- auto:begin -->'

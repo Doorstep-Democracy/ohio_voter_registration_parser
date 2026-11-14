@@ -20,10 +20,10 @@ from pathlib import Path
 
 import pytest
 
+from pipeline.paths import DATA_DIR, DOCS_DIR as DOCS
+
 BASE     = Path(__file__).resolve().parent.parent.parent
-DOCS     = BASE / "docs"
 MANIFEST = DOCS / "manifest.json"
-DATA_DIR = DOCS / "data"
 
 COUNTY_SCOPED_KEYS = {"townships", "villages", "municipal_court_districts"}
 EXPECTED_TYPE_KEYS = {
