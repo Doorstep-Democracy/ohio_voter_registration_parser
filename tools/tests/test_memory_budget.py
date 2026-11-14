@@ -345,6 +345,20 @@ def test_a_refusal_ends_the_run_with_exit_code_3_and_the_failure_marker(monkeypa
     assert "RUN REFUSED" in capsys.readouterr().out
 
 
+def test_a_refused_county_subset_is_not_logged_as_an_unhandled_error(tmp_path, monkeypatch, caplog):
+    def _refuse(txt_files, logger=None):
+        raise vdc.memory_budget.MemoryBudgetError("Not enough memory for the raw parquet build from text: ...")
+
+    monkeypatch.setattr(vdc, "LOGS_DIR", tmp_path / "logs")
+    monkeypatch.setattr(vdc, "build_parquet_cache", _refuse)
+    with caplog.at_level(logging.INFO, logger="voter_analysis"):
+        with pytest.raises(vdc.memory_budget.MemoryBudgetError):
+            vdc.run_county_subset([], ["01"])
+    messages = [r.getMessage() for r in caplog.records]
+    assert any("COUNTY SUBSET" in m for m in messages)          # the log was captured
+    assert not [m for m in messages if "Unhandled error" in m]
+
+
 # ---- 3. end to end -------------------------------------------------------------
 
 def test_statewide_run_from_a_synthetic_cache(cached, tmp_path, monkeypatch):

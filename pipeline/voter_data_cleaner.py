@@ -5197,6 +5197,9 @@ def run_county_subset(
         county_numbers:          Zero-padded county number strings, e.g. ['57', '29'].
         use_parquet:             Must be True; included for API consistency.
         include_precinct_charts: Also write per-precinct party + UNC JSON files.
+
+    Raises memory_budget.MemoryBudgetError when the raw parquet cache has to be
+    built from text and that build does not fit the memory budget.
     """
     logger = setup_logging('county_subset')
     logger.info('=' * 60)
@@ -5273,6 +5276,9 @@ def run_county_subset(
         logger.info('SUCCESS  (%d counties, %d failed)', len(processed), len(failed))
         logger.info('=' * 60)
 
+    except memory_budget.MemoryBudgetError:
+        # A refusal, not a crash: enforce() already logged the numbers.
+        raise
     except Exception:
         logger.exception('Unhandled error in run_county_subset')
         raise
