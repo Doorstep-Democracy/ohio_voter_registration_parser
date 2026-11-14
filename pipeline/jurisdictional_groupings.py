@@ -1213,8 +1213,11 @@ def main(
     return True
 
 
-if __name__ == '__main__':
+def _cli(argv: list[str] | None = None) -> int:
+    """Command-line entry point. Returns the process exit code: 0 done, 1
+    failed, memory_budget.EXIT_REFUSED when the memory budget refused the run."""
     import argparse
+    import voter_data_cleaner as _v2
 
     parser = argparse.ArgumentParser(
         description='Aggregate Ohio voter data by jurisdictions present in SWVF.'
@@ -1236,7 +1239,7 @@ if __name__ == '__main__':
         help='Output format (default: json)'
     )
 
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     jurisdictions_to_process = None
     if args.jurisdictions:
@@ -1245,10 +1248,20 @@ if __name__ == '__main__':
     logger, log_file = setup_logger()
     logger.info(f'Log file: {log_file}')
 
-    success = main(
-        jurisdictions_to_process=jurisdictions_to_process,
-        output_format=args.format,
-        logger=logger
-    )
+    try:
+        success = main(
+            jurisdictions_to_process=jurisdictions_to_process,
+            output_format=args.format,
+            logger=logger
+        )
+    except _v2.memory_budget.MemoryBudgetError as exc:
+        # A refusal, not a crash: the preflight already logged the numbers and
+        # nothing was loaded. No traceback, and the refusal's own exit code.
+        print(f"\n  RUN REFUSED. {exc}")
+        return _v2.memory_budget.EXIT_REFUSED
 
-    sys.exit(0 if success else 1)
+    return 0 if success else 1
+
+
+if __name__ == '__main__':
+    sys.exit(_cli())

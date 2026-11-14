@@ -470,6 +470,8 @@ def machine_fingerprint() -> dict:
                 purpose: a dynamically sized pagefile changes total swap from
                 run to run with no configuration change. Limit: replacing DIMMs
                 with others of the same total size does not change the id.
+    swap_total_gb  None when the OS will not report it
+                (memory_budget.swap_total_bytes).
     boot_time   When the machine last started, with UTC offset. A different
                 value in two consecutive run logs means a reboot or a crash
                 happened between them.
@@ -484,7 +486,8 @@ def machine_fingerprint() -> dict:
     fp['config_id'] = hashlib.sha256(
         '|'.join(str(fp[k]) for k in ('os', 'cpu', 'cpu_count', 'ram_total_gb')).encode('utf-8')
     ).hexdigest()[:12]
-    fp['swap_total_gb'] = round(_psutil.swap_memory().total / 2**30, 1)
+    swap = memory_budget.swap_total_bytes(_psutil)
+    fp['swap_total_gb'] = None if swap is None else round(swap / 2**30, 1)
     fp['boot_time'] = (datetime.fromtimestamp(_psutil.boot_time()).astimezone()
                        .isoformat(timespec='seconds'))
     return fp
@@ -520,8 +523,9 @@ def log_run_context(logger: logging.Logger) -> None:
     logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
                 vm.total / 2**30, vm.available / 2**30)
     fp = machine_fingerprint()
-    logger.info('Run context: machine %s | %s | %d logical CPUs | RAM %.1f GB | swap %.1f GB',
-                fp['os'], fp['cpu'], fp['cpu_count'], fp['ram_total_gb'], fp['swap_total_gb'])
+    swap = 'unknown' if fp['swap_total_gb'] is None else f"{fp['swap_total_gb']:.1f} GB"
+    logger.info('Run context: machine %s | %s | %d logical CPUs | RAM %.1f GB | swap %s',
+                fp['os'], fp['cpu'], fp['cpu_count'], fp['ram_total_gb'], swap)
     logger.info('Run context: machine config id %s, booted %s', fp['config_id'], fp['boot_time'])
     logger.info('Run context: output root %s (%s)', DOCS_DIR,
                 f'{OUTPUT_ENV_VAR} override' if OUTPUT_OVERRIDDEN else 'default, the published tree')
@@ -673,6 +677,14 @@ def identify_election_cols(df: pl.DataFrame) -> list[str]:
     metrics accumulate in the correct order.
     """
     return election_cols_from_names(df.columns)
+
+
+def _election_span(election_cols: list[str]) -> str:
+    """'N election columns: first to last' for a log line. A frame with no
+    election columns gets a count of 0, not an IndexError."""
+    if not election_cols:
+        return '0 election columns'
+    return f'{len(election_cols)} election columns: {election_cols[0]} to {election_cols[-1]}'
 
 
 def election_cols_from_names(names) -> list[str]:
@@ -4930,6 +4942,28 @@ def load_enriched_voters(
     return rebuilt if ordered is None else rebuilt.select(ordered)
 
 
+# Enriched columns the county export depends on, besides election history. A
+# cache written by an older cleaner or classifier can lack one. Without
+# cohort_family the export would re-classify from election cells it no longer
+# holds; without REGDATE_DT participation fails after the load; without the
+# other two a chart is skipped with no error ('... in df.columns' guards).
+_EXPORT_REQUIRED_COLUMNS = (
+    'cohort_family', 'REGDATE_DT', 'is_new_registrant', 'primary_participation_rate',
+)
+
+
+def _require_export_columns(names, source: str) -> None:
+    """Raise RuntimeError naming every _EXPORT_REQUIRED_COLUMNS member that
+    `names` lacks. `source` says what was checked, for the message."""
+    missing = [c for c in _EXPORT_REQUIRED_COLUMNS if c not in names]
+    if missing:
+        raise RuntimeError(
+            f'{source} has no {", ".join(missing)} column(s); the county export cannot run '
+            'without the cleaner and cohort classifier output. Rebuild the enriched cache '
+            '(see load_enriched_for_export)'
+        )
+
+
 def load_enriched_for_export(
     logger:      logging.Logger,
     *,
@@ -4951,47 +4985,47 @@ def load_enriched_for_export(
     than the rest of the frame put together, and the export stages used to
     carry it unread through every county slice and the statewide pass.
 
-    Cache hit   frame is read from ENRICHED_CACHE without those columns, and
-                read_cells reads the requested ones from the same file, so at
-                most one batch of them is ever in memory. Both reads return
-                rows in file order, which is what keeps them aligned.
-    Rebuild     the classifier needs every election column, so the full frame
-                exists anyway. read_cells selects from it and keeps it alive;
-                dropping the read_cells reference releases it.
+    read_cells always reads ENRICHED_CACHE, so at most one batch of election
+    columns is in memory while participation is computed, on both paths.
 
-    Raises RuntimeError if the frame has no cohort_family column: without it
-    the export would fall back to re-classifying from election cells that are
-    no longer there. before_load is passed to _resolve_enriched.
+    Cache hit   frame is read from ENRICHED_CACHE without those columns. Both
+                reads return rows in file order, which keeps them aligned.
+    Rebuild     the classifier needs every election column, so the full frame
+                exists when _resolve_enriched returns, and the cache has just
+                been written from it in the same row order. The election
+                columns are dropped here and the full frame released, so they
+                are not carried into the export. read_cells must not be bound
+                to the full frame: a bound method would keep it alive.
+
+    Raises RuntimeError naming every column of _EXPORT_REQUIRED_COLUMNS the
+    frame lacks. On a cache hit this is decided from the parquet schema, before
+    the body is read. before_load is passed to _resolve_enriched.
     """
     rebuilt = _resolve_enriched(logger, txt_files, use_parquet, before_load)
+    cache = ENRICHED_CACHE
     if rebuilt is None:
-        names = list(pl.read_parquet_schema(ENRICHED_CACHE))
+        names = list(pl.read_parquet_schema(cache))
+        _require_export_columns(names, f'enriched cache {cache.name}')
         election_cols = election_cols_from_names(names)
         skip = set(election_cols)
         keep = [c for c in names if c not in skip]
-        cache = ENRICHED_CACHE
         with _timer(logger, 'loading enriched cache (without election history)'):
             frame = pl.read_parquet(cache, columns=keep).select(keep)
-
-        def read_cells(cols: list[str]) -> pl.DataFrame:
-            return pl.read_parquet(cache, columns=cols).select(cols)
-
         logger.info('Loaded from enriched cache: %s rows x %d columns; %d election columns '
                     'left on disk and read in batches', f'{frame.height:,}', frame.width,
                     len(election_cols))
     else:
+        _require_export_columns(rebuilt.columns, 'rebuilt enriched frame')
         election_cols = identify_election_cols(rebuilt)
         frame = rebuilt.drop(election_cols)
-        read_cells = rebuilt.select
-        logger.info('Enriched frame rebuilt: %s rows x %d columns plus %d election columns, '
-                    'held until participation is computed', f'{frame.height:,}', frame.width,
-                    len(election_cols))
+        del rebuilt
+        logger.info('Enriched frame rebuilt: %s rows x %d columns; %d election columns '
+                    'released and read back from the cache in batches', f'{frame.height:,}',
+                    frame.width, len(election_cols))
 
-    if 'cohort_family' not in frame.columns:
-        raise RuntimeError(
-            'enriched frame has no cohort_family column; the county export cannot run '
-            'without the cohort classifier output (see load_enriched_for_export)'
-        )
+    def read_cells(cols: list[str]) -> pl.DataFrame:
+        return pl.read_parquet(cache, columns=cols).select(cols)
+
     return frame, election_cols, read_cells
 
 
@@ -5084,13 +5118,10 @@ def run_ohio_analysis(
             before_load=lambda fresh: plan.update(
                 workers=_preflight_statewide_export(logger, fresh, max_workers)),
         )
-        logger.info('%d election columns: %s to %s',
-                    len(election_cols), election_cols[0], election_cols[-1])
+        logger.info('%s', _election_span(election_cols))
 
         with _timer(logger, 'computing participation metrics'):
             df = add_voter_participation(df, election_cols, logger, read_cells=read_cells)
-        # After a rebuild read_cells is the last reference to the full frame.
-        del read_cells
 
         # ── 3. Parallel county JSON export ────────────────────────────────────
         counties_present = sorted(df['COUNTY_NUMBER'].str.strip_chars().unique().to_list())
@@ -5186,6 +5217,9 @@ def run_county_subset(
         county_numbers:          Zero-padded county number strings, e.g. ['57', '29'].
         use_parquet:             Must be True; included for API consistency.
         include_precinct_charts: Also write per-precinct party + UNC JSON files.
+
+    Raises memory_budget.MemoryBudgetError when the raw parquet cache has to be
+    built from text and that build does not fit the memory budget.
     """
     logger = setup_logging('county_subset')
     logger.info('=' * 60)
@@ -5262,6 +5296,9 @@ def run_county_subset(
         logger.info('SUCCESS  (%d counties, %d failed)', len(processed), len(failed))
         logger.info('=' * 60)
 
+    except memory_budget.MemoryBudgetError:
+        # A refusal, not a crash: enforce() already logged the numbers.
+        raise
     except Exception:
         logger.exception('Unhandled error in run_county_subset')
         raise
@@ -5347,8 +5384,7 @@ def run_county_analysis(
             df = clean_voter_data(df, logger)
 
         election_cols = identify_election_cols(df)
-        logger.info('%d election columns: %s → %s',
-                    len(election_cols), election_cols[0], election_cols[-1])
+        logger.info('%s', _election_span(election_cols))
 
         with _timer(logger, 'computing participation metrics'):
             df = add_voter_participation(df, election_cols, logger)

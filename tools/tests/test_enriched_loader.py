@@ -136,3 +136,9 @@ def test_both_loaders_share_the_one_cache_first_decision():
         assert "_resolve_enriched(" in src
         assert "_cache_is_fresh(" not in src
         assert "load_voter_files_parquet(" not in src and "clean_voter_data(" not in src
+
+
+def test_election_span_line_is_safe_without_election_columns():
+    assert vdc._election_span([]) == "0 election columns"
+    assert (vdc._election_span(["PRIMARY-03/07/2000", "GENERAL-11/07/2000"])
+            == "2 election columns: PRIMARY-03/07/2000 to GENERAL-11/07/2000")

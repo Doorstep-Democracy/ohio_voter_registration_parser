@@ -73,6 +73,11 @@ ELECTION_CELL_BYTES = 18.0
 WORKING_FACTOR = 0.5
 
 
+# Process exit code for a run the budget refused. Distinct from 1 (failed) and
+# 2 (bad command line) so a caller can tell "did not fit" from "broke".
+EXIT_REFUSED = 3
+
+
 class MemoryBudgetError(RuntimeError):
     """The stage's estimated peak does not fit the memory budget. Raised before
     anything is loaded; the message states the numbers and the options."""
@@ -128,18 +133,37 @@ def active() -> MemorySettings:
 @dataclass(frozen=True)
 class Machine:
     """Memory and CPU facts, in bytes. `available` is what can be used without
-    paging right now; it already excludes what other programs hold."""
+    paging right now; it already excludes what other programs hold. `swap_total`
+    is None when the OS will not report it (see swap_total_bytes)."""
     total: int
     available: int
-    swap_total: int
+    swap_total: int | None
     cpu_count: int
+
+
+def swap_total_bytes(source=psutil) -> int | None:
+    """Total swap / pagefile in bytes, or None when the OS will not report it.
+
+    On Windows psutil.swap_memory() also reads a performance counter for the
+    used percentage, and raises RuntimeError where counters are blocked
+    (restricted shells, some service accounts). Only the total is wanted and
+    swap is never counted in the budget, so an unreadable total is reported as
+    unknown. It is never reported as 0, which would read as "no swap".
+
+    source   the psutil-like module to ask. The cleaner passes its own binding,
+             so both callers share this one reader.
+    """
+    try:
+        return source.swap_memory().total
+    except RuntimeError:  # the blocked counter; any other error is a real fault
+        return None
 
 
 def read_machine() -> Machine:
     """Read the machine through psutil and os.cpu_count."""
     vm = psutil.virtual_memory()
     return Machine(total=vm.total, available=vm.available,
-                   swap_total=psutil.swap_memory().total, cpu_count=os.cpu_count() or 1)
+                   swap_total=swap_total_bytes(), cpu_count=os.cpu_count() or 1)
 
 
 @dataclass(frozen=True)
@@ -178,7 +202,9 @@ def frame_bytes(rows: int, dtypes: Iterable[str], election_cols: int = 0) -> int
 
 def estimate_export(rows: int, frame_dtypes: Iterable[str], election_cols: int,
                     largest_share: float, workers: int, batch: int) -> Estimate:
-    """County export from a fresh enriched cache.
+    """County export, on a cache hit and after a rebuild alike: on both paths
+    election history is read from the cache file a batch at a time
+    (voter_data_cleaner.load_enriched_for_export).
 
     frame      the enriched frame without election history, resident throughout.
     cells      one batch of election columns while participation is computed.
@@ -252,7 +278,8 @@ def describe(estimate: Estimate, budget: Budget) -> str:
     m = budget.machine
     source = "forced" if budget.forced else f"{budget.margin:.0%} of available kept in reserve"
     parts = ", ".join(f"{name} {_gb(size)}" for name, size in estimate.parts)
-    return (f"RAM total {_gb(m.total)}, available {_gb(m.available)}, swap {_gb(m.swap_total)} "
+    swap = "swap unknown" if m.swap_total is None else f"swap {_gb(m.swap_total)}"
+    return (f"RAM total {_gb(m.total)}, available {_gb(m.available)}, {swap} "
             f"(not counted); budget {_gb(budget.bytes)} ({source}); "
             f"{estimate.label} estimated peak {_gb(estimate.peak)} [{parts}]")
 

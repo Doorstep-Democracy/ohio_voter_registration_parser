@@ -49,7 +49,9 @@ def test_validate_file(tmp_path, name, payload, expect):
 
 def test_seal_reports_only_this_runs_bad_files(tmp_path, caplog):
     root = tmp_path / "out"
-    start = time.time()
+    # One second back: a file's mtime can read a few ms earlier than a
+    # time.time() taken just before the write (coarser filesystem clock).
+    start = time.time() - 1
     _write(root / "old_bad.json", b"\x00" * 10, mtime=start - 3600)   # before the run: ignored
     _write(root / "a" / "good.json", b"[1, 2]")
     bad = _write(root / "a" / "zeroed_narrative.json", b"\x00" * 600)
@@ -99,6 +101,35 @@ def test_damage_after_a_complete_run_is_found(tmp_path, caplog):
         problems = ri.check_previous_run(logs, current, root, _log())
     assert list(problems) == [zeroed]
     assert any("FOUND DAMAGED OUTPUT" in r.getMessage() for r in caplog.records if r.levelno == logging.ERROR)
+
+
+REFUSED_LINE = f"ERROR {ri.FAILED_MARKER}: {ri.REFUSED_MARKER}: Not enough memory for the county export\n"
+
+
+def test_a_refused_run_does_not_hide_an_earlier_crashed_run(tmp_path, caplog):
+    logs, root = tmp_path / "logs", tmp_path / "out"
+    now = time.time()
+    crashed = _prev_log(logs, now - 600, "INFO  computing participation metrics ...\n")
+    refused = _prev_log(logs, now - 300, REFUSED_LINE)
+    current = _prev_log(logs, now + 1, "")
+    # Written by the crashed run, before the refused run started.
+    zeroed = _write(root / "x_narrative.json", b"\x00" * 656, mtime=now - 450)
+    with caplog.at_level(logging.INFO, logger=LOGGER):
+        problems = ri.check_previous_run(logs, current, root, _log())
+    assert list(problems) == [zeroed]
+    messages = [r.getMessage() for r in caplog.records]
+    errors = [r.getMessage() for r in caplog.records if r.levelno == logging.ERROR]
+    assert any(crashed.name in m and "did NOT end with PIPELINE COMPLETE" in m for m in errors)
+    assert any(refused.name in m and "passed over 1 run(s)" in m for m in messages)
+
+
+def test_only_refused_runs_before_this_one_is_not_an_error(tmp_path, caplog):
+    logs = tmp_path / "logs"
+    _prev_log(logs, time.time() - 300, REFUSED_LINE)
+    current = _prev_log(logs, time.time() + 1, "")
+    with caplog.at_level(logging.INFO, logger=LOGGER):
+        assert ri.check_previous_run(logs, current, tmp_path, _log()) == {}
+    assert not [r for r in caplog.records if r.levelno >= logging.ERROR]
 
 
 def test_no_previous_log_is_not_an_error(tmp_path, caplog):

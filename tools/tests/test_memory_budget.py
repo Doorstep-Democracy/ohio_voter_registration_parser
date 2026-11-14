@@ -175,6 +175,36 @@ def test_budget_line_reports_the_machine_the_budget_and_the_parts(caplog):
         assert expected in line, line
 
 
+def _swap_blocked():
+    raise RuntimeError("PdhAddEnglishCounterW failed")
+
+
+def test_unknown_swap_total_is_reported_as_unknown_and_changes_no_budget(monkeypatch, caplog):
+    # Windows with performance counters blocked: psutil.swap_memory() raises.
+    monkeypatch.setattr(mb.psutil, "swap_memory", _swap_blocked)
+    machine = mb.read_machine()
+    assert machine.swap_total is None
+    known = mb.Machine(machine.total, machine.available, 32 * GIB, machine.cpu_count)
+    assert (mb.make_budget(machine, mb.MemorySettings()).bytes
+            == mb.make_budget(known, mb.MemorySettings()).bytes)
+
+    budget = mb.make_budget(machine, mb.MemorySettings(budget_gb=64))
+    with caplog.at_level(logging.INFO, logger=LOG.name):
+        mb.enforce(_export(8), budget, mb.MemorySettings(), LOG)
+    line = caplog.records[-1].getMessage()
+    assert "swap unknown (not counted)" in line, line
+
+
+def test_swap_reader_passes_on_every_other_error():
+    class _Broken:
+        @staticmethod
+        def swap_memory():
+            raise OSError("not the blocked-counter case")
+
+    with pytest.raises(OSError):
+        mb.swap_total_bytes(_Broken)
+
+
 # ---- 2. wiring: shape readers --------------------------------------------------
 
 def test_text_shape_estimates_rows_from_a_sample(tmp_path):
@@ -310,9 +340,36 @@ def test_a_refusal_ends_the_run_with_exit_code_3_and_the_failure_marker(monkeypa
     with caplog.at_level(logging.ERROR, logger="voter_analysis"):
         with pytest.raises(SystemExit) as err:
             ovp._dispatch_guarded("1", [])
-    assert err.value.code == 3
-    assert any(ri.FAILED_MARKER in r.getMessage() for r in caplog.records)
+    assert err.value.code == mb.EXIT_REFUSED == 3
+    assert any(f"{ri.FAILED_MARKER}: {ri.REFUSED_MARKER}: " in r.getMessage() for r in caplog.records)
     assert "RUN REFUSED" in capsys.readouterr().out
+
+
+def test_standalone_groupings_exits_with_the_refusal_code(tmp_path, monkeypatch, capsys):
+    import pipeline.jurisdictional_groupings as jg
+    import voter_data_cleaner as bare_vdc          # the module object the groupings script imports
+
+    def _refuse(**kwargs):
+        raise bare_vdc.memory_budget.MemoryBudgetError("Not enough memory for the jurisdictional groupings: ...")
+
+    monkeypatch.setattr(jg, "main", _refuse)
+    monkeypatch.setattr(jg, "setup_logger", lambda: (LOG, tmp_path / "groupings.log"))
+    assert jg._cli([]) == mb.EXIT_REFUSED
+    assert "RUN REFUSED" in capsys.readouterr().out
+
+
+def test_a_refused_county_subset_is_not_logged_as_an_unhandled_error(tmp_path, monkeypatch, caplog):
+    def _refuse(txt_files, logger=None):
+        raise vdc.memory_budget.MemoryBudgetError("Not enough memory for the raw parquet build from text: ...")
+
+    monkeypatch.setattr(vdc, "LOGS_DIR", tmp_path / "logs")
+    monkeypatch.setattr(vdc, "build_parquet_cache", _refuse)
+    with caplog.at_level(logging.INFO, logger="voter_analysis"):
+        with pytest.raises(vdc.memory_budget.MemoryBudgetError):
+            vdc.run_county_subset([], ["01"])
+    messages = [r.getMessage() for r in caplog.records]
+    assert any("COUNTY SUBSET" in m for m in messages)          # the log was captured
+    assert not [m for m in messages if "Unhandled error" in m]
 
 
 # ---- 3. end to end -------------------------------------------------------------
