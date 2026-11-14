@@ -30,6 +30,7 @@ Output:
 import concurrent.futures
 import json
 import logging
+import os
 import re
 import sys
 import time
@@ -44,31 +45,11 @@ try:
     import orjson as _orjson
 except ImportError:
     _orjson = None
-try:
-    import psutil as _psutil
-    _psutil_proc = _psutil.Process()
-except ImportError:
-    _psutil = None
-    _psutil_proc = None
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Paths and constants (reuse from pipeline.voter_data_cleaner)
 # ─────────────────────────────────────────────────────────────────────────────
-
-BASE_DIR    = Path(__file__).resolve().parent.parent
-DOCS_DIR    = BASE_DIR / "docs"
-DATA_DIR    = DOCS_DIR / "data"
-LOGS_DIR    = BASE_DIR / "local" / "logs"  # PATCH: Rerouted to local/ workspace
-PARQUET_DIR          = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
-PARQUET_ENRICHED_DIR = BASE_DIR / "local" / "source" / "parquet_enriched"  # PATCH: Rerouted to local/ workspace
-PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
-ENRICHED_CACHE       = PARQUET_ENRICHED_DIR / "enriched_voters.parquet"
-CLASSIFIER_SRC       = BASE_DIR / "pipeline" / "voter_data_cleaner.py"
-OUTPUT_DIR  = BASE_DIR / "local" / "output"  # PATCH: Rerouted to local/ workspace
-
-LOGS_DIR.mkdir(exist_ok=True)
-OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Ensure pipeline/ is on sys.path so sibling modules can be imported as bare names
 # whether this script is run directly or imported as part of the pipeline package.
@@ -76,14 +57,45 @@ _pipeline_dir = str(Path(__file__).resolve().parent)
 if _pipeline_dir not in sys.path:
     sys.path.insert(0, _pipeline_dir)
 
+# Every managed location comes from the single resolver, pipeline/paths.py
+# (CLAUDE.md section 5). The names stay module globals here so callers and
+# tests that read or patch e.g. `jurisdictional_groupings.ENRICHED_CACHE` keep working.
+from paths import (  # noqa: E402,F401
+    BASE_DIR,
+    DATA_DIR,
+    DOCS_DIR,
+    ENRICHED_CACHE,
+    LOGS_DIR,
+    OUTPUT_DIR,
+    PARQUET_DIR,
+    PARQUET_ENRICHED_DIR,
+    parquet_glob,
+)
+PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
+CLASSIFIER_SRC       = BASE_DIR / "pipeline" / "voter_data_cleaner.py"
+
+LOGS_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR.mkdir(exist_ok=True)
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Logging setup
 # ─────────────────────────────────────────────────────────────────────────────
 
 def setup_logger(name='groupings', log_dir=LOGS_DIR):
-    """Create timestamped logger for this run."""
+    """Create this run's timestamped groupings logger. Returns (logger, log_file).
+
+    Follows the cleaner's logging policy (voter_data_cleaner.setup_logging):
+    ISO 8601 timestamps with UTC offset, native-crash tracebacks and the run
+    context. The file name carries this log's own start time. The run id
+    written inside it is the process-wide one (claim_run_id), so it equals the
+    id in the pipeline log of the same run and the two logs join on it. Run on
+    its own, this log's stamp becomes the run id.
+    """
+    import voter_data_cleaner as _v2
+
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     log_file = log_dir / f'{name}_{timestamp}.log'
+    _v2.claim_run_id(timestamp)
 
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
@@ -96,11 +108,7 @@ def setup_logger(name='groupings', log_dir=LOGS_DIR):
     ch = logging.StreamHandler(sys.stdout)
     ch.setLevel(logging.INFO)
 
-    # Formatter
-    fmt = logging.Formatter(
-        '%(asctime)s [%(levelname)s] %(name)s: %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
-    )
+    fmt = _v2.IsoOffsetFormatter('%(asctime)s [%(levelname)s] %(name)s: %(message)s')
     fh.setFormatter(fmt)
     ch.setFormatter(fmt)
 
@@ -109,7 +117,6 @@ def setup_logger(name='groupings', log_dir=LOGS_DIR):
 
     # Verbose defaults: run context + native-crash tracebacks in this log.
     # Rationale: voter_data_cleaner.setup_logging() docstring, "Logging policy".
-    import voter_data_cleaner as _v2
     _v2.enable_crash_log(log_file, logger)
     _v2.log_run_context(logger)
 
@@ -269,6 +276,26 @@ JURISDICTIONS = {
     # voter_data_cleaner._ward_map_per_county. See PLAN_SUBCOUNTY_JURISDICTIONS.md
     # Part W1 and CLAUDE.md 4 (ward-uniqueness correction).
 }
+
+# Columns main() loads from the enriched cache: 19 of its ~160. Everything a
+# grouping chart or a place/ward resolver reads, and nothing else. No election-
+# history, name or address column is read here, and those are most of the
+# frame's memory (OPEN-001: this step peaked at 46-50 GB loading all of them,
+# then copied every column again in each partition_by).
+#
+# Every name below is read behind an `if col in df.columns` guard somewhere
+# downstream (aggregate_jurisdiction, voter_data_cleaner._place_per_precinct),
+# so a column that went missing would drop a chart or change a place resolution
+# without an error. load_enriched_voters raises KeyError instead.
+# When a grouping starts reading a new column, add it here in the same change;
+# tools/tests/test_groupings_projection.py fails until you do.
+_RESOLVER_COLUMNS = ('COUNTY_NUMBER', 'PRECINCT_NAME', 'WARD', 'RESIDENTIAL_CITY')
+_CHART_COLUMNS    = ('cohort_family', 'Decade', 'Generation')
+GROUPING_COLUMNS  = tuple(dict.fromkeys(
+    _RESOLVER_COLUMNS
+    + tuple(cfg['column'] for cfg in JURISDICTIONS.values())
+    + _CHART_COLUMNS
+))
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -901,6 +928,18 @@ def main(
     """
     Main entry point: load enriched parquet, aggregate all jurisdictions, export.
 
+    Memory: only GROUPING_COLUMNS are loaded (voter_data_cleaner.
+    load_enriched_voters, cache-first). The per-type partition_by below still
+    copies the frame once per jurisdiction type, but a 19-column frame, not
+    the full one.
+
+    Raises memory_budget.MemoryBudgetError, before anything is loaded, when the
+    estimated peak does not fit the memory budget and the memory mode is auto.
+    Raises FileNotFoundError when the enriched cache is stale and there is no
+    raw parquet cache to rebuild it from, and KeyError when the cache lacks a
+    GROUPING_COLUMNS name. (The missing-raw-cache case used to log and return
+    False, which the pipeline dispatch ignored.)
+
     Args:
         jurisdictions_to_process: List of jurisdiction type keys (e.g., ['cities', 'townships']).
                                  If None, processes all.
@@ -927,29 +966,18 @@ def main(
     logger.info(f'Processing {len(jurisdictions_to_process)} jurisdiction types: {jurisdictions_to_process}')
     logger.info(f'Output format: {output_format}')
 
-    # Load enriched voter data -- use persistent cache when fresh
+    # Load the enriched frame through the single cache-first loader, projected
+    # to the columns this module reads.
+    # The memory preflight runs inside the loader, before anything is loaded.
     import voter_data_cleaner as _v2
-    if _v2._cache_is_fresh(logger):
-        logger.info('Loading enriched voter data from persistent cache...')
-        df = pl.read_parquet(ENRICHED_CACHE)
-        logger.info(f'Loaded from cache: {df.height:,} rows x {df.width} columns')
-    else:
-        if not PARQUET_DIR.exists():
-            logger.error(f'Parquet cache not found at {PARQUET_DIR}')
-            logger.error('Run ohio_voter_pipeline.py option 1 to generate it.')
-            return False
-        logger.info('Loading voter parquet cache...')
-        df = pl.read_parquet(str(PARQUET_DIR) + '/**/*.parquet', hive_partitioning=True)
-        logger.info(f'Loaded {df.height:,} rows x {df.width} columns')
-        logger.info('Enriching voter data (cohort classification + demographics)...')
-        df = _v2.clean_voter_data(df, logger)
-        logger.info(f'Enriched: {df.height:,} rows x {df.width} columns')
-        logger.info('Writing enriched voter data to persistent cache...')
-        _v2._write_cache_atomic(df, logger)
+    df = _v2.load_enriched_voters(
+        logger, columns=list(GROUPING_COLUMNS),
+        before_load=lambda fresh: _v2._preflight_groupings(logger, fresh, list(GROUPING_COLUMNS)),
+    )
 
-    # Get election columns (any column matching PRIMARY-*, GENERAL-*, SPECIAL-* pattern)
-    election_cols = [col for col in df.columns if col.split('-')[0] in ['PRIMARY', 'GENERAL', 'SPECIAL']]
-    logger.info(f'Found {len(election_cols)} election history columns')
+    # aggregate_jurisdiction and build_ward_entities take election_cols for call
+    # compatibility but read no election column, so none is loaded.
+    election_cols: list[str] = []
 
     # Resume cutoff: an existing output file is reused only if it is newer than
     # both the enriched cache it was aggregated from and this module's source
@@ -964,7 +992,11 @@ def main(
     # Aggregate each jurisdiction type
     jurisdiction_results = {}
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+    # Worker threads: --max-workers when given, else the logical CPU count capped at 8.
+    n_workers = _v2.memory_budget.choose_workers(
+        os.cpu_count() or 1, _v2.memory_budget.active().max_workers)
+    logger.info('Aggregating with %d worker thread(s)', n_workers)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=n_workers) as executor:
 
         for jurisdiction_type_key in jurisdictions_to_process:
             if jurisdiction_type_key not in JURISDICTIONS:
@@ -1175,14 +1207,17 @@ def main(
     elapsed = time.time() - start_time
     logger.info(f'Done in {elapsed:.1f}s')
 
-    if _psutil_proc:
-        logger.info(f'Peak RSS: {_psutil_proc.memory_info().rss / 1e9:.2f} GB')
+    # A reading at the end of the run, not a peak (see _memory_line).
+    logger.info('Memory at end: %s', _v2._memory_line())
 
     return True
 
 
-if __name__ == '__main__':
+def _cli(argv: list[str] | None = None) -> int:
+    """Command-line entry point. Returns the process exit code: 0 done, 1
+    failed, memory_budget.EXIT_REFUSED when the memory budget refused the run."""
     import argparse
+    import voter_data_cleaner as _v2
 
     parser = argparse.ArgumentParser(
         description='Aggregate Ohio voter data by jurisdictions present in SWVF.'
@@ -1204,7 +1239,7 @@ if __name__ == '__main__':
         help='Output format (default: json)'
     )
 
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     jurisdictions_to_process = None
     if args.jurisdictions:
@@ -1213,10 +1248,20 @@ if __name__ == '__main__':
     logger, log_file = setup_logger()
     logger.info(f'Log file: {log_file}')
 
-    success = main(
-        jurisdictions_to_process=jurisdictions_to_process,
-        output_format=args.format,
-        logger=logger
-    )
+    try:
+        success = main(
+            jurisdictions_to_process=jurisdictions_to_process,
+            output_format=args.format,
+            logger=logger
+        )
+    except _v2.memory_budget.MemoryBudgetError as exc:
+        # A refusal, not a crash: the preflight already logged the numbers and
+        # nothing was loaded. No traceback, and the refusal's own exit code.
+        print(f"\n  RUN REFUSED. {exc}")
+        return _v2.memory_budget.EXIT_REFUSED
 
-    sys.exit(0 if success else 1)
+    return 0 if success else 1
+
+
+if __name__ == '__main__':
+    sys.exit(_cli())

@@ -71,6 +71,48 @@ Outputs interactive web dashboard JSON for all 88 counties and optional Excel wo
 
 Key libraries: Polars (vectorized out-of-core processing), PyArrow (Parquet), xlsxwriter/openpyxl (Excel), DuckDB, requests/beautifulsoup4 (optional SOS scrape).
 
+### Memory
+
+A full-state run works on about 8 million voter rows. Before each heavy stage the pipeline
+checks how much physical memory is free and estimates what the stage needs. If the stage
+won't fit, the run stops before loading anything and tells you what it needs, what's
+available and what you can do about it.
+
+- The check uses free physical memory with 15% held back. It never counts the pagefile or
+  swap: a run that only fits by paging is slow and can fail partway.
+- The estimate comes from the row counts and column types of your own data, read from the
+  Parquet file footers. It's provisional. We haven't calibrated it against a measured run yet.
+- Before this check existed, a full-state run peaked at 53.5 GB (measured 2026-11-12). We
+  haven't measured the peak since the memory work landed, so there's no tested minimum to
+  quote yet.
+- A run on a subset of counties (`--choice 5 --counties "57,29"`) needs far less.
+
+The run log records the decision on one line, in this shape:
+
+```text
+Memory budget: RAM total <n> GB, available <n> GB, swap <n> GB (not counted); budget <n> GB (15% of available kept in reserve); county export estimated peak <n> GB [frame <n> GB, election batch <n> GB, county slices <n> GB, working <n> GB]; fits
+```
+
+A refused run ends with exit code 3 and the line `RUN REFUSED`, followed by the numbers.
+
+| Flag | Effect |
+|---|---|
+| `--memory-mode auto` | Default. Refuse a stage that doesn't fit. |
+| `--memory-mode eager` | Run anyway. Use it when you know the estimate is too high. |
+| `--memory-budget-gb N` | Use `N` GB as the budget and skip the measurement. |
+| `--max-workers N` | Worker threads. Default: one per logical CPU, at most 8, fewer if the county slices wouldn't fit. |
+
+### Trial runs
+
+To send a run's output somewhere other than `docs/`, set `ELECTION_DATA_OUT` to a folder
+that already exists. The pipeline won't create it, and it stops if the folder is missing.
+The run log states which output folder is in use.
+
+```powershell
+$env:ELECTION_DATA_OUT = "C:\temp\trial-out"
+python pipeline/ohio_voter_pipeline.py --choice 5 --counties "57"
+```
+
 ## Quick start
 
 ### 1. Set up the environment

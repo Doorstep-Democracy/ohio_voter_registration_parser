@@ -19,7 +19,7 @@ import gzip
 import json
 import shutil
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import requests
@@ -27,19 +27,20 @@ from bs4 import BeautifulSoup
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-BASE_DIR   = Path(__file__).resolve().parent.parent
-
 # Ensure pipeline/ is on sys.path (bare sibling imports) and project root
 # is on sys.path (from tools.narrative import ...) regardless of invocation style.
-for _p in [str(Path(__file__).resolve().parent), str(BASE_DIR)]:
+_PIPELINE_DIR = Path(__file__).resolve().parent
+for _p in [str(_PIPELINE_DIR), str(_PIPELINE_DIR.parent)]:
     if _p not in sys.path:
         sys.path.insert(0, _p)
-SOURCE_DIR = BASE_DIR / "local" / "source"  # PATCH: Rerouted to local/ workspace
-TXT_DIR    = SOURCE_DIR / "State Voter Files"
+
+# Every managed location comes from the single resolver (CLAUDE.md section 5).
+from paths import BASE_DIR, DATA_DIR, PARQUET_DIR, SOURCE_DIR, TXT_DIR  # noqa: E402,F401
 MANIFEST   = BASE_DIR / "download_manifest.json"
 
 # Single resolver for snapshot discovery/staging (CLAUDE.md section 5).
 import snapshot_store  # noqa: E402  (needs the sys.path setup above)
+import memory_budget   # noqa: E402  (memory policy for the run; see --memory-mode)
 
 SOS_URL    = "https://www6.ohiosos.gov/ords/f?p=VOTERFTP:STWD"
 SOS_BASE   = "https://www6.ohiosos.gov"
@@ -83,7 +84,7 @@ def _build_city_county_map(logger=None):
     Called at the end of every branch that rebuilds precinct indexes.
     """
     import json
-    data_dir = BASE_DIR / 'docs' / 'data'
+    data_dir = DATA_DIR
     city_counties: dict[str, set[str]] = {}
     city_identities: dict[str, dict[str, set[str]]] = {}
     
@@ -376,7 +377,7 @@ def prompt_next_step(txt_files: list[Path]) -> tuple[str, bool, list[str] | None
     county_numbers is None for full-Ohio runs, a list of strings for targeted runs.
     """
     total_rows_est = sum(f.stat().st_size for f in txt_files) // 140
-    parquet_dir    = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
+    parquet_dir    = PARQUET_DIR
     parquet_ready  = parquet_dir.exists() and any(parquet_dir.iterdir())
     cache_label    = "  ✓ Parquet cache ready (fast load)" if parquet_ready else "  ○ No Parquet cache yet (will build on first run)"
 
@@ -559,6 +560,22 @@ def _run_update_check() -> None:
 
 # -- Argument parsing ----------------------------------------------------------
 
+def _positive_float(text: str) -> float:
+    """argparse type: a number greater than 0."""
+    value = float(text)
+    if not value > 0:
+        raise argparse.ArgumentTypeError(f"must be greater than 0, got {text!r}")
+    return value
+
+
+def _positive_int(text: str) -> int:
+    """argparse type: an integer of at least 1."""
+    value = int(text)
+    if value < 1:
+        raise argparse.ArgumentTypeError(f"must be at least 1, got {text!r}")
+    return value
+
+
 def parse_args(argv=None) -> argparse.Namespace:
     p = argparse.ArgumentParser(
         prog="ohio_voter_pipeline.py",
@@ -579,6 +596,14 @@ def parse_args(argv=None) -> argparse.Namespace:
                    help="Also build per-precinct chart JSON (choices 1/2/3/5).")
     p.add_argument("--no-update-check", action="store_true",
                    help="Skip the interactive SOS update-check prompt.")
+    p.add_argument("--memory-mode", choices=list(memory_budget.MODES), default="auto",
+                   help="auto (default): refuse a stage whose estimated peak does not fit "
+                        "available memory, before loading anything. eager: always run.")
+    p.add_argument("--memory-budget-gb", type=_positive_float, default=None, metavar="GB",
+                   help="Use this memory budget in GB and do not measure available memory.")
+    p.add_argument("--max-workers", type=_positive_int, default=0, metavar="N",
+                   help="Worker threads for parallel stages. Default: logical CPUs, at most 8, "
+                        "lowered if the county slices would not fit the memory budget.")
     return p.parse_args(argv)
 
 
@@ -587,6 +612,10 @@ def parse_args(argv=None) -> argparse.Namespace:
 def main(args: argparse.Namespace | None = None):
     if args is None:
         args = parse_args()
+
+    # One memory policy for the whole run, read by every stage (memory_budget.active()).
+    memory_budget.activate(memory_budget.MemorySettings(
+        mode=args.memory_mode, budget_gb=args.memory_budget_gb, max_workers=args.max_workers))
 
     # --list-snapshots: print and exit before any prompt or network call.
     if args.list_snapshots:
@@ -634,13 +663,33 @@ def main(args: argparse.Namespace | None = None):
             if not county_nums:
                 print(f"  Could not resolve counties from: {args.counties!r}")
                 sys.exit(2)
-        _dispatch(choice, txt_files, include_precincts, county_nums)
+        _dispatch_guarded(choice, txt_files, include_precincts, county_nums)
     else:
         choice, include_precincts, county_nums = prompt_next_step(txt_files)
         if choice == "0":
             print("  Exiting.")
             return
-        _dispatch(choice, txt_files, include_precincts, county_nums)
+        _dispatch_guarded(choice, txt_files, include_precincts, county_nums)
+
+
+def _dispatch_guarded(*args, **kwargs) -> None:
+    """Run _dispatch; report a memory-budget refusal as a refusal.
+
+    A refused run loaded nothing and wrote nothing. It ends with exit code
+    memory_budget.EXIT_REFUSED and, in the run log, the failure marker followed by
+    run_integrity.REFUSED_MARKER. The next run's previous-run check reads that
+    and passes over this run, so it still checks from the last run that ran.
+    Any other exception propagates to the excepthook as before.
+    """
+    try:
+        _dispatch(*args, **kwargs)
+    except memory_budget.MemoryBudgetError as exc:
+        import logging
+        import run_integrity
+        logging.getLogger('voter_analysis').error(
+            '%s: %s: %s', run_integrity.FAILED_MARKER, run_integrity.REFUSED_MARKER, exc)
+        print(f"\n  RUN REFUSED. {exc}")
+        sys.exit(memory_budget.EXIT_REFUSED)
 
 
 def _build_maps(logger, include_precincts: bool) -> None:
@@ -702,8 +751,16 @@ def _dispatch(
     # since it began -- before this run writes anything.
     import time as _time
     import run_integrity
-    run_integrity.install_excepthook(_log)
     run_start = _time.time()
+    # setup_logging above claimed the run id; this call only reads it back.
+    run_id = v2.claim_run_id(datetime.now().strftime('%Y%m%d_%H%M%S'))
+    run_integrity.install_excepthook(_log, run_id=run_id)
+
+    def _end_stamp() -> str:
+        """Run id, UTC wall clock and elapsed seconds for the closing log line."""
+        ended = datetime.now(timezone.utc).isoformat(timespec='seconds')
+        return f'run id {run_id}, ended {ended} UTC, elapsed {_time.time() - run_start:.0f} s'
+
     current_log = Path(next(h.baseFilename for h in _log.handlers if hasattr(h, 'baseFilename')))
     startup_problems = run_integrity.check_previous_run(v2.LOGS_DIR, current_log, v2.DOCS_DIR, _log)
 
@@ -812,12 +869,14 @@ def _dispatch(
     still_bad = run_integrity.recheck(startup_problems, v2.DOCS_DIR, _log)
     if sealed_bad or still_bad:
         _log.error(
-            '%s: choice=%s, source date %s -- %d invalid file(s) written this run, '
+            '%s: choice=%s, source date %s, %s -- %d invalid file(s) written this run, '
             '%d damaged file(s) from before this run still present (listed above)',
-            run_integrity.FAILED_MARKER, choice, src_date, len(sealed_bad), len(still_bad),
+            run_integrity.FAILED_MARKER, choice, src_date, _end_stamp(),
+            len(sealed_bad), len(still_bad),
         )
         sys.exit(1)
-    _log.info('%s: choice=%s, source date %s', run_integrity.COMPLETE_MARKER, choice, src_date)
+    _log.info('%s: choice=%s, source date %s, %s',
+              run_integrity.COMPLETE_MARKER, choice, src_date, _end_stamp())
 
 # ── Narrative phase ───────────────────────────────────────────────────────────
 

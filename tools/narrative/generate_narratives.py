@@ -90,8 +90,12 @@ from .officeholders import (
 
 # ---- Paths -------------------------------------------------------------------
 ROOT     = Path(__file__).resolve().parent.parent.parent  # project root
-DATA_DIR = ROOT / 'docs' / 'data'
-MANIFEST = ROOT / 'docs' / 'manifest.json'
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+# The output root comes from the single resolver, so narratives follow
+# ELECTION_DATA_OUT together with the chart JSON they are built from.
+from pipeline.paths import DATA_DIR, DOCS_DIR  # noqa: E402
+MANIFEST = DOCS_DIR / 'manifest.json'
 
 # ---- Constants ---------------------------------------------------------------
 # Label written to generated_by field when the template registry produced the
