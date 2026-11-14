@@ -118,6 +118,29 @@ def test_election_participation_summaries_identical(frames):
         assert_frame_equal(x, y, check_row_order=False)
 
 
+def _with_districts(df):
+    """Columns build_district_breakdown needs that the fixture lacks."""
+    n = df.height
+    return df.with_columns(
+        pl.Series("CONGRESSIONAL_DISTRICT", [f"{(i % 3) + 1:02d}" for i in range(n)]),
+        pl.Series("VOTER_STATUS", ["CONFIRMATION" if i % 4 == 0 else "ACTIVE" for i in range(n)]),
+        pl.col("PARTY_AFFILIATION")
+          .replace_strict({"D": "DEM", "R": "REP", "": "UNC"}, default="Other")
+          .alias("PARTY_LABEL"),
+    )
+
+
+def test_district_breakdown_identical(frames):
+    s, e = frames
+    a, gen_a = vdc.build_district_breakdown(_with_districts(s), COLS, LOG)
+    b, gen_b = vdc.build_district_breakdown(_with_districts(e), COLS, LOG)
+    assert gen_a == gen_b == "GENERAL-11/05/2024"
+    assert a and a.keys() == b.keys()
+    for field in a:
+        # Group-bys and pivots here are unordered (not changed by M6).
+        assert_frame_equal(a[field], b[field], check_row_order=False, check_column_order=False)
+
+
 # -- strict: an unseen code stops the run --------------------------------------
 
 def _with_unseen(df):
