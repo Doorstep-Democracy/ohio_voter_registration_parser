@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 480",
-      "Mixed – Active — 244",
-      "Mixed – Lapsed — 176",
-      "UNC – No Primary — 1,360",
-      "UNC – Lapsed D — 165"
+      "UNC – Lapsed R — 558",
+      "Mixed – Active — 239",
+      "Mixed – Lapsed — 124",
+      "UNC – Non-partisan Ballot — 51",
+      "UNC – No Primary — 1,336",
+      "UNC – Lapsed D — 162"
     ],
     "datasets": [
       {
         "data": [
-          480,
-          244,
-          176,
-          1360,
-          165
+          558,
+          239,
+          124,
+          51,
+          1336,
+          162
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARDY (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

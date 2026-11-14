@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 442 (30%)",
-      "UNC – Lapsed R — 175 (12%)",
-      "Mixed – Active — 115 (8%)",
-      "Mixed – Lapsed — 54 (4%)",
-      "UNC – No Primary — 569 (39%)",
-      "UNC – Lapsed D — 74 (5%)",
-      "Pure D — 38 (3%)"
+      "Pure R — 374 (25%)",
+      "UNC – Lapsed R — 260 (18%)",
+      "Mixed – Active — 107 (7%)",
+      "Mixed – Lapsed — 46 (3%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 21 (1%)",
+      "UNC – No Primary — 560 (38%)",
+      "UNC – Lapsed D — 66 (4%)",
+      "Pure D — 43 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          442,
-          175,
-          115,
-          54,
-          569,
-          74,
-          38
+          374,
+          260,
+          107,
+          46,
+          6,
+          21,
+          560,
+          66,
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

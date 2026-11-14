@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 215 (28%)",
-      "UNC – Lapsed R — 104 (13%)",
-      "Mixed – Active — 55 (7%)",
-      "Mixed – Lapsed — 49 (6%)",
-      "UNC – No Primary — 300 (38%)",
-      "UNC – Lapsed D — 44 (6%)",
-      "Pure D — 14 (2%)"
+      "Pure R — 198 (25%)",
+      "UNC – Lapsed R — 133 (17%)",
+      "Mixed – Active — 54 (7%)",
+      "Mixed – Lapsed — 30 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 16 (2%)",
+      "UNC – No Primary — 296 (38%)",
+      "UNC – Lapsed D — 38 (5%)",
+      "Pure D — 20 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          215,
-          104,
-          55,
-          49,
-          300,
-          44,
-          14
+          198,
+          133,
+          54,
+          30,
+          2,
+          16,
+          296,
+          38,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

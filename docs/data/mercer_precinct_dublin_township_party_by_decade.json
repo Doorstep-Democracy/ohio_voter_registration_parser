@@ -4,7 +4,7 @@
   "precinct": "DUBLIN TOWNSHIP",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -40,7 +40,7 @@
           11,
           21,
           20,
-          34,
+          32,
           18,
           21,
           9
@@ -53,7 +53,7 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          22,
+          21,
           33,
           17,
           14,
@@ -68,16 +68,32 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          7,
           8,
-          9,
           19,
-          11,
+          10,
           11,
           5,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -102,12 +118,12 @@
         "data": [
           0,
           3,
-          15,
-          27,
+          16,
+          25,
           20,
           38,
           48,
-          82
+          90
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,

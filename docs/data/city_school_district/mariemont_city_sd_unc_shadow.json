@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,056",
-      "Mixed – Active — 486",
-      "Mixed – Lapsed — 577",
-      "UNC – No Primary — 2,893",
-      "UNC – Lapsed D — 776"
+      "UNC – Lapsed R — 1,146",
+      "Mixed – Active — 496",
+      "Mixed – Lapsed — 418",
+      "UNC – Non-partisan Ballot — 185",
+      "UNC – No Primary — 2,813",
+      "UNC – Lapsed D — 758"
     ],
     "datasets": [
       {
         "data": [
-          1056,
-          486,
-          577,
-          2893,
-          776
+          1146,
+          496,
+          418,
+          185,
+          2813,
+          758
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "MARIEMONT CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

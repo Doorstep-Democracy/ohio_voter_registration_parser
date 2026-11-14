@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 686 (14%)",
-      "UNC – Lapsed R — 654 (14%)",
-      "Mixed – Active — 348 (7%)",
-      "Mixed – Lapsed — 540 (11%)",
-      "UNC – No Primary — 1,798 (38%)",
-      "UNC – Lapsed D — 501 (10%)",
-      "Pure D — 254 (5%)"
+      "Pure R — 731 (15%)",
+      "UNC – Lapsed R — 633 (13%)",
+      "Mixed – Active — 375 (8%)",
+      "Mixed – Lapsed — 190 (4%)",
+      "Minor Party — 20 (0%)",
+      "UNC – Non-partisan Ballot — 299 (6%)",
+      "UNC – No Primary — 1,806 (37%)",
+      "UNC – Lapsed D — 443 (9%)",
+      "Pure D — 358 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          686,
-          654,
-          348,
-          540,
-          1798,
-          501,
-          254
+          731,
+          633,
+          375,
+          190,
+          20,
+          299,
+          1806,
+          443,
+          358
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "UNION CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 57",
-      "Mixed – Active — 40",
-      "Mixed – Lapsed — 37",
-      "UNC – No Primary — 166",
-      "UNC – Lapsed D — 33"
+      "UNC – Lapsed R — 60",
+      "Mixed – Active — 38",
+      "Mixed – Lapsed — 19",
+      "UNC – Non-partisan Ballot — 16",
+      "UNC – No Primary — 158",
+      "UNC – Lapsed D — 30"
     ],
     "datasets": [
       {
         "data": [
-          57,
-          40,
-          37,
-          166,
-          33
+          60,
+          38,
+          19,
+          16,
+          158,
+          30
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CENTER TOWNSHIP (Morgan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

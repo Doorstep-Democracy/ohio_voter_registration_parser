@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 30 (0%)",
+      "Pure R — 29 (0%)",
       "UNC – Lapsed R — 21 (0%)",
-      "Mixed – Active — 97 (1%)",
-      "Mixed – Lapsed — 174 (2%)",
-      "UNC – No Primary — 4,165 (48%)",
-      "UNC – Lapsed D — 2,333 (27%)",
-      "Pure D — 1,942 (22%)"
+      "Mixed – Active — 94 (1%)",
+      "Mixed – Lapsed — 72 (1%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 96 (1%)",
+      "UNC – No Primary — 4,234 (48%)",
+      "UNC – Lapsed D — 2,291 (26%)",
+      "Pure D — 1,922 (22%)"
     ],
     "datasets": [
       {
         "data": [
-          30,
+          29,
           21,
-          97,
-          174,
-          4165,
-          2333,
-          1942
+          94,
+          72,
+          12,
+          96,
+          4234,
+          2291,
+          1922
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WARRENSVILLE HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 46",
-      "Mixed – Active — 58",
-      "Mixed – Lapsed — 21",
-      "UNC – No Primary — 171",
-      "UNC – Lapsed D — 69"
+      "UNC – Lapsed R — 58",
+      "Mixed – Active — 57",
+      "Mixed – Lapsed — 20",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 168",
+      "UNC – Lapsed D — 64"
     ],
     "datasets": [
       {
         "data": [
-          46,
           58,
-          21,
-          171,
-          69
+          57,
+          20,
+          4,
+          168,
+          64
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GERMAN TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

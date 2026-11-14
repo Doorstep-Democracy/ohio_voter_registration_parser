@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 68 (18%)",
-      "UNC – Lapsed R — 59 (15%)",
-      "Mixed – Active — 24 (6%)",
-      "Mixed – Lapsed — 42 (11%)",
-      "UNC – No Primary — 157 (41%)",
-      "UNC – Lapsed D — 21 (5%)",
-      "Pure D — 11 (3%)"
+      "Pure R — 54 (14%)",
+      "UNC – Lapsed R — 73 (19%)",
+      "Mixed – Active — 28 (7%)",
+      "Mixed – Lapsed — 30 (8%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 9 (2%)",
+      "UNC – No Primary — 155 (40%)",
+      "UNC – Lapsed D — 20 (5%)",
+      "Pure D — 12 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          59,
-          24,
-          42,
-          157,
-          21,
-          11
+          54,
+          73,
+          28,
+          30,
+          2,
+          9,
+          155,
+          20,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BLACKCREEK TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

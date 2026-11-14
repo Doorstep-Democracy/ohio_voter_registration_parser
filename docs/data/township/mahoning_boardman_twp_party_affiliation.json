@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,926 (7%)",
-      "UNC – Lapsed R — 1,556 (5%)",
-      "Mixed – Active — 3,697 (13%)",
-      "Mixed – Lapsed — 2,108 (7%)",
-      "UNC – No Primary — 10,582 (37%)",
-      "UNC – Lapsed D — 5,606 (20%)",
-      "Pure D — 3,041 (11%)"
+      "Pure R — 2,011 (7%)",
+      "UNC – Lapsed R — 1,619 (6%)",
+      "Mixed – Active — 4,053 (14%)",
+      "Mixed – Lapsed — 1,569 (5%)",
+      "Minor Party — 59 (0%)",
+      "UNC – Non-partisan Ballot — 399 (1%)",
+      "UNC – No Primary — 10,270 (36%)",
+      "UNC – Lapsed D — 4,714 (16%)",
+      "Pure D — 3,967 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          1926,
-          1556,
-          3697,
-          2108,
-          10582,
-          5606,
-          3041
+          2011,
+          1619,
+          4053,
+          1569,
+          59,
+          399,
+          10270,
+          4714,
+          3967
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BOARDMAN TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

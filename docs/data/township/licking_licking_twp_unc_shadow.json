@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 550",
-      "Mixed – Active — 360",
-      "Mixed – Lapsed — 357",
-      "UNC – No Primary — 1,140",
-      "UNC – Lapsed D — 336"
+      "UNC – Lapsed R — 592",
+      "Mixed – Active — 366",
+      "Mixed – Lapsed — 191",
+      "UNC – Non-partisan Ballot — 171",
+      "UNC – No Primary — 1,147",
+      "UNC – Lapsed D — 299"
     ],
     "datasets": [
       {
         "data": [
-          550,
-          360,
-          357,
-          1140,
-          336
+          592,
+          366,
+          191,
+          171,
+          1147,
+          299
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LICKING TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT YGN6 E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -59,11 +59,24 @@
         "data": [
           0,
           4,
-          2,
+          3,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           0,
           55,
-          82,
+          88,
           154,
-          130
+          137
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,8 +111,8 @@
         "data": [
           6,
           38,
-          42,
-          27,
+          41,
+          26,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -109,9 +122,9 @@
       {
         "label": "Pure D",
         "data": [
-          8,
-          31,
-          22,
+          7,
+          30,
+          23,
           4,
           4
         ],

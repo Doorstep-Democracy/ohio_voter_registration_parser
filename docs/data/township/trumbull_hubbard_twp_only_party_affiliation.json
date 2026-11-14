@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 414 (11%)",
-      "UNC – Lapsed R — 206 (6%)",
-      "Mixed – Active — 524 (14%)",
-      "Mixed – Lapsed — 227 (6%)",
-      "UNC – No Primary — 1,363 (37%)",
-      "UNC – Lapsed D — 550 (15%)",
-      "Pure D — 409 (11%)"
+      "Pure R — 389 (10%)",
+      "UNC – Lapsed R — 234 (6%)",
+      "Mixed – Active — 504 (14%)",
+      "Mixed – Lapsed — 153 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 106 (3%)",
+      "UNC – No Primary — 1,370 (37%)",
+      "UNC – Lapsed D — 545 (15%)",
+      "Pure D — 428 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          414,
-          206,
-          524,
-          227,
-          1363,
-          550,
-          409
+          389,
+          234,
+          504,
+          153,
+          4,
+          106,
+          1370,
+          545,
+          428
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HUBBARD TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

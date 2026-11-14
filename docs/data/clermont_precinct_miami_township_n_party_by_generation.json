@@ -4,7 +4,7 @@
   "precinct": "MIAMI TOWNSHIP N",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,8 +19,8 @@
         "label": "Pure R",
         "data": [
           7,
-          89,
-          43,
+          87,
+          42,
           18,
           10
         ],
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
+          5,
           26,
           37,
-          22,
-          8
+          20,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -60,10 +60,23 @@
           1,
           6,
           11,
-          1,
+          2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -87,7 +100,7 @@
           14,
           31,
           76,
-          89
+          95
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           1,
           14,
           20,
-          16,
+          17,
           0
         ],
         "backgroundColor": "#93c5fd",

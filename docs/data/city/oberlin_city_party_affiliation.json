@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 108 (1%)",
-      "UNC – Lapsed R — 126 (1%)",
-      "Mixed – Active — 334 (4%)",
-      "Mixed – Lapsed — 179 (2%)",
-      "UNC – No Primary — 4,413 (49%)",
-      "UNC – Lapsed D — 1,923 (21%)",
-      "Pure D — 1,913 (21%)"
+      "Pure R — 102 (1%)",
+      "UNC – Lapsed R — 139 (1%)",
+      "Mixed – Active — 353 (4%)",
+      "Mixed – Lapsed — 86 (1%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 97 (1%)",
+      "UNC – No Primary — 4,582 (49%)",
+      "UNC – Lapsed D — 1,921 (21%)",
+      "Pure D — 2,059 (22%)"
     ],
     "datasets": [
       {
         "data": [
-          108,
-          126,
-          334,
-          179,
-          4413,
-          1923,
-          1913
+          102,
+          139,
+          353,
+          86,
+          6,
+          97,
+          4582,
+          1921,
+          2059
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "OBERLIN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

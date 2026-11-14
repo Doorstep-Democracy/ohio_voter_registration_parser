@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 260",
-      "Mixed – Active — 15",
-      "Mixed – Lapsed — 88",
-      "UNC – No Primary — 733",
-      "UNC – Lapsed D — 13"
+      "UNC – Lapsed R — 277",
+      "Mixed – Active — 16",
+      "Mixed – Lapsed — 9",
+      "UNC – Non-partisan Ballot — 78",
+      "UNC – No Primary — 737",
+      "UNC – Lapsed D — 14"
     ],
     "datasets": [
       {
         "data": [
-          260,
-          15,
-          88,
-          733,
-          13
+          277,
+          16,
+          9,
+          78,
+          737,
+          14
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PAINT (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,070 (10%)",
-      "UNC – Lapsed R — 586 (5%)",
-      "Mixed – Active — 1,339 (12%)",
-      "Mixed – Lapsed — 560 (5%)",
-      "UNC – No Primary — 5,008 (46%)",
-      "UNC – Lapsed D — 1,691 (16%)",
-      "Pure D — 605 (6%)"
+      "Pure R — 1,130 (10%)",
+      "UNC – Lapsed R — 601 (5%)",
+      "Mixed – Active — 1,410 (13%)",
+      "Mixed – Lapsed — 418 (4%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 99 (1%)",
+      "UNC – No Primary — 5,047 (46%)",
+      "UNC – Lapsed D — 1,552 (14%)",
+      "Pure D — 723 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1070,
-          586,
-          1339,
-          560,
-          5008,
-          1691,
-          605
+          1130,
+          601,
+          1410,
+          418,
+          10,
+          99,
+          5047,
+          1552,
+          723
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "STEUBENVILLE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

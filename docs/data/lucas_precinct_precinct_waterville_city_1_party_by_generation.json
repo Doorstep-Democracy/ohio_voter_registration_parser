@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WATERVILLE CITY 1",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,9 +18,9 @@
       {
         "label": "Pure R",
         "data": [
-          27,
-          57,
-          26,
+          28,
+          56,
+          25,
           14,
           5
         ],
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          17,
+          16,
           28,
-          27,
-          25,
+          26,
+          24,
           8
         ],
         "backgroundColor": "#fca5a5",
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          16,
+          18,
           53,
           14,
           6,
@@ -57,8 +57,8 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          13,
-          32,
+          12,
+          31,
           9,
           2,
           1
@@ -68,10 +68,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
-          18,
+          16,
           17,
           9,
           0
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          9,
-          38,
-          57,
-          112,
-          98
+          8,
+          44,
+          58,
+          115,
+          99
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          12,
-          49,
-          36,
+          13,
+          53,
+          38,
           20,
-          3
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          25,
-          39,
+          24,
+          40,
           26,
-          17,
+          18,
           8
         ],
         "backgroundColor": "#3b82f6",

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 719",
-      "Mixed – Active — 797",
-      "Mixed – Lapsed — 818",
-      "UNC – No Primary — 2,685",
-      "UNC – Lapsed D — 1,139"
+      "UNC – Lapsed R — 751",
+      "Mixed – Active — 845",
+      "Mixed – Lapsed — 402",
+      "UNC – Non-partisan Ballot — 379",
+      "UNC – No Primary — 2,661",
+      "UNC – Lapsed D — 1,060"
     ],
     "datasets": [
       {
         "data": [
-          719,
-          797,
-          818,
-          2685,
-          1139
+          751,
+          845,
+          402,
+          379,
+          2661,
+          1060
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "VERMILION CITY ",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

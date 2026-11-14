@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 25 (19%)",
-      "UNC – Lapsed R — 23 (17%)",
-      "Mixed – Active — 6 (5%)",
-      "Mixed – Lapsed — 6 (5%)",
-      "UNC – No Primary — 54 (41%)",
-      "UNC – Lapsed D — 11 (8%)",
-      "Pure D — 8 (6%)"
+      "Pure R — 31 (24%)",
+      "UNC – Lapsed R — 22 (17%)",
+      "Mixed – Active — 5 (4%)",
+      "Mixed – Lapsed — 1 (1%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 3 (2%)",
+      "UNC – No Primary — 47 (36%)",
+      "UNC – Lapsed D — 10 (8%)",
+      "Pure D — 9 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          25,
-          23,
-          6,
-          6,
-          54,
-          11,
-          8
+          31,
+          22,
+          5,
+          1,
+          1,
+          3,
+          47,
+          10,
+          9
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CHESTERVILLE VILLAGE (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

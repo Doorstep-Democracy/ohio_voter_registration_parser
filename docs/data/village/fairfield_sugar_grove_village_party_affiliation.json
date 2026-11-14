@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 48 (18%)",
-      "UNC – Lapsed R — 28 (10%)",
-      "Mixed – Active — 18 (7%)",
-      "Mixed – Lapsed — 21 (8%)",
-      "UNC – No Primary — 105 (39%)",
-      "UNC – Lapsed D — 29 (11%)",
-      "Pure D — 20 (7%)"
+      "Pure R — 41 (15%)",
+      "UNC – Lapsed R — 33 (12%)",
+      "Mixed – Active — 19 (7%)",
+      "Mixed – Lapsed — 10 (4%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 15 (5%)",
+      "UNC – No Primary — 110 (40%)",
+      "UNC – Lapsed D — 32 (12%)",
+      "Pure D — 14 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          48,
-          28,
-          18,
-          21,
-          105,
-          29,
-          20
+          41,
+          33,
+          19,
+          10,
+          2,
+          15,
+          110,
+          32,
+          14
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SUGAR GROVE VILLAGE (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

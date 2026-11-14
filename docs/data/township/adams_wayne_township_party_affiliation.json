@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 311 (36%)",
-      "UNC – Lapsed R — 114 (13%)",
-      "Mixed – Active — 59 (7%)",
-      "Mixed – Lapsed — 19 (2%)",
-      "UNC – No Primary — 280 (33%)",
-      "UNC – Lapsed D — 53 (6%)",
+      "Pure R — 302 (35%)",
+      "UNC – Lapsed R — 120 (14%)",
+      "Mixed – Active — 64 (7%)",
+      "Mixed – Lapsed — 15 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 286 (33%)",
+      "UNC – Lapsed D — 55 (6%)",
       "Pure D — 23 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          311,
-          114,
-          59,
-          19,
-          280,
-          53,
+          302,
+          120,
+          64,
+          15,
+          0,
+          7,
+          286,
+          55,
           23
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          6,
-          35,
-          146,
-          216,
-          186,
-          82,
-          38,
-          32,
-          13
+          4,
+          27,
+          131,
+          207,
+          181,
+          69,
+          34,
+          36,
+          15
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          26,
-          76,
-          145,
-          195,
-          113,
+          23,
+          75,
+          152,
+          199,
+          124,
+          82,
           79,
-          83,
-          13
+          16
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           4,
-          60,
-          281,
-          467,
-          326,
-          125,
           57,
-          21,
-          0
+          264,
+          461,
+          326,
+          124,
+          55,
+          22,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          9,
-          53,
-          129,
-          342,
-          337,
-          229,
-          161,
-          96,
-          32
+          8,
+          36,
+          104,
+          231,
+          200,
+          105,
+          40,
+          17,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          3,
+          12,
+          12,
+          10,
+          9,
+          5,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          10,
+          36,
+          104,
+          131,
+          124,
+          121,
+          66,
+          23
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           6,
-          66,
-          304,
-          1080,
-          1826,
-          2166,
-          3149,
-          4846,
-          3470
+          61,
+          287,
+          1037,
+          1798,
+          2174,
+          3168,
+          4871,
+          3866
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          24,
-          194,
-          528,
-          1488,
-          1746,
-          1665,
-          1477,
-          795,
-          90
+          25,
+          192,
+          520,
+          1358,
+          1587,
+          1551,
+          1410,
+          777,
+          105
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          16,
-          165,
-          659,
-          1531,
-          1063,
-          570,
-          405,
-          268,
-          104
+          10,
+          145,
+          643,
+          1657,
+          1256,
+          738,
+          532,
+          391,
+          231
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "EUCLID (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

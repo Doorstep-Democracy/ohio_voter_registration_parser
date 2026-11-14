@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,033",
-      "Mixed – Active — 726",
-      "Mixed – Lapsed — 668",
-      "UNC – No Primary — 2,733",
-      "UNC – Lapsed D — 726"
+      "UNC – Lapsed R — 1,031",
+      "Mixed – Active — 714",
+      "Mixed – Lapsed — 362",
+      "UNC – Non-partisan Ballot — 305",
+      "UNC – No Primary — 2,793",
+      "UNC – Lapsed D — 725"
     ],
     "datasets": [
       {
         "data": [
-          1033,
-          726,
-          668,
-          2733,
-          726
+          1031,
+          714,
+          362,
+          305,
+          2793,
+          725
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Fairless Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

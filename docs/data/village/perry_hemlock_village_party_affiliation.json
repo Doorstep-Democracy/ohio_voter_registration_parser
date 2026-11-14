@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 14 (15%)",
-      "UNC – Lapsed R — 5 (5%)",
-      "Mixed – Active — 5 (5%)",
-      "Mixed – Lapsed — 7 (7%)",
-      "UNC – No Primary — 47 (49%)",
-      "UNC – Lapsed D — 12 (13%)",
-      "Pure D — 5 (5%)"
+      "Pure R — 15 (16%)",
+      "UNC – Lapsed R — 7 (7%)",
+      "Mixed – Active — 8 (9%)",
+      "Mixed – Lapsed — 2 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 3 (3%)",
+      "UNC – No Primary — 42 (45%)",
+      "UNC – Lapsed D — 10 (11%)",
+      "Pure D — 7 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          14,
-          5,
-          5,
+          15,
           7,
-          47,
-          12,
-          5
+          8,
+          2,
+          0,
+          3,
+          42,
+          10,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HEMLOCK VILLAGE (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

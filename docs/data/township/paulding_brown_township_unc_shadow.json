@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 149",
-      "Mixed – Active — 91",
-      "Mixed – Lapsed — 55",
-      "UNC – No Primary — 528",
-      "UNC – Lapsed D — 112"
+      "UNC – Lapsed R — 139",
+      "Mixed – Active — 101",
+      "Mixed – Lapsed — 39",
+      "UNC – Non-partisan Ballot — 15",
+      "UNC – No Primary — 478",
+      "UNC – Lapsed D — 86"
     ],
     "datasets": [
       {
         "data": [
-          149,
-          91,
-          55,
-          528,
-          112
+          139,
+          101,
+          39,
+          15,
+          478,
+          86
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BROWN TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

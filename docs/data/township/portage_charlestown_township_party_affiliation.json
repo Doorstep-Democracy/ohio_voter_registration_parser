@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 156 (15%)",
-      "UNC – Lapsed R — 78 (7%)",
-      "Mixed – Active — 132 (12%)",
-      "Mixed – Lapsed — 72 (7%)",
-      "UNC – No Primary — 432 (40%)",
+      "Pure R — 140 (13%)",
+      "UNC – Lapsed R — 95 (9%)",
+      "Mixed – Active — 130 (12%)",
+      "Mixed – Lapsed — 41 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 34 (3%)",
+      "UNC – No Primary — 431 (40%)",
       "UNC – Lapsed D — 122 (11%)",
-      "Pure D — 80 (7%)"
+      "Pure D — 89 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          156,
-          78,
-          132,
-          72,
-          432,
+          140,
+          95,
+          130,
+          41,
+          1,
+          34,
+          431,
           122,
-          80
+          89
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CHARLESTOWN TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

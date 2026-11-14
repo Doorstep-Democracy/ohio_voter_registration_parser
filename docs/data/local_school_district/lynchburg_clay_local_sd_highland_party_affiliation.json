@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 959 (23%)",
-      "UNC – Lapsed R — 607 (14%)",
-      "Mixed – Active — 281 (7%)",
-      "Mixed – Lapsed — 196 (5%)",
-      "UNC – No Primary — 1,867 (44%)",
-      "UNC – Lapsed D — 233 (5%)",
-      "Pure D — 109 (3%)"
+      "Pure R — 956 (22%)",
+      "UNC – Lapsed R — 608 (14%)",
+      "Mixed – Active — 277 (6%)",
+      "Mixed – Lapsed — 140 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 56 (1%)",
+      "UNC – No Primary — 1,890 (44%)",
+      "UNC – Lapsed D — 230 (5%)",
+      "Pure D — 106 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          959,
-          607,
-          281,
-          196,
-          1867,
-          233,
-          109
+          956,
+          608,
+          277,
+          140,
+          4,
+          56,
+          1890,
+          230,
+          106
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lynchburg-Clay Local Sd (Highland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,127 @@
+{
+  "title": "Party Affiliation by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Pure R",
+        "data": [
+          28,
+          182,
+          138,
+          78,
+          28
+        ],
+        "backgroundColor": "#ef4444",
+        "stack": "r_pure"
+      },
+      {
+        "label": "UNC – Lapsed R",
+        "data": [
+          27,
+          79,
+          90,
+          93,
+          20
+        ],
+        "backgroundColor": "#fca5a5",
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
+        "data": [
+          19,
+          157,
+          60,
+          15,
+          1
+        ],
+        "backgroundColor": "#f59e0b",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          9,
+          53,
+          35,
+          13,
+          1
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          5,
+          14,
+          11,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          15,
+          142,
+          248,
+          340,
+          330
+        ],
+        "backgroundColor": "#9ca3af",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          17,
+          108,
+          100,
+          41,
+          12
+        ],
+        "backgroundColor": "#93c5fd",
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          16,
+          67,
+          24,
+          12,
+          6
+        ],
+        "backgroundColor": "#3b82f6",
+        "stack": "d_pure"
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "Township",
+  "jurisdiction_name": "HARRISON TOWNSHIP (Scioto Co.)",
+  "updated": "2026-11-12"
+}

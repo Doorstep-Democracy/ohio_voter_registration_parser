@@ -4,22 +4,26 @@
   "chartConfig": {
     "labels": [
       "Pure R — 164 (20%)",
-      "UNC – Lapsed R — 115 (14%)",
+      "UNC – Lapsed R — 113 (13%)",
       "Mixed – Active — 91 (11%)",
-      "Mixed – Lapsed — 62 (7%)",
-      "UNC – No Primary — 287 (34%)",
-      "UNC – Lapsed D — 83 (10%)",
+      "Mixed – Lapsed — 36 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 25 (3%)",
+      "UNC – No Primary — 286 (34%)",
+      "UNC – Lapsed D — 84 (10%)",
       "Pure D — 39 (5%)"
     ],
     "datasets": [
       {
         "data": [
           164,
-          115,
+          113,
           91,
-          62,
-          287,
-          83,
+          36,
+          1,
+          25,
+          286,
+          84,
           39
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BIG ISLAND TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

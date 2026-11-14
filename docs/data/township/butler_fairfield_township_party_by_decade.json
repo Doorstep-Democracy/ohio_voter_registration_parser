@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          80,
-          440,
-          844,
-          769,
-          480,
-          257,
-          131,
-          101
+          65,
+          427,
+          915,
+          923,
+          600,
+          362,
+          181,
+          141
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
-          61,
-          159,
-          324,
-          513,
-          380,
-          257,
-          200,
-          12
+          5,
+          59,
+          158,
+          265,
+          385,
+          315,
+          206,
+          182,
+          23
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          22,
-          180,
-          263,
-          220,
-          139,
-          82,
-          18,
-          0
+          1,
+          19,
+          191,
+          308,
+          289,
+          189,
+          116,
+          36,
+          7
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          25,
-          110,
-          210,
-          265,
-          216,
-          149,
-          57,
-          29
+          0,
+          16,
+          62,
+          86,
+          73,
+          52,
+          33,
+          11,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          3,
+          8,
+          16,
+          18,
+          21,
+          9,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          7,
+          44,
+          84,
+          136,
+          124,
+          111,
+          52,
+          48
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          41,
-          181,
-          413,
-          752,
-          961,
-          1280,
-          1490,
-          1669
+          36,
+          165,
+          383,
+          690,
+          873,
+          1163,
+          1405,
+          1629
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
-          35,
-          123,
-          249,
-          316,
-          361,
-          258,
-          164,
-          23
+          1,
+          28,
+          98,
+          183,
+          237,
+          250,
+          205,
+          145,
+          31
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           3,
-          13,
-          92,
-          208,
-          167,
-          176,
-          135,
-          64,
-          57
+          11,
+          116,
+          282,
+          243,
+          299,
+          223,
+          124,
+          142
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 113 (28%)",
-      "UNC – Lapsed R — 54 (14%)",
-      "Mixed – Active — 24 (6%)",
-      "Mixed – Lapsed — 16 (4%)",
-      "UNC – No Primary — 151 (38%)",
-      "UNC – Lapsed D — 25 (6%)",
-      "Pure D — 17 (4%)"
+      "Pure R — 87 (22%)",
+      "UNC – Lapsed R — 87 (22%)",
+      "Mixed – Active — 22 (5%)",
+      "Mixed – Lapsed — 18 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
+      "UNC – No Primary — 147 (36%)",
+      "UNC – Lapsed D — 21 (5%)",
+      "Pure D — 21 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          113,
-          54,
-          24,
-          16,
-          151,
-          25,
-          17
+          87,
+          87,
+          22,
+          18,
+          0,
+          1,
+          147,
+          21,
+          21
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BLUE CREEK TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

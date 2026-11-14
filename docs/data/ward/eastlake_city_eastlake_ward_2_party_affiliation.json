@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 228 (8%)",
+      "Pure R — 227 (8%)",
       "UNC – Lapsed R — 244 (9%)",
-      "Mixed – Active — 242 (9%)",
-      "Mixed – Lapsed — 167 (6%)",
-      "UNC – Non-partisan Ballot — 103 (4%)",
-      "UNC – No Primary — 1,079 (40%)",
-      "UNC – Lapsed D — 448 (16%)",
-      "Pure D — 210 (8%)"
+      "Mixed – Active — 237 (9%)",
+      "Mixed – Lapsed — 162 (6%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 99 (4%)",
+      "UNC – No Primary — 1,094 (40%)",
+      "UNC – Lapsed D — 442 (16%)",
+      "Pure D — 208 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          228,
+          227,
           244,
-          242,
-          167,
-          103,
-          1079,
-          448,
-          210
+          237,
+          162,
+          10,
+          99,
+          1094,
+          442,
+          208
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "EASTLAKE WARD 2 (EASTLAKE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 302 (23%)",
-      "UNC – Lapsed R — 259 (20%)",
+      "Pure R — 301 (23%)",
+      "UNC – Lapsed R — 261 (20%)",
       "Mixed – Active — 137 (11%)",
-      "Mixed – Lapsed — 113 (9%)",
-      "UNC – No Primary — 356 (28%)",
-      "UNC – Lapsed D — 75 (6%)",
-      "Pure D — 47 (4%)"
+      "Mixed – Lapsed — 73 (6%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 37 (3%)",
+      "UNC – No Primary — 372 (29%)",
+      "UNC – Lapsed D — 73 (6%)",
+      "Pure D — 45 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          302,
-          259,
+          301,
+          261,
           137,
-          113,
-          356,
-          75,
-          47
+          73,
+          4,
+          37,
+          372,
+          73,
+          45
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "New Riegel Local Sd (Seneca Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,127 @@
+{
+  "title": "Party Affiliation by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Pure R",
+        "data": [
+          118,
+          483,
+          230,
+          86,
+          30
+        ],
+        "backgroundColor": "#ef4444",
+        "stack": "r_pure"
+      },
+      {
+        "label": "UNC – Lapsed R",
+        "data": [
+          72,
+          370,
+          412,
+          238,
+          26
+        ],
+        "backgroundColor": "#fca5a5",
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
+        "data": [
+          47,
+          351,
+          152,
+          70,
+          11
+        ],
+        "backgroundColor": "#f59e0b",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          30,
+          166,
+          135,
+          37,
+          2
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          5,
+          5,
+          5,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          7,
+          61,
+          77,
+          48,
+          21
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          58,
+          380,
+          704,
+          931,
+          1080
+        ],
+        "backgroundColor": "#9ca3af",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          50,
+          218,
+          294,
+          253,
+          59
+        ],
+        "backgroundColor": "#93c5fd",
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          56,
+          310,
+          211,
+          183,
+          94
+        ],
+        "backgroundColor": "#3b82f6",
+        "stack": "d_pure"
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "Ward",
+  "jurisdiction_name": "DUBLIN COUNCIL WARD 2 (DUBLIN City)",
+  "updated": "2026-11-12"
+}

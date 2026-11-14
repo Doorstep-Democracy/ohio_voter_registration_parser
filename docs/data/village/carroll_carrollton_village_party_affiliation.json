@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 369 (18%)",
-      "UNC – Lapsed R — 223 (11%)",
-      "Mixed – Active — 158 (8%)",
-      "Mixed – Lapsed — 150 (7%)",
-      "UNC – No Primary — 834 (41%)",
-      "UNC – Lapsed D — 231 (11%)",
-      "Pure D — 94 (5%)"
+      "Pure R — 345 (17%)",
+      "UNC – Lapsed R — 263 (13%)",
+      "Mixed – Active — 146 (7%)",
+      "Mixed – Lapsed — 115 (6%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 43 (2%)",
+      "UNC – No Primary — 831 (40%)",
+      "UNC – Lapsed D — 220 (11%)",
+      "Pure D — 105 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          369,
-          223,
-          158,
-          150,
-          834,
-          231,
-          94
+          345,
+          263,
+          146,
+          115,
+          2,
+          43,
+          831,
+          220,
+          105
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CARROLLTON VILLAGE (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

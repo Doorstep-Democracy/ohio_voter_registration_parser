@@ -4,10 +4,9 @@
   "precinct": "BLENDON-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -21,11 +20,10 @@
       {
         "label": "Pure R",
         "data": [
-          0,
           4,
           11,
-          27,
-          23,
+          28,
+          22,
           17,
           10,
           8,
@@ -38,14 +36,13 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
           2,
           12,
           21,
-          37,
+          38,
           34,
           31,
-          30,
+          32,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -56,10 +53,9 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          0,
           12,
           23,
-          20,
+          19,
           15,
           16,
           2,
@@ -72,14 +68,13 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           1,
           5,
           14,
           15,
-          15,
+          16,
           5,
-          4,
+          6,
           0
         ],
         "backgroundColor": "#a78bfa",
@@ -87,17 +82,32 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
           0,
           1,
           6,
           11,
-          16,
           15,
+          14,
           12,
-          4
+          5
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 3,
@@ -107,14 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          0,
           12,
           13,
           35,
-          64,
-          130,
-          190,
-          142
+          65,
+          133,
+          192,
+          151
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -123,14 +132,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          3,
+          2,
           4,
-          16,
+          14,
           24,
-          38,
+          39,
           60,
-          38,
+          36,
           8
         ],
         "backgroundColor": "#93c5fd",
@@ -140,15 +148,14 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           1,
           10,
           22,
           15,
-          29,
-          42,
-          25,
-          10
+          27,
+          43,
+          23,
+          11
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

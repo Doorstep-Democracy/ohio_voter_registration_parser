@@ -4,13 +4,14 @@
   "precinct": "PRECINCT LORAIN CITY 4-B",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          52,
+          53,
+          37,
+          74,
           38,
-          73,
-          38,
+          1,
           9,
-          493,
-          206,
-          187
+          517,
+          203,
+          184
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

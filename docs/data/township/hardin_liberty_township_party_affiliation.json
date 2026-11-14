@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 701 (21%)",
-      "UNC – Lapsed R — 427 (13%)",
-      "Mixed – Active — 207 (6%)",
-      "Mixed – Lapsed — 189 (6%)",
-      "UNC – No Primary — 1,471 (44%)",
-      "UNC – Lapsed D — 218 (6%)",
-      "Pure D — 146 (4%)"
+      "Pure R — 639 (19%)",
+      "UNC – Lapsed R — 494 (15%)",
+      "Mixed – Active — 190 (6%)",
+      "Mixed – Lapsed — 120 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 83 (2%)",
+      "UNC – No Primary — 1,496 (44%)",
+      "UNC – Lapsed D — 221 (6%)",
+      "Pure D — 153 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          701,
-          427,
-          207,
-          189,
-          1471,
-          218,
-          146
+          639,
+          494,
+          190,
+          120,
+          6,
+          83,
+          1496,
+          221,
+          153
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

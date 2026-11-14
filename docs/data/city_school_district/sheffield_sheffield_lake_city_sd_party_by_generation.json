@@ -1,0 +1,127 @@
+{
+  "title": "Party Affiliation by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Pure R",
+        "data": [
+          87,
+          412,
+          219,
+          102,
+          34
+        ],
+        "backgroundColor": "#ef4444",
+        "stack": "r_pure"
+      },
+      {
+        "label": "UNC – Lapsed R",
+        "data": [
+          65,
+          268,
+          281,
+          159,
+          30
+        ],
+        "backgroundColor": "#fca5a5",
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
+        "data": [
+          105,
+          545,
+          221,
+          65,
+          8
+        ],
+        "backgroundColor": "#f59e0b",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          53,
+          201,
+          150,
+          42,
+          3
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          10,
+          7,
+          6,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          22,
+          97,
+          133,
+          94,
+          27
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          61,
+          442,
+          731,
+          1132,
+          1053
+        ],
+        "backgroundColor": "#9ca3af",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          97,
+          474,
+          399,
+          296,
+          37
+        ],
+        "backgroundColor": "#93c5fd",
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          106,
+          566,
+          233,
+          167,
+          79
+        ],
+        "backgroundColor": "#3b82f6",
+        "stack": "d_pure"
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "City School District",
+  "jurisdiction_name": "SHEFFIELD-SHEFFIELD LAKE CITY SD",
+  "updated": "2026-11-12"
+}

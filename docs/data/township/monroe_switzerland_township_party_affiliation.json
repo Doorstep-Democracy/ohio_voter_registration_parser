@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 37 (11%)",
-      "UNC – Lapsed R — 29 (9%)",
-      "Mixed – Active — 50 (15%)",
-      "Mixed – Lapsed — 29 (9%)",
-      "UNC – No Primary — 101 (31%)",
-      "UNC – Lapsed D — 49 (15%)",
-      "Pure D — 28 (9%)"
+      "Pure R — 40 (12%)",
+      "UNC – Lapsed R — 28 (9%)",
+      "Mixed – Active — 53 (17%)",
+      "Mixed – Lapsed — 21 (7%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 8 (2%)",
+      "UNC – No Primary — 96 (30%)",
+      "UNC – Lapsed D — 45 (14%)",
+      "Pure D — 30 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          37,
-          29,
-          50,
-          29,
-          101,
-          49,
-          28
+          40,
+          28,
+          53,
+          21,
+          0,
+          8,
+          96,
+          45,
+          30
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SWITZERLAND TOWNSHIP (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

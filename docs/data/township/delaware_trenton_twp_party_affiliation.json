@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 524 (28%)",
-      "UNC – Lapsed R — 283 (15%)",
-      "Mixed – Active — 167 (9%)",
-      "Mixed – Lapsed — 127 (7%)",
-      "UNC – No Primary — 560 (30%)",
-      "UNC – Lapsed D — 128 (7%)",
-      "Pure D — 69 (4%)"
+      "Pure R — 514 (28%)",
+      "UNC – Lapsed R — 314 (17%)",
+      "Mixed – Active — 168 (9%)",
+      "Mixed – Lapsed — 67 (4%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 65 (3%)",
+      "UNC – No Primary — 528 (28%)",
+      "UNC – Lapsed D — 112 (6%)",
+      "Pure D — 93 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          524,
-          283,
-          167,
-          127,
-          560,
-          128,
-          69
+          514,
+          314,
+          168,
+          67,
+          7,
+          65,
+          528,
+          112,
+          93
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TRENTON TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

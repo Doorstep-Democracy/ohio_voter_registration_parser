@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,170 (22%)",
-      "UNC – Lapsed R — 585 (11%)",
-      "Mixed – Active — 688 (13%)",
-      "Mixed – Lapsed — 343 (6%)",
-      "UNC – No Primary — 1,850 (35%)",
-      "UNC – Lapsed D — 397 (8%)",
-      "Pure D — 255 (5%)"
+      "Pure R — 1,171 (22%)",
+      "UNC – Lapsed R — 591 (11%)",
+      "Mixed – Active — 681 (13%)",
+      "Mixed – Lapsed — 222 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 115 (2%)",
+      "UNC – No Primary — 1,880 (35%)",
+      "UNC – Lapsed D — 396 (7%)",
+      "Pure D — 252 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1170,
-          585,
-          688,
-          343,
-          1850,
-          397,
-          255
+          1171,
+          591,
+          681,
+          222,
+          4,
+          115,
+          1880,
+          396,
+          252
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Ridgewood Local Sd (Coshocton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

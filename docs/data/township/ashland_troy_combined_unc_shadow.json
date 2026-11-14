@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 95",
-      "Mixed – Active — 73",
-      "Mixed – Lapsed — 89",
-      "UNC – No Primary — 263",
-      "UNC – Lapsed D — 55"
+      "UNC – Lapsed R — 117",
+      "Mixed – Active — 65",
+      "Mixed – Lapsed — 27",
+      "UNC – Non-partisan Ballot — 67",
+      "UNC – No Primary — 250",
+      "UNC – Lapsed D — 58"
     ],
     "datasets": [
       {
         "data": [
-          95,
-          73,
-          89,
-          263,
-          55
+          117,
+          65,
+          27,
+          67,
+          250,
+          58
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TROY-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

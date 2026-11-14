@@ -1,0 +1,127 @@
+{
+  "title": "Party Affiliation by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Pure R",
+        "data": [
+          29,
+          134,
+          89,
+          53,
+          25
+        ],
+        "backgroundColor": "#ef4444",
+        "stack": "r_pure"
+      },
+      {
+        "label": "UNC – Lapsed R",
+        "data": [
+          8,
+          46,
+          68,
+          55,
+          11
+        ],
+        "backgroundColor": "#fca5a5",
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
+        "data": [
+          18,
+          114,
+          67,
+          31,
+          4
+        ],
+        "backgroundColor": "#f59e0b",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          5,
+          27,
+          36,
+          7,
+          0
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          10,
+          14,
+          17,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          1,
+          49,
+          91,
+          132,
+          176
+        ],
+        "backgroundColor": "#9ca3af",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          8,
+          46,
+          49,
+          33,
+          7
+        ],
+        "backgroundColor": "#93c5fd",
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          12,
+          52,
+          21,
+          10,
+          4
+        ],
+        "backgroundColor": "#3b82f6",
+        "stack": "d_pure"
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "Township",
+  "jurisdiction_name": "PICKAWAY TWP (Pickaway Co.)",
+  "updated": "2026-11-12"
+}

@@ -1,0 +1,127 @@
+{
+  "title": "Party Affiliation by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Pure R",
+        "data": [
+          130,
+          501,
+          255,
+          152,
+          50
+        ],
+        "backgroundColor": "#ef4444",
+        "stack": "r_pure"
+      },
+      {
+        "label": "UNC – Lapsed R",
+        "data": [
+          93,
+          326,
+          379,
+          297,
+          79
+        ],
+        "backgroundColor": "#fca5a5",
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
+        "data": [
+          53,
+          227,
+          112,
+          35,
+          1
+        ],
+        "backgroundColor": "#f59e0b",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Mixed – Lapsed",
+        "data": [
+          36,
+          119,
+          114,
+          52,
+          1
+        ],
+        "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          1,
+          2,
+          0,
+          4,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          5,
+          40,
+          86,
+          108,
+          50
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          44,
+          252,
+          427,
+          740,
+          861
+        ],
+        "backgroundColor": "#9ca3af",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          18,
+          115,
+          144,
+          116,
+          22
+        ],
+        "backgroundColor": "#93c5fd",
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          22,
+          128,
+          29,
+          31,
+          8
+        ],
+        "backgroundColor": "#3b82f6",
+        "stack": "d_pure"
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "Township",
+  "jurisdiction_name": "CLINTON TWP (Fulton Co.)",
+  "updated": "2026-11-12"
+}

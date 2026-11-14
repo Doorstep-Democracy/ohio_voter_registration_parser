@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 29 (17%)",
-      "UNC – Lapsed R — 26 (15%)",
-      "Mixed – Active — 14 (8%)",
-      "Mixed – Lapsed — 6 (3%)",
-      "UNC – No Primary — 73 (42%)",
-      "UNC – Lapsed D — 13 (8%)",
-      "Pure D — 12 (7%)"
+      "Pure R — 30 (17%)",
+      "UNC – Lapsed R — 25 (14%)",
+      "Mixed – Active — 15 (9%)",
+      "Mixed – Lapsed — 3 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 76 (43%)",
+      "UNC – Lapsed D — 14 (8%)",
+      "Pure D — 10 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          29,
-          26,
+          30,
+          25,
+          15,
+          3,
+          0,
+          2,
+          76,
           14,
-          6,
-          73,
-          13,
-          12
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CASSTOWN VILLAGE (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

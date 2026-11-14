@@ -17,12 +17,12 @@
         "label": "Pure R",
         "data": [
           1,
-          11,
-          32,
+          13,
+          28,
           39,
-          23,
-          17,
-          11,
+          24,
+          16,
+          14,
           6
         ],
         "backgroundColor": "#ef4444",
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          9,
+          7,
+          27,
+          34,
           23,
-          37,
-          21,
-          21,
-          15,
-          1
+          23,
+          17,
+          2
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,13 +46,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          5,
-          22,
-          42,
-          34,
-          9,
-          10,
-          1,
+          4,
+          18,
+          45,
+          35,
+          12,
+          6,
+          4,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -61,16 +61,46 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          5,
-          23,
+          4,
+          7,
+          16,
           18,
-          22,
-          13,
-          8,
-          1
+          7,
+          12,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          8,
+          5,
+          17,
+          7,
+          6,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,12 +108,12 @@
         "data": [
           2,
           9,
-          28,
+          29,
           40,
-          55,
-          75,
-          112,
-          72
+          52,
+          73,
+          108,
+          78
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -91,14 +121,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
+          6,
           7,
-          11,
-          24,
-          29,
-          26,
           14,
-          5,
-          2
+          19,
+          22,
+          14,
+          3,
+          1
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -107,21 +137,21 @@
         "label": "Pure D",
         "data": [
           2,
-          11,
-          11,
           14,
+          18,
+          20,
+          6,
           3,
-          3,
-          3,
-          1
+          5,
+          3
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

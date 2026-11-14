@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 445",
-      "Mixed – Active — 459",
-      "Mixed – Lapsed — 312",
-      "UNC – No Primary — 1,108",
-      "UNC – Lapsed D — 297"
+      "UNC – Lapsed R — 492",
+      "Mixed – Active — 436",
+      "Mixed – Lapsed — 224",
+      "UNC – Non-partisan Ballot — 106",
+      "UNC – No Primary — 1,093",
+      "UNC – Lapsed D — 271"
     ],
     "datasets": [
       {
         "data": [
-          445,
-          459,
-          312,
-          1108,
-          297
+          492,
+          436,
+          224,
+          106,
+          1093,
+          271
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HAMBDEN TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

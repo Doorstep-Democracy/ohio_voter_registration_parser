@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 937 (39%)",
+      "Pure R — 925 (39%)",
       "UNC – Lapsed R — 317 (13%)",
-      "Mixed – Active — 166 (7%)",
-      "Mixed – Lapsed — 181 (8%)",
-      "UNC – No Primary — 621 (26%)",
+      "Mixed – Active — 164 (7%)",
+      "Mixed – Lapsed — 63 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 120 (5%)",
+      "UNC – No Primary — 641 (27%)",
       "UNC – Lapsed D — 91 (4%)",
-      "Pure D — 64 (3%)"
+      "Pure D — 63 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          937,
+          925,
           317,
-          166,
-          181,
-          621,
+          164,
+          63,
+          2,
+          120,
+          641,
           91,
-          64
+          63
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Arlington Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

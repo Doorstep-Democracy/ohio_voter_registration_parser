@@ -4,7 +4,7 @@
   "precinct": "TURTLECREEK TWP B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -26,8 +26,8 @@
           52,
           30,
           16,
-          10,
-          12
+          11,
+          13
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 3,
@@ -41,7 +41,7 @@
           17,
           39,
           34,
-          32,
+          33,
           20,
           3
         ],
@@ -82,14 +82,30 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          2,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           2,
-          2,
+          1,
           8,
           7,
-          6,
+          5,
           2,
           5
         ],
@@ -101,13 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          1,
-          17,
+          0,
           16,
-          23,
-          34,
-          48,
-          59
+          16,
+          25,
+          36,
+          47,
+          61
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -121,7 +137,7 @@
           4,
           5,
           3,
-          4,
+          5,
           2,
           2
         ],

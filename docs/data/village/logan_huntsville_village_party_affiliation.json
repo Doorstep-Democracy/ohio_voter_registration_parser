@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 58 (21%)",
-      "UNC – Lapsed R — 38 (14%)",
-      "Mixed – Active — 23 (8%)",
-      "Mixed – Lapsed — 9 (3%)",
-      "UNC – No Primary — 130 (46%)",
-      "UNC – Lapsed D — 17 (6%)",
-      "Pure D — 5 (2%)"
+      "Pure R — 54 (20%)",
+      "UNC – Lapsed R — 41 (15%)",
+      "Mixed – Active — 21 (8%)",
+      "Mixed – Lapsed — 8 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 4 (1%)",
+      "UNC – No Primary — 127 (46%)",
+      "UNC – Lapsed D — 15 (5%)",
+      "Pure D — 6 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          58,
-          38,
-          23,
-          9,
-          130,
-          17,
-          5
+          54,
+          41,
+          21,
+          8,
+          0,
+          4,
+          127,
+          15,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HUNTSVILLE VILLAGE (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

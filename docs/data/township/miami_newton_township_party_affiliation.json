@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 680 (28%)",
-      "UNC – Lapsed R — 459 (19%)",
-      "Mixed – Active — 180 (7%)",
-      "Mixed – Lapsed — 171 (7%)",
-      "UNC – No Primary — 761 (31%)",
-      "UNC – Lapsed D — 137 (6%)",
-      "Pure D — 55 (2%)"
+      "Pure R — 647 (26%)",
+      "UNC – Lapsed R — 520 (21%)",
+      "Mixed – Active — 189 (8%)",
+      "Mixed – Lapsed — 109 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 59 (2%)",
+      "UNC – No Primary — 746 (30%)",
+      "UNC – Lapsed D — 125 (5%)",
+      "Pure D — 71 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          680,
-          459,
-          180,
-          171,
-          761,
-          137,
-          55
+          647,
+          520,
+          189,
+          109,
+          3,
+          59,
+          746,
+          125,
+          71
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEWTON TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

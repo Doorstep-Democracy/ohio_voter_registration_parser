@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 690 (34%)",
-      "UNC – Lapsed R — 269 (13%)",
-      "Mixed – Active — 132 (7%)",
-      "Mixed – Lapsed — 158 (8%)",
-      "UNC – No Primary — 618 (31%)",
-      "UNC – Lapsed D — 112 (6%)",
-      "Pure D — 44 (2%)"
+      "Pure R — 634 (31%)",
+      "UNC – Lapsed R — 340 (17%)",
+      "Mixed – Active — 146 (7%)",
+      "Mixed – Lapsed — 40 (2%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 98 (5%)",
+      "UNC – No Primary — 614 (30%)",
+      "UNC – Lapsed D — 103 (5%)",
+      "Pure D — 49 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          690,
-          269,
-          132,
-          158,
-          618,
-          112,
-          44
+          634,
+          340,
+          146,
+          40,
+          4,
+          98,
+          614,
+          103,
+          49
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONTGOMERY-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

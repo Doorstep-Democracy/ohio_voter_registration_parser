@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 135",
-      "Mixed – Active — 54",
-      "Mixed – Lapsed — 55",
-      "UNC – No Primary — 362",
-      "UNC – Lapsed D — 67"
+      "UNC – Lapsed R — 176",
+      "Mixed – Active — 50",
+      "Mixed – Lapsed — 35",
+      "UNC – Non-partisan Ballot — 26",
+      "UNC – No Primary — 369",
+      "UNC – Lapsed D — 71"
     ],
     "datasets": [
       {
         "data": [
-          135,
-          54,
-          55,
-          362,
-          67
+          176,
+          50,
+          35,
+          26,
+          369,
+          71
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

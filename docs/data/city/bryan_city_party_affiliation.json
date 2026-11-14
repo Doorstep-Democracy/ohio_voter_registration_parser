@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 916 (17%)",
-      "UNC – Lapsed R — 710 (13%)",
-      "Mixed – Active — 497 (9%)",
-      "Mixed – Lapsed — 416 (8%)",
-      "UNC – No Primary — 2,328 (42%)",
-      "UNC – Lapsed D — 439 (8%)",
-      "Pure D — 179 (3%)"
+      "Pure R — 1,045 (19%)",
+      "UNC – Lapsed R — 610 (11%)",
+      "Mixed – Active — 610 (11%)",
+      "Mixed – Lapsed — 258 (5%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 99 (2%)",
+      "UNC – No Primary — 2,274 (41%)",
+      "UNC – Lapsed D — 370 (7%)",
+      "Pure D — 273 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          916,
-          710,
-          497,
-          416,
-          2328,
-          439,
-          179
+          1045,
+          610,
+          610,
+          258,
+          14,
+          99,
+          2274,
+          370,
+          273
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BRYAN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

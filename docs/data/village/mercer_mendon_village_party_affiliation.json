@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 68 (17%)",
-      "UNC – Lapsed R — 53 (13%)",
-      "Mixed – Active — 25 (6%)",
-      "Mixed – Lapsed — 31 (8%)",
-      "UNC – No Primary — 185 (45%)",
-      "UNC – Lapsed D — 35 (9%)",
-      "Pure D — 11 (3%)"
+      "Pure R — 46 (11%)",
+      "UNC – Lapsed R — 77 (19%)",
+      "Mixed – Active — 23 (6%)",
+      "Mixed – Lapsed — 18 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 17 (4%)",
+      "UNC – No Primary — 189 (46%)",
+      "UNC – Lapsed D — 37 (9%)",
+      "Pure D — 7 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          53,
-          25,
-          31,
-          185,
-          35,
-          11
+          46,
+          77,
+          23,
+          18,
+          0,
+          17,
+          189,
+          37,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MENDON VILLAGE (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

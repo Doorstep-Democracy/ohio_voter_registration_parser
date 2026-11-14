@@ -4,7 +4,7 @@
   "precinct": "CINCINNATI 16-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -21,8 +21,8 @@
           1,
           6,
           1,
-          1,
-          1
+          0,
+          0
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -31,9 +31,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          9,
-          11,
+          1,
+          10,
+          12,
           16,
           1
         ],
@@ -59,11 +59,24 @@
         "data": [
           0,
           12,
-          9,
+          10,
           4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           0,
           5,
           8,
-          11,
+          10,
           0
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           6,
-          145,
-          243,
-          412,
-          203
+          152,
+          260,
+          462,
+          243
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,9 +110,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          53,
           56,
-          60,
+          61,
+          68,
           8
         ],
         "backgroundColor": "#93c5fd",
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           3,
-          35,
-          29,
-          15,
-          5
+          36,
+          30,
+          12,
+          6
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

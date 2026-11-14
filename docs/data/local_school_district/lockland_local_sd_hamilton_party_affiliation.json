@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 126 (5%)",
-      "UNC – Lapsed R — 177 (7%)",
+      "Pure R — 127 (5%)",
+      "UNC – Lapsed R — 178 (7%)",
       "Mixed – Active — 78 (3%)",
-      "Mixed – Lapsed — 175 (7%)",
-      "UNC – No Primary — 1,579 (59%)",
-      "UNC – Lapsed D — 381 (14%)",
-      "Pure D — 155 (6%)"
+      "Mixed – Lapsed — 57 (2%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 112 (4%)",
+      "UNC – No Primary — 1,625 (60%)",
+      "UNC – Lapsed D — 376 (14%)",
+      "Pure D — 153 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          126,
-          177,
+          127,
+          178,
           78,
-          175,
-          1579,
-          381,
-          155
+          57,
+          5,
+          112,
+          1625,
+          376,
+          153
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lockland Local Sd (Hamilton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

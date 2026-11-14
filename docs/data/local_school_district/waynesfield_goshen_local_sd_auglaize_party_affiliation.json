@@ -4,22 +4,26 @@
   "chartConfig": {
     "labels": [
       "Pure R — 394 (21%)",
-      "UNC – Lapsed R — 397 (21%)",
-      "Mixed – Active — 105 (6%)",
-      "Mixed – Lapsed — 117 (6%)",
-      "UNC – No Primary — 708 (38%)",
-      "UNC – Lapsed D — 88 (5%)",
+      "UNC – Lapsed R — 390 (21%)",
+      "Mixed – Active — 104 (6%)",
+      "Mixed – Lapsed — 61 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 57 (3%)",
+      "UNC – No Primary — 713 (39%)",
+      "UNC – Lapsed D — 86 (5%)",
       "Pure D — 43 (2%)"
     ],
     "datasets": [
       {
         "data": [
           394,
-          397,
-          105,
-          117,
-          708,
-          88,
+          390,
+          104,
+          61,
+          3,
+          57,
+          713,
+          86,
           43
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Waynesfield-Goshen Local Sd (Auglaize Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

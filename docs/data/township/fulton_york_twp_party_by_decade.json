@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          9,
-          60,
-          120,
-          119,
-          97,
-          92,
-          40,
-          40
+          2,
+          7,
+          51,
+          114,
+          94,
+          81,
+          77,
+          37,
+          39
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          2,
-          15,
-          42,
-          56,
-          57,
-          36,
-          46,
-          5
+          4,
+          22,
+          48,
+          87,
+          75,
+          60,
+          50,
+          12
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          9,
-          33,
-          86,
-          50,
-          39,
-          37,
-          3,
-          0
+          5,
+          31,
+          82,
+          47,
+          35,
+          28,
+          6,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          7,
+          16,
+          24,
+          36,
+          26,
+          16,
           3,
-          23,
-          34,
-          65,
-          52,
-          48,
-          31,
-          28
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          8,
+          11,
+          33,
+          27,
+          37,
+          27,
+          22
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
-          9,
-          17,
-          35,
-          89,
-          130,
-          168,
-          225,
-          258
+          0,
+          6,
+          13,
+          36,
+          87,
+          128,
+          158,
+          232,
+          284
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          7,
-          12,
+          8,
+          13,
+          41,
           40,
           42,
-          38,
-          33,
-          35,
-          2
+          36,
+          28,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          4,
-          16,
+          1,
+          17,
           46,
-          18,
-          19,
-          23,
-          7,
-          4
+          20,
+          21,
+          25,
+          14,
+          3
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "YORK TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

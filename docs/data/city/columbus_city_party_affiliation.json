@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 26,741 (5%)",
-      "UNC – Lapsed R — 33,392 (6%)",
-      "Mixed – Active — 20,466 (4%)",
-      "Mixed – Lapsed — 29,911 (5%)",
-      "UNC – No Primary — 319,541 (55%)",
-      "UNC – Lapsed D — 88,897 (15%)",
-      "Pure D — 60,483 (10%)"
+      "Pure R — 24,402 (4%)",
+      "UNC – Lapsed R — 34,926 (6%)",
+      "Mixed – Active — 22,372 (4%)",
+      "Mixed – Lapsed — 13,714 (2%)",
+      "Minor Party — 961 (0%)",
+      "UNC – Non-partisan Ballot — 14,374 (2%)",
+      "UNC – No Primary — 322,752 (54%)",
+      "UNC – Lapsed D — 82,510 (14%)",
+      "Pure D — 79,747 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          26741,
-          33392,
-          20466,
-          29911,
-          319541,
-          88897,
-          60483
+          24402,
+          34926,
+          22372,
+          13714,
+          961,
+          14374,
+          322752,
+          82510,
+          79747
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "COLUMBUS CITY ",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

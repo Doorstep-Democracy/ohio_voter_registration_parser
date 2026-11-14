@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 461 (29%)",
-      "UNC – Lapsed R — 170 (11%)",
-      "Mixed – Active — 201 (13%)",
-      "Mixed – Lapsed — 96 (6%)",
-      "UNC – No Primary — 447 (28%)",
-      "UNC – Lapsed D — 107 (7%)",
-      "Pure D — 96 (6%)"
+      "Pure R — 293 (19%)",
+      "UNC – Lapsed R — 334 (21%)",
+      "Mixed – Active — 147 (9%)",
+      "Mixed – Lapsed — 97 (6%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 45 (3%)",
+      "UNC – No Primary — 454 (29%)",
+      "UNC – Lapsed D — 123 (8%)",
+      "Pure D — 80 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          461,
-          170,
-          201,
-          96,
-          447,
-          107,
-          96
+          293,
+          334,
+          147,
+          97,
+          4,
+          45,
+          454,
+          123,
+          80
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HIGHLAND TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

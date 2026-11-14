@@ -4,7 +4,7 @@
   "precinct": "UA 5-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           22,
-          59,
+          57,
           19,
           16,
           2
@@ -31,8 +31,8 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          13,
-          51,
+          11,
+          53,
           29,
           32,
           1
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          23,
-          11,
+          2,
+          24,
+          12,
           6,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          1,
+          2,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           9,
           5,
           12,
-          4
+          3
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          4,
+          5,
           32,
           29,
           69,
-          65
+          68
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,9 +111,9 @@
         "data": [
           7,
           15,
-          21,
+          22,
           32,
-          8
+          7
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           20,
-          59,
+          60,
           19,
-          33,
-          15
+          35,
+          13
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

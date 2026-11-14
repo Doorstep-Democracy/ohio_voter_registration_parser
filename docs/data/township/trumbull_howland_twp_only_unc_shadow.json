@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 813",
-      "Mixed – Active — 1,732",
-      "Mixed – Lapsed — 788",
-      "UNC – No Primary — 4,049",
-      "UNC – Lapsed D — 2,020"
+      "UNC – Lapsed R — 944",
+      "Mixed – Active — 1,671",
+      "Mixed – Lapsed — 627",
+      "UNC – Non-partisan Ballot — 269",
+      "UNC – No Primary — 4,038",
+      "UNC – Lapsed D — 2,164"
     ],
     "datasets": [
       {
         "data": [
-          813,
-          1732,
-          788,
-          4049,
-          2020
+          944,
+          1671,
+          627,
+          269,
+          4038,
+          2164
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HOWLAND TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

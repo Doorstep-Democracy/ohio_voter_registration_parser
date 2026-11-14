@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,870 (2%)",
-      "UNC – Lapsed R — 4,979 (2%)",
-      "Mixed – Active — 6,931 (3%)",
-      "Mixed – Lapsed — 11,029 (5%)",
-      "UNC – No Primary — 135,939 (57%)",
-      "UNC – Lapsed D — 46,113 (19%)",
-      "Pure D — 29,118 (12%)"
+      "Pure R — 3,532 (1%)",
+      "UNC – Lapsed R — 5,326 (2%)",
+      "Mixed – Active — 6,717 (3%)",
+      "Mixed – Lapsed — 4,223 (2%)",
+      "Minor Party — 319 (0%)",
+      "UNC – Non-partisan Ballot — 5,928 (2%)",
+      "UNC – No Primary — 142,962 (58%)",
+      "UNC – Lapsed D — 45,627 (19%)",
+      "Pure D — 31,782 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          3870,
-          4979,
-          6931,
-          11029,
-          135939,
-          46113,
-          29118
+          3532,
+          5326,
+          6717,
+          4223,
+          319,
+          5928,
+          142962,
+          45627,
+          31782
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CLEVELAND MUNICIPAL CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 148 (20%)",
-      "UNC – Lapsed R — 110 (15%)",
-      "Mixed – Active — 49 (7%)",
-      "Mixed – Lapsed — 104 (14%)",
-      "UNC – No Primary — 226 (30%)",
-      "UNC – Lapsed D — 68 (9%)",
-      "Pure D — 36 (5%)"
+      "Pure R — 152 (20%)",
+      "UNC – Lapsed R — 119 (16%)",
+      "Mixed – Active — 55 (7%)",
+      "Mixed – Lapsed — 20 (3%)",
+      "Minor Party — 5 (1%)",
+      "UNC – Non-partisan Ballot — 71 (9%)",
+      "UNC – No Primary — 223 (30%)",
+      "UNC – Lapsed D — 63 (8%)",
+      "Pure D — 44 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          148,
-          110,
-          49,
-          104,
-          226,
-          68,
-          36
+          152,
+          119,
+          55,
+          20,
+          5,
+          71,
+          223,
+          63,
+          44
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PERU TOWNSHIP (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,018",
-      "Mixed – Active — 1,219",
-      "Mixed – Lapsed — 1,189",
-      "UNC – No Primary — 4,525",
-      "UNC – Lapsed D — 1,920"
+      "UNC – Lapsed R — 1,160",
+      "Mixed – Active — 1,143",
+      "Mixed – Lapsed — 713",
+      "UNC – Non-partisan Ballot — 512",
+      "UNC – No Primary — 4,572",
+      "UNC – Lapsed D — 1,804"
     ],
     "datasets": [
       {
         "data": [
-          1018,
-          1219,
-          1189,
-          4525,
-          1920
+          1160,
+          1143,
+          713,
+          512,
+          4572,
+          1804
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "EASTLAKE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

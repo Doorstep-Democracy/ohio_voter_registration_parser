@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 319 (19%)",
-      "UNC – Lapsed R — 192 (11%)",
-      "Mixed – Active — 156 (9%)",
-      "Mixed – Lapsed — 73 (4%)",
-      "UNC – Non-partisan Ballot — 88 (5%)",
-      "UNC – No Primary — 622 (37%)",
-      "UNC – Lapsed D — 112 (7%)",
-      "Pure D — 120 (7%)"
+      "Pure R — 316 (19%)",
+      "UNC – Lapsed R — 198 (12%)",
+      "Mixed – Active — 149 (9%)",
+      "Mixed – Lapsed — 72 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 87 (5%)",
+      "UNC – No Primary — 629 (37%)",
+      "UNC – Lapsed D — 115 (7%)",
+      "Pure D — 118 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          319,
-          192,
-          156,
-          73,
-          88,
-          622,
-          112,
-          120
+          316,
+          198,
+          149,
+          72,
+          3,
+          87,
+          629,
+          115,
+          118
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "BELLEVUE WARD 1 (BELLEVUE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 227 (23%)",
-      "UNC – Lapsed R — 127 (13%)",
-      "Mixed – Active — 85 (9%)",
-      "Mixed – Lapsed — 101 (10%)",
-      "UNC – No Primary — 304 (31%)",
-      "UNC – Lapsed D — 88 (9%)",
-      "Pure D — 43 (4%)"
+      "Pure R — 223 (23%)",
+      "UNC – Lapsed R — 136 (14%)",
+      "Mixed – Active — 89 (9%)",
+      "Mixed – Lapsed — 39 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 52 (5%)",
+      "UNC – No Primary — 303 (31%)",
+      "UNC – Lapsed D — 84 (9%)",
+      "Pure D — 48 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          227,
-          127,
-          85,
-          101,
-          304,
-          88,
-          43
+          223,
+          136,
+          89,
+          39,
+          0,
+          52,
+          303,
+          84,
+          48
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

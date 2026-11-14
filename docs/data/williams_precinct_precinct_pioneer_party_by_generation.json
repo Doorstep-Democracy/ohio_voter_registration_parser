@@ -4,7 +4,7 @@
   "precinct": "PRECINCT PIONEER",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          11,
+          12,
           40,
-          27,
-          30,
+          28,
+          31,
           9
         ],
         "backgroundColor": "#fca5a5",
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           9,
-          40,
+          41,
           25,
           8,
           0
@@ -60,10 +60,23 @@
           3,
           17,
           10,
-          3,
+          4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           11,
           18,
           25,
-          10
+          9
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          4,
+          3,
           48,
-          69,
-          121,
-          123
+          71,
+          123,
+          130
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,8 +111,8 @@
         "data": [
           3,
           16,
-          13,
-          6,
+          15,
+          7,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           7,
-          19,
+          18,
           8,
           5,
-          3
+          2
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

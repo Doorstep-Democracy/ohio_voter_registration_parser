@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 365 (23%)",
-      "UNC – Lapsed R — 245 (15%)",
-      "Mixed – Active — 174 (11%)",
-      "Mixed – Lapsed — 95 (6%)",
-      "UNC – No Primary — 623 (38%)",
-      "UNC – Lapsed D — 93 (6%)",
-      "Pure D — 24 (1%)"
+      "Pure R — 360 (22%)",
+      "UNC – Lapsed R — 259 (16%)",
+      "Mixed – Active — 173 (11%)",
+      "Mixed – Lapsed — 55 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 39 (2%)",
+      "UNC – No Primary — 614 (38%)",
+      "UNC – Lapsed D — 86 (5%)",
+      "Pure D — 34 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          365,
-          245,
-          174,
-          95,
-          623,
-          93,
-          24
+          360,
+          259,
+          173,
+          55,
+          0,
+          39,
+          614,
+          86,
+          34
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

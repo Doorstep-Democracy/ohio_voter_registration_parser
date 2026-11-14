@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 786 (24%)",
-      "UNC – Lapsed R — 803 (25%)",
-      "Mixed – Active — 248 (8%)",
-      "Mixed – Lapsed — 275 (9%)",
-      "UNC – No Primary — 945 (29%)",
+      "Pure R — 782 (24%)",
+      "UNC – Lapsed R — 805 (25%)",
+      "Mixed – Active — 244 (8%)",
+      "Mixed – Lapsed — 132 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 137 (4%)",
+      "UNC – No Primary — 950 (29%)",
       "UNC – Lapsed D — 106 (3%)",
-      "Pure D — 65 (2%)"
+      "Pure D — 64 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          786,
-          803,
-          248,
-          275,
-          945,
+          782,
+          805,
+          244,
+          132,
+          3,
+          137,
+          950,
           106,
-          65
+          64
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "St Henry Consolidated Local Sd (Mercer Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

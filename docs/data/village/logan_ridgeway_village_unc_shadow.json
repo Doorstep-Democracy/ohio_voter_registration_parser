@@ -3,18 +3,20 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 11",
-      "Mixed – Active — 12",
-      "Mixed – Lapsed — 7",
+      "UNC – Lapsed R — 10",
+      "Mixed – Active — 11",
+      "Mixed – Lapsed — 9",
+      "UNC – Non-partisan Ballot — 0",
       "UNC – No Primary — 26",
       "UNC – Lapsed D — 8"
     ],
     "datasets": [
       {
         "data": [
+          10,
           11,
-          12,
-          7,
+          9,
+          0,
           26,
           8
         ],
@@ -22,14 +24,15 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "RIDGEWAY VILLAGE (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

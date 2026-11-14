@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 260 (16%)",
-      "UNC – Lapsed R — 152 (9%)",
-      "Mixed – Active — 226 (14%)",
-      "Mixed – Lapsed — 107 (6%)",
-      "UNC – No Primary — 666 (40%)",
-      "UNC – Lapsed D — 170 (10%)",
-      "Pure D — 82 (5%)"
+      "Pure R — 367 (22%)",
+      "UNC – Lapsed R — 113 (7%)",
+      "Mixed – Active — 262 (16%)",
+      "Mixed – Lapsed — 51 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 35 (2%)",
+      "UNC – No Primary — 601 (36%)",
+      "UNC – Lapsed D — 114 (7%)",
+      "Pure D — 129 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          260,
-          152,
-          226,
-          107,
-          666,
-          170,
-          82
+          367,
+          113,
+          262,
+          51,
+          1,
+          35,
+          601,
+          114,
+          129
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

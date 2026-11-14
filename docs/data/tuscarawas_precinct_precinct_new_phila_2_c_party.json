@@ -4,13 +4,14 @@
   "precinct": "PRECINCT NEW PHILA 2-C",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          186,
-          91,
-          133,
+          185,
+          90,
+          135,
           37,
-          34,
-          253,
-          79,
-          93
+          5,
+          33,
+          268,
+          75,
+          91
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

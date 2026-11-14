@@ -4,13 +4,14 @@
   "precinct": "RIDGEVILLE TWP 22.0",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          218,
-          151,
-          61,
-          20,
-          23,
-          244,
+          216,
+          154,
+          59,
+          19,
+          0,
+          24,
+          247,
           42,
-          24
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          30,
-          106,
-          210,
-          177,
-          96,
+          26,
+          98,
+          207,
+          184,
+          108,
           73,
-          43,
-          22
+          42,
+          33
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
+          2,
           14,
-          49,
-          104,
+          56,
+          109,
           128,
-          114,
-          88,
-          60,
-          4
+          111,
+          90,
+          64,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          46,
-          135,
-          223,
-          171,
-          75,
-          43,
-          2,
+          36,
+          133,
+          220,
+          185,
+          80,
+          44,
+          4,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          15,
-          81,
-          132,
-          163,
-          136,
-          90,
-          44,
-          19
+          14,
+          49,
+          88,
+          97,
+          52,
+          32,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          7,
+          5,
+          9,
+          8,
+          3,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          5,
+          25,
+          36,
+          56,
+          77,
+          58,
+          33,
+          15
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          4,
-          28,
-          120,
-          399,
-          641,
-          788,
-          1029,
-          1279,
-          1089
+          3,
+          26,
+          118,
+          386,
+          615,
+          785,
+          1025,
+          1282,
+          1135
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          11,
-          55,
-          145,
-          309,
-          318,
-          286,
-          239,
-          164,
-          12
+          9,
+          47,
+          143,
+          265,
+          280,
+          280,
+          228,
+          152,
+          15
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          3,
-          36,
-          174,
-          303,
-          143,
-          71,
-          54,
-          43,
-          15
+          2,
+          39,
+          167,
+          345,
+          183,
+          79,
+          68,
+          70,
+          36
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ASHTABULA TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,651 (12%)",
-      "UNC – Lapsed R — 1,299 (9%)",
-      "Mixed – Active — 872 (6%)",
-      "Mixed – Lapsed — 1,012 (7%)",
-      "UNC – No Primary — 6,372 (46%)",
-      "UNC – Lapsed D — 1,661 (12%)",
-      "Pure D — 1,114 (8%)"
+      "Pure R — 1,615 (11%)",
+      "UNC – Lapsed R — 1,314 (9%)",
+      "Mixed – Active — 864 (6%)",
+      "Mixed – Lapsed — 481 (3%)",
+      "Minor Party — 30 (0%)",
+      "UNC – Non-partisan Ballot — 532 (4%)",
+      "UNC – No Primary — 6,565 (46%)",
+      "UNC – Lapsed D — 1,707 (12%)",
+      "Pure D — 1,091 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1651,
-          1299,
-          872,
-          1012,
-          6372,
-          1661,
-          1114
+          1615,
+          1314,
+          864,
+          481,
+          30,
+          532,
+          6565,
+          1707,
+          1091
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ETNA  TWP (Licking Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

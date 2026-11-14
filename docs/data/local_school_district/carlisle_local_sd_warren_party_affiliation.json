@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,123 (15%)",
-      "UNC – Lapsed R — 1,320 (18%)",
-      "Mixed – Active — 435 (6%)",
-      "Mixed – Lapsed — 871 (12%)",
-      "UNC – No Primary — 2,728 (37%)",
-      "UNC – Lapsed D — 583 (8%)",
+      "Pure R — 1,110 (15%)",
+      "UNC – Lapsed R — 1,325 (18%)",
+      "Mixed – Active — 432 (6%)",
+      "Mixed – Lapsed — 357 (5%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 494 (7%)",
+      "UNC – No Primary — 2,779 (38%)",
+      "UNC – Lapsed D — 579 (8%)",
       "Pure D — 244 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1123,
-          1320,
-          435,
-          871,
-          2728,
-          583,
+          1110,
+          1325,
+          432,
+          357,
+          15,
+          494,
+          2779,
+          579,
           244
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Carlisle Local Sd (Warren Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 37 (7%)",
-      "UNC – Lapsed R — 33 (6%)",
-      "Mixed – Active — 17 (3%)",
-      "Mixed – Lapsed — 32 (6%)",
-      "UNC – No Primary — 308 (60%)",
-      "UNC – Lapsed D — 74 (14%)",
-      "Pure D — 15 (3%)"
+      "Pure R — 29 (6%)",
+      "UNC – Lapsed R — 34 (7%)",
+      "Mixed – Active — 18 (3%)",
+      "Mixed – Lapsed — 12 (2%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 18 (3%)",
+      "UNC – No Primary — 315 (60%)",
+      "UNC – Lapsed D — 71 (14%)",
+      "Pure D — 22 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          37,
-          33,
-          17,
-          32,
-          308,
-          74,
-          15
+          29,
+          34,
+          18,
+          12,
+          2,
+          18,
+          315,
+          71,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ARLINGTON HEIGHTS VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

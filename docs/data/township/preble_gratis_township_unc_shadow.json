@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 484",
-      "Mixed – Active — 267",
-      "Mixed – Lapsed — 349",
-      "UNC – No Primary — 924",
-      "UNC – Lapsed D — 235"
+      "UNC – Lapsed R — 528",
+      "Mixed – Active — 273",
+      "Mixed – Lapsed — 163",
+      "UNC – Non-partisan Ballot — 162",
+      "UNC – No Primary — 930",
+      "UNC – Lapsed D — 221"
     ],
     "datasets": [
       {
         "data": [
-          484,
-          267,
-          349,
-          924,
-          235
+          528,
+          273,
+          163,
+          162,
+          930,
+          221
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GRATIS TOWNSHIP (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

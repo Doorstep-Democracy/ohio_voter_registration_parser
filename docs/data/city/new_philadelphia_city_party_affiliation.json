@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,101 (11%)",
-      "UNC – Lapsed R — 1,021 (10%)",
-      "Mixed – Active — 862 (8%)",
-      "Mixed – Lapsed — 1,171 (11%)",
-      "UNC – No Primary — 3,710 (36%)",
-      "UNC – Lapsed D — 1,721 (17%)",
-      "Pure D — 672 (7%)"
+      "Pure R — 1,470 (14%)",
+      "UNC – Lapsed R — 817 (8%)",
+      "Mixed – Active — 1,185 (12%)",
+      "Mixed – Lapsed — 386 (4%)",
+      "Minor Party — 28 (0%)",
+      "UNC – Non-partisan Ballot — 460 (4%)",
+      "UNC – No Primary — 3,537 (34%)",
+      "UNC – Lapsed D — 1,158 (11%)",
+      "Pure D — 1,216 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          1101,
-          1021,
-          862,
-          1171,
-          3710,
-          1721,
-          672
+          1470,
+          817,
+          1185,
+          386,
+          28,
+          460,
+          3537,
+          1158,
+          1216
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NEW PHILADELPHIA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

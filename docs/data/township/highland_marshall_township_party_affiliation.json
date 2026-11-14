@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 179 (27%)",
-      "UNC – Lapsed R — 83 (13%)",
-      "Mixed – Active — 72 (11%)",
-      "Mixed – Lapsed — 29 (4%)",
-      "UNC – No Primary — 233 (35%)",
-      "UNC – Lapsed D — 40 (6%)",
-      "Pure D — 21 (3%)"
+      "Pure R — 169 (25%)",
+      "UNC – Lapsed R — 98 (15%)",
+      "Mixed – Active — 74 (11%)",
+      "Mixed – Lapsed — 21 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 239 (36%)",
+      "UNC – Lapsed D — 32 (5%)",
+      "Pure D — 27 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          179,
-          83,
-          72,
-          29,
-          233,
-          40,
-          21
+          169,
+          98,
+          74,
+          21,
+          1,
+          7,
+          239,
+          32,
+          27
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARSHALL TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

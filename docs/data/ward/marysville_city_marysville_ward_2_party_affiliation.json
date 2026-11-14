@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 632 (13%)",
-      "UNC – Lapsed R — 595 (12%)",
-      "Mixed – Active — 237 (5%)",
-      "Mixed – Lapsed — 150 (3%)",
-      "UNC – Non-partisan Ballot — 486 (10%)",
-      "UNC – No Primary — 2,117 (44%)",
-      "UNC – Lapsed D — 381 (8%)",
-      "Pure D — 178 (4%)"
+      "Pure R — 625 (13%)",
+      "UNC – Lapsed R — 604 (12%)",
+      "Mixed – Active — 228 (5%)",
+      "Mixed – Lapsed — 160 (3%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 484 (10%)",
+      "UNC – No Primary — 2,233 (45%)",
+      "UNC – Lapsed D — 397 (8%)",
+      "Pure D — 176 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          632,
-          595,
-          237,
-          150,
-          486,
-          2117,
-          381,
-          178
+          625,
+          604,
+          228,
+          160,
+          7,
+          484,
+          2233,
+          397,
+          176
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "MARYSVILLE WARD 2 (MARYSVILLE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

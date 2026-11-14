@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 328 (27%)",
-      "UNC – Lapsed R — 136 (11%)",
-      "Mixed – Active — 102 (8%)",
-      "Mixed – Lapsed — 45 (4%)",
-      "UNC – No Primary — 506 (41%)",
-      "UNC – Lapsed D — 74 (6%)",
-      "Pure D — 40 (3%)"
+      "Pure R — 238 (19%)",
+      "UNC – Lapsed R — 219 (18%)",
+      "Mixed – Active — 77 (6%)",
+      "Mixed – Lapsed — 58 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 11 (1%)",
+      "UNC – No Primary — 507 (41%)",
+      "UNC – Lapsed D — 80 (7%)",
+      "Pure D — 34 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          328,
-          136,
-          102,
-          45,
-          506,
-          74,
-          40
+          238,
+          219,
+          77,
+          58,
+          1,
+          11,
+          507,
+          80,
+          34
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BROWN TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

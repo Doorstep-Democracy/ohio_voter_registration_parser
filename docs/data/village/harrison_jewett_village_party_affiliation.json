@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 58 (17%)",
-      "UNC – Lapsed R — 31 (9%)",
+      "UNC – Lapsed R — 28 (8%)",
       "Mixed – Active — 56 (16%)",
       "Mixed – Lapsed — 15 (4%)",
-      "UNC – No Primary — 145 (42%)",
-      "UNC – Lapsed D — 23 (7%)",
-      "Pure D — 21 (6%)"
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 3 (1%)",
+      "UNC – No Primary — 148 (42%)",
+      "UNC – Lapsed D — 26 (7%)",
+      "Pure D — 17 (5%)"
     ],
     "datasets": [
       {
         "data": [
           58,
-          31,
+          28,
           56,
           15,
-          145,
-          23,
-          21
+          0,
+          3,
+          148,
+          26,
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "JEWETT VILLAGE (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

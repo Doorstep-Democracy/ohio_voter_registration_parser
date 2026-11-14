@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 481 (33%)",
-      "UNC – Lapsed R — 226 (16%)",
-      "Mixed – Active — 72 (5%)",
-      "Mixed – Lapsed — 87 (6%)",
-      "UNC – No Primary — 526 (36%)",
-      "UNC – Lapsed D — 34 (2%)",
-      "Pure D — 22 (2%)"
+      "Pure R — 327 (22%)",
+      "UNC – Lapsed R — 376 (26%)",
+      "Mixed – Active — 59 (4%)",
+      "Mixed – Lapsed — 51 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 50 (3%)",
+      "UNC – No Primary — 538 (37%)",
+      "UNC – Lapsed D — 35 (2%)",
+      "Pure D — 21 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          481,
-          226,
-          72,
-          87,
-          526,
-          34,
-          22
+          327,
+          376,
+          59,
+          51,
+          0,
+          50,
+          538,
+          35,
+          21
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GIBSON TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

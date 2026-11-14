@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 302 (34%)",
-      "UNC – Lapsed R — 135 (15%)",
-      "Mixed – Active — 73 (8%)",
-      "Mixed – Lapsed — 59 (7%)",
-      "UNC – No Primary — 249 (28%)",
+      "Pure R — 301 (34%)",
+      "UNC – Lapsed R — 139 (16%)",
+      "Mixed – Active — 90 (10%)",
+      "Mixed – Lapsed — 28 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 24 (3%)",
+      "UNC – No Primary — 228 (26%)",
       "UNC – Lapsed D — 40 (5%)",
-      "Pure D — 24 (3%)"
+      "Pure D — 26 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          302,
-          135,
-          73,
-          59,
-          249,
+          301,
+          139,
+          90,
+          28,
+          1,
+          24,
+          228,
           40,
-          24
+          26
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CAESARSCREEK (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

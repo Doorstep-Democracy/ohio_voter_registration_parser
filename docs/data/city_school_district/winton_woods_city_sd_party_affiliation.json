@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,359 (7%)",
-      "UNC – Lapsed R — 1,015 (5%)",
-      "Mixed – Active — 839 (4%)",
-      "Mixed – Lapsed — 1,038 (6%)",
-      "UNC – No Primary — 8,625 (46%)",
-      "UNC – Lapsed D — 3,714 (20%)",
-      "Pure D — 2,101 (11%)"
+      "Pure R — 1,049 (6%)",
+      "UNC – Lapsed R — 1,291 (7%)",
+      "Mixed – Active — 796 (4%)",
+      "Mixed – Lapsed — 552 (3%)",
+      "Minor Party — 30 (0%)",
+      "UNC – Non-partisan Ballot — 500 (3%)",
+      "UNC – No Primary — 8,662 (46%)",
+      "UNC – Lapsed D — 3,243 (17%)",
+      "Pure D — 2,837 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          1359,
-          1015,
-          839,
-          1038,
-          8625,
-          3714,
-          2101
+          1049,
+          1291,
+          796,
+          552,
+          30,
+          500,
+          8662,
+          3243,
+          2837
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WINTON WOODS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

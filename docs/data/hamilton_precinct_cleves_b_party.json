@@ -4,13 +4,14 @@
   "precinct": "CLEVES B",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          202,
-          324,
+          198,
+          321,
           68,
-          54,
-          90,
-          565,
-          78,
-          51
+          53,
+          5,
+          89,
+          573,
+          77,
+          50
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

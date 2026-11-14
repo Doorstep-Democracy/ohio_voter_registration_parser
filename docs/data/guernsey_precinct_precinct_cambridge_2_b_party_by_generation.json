@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CAMBRIDGE 2-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          11,
+          12,
           25,
           12,
           7,
@@ -33,8 +33,8 @@
         "data": [
           8,
           25,
-          25,
-          10,
+          26,
+          11,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          6,
+          7,
           14,
           7,
           0,
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           5,
-          12,
+          14,
           6,
           3,
           0
@@ -68,13 +68,26 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           4,
           1,
-          1,
-          4
+          2,
+          3
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          9,
-          74,
+          8,
+          77,
           67,
-          135,
-          79
+          136,
+          85
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,9 +111,9 @@
         "data": [
           7,
           33,
-          20,
+          19,
           21,
-          1
+          0
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,7 +122,7 @@
       {
         "label": "Pure D",
         "data": [
-          4,
+          5,
           12,
           6,
           3,

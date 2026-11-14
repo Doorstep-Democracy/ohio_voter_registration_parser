@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          18,
-          137,
-          213,
-          197,
+          16,
+          132,
+          208,
+          196,
           109,
-          70,
-          49,
-          33
+          69,
+          46,
+          30
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
-          23,
-          45,
+          1,
+          22,
+          43,
           91,
-          158,
-          162,
-          129,
-          86,
-          16
+          157,
+          160,
+          128,
+          88,
+          14
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,11 +51,11 @@
         "data": [
           1,
           18,
-          120,
+          119,
           213,
           136,
           51,
-          45,
+          44,
           13,
           4
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          12,
-          58,
-          130,
-          157,
-          154,
-          77,
-          44,
-          13
+          11,
+          41,
+          82,
+          73,
+          73,
+          32,
+          8,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          6,
+          8,
+          7,
+          4,
+          1,
+          5
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          13,
+          44,
+          81,
+          76,
+          44,
+          37,
+          12
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          12,
-          55,
-          136,
-          208,
-          289,
-          407,
-          524,
-          533
+          11,
+          53,
+          134,
+          210,
+          290,
+          410,
+          532,
+          553
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          31,
-          72,
-          167,
+          2,
+          29,
+          71,
           166,
-          140,
-          105,
-          68,
-          12
+          166,
+          147,
+          106,
+          69,
+          13
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           1,
           16,
-          89,
-          174,
+          87,
+          172,
           78,
-          46,
+          47,
           29,
-          23,
-          23
+          24,
+          20
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Swanton Local Sd (Fulton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

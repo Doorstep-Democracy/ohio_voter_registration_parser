@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 107 (19%)",
-      "UNC – Lapsed R — 80 (14%)",
+      "UNC – Lapsed R — 79 (14%)",
       "Mixed – Active — 58 (10%)",
-      "Mixed – Lapsed — 56 (10%)",
-      "UNC – No Primary — 209 (37%)",
-      "UNC – Lapsed D — 45 (8%)",
-      "Pure D — 17 (3%)"
+      "Mixed – Lapsed — 27 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 27 (5%)",
+      "UNC – No Primary — 213 (37%)",
+      "UNC – Lapsed D — 47 (8%)",
+      "Pure D — 16 (3%)"
     ],
     "datasets": [
       {
         "data": [
           107,
-          80,
+          79,
           58,
-          56,
-          209,
-          45,
-          17
+          27,
+          0,
+          27,
+          213,
+          47,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TULLY TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

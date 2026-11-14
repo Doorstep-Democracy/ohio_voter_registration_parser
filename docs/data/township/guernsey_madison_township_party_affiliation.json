@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 159 (27%)",
-      "UNC – Lapsed R — 63 (11%)",
-      "Mixed – Active — 47 (8%)",
-      "Mixed – Lapsed — 32 (5%)",
-      "UNC – No Primary — 246 (42%)",
-      "UNC – Lapsed D — 33 (6%)",
-      "Pure D — 12 (2%)"
+      "Pure R — 147 (25%)",
+      "UNC – Lapsed R — 81 (14%)",
+      "Mixed – Active — 49 (8%)",
+      "Mixed – Lapsed — 21 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 14 (2%)",
+      "UNC – No Primary — 237 (40%)",
+      "UNC – Lapsed D — 29 (5%)",
+      "Pure D — 11 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          159,
-          63,
-          47,
-          32,
-          246,
-          33,
-          12
+          147,
+          81,
+          49,
+          21,
+          2,
+          14,
+          237,
+          29,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

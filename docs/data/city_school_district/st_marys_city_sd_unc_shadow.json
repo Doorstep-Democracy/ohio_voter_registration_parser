@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,516",
-      "Mixed – Active — 681",
-      "Mixed – Lapsed — 880",
-      "UNC – No Primary — 3,424",
-      "UNC – Lapsed D — 567"
+      "UNC – Lapsed R — 1,536",
+      "Mixed – Active — 720",
+      "Mixed – Lapsed — 401",
+      "UNC – Non-partisan Ballot — 406",
+      "UNC – No Primary — 3,338",
+      "UNC – Lapsed D — 530"
     ],
     "datasets": [
       {
         "data": [
-          1516,
-          681,
-          880,
-          3424,
-          567
+          1536,
+          720,
+          401,
+          406,
+          3338,
+          530
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "ST MARYS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "CANTON TWP 7",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -35,7 +35,7 @@
           26,
           23,
           13,
-          4
+          5
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          3,
-          21,
+          4,
+          23,
           45,
-          103,
-          79
+          102,
+          85
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -113,7 +126,7 @@
           35,
           9,
           10,
-          3
+          2
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

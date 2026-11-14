@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 34 (10%)",
-      "UNC – Lapsed R — 23 (7%)",
-      "Mixed – Active — 34 (10%)",
-      "Mixed – Lapsed — 31 (9%)",
-      "UNC – No Primary — 159 (46%)",
-      "UNC – Lapsed D — 49 (14%)",
-      "Pure D — 18 (5%)"
+      "Pure R — 39 (11%)",
+      "UNC – Lapsed R — 24 (7%)",
+      "Mixed – Active — 45 (13%)",
+      "Mixed – Lapsed — 15 (4%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 13 (4%)",
+      "UNC – No Primary — 144 (42%)",
+      "UNC – Lapsed D — 36 (10%)",
+      "Pure D — 25 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          34,
-          23,
-          34,
-          31,
-          159,
-          49,
-          18
+          39,
+          24,
+          45,
+          15,
+          2,
+          13,
+          144,
+          36,
+          25
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MINERAL CITY VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

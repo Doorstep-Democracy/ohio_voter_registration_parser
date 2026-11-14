@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 89 (16%)",
-      "UNC – Lapsed R — 42 (8%)",
-      "Mixed – Active — 55 (10%)",
-      "Mixed – Lapsed — 37 (7%)",
-      "UNC – No Primary — 229 (42%)",
-      "UNC – Lapsed D — 58 (11%)",
-      "Pure D — 34 (6%)"
+      "Pure R — 110 (20%)",
+      "UNC – Lapsed R — 43 (8%)",
+      "Mixed – Active — 67 (12%)",
+      "Mixed – Lapsed — 11 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 21 (4%)",
+      "UNC – No Primary — 204 (37%)",
+      "UNC – Lapsed D — 50 (9%)",
+      "Pure D — 41 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          89,
-          42,
-          55,
-          37,
-          229,
-          58,
-          34
+          110,
+          43,
+          67,
+          11,
+          0,
+          21,
+          204,
+          50,
+          41
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FLUSHING VILLAGE (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

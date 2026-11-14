@@ -4,7 +4,7 @@
   "precinct": "PRECINCT MOUNT VERNON 1-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -22,7 +22,7 @@
           84,
           46,
           28,
-          20
+          17
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          12,
-          24,
-          27,
-          27,
-          13
+          11,
+          23,
+          28,
+          28,
+          12
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          9,
-          3,
+          8,
+          4,
           6,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           5,
-          50,
-          69,
-          116,
-          136
+          49,
+          71,
+          112,
+          142
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -112,8 +125,8 @@
           4,
           19,
           7,
-          8,
-          11
+          7,
+          8
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

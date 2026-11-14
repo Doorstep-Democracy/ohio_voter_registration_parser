@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 206 (6%)",
-      "UNC – Lapsed R — 212 (6%)",
-      "Mixed – Active — 321 (9%)",
-      "Mixed – Lapsed — 257 (7%)",
-      "UNC – No Primary — 1,708 (47%)",
-      "UNC – Lapsed D — 590 (16%)",
-      "Pure D — 356 (10%)"
+      "Pure R — 198 (5%)",
+      "UNC – Lapsed R — 228 (6%)",
+      "Mixed – Active — 339 (9%)",
+      "Mixed – Lapsed — 162 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 76 (2%)",
+      "UNC – No Primary — 1,737 (47%)",
+      "UNC – Lapsed D — 567 (15%)",
+      "Pure D — 380 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          206,
-          212,
-          321,
-          257,
-          1708,
-          590,
-          356
+          198,
+          228,
+          339,
+          162,
+          4,
+          76,
+          1737,
+          567,
+          380
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "YORK TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

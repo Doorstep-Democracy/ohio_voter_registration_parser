@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,365 (10%)",
-      "UNC – Lapsed R — 1,451 (11%)",
-      "Mixed – Active — 729 (5%)",
-      "Mixed – Lapsed — 995 (7%)",
-      "UNC – No Primary — 6,010 (45%)",
-      "UNC – Lapsed D — 1,768 (13%)",
-      "Pure D — 1,104 (8%)"
+      "Pure R — 1,296 (9%)",
+      "UNC – Lapsed R — 1,510 (11%)",
+      "Mixed – Active — 785 (6%)",
+      "Mixed – Lapsed — 446 (3%)",
+      "Minor Party — 34 (0%)",
+      "UNC – Non-partisan Ballot — 512 (4%)",
+      "UNC – No Primary — 5,901 (43%)",
+      "UNC – Lapsed D — 1,606 (12%)",
+      "Pure D — 1,557 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1365,
-          1451,
-          729,
-          995,
-          6010,
-          1768,
-          1104
+          1296,
+          1510,
+          785,
+          446,
+          34,
+          512,
+          5901,
+          1606,
+          1557
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Jefferson Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

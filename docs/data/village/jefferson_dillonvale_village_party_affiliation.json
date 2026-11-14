@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 18 (5%)",
-      "UNC – Lapsed R — 17 (5%)",
-      "Mixed – Active — 32 (9%)",
-      "Mixed – Lapsed — 24 (7%)",
-      "UNC – No Primary — 175 (50%)",
-      "UNC – Lapsed D — 53 (15%)",
-      "Pure D — 31 (9%)"
+      "UNC – Lapsed R — 18 (5%)",
+      "Mixed – Active — 36 (10%)",
+      "Mixed – Lapsed — 17 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (2%)",
+      "UNC – No Primary — 177 (50%)",
+      "UNC – Lapsed D — 49 (14%)",
+      "Pure D — 32 (9%)"
     ],
     "datasets": [
       {
         "data": [
           18,
+          18,
+          36,
           17,
-          32,
-          24,
-          175,
-          53,
-          31
+          0,
+          6,
+          177,
+          49,
+          32
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DILLONVALE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 504 (24%)",
-      "UNC – Lapsed R — 399 (19%)",
-      "Mixed – Active — 192 (9%)",
-      "Mixed – Lapsed — 160 (8%)",
-      "UNC – No Primary — 666 (31%)",
-      "UNC – Lapsed D — 145 (7%)",
-      "Pure D — 51 (2%)"
+      "Pure R — 579 (27%)",
+      "UNC – Lapsed R — 365 (17%)",
+      "Mixed – Active — 240 (11%)",
+      "Mixed – Lapsed — 122 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 6 (0%)",
+      "UNC – No Primary — 628 (30%)",
+      "UNC – Lapsed D — 131 (6%)",
+      "Pure D — 52 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          504,
-          399,
-          192,
-          160,
-          666,
-          145,
-          51
+          579,
+          365,
+          240,
+          122,
+          1,
+          6,
+          628,
+          131,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SUTTON TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

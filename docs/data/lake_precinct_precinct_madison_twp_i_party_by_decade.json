@@ -4,10 +4,9 @@
   "precinct": "PRECINCT MADISON TWP I",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -21,11 +20,10 @@
       {
         "label": "Pure R",
         "data": [
-          0,
           3,
           19,
-          35,
-          40,
+          34,
+          39,
           10,
           11,
           14,
@@ -38,12 +36,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
           2,
           7,
           15,
           21,
-          20,
+          19,
           14,
           12,
           2
@@ -55,9 +52,8 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           6,
-          15,
+          14,
           29,
           20,
           15,
@@ -72,10 +68,9 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           2,
           1,
-          11,
+          10,
           15,
           11,
           1,
@@ -87,14 +82,29 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
           0,
           4,
           7,
           11,
-          21,
+          22,
           9,
           6,
           3
@@ -107,14 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          1,
           7,
-          21,
+          20,
           36,
-          40,
-          60,
-          76,
-          74
+          39,
+          61,
+          77,
+          79
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -123,15 +132,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           1,
-          7,
-          16,
+          5,
+          17,
           14,
           23,
-          19,
+          20,
           4,
-          1
+          0
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -141,14 +149,13 @@
         "label": "Pure D",
         "data": [
           0,
-          0,
           8,
-          17,
+          18,
           9,
           8,
           5,
           5,
-          3
+          4
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

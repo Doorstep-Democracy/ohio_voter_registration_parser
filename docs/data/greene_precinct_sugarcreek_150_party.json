@@ -4,13 +4,14 @@
   "precinct": "SUGARCREEK 150",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          112,
-          186,
+          110,
+          191,
           64,
-          64,
-          65,
-          624,
-          116,
-          71
+          69,
+          0,
+          69,
+          650,
+          125,
+          65
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

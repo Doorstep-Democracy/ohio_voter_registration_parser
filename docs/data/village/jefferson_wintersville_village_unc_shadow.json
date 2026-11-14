@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 236",
-      "Mixed – Active — 311",
-      "Mixed – Lapsed — 201",
-      "UNC – No Primary — 980",
-      "UNC – Lapsed D — 494"
+      "UNC – Lapsed R — 229",
+      "Mixed – Active — 353",
+      "Mixed – Lapsed — 147",
+      "UNC – Non-partisan Ballot — 34",
+      "UNC – No Primary — 978",
+      "UNC – Lapsed D — 440"
     ],
     "datasets": [
       {
         "data": [
-          236,
-          311,
-          201,
-          980,
-          494
+          229,
+          353,
+          147,
+          34,
+          978,
+          440
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "WINTERSVILLE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

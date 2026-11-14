@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 455",
-      "Mixed – Active — 219",
-      "Mixed – Lapsed — 244",
-      "UNC – No Primary — 1,009",
-      "UNC – Lapsed D — 183"
+      "UNC – Lapsed R — 495",
+      "Mixed – Active — 228",
+      "Mixed – Lapsed — 123",
+      "UNC – Non-partisan Ballot — 111",
+      "UNC – No Primary — 1,011",
+      "UNC – Lapsed D — 167"
     ],
     "datasets": [
       {
         "data": [
-          455,
-          219,
-          244,
-          1009,
-          183
+          495,
+          228,
+          123,
+          111,
+          1011,
+          167
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GASPER TOWNSHIP (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

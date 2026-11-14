@@ -4,7 +4,7 @@
   "precinct": "CLEARCREEK TWP N",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,9 +18,9 @@
       {
         "label": "Pure R",
         "data": [
-          7,
+          6,
           22,
-          43,
+          41,
           22,
           11
         ],
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          20,
+          19,
           78,
-          88,
+          87,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -46,7 +46,7 @@
         "data": [
           2,
           9,
-          17,
+          15,
           10,
           0
         ],
@@ -60,10 +60,23 @@
           2,
           5,
           22,
-          12,
+          11,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           0,
           5,
           30,
-          29,
+          27,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          34,
-          131,
-          225,
-          136
+          31,
+          134,
+          232,
+          159
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          16,
+          15,
           42,
-          33,
-          4
+          34,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,8 +124,8 @@
         "data": [
           0,
           9,
-          15,
-          21,
+          14,
+          20,
           10
         ],
         "backgroundColor": "#3b82f6",

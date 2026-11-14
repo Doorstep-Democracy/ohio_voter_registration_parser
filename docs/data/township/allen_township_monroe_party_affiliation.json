@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 402 (28%)",
-      "UNC – Lapsed R — 234 (16%)",
-      "Mixed – Active — 79 (5%)",
-      "Mixed – Lapsed — 100 (7%)",
-      "UNC – No Primary — 525 (37%)",
-      "UNC – Lapsed D — 72 (5%)",
-      "Pure D — 25 (2%)"
+      "Pure R — 395 (28%)",
+      "UNC – Lapsed R — 262 (18%)",
+      "Mixed – Active — 73 (5%)",
+      "Mixed – Lapsed — 49 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 51 (4%)",
+      "UNC – No Primary — 502 (35%)",
+      "UNC – Lapsed D — 69 (5%)",
+      "Pure D — 31 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          402,
-          234,
-          79,
-          100,
-          525,
-          72,
-          25
+          395,
+          262,
+          73,
+          49,
+          2,
+          51,
+          502,
+          69,
+          31
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Township Monroe (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT PLEASANT TWP A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,10 +19,10 @@
         "label": "Pure R",
         "data": [
           17,
-          108,
+          106,
           60,
           26,
-          5
+          6
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          12,
+          11,
           41,
-          42,
-          40,
-          5
+          43,
+          41,
+          4
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          19,
-          7,
+          20,
+          8,
           3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           1,
           8,
           11,
-          18,
+          16,
           4
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,9 +97,9 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          20,
-          43,
-          81,
+          21,
+          44,
+          80,
           76
         ],
         "backgroundColor": "#9ca3af",
@@ -96,9 +109,9 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          7,
-          30,
-          18,
+          6,
+          31,
+          19,
           10,
           1
         ],

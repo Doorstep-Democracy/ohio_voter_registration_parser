@@ -13,11 +13,11 @@
       {
         "label": "Pure R",
         "data": [
-          60,
-          284,
-          171,
-          127,
-          41
+          59,
+          281,
+          170,
+          126,
+          39
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -25,11 +25,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          47,
-          168,
-          153,
-          116,
-          27
+          49,
+          167,
+          152,
+          117,
+          30
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -37,9 +37,9 @@
       {
         "label": "Mixed – Active",
         "data": [
-          48,
-          161,
-          76,
+          46,
+          157,
+          74,
           31,
           1
         ],
@@ -49,23 +49,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          26,
-          128,
-          110,
-          76,
-          20
+          15,
+          54,
+          44,
+          20,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          5,
+          2,
+          5,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          11,
+          76,
+          66,
+          56,
+          19
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          27,
-          213,
-          393,
-          639,
-          548
+          30,
+          212,
+          390,
+          638,
+          566
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -73,11 +97,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          41,
-          134,
-          106,
-          81,
-          12
+          40,
+          131,
+          108,
+          82,
+          11
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -85,19 +109,19 @@
       {
         "label": "Pure D",
         "data": [
-          20,
+          21,
           139,
-          58,
+          57,
           51,
-          35
+          32
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "RITTMAN EX VILL SD (WAYNE)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Rittman Ex Vill Sd (Wayne Co.)",
+  "updated": "2026-11-12"
 }

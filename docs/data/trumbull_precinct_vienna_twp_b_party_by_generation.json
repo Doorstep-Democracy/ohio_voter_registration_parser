@@ -4,7 +4,7 @@
   "precinct": "VIENNA TWP B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,7 +31,7 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
+          9,
           10,
           16,
           25,
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          24,
+          23,
           107,
           49,
           19,
@@ -68,10 +68,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
-          9,
+          8,
           15,
           10,
           6
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           5,
-          26,
-          54,
+          28,
+          57,
           75,
-          94
+          99
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,7 +109,7 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          14,
+          13,
           40,
           46,
           38,
@@ -110,7 +123,7 @@
         "label": "Pure D",
         "data": [
           13,
-          76,
+          73,
           33,
           9,
           5

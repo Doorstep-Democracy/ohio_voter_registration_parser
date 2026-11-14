@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 295 (4%)",
-      "UNC – Lapsed R — 312 (4%)",
-      "Mixed – Active — 198 (3%)",
-      "Mixed – Lapsed — 334 (4%)",
-      "UNC – No Primary — 4,135 (55%)",
-      "UNC – Lapsed D — 1,631 (22%)",
-      "Pure D — 563 (8%)"
+      "Pure R — 312 (4%)",
+      "UNC – Lapsed R — 294 (4%)",
+      "Mixed – Active — 225 (3%)",
+      "Mixed – Lapsed — 172 (2%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 136 (2%)",
+      "UNC – No Primary — 4,247 (55%)",
+      "UNC – Lapsed D — 1,359 (18%)",
+      "Pure D — 958 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          295,
           312,
-          198,
-          334,
-          4135,
-          1631,
-          563
+          294,
+          225,
+          172,
+          11,
+          136,
+          4247,
+          1359,
+          958
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NORTH COLLEGE HILL CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

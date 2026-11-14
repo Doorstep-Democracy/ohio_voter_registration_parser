@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 141",
-      "Mixed – Active — 301",
-      "Mixed – Lapsed — 182",
-      "UNC – No Primary — 1,037",
-      "UNC – Lapsed D — 500"
+      "UNC – Lapsed R — 156",
+      "Mixed – Active — 305",
+      "Mixed – Lapsed — 134",
+      "UNC – Non-partisan Ballot — 49",
+      "UNC – No Primary — 1,026",
+      "UNC – Lapsed D — 471"
     ],
     "datasets": [
       {
         "data": [
-          141,
-          301,
-          182,
-          1037,
-          500
+          156,
+          305,
+          134,
+          49,
+          1026,
+          471
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WARREN TWP (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

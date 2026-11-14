@@ -4,13 +4,14 @@
   "precinct": "HARRISON TWP O",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -20,19 +21,21 @@
       {
         "data": [
           43,
-          30,
+          28,
           48,
-          24,
-          15,
-          516,
-          262,
-          202
+          27,
+          1,
+          14,
+          542,
+          261,
+          203
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

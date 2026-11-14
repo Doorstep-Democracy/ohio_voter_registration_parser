@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,335 (21%)",
-      "UNC – Lapsed R — 1,290 (12%)",
-      "Mixed – Active — 955 (9%)",
-      "Mixed – Lapsed — 542 (5%)",
-      "UNC – No Primary — 4,919 (44%)",
-      "UNC – Lapsed D — 753 (7%)",
-      "Pure D — 359 (3%)"
+      "Pure R — 2,309 (21%)",
+      "UNC – Lapsed R — 1,304 (12%)",
+      "Mixed – Active — 947 (8%)",
+      "Mixed – Lapsed — 368 (3%)",
+      "Minor Party — 18 (0%)",
+      "UNC – Non-partisan Ballot — 176 (2%)",
+      "UNC – No Primary — 4,990 (45%)",
+      "UNC – Lapsed D — 745 (7%)",
+      "Pure D — 355 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2335,
-          1290,
-          955,
-          542,
-          4919,
-          753,
-          359
+          2309,
+          1304,
+          947,
+          368,
+          18,
+          176,
+          4990,
+          745,
+          355
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Western Brown Local Sd (Brown Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

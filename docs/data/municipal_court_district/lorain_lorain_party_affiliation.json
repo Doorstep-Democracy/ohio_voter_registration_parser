@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,964 (4%)",
-      "UNC – Lapsed R — 1,892 (4%)",
-      "Mixed – Active — 3,191 (7%)",
-      "Mixed – Lapsed — 2,047 (5%)",
-      "UNC – No Primary — 22,517 (50%)",
-      "UNC – Lapsed D — 7,593 (17%)",
-      "Pure D — 6,223 (14%)"
+      "Pure R — 2,044 (4%)",
+      "UNC – Lapsed R — 1,981 (4%)",
+      "Mixed – Active — 3,255 (7%)",
+      "Mixed – Lapsed — 1,347 (3%)",
+      "Minor Party — 88 (0%)",
+      "UNC – Non-partisan Ballot — 827 (2%)",
+      "UNC – No Primary — 22,444 (49%)",
+      "UNC – Lapsed D — 7,288 (16%)",
+      "Pure D — 6,804 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          1964,
-          1892,
-          3191,
-          2047,
-          22517,
-          7593,
-          6223
+          2044,
+          1981,
+          3255,
+          1347,
+          88,
+          827,
+          22444,
+          7288,
+          6804
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "LORAIN (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

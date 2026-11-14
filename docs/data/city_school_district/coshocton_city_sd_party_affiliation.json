@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,309 (20%)",
-      "UNC – Lapsed R — 527 (8%)",
-      "Mixed – Active — 765 (11%)",
-      "Mixed – Lapsed — 456 (7%)",
-      "UNC – No Primary — 2,710 (41%)",
-      "UNC – Lapsed D — 607 (9%)",
-      "Pure D — 304 (5%)"
+      "Pure R — 1,119 (17%)",
+      "UNC – Lapsed R — 743 (11%)",
+      "Mixed – Active — 687 (10%)",
+      "Mixed – Lapsed — 312 (5%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 200 (3%)",
+      "UNC – No Primary — 2,738 (41%)",
+      "UNC – Lapsed D — 573 (9%)",
+      "Pure D — 337 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1309,
-          527,
-          765,
-          456,
-          2710,
-          607,
-          304
+          1119,
+          743,
+          687,
+          312,
+          13,
+          200,
+          2738,
+          573,
+          337
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "COSHOCTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

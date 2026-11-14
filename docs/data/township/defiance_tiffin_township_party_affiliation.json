@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 179 (16%)",
+      "Pure R — 191 (17%)",
       "UNC – Lapsed R — 178 (16%)",
-      "Mixed – Active — 84 (8%)",
-      "Mixed – Lapsed — 70 (6%)",
-      "UNC – No Primary — 467 (42%)",
-      "UNC – Lapsed D — 83 (7%)",
-      "Pure D — 51 (5%)"
+      "Mixed – Active — 87 (8%)",
+      "Mixed – Lapsed — 50 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 20 (2%)",
+      "UNC – No Primary — 470 (41%)",
+      "UNC – Lapsed D — 75 (7%)",
+      "Pure D — 63 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          179,
+          191,
           178,
-          84,
-          70,
-          467,
-          83,
-          51
+          87,
+          50,
+          1,
+          20,
+          470,
+          75,
+          63
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TIFFIN TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

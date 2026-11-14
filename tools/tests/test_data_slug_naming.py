@@ -27,9 +27,10 @@ tens of thousands of files across 88 counties; per-file parametrization
 would make this check itself the slow part of CI.
 """
 import re
-from pathlib import Path
 
-CITY_DATA = Path(__file__).resolve().parent.parent.parent / "docs" / "data" / "city"
+from pipeline.paths import DATA_DIR
+
+CITY_DATA = DATA_DIR / "city"
 
 _VALID_SLUG_RE = re.compile(r'^[a-z0-9_]+$')
 

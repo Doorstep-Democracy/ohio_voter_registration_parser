@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,717 (13%)",
-      "UNC – Lapsed R — 6,083 (17%)",
-      "Mixed – Active — 2,508 (7%)",
-      "Mixed – Lapsed — 4,361 (12%)",
-      "UNC – No Primary — 11,369 (32%)",
-      "UNC – Lapsed D — 3,335 (10%)",
-      "Pure D — 2,684 (8%)"
+      "Pure R — 4,656 (13%)",
+      "UNC – Lapsed R — 6,076 (17%)",
+      "Mixed – Active — 2,492 (7%)",
+      "Mixed – Lapsed — 1,912 (5%)",
+      "Minor Party — 64 (0%)",
+      "UNC – Non-partisan Ballot — 2,418 (7%)",
+      "UNC – No Primary — 11,738 (33%)",
+      "UNC – Lapsed D — 3,343 (9%)",
+      "Pure D — 2,658 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          4717,
-          6083,
-          2508,
-          4361,
-          11369,
-          3335,
-          2684
+          4656,
+          6076,
+          2492,
+          1912,
+          64,
+          2418,
+          11738,
+          3343,
+          2658
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ANDERSON TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

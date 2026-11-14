@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,897 (26%)",
-      "UNC – Lapsed R — 1,234 (17%)",
-      "Mixed – Active — 537 (7%)",
-      "Mixed – Lapsed — 507 (7%)",
-      "UNC – No Primary — 2,169 (30%)",
-      "UNC – Lapsed D — 446 (6%)",
-      "Pure D — 377 (5%)"
+      "Pure R — 1,879 (26%)",
+      "UNC – Lapsed R — 1,228 (17%)",
+      "Mixed – Active — 533 (7%)",
+      "Mixed – Lapsed — 221 (3%)",
+      "Minor Party — 18 (0%)",
+      "UNC – Non-partisan Ballot — 283 (4%)",
+      "UNC – No Primary — 2,214 (31%)",
+      "UNC – Lapsed D — 450 (6%)",
+      "Pure D — 375 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1897,
-          1234,
-          537,
-          507,
-          2169,
-          446,
-          377
+          1879,
+          1228,
+          533,
+          221,
+          18,
+          283,
+          2214,
+          450,
+          375
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Clear Fork Valley Local Sd (Richland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

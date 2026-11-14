@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 144 (5%)",
-      "UNC – Lapsed R — 208 (7%)",
-      "Mixed – Active — 263 (8%)",
-      "Mixed – Lapsed — 155 (5%)",
-      "UNC – Non-partisan Ballot — 108 (3%)",
-      "UNC – No Primary — 1,386 (44%)",
-      "UNC – Lapsed D — 514 (16%)",
-      "Pure D — 345 (11%)"
+      "Pure R — 145 (5%)",
+      "UNC – Lapsed R — 207 (7%)",
+      "Mixed – Active — 259 (8%)",
+      "Mixed – Lapsed — 150 (5%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 107 (3%)",
+      "UNC – No Primary — 1,410 (45%)",
+      "UNC – Lapsed D — 510 (16%)",
+      "Pure D — 338 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          144,
-          208,
-          263,
-          155,
-          108,
-          1386,
-          514,
-          345
+          145,
+          207,
+          259,
+          150,
+          7,
+          107,
+          1410,
+          510,
+          338
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "BROOK PARK WARD 3 (BROOK PARK City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

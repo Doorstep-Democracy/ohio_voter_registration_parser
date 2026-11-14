@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,116",
-      "Mixed – Active — 717",
-      "Mixed – Lapsed — 605",
-      "UNC – No Primary — 2,526",
-      "UNC – Lapsed D — 502"
+      "UNC – Lapsed R — 1,188",
+      "Mixed – Active — 722",
+      "Mixed – Lapsed — 295",
+      "UNC – Non-partisan Ballot — 323",
+      "UNC – No Primary — 2,557",
+      "UNC – Lapsed D — 477"
     ],
     "datasets": [
       {
         "data": [
-          1116,
-          717,
-          605,
-          2526,
-          502
+          1188,
+          722,
+          295,
+          323,
+          2557,
+          477
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "TIPP CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          5,
-          14,
-          24,
-          17,
-          29,
-          24,
-          12,
-          8
+          3,
+          11,
+          19,
+          19,
+          22,
+          22,
+          8,
+          9
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          3,
-          5,
-          11,
+          4,
+          8,
           17,
-          11,
+          19,
           18,
-          10,
-          1
+          21,
+          15,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,11 +51,11 @@
         "data": [
           0,
           1,
-          11,
-          24,
-          14,
+          9,
+          22,
+          13,
+          4,
           3,
-          5,
           0,
           0
         ],
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
           0,
-          3,
-          8,
-          10,
-          6,
+          0,
+          4,
+          9,
           9,
           3,
-          3
+          6,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          3,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +116,12 @@
           0,
           1,
           2,
-          18,
-          16,
-          16,
+          17,
+          13,
+          15,
           54,
-          58,
-          51
+          57,
+          48
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,8 +131,8 @@
         "data": [
           0,
           1,
-          8,
-          11,
+          6,
+          10,
           11,
           5,
           5,
@@ -115,21 +147,21 @@
         "data": [
           0,
           0,
-          6,
-          2,
+          8,
+          3,
           4,
           1,
           0,
           0,
-          0
+          1
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

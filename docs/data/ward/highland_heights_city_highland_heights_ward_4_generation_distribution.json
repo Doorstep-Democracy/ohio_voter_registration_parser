@@ -1,0 +1,31 @@
+{
+  "title": "Voter Distribution by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Registered Voters",
+        "data": [
+          110,
+          516,
+          354,
+          375,
+          215
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 4
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "Ward",
+  "jurisdiction_name": "HIGHLAND HEIGHTS WARD 4 (HIGHLAND HEIGHTS City)",
+  "updated": "2026-11-12"
+}

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,121",
-      "Mixed – Active — 2,235",
-      "Mixed – Lapsed — 2,023",
-      "UNC – No Primary — 9,355",
-      "UNC – Lapsed D — 4,050"
+      "UNC – Lapsed R — 2,321",
+      "Mixed – Active — 2,181",
+      "Mixed – Lapsed — 1,388",
+      "UNC – Non-partisan Ballot — 682",
+      "UNC – No Primary — 9,397",
+      "UNC – Lapsed D — 3,861"
     ],
     "datasets": [
       {
         "data": [
-          2121,
-          2235,
-          2023,
-          9355,
-          4050
+          2321,
+          2181,
+          1388,
+          682,
+          9397,
+          3861
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "MAYFIELD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 387",
-      "Mixed – Active — 352",
-      "Mixed – Lapsed — 213",
-      "UNC – No Primary — 999",
-      "UNC – Lapsed D — 224"
+      "UNC – Lapsed R — 502",
+      "Mixed – Active — 318",
+      "Mixed – Lapsed — 159",
+      "UNC – Non-partisan Ballot — 83",
+      "UNC – No Primary — 1,002",
+      "UNC – Lapsed D — 244"
     ],
     "datasets": [
       {
         "data": [
-          387,
-          352,
-          213,
-          999,
-          224
+          502,
+          318,
+          159,
+          83,
+          1002,
+          244
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "THORN TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 16 (6%)",
-      "UNC – Lapsed R — 15 (6%)",
+      "Pure R — 17 (6%)",
+      "UNC – Lapsed R — 17 (6%)",
       "Mixed – Active — 63 (24%)",
-      "Mixed – Lapsed — 19 (7%)",
-      "UNC – No Primary — 65 (25%)",
-      "UNC – Lapsed D — 59 (23%)",
-      "Pure D — 25 (10%)"
+      "Mixed – Lapsed — 16 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 8 (3%)",
+      "UNC – No Primary — 68 (25%)",
+      "UNC – Lapsed D — 59 (22%)",
+      "Pure D — 20 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          16,
-          15,
+          17,
+          17,
           63,
-          19,
-          65,
+          16,
+          0,
+          8,
+          68,
           59,
-          25
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREEN TOWNSHIP (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

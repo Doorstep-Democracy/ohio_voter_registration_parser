@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 21 (10%)",
-      "UNC – Lapsed R — 26 (12%)",
-      "Mixed – Active — 25 (12%)",
+      "Pure R — 23 (11%)",
+      "UNC – Lapsed R — 29 (13%)",
+      "Mixed – Active — 19 (9%)",
       "Mixed – Lapsed — 11 (5%)",
-      "UNC – No Primary — 93 (43%)",
-      "UNC – Lapsed D — 34 (16%)",
-      "Pure D — 7 (3%)"
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 7 (3%)",
+      "UNC – No Primary — 88 (41%)",
+      "UNC – Lapsed D — 32 (15%)",
+      "Pure D — 6 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          21,
-          26,
-          25,
+          23,
+          29,
+          19,
           11,
-          93,
-          34,
-          7
+          0,
+          7,
+          88,
+          32,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PLEASANT CITY VILLAGE (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

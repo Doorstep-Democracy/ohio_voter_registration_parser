@@ -4,7 +4,7 @@
   "precinct": "ADAMS A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -22,7 +22,7 @@
         "data": [
           2,
           15,
-          60,
+          59,
           51,
           37,
           30,
@@ -39,10 +39,10 @@
           3,
           5,
           37,
-          32,
+          34,
           30,
-          27,
-          21,
+          28,
+          24,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -68,16 +68,32 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
           8,
           7,
           6,
           3,
-          3,
+          4,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -87,10 +103,10 @@
           0,
           1,
           5,
-          3,
+          4,
           7,
           16,
-          12,
+          11,
           6
         ],
         "backgroundColor": "#c4b5cd",
@@ -101,13 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          4,
+          5,
           2,
           24,
-          25,
-          31,
-          33,
-          57
+          26,
+          30,
+          37,
+          60
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,7 +132,7 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
+          0,
           2,
           5,
           4,
@@ -134,7 +150,7 @@
         "data": [
           2,
           4,
-          3,
+          2,
           5,
           1,
           1,

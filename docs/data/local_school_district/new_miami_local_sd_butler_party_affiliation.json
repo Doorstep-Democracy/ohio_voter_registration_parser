@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 238 (11%)",
-      "UNC – Lapsed R — 249 (11%)",
-      "Mixed – Active — 77 (3%)",
-      "Mixed – Lapsed — 160 (7%)",
-      "UNC – No Primary — 1,251 (57%)",
-      "UNC – Lapsed D — 180 (8%)",
+      "Pure R — 239 (11%)",
+      "UNC – Lapsed R — 253 (11%)",
+      "Mixed – Active — 73 (3%)",
+      "Mixed – Lapsed — 58 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 103 (5%)",
+      "UNC – No Primary — 1,284 (57%)",
+      "UNC – Lapsed D — 184 (8%)",
       "Pure D — 47 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          238,
-          249,
-          77,
-          160,
-          1251,
-          180,
+          239,
+          253,
+          73,
+          58,
+          3,
+          103,
+          1284,
+          184,
           47
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "New Miami Local Sd (Butler Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 164 (23%)",
-      "UNC – Lapsed R — 100 (14%)",
-      "Mixed – Active — 69 (9%)",
-      "Mixed – Lapsed — 45 (6%)",
-      "UNC – No Primary — 293 (40%)",
-      "UNC – Lapsed D — 49 (7%)",
-      "Pure D — 8 (1%)"
+      "Pure R — 166 (23%)",
+      "UNC – Lapsed R — 107 (15%)",
+      "Mixed – Active — 59 (8%)",
+      "Mixed – Lapsed — 41 (6%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 11 (2%)",
+      "UNC – No Primary — 281 (39%)",
+      "UNC – Lapsed D — 33 (5%)",
+      "Pure D — 26 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          164,
-          100,
-          69,
-          45,
-          293,
-          49,
-          8
+          166,
+          107,
+          59,
+          41,
+          2,
+          11,
+          281,
+          33,
+          26
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,8 +3,8 @@
   "county": "Ashland",
   "geography": "county",
   "type": "bar",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — Pew Research Center generational boundaries",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
       "Silent/Greatest",
@@ -17,11 +17,11 @@
       {
         "label": "Pure R",
         "data": [
-          857,
-          3563,
-          2024,
-          1220,
-          461
+          838,
+          3540,
+          2015,
+          1209,
+          451
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -30,11 +30,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          469,
+          458,
           1489,
-          1459,
-          1113,
-          239
+          1454,
+          1114,
+          255
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -43,11 +43,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          287,
-          1274,
-          559,
+          281,
+          1266,
+          557,
           200,
-          15
+          14
         ],
         "backgroundColor": "#f59e0b",
         "borderRadius": 2,
@@ -56,24 +56,37 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          133,
-          402,
-          298,
+          128,
+          403,
+          306,
           151,
-          13
+          14
         ],
         "backgroundColor": "#a78bfa",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          3,
+          25,
+          10,
+          23,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          94,
-          601,
-          704,
-          540,
-          174
+          89,
+          595,
+          701,
+          531,
+          168
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -83,10 +96,10 @@
         "label": "UNC – No Primary",
         "data": [
           158,
-          1474,
-          2278,
-          3752,
-          3743
+          1461,
+          2291,
+          3790,
+          3897
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -95,11 +108,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          190,
-          790,
-          622,
-          508,
-          96
+          178,
+          788,
+          628,
+          514,
+          102
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -108,11 +121,11 @@
       {
         "label": "Pure D",
         "data": [
-          174,
-          714,
-          264,
-          208,
-          126
+          167,
+          705,
+          259,
+          207,
+          122
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

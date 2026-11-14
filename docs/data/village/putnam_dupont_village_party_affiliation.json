@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 30 (21%)",
-      "UNC – Lapsed R — 20 (14%)",
-      "Mixed – Active — 13 (9%)",
-      "Mixed – Lapsed — 12 (8%)",
-      "UNC – No Primary — 56 (39%)",
-      "UNC – Lapsed D — 11 (8%)",
-      "Pure D — 2 (1%)"
+      "UNC – Lapsed R — 21 (15%)",
+      "Mixed – Active — 17 (12%)",
+      "Mixed – Lapsed — 8 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 55 (38%)",
+      "UNC – Lapsed D — 9 (6%)",
+      "Pure D — 4 (3%)"
     ],
     "datasets": [
       {
         "data": [
           30,
-          20,
-          13,
-          12,
-          56,
-          11,
-          2
+          21,
+          17,
+          8,
+          0,
+          0,
+          55,
+          9,
+          4
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DUPONT VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

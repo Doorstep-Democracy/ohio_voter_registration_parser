@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 284",
-      "Mixed – Active — 135",
-      "Mixed – Lapsed — 247",
-      "UNC – No Primary — 902",
-      "UNC – Lapsed D — 267"
+      "UNC – Lapsed R — 313",
+      "Mixed – Active — 164",
+      "Mixed – Lapsed — 80",
+      "UNC – Non-partisan Ballot — 146",
+      "UNC – No Primary — 868",
+      "UNC – Lapsed D — 220"
     ],
     "datasets": [
       {
         "data": [
-          284,
-          135,
-          247,
-          902,
-          267
+          313,
+          164,
+          80,
+          146,
+          868,
+          220
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MADISON TOWNSHIP (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

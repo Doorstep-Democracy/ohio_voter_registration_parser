@@ -4,7 +4,7 @@
   "precinct": "COLS 76-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -40,9 +40,9 @@
           1,
           5,
           12,
-          15,
+          14,
+          11,
           12,
-          13,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -68,16 +68,32 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
           2,
           3,
           9,
           4,
-          4,
+          5,
           3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -100,14 +116,14 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          1,
+          0,
           2,
           15,
           23,
-          32,
-          63,
-          112,
-          60
+          31,
+          62,
+          111,
+          63
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -121,7 +137,7 @@
           5,
           9,
           17,
-          19,
+          15,
           12,
           1
         ],
@@ -135,10 +151,10 @@
           0,
           8,
           11,
-          8,
+          10,
           12,
           19,
-          11,
+          10,
           7
         ],
         "backgroundColor": "#3b82f6",

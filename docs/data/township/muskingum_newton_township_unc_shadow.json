@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 440",
-      "Mixed – Active — 189",
-      "Mixed – Lapsed — 218",
-      "UNC – No Primary — 1,569",
-      "UNC – Lapsed D — 386"
+      "UNC – Lapsed R — 496",
+      "Mixed – Active — 185",
+      "Mixed – Lapsed — 186",
+      "UNC – Non-partisan Ballot — 45",
+      "UNC – No Primary — 1,560",
+      "UNC – Lapsed D — 376"
     ],
     "datasets": [
       {
         "data": [
-          440,
-          189,
-          218,
-          1569,
-          386
+          496,
+          185,
+          186,
+          45,
+          1560,
+          376
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NEWTON TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

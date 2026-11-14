@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,260",
-      "Mixed – Active — 1,052",
-      "Mixed – Lapsed — 999",
-      "UNC – No Primary — 6,228",
-      "UNC – Lapsed D — 1,952"
+      "UNC – Lapsed R — 1,224",
+      "Mixed – Active — 1,230",
+      "Mixed – Lapsed — 527",
+      "UNC – Non-partisan Ballot — 382",
+      "UNC – No Primary — 6,011",
+      "UNC – Lapsed D — 1,587"
     ],
     "datasets": [
       {
         "data": [
-          1260,
-          1052,
-          999,
-          6228,
-          1952
+          1224,
+          1230,
+          527,
+          382,
+          6011,
+          1587
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "CHILLICOTHE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

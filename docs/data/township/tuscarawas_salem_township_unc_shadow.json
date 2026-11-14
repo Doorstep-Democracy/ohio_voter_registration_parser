@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 99",
-      "Mixed – Active — 103",
-      "Mixed – Lapsed — 93",
-      "UNC – No Primary — 411",
-      "UNC – Lapsed D — 124"
+      "UNC – Lapsed R — 117",
+      "Mixed – Active — 97",
+      "Mixed – Lapsed — 45",
+      "UNC – Non-partisan Ballot — 49",
+      "UNC – No Primary — 414",
+      "UNC – Lapsed D — 105"
     ],
     "datasets": [
       {
         "data": [
-          99,
-          103,
-          93,
-          411,
-          124
+          117,
+          97,
+          45,
+          49,
+          414,
+          105
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALEM TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

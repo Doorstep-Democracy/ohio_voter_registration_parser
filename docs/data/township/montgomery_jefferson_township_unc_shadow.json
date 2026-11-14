@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 235",
-      "Mixed – Active — 167",
-      "Mixed – Lapsed — 209",
-      "UNC – No Primary — 1,788",
-      "UNC – Lapsed D — 756"
+      "UNC – Lapsed R — 253",
+      "Mixed – Active — 165",
+      "Mixed – Lapsed — 112",
+      "UNC – Non-partisan Ballot — 88",
+      "UNC – No Primary — 1,766",
+      "UNC – Lapsed D — 707"
     ],
     "datasets": [
       {
         "data": [
-          235,
-          167,
-          209,
-          1788,
-          756
+          253,
+          165,
+          112,
+          88,
+          1766,
+          707
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

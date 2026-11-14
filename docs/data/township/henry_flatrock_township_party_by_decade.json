@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          13,
+          16,
           21,
           49,
-          66,
+          70,
           35,
           31,
           19,
-          7
+          11
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          12,
+          8,
           13,
           13,
-          27,
-          17,
+          25,
+          18,
           16,
-          10,
-          3
+          13,
+          2
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +49,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           4,
-          13,
-          40,
-          18,
-          18,
           14,
+          40,
+          19,
+          17,
+          15,
           1,
           0
         ],
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          1,
-          12,
-          17,
+          2,
+          0,
+          4,
           10,
-          11,
-          7,
-          5,
-          4
+          4,
+          8,
+          4,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          5,
+          6,
+          6,
+          4,
+          4,
+          3,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
+          2,
           4,
-          3,
           11,
-          30,
-          30,
-          44,
-          53,
-          76
+          27,
+          28,
+          47,
+          55,
+          75
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,13 +129,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
+          0,
           4,
-          5,
-          11,
-          14,
-          13,
+          3,
           10,
+          12,
+          11,
+          8,
           8,
           0
         ],
@@ -113,13 +145,13 @@
       {
         "label": "Pure D",
         "data": [
-          1,
-          7,
-          10,
-          18,
-          9,
           2,
+          7,
+          12,
+          19,
+          9,
           4,
+          5,
           2,
           0
         ],
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FLATROCK TOWNSHIP (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

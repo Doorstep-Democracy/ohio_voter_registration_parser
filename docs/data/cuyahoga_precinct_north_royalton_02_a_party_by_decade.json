@@ -4,7 +4,7 @@
   "precinct": "NORTH ROYALTON-02-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -39,12 +39,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          9,
+          8,
           12,
           26,
           22,
           29,
-          20,
+          19,
           10,
           3
         ],
@@ -56,9 +56,9 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          4,
+          3,
           30,
-          43,
+          42,
           29,
           11,
           5,
@@ -77,12 +77,29 @@
           3,
           8,
           12,
-          15,
-          8,
+          14,
+          9,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -93,8 +110,8 @@
           0,
           2,
           8,
-          17,
-          22,
+          16,
+          21,
           11,
           6,
           0
@@ -110,11 +127,11 @@
           2,
           8,
           14,
-          25,
-          31,
+          26,
+          32,
           62,
-          64,
-          78
+          65,
+          81
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -126,11 +143,11 @@
           0,
           3,
           6,
+          21,
           22,
-          25,
           20,
-          36,
-          14,
+          37,
+          15,
           3
         ],
         "backgroundColor": "#93c5fd",

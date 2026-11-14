@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8 (7%)",
-      "UNC – Lapsed R — 14 (13%)",
+      "Pure R — 5 (5%)",
+      "UNC – Lapsed R — 16 (15%)",
       "Mixed – Active — 9 (8%)",
       "Mixed – Lapsed — 3 (3%)",
-      "UNC – No Primary — 54 (50%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 55 (51%)",
       "UNC – Lapsed D — 14 (13%)",
       "Pure D — 5 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          8,
-          14,
+          5,
+          16,
           9,
           3,
-          54,
+          0,
+          0,
+          55,
           14,
           5
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LEESVILLE VILLAGE (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

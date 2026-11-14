@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          41,
-          171,
-          276,
-          234,
-          165,
-          180,
-          100,
-          44
+          0,
+          35,
+          154,
+          260,
+          230,
+          155,
+          167,
+          102,
+          45
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          23,
-          56,
-          84,
-          133,
-          147,
-          98,
-          63,
-          8
+          21,
+          65,
+          102,
+          137,
+          165,
+          120,
+          71,
+          15
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          25,
+          1,
+          19,
           129,
-          222,
-          165,
-          103,
-          66,
-          13,
-          3
+          229,
+          166,
+          101,
+          68,
+          12,
+          4
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -68,28 +68,60 @@
           0,
           17,
           47,
-          62,
-          67,
-          71,
-          41,
-          18,
-          4
+          49,
+          57,
+          58,
+          32,
+          8,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          2,
+          5,
+          2,
+          3,
+          4,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          4,
+          10,
+          12,
+          19,
+          15,
+          8,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          20,
-          91,
-          203,
-          352,
-          464,
-          576,
-          730,
-          708
+          16,
+          86,
+          187,
+          351,
+          454,
+          561,
+          724,
+          731
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          37,
-          69,
-          144,
-          127,
-          135,
-          139,
-          89,
-          12
+          31,
+          68,
+          136,
+          117,
+          131,
+          125,
+          81,
+          10
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           3,
-          21,
-          97,
-          154,
-          80,
-          51,
-          32,
-          23,
-          9
+          20,
+          91,
+          162,
+          85,
+          53,
+          53,
+          34,
+          22
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FALLS TWP (Hocking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

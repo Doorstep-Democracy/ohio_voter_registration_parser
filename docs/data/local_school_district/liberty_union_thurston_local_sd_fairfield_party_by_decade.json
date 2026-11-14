@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          35,
+          32,
           122,
           250,
           273,
           166,
           134,
           50,
-          61
+          60
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
+          0,
           16,
-          62,
-          118,
-          171,
-          159,
-          153,
-          111,
-          20
+          61,
+          125,
+          174,
+          157,
+          154,
+          110,
+          21
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,10 +49,10 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           15,
-          68,
-          138,
+          65,
+          135,
           86,
           53,
           36,
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          11,
-          34,
-          59,
-          89,
-          98,
-          81,
-          35,
-          9
+          7,
+          21,
+          37,
+          37,
+          49,
+          32,
+          8,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          5,
+          0,
+          3,
+          2,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          12,
+          22,
+          52,
+          49,
+          47,
+          26,
+          8
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          2,
-          20,
-          66,
-          159,
+          3,
+          21,
+          67,
+          161,
           234,
-          346,
-          524,
-          492
+          350,
+          517,
+          519
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          13,
-          30,
+          11,
+          29,
           59,
-          111,
-          73,
-          75,
-          40,
+          110,
+          76,
+          76,
+          43,
           3
         ],
         "backgroundColor": "#93c5fd",
@@ -117,10 +149,10 @@
           12,
           50,
           75,
-          46,
+          45,
           28,
-          29,
-          18,
+          28,
+          17,
           19
         ],
         "backgroundColor": "#3b82f6",
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Liberty Union-Thurston Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

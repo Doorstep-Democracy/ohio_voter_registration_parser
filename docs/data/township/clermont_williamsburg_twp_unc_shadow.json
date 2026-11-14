@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 422",
-      "Mixed – Active — 257",
-      "Mixed – Lapsed — 252",
-      "UNC – No Primary — 1,559",
-      "UNC – Lapsed D — 241"
+      "UNC – Lapsed R — 508",
+      "Mixed – Active — 251",
+      "Mixed – Lapsed — 117",
+      "UNC – Non-partisan Ballot — 152",
+      "UNC – No Primary — 1,546",
+      "UNC – Lapsed D — 231"
     ],
     "datasets": [
       {
         "data": [
-          422,
-          257,
-          252,
-          1559,
-          241
+          508,
+          251,
+          117,
+          152,
+          1546,
+          231
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WILLIAMSBURG TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

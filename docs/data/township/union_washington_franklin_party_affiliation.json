@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 422 (12%)",
-      "UNC – Lapsed R — 460 (13%)",
-      "Mixed – Active — 164 (5%)",
-      "Mixed – Lapsed — 183 (5%)",
-      "UNC – No Primary — 1,750 (51%)",
-      "UNC – Lapsed D — 294 (9%)",
-      "Pure D — 142 (4%)"
+      "Pure R — 381 (11%)",
+      "UNC – Lapsed R — 492 (14%)",
+      "Mixed – Active — 168 (5%)",
+      "Mixed – Lapsed — 135 (4%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 68 (2%)",
+      "UNC – No Primary — 1,746 (50%)",
+      "UNC – Lapsed D — 301 (9%)",
+      "Pure D — 192 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          422,
-          460,
-          164,
-          183,
-          1750,
-          294,
-          142
+          381,
+          492,
+          168,
+          135,
+          12,
+          68,
+          1746,
+          301,
+          192
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON FRANKLIN (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

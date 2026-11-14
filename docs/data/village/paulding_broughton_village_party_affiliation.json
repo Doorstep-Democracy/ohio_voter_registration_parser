@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 14 (21%)",
-      "UNC – Lapsed R — 9 (13%)",
+      "UNC – Lapsed R — 11 (16%)",
       "Mixed – Active — 6 (9%)",
-      "Mixed – Lapsed — 6 (9%)",
-      "UNC – No Primary — 25 (37%)",
-      "UNC – Lapsed D — 7 (10%)",
-      "Pure D — 0 (0%)"
+      "Mixed – Lapsed — 4 (6%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 2 (3%)",
+      "UNC – No Primary — 24 (35%)",
+      "UNC – Lapsed D — 5 (7%)",
+      "Pure D — 1 (1%)"
     ],
     "datasets": [
       {
         "data": [
           14,
-          9,
+          11,
           6,
-          6,
-          25,
-          7,
-          0
+          4,
+          1,
+          2,
+          24,
+          5,
+          1
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BROUGHTON VILLAGE (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

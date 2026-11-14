@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 750 (24%)",
-      "UNC – Lapsed R — 425 (14%)",
-      "Mixed – Active — 200 (6%)",
-      "Mixed – Lapsed — 175 (6%)",
-      "UNC – No Primary — 1,303 (42%)",
+      "Pure R — 749 (24%)",
+      "UNC – Lapsed R — 424 (14%)",
+      "Mixed – Active — 199 (6%)",
+      "Mixed – Lapsed — 120 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 50 (2%)",
+      "UNC – No Primary — 1,315 (42%)",
       "UNC – Lapsed D — 211 (7%)",
-      "Pure D — 46 (1%)"
+      "Pure D — 45 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          750,
-          425,
-          200,
-          175,
-          1303,
+          749,
+          424,
+          199,
+          120,
+          5,
+          50,
+          1315,
           211,
-          46
+          45
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Fairfield Local Sd (Highland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

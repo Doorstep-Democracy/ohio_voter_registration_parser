@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 74 (7%)",
+      "Pure R — 75 (7%)",
       "UNC – Lapsed R — 134 (13%)",
-      "Mixed – Active — 53 (5%)",
+      "Mixed – Active — 54 (5%)",
       "Mixed – Lapsed — 57 (6%)",
-      "UNC – Non-partisan Ballot — 31 (3%)",
-      "UNC – No Primary — 434 (44%)",
-      "UNC – Lapsed D — 122 (12%)",
-      "Pure D — 90 (9%)"
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 30 (3%)",
+      "UNC – No Primary — 440 (44%)",
+      "UNC – Lapsed D — 123 (12%)",
+      "Pure D — 91 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          74,
+          75,
           134,
-          53,
+          54,
           57,
-          31,
-          434,
-          122,
-          90
+          2,
+          30,
+          440,
+          123,
+          91
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "DEER PARK WARD 3 (DEER PARK City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

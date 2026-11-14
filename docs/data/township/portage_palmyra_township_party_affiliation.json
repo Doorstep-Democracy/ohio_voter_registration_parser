@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 310 (16%)",
-      "UNC – Lapsed R — 208 (11%)",
-      "Mixed – Active — 247 (13%)",
-      "Mixed – Lapsed — 166 (9%)",
-      "UNC – No Primary — 660 (35%)",
-      "UNC – Lapsed D — 232 (12%)",
-      "Pure D — 86 (5%)"
+      "Pure R — 309 (16%)",
+      "UNC – Lapsed R — 227 (12%)",
+      "Mixed – Active — 254 (13%)",
+      "Mixed – Lapsed — 82 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 81 (4%)",
+      "UNC – No Primary — 641 (33%)",
+      "UNC – Lapsed D — 210 (11%)",
+      "Pure D — 118 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          310,
-          208,
-          247,
-          166,
-          660,
-          232,
-          86
+          309,
+          227,
+          254,
+          82,
+          3,
+          81,
+          641,
+          210,
+          118
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PALMYRA TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

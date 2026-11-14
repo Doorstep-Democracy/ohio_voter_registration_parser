@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 199 (23%)",
-      "UNC – Lapsed R — 107 (12%)",
-      "Mixed – Active — 90 (10%)",
-      "Mixed – Lapsed — 53 (6%)",
-      "UNC – No Primary — 312 (36%)",
-      "UNC – Lapsed D — 71 (8%)",
-      "Pure D — 27 (3%)"
+      "Pure R — 182 (21%)",
+      "UNC – Lapsed R — 133 (16%)",
+      "Mixed – Active — 84 (10%)",
+      "Mixed – Lapsed — 34 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 24 (3%)",
+      "UNC – No Primary — 303 (35%)",
+      "UNC – Lapsed D — 64 (7%)",
+      "Pure D — 33 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          199,
-          107,
-          90,
-          53,
-          312,
-          71,
-          27
+          182,
+          133,
+          84,
+          34,
+          1,
+          24,
+          303,
+          64,
+          33
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

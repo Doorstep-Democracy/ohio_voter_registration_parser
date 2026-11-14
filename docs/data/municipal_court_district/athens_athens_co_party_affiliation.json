@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,571 (7%)",
-      "UNC – Lapsed R — 2,131 (6%)",
-      "Mixed – Active — 2,683 (8%)",
-      "Mixed – Lapsed — 2,009 (6%)",
-      "UNC – No Primary — 15,072 (43%)",
-      "UNC – Lapsed D — 5,551 (16%)",
-      "Pure D — 4,662 (13%)"
+      "Pure R — 2,512 (7%)",
+      "UNC – Lapsed R — 2,270 (6%)",
+      "Mixed – Active — 2,779 (8%)",
+      "Mixed – Lapsed — 1,318 (4%)",
+      "Minor Party — 40 (0%)",
+      "UNC – Non-partisan Ballot — 707 (2%)",
+      "UNC – No Primary — 15,767 (44%)",
+      "UNC – Lapsed D — 5,331 (15%)",
+      "Pure D — 5,266 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          2571,
-          2131,
-          2683,
-          2009,
-          15072,
-          5551,
-          4662
+          2512,
+          2270,
+          2779,
+          1318,
+          40,
+          707,
+          15767,
+          5331,
+          5266
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "ATHENS-CO (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

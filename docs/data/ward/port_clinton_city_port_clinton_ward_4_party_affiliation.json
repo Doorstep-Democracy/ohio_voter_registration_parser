@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 80 (9%)",
-      "UNC – Lapsed R — 83 (10%)",
+      "Pure R — 77 (9%)",
+      "UNC – Lapsed R — 84 (10%)",
       "Mixed – Active — 49 (6%)",
-      "Mixed – Lapsed — 28 (3%)",
-      "UNC – Non-partisan Ballot — 44 (5%)",
+      "Mixed – Lapsed — 31 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 43 (5%)",
       "UNC – No Primary — 383 (44%)",
       "UNC – Lapsed D — 119 (14%)",
-      "Pure D — 76 (9%)"
+      "Pure D — 74 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          80,
-          83,
+          77,
+          84,
           49,
-          28,
-          44,
+          31,
+          2,
+          43,
           383,
           119,
-          76
+          74
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "PORT CLINTON WARD 4 (PORT CLINTON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          62,
-          280,
-          535,
-          569,
-          282,
-          200,
-          105,
-          91
+          2,
+          58,
+          274,
+          537,
+          565,
+          285,
+          201,
+          107,
+          89
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
-          39,
-          148,
-          282,
-          376,
-          314,
+          4,
+          37,
+          144,
+          287,
+          385,
+          316,
           287,
           214,
-          63
+          61
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          46,
-          303,
-          606,
-          469,
-          218,
-          114,
-          23,
+          44,
+          302,
+          603,
+          468,
+          221,
+          113,
+          22,
           7
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          51,
-          157,
-          277,
-          366,
-          336,
-          280,
-          124,
-          84
+          2,
+          33,
+          122,
+          200,
+          256,
+          171,
+          90,
+          23,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          7,
+          8,
+          5,
+          6,
+          6,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          10,
+          30,
+          85,
+          116,
+          165,
+          191,
+          99,
+          79
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          21,
-          122,
-          332,
-          560,
-          631,
-          830,
-          1335,
-          1135
+          19,
+          125,
+          335,
+          567,
+          640,
+          863,
+          1372,
+          1193
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          48,
-          180,
-          305,
-          410,
-          316,
-          321,
-          214,
-          27
+          45,
+          178,
+          309,
+          419,
+          323,
+          323,
+          221,
+          26
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          57,
-          233,
-          492,
-          307,
-          169,
-          180,
-          84,
-          82
+          55,
+          234,
+          487,
+          310,
+          167,
+          179,
+          88,
+          79
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Midview Local Sd (Lorain Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

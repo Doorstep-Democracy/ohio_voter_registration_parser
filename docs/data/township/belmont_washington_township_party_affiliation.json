@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 37 (11%)",
-      "UNC – Lapsed R — 38 (12%)",
-      "Mixed – Active — 30 (9%)",
-      "Mixed – Lapsed — 36 (11%)",
-      "UNC – No Primary — 124 (38%)",
-      "UNC – Lapsed D — 44 (13%)",
-      "Pure D — 21 (6%)"
+      "Pure R — 38 (12%)",
+      "UNC – Lapsed R — 39 (12%)",
+      "Mixed – Active — 33 (10%)",
+      "Mixed – Lapsed — 11 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 25 (8%)",
+      "UNC – No Primary — 119 (36%)",
+      "UNC – Lapsed D — 37 (11%)",
+      "Pure D — 25 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          37,
           38,
-          30,
-          36,
-          124,
-          44,
-          21
+          39,
+          33,
+          11,
+          0,
+          25,
+          119,
+          37,
+          25
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

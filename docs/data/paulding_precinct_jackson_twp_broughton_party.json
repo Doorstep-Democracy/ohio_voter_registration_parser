@@ -4,13 +4,14 @@
   "precinct": "JACKSON TWP & BROUGHTON",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,12 +20,13 @@
     "datasets": [
       {
         "data": [
-          197,
-          105,
-          58,
+          196,
+          104,
+          57,
           22,
+          2,
           16,
-          206,
+          216,
           33,
           30
         ],
@@ -33,6 +35,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

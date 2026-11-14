@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 98 (16%)",
-      "UNC – Lapsed R — 65 (10%)",
-      "Mixed – Active — 70 (11%)",
-      "Mixed – Lapsed — 30 (5%)",
-      "UNC – No Primary — 264 (42%)",
-      "UNC – Lapsed D — 63 (10%)",
-      "Pure D — 36 (6%)"
+      "Pure R — 85 (13%)",
+      "UNC – Lapsed R — 81 (13%)",
+      "Mixed – Active — 45 (7%)",
+      "Mixed – Lapsed — 36 (6%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 12 (2%)",
+      "UNC – No Primary — 274 (43%)",
+      "UNC – Lapsed D — 55 (9%)",
+      "Pure D — 48 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          98,
-          65,
-          70,
-          30,
-          264,
-          63,
-          36
+          85,
+          81,
+          45,
+          36,
+          2,
+          12,
+          274,
+          55,
+          48
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FRANKFORT VILLAGE (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

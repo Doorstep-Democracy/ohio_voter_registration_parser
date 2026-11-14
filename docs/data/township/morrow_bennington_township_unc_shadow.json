@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 277",
-      "Mixed – Active — 201",
-      "Mixed – Lapsed — 134",
-      "UNC – No Primary — 754",
-      "UNC – Lapsed D — 142"
+      "UNC – Lapsed R — 333",
+      "Mixed – Active — 179",
+      "Mixed – Lapsed — 110",
+      "UNC – Non-partisan Ballot — 51",
+      "UNC – No Primary — 728",
+      "UNC – Lapsed D — 145"
     ],
     "datasets": [
       {
         "data": [
-          277,
-          201,
-          134,
-          754,
-          142
+          333,
+          179,
+          110,
+          51,
+          728,
+          145
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BENNINGTON TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

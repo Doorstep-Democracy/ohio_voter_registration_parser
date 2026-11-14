@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
+          0,
           4,
-          9,
-          17,
           11,
-          11,
-          9,
-          3,
-          3
+          13,
+          7,
+          6,
+          4,
+          4,
+          4
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,11 +35,11 @@
         "data": [
           1,
           6,
-          9,
-          11,
-          23,
+          5,
+          14,
+          21,
+          19,
           16,
-          12,
           15,
           1
         ],
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           1,
+          22,
+          78,
+          98,
+          63,
+          45,
           29,
-          79,
-          89,
-          51,
-          37,
-          18,
-          6,
-          0
+          4,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          8,
-          39,
-          37,
-          50,
-          56,
-          38,
-          15,
-          12
+          1,
+          9,
+          21,
+          19,
+          28,
+          26,
+          11,
+          4,
+          2
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          2,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          1,
+          14,
+          11,
+          12,
+          20,
+          13,
+          6,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
+          0,
           5,
-          26,
-          56,
-          63,
-          101,
+          27,
+          50,
+          54,
+          103,
           128,
-          182,
-          267
+          175,
+          276
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          26,
-          80,
-          136,
-          129,
-          141,
-          171,
-          84,
-          16
+          25,
+          69,
+          103,
+          110,
+          128,
+          146,
+          92,
+          20
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           4,
-          36,
-          142,
-          250,
-          140,
-          120,
-          79,
-          65,
-          23
+          35,
+          150,
+          293,
+          172,
+          147,
+          121,
+          77,
+          54
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "YELLOW SPRINGS VILLAGE (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

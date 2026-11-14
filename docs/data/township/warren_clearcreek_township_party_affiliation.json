@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,046 (18%)",
-      "UNC – Lapsed R — 4,949 (18%)",
-      "Mixed – Active — 1,729 (6%)",
-      "Mixed – Lapsed — 2,624 (9%)",
-      "UNC – No Primary — 10,327 (37%)",
-      "UNC – Lapsed D — 2,310 (8%)",
-      "Pure D — 857 (3%)"
+      "Pure R — 4,784 (17%)",
+      "UNC – Lapsed R — 5,283 (19%)",
+      "Mixed – Active — 1,870 (7%)",
+      "Mixed – Lapsed — 1,333 (5%)",
+      "Minor Party — 39 (0%)",
+      "UNC – Non-partisan Ballot — 1,188 (4%)",
+      "UNC – No Primary — 10,321 (37%)",
+      "UNC – Lapsed D — 2,149 (8%)",
+      "Pure D — 1,257 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          5046,
-          4949,
-          1729,
-          2624,
-          10327,
-          2310,
-          857
+          4784,
+          5283,
+          1870,
+          1333,
+          39,
+          1188,
+          10321,
+          2149,
+          1257
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLEARCREEK TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

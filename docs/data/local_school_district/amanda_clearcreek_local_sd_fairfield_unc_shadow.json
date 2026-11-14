@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,061",
-      "Mixed – Active — 409",
-      "Mixed – Lapsed — 604",
-      "UNC – No Primary — 2,016",
-      "UNC – Lapsed D — 475"
+      "UNC – Lapsed R — 1,070",
+      "Mixed – Active — 410",
+      "Mixed – Lapsed — 282",
+      "UNC – Non-partisan Ballot — 326",
+      "UNC – No Primary — 2,069",
+      "UNC – Lapsed D — 478"
     ],
     "datasets": [
       {
         "data": [
-          1061,
-          409,
-          604,
-          2016,
-          475
+          1070,
+          410,
+          282,
+          326,
+          2069,
+          478
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Amanda-Clearcreek Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

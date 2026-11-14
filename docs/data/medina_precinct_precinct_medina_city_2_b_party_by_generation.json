@@ -4,7 +4,7 @@
   "precinct": "PRECINCT MEDINA CITY 2-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          11,
-          29,
-          25,
-          34,
+          10,
+          28,
+          27,
+          33,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           9,
-          44,
+          43,
           8,
           15,
           1
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
           15,
-          11,
+          9,
           16,
           0
         ],
@@ -86,8 +99,8 @@
           8,
           55,
           103,
-          155,
-          121
+          158,
+          125
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,9 +111,9 @@
         "data": [
           5,
           32,
-          26,
+          24,
           40,
-          6
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,9 +123,9 @@
         "label": "Pure D",
         "data": [
           9,
-          58,
+          57,
           32,
-          25,
+          23,
           11
         ],
         "backgroundColor": "#3b82f6",

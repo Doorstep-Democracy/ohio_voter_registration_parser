@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 778",
-      "Mixed – Active — 1,736",
-      "Mixed – Lapsed — 1,877",
-      "UNC – No Primary — 13,612",
-      "UNC – Lapsed D — 7,382"
+      "UNC – Lapsed R — 765",
+      "Mixed – Active — 1,715",
+      "Mixed – Lapsed — 957",
+      "UNC – Non-partisan Ballot — 587",
+      "UNC – No Primary — 14,584",
+      "UNC – Lapsed D — 7,373"
     ],
     "datasets": [
       {
         "data": [
-          778,
-          1736,
-          1877,
-          13612,
-          7382
+          765,
+          1715,
+          957,
+          587,
+          14584,
+          7373
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "CLEVELAND HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

@@ -16,13 +16,13 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          5,
-          10,
-          16,
-          8,
-          5,
           1,
+          6,
+          8,
+          14,
+          8,
+          3,
+          2,
           1
         ],
         "backgroundColor": "#ef4444",
@@ -31,12 +31,12 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          0,
-          5,
-          13,
-          6,
+          1,
+          1,
           8,
+          17,
+          7,
+          10,
           9,
           0
         ],
@@ -47,10 +47,10 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          2,
+          1,
           9,
-          6,
           4,
+          5,
           0,
           0,
           0
@@ -61,29 +61,59 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          2,
+          0,
+          3,
           5,
           5,
-          5,
-          1,
-          2,
+          4,
+          0,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          2,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
           2,
-          4,
+          2,
           8,
           15,
-          10,
+          9,
           25,
-          39,
-          26
+          41,
+          27
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -95,10 +125,10 @@
           3,
           8,
           6,
-          7,
-          6,
+          9,
+          5,
           2,
-          2
+          0
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,15 +143,15 @@
           1,
           1,
           0,
-          0
+          1
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MADISON TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

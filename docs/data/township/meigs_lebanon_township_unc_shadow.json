@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 91",
-      "Mixed – Active — 35",
-      "Mixed – Lapsed — 31",
-      "UNC – No Primary — 248",
-      "UNC – Lapsed D — 54"
+      "UNC – Lapsed R — 97",
+      "Mixed – Active — 36",
+      "Mixed – Lapsed — 28",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 251",
+      "UNC – Lapsed D — 50"
     ],
     "datasets": [
       {
         "data": [
-          91,
-          35,
-          31,
-          248,
-          54
+          97,
+          36,
+          28,
+          4,
+          251,
+          50
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LEBANON TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

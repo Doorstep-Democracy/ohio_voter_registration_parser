@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 610 (5%)",
-      "UNC – Lapsed R — 1,255 (9%)",
-      "Mixed – Active — 485 (4%)",
-      "Mixed – Lapsed — 858 (6%)",
-      "UNC – No Primary — 7,539 (57%)",
-      "UNC – Lapsed D — 1,841 (14%)",
-      "Pure D — 713 (5%)"
+      "Pure R — 609 (4%)",
+      "UNC – Lapsed R — 1,245 (9%)",
+      "Mixed – Active — 526 (4%)",
+      "Mixed – Lapsed — 445 (3%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 372 (3%)",
+      "UNC – No Primary — 7,529 (55%)",
+      "UNC – Lapsed D — 1,742 (13%)",
+      "Pure D — 1,091 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          610,
-          1255,
-          485,
-          858,
-          7539,
-          1841,
-          713
+          609,
+          1245,
+          526,
+          445,
+          24,
+          372,
+          7529,
+          1742,
+          1091
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NORWOOD CITY SCHOOLS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

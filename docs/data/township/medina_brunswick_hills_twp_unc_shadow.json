@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 799",
-      "Mixed – Active — 694",
-      "Mixed – Lapsed — 1,500",
-      "UNC – No Primary — 2,115",
-      "UNC – Lapsed D — 882"
+      "UNC – Lapsed R — 952",
+      "Mixed – Active — 678",
+      "Mixed – Lapsed — 383",
+      "UNC – Non-partisan Ballot — 1,104",
+      "UNC – No Primary — 2,127",
+      "UNC – Lapsed D — 821"
     ],
     "datasets": [
       {
         "data": [
-          799,
-          694,
-          1500,
-          2115,
-          882
+          952,
+          678,
+          383,
+          1104,
+          2127,
+          821
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Brunswick Hills TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

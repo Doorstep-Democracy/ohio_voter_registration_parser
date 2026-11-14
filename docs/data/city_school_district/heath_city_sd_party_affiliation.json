@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,217 (18%)",
-      "UNC – Lapsed R — 841 (12%)",
-      "Mixed – Active — 566 (8%)",
-      "Mixed – Lapsed — 498 (7%)",
-      "UNC – No Primary — 2,731 (40%)",
-      "UNC – Lapsed D — 613 (9%)",
-      "Pure D — 349 (5%)"
+      "Pure R — 1,189 (17%)",
+      "UNC – Lapsed R — 889 (13%)",
+      "Mixed – Active — 588 (9%)",
+      "Mixed – Lapsed — 277 (4%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 212 (3%)",
+      "UNC – No Primary — 2,735 (40%)",
+      "UNC – Lapsed D — 569 (8%)",
+      "Pure D — 406 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1217,
-          841,
-          566,
-          498,
-          2731,
-          613,
-          349
+          1189,
+          889,
+          588,
+          277,
+          13,
+          212,
+          2735,
+          569,
+          406
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "HEATH CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

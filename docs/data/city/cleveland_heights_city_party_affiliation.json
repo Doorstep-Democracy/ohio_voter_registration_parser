@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 443 (1%)",
-      "UNC – Lapsed R — 778 (2%)",
-      "Mixed – Active — 1,736 (5%)",
-      "Mixed – Lapsed — 1,877 (5%)",
-      "UNC – No Primary — 13,612 (40%)",
-      "UNC – Lapsed D — 7,382 (21%)",
-      "Pure D — 8,631 (25%)"
+      "Pure R — 440 (1%)",
+      "UNC – Lapsed R — 765 (2%)",
+      "Mixed – Active — 1,715 (5%)",
+      "Mixed – Lapsed — 957 (3%)",
+      "Minor Party — 47 (0%)",
+      "UNC – Non-partisan Ballot — 587 (2%)",
+      "UNC – No Primary — 14,584 (42%)",
+      "UNC – Lapsed D — 7,373 (21%)",
+      "Pure D — 8,555 (24%)"
     ],
     "datasets": [
       {
         "data": [
-          443,
-          778,
-          1736,
-          1877,
-          13612,
-          7382,
-          8631
+          440,
+          765,
+          1715,
+          957,
+          47,
+          587,
+          14584,
+          7373,
+          8555
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "CLEVELAND HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

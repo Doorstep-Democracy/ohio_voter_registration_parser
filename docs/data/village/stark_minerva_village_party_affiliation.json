@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 195 (17%)",
-      "UNC – Lapsed R — 103 (9%)",
+      "Pure R — 183 (16%)",
+      "UNC – Lapsed R — 116 (10%)",
       "Mixed – Active — 107 (9%)",
-      "Mixed – Lapsed — 77 (7%)",
-      "UNC – No Primary — 480 (42%)",
-      "UNC – Lapsed D — 131 (11%)",
-      "Pure D — 63 (5%)"
+      "Mixed – Lapsed — 55 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 23 (2%)",
+      "UNC – No Primary — 474 (41%)",
+      "UNC – Lapsed D — 125 (11%)",
+      "Pure D — 75 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          195,
-          103,
+          183,
+          116,
           107,
-          77,
-          480,
-          131,
-          63
+          55,
+          4,
+          23,
+          474,
+          125,
+          75
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MINERVA VILLAGE (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

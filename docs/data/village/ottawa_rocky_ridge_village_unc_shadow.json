@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 19",
-      "Mixed – Active — 18",
-      "Mixed – Lapsed — 17",
+      "UNC – Lapsed R — 20",
+      "Mixed – Active — 12",
+      "Mixed – Lapsed — 12",
+      "UNC – Non-partisan Ballot — 10",
       "UNC – No Primary — 90",
-      "UNC – Lapsed D — 26"
+      "UNC – Lapsed D — 28"
     ],
     "datasets": [
       {
         "data": [
-          19,
-          18,
-          17,
+          20,
+          12,
+          12,
+          10,
           90,
-          26
+          28
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ROCKY RIDGE VILLAGE (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

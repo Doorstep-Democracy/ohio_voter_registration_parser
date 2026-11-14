@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 288 (7%)",
-      "UNC – Lapsed R — 267 (7%)",
-      "Mixed – Active — 200 (5%)",
-      "Mixed – Lapsed — 106 (3%)",
+      "Pure R — 289 (7%)",
+      "UNC – Lapsed R — 260 (6%)",
+      "Mixed – Active — 194 (5%)",
+      "Mixed – Lapsed — 103 (3%)",
+      "Minor Party — 8 (0%)",
       "UNC – Non-partisan Ballot — 121 (3%)",
-      "UNC – No Primary — 2,338 (57%)",
-      "UNC – Lapsed D — 481 (12%)",
-      "Pure D — 304 (7%)"
+      "UNC – No Primary — 2,363 (57%)",
+      "UNC – Lapsed D — 476 (12%)",
+      "Pure D — 300 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          288,
-          267,
-          200,
-          106,
+          289,
+          260,
+          194,
+          103,
+          8,
           121,
-          2338,
-          481,
-          304
+          2363,
+          476,
+          300
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "MANSFIELD WARD 6 (MANSFIELD City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

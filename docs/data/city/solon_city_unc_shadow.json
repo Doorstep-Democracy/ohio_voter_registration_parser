@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,310",
-      "Mixed – Active — 1,954",
-      "Mixed – Lapsed — 1,591",
-      "UNC – No Primary — 6,057",
-      "UNC – Lapsed D — 2,334"
+      "UNC – Lapsed R — 1,306",
+      "Mixed – Active — 1,930",
+      "Mixed – Lapsed — 787",
+      "UNC – Non-partisan Ballot — 770",
+      "UNC – No Primary — 6,154",
+      "UNC – Lapsed D — 2,310"
     ],
     "datasets": [
       {
         "data": [
-          1310,
-          1954,
-          1591,
-          6057,
-          2334
+          1306,
+          1930,
+          787,
+          770,
+          6154,
+          2310
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SOLON CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

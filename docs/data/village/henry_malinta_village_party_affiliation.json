@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 36 (23%)",
-      "UNC – Lapsed R — 10 (6%)",
-      "Mixed – Active — 19 (12%)",
-      "Mixed – Lapsed — 6 (4%)",
-      "UNC – No Primary — 64 (41%)",
-      "UNC – Lapsed D — 10 (6%)",
-      "Pure D — 12 (8%)"
+      "Pure R — 32 (20%)",
+      "UNC – Lapsed R — 12 (7%)",
+      "Mixed – Active — 17 (11%)",
+      "Mixed – Lapsed — 5 (3%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 65 (40%)",
+      "UNC – Lapsed D — 15 (9%)",
+      "Pure D — 12 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          36,
-          10,
-          19,
-          6,
-          64,
-          10,
+          32,
+          12,
+          17,
+          5,
+          2,
+          1,
+          65,
+          15,
           12
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MALINTA VILLAGE (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

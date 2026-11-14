@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 81",
-      "Mixed – Active — 163",
-      "Mixed – Lapsed — 186",
-      "UNC – No Primary — 3,101",
-      "UNC – Lapsed D — 1,904"
+      "UNC – Lapsed R — 79",
+      "Mixed – Active — 161",
+      "Mixed – Lapsed — 91",
+      "UNC – Non-partisan Ballot — 89",
+      "UNC – No Primary — 3,215",
+      "UNC – Lapsed D — 1,876"
     ],
     "datasets": [
       {
         "data": [
-          81,
-          163,
-          186,
-          3101,
-          1904
+          79,
+          161,
+          91,
+          89,
+          3215,
+          1876
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "BEDFORD HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

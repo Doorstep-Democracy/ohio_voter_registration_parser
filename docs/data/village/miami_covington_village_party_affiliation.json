@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 331 (20%)",
-      "UNC – Lapsed R — 235 (14%)",
-      "Mixed – Active — 90 (6%)",
-      "Mixed – Lapsed — 126 (8%)",
-      "UNC – No Primary — 706 (43%)",
-      "UNC – Lapsed D — 98 (6%)",
-      "Pure D — 39 (2%)"
+      "Pure R — 349 (21%)",
+      "UNC – Lapsed R — 234 (14%)",
+      "Mixed – Active — 96 (6%)",
+      "Mixed – Lapsed — 56 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 71 (4%)",
+      "UNC – No Primary — 680 (42%)",
+      "UNC – Lapsed D — 90 (6%)",
+      "Pure D — 58 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          331,
-          235,
+          349,
+          234,
+          96,
+          56,
+          1,
+          71,
+          680,
           90,
-          126,
-          706,
-          98,
-          39
+          58
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "COVINGTON VILLAGE (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

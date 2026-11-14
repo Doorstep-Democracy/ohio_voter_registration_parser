@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 389",
-      "Mixed – Active — 1,162",
-      "Mixed – Lapsed — 352",
-      "UNC – No Primary — 1,609",
-      "UNC – Lapsed D — 683"
+      "UNC – Lapsed R — 606",
+      "Mixed – Active — 1,014",
+      "Mixed – Lapsed — 429",
+      "UNC – Non-partisan Ballot — 112",
+      "UNC – No Primary — 1,604",
+      "UNC – Lapsed D — 820"
     ],
     "datasets": [
       {
         "data": [
-          389,
-          1162,
-          352,
-          1609,
-          683
+          606,
+          1014,
+          429,
+          112,
+          1604,
+          820
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "CANFIELD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

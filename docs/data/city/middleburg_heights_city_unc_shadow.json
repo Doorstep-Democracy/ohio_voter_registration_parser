@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 999",
-      "Mixed – Active — 1,324",
-      "Mixed – Lapsed — 998",
-      "UNC – No Primary — 3,670",
-      "UNC – Lapsed D — 1,531"
+      "UNC – Lapsed R — 996",
+      "Mixed – Active — 1,322",
+      "Mixed – Lapsed — 646",
+      "UNC – Non-partisan Ballot — 362",
+      "UNC – No Primary — 3,729",
+      "UNC – Lapsed D — 1,532"
     ],
     "datasets": [
       {
         "data": [
-          999,
-          1324,
-          998,
-          3670,
-          1531
+          996,
+          1322,
+          646,
+          362,
+          3729,
+          1532
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MIDDLEBURG HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

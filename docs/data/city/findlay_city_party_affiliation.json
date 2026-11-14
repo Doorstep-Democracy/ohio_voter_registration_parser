@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,069 (24%)",
-      "UNC – Lapsed R — 2,633 (10%)",
-      "Mixed – Active — 2,161 (8%)",
-      "Mixed – Lapsed — 1,705 (7%)",
-      "UNC – No Primary — 10,468 (41%)",
-      "UNC – Lapsed D — 1,814 (7%)",
-      "Pure D — 747 (3%)"
+      "Pure R — 5,699 (22%)",
+      "UNC – Lapsed R — 2,908 (11%)",
+      "Mixed – Active — 2,193 (8%)",
+      "Mixed – Lapsed — 837 (3%)",
+      "Minor Party — 42 (0%)",
+      "UNC – Non-partisan Ballot — 832 (3%)",
+      "UNC – No Primary — 10,599 (41%)",
+      "UNC – Lapsed D — 1,759 (7%)",
+      "Pure D — 949 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          6069,
-          2633,
-          2161,
-          1705,
-          10468,
-          1814,
-          747
+          5699,
+          2908,
+          2193,
+          837,
+          42,
+          832,
+          10599,
+          1759,
+          949
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "FINDLAY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

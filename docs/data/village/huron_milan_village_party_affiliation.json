@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 44 (17%)",
-      "UNC – Lapsed R — 26 (10%)",
-      "Mixed – Active — 19 (7%)",
-      "Mixed – Lapsed — 34 (13%)",
-      "UNC – No Primary — 100 (39%)",
-      "UNC – Lapsed D — 23 (9%)",
-      "Pure D — 9 (4%)"
+      "Pure R — 39 (16%)",
+      "UNC – Lapsed R — 28 (11%)",
+      "Mixed – Active — 27 (11%)",
+      "Mixed – Lapsed — 10 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 22 (9%)",
+      "UNC – No Primary — 95 (38%)",
+      "UNC – Lapsed D — 17 (7%)",
+      "Pure D — 13 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          44,
-          26,
-          19,
-          34,
-          100,
-          23,
-          9
+          39,
+          28,
+          27,
+          10,
+          0,
+          22,
+          95,
+          17,
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MILAN VILLAGE (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

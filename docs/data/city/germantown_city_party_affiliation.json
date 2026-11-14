@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 706 (17%)",
-      "UNC – Lapsed R — 661 (16%)",
-      "Mixed – Active — 342 (8%)",
-      "Mixed – Lapsed — 477 (12%)",
-      "UNC – No Primary — 1,358 (34%)",
-      "UNC – Lapsed D — 351 (9%)",
-      "Pure D — 144 (4%)"
+      "Pure R — 532 (13%)",
+      "UNC – Lapsed R — 818 (20%)",
+      "Mixed – Active — 274 (7%)",
+      "Mixed – Lapsed — 280 (7%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 257 (6%)",
+      "UNC – No Primary — 1,395 (34%)",
+      "UNC – Lapsed D — 361 (9%)",
+      "Pure D — 153 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          706,
-          661,
-          342,
-          477,
-          1358,
-          351,
-          144
+          532,
+          818,
+          274,
+          280,
+          8,
+          257,
+          1395,
+          361,
+          153
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "GERMANTOWN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

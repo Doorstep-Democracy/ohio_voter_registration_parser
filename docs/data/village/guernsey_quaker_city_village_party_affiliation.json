@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 63 (25%)",
-      "UNC – Lapsed R — 17 (7%)",
-      "Mixed – Active — 26 (10%)",
-      "Mixed – Lapsed — 14 (6%)",
-      "UNC – No Primary — 101 (41%)",
-      "UNC – Lapsed D — 17 (7%)",
-      "Pure D — 11 (4%)"
+      "Pure R — 52 (21%)",
+      "UNC – Lapsed R — 30 (12%)",
+      "Mixed – Active — 25 (10%)",
+      "Mixed – Lapsed — 11 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 98 (40%)",
+      "UNC – Lapsed D — 14 (6%)",
+      "Pure D — 13 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          63,
-          17,
-          26,
+          52,
+          30,
+          25,
+          11,
+          0,
+          2,
+          98,
           14,
-          101,
-          17,
-          11
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "QUAKER CITY VILLAGE (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

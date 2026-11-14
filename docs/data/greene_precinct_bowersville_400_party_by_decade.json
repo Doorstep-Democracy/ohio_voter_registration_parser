@@ -4,7 +4,7 @@
   "precinct": "BOWERSVILLE 400",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1940s",
@@ -66,13 +66,28 @@
         "data": [
           0,
           1,
-          1,
+          2,
           1,
           4,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -94,13 +109,13 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          3,
+          2,
           3,
           6,
           7,
-          15,
           14,
-          8
+          13,
+          11
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,

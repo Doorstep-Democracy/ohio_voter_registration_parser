@@ -3,14 +3,15 @@
   "county": "Tuscarawas",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          7284,
-          6177,
-          5866,
-          2800,
-          2296,
-          20982,
-          6728,
-          4288
+          7221,
+          6146,
+          5822,
+          2770,
+          80,
+          2270,
+          21358,
+          6629,
+          4243
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 224,
-    "new_registrants_d": 155,
-    "new_registrants_unc": 5106
+    "new_registrants_r": 220,
+    "new_registrants_d": 149,
+    "new_registrants_unc": 5618
   }
 }

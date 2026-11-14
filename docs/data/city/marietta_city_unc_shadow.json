@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 616",
-      "Mixed – Active — 836",
-      "Mixed – Lapsed — 543",
-      "UNC – No Primary — 3,705",
-      "UNC – Lapsed D — 898"
+      "UNC – Lapsed R — 672",
+      "Mixed – Active — 873",
+      "Mixed – Lapsed — 345",
+      "UNC – Non-partisan Ballot — 180",
+      "UNC – No Primary — 3,691",
+      "UNC – Lapsed D — 781"
     ],
     "datasets": [
       {
         "data": [
-          616,
-          836,
-          543,
-          3705,
-          898
+          672,
+          873,
+          345,
+          180,
+          3691,
+          781
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MARIETTA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

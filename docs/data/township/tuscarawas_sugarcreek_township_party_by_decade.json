@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          21,
-          34,
-          111,
-          90,
-          57,
+          0,
+          17,
+          33,
+          101,
+          85,
           51,
-          34,
-          15
+          37,
+          26,
+          11
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          15,
+          16,
           39,
-          93,
-          96,
-          79,
-          82,
-          37,
-          2
+          95,
+          99,
+          88,
+          101,
+          44,
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          8,
-          28,
-          40,
-          26,
-          16,
-          3,
+          5,
+          24,
+          41,
+          29,
+          17,
+          4,
           3,
           0
         ],
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
+          1,
           6,
+          16,
           19,
-          30,
-          53,
-          38,
-          37,
-          13,
-          2
+          24,
+          14,
+          7,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          6,
+          11,
+          27,
+          21,
+          28,
+          10,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -85,11 +117,11 @@
           7,
           14,
           58,
-          92,
-          122,
+          93,
+          120,
           192,
-          289,
-          232
+          287,
+          237
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          6,
-          12,
-          43,
-          31,
-          30,
-          31,
-          6,
+          4,
+          13,
+          36,
+          29,
+          28,
+          28,
+          7,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -115,21 +147,21 @@
         "data": [
           0,
           3,
-          12,
-          26,
+          10,
+          35,
           6,
-          5,
-          5,
+          7,
+          9,
           0,
-          0
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SUGARCREEK TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

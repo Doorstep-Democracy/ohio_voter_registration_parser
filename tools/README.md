@@ -72,9 +72,8 @@ Turns aggregate jurisdiction stats into human-readable text for the dashboard, i
 
 ## ✅ `tests/` — Pytest Suite & Standalone Reports
 
-Cache-freshness unit tests, generated-file slug/naming hygiene, and manifest/index schema checks for the jurisdiction build, plus one standalone collision report. Full detail in **[`tests/README.md`](tests/README.md)**. Run with `pytest tools/tests/`.
+Cache-freshness unit tests, generated-file slug/naming hygiene, and manifest/index schema checks for the jurisdiction build. Full detail in **[`tests/README.md`](tests/README.md)**. Run with `pytest tools/tests/`.
 
-*   **`test_jurisdiction_collisions.py`** — despite the `test_` name, a standalone report generator (not pytest): detects jurisdiction names (e.g. "Washington Township") colliding across county partitions. Output: `collision_report.md`.
 *   **`test_voter_data_cleaner.py`** — regression tests for the `_dominant_city_per_precinct` jurisdiction hierarchy (the fix for the postal-city mislabeling bug).
 *   **`test_pass_b_index.py`** / **`test_pass_b_manifest_frontend.py`** — schema checks for `docs/data/{type}/index.json` and `docs/manifest.json`'s `jurisdictionScopes` registry.
 

@@ -4,7 +4,7 @@
   "precinct": "PUT-IN-BAY 1 (PUT-IN-BAY)",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -22,7 +22,7 @@
           47,
           29,
           17,
-          1
+          0
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -32,7 +32,7 @@
         "label": "UNC – Lapsed R",
         "data": [
           15,
-          53,
+          54,
           23,
           9,
           1
@@ -57,9 +57,9 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          8,
-          23,
-          11,
+          7,
+          25,
+          12,
           3,
           0
         ],
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          4,
+          3,
           14,
           11,
-          15,
+          14,
           3
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,7 +97,7 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          33,
+          32,
           32,
           65,
           43
@@ -98,9 +111,9 @@
         "data": [
           13,
           24,
-          12,
+          11,
           14,
-          4
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

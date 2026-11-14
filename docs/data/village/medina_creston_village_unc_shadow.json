@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 12",
-      "Mixed – Active — 7",
+      "UNC – Lapsed R — 9",
+      "Mixed – Active — 6",
       "Mixed – Lapsed — 6",
-      "UNC – No Primary — 24",
+      "UNC – Non-partisan Ballot — 3",
+      "UNC – No Primary — 23",
       "UNC – Lapsed D — 5"
     ],
     "datasets": [
       {
         "data": [
-          12,
-          7,
+          9,
           6,
-          24,
+          6,
+          3,
+          23,
           5
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "CRESTON VILLAGE (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

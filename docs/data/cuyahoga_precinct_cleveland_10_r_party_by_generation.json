@@ -4,7 +4,7 @@
   "precinct": "CLEVELAND -10-R",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -60,10 +60,23 @@
           0,
           0,
           3,
-          2,
+          3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -72,7 +85,7 @@
         "data": [
           0,
           3,
-          10,
+          9,
           3,
           1
         ],
@@ -85,9 +98,9 @@
         "data": [
           5,
           39,
-          67,
-          138,
-          135
+          72,
+          142,
+          142
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          15,
-          64,
-          58,
-          45,
-          5
+          16,
+          61,
+          55,
+          48,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,9 +122,9 @@
       {
         "label": "Pure D",
         "data": [
-          25,
+          23,
           93,
-          19,
+          17,
           11,
           7
         ],

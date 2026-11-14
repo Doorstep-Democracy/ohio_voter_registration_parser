@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 847 (13%)",
-      "UNC – Lapsed R — 507 (8%)",
-      "Mixed – Active — 869 (14%)",
-      "Mixed – Lapsed — 543 (8%)",
-      "UNC – No Primary — 1,971 (31%)",
-      "UNC – Lapsed D — 911 (14%)",
-      "Pure D — 768 (12%)"
+      "Pure R — 850 (13%)",
+      "UNC – Lapsed R — 510 (8%)",
+      "Mixed – Active — 866 (13%)",
+      "Mixed – Lapsed — 251 (4%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 286 (4%)",
+      "UNC – No Primary — 2,008 (31%)",
+      "UNC – Lapsed D — 909 (14%)",
+      "Pure D — 762 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          847,
-          507,
-          869,
-          543,
-          1971,
-          911,
-          768
+          850,
+          510,
+          866,
+          251,
+          11,
+          286,
+          2008,
+          909,
+          762
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Champion Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

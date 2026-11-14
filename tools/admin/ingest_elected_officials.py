@@ -36,9 +36,13 @@ import sys
 from pathlib import Path
 
 ROOT           = Path(__file__).resolve().parent.parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from pipeline.paths import DATA_DIR  # noqa: E402
+
 DEFAULT_CSV    = ROOT / "local" / "source" / "electedofficials.csv"
 OFFICIALS_JSON = ROOT / "serve" / "officials.json"
-WARD_INDEX_JSON = ROOT / "docs" / "data" / "ward" / "index.json"
+WARD_INDEX_JSON = DATA_DIR / "ward" / "index.json"
 
 # ── DISTNAME normalization maps ───────────────────────────────────────────────
 

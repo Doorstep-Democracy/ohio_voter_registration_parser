@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,077 (8%)",
-      "UNC – Lapsed R — 1,267 (10%)",
-      "Mixed – Active — 713 (6%)",
-      "Mixed – Lapsed — 810 (6%)",
-      "UNC – No Primary — 6,697 (52%)",
-      "UNC – Lapsed D — 1,422 (11%)",
-      "Pure D — 866 (7%)"
+      "Pure R — 1,069 (8%)",
+      "UNC – Lapsed R — 1,255 (10%)",
+      "Mixed – Active — 706 (5%)",
+      "Mixed – Lapsed — 484 (4%)",
+      "Minor Party — 35 (0%)",
+      "UNC – Non-partisan Ballot — 316 (2%)",
+      "UNC – No Primary — 6,886 (53%)",
+      "UNC – Lapsed D — 1,423 (11%)",
+      "Pure D — 854 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1077,
-          1267,
-          713,
-          810,
-          6697,
-          1422,
-          866
+          1069,
+          1255,
+          706,
+          484,
+          35,
+          316,
+          6886,
+          1423,
+          854
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Mad River Local Sd (Montg Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

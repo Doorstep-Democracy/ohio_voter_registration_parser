@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 98 (13%)",
-      "UNC – Lapsed R — 96 (12%)",
-      "Mixed – Active — 52 (7%)",
-      "Mixed – Lapsed — 56 (7%)",
-      "UNC – No Primary — 357 (46%)",
-      "UNC – Lapsed D — 97 (12%)",
-      "Pure D — 23 (3%)"
+      "Pure R — 81 (10%)",
+      "UNC – Lapsed R — 110 (14%)",
+      "Mixed – Active — 47 (6%)",
+      "Mixed – Lapsed — 57 (7%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 350 (45%)",
+      "UNC – Lapsed D — 87 (11%)",
+      "Pure D — 30 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          98,
-          96,
-          52,
-          56,
-          357,
-          97,
-          23
+          81,
+          110,
+          47,
+          57,
+          1,
+          9,
+          350,
+          87,
+          30
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BRUSH CREEK TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

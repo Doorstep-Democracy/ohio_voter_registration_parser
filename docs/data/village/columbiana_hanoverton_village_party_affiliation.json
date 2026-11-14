@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 62 (27%)",
-      "UNC – Lapsed R — 19 (8%)",
+      "Pure R — 56 (24%)",
+      "UNC – Lapsed R — 22 (10%)",
       "Mixed – Active — 21 (9%)",
-      "Mixed – Lapsed — 21 (9%)",
-      "UNC – No Primary — 86 (38%)",
-      "UNC – Lapsed D — 15 (7%)",
-      "Pure D — 5 (2%)"
+      "Mixed – Lapsed — 10 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 12 (5%)",
+      "UNC – No Primary — 88 (38%)",
+      "UNC – Lapsed D — 11 (5%)",
+      "Pure D — 9 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          62,
-          19,
+          56,
+          22,
           21,
-          21,
-          86,
-          15,
-          5
+          10,
+          0,
+          12,
+          88,
+          11,
+          9
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HANOVERTON VILLAGE (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

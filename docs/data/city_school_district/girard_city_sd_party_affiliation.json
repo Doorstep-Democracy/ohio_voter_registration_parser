@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 236 (4%)",
-      "UNC – Lapsed R — 208 (3%)",
-      "Mixed – Active — 738 (11%)",
-      "Mixed – Lapsed — 277 (4%)",
-      "UNC – No Primary — 2,447 (37%)",
-      "UNC – Lapsed D — 1,057 (16%)",
-      "Pure D — 1,661 (25%)"
+      "Pure R — 214 (3%)",
+      "UNC – Lapsed R — 228 (3%)",
+      "Mixed – Active — 656 (10%)",
+      "Mixed – Lapsed — 268 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 117 (2%)",
+      "UNC – No Primary — 2,497 (37%)",
+      "UNC – Lapsed D — 1,495 (22%)",
+      "Pure D — 1,216 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          236,
-          208,
-          738,
-          277,
-          2447,
-          1057,
-          1661
+          214,
+          228,
+          656,
+          268,
+          3,
+          117,
+          2497,
+          1495,
+          1216
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "GIRARD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 194",
-      "Mixed – Active — 185",
-      "Mixed – Lapsed — 127",
-      "UNC – No Primary — 474",
-      "UNC – Lapsed D — 125"
+      "UNC – Lapsed R — 202",
+      "Mixed – Active — 175",
+      "Mixed – Lapsed — 80",
+      "UNC – Non-partisan Ballot — 57",
+      "UNC – No Primary — 466",
+      "UNC – Lapsed D — 119"
     ],
     "datasets": [
       {
         "data": [
-          194,
-          185,
-          127,
-          474,
-          125
+          202,
+          175,
+          80,
+          57,
+          466,
+          119
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TROY TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

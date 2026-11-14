@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 895",
-      "Mixed – Active — 822",
-      "Mixed – Lapsed — 703",
-      "UNC – No Primary — 2,801",
-      "UNC – Lapsed D — 758"
+      "UNC – Lapsed R — 934",
+      "Mixed – Active — 873",
+      "Mixed – Lapsed — 273",
+      "UNC – Non-partisan Ballot — 374",
+      "UNC – No Primary — 2,685",
+      "UNC – Lapsed D — 671"
     ],
     "datasets": [
       {
         "data": [
-          895,
-          822,
-          703,
-          2801,
-          758
+          934,
+          873,
+          273,
+          374,
+          2685,
+          671
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

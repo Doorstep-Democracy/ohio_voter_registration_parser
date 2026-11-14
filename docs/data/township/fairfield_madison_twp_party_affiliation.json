@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 273 (23%)",
-      "UNC – Lapsed R — 177 (15%)",
-      "Mixed – Active — 92 (8%)",
-      "Mixed – Lapsed — 95 (8%)",
-      "UNC – No Primary — 460 (39%)",
-      "UNC – Lapsed D — 67 (6%)",
-      "Pure D — 20 (2%)"
+      "Pure R — 221 (18%)",
+      "UNC – Lapsed R — 240 (20%)",
+      "Mixed – Active — 77 (6%)",
+      "Mixed – Lapsed — 68 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 48 (4%)",
+      "UNC – No Primary — 461 (38%)",
+      "UNC – Lapsed D — 66 (5%)",
+      "Pure D — 22 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          273,
-          177,
-          92,
-          95,
-          460,
-          67,
-          20
+          221,
+          240,
+          77,
+          68,
+          1,
+          48,
+          461,
+          66,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

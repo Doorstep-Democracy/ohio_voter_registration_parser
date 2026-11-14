@@ -4,7 +4,7 @@
   "precinct": "HARRIS 4 (WOODMORE)",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,8 +32,8 @@
         "label": "UNC – Lapsed R",
         "data": [
           9,
-          31,
-          47,
+          30,
+          46,
           28,
           2
         ],
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           4,
           10,
-          12,
+          11,
           8,
           1
         ],
@@ -86,8 +99,8 @@
           1,
           9,
           27,
-          55,
-          53
+          53,
+          57
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          14,
+          15,
           25,
-          13,
-          2
+          14,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 179",
-      "Mixed – Active — 192",
-      "Mixed – Lapsed — 175",
-      "UNC – No Primary — 627",
-      "UNC – Lapsed D — 298"
+      "UNC – Lapsed R — 199",
+      "Mixed – Active — 193",
+      "Mixed – Lapsed — 115",
+      "UNC – Non-partisan Ballot — 69",
+      "UNC – No Primary — 618",
+      "UNC – Lapsed D — 249"
     ],
     "datasets": [
       {
         "data": [
-          179,
-          192,
-          175,
-          627,
-          298
+          199,
+          193,
+          115,
+          69,
+          618,
+          249
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FLORENCE TWP (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

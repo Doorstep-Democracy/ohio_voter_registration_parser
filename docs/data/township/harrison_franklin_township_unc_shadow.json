@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 43",
-      "Mixed – Active — 50",
-      "Mixed – Lapsed — 31",
-      "UNC – No Primary — 116",
-      "UNC – Lapsed D — 36"
+      "UNC – Lapsed R — 57",
+      "Mixed – Active — 41",
+      "Mixed – Lapsed — 30",
+      "UNC – Non-partisan Ballot — 10",
+      "UNC – No Primary — 110",
+      "UNC – Lapsed D — 34"
     ],
     "datasets": [
       {
         "data": [
-          43,
-          50,
-          31,
-          116,
-          36
+          57,
+          41,
+          30,
+          10,
+          110,
+          34
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

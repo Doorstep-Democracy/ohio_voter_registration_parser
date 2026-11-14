@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 999 (14%)",
-      "UNC – Lapsed R — 910 (13%)",
-      "Mixed – Active — 630 (9%)",
-      "Mixed – Lapsed — 588 (8%)",
-      "UNC – No Primary — 2,867 (40%)",
-      "UNC – Lapsed D — 799 (11%)",
-      "Pure D — 343 (5%)"
+      "Pure R — 991 (14%)",
+      "UNC – Lapsed R — 913 (13%)",
+      "Mixed – Active — 628 (9%)",
+      "Mixed – Lapsed — 337 (5%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 247 (3%)",
+      "UNC – No Primary — 2,913 (41%)",
+      "UNC – Lapsed D — 794 (11%)",
+      "Pure D — 340 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          999,
-          910,
-          630,
-          588,
-          2867,
-          799,
-          343
+          991,
+          913,
+          628,
+          337,
+          6,
+          247,
+          2913,
+          794,
+          340
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Rolling Hills Local Sd (Guernsey Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

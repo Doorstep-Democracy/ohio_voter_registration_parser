@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 140",
-      "Mixed – Active — 352",
-      "Mixed – Lapsed — 203",
-      "UNC – No Primary — 932",
-      "UNC – Lapsed D — 384"
+      "UNC – Lapsed R — 132",
+      "Mixed – Active — 423",
+      "Mixed – Lapsed — 95",
+      "UNC – Non-partisan Ballot — 75",
+      "UNC – No Primary — 935",
+      "UNC – Lapsed D — 312"
     ],
     "datasets": [
       {
         "data": [
-          140,
-          352,
-          203,
-          932,
-          384
+          132,
+          423,
+          95,
+          75,
+          935,
+          312
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SHADYSIDE VILLAGE (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

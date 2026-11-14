@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 467 (11%)",
-      "UNC – Lapsed R — 384 (9%)",
-      "Mixed – Active — 674 (15%)",
-      "Mixed – Lapsed — 400 (9%)",
-      "UNC – No Primary — 1,415 (33%)",
+      "Pure R — 462 (11%)",
+      "UNC – Lapsed R — 395 (9%)",
+      "Mixed – Active — 672 (15%)",
+      "Mixed – Lapsed — 297 (7%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 103 (2%)",
+      "UNC – No Primary — 1,450 (33%)",
       "UNC – Lapsed D — 624 (14%)",
-      "Pure D — 389 (9%)"
+      "Pure D — 387 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          467,
-          384,
-          674,
-          400,
-          1415,
+          462,
+          395,
+          672,
+          297,
+          3,
+          103,
+          1450,
           624,
-          389
+          387
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Jackson-Milton Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

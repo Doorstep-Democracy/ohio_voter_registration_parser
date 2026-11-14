@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 276 (15%)",
-      "UNC – Lapsed R — 342 (18%)",
-      "Mixed – Active — 142 (8%)",
+      "Pure R — 275 (14%)",
+      "UNC – Lapsed R — 340 (18%)",
+      "Mixed – Active — 144 (8%)",
       "Mixed – Lapsed — 96 (5%)",
-      "UNC – Non-partisan Ballot — 96 (5%)",
-      "UNC – No Primary — 724 (38%)",
-      "UNC – Lapsed D — 136 (7%)",
-      "Pure D — 76 (4%)"
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 94 (5%)",
+      "UNC – No Primary — 737 (39%)",
+      "UNC – Lapsed D — 135 (7%)",
+      "Pure D — 78 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          276,
-          342,
-          142,
+          275,
+          340,
+          144,
           96,
-          96,
-          724,
-          136,
-          76
+          2,
+          94,
+          737,
+          135,
+          78
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "2ND WARD (CELINA City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 66 (23%)",
+      "Pure R — 69 (24%)",
       "UNC – Lapsed R — 49 (17%)",
-      "Mixed – Active — 37 (13%)",
-      "Mixed – Lapsed — 16 (6%)",
-      "UNC – No Primary — 93 (33%)",
-      "UNC – Lapsed D — 12 (4%)",
-      "Pure D — 12 (4%)"
+      "Mixed – Active — 31 (11%)",
+      "Mixed – Lapsed — 14 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (2%)",
+      "UNC – No Primary — 97 (33%)",
+      "UNC – Lapsed D — 10 (3%)",
+      "Pure D — 15 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          66,
+          69,
           49,
-          37,
-          16,
-          93,
-          12,
-          12
+          31,
+          14,
+          0,
+          6,
+          97,
+          10,
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEW CASTLE TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

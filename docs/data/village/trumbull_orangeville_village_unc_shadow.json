@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 9",
-      "Mixed – Active — 12",
-      "Mixed – Lapsed — 7",
-      "UNC – No Primary — 46",
-      "UNC – Lapsed D — 17"
+      "UNC – Lapsed R — 7",
+      "Mixed – Active — 16",
+      "Mixed – Lapsed — 3",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 47",
+      "UNC – Lapsed D — 14"
     ],
     "datasets": [
       {
         "data": [
-          9,
-          12,
           7,
-          46,
-          17
+          16,
+          3,
+          0,
+          47,
+          14
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ORANGEVILLE VILLAGE (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 7 (58%)",
-      "UNC – Lapsed R — 2 (17%)",
+      "Pure R — 4 (44%)",
+      "UNC – Lapsed R — 3 (33%)",
       "Mixed – Active — 0 (0%)",
       "Mixed – Lapsed — 0 (0%)",
-      "UNC – No Primary — 2 (17%)",
-      "UNC – Lapsed D — 1 (8%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 1 (11%)",
+      "UNC – Lapsed D — 1 (11%)",
       "Pure D — 0 (0%)"
     ],
     "datasets": [
       {
         "data": [
-          7,
-          2,
+          4,
+          3,
           0,
           0,
-          2,
+          0,
+          0,
+          1,
           1,
           0
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BUCKEYE LAKE VILLAGE (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

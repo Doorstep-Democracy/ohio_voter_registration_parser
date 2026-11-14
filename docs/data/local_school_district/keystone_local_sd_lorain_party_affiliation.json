@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,107 (14%)",
-      "UNC – Lapsed R — 915 (12%)",
+      "Pure R — 1,095 (14%)",
+      "UNC – Lapsed R — 913 (12%)",
       "Mixed – Active — 882 (11%)",
-      "Mixed – Lapsed — 841 (11%)",
-      "UNC – No Primary — 2,630 (34%)",
+      "Mixed – Lapsed — 401 (5%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 453 (6%)",
+      "UNC – No Primary — 2,679 (34%)",
       "UNC – Lapsed D — 858 (11%)",
-      "Pure D — 586 (7%)"
+      "Pure D — 580 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1107,
-          915,
+          1095,
+          913,
           882,
-          841,
-          2630,
+          401,
+          13,
+          453,
+          2679,
           858,
-          586
+          580
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Keystone Local Sd (Lorain Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

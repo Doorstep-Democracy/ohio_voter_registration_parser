@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 631 (22%)",
-      "UNC – Lapsed R — 732 (25%)",
-      "Mixed – Active — 143 (5%)",
-      "Mixed – Lapsed — 196 (7%)",
-      "UNC – No Primary — 1,089 (38%)",
+      "Pure R — 629 (21%)",
+      "UNC – Lapsed R — 731 (25%)",
+      "Mixed – Active — 142 (5%)",
+      "Mixed – Lapsed — 101 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 93 (3%)",
+      "UNC – No Primary — 1,122 (38%)",
       "UNC – Lapsed D — 76 (3%)",
       "Pure D — 35 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          631,
-          732,
-          143,
-          196,
-          1089,
+          629,
+          731,
+          142,
+          101,
+          0,
+          93,
+          1122,
           76,
           35
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Fort Recovery Local Sd (Mercer Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

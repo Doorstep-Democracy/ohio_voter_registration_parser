@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,208 (7%)",
-      "UNC – Lapsed R — 1,392 (8%)",
-      "Mixed – Active — 1,723 (10%)",
-      "Mixed – Lapsed — 1,666 (9%)",
-      "UNC – No Primary — 6,927 (38%)",
-      "UNC – Lapsed D — 2,958 (16%)",
-      "Pure D — 2,193 (12%)"
+      "Pure R — 1,265 (7%)",
+      "UNC – Lapsed R — 1,311 (7%)",
+      "Mixed – Active — 1,947 (11%)",
+      "Mixed – Lapsed — 778 (4%)",
+      "Minor Party — 35 (0%)",
+      "UNC – Non-partisan Ballot — 782 (4%)",
+      "UNC – No Primary — 6,317 (35%)",
+      "UNC – Lapsed D — 2,371 (13%)",
+      "Pure D — 3,270 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          1208,
-          1392,
-          1723,
-          1666,
-          6927,
-          2958,
-          2193
+          1265,
+          1311,
+          1947,
+          778,
+          35,
+          782,
+          6317,
+          2371,
+          3270
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SOLON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

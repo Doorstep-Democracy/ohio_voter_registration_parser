@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 152 (30%)",
-      "UNC – Lapsed R — 62 (12%)",
-      "Mixed – Active — 35 (7%)",
-      "Mixed – Lapsed — 23 (4%)",
-      "UNC – No Primary — 199 (39%)",
-      "UNC – Lapsed D — 26 (5%)",
-      "Pure D — 15 (3%)"
+      "Pure R — 143 (28%)",
+      "UNC – Lapsed R — 69 (13%)",
+      "Mixed – Active — 32 (6%)",
+      "Mixed – Lapsed — 10 (2%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 14 (3%)",
+      "UNC – No Primary — 201 (39%)",
+      "UNC – Lapsed D — 28 (5%)",
+      "Pure D — 14 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          152,
-          62,
-          35,
-          23,
-          199,
-          26,
-          15
+          143,
+          69,
+          32,
+          10,
+          2,
+          14,
+          201,
+          28,
+          14
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

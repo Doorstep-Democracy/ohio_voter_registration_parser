@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 385",
-      "Mixed – Active — 209",
-      "Mixed – Lapsed — 146",
-      "UNC – No Primary — 710",
-      "UNC – Lapsed D — 132"
+      "UNC – Lapsed R — 391",
+      "Mixed – Active — 248",
+      "Mixed – Lapsed — 97",
+      "UNC – Non-partisan Ballot — 42",
+      "UNC – No Primary — 678",
+      "UNC – Lapsed D — 116"
     ],
     "datasets": [
       {
         "data": [
-          385,
-          209,
-          146,
-          710,
-          132
+          391,
+          248,
+          97,
+          42,
+          678,
+          116
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "STAUNTON TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

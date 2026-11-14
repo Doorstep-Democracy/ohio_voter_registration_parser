@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WARD",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,9 +31,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          3,
           21,
-          25,
+          26,
           13,
           2
         ],
@@ -60,10 +60,23 @@
           5,
           19,
           18,
-          2,
+          3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           5,
           33,
-          73,
+          75,
           104,
-          99
+          98
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,8 +110,8 @@
         "label": "UNC – Lapsed D",
         "data": [
           18,
-          35,
-          44,
+          34,
+          43,
           15,
           1
         ],

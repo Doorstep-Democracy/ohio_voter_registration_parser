@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,529 (15%)",
-      "UNC – Lapsed R — 4,127 (14%)",
-      "Mixed – Active — 2,831 (9%)",
-      "Mixed – Lapsed — 2,448 (8%)",
-      "UNC – No Primary — 10,420 (35%)",
+      "Pure R — 4,507 (15%)",
+      "UNC – Lapsed R — 4,152 (14%)",
+      "Mixed – Active — 2,795 (9%)",
+      "Mixed – Lapsed — 1,436 (5%)",
+      "Minor Party — 35 (0%)",
+      "UNC – Non-partisan Ballot — 1,012 (3%)",
+      "UNC – No Primary — 10,683 (35%)",
       "UNC – Lapsed D — 3,149 (10%)",
-      "Pure D — 2,499 (8%)"
+      "Pure D — 2,486 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          4529,
-          4127,
-          2831,
-          2448,
-          10420,
+          4507,
+          4152,
+          2795,
+          1436,
+          35,
+          1012,
+          10683,
           3149,
-          2499
+          2486
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Jackson Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

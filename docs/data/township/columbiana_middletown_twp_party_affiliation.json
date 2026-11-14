@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 475 (21%)",
-      "UNC – Lapsed R — 235 (11%)",
-      "Mixed – Active — 231 (10%)",
-      "Mixed – Lapsed — 147 (7%)",
-      "UNC – No Primary — 907 (41%)",
-      "UNC – Lapsed D — 184 (8%)",
-      "Pure D — 54 (2%)"
+      "Pure R — 441 (20%)",
+      "UNC – Lapsed R — 264 (12%)",
+      "Mixed – Active — 216 (10%)",
+      "Mixed – Lapsed — 113 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 41 (2%)",
+      "UNC – No Primary — 902 (41%)",
+      "UNC – Lapsed D — 173 (8%)",
+      "Pure D — 69 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          475,
-          235,
-          231,
-          147,
-          907,
-          184,
-          54
+          441,
+          264,
+          216,
+          113,
+          3,
+          41,
+          902,
+          173,
+          69
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MIDDLETOWN TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

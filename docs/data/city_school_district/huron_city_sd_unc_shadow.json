@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 847",
-      "Mixed – Active — 1,052",
-      "Mixed – Lapsed — 1,002",
-      "UNC – No Primary — 2,299",
-      "UNC – Lapsed D — 1,029"
+      "UNC – Lapsed R — 865",
+      "Mixed – Active — 1,165",
+      "Mixed – Lapsed — 533",
+      "UNC – Non-partisan Ballot — 354",
+      "UNC – No Primary — 2,212",
+      "UNC – Lapsed D — 885"
     ],
     "datasets": [
       {
         "data": [
-          847,
-          1052,
-          1002,
-          2299,
-          1029
+          865,
+          1165,
+          533,
+          354,
+          2212,
+          885
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "HURON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

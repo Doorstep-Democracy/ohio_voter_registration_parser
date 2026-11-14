@@ -4,7 +4,7 @@
   "precinct": "COLS 67-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
-          31,
-          14,
-          22,
+          3,
+          29,
+          15,
+          21,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -45,8 +45,8 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          21,
-          8,
+          22,
+          9,
           10,
           2
         ],
@@ -58,8 +58,8 @@
         "label": "Mixed – Lapsed",
         "data": [
           6,
-          12,
-          5,
+          10,
+          6,
           3,
           0
         ],
@@ -68,13 +68,26 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
           10,
-          24,
-          8,
-          2
+          21,
+          9,
+          1
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           7,
-          70,
-          124,
-          264,
-          220
+          71,
+          127,
+          262,
+          234
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,9 +110,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          49,
+          52,
           36,
-          36,
+          35,
           6
         ],
         "backgroundColor": "#93c5fd",
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          2,
+          1,
+          25,
           26,
-          27,
-          36,
+          35,
           16
         ],
         "backgroundColor": "#3b82f6",

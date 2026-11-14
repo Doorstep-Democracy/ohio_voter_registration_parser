@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 148 (15%)",
-      "UNC – Lapsed R — 215 (21%)",
-      "Mixed – Active — 14 (1%)",
-      "Mixed – Lapsed — 81 (8%)",
-      "UNC – No Primary — 546 (54%)",
-      "UNC – Lapsed D — 9 (1%)",
-      "Pure D — 5 (0%)"
+      "Pure R — 137 (13%)",
+      "UNC – Lapsed R — 232 (22%)",
+      "Mixed – Active — 13 (1%)",
+      "Mixed – Lapsed — 7 (1%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 75 (7%)",
+      "UNC – No Primary — 559 (54%)",
+      "UNC – Lapsed D — 8 (1%)",
+      "Pure D — 6 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          148,
-          215,
-          14,
-          81,
-          546,
-          9,
-          5
+          137,
+          232,
+          13,
+          7,
+          0,
+          75,
+          559,
+          8,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SALTCREEK (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

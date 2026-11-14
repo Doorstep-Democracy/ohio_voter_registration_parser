@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 180 (21%)",
-      "UNC – Lapsed R — 113 (13%)",
-      "Mixed – Active — 81 (10%)",
-      "Mixed – Lapsed — 68 (8%)",
-      "UNC – No Primary — 278 (33%)",
-      "UNC – Lapsed D — 88 (10%)",
-      "Pure D — 34 (4%)"
+      "Pure R — 205 (24%)",
+      "UNC – Lapsed R — 94 (11%)",
+      "Mixed – Active — 91 (11%)",
+      "Mixed – Lapsed — 47 (6%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 265 (32%)",
+      "UNC – Lapsed D — 59 (7%)",
+      "Pure D — 66 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          180,
-          113,
-          81,
-          68,
-          278,
-          88,
-          34
+          205,
+          94,
+          91,
+          47,
+          3,
+          9,
+          265,
+          59,
+          66
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BEDFORD TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

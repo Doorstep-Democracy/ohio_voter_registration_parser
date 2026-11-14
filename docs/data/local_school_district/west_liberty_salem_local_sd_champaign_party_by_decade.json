@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          41,
-          173,
+          2,
+          42,
+          174,
           251,
           242,
-          179,
-          135,
+          178,
+          132,
           55,
-          66
+          60
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          34,
-          61,
-          102,
-          162,
-          142,
+          33,
+          63,
+          101,
+          164,
+          138,
           130,
-          103,
+          102,
           23
         ],
         "backgroundColor": "#fca5a5",
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          6,
-          42,
+          4,
+          43,
           98,
-          87,
+          86,
           56,
-          47,
+          46,
           6,
           2
         ],
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          14,
-          40,
-          39,
-          53,
-          65,
-          47,
-          22,
-          8
+          9,
+          34,
+          26,
+          28,
+          35,
+          23,
+          5,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          7,
+          14,
+          25,
+          29,
+          24,
+          16,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           8,
-          34,
-          56,
-          121,
-          163,
-          226,
-          315,
-          382
+          33,
+          58,
+          122,
+          165,
+          224,
+          317,
+          405
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -101,11 +133,11 @@
           6,
           19,
           32,
-          38,
-          30,
           37,
-          22,
-          4
+          31,
+          38,
+          21,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -116,20 +148,20 @@
           1,
           4,
           18,
-          37,
+          36,
           16,
           14,
           16,
           11,
-          10
+          9
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "West Liberty-Salem Local Sd (Champaign Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

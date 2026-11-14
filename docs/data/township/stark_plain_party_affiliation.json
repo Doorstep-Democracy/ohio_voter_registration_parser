@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,647 (14%)",
-      "UNC – Lapsed R — 2,679 (10%)",
-      "Mixed – Active — 2,549 (10%)",
-      "Mixed – Lapsed — 2,088 (8%)",
-      "UNC – No Primary — 9,107 (35%)",
-      "UNC – Lapsed D — 3,877 (15%)",
-      "Pure D — 2,296 (9%)"
+      "Pure R — 3,727 (14%)",
+      "UNC – Lapsed R — 2,673 (10%)",
+      "Mixed – Active — 2,832 (11%)",
+      "Mixed – Lapsed — 1,152 (4%)",
+      "Minor Party — 37 (0%)",
+      "UNC – Non-partisan Ballot — 860 (3%)",
+      "UNC – No Primary — 8,989 (34%)",
+      "UNC – Lapsed D — 3,331 (13%)",
+      "Pure D — 3,036 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          3647,
-          2679,
-          2549,
-          2088,
-          9107,
-          3877,
-          2296
+          3727,
+          2673,
+          2832,
+          1152,
+          37,
+          860,
+          8989,
+          3331,
+          3036
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PLAIN (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

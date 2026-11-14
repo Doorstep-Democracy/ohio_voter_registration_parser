@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 169 (16%)",
-      "UNC – Lapsed R — 171 (16%)",
-      "Mixed – Active — 56 (5%)",
-      "Mixed – Lapsed — 67 (6%)",
-      "UNC – No Primary — 524 (49%)",
-      "UNC – Lapsed D — 58 (5%)",
-      "Pure D — 14 (1%)"
+      "Pure R — 142 (13%)",
+      "UNC – Lapsed R — 208 (19%)",
+      "Mixed – Active — 58 (5%)",
+      "Mixed – Lapsed — 38 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 23 (2%)",
+      "UNC – No Primary — 522 (49%)",
+      "UNC – Lapsed D — 54 (5%)",
+      "Pure D — 20 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          169,
-          171,
-          56,
-          67,
-          524,
+          142,
+          208,
           58,
-          14
+          38,
+          4,
+          23,
+          522,
+          54,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

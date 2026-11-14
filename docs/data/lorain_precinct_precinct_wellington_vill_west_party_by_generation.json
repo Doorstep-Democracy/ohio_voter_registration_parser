@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WELLINGTON VILL WEST",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,11 +18,11 @@
       {
         "label": "Pure R",
         "data": [
-          8,
-          34,
+          7,
+          33,
           12,
           12,
-          7
+          5
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -32,7 +32,7 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          19,
+          20,
           21,
           19,
           3
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           12,
-          31,
+          30,
           22,
           5,
           0
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           6,
-          9,
+          10,
           9,
           1,
           0
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          3,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
-          7,
-          14,
+          5,
+          11,
           16,
           3
         ],
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          2,
-          35,
-          67,
-          122,
-          114
+          3,
+          37,
+          72,
+          126,
+          122
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           7,
-          29,
+          31,
           24,
-          32,
-          6
+          33,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,7 +123,7 @@
         "label": "Pure D",
         "data": [
           5,
-          16,
+          15,
           11,
           10,
           7

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 66 (16%)",
-      "UNC – Lapsed R — 54 (13%)",
-      "Mixed – Active — 33 (8%)",
-      "Mixed – Lapsed — 32 (8%)",
-      "UNC – No Primary — 181 (44%)",
-      "UNC – Lapsed D — 33 (8%)",
-      "Pure D — 16 (4%)"
+      "Pure R — 76 (18%)",
+      "UNC – Lapsed R — 51 (12%)",
+      "Mixed – Active — 36 (9%)",
+      "Mixed – Lapsed — 19 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 16 (4%)",
+      "UNC – No Primary — 178 (42%)",
+      "UNC – Lapsed D — 25 (6%)",
+      "Pure D — 20 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          66,
-          54,
-          33,
-          32,
-          181,
-          33,
-          16
+          76,
+          51,
+          36,
+          19,
+          0,
+          16,
+          178,
+          25,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BLOOMINGBURG VILLAGE (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

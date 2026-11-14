@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,707 (11%)",
-      "UNC – Lapsed R — 2,937 (12%)",
-      "Mixed – Active — 1,315 (5%)",
-      "Mixed – Lapsed — 1,699 (7%)",
-      "UNC – No Primary — 12,360 (50%)",
-      "UNC – Lapsed D — 2,589 (10%)",
-      "Pure D — 1,058 (4%)"
+      "Pure R — 2,566 (10%)",
+      "UNC – Lapsed R — 3,015 (12%)",
+      "Mixed – Active — 1,332 (5%)",
+      "Mixed – Lapsed — 999 (4%)",
+      "Minor Party — 46 (0%)",
+      "UNC – Non-partisan Ballot — 648 (3%)",
+      "UNC – No Primary — 12,374 (50%)",
+      "UNC – Lapsed D — 2,445 (10%)",
+      "Pure D — 1,473 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2707,
-          2937,
-          1315,
-          1699,
-          12360,
-          2589,
-          1058
+          2566,
+          3015,
+          1332,
+          999,
+          46,
+          648,
+          12374,
+          2445,
+          1473
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BATH (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

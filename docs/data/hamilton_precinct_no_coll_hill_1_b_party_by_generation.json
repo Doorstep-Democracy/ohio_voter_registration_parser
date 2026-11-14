@@ -4,7 +4,7 @@
   "precinct": "NO COLL HILL 1-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,10 +18,10 @@
       {
         "label": "Pure R",
         "data": [
-          4,
+          3,
           22,
           24,
-          9,
+          8,
           3
         ],
         "backgroundColor": "#ef4444",
@@ -34,8 +34,8 @@
           3,
           15,
           23,
-          21,
-          6
+          22,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          27,
+          26,
           12,
           6,
           0
@@ -57,23 +57,36 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
+          1,
           15,
           10,
-          3,
-          0
+          2,
+          2
         ],
         "backgroundColor": "#a78bfa",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          4,
+          3,
           6,
           5,
-          6,
+          5,
           8
         ],
         "backgroundColor": "#c4b5cd",
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          6,
-          59,
-          135,
-          251,
-          191
+          5,
+          60,
+          136,
+          256,
+          209
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           8,
-          52,
-          79,
-          64,
-          6
+          53,
+          76,
+          62,
+          7
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,7 +124,7 @@
         "data": [
           4,
           61,
-          26,
+          25,
           25,
           9
         ],

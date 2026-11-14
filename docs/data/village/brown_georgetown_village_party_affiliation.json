@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 440 (16%)",
-      "UNC – Lapsed R — 266 (10%)",
-      "Mixed – Active — 248 (9%)",
-      "Mixed – Lapsed — 131 (5%)",
-      "UNC – No Primary — 1,250 (47%)",
-      "UNC – Lapsed D — 231 (9%)",
-      "Pure D — 118 (4%)"
+      "Pure R — 529 (19%)",
+      "UNC – Lapsed R — 238 (9%)",
+      "Mixed – Active — 295 (11%)",
+      "Mixed – Lapsed — 80 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 28 (1%)",
+      "UNC – No Primary — 1,220 (45%)",
+      "UNC – Lapsed D — 195 (7%)",
+      "Pure D — 134 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          440,
-          266,
-          248,
-          131,
-          1250,
-          231,
-          118
+          529,
+          238,
+          295,
+          80,
+          3,
+          28,
+          1220,
+          195,
+          134
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GEORGETOWN VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -4,21 +4,19 @@
   "precinct": "PRECINCT ISRAEL TWP 2-TA",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1950s",
       "1960s",
       "1970s",
-      "1990s",
-      "2000s"
+      "1990s"
     ],
     "datasets": [
       {
         "label": "Pure R",
         "data": [
           2,
-          0,
           0,
           0,
           0
@@ -30,7 +28,6 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           0,
           0,
           0,
@@ -46,7 +43,6 @@
           0,
           0,
           0,
-          0,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -59,17 +55,27 @@
           1,
           0,
           0,
-          1,
-          0
+          1
         ],
         "backgroundColor": "#a78bfa",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
           0,
           0,
           0,
@@ -85,8 +91,7 @@
           0,
           1,
           1,
-          0,
-          1
+          0
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -98,7 +103,6 @@
           1,
           0,
           0,
-          0,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -108,7 +112,6 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           0,
           0,
           0,

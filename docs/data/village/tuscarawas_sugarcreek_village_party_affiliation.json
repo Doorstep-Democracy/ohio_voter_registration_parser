@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 258 (17%)",
-      "UNC – Lapsed R — 274 (18%)",
-      "Mixed – Active — 84 (6%)",
-      "Mixed – Lapsed — 128 (9%)",
-      "UNC – No Primary — 589 (40%)",
-      "UNC – Lapsed D — 114 (8%)",
-      "Pure D — 40 (3%)"
+      "Pure R — 229 (15%)",
+      "UNC – Lapsed R — 298 (20%)",
+      "Mixed – Active — 86 (6%)",
+      "Mixed – Lapsed — 60 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 61 (4%)",
+      "UNC – No Primary — 590 (40%)",
+      "UNC – Lapsed D — 100 (7%)",
+      "Pure D — 56 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          258,
-          274,
-          84,
-          128,
-          589,
-          114,
-          40
+          229,
+          298,
+          86,
+          60,
+          3,
+          61,
+          590,
+          100,
+          56
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SUGARCREEK VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

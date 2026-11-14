@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,391",
-      "Mixed – Active — 442",
-      "Mixed – Lapsed — 693",
-      "UNC – No Primary — 4,977",
-      "UNC – Lapsed D — 919"
+      "UNC – Lapsed R — 1,457",
+      "Mixed – Active — 461",
+      "Mixed – Lapsed — 310",
+      "UNC – Non-partisan Ballot — 355",
+      "UNC – No Primary — 4,997",
+      "UNC – Lapsed D — 829"
     ],
     "datasets": [
       {
         "data": [
-          1391,
-          442,
-          693,
-          4977,
-          919
+          1457,
+          461,
+          310,
+          355,
+          4997,
+          829
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LEMON TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

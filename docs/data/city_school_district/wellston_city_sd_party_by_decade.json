@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          28,
-          127,
+          23,
+          115,
           199,
-          182,
-          138,
-          99,
-          55,
-          34
+          175,
+          126,
+          86,
+          35,
+          35
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          15,
-          64,
-          156,
-          173,
-          185,
-          139,
-          84,
-          15
+          1,
+          17,
+          70,
+          159,
+          183,
+          200,
+          157,
+          103,
+          25
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +49,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
-          18,
-          53,
-          132,
-          116,
-          49,
-          28,
+          2,
+          9,
+          52,
+          126,
+          110,
+          51,
+          37,
           8,
           1
         ],
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          11,
-          34,
-          94,
-          88,
-          84,
-          69,
-          12,
-          6
+          2,
+          13,
+          30,
+          91,
+          85,
+          78,
+          52,
+          9,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          2,
+          9,
+          4,
+          11,
+          3,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          5,
-          45,
-          136,
-          238,
-          311,
-          409,
-          573,
-          496
+          4,
+          40,
+          127,
+          231,
+          316,
+          407,
+          570,
+          511
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          23,
-          43,
-          88,
-          96,
-          85,
-          75,
-          40,
-          3
+          0,
+          25,
+          42,
+          78,
+          89,
+          86,
+          72,
+          35,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          7,
-          22,
-          26,
-          11,
-          16,
-          6,
           5,
-          7
+          23,
+          35,
+          17,
+          15,
+          9,
+          13,
+          17
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "WELLSTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

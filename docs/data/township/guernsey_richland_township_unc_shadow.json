@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 173",
-      "Mixed – Active — 128",
-      "Mixed – Lapsed — 121",
-      "UNC – No Primary — 508",
-      "UNC – Lapsed D — 133"
+      "UNC – Lapsed R — 210",
+      "Mixed – Active — 123",
+      "Mixed – Lapsed — 75",
+      "UNC – Non-partisan Ballot — 56",
+      "UNC – No Primary — 507",
+      "UNC – Lapsed D — 137"
     ],
     "datasets": [
       {
         "data": [
-          173,
-          128,
-          121,
-          508,
-          133
+          210,
+          123,
+          75,
+          56,
+          507,
+          137
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

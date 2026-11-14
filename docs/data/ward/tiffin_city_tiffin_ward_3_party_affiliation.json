@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 338 (13%)",
-      "UNC – Lapsed R — 319 (13%)",
-      "Mixed – Active — 252 (10%)",
-      "Mixed – Lapsed — 178 (7%)",
-      "UNC – Non-partisan Ballot — 43 (2%)",
-      "UNC – No Primary — 1,089 (43%)",
+      "Pure R — 339 (13%)",
+      "UNC – Lapsed R — 314 (12%)",
+      "Mixed – Active — 251 (10%)",
+      "Mixed – Lapsed — 181 (7%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 42 (2%)",
+      "UNC – No Primary — 1,120 (43%)",
       "UNC – Lapsed D — 209 (8%)",
-      "Pure D — 119 (5%)"
+      "Pure D — 121 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          338,
-          319,
-          252,
-          178,
-          43,
-          1089,
+          339,
+          314,
+          251,
+          181,
+          6,
+          42,
+          1120,
           209,
-          119
+          121
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "TIFFIN WARD 3 (TIFFIN City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 80 (13%)",
-      "UNC – Lapsed R — 69 (11%)",
-      "Mixed – Active — 60 (10%)",
-      "Mixed – Lapsed — 23 (4%)",
-      "UNC – No Primary — 291 (47%)",
-      "UNC – Lapsed D — 67 (11%)",
-      "Pure D — 26 (4%)"
+      "Pure R — 81 (13%)",
+      "UNC – Lapsed R — 74 (12%)",
+      "Mixed – Active — 58 (9%)",
+      "Mixed – Lapsed — 22 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 296 (47%)",
+      "UNC – Lapsed D — 64 (10%)",
+      "Pure D — 29 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          80,
-          69,
-          60,
-          23,
-          291,
-          67,
-          26
+          81,
+          74,
+          58,
+          22,
+          0,
+          5,
+          296,
+          64,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RARDEN TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

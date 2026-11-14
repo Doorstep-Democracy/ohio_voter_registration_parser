@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 447",
-      "Mixed – Active — 443",
-      "Mixed – Lapsed — 292",
-      "UNC – No Primary — 1,395",
-      "UNC – Lapsed D — 380"
+      "UNC – Lapsed R — 531",
+      "Mixed – Active — 442",
+      "Mixed – Lapsed — 183",
+      "UNC – Non-partisan Ballot — 120",
+      "UNC – No Primary — 1,402",
+      "UNC – Lapsed D — 340"
     ],
     "datasets": [
       {
         "data": [
-          447,
-          443,
-          292,
-          1395,
-          380
+          531,
+          442,
+          183,
+          120,
+          1402,
+          340
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TUSCARAWAS (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

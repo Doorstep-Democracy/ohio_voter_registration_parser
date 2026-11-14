@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 860",
-      "Mixed – Active — 1,076",
-      "Mixed – Lapsed — 1,017",
-      "UNC – No Primary — 2,299",
-      "UNC – Lapsed D — 1,044"
+      "UNC – Lapsed R — 888",
+      "Mixed – Active — 1,186",
+      "Mixed – Lapsed — 546",
+      "UNC – Non-partisan Ballot — 361",
+      "UNC – No Primary — 2,219",
+      "UNC – Lapsed D — 899"
     ],
     "datasets": [
       {
         "data": [
-          860,
-          1076,
-          1017,
-          2299,
-          1044
+          888,
+          1186,
+          546,
+          361,
+          2219,
+          899
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "HURON (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

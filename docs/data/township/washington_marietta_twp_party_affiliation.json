@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 684 (22%)",
-      "UNC – Lapsed R — 310 (10%)",
-      "Mixed – Active — 335 (11%)",
-      "Mixed – Lapsed — 228 (7%)",
-      "UNC – No Primary — 1,121 (36%)",
-      "UNC – Lapsed D — 274 (9%)",
-      "Pure D — 137 (4%)"
+      "Pure R — 705 (23%)",
+      "UNC – Lapsed R — 312 (10%)",
+      "Mixed – Active — 342 (11%)",
+      "Mixed – Lapsed — 120 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 94 (3%)",
+      "UNC – No Primary — 1,103 (36%)",
+      "UNC – Lapsed D — 247 (8%)",
+      "Pure D — 165 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          684,
-          310,
-          335,
-          228,
-          1121,
-          274,
-          137
+          705,
+          312,
+          342,
+          120,
+          6,
+          94,
+          1103,
+          247,
+          165
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARIETTA TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

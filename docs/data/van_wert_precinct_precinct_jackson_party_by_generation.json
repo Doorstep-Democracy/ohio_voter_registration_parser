@@ -4,7 +4,7 @@
   "precinct": "PRECINCT JACKSON",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -34,8 +34,8 @@
           3,
           11,
           19,
-          18,
-          9
+          20,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           0,
-          2,
+          1,
           2,
           0
         ],
@@ -86,8 +99,8 @@
           1,
           10,
           28,
-          52,
-          37
+          53,
+          38
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

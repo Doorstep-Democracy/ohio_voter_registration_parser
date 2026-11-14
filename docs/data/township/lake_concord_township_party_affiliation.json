@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,160 (21%)",
-      "UNC – Lapsed R — 1,673 (11%)",
-      "Mixed – Active — 1,809 (12%)",
-      "Mixed – Lapsed — 1,298 (8%)",
-      "UNC – No Primary — 4,839 (32%)",
-      "UNC – Lapsed D — 1,505 (10%)",
-      "Pure D — 998 (7%)"
+      "Pure R — 2,617 (17%)",
+      "UNC – Lapsed R — 2,238 (15%)",
+      "Mixed – Active — 1,657 (11%)",
+      "Mixed – Lapsed — 973 (6%)",
+      "Minor Party — 40 (0%)",
+      "UNC – Non-partisan Ballot — 535 (3%)",
+      "UNC – No Primary — 4,720 (31%)",
+      "UNC – Lapsed D — 1,526 (10%)",
+      "Pure D — 1,084 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          3160,
-          1673,
-          1809,
-          1298,
-          4839,
-          1505,
-          998
+          2617,
+          2238,
+          1657,
+          973,
+          40,
+          535,
+          4720,
+          1526,
+          1084
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CONCORD TOWNSHIP (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

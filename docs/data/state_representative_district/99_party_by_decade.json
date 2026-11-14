@@ -19,15 +19,15 @@
         "label": "Pure R",
         "data": [
           0,
-          26,
-          499,
-          1906,
-          3373,
-          3028,
-          1693,
-          1194,
-          739,
-          450
+          14,
+          398,
+          1773,
+          3250,
+          2991,
+          1684,
+          1158,
+          744,
+          537
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -36,15 +36,15 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          20,
-          225,
-          698,
-          1232,
-          1939,
-          1751,
-          1320,
-          965,
-          115
+          25,
+          268,
+          781,
+          1381,
+          2043,
+          1870,
+          1448,
+          1056,
+          186
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -53,15 +53,15 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          16,
-          367,
-          1873,
-          3081,
-          2081,
-          969,
-          495,
-          102,
-          18
+          14,
+          310,
+          1767,
+          3078,
+          2151,
+          1011,
+          521,
+          125,
+          25
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -70,32 +70,66 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          20,
-          241,
-          787,
-          1449,
-          1664,
-          1324,
-          1006,
-          426,
-          170
+          15,
+          211,
+          634,
+          970,
+          1087,
+          654,
+          400,
+          84,
+          5
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          5,
+          12,
+          34,
+          32,
+          39,
+          44,
+          29,
+          9
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          55,
+          211,
+          473,
+          565,
+          640,
+          600,
+          317,
+          132
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          19,
-          176,
-          763,
-          1950,
-          3121,
-          3861,
-          5148,
-          6859,
-          6812
+          17,
+          162,
+          736,
+          1853,
+          3006,
+          3780,
+          5041,
+          6772,
+          6957
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -104,15 +138,15 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          45,
-          324,
-          898,
-          1705,
-          1944,
-          1624,
-          1401,
-          877,
-          114
+          38,
+          315,
+          847,
+          1513,
+          1735,
+          1509,
+          1310,
+          831,
+          141
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -122,22 +156,22 @@
         "data": [
           0,
           13,
-          230,
-          977,
-          1598,
-          837,
-          446,
-          314,
-          215,
-          127
+          213,
+          959,
+          1796,
+          1054,
+          573,
+          471,
+          378,
+          278
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "State Representative District",
   "jurisdiction_name": "99",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

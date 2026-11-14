@@ -4,13 +4,14 @@
   "precinct": "COL GROVE CORP",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,12 +20,13 @@
     "datasets": [
       {
         "data": [
-          318,
-          174,
+          317,
+          177,
           127,
           57,
-          33,
-          525,
+          4,
+          31,
+          537,
           70,
           42
         ],
@@ -33,6 +35,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

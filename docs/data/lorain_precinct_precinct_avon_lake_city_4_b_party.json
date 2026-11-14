@@ -4,13 +4,14 @@
   "precinct": "PRECINCT AVON LAKE CITY 4-B",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -20,19 +21,21 @@
       {
         "data": [
           170,
-          123,
+          126,
           130,
-          56,
-          89,
-          315,
+          58,
+          2,
+          90,
+          323,
           110,
-          127
+          129
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

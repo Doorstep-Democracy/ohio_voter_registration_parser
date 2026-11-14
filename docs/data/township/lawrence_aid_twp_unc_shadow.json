@@ -4,32 +4,35 @@
   "chartConfig": {
     "labels": [
       "UNC – Lapsed R — 104",
-      "Mixed – Active — 55",
-      "Mixed – Lapsed — 34",
-      "UNC – No Primary — 165",
-      "UNC – Lapsed D — 33"
+      "Mixed – Active — 56",
+      "Mixed – Lapsed — 36",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 169",
+      "UNC – Lapsed D — 34"
     ],
     "datasets": [
       {
         "data": [
           104,
-          55,
-          34,
-          165,
-          33
+          56,
+          36,
+          0,
+          169,
+          34
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "AID TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

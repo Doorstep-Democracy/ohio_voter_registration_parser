@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          52,
+          48,
           211,
-          432,
-          328,
-          219,
-          166,
+          434,
+          326,
+          216,
+          163,
           74,
-          64
+          62
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          34,
-          90,
-          133,
-          212,
-          211,
-          202,
+          37,
+          88,
           136,
-          22
+          214,
+          211,
+          200,
+          145,
+          23
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          26,
-          152,
-          234,
+          25,
+          151,
+          233,
           183,
           117,
           58,
-          21,
+          18,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          22,
-          72,
-          98,
-          135,
-          156,
-          118,
-          50,
-          28
+          17,
+          56,
+          64,
+          80,
+          73,
+          54,
+          11,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          5,
+          2,
+          1,
+          2,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          10,
+          33,
+          54,
+          80,
+          69,
+          42,
+          26
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          13,
+          14,
           61,
-          162,
+          167,
           267,
-          387,
-          510,
-          688,
-          656
+          390,
+          517,
+          700,
+          706
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          18,
-          68,
-          132,
-          134,
-          154,
-          131,
-          71,
+          17,
+          64,
+          126,
+          129,
+          157,
+          133,
+          73,
           9
         ],
         "backgroundColor": "#93c5fd",
@@ -115,21 +147,21 @@
         "data": [
           3,
           28,
-          86,
-          159,
+          83,
+          158,
           78,
           32,
           39,
-          22,
-          19
+          20,
+          17
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "River Valley Local Sd (Marion Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 111",
-      "Mixed – Active — 109",
-      "Mixed – Lapsed — 68",
-      "UNC – No Primary — 251",
-      "UNC – Lapsed D — 66"
+      "UNC – Lapsed R — 108",
+      "Mixed – Active — 110",
+      "Mixed – Lapsed — 34",
+      "UNC – Non-partisan Ballot — 32",
+      "UNC – No Primary — 249",
+      "UNC – Lapsed D — 56"
     ],
     "datasets": [
       {
         "data": [
-          111,
-          109,
-          68,
-          251,
-          66
+          108,
+          110,
+          34,
+          32,
+          249,
+          56
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FLATROCK TOWNSHIP (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

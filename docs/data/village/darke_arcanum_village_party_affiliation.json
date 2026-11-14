@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 416 (26%)",
-      "UNC – Lapsed R — 247 (15%)",
-      "Mixed – Active — 135 (8%)",
-      "Mixed – Lapsed — 98 (6%)",
-      "UNC – No Primary — 619 (38%)",
-      "UNC – Lapsed D — 72 (4%)",
-      "Pure D — 42 (3%)"
+      "Pure R — 356 (22%)",
+      "UNC – Lapsed R — 321 (20%)",
+      "Mixed – Active — 113 (7%)",
+      "Mixed – Lapsed — 88 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 30 (2%)",
+      "UNC – No Primary — 624 (38%)",
+      "UNC – Lapsed D — 59 (4%)",
+      "Pure D — 53 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          416,
-          247,
-          135,
-          98,
-          619,
-          72,
-          42
+          356,
+          321,
+          113,
+          88,
+          2,
+          30,
+          624,
+          59,
+          53
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ARCANUM VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

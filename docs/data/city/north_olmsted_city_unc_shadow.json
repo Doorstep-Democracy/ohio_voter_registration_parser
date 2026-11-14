@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,858",
-      "Mixed – Active — 2,347",
-      "Mixed – Lapsed — 2,032",
-      "UNC – No Primary — 7,937",
-      "UNC – Lapsed D — 3,005"
+      "UNC – Lapsed R — 1,835",
+      "Mixed – Active — 2,316",
+      "Mixed – Lapsed — 1,156",
+      "UNC – Non-partisan Ballot — 870",
+      "UNC – No Primary — 8,131",
+      "UNC – Lapsed D — 3,002"
     ],
     "datasets": [
       {
         "data": [
-          1858,
-          2347,
-          2032,
-          7937,
-          3005
+          1835,
+          2316,
+          1156,
+          870,
+          8131,
+          3002
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NORTH OLMSTED CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

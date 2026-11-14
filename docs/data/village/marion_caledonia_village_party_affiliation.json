@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 53 (14%)",
-      "UNC – Lapsed R — 27 (7%)",
-      "Mixed – Active — 42 (11%)",
-      "Mixed – Lapsed — 34 (9%)",
-      "UNC – No Primary — 167 (43%)",
-      "UNC – Lapsed D — 47 (12%)",
+      "Pure R — 60 (15%)",
+      "UNC – Lapsed R — 34 (9%)",
+      "Mixed – Active — 49 (12%)",
+      "Mixed – Lapsed — 13 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 19 (5%)",
+      "UNC – No Primary — 163 (41%)",
+      "UNC – Lapsed D — 39 (10%)",
       "Pure D — 16 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          53,
-          27,
-          42,
+          60,
           34,
-          167,
-          47,
+          49,
+          13,
+          1,
+          19,
+          163,
+          39,
           16
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CALEDONIA VILLAGE (Marion Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

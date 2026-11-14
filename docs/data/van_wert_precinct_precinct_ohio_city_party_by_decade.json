@@ -4,7 +4,7 @@
   "precinct": "PRECINCT OHIO CITY",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -36,10 +36,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          3,
           6,
           15,
-          22,
+          21,
           14,
           13,
           5,
@@ -82,11 +82,27 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
           0,
           1,
+          0,
+          4,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
           1,
           2,
           1,
@@ -102,12 +118,12 @@
         "data": [
           0,
           4,
-          12,
-          21,
+          13,
+          20,
           36,
           33,
           40,
-          45
+          47
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -135,7 +151,7 @@
           0,
           2,
           5,
-          5,
+          4,
           1,
           0,
           1,

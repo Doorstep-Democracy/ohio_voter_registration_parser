@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 524 (24%)",
-      "UNC – Lapsed R — 398 (18%)",
-      "Mixed – Active — 166 (8%)",
-      "Mixed – Lapsed — 195 (9%)",
-      "UNC – No Primary — 756 (35%)",
-      "UNC – Lapsed D — 95 (4%)",
-      "Pure D — 52 (2%)"
+      "Pure R — 434 (20%)",
+      "UNC – Lapsed R — 523 (24%)",
+      "Mixed – Active — 151 (7%)",
+      "Mixed – Lapsed — 108 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 96 (4%)",
+      "UNC – No Primary — 744 (34%)",
+      "UNC – Lapsed D — 100 (5%)",
+      "Pure D — 47 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          524,
-          398,
-          166,
-          195,
-          756,
-          95,
-          52
+          434,
+          523,
+          151,
+          108,
+          0,
+          96,
+          744,
+          100,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MINSTER VILLAGE (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

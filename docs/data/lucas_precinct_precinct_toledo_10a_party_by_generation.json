@@ -4,7 +4,7 @@
   "precinct": "PRECINCT TOLEDO 10A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,9 +19,9 @@
         "label": "Pure R",
         "data": [
           7,
-          39,
+          40,
           12,
-          9,
+          7,
           5
         ],
         "backgroundColor": "#ef4444",
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          27,
+          29,
           16,
-          18,
+          17,
           8
         ],
         "backgroundColor": "#fca5a5",
@@ -44,9 +44,9 @@
       {
         "label": "Mixed – Active",
         "data": [
-          10,
+          9,
           28,
-          12,
+          11,
           5,
           0
         ],
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
           6,
           12,
-          3,
+          4,
           4
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           5,
-          57,
-          86,
-          148,
-          141
+          60,
+          87,
+          150,
+          154
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          38,
-          44,
+          39,
+          46,
           34,
-          4
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,7 +124,7 @@
         "data": [
           12,
           37,
-          18,
+          17,
           15,
           12
         ],

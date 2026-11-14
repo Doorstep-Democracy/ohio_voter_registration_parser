@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 780",
-      "Mixed – Active — 536",
-      "Mixed – Lapsed — 535",
-      "UNC – No Primary — 2,150",
-      "UNC – Lapsed D — 691"
+      "UNC – Lapsed R — 819",
+      "Mixed – Active — 530",
+      "Mixed – Lapsed — 278",
+      "UNC – Non-partisan Ballot — 231",
+      "UNC – No Primary — 2,170",
+      "UNC – Lapsed D — 647"
     ],
     "datasets": [
       {
         "data": [
-          780,
-          536,
-          535,
-          2150,
-          691
+          819,
+          530,
+          278,
+          231,
+          2170,
+          647
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

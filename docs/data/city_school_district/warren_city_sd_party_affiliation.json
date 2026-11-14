@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 605 (3%)",
-      "UNC – Lapsed R — 501 (3%)",
-      "Mixed – Active — 1,486 (8%)",
-      "Mixed – Lapsed — 652 (3%)",
-      "UNC – No Primary — 9,605 (49%)",
-      "UNC – Lapsed D — 3,159 (16%)",
-      "Pure D — 3,742 (19%)"
+      "Pure R — 592 (3%)",
+      "UNC – Lapsed R — 572 (3%)",
+      "Mixed – Active — 1,443 (7%)",
+      "Mixed – Lapsed — 454 (2%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 319 (2%)",
+      "UNC – No Primary — 9,755 (49%)",
+      "UNC – Lapsed D — 3,790 (19%)",
+      "Pure D — 3,028 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          605,
-          501,
-          1486,
-          652,
-          9605,
-          3159,
-          3742
+          592,
+          572,
+          1443,
+          454,
+          24,
+          319,
+          9755,
+          3790,
+          3028
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WARREN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

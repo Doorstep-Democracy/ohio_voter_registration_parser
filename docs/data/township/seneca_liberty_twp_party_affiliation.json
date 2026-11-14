@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 266 (20%)",
-      "UNC – Lapsed R — 158 (12%)",
-      "Mixed – Active — 152 (12%)",
-      "Mixed – Lapsed — 87 (7%)",
-      "UNC – No Primary — 498 (38%)",
-      "UNC – Lapsed D — 115 (9%)",
-      "Pure D — 45 (3%)"
+      "UNC – Lapsed R — 167 (13%)",
+      "Mixed – Active — 141 (11%)",
+      "Mixed – Lapsed — 67 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 26 (2%)",
+      "UNC – No Primary — 471 (36%)",
+      "UNC – Lapsed D — 112 (9%)",
+      "Pure D — 59 (5%)"
     ],
     "datasets": [
       {
         "data": [
           266,
-          158,
-          152,
-          87,
-          498,
-          115,
-          45
+          167,
+          141,
+          67,
+          1,
+          26,
+          471,
+          112,
+          59
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

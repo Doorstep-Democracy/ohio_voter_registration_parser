@@ -4,7 +4,7 @@
   "precinct": "GROVE CITY 2-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           13,
-          48,
+          47,
           27,
           11,
           4
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          9,
+          7,
           36,
-          31,
-          19,
+          30,
+          20,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           14,
-          47,
+          45,
           12,
           11,
           1
@@ -58,21 +58,34 @@
         "label": "Mixed – Lapsed",
         "data": [
           6,
-          16,
+          17,
           8,
           3,
-          1
+          2
         ],
         "backgroundColor": "#a78bfa",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          3,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          4,
+          3,
           21,
-          10,
+          9,
           10,
           0
         ],
@@ -85,9 +98,9 @@
         "data": [
           3,
           36,
-          49,
-          115,
-          85
+          48,
+          113,
+          92
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          5,
+          6,
           25,
           14,
           24,
-          3
+          4
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,7 +124,7 @@
         "data": [
           4,
           16,
-          19,
+          17,
           18,
           11
         ],

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 337 (24%)",
-      "UNC – Lapsed R — 222 (16%)",
-      "Mixed – Active — 117 (8%)",
-      "Mixed – Lapsed — 107 (8%)",
-      "UNC – No Primary — 472 (34%)",
-      "UNC – Lapsed D — 95 (7%)",
-      "Pure D — 34 (2%)"
+      "Pure R — 349 (25%)",
+      "UNC – Lapsed R — 215 (15%)",
+      "Mixed – Active — 113 (8%)",
+      "Mixed – Lapsed — 57 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 51 (4%)",
+      "UNC – No Primary — 470 (34%)",
+      "UNC – Lapsed D — 89 (6%)",
+      "Pure D — 50 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          337,
-          222,
-          117,
-          107,
-          472,
-          95,
-          34
+          349,
+          215,
+          113,
+          57,
+          2,
+          51,
+          470,
+          89,
+          50
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BARTLOW TOWNSHIP (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

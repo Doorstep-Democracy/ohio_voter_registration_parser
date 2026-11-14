@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 598",
-      "Mixed – Active — 882",
-      "Mixed – Lapsed — 556",
-      "UNC – No Primary — 2,669",
-      "UNC – Lapsed D — 1,064"
+      "UNC – Lapsed R — 624",
+      "Mixed – Active — 900",
+      "Mixed – Lapsed — 461",
+      "UNC – Non-partisan Ballot — 94",
+      "UNC – No Primary — 2,725",
+      "UNC – Lapsed D — 1,011"
     ],
     "datasets": [
       {
         "data": [
-          598,
-          882,
-          556,
-          2669,
-          1064
+          624,
+          900,
+          461,
+          94,
+          2725,
+          1011
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ISLAND CREEK TWP (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

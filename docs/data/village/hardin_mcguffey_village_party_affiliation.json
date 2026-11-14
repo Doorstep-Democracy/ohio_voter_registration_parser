@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 25 (10%)",
-      "UNC – Lapsed R — 27 (11%)",
-      "Mixed – Active — 13 (5%)",
-      "Mixed – Lapsed — 16 (6%)",
-      "UNC – No Primary — 132 (53%)",
-      "UNC – Lapsed D — 30 (12%)",
-      "Pure D — 5 (2%)"
+      "Pure R — 22 (9%)",
+      "UNC – Lapsed R — 34 (13%)",
+      "Mixed – Active — 10 (4%)",
+      "Mixed – Lapsed — 11 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 9 (4%)",
+      "UNC – No Primary — 130 (51%)",
+      "UNC – Lapsed D — 29 (11%)",
+      "Pure D — 8 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          25,
-          27,
-          13,
-          16,
-          132,
-          30,
-          5
+          22,
+          34,
+          10,
+          11,
+          0,
+          9,
+          130,
+          29,
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MCGUFFEY VILLAGE (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

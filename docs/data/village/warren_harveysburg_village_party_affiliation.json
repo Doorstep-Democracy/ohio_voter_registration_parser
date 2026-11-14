@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 100 (22%)",
-      "UNC – Lapsed R — 70 (15%)",
-      "Mixed – Active — 30 (7%)",
-      "Mixed – Lapsed — 60 (13%)",
-      "UNC – No Primary — 148 (32%)",
-      "UNC – Lapsed D — 31 (7%)",
-      "Pure D — 18 (4%)"
+      "Pure R — 115 (25%)",
+      "UNC – Lapsed R — 68 (15%)",
+      "Mixed – Active — 40 (9%)",
+      "Mixed – Lapsed — 16 (4%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 31 (7%)",
+      "UNC – No Primary — 138 (30%)",
+      "UNC – Lapsed D — 19 (4%)",
+      "Pure D — 27 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          100,
-          70,
-          30,
-          60,
-          148,
+          115,
+          68,
+          40,
+          16,
+          3,
           31,
-          18
+          138,
+          19,
+          27
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HARVEYSBURG VILLAGE (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

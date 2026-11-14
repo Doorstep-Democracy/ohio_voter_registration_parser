@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 109 (18%)",
-      "UNC – Lapsed R — 57 (9%)",
-      "Mixed – Active — 55 (9%)",
-      "Mixed – Lapsed — 45 (7%)",
-      "UNC – No Primary — 208 (34%)",
-      "UNC – Lapsed D — 72 (12%)",
-      "Pure D — 72 (12%)"
+      "Pure R — 96 (15%)",
+      "UNC – Lapsed R — 68 (11%)",
+      "Mixed – Active — 56 (9%)",
+      "Mixed – Lapsed — 22 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 23 (4%)",
+      "UNC – No Primary — 204 (33%)",
+      "UNC – Lapsed D — 75 (12%)",
+      "Pure D — 79 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          109,
-          57,
-          55,
-          45,
-          208,
-          72,
-          72
+          96,
+          68,
+          56,
+          22,
+          0,
+          23,
+          204,
+          75,
+          79
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ALBANY VILLAGE (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

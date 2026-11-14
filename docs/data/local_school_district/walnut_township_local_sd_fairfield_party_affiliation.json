@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 653 (21%)",
+      "Pure R — 646 (20%)",
       "UNC – Lapsed R — 506 (16%)",
-      "Mixed – Active — 244 (8%)",
-      "Mixed – Lapsed — 325 (10%)",
-      "UNC – No Primary — 977 (31%)",
-      "UNC – Lapsed D — 260 (8%)",
-      "Pure D — 168 (5%)"
+      "Mixed – Active — 240 (8%)",
+      "Mixed – Lapsed — 153 (5%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 182 (6%)",
+      "UNC – No Primary — 996 (31%)",
+      "UNC – Lapsed D — 268 (8%)",
+      "Pure D — 163 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          653,
+          646,
           506,
-          244,
-          325,
-          977,
-          260,
-          168
+          240,
+          153,
+          8,
+          182,
+          996,
+          268,
+          163
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Walnut Township Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

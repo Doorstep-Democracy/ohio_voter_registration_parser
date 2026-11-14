@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5 (8%)",
-      "UNC – Lapsed R — 5 (8%)",
-      "Mixed – Active — 2 (3%)",
-      "Mixed – Lapsed — 3 (5%)",
-      "UNC – No Primary — 36 (60%)",
-      "UNC – Lapsed D — 6 (10%)",
-      "Pure D — 3 (5%)"
+      "Pure R — 6 (10%)",
+      "UNC – Lapsed R — 5 (9%)",
+      "Mixed – Active — 5 (9%)",
+      "Mixed – Lapsed — 1 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 32 (55%)",
+      "UNC – Lapsed D — 3 (5%)",
+      "Pure D — 6 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          5,
-          5,
-          2,
-          3,
-          36,
           6,
-          3
+          5,
+          5,
+          1,
+          0,
+          0,
+          32,
+          3,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SCOTT VILLAGE (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

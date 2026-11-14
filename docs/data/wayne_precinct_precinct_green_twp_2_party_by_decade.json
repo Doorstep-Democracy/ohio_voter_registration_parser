@@ -4,7 +4,7 @@
   "precinct": "PRECINCT GREEN TWP 2",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -20,14 +20,14 @@
       {
         "label": "Pure R",
         "data": [
-          11,
+          9,
           32,
           62,
           56,
           60,
           39,
           14,
-          11
+          13
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 3,
@@ -37,12 +37,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           5,
-          18,
+          16,
           19,
           41,
-          45,
+          44,
           51,
-          24,
+          25,
           6
         ],
         "backgroundColor": "#fca5a5",
@@ -74,10 +74,26 @@
           4,
           11,
           7,
-          3,
+          4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -102,12 +118,12 @@
         "data": [
           4,
           9,
-          22,
+          21,
           33,
-          53,
+          52,
           63,
           89,
-          80
+          82
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -138,7 +154,7 @@
           6,
           4,
           4,
-          6,
+          5,
           1
         ],
         "backgroundColor": "#3b82f6",

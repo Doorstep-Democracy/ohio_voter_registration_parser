@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          11,
-          237,
-          921,
-          1381,
-          1335,
-          919,
-          686,
-          436,
-          292
+          8,
+          191,
+          841,
+          1303,
+          1309,
+          864,
+          644,
+          400,
+          289
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          14,
-          100,
-          258,
-          411,
-          549,
-          478,
-          419,
-          441,
-          78
+          13,
+          120,
+          315,
+          461,
+          576,
+          522,
+          451,
+          458,
+          98
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -53,15 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          2,
-          78,
+          68,
+          331,
+          575,
+          459,
           347,
-          560,
-          445,
-          340,
-          260,
-          100,
-          12
+          276,
+          109,
+          23
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          0,
-          45,
-          161,
-          227,
-          278,
-          320,
-          392,
-          261,
-          144
+          1,
+          46,
+          135,
+          158,
+          170,
+          153,
+          114,
+          53,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
+          1,
           3,
-          64,
-          228,
-          597,
-          1106,
-          1425,
-          1860,
-          2841,
-          2302
+          6,
+          5,
+          5,
+          6,
+          11,
+          4
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          8,
+          34,
+          74,
+          105,
+          162,
+          253,
+          183,
+          125
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          3,
+          67,
+          217,
+          588,
+          1067,
+          1440,
+          1886,
+          2861,
+          2451
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
           4,
-          43,
-          146,
-          244,
-          320,
-          323,
-          391,
-          359,
-          48
+          42,
+          134,
+          234,
+          295,
+          317,
+          371,
+          349,
+          54
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          4,
-          20,
-          118,
-          200,
-          117,
-          73,
-          99,
-          86,
-          41
+          3,
+          17,
+          126,
+          221,
+          149,
+          105,
+          134,
+          135,
+          96
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "FINDLAY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

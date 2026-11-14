@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 142 (6%)",
-      "UNC – Lapsed R — 130 (6%)",
-      "Mixed – Active — 122 (5%)",
+      "Pure R — 141 (6%)",
+      "UNC – Lapsed R — 132 (6%)",
+      "Mixed – Active — 121 (5%)",
       "Mixed – Lapsed — 60 (3%)",
-      "UNC – Non-partisan Ballot — 66 (3%)",
-      "UNC – No Primary — 1,398 (61%)",
-      "UNC – Lapsed D — 244 (11%)",
-      "Pure D — 145 (6%)"
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 62 (3%)",
+      "UNC – No Primary — 1,437 (61%)",
+      "UNC – Lapsed D — 239 (10%)",
+      "Pure D — 143 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          142,
-          130,
-          122,
+          141,
+          132,
+          121,
           60,
-          66,
-          1398,
-          244,
-          145
+          6,
+          62,
+          1437,
+          239,
+          143
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "ALLIANCE WARD 1 (ALLIANCE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "MILFORD CENTER",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,8 +18,8 @@
       {
         "label": "Pure R",
         "data": [
-          7,
-          44,
+          5,
+          45,
           37,
           20,
           10
@@ -35,7 +35,7 @@
           11,
           29,
           16,
-          4
+          3
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           3,
           3,
-          6,
+          5,
           3
         ],
         "backgroundColor": "#c4b5cd",
@@ -86,8 +99,8 @@
           1,
           13,
           41,
-          97,
-          72
+          98,
+          76
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           3,
           3,
           9,
-          4,
+          3,
           1
         ],
         "backgroundColor": "#93c5fd",

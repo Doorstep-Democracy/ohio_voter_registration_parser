@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 154 (26%)",
-      "UNC – Lapsed R — 82 (14%)",
-      "Mixed – Active — 68 (11%)",
-      "Mixed – Lapsed — 30 (5%)",
-      "UNC – No Primary — 197 (33%)",
-      "UNC – Lapsed D — 45 (8%)",
-      "Pure D — 18 (3%)"
+      "Pure R — 146 (24%)",
+      "UNC – Lapsed R — 97 (16%)",
+      "Mixed – Active — 67 (11%)",
+      "Mixed – Lapsed — 33 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
+      "UNC – No Primary — 195 (32%)",
+      "UNC – Lapsed D — 48 (8%)",
+      "Pure D — 21 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          154,
-          82,
-          68,
-          30,
-          197,
-          45,
-          18
+          146,
+          97,
+          67,
+          33,
+          0,
+          1,
+          195,
+          48,
+          21
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BLOOM TOWNSHIP (Morgan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

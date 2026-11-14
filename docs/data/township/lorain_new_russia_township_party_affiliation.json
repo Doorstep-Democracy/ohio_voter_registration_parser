@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 207 (12%)",
+      "Pure R — 245 (14%)",
       "UNC – Lapsed R — 153 (9%)",
-      "Mixed – Active — 187 (11%)",
-      "Mixed – Lapsed — 124 (7%)",
-      "UNC – No Primary — 559 (33%)",
-      "UNC – Lapsed D — 248 (15%)",
-      "Pure D — 221 (13%)"
+      "Mixed – Active — 226 (13%)",
+      "Mixed – Lapsed — 61 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 42 (2%)",
+      "UNC – No Primary — 527 (31%)",
+      "UNC – Lapsed D — 228 (13%)",
+      "Pure D — 231 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          207,
+          245,
           153,
-          187,
-          124,
-          559,
-          248,
-          221
+          226,
+          61,
+          5,
+          42,
+          527,
+          228,
+          231
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEW RUSSIA TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

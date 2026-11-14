@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,207 (21%)",
-      "UNC – Lapsed R — 4,063 (16%)",
-      "Mixed – Active — 1,502 (6%)",
-      "Mixed – Lapsed — 1,900 (8%)",
-      "UNC – No Primary — 9,771 (39%)",
-      "UNC – Lapsed D — 1,754 (7%)",
-      "Pure D — 836 (3%)"
+      "Pure R — 5,106 (20%)",
+      "UNC – Lapsed R — 4,365 (17%)",
+      "Mixed – Active — 1,594 (6%)",
+      "Mixed – Lapsed — 1,001 (4%)",
+      "Minor Party — 54 (0%)",
+      "UNC – Non-partisan Ballot — 854 (3%)",
+      "UNC – No Primary — 9,732 (38%)",
+      "UNC – Lapsed D — 1,644 (6%)",
+      "Pure D — 1,104 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          5207,
-          4063,
-          1502,
-          1900,
-          9771,
-          1754,
-          836
+          5106,
+          4365,
+          1594,
+          1001,
+          54,
+          854,
+          9732,
+          1644,
+          1104
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "LEBANON (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

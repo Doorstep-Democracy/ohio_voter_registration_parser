@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 536 (18%)",
-      "UNC – Lapsed R — 396 (13%)",
-      "Mixed – Active — 191 (6%)",
-      "Mixed – Lapsed — 364 (12%)",
-      "UNC – No Primary — 1,082 (36%)",
-      "UNC – Lapsed D — 305 (10%)",
-      "Pure D — 122 (4%)"
+      "Pure R — 540 (18%)",
+      "UNC – Lapsed R — 420 (14%)",
+      "Mixed – Active — 203 (7%)",
+      "Mixed – Lapsed — 89 (3%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 250 (8%)",
+      "UNC – No Primary — 1,061 (35%)",
+      "UNC – Lapsed D — 273 (9%)",
+      "Pure D — 167 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          536,
-          396,
-          191,
-          364,
-          1082,
-          305,
-          122
+          540,
+          420,
+          203,
+          89,
+          9,
+          250,
+          1061,
+          273,
+          167
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Harrisville TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 314 (16%)",
-      "UNC – Lapsed R — 198 (10%)",
-      "Mixed – Active — 256 (13%)",
-      "Mixed – Lapsed — 174 (9%)",
-      "UNC – No Primary — 796 (40%)",
-      "UNC – Lapsed D — 165 (8%)",
-      "Pure D — 83 (4%)"
+      "Pure R — 299 (15%)",
+      "UNC – Lapsed R — 220 (11%)",
+      "Mixed – Active — 240 (12%)",
+      "Mixed – Lapsed — 86 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 92 (5%)",
+      "UNC – No Primary — 779 (39%)",
+      "UNC – Lapsed D — 157 (8%)",
+      "Pure D — 98 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          314,
-          198,
-          256,
-          174,
-          796,
-          165,
-          83
+          299,
+          220,
+          240,
+          86,
+          3,
+          92,
+          779,
+          157,
+          98
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SMITH TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 92 (11%)",
-      "UNC – Lapsed R — 56 (7%)",
-      "Mixed – Active — 40 (5%)",
-      "Mixed – Lapsed — 39 (5%)",
-      "UNC – No Primary — 505 (62%)",
-      "UNC – Lapsed D — 46 (6%)",
-      "Pure D — 34 (4%)"
+      "Pure R — 64 (8%)",
+      "UNC – Lapsed R — 88 (11%)",
+      "Mixed – Active — 35 (4%)",
+      "Mixed – Lapsed — 31 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 15 (2%)",
+      "UNC – No Primary — 499 (61%)",
+      "UNC – Lapsed D — 54 (7%)",
+      "Pure D — 31 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          92,
-          56,
-          40,
-          39,
-          505,
-          46,
-          34
+          64,
+          88,
+          35,
+          31,
+          1,
+          15,
+          499,
+          54,
+          31
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "UNION CITY VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

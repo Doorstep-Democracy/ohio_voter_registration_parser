@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 351 (23%)",
-      "UNC – Lapsed R — 247 (16%)",
-      "Mixed – Active — 99 (6%)",
-      "Mixed – Lapsed — 123 (8%)",
-      "UNC – No Primary — 546 (36%)",
-      "UNC – Lapsed D — 120 (8%)",
-      "Pure D — 52 (3%)"
+      "Pure R — 319 (21%)",
+      "UNC – Lapsed R — 278 (18%)",
+      "Mixed – Active — 90 (6%)",
+      "Mixed – Lapsed — 71 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 61 (4%)",
+      "UNC – No Primary — 538 (35%)",
+      "UNC – Lapsed D — 112 (7%)",
+      "Pure D — 57 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          351,
-          247,
-          99,
-          123,
-          546,
-          120,
-          52
+          319,
+          278,
+          90,
+          71,
+          2,
+          61,
+          538,
+          112,
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

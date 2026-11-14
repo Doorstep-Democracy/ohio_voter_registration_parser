@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 412 (14%)",
-      "UNC – Lapsed R — 163 (5%)",
-      "Mixed – Active — 542 (18%)",
-      "Mixed – Lapsed — 266 (9%)",
-      "UNC – No Primary — 830 (28%)",
-      "UNC – Lapsed D — 391 (13%)",
-      "Pure D — 384 (13%)"
+      "Pure R — 394 (13%)",
+      "UNC – Lapsed R — 189 (6%)",
+      "Mixed – Active — 539 (18%)",
+      "Mixed – Lapsed — 161 (5%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 118 (4%)",
+      "UNC – No Primary — 832 (28%)",
+      "UNC – Lapsed D — 400 (13%)",
+      "Pure D — 353 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          412,
-          163,
-          542,
-          266,
-          830,
-          391,
-          384
+          394,
+          189,
+          539,
+          161,
+          7,
+          118,
+          832,
+          400,
+          353
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VIENNA TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

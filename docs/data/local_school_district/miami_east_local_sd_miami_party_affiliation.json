@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,780 (27%)",
-      "UNC – Lapsed R — 1,106 (17%)",
-      "Mixed – Active — 620 (9%)",
-      "Mixed – Lapsed — 391 (6%)",
-      "UNC – No Primary — 2,099 (32%)",
-      "UNC – Lapsed D — 372 (6%)",
-      "Pure D — 207 (3%)"
+      "Pure R — 1,771 (27%)",
+      "UNC – Lapsed R — 1,098 (17%)",
+      "Mixed – Active — 612 (9%)",
+      "Mixed – Lapsed — 255 (4%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 139 (2%)",
+      "UNC – No Primary — 2,144 (32%)",
+      "UNC – Lapsed D — 366 (6%)",
+      "Pure D — 208 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1780,
-          1106,
-          620,
-          391,
-          2099,
-          372,
-          207
+          1771,
+          1098,
+          612,
+          255,
+          9,
+          139,
+          2144,
+          366,
+          208
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Miami East Local Sd (Miami Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

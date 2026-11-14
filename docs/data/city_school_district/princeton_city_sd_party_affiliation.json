@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,139 (11%)",
-      "UNC – Lapsed R — 3,036 (10%)",
-      "Mixed – Active — 1,612 (6%)",
-      "Mixed – Lapsed — 2,244 (8%)",
-      "UNC – No Primary — 12,130 (41%)",
-      "UNC – Lapsed D — 4,709 (16%)",
-      "Pure D — 2,395 (8%)"
+      "Pure R — 2,907 (10%)",
+      "UNC – Lapsed R — 3,265 (11%)",
+      "Mixed – Active — 1,676 (6%)",
+      "Mixed – Lapsed — 1,130 (4%)",
+      "Minor Party — 51 (0%)",
+      "UNC – Non-partisan Ballot — 951 (3%)",
+      "UNC – No Primary — 12,218 (41%)",
+      "UNC – Lapsed D — 4,147 (14%)",
+      "Pure D — 3,366 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          3139,
-          3036,
-          1612,
-          2244,
-          12130,
-          4709,
-          2395
+          2907,
+          3265,
+          1676,
+          1130,
+          51,
+          951,
+          12218,
+          4147,
+          3366
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "PRINCETON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

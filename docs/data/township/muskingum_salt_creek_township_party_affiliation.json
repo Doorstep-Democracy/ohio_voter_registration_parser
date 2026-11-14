@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 151 (19%)",
-      "UNC – Lapsed R — 124 (15%)",
-      "Mixed – Active — 52 (6%)",
-      "Mixed – Lapsed — 57 (7%)",
-      "UNC – No Primary — 346 (43%)",
-      "UNC – Lapsed D — 66 (8%)",
-      "Pure D — 18 (2%)"
+      "Pure R — 140 (17%)",
+      "UNC – Lapsed R — 133 (16%)",
+      "Mixed – Active — 51 (6%)",
+      "Mixed – Lapsed — 43 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 19 (2%)",
+      "UNC – No Primary — 345 (42%)",
+      "UNC – Lapsed D — 64 (8%)",
+      "Pure D — 24 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          151,
-          124,
-          52,
-          57,
-          346,
-          66,
-          18
+          140,
+          133,
+          51,
+          43,
+          1,
+          19,
+          345,
+          64,
+          24
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SALT CREEK TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

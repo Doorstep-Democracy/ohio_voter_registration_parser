@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 728",
-      "Mixed – Active — 970",
-      "Mixed – Lapsed — 509",
-      "UNC – No Primary — 3,337",
-      "UNC – Lapsed D — 767"
+      "UNC – Lapsed R — 877",
+      "Mixed – Active — 953",
+      "Mixed – Lapsed — 314",
+      "UNC – Non-partisan Ballot — 230",
+      "UNC – No Primary — 3,353",
+      "UNC – Lapsed D — 720"
     ],
     "datasets": [
       {
         "data": [
-          728,
-          970,
-          509,
-          3337,
-          767
+          877,
+          953,
+          314,
+          230,
+          3353,
+          720
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "YAMARICK (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

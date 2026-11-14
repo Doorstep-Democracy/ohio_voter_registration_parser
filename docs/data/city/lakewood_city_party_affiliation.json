@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,394 (4%)",
-      "UNC – Lapsed R — 1,999 (5%)",
-      "Mixed – Active — 2,826 (8%)",
-      "Mixed – Lapsed — 2,378 (7%)",
-      "UNC – No Primary — 14,092 (39%)",
-      "UNC – Lapsed D — 5,747 (16%)",
-      "Pure D — 7,967 (22%)"
+      "Pure R — 1,368 (4%)",
+      "UNC – Lapsed R — 1,977 (5%)",
+      "Mixed – Active — 2,801 (8%)",
+      "Mixed – Lapsed — 1,288 (4%)",
+      "Minor Party — 67 (0%)",
+      "UNC – Non-partisan Ballot — 1,090 (3%)",
+      "UNC – No Primary — 14,525 (40%)",
+      "UNC – Lapsed D — 5,767 (16%)",
+      "Pure D — 7,873 (21%)"
     ],
     "datasets": [
       {
         "data": [
-          1394,
-          1999,
-          2826,
-          2378,
-          14092,
-          5747,
-          7967
+          1368,
+          1977,
+          2801,
+          1288,
+          67,
+          1090,
+          14525,
+          5767,
+          7873
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "LAKEWOOD CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

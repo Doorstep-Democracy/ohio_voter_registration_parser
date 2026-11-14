@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 429 (25%)",
-      "UNC – Lapsed R — 231 (13%)",
-      "Mixed – Active — 125 (7%)",
-      "Mixed – Lapsed — 240 (14%)",
-      "UNC – No Primary — 535 (31%)",
-      "UNC – Lapsed D — 102 (6%)",
-      "Pure D — 56 (3%)"
+      "Pure R — 431 (25%)",
+      "UNC – Lapsed R — 234 (14%)",
+      "Mixed – Active — 141 (8%)",
+      "Mixed – Lapsed — 55 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 158 (9%)",
+      "UNC – No Primary — 527 (31%)",
+      "UNC – Lapsed D — 101 (6%)",
+      "Pure D — 66 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          429,
-          231,
-          125,
-          240,
-          535,
-          102,
-          56
+          431,
+          234,
+          141,
+          55,
+          1,
+          158,
+          527,
+          101,
+          66
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DOVER TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

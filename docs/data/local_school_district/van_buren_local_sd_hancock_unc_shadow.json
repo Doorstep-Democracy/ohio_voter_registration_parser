@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 749",
-      "Mixed – Active — 431",
-      "Mixed – Lapsed — 428",
-      "UNC – No Primary — 1,513",
-      "UNC – Lapsed D — 288"
+      "UNC – Lapsed R — 746",
+      "Mixed – Active — 429",
+      "Mixed – Lapsed — 193",
+      "UNC – Non-partisan Ballot — 229",
+      "UNC – No Primary — 1,538",
+      "UNC – Lapsed D — 290"
     ],
     "datasets": [
       {
         "data": [
-          749,
-          431,
-          428,
-          1513,
-          288
+          746,
+          429,
+          193,
+          229,
+          1538,
+          290
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Van Buren Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

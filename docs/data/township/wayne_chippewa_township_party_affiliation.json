@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,348 (20%)",
-      "UNC – Lapsed R — 748 (11%)",
-      "Mixed – Active — 702 (10%)",
-      "Mixed – Lapsed — 592 (9%)",
-      "UNC – No Primary — 2,371 (35%)",
-      "UNC – Lapsed D — 690 (10%)",
-      "Pure D — 414 (6%)"
+      "Pure R — 1,046 (15%)",
+      "UNC – Lapsed R — 1,060 (15%)",
+      "Mixed – Active — 579 (8%)",
+      "Mixed – Lapsed — 443 (6%)",
+      "Minor Party — 21 (0%)",
+      "UNC – Non-partisan Ballot — 263 (4%)",
+      "UNC – No Primary — 2,361 (34%)",
+      "UNC – Lapsed D — 700 (10%)",
+      "Pure D — 421 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1348,
-          748,
-          702,
-          592,
-          2371,
-          690,
-          414
+          1046,
+          1060,
+          579,
+          443,
+          21,
+          263,
+          2361,
+          700,
+          421
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CHIPPEWA TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

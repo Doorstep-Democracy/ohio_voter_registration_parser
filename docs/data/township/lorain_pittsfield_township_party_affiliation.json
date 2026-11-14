@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 189 (17%)",
-      "UNC – Lapsed R — 118 (10%)",
-      "Mixed – Active — 135 (12%)",
-      "Mixed – Lapsed — 95 (8%)",
-      "UNC – No Primary — 367 (33%)",
-      "UNC – Lapsed D — 121 (11%)",
-      "Pure D — 99 (9%)"
+      "UNC – Lapsed R — 124 (11%)",
+      "Mixed – Active — 149 (13%)",
+      "Mixed – Lapsed — 46 (4%)",
+      "Minor Party — 6 (1%)",
+      "UNC – Non-partisan Ballot — 37 (3%)",
+      "UNC – No Primary — 376 (33%)",
+      "UNC – Lapsed D — 125 (11%)",
+      "Pure D — 91 (8%)"
     ],
     "datasets": [
       {
         "data": [
           189,
-          118,
-          135,
-          95,
-          367,
-          121,
-          99
+          124,
+          149,
+          46,
+          6,
+          37,
+          376,
+          125,
+          91
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PITTSFIELD TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

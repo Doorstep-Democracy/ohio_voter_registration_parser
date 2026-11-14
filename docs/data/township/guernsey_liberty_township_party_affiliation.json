@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 130 (20%)",
-      "UNC – Lapsed R — 73 (11%)",
-      "Mixed – Active — 75 (12%)",
-      "Mixed – Lapsed — 48 (8%)",
-      "UNC – No Primary — 210 (33%)",
-      "UNC – Lapsed D — 79 (12%)",
-      "Pure D — 22 (3%)"
+      "Pure R — 115 (18%)",
+      "UNC – Lapsed R — 90 (14%)",
+      "Mixed – Active — 72 (11%)",
+      "Mixed – Lapsed — 37 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 13 (2%)",
+      "UNC – No Primary — 207 (33%)",
+      "UNC – Lapsed D — 66 (10%)",
+      "Pure D — 31 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          130,
-          73,
-          75,
-          48,
-          210,
-          79,
-          22
+          115,
+          90,
+          72,
+          37,
+          1,
+          13,
+          207,
+          66,
+          31
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

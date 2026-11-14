@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          14,
-          109,
-          236,
-          275,
-          170,
-          134,
+          12,
+          106,
+          235,
+          277,
+          169,
+          135,
           91,
-          40
+          38
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          17,
-          54,
-          116,
-          235,
-          241,
-          220,
-          148,
-          30
+          15,
+          52,
+          119,
+          239,
+          245,
+          221,
+          150,
+          29
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,7 +52,7 @@
           0,
           13,
           47,
-          113,
+          114,
           117,
           79,
           26,
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          10,
-          45,
-          91,
-          127,
-          175,
-          91,
-          54,
-          10
+          7,
+          28,
+          58,
+          73,
+          80,
+          30,
+          5,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          17,
+          33,
+          54,
+          97,
+          64,
+          49,
+          10
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           7,
-          33,
+          34,
           99,
           173,
-          245,
-          363,
-          549,
-          547
+          247,
+          369,
+          559,
+          581
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -102,10 +134,10 @@
           56,
           78,
           101,
-          99,
+          100,
           88,
           35,
-          2
+          4
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           0,
           4,
-          34,
-          62,
-          31,
-          12,
-          17,
-          12,
-          15
+          33,
+          60,
+          30,
+          14,
+          16,
+          13,
+          13
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Amanda-Clearcreek Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

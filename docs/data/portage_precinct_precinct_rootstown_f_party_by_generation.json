@@ -4,7 +4,7 @@
   "precinct": "PRECINCT ROOTSTOWN F",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           8,
-          59,
+          57,
           26,
           23,
           12
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          7,
+          6,
           23,
-          36,
+          35,
           11,
-          6
+          5
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -44,8 +44,8 @@
       {
         "label": "Mixed – Active",
         "data": [
-          16,
-          52,
+          15,
+          51,
           34,
           7,
           0
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          8,
+          7,
           26,
           21,
           9,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           4,
           32,
-          46,
-          86,
-          126
+          48,
+          88,
+          130
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,9 +109,9 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          11,
+          10,
           50,
-          33,
+          35,
           20,
           5
         ],
@@ -111,7 +124,7 @@
         "data": [
           5,
           33,
-          9,
+          10,
           8,
           4
         ],

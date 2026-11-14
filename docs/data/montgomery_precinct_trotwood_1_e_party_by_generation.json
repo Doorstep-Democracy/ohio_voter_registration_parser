@@ -4,7 +4,7 @@
   "precinct": "TROTWOOD 1-E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -33,7 +33,7 @@
         "data": [
           1,
           4,
-          5,
+          6,
           0,
           0
         ],
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
           1,
-          5,
+          4,
           4,
           0
         ],
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          52,
-          96,
-          136,
-          142
+          53,
+          100,
+          141,
+          146
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          29,
+          25,
           103,
-          105,
-          55,
-          11
+          109,
+          57,
+          10
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           29,
-          117,
+          116,
           61,
           30,
-          11
+          10
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

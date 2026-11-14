@@ -4,7 +4,7 @@
   "precinct": "ST CLAIR TWP 1",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,8 +19,8 @@
         "label": "Pure R",
         "data": [
           11,
-          127,
-          67,
+          126,
+          65,
           22,
           7
         ],
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
+          9,
           57,
-          43,
-          39,
-          8
+          44,
+          40,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -44,8 +44,8 @@
       {
         "label": "Mixed – Active",
         "data": [
-          8,
-          44,
+          7,
+          42,
           22,
           4,
           0
@@ -57,7 +57,7 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          4,
+          2,
           18,
           17,
           6,
@@ -68,13 +68,26 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          7,
+          8,
           37,
           35,
           20,
-          11
+          10
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          62,
-          75,
+          63,
+          77,
           112,
-          97
+          105
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           2,
           31,
           14,
-          16,
+          15,
           4
         ],
         "backgroundColor": "#93c5fd",
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          4,
+          3,
           12,
           5,
-          4,
+          5,
           3
         ],
         "backgroundColor": "#3b82f6",

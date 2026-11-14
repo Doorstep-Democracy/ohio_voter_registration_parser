@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,479 (18%)",
-      "UNC – Lapsed R — 1,164 (14%)",
-      "Mixed – Active — 661 (8%)",
-      "Mixed – Lapsed — 777 (9%)",
-      "UNC – No Primary — 3,199 (39%)",
-      "UNC – Lapsed D — 642 (8%)",
-      "Pure D — 340 (4%)"
+      "Pure R — 1,529 (18%)",
+      "UNC – Lapsed R — 1,197 (14%)",
+      "Mixed – Active — 706 (9%)",
+      "Mixed – Lapsed — 296 (4%)",
+      "Minor Party — 20 (0%)",
+      "UNC – Non-partisan Ballot — 415 (5%)",
+      "UNC – No Primary — 3,127 (38%)",
+      "UNC – Lapsed D — 543 (7%)",
+      "Pure D — 463 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1479,
-          1164,
-          661,
-          777,
-          3199,
-          642,
-          340
+          1529,
+          1197,
+          706,
+          296,
+          20,
+          415,
+          3127,
+          543,
+          463
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SHELBY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

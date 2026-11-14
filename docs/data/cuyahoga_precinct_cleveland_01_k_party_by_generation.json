@@ -4,7 +4,7 @@
   "precinct": "CLEVELAND -01-K",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           4,
-          9,
-          11,
+          8,
+          12,
           3
         ],
         "backgroundColor": "#c4b5cd",
@@ -85,9 +98,9 @@
         "data": [
           2,
           51,
-          102,
-          175,
-          138
+          108,
+          182,
+          159
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,8 +111,8 @@
         "data": [
           17,
           73,
-          68,
-          59,
+          70,
+          56,
           3
         ],
         "backgroundColor": "#93c5fd",
@@ -110,8 +123,8 @@
         "label": "Pure D",
         "data": [
           17,
-          74,
-          36,
+          73,
+          35,
           15,
           3
         ],

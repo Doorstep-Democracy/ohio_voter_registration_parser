@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,256",
-      "Mixed – Active — 1,153",
-      "Mixed – Lapsed — 1,308",
-      "UNC – No Primary — 4,231",
+      "UNC – Lapsed R — 1,253",
+      "Mixed – Active — 1,147",
+      "Mixed – Lapsed — 585",
+      "UNC – Non-partisan Ballot — 706",
+      "UNC – No Primary — 4,317",
       "UNC – Lapsed D — 1,322"
     ],
     "datasets": [
       {
         "data": [
-          1256,
-          1153,
-          1308,
-          4231,
+          1253,
+          1147,
+          585,
+          706,
+          4317,
           1322
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Madison Local Sd (Lake Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

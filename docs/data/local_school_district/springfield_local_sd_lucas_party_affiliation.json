@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,126 (10%)",
-      "UNC – Lapsed R — 1,982 (9%)",
-      "Mixed – Active — 1,353 (6%)",
-      "Mixed – Lapsed — 1,889 (9%)",
-      "UNC – No Primary — 8,884 (42%)",
-      "UNC – Lapsed D — 2,813 (13%)",
-      "Pure D — 2,345 (11%)"
+      "Pure R — 2,124 (10%)",
+      "UNC – Lapsed R — 1,972 (9%)",
+      "Mixed – Active — 1,338 (6%)",
+      "Mixed – Lapsed — 783 (4%)",
+      "Minor Party — 73 (0%)",
+      "UNC – Non-partisan Ballot — 1,063 (5%)",
+      "UNC – No Primary — 9,150 (42%)",
+      "UNC – Lapsed D — 2,796 (13%)",
+      "Pure D — 2,336 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          2126,
-          1982,
-          1353,
-          1889,
-          8884,
-          2813,
-          2345
+          2124,
+          1972,
+          1338,
+          783,
+          73,
+          1063,
+          9150,
+          2796,
+          2336
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Springfield Local Sd (Lucas Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 25 (13%)",
-      "UNC – Lapsed R — 22 (11%)",
-      "Mixed – Active — 21 (11%)",
-      "Mixed – Lapsed — 17 (9%)",
-      "UNC – No Primary — 85 (43%)",
-      "UNC – Lapsed D — 26 (13%)",
-      "Pure D — 2 (1%)"
+      "Pure R — 23 (12%)",
+      "UNC – Lapsed R — 26 (13%)",
+      "Mixed – Active — 20 (10%)",
+      "Mixed – Lapsed — 14 (7%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 5 (3%)",
+      "UNC – No Primary — 79 (41%)",
+      "UNC – Lapsed D — 22 (11%)",
+      "Pure D — 3 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          25,
-          22,
-          21,
-          17,
-          85,
+          23,
           26,
-          2
+          20,
+          14,
+          1,
+          5,
+          79,
+          22,
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PORT JEFFERSON VILLAGE (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

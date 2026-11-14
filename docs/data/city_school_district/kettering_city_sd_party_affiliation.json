@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,169 (13%)",
-      "UNC – Lapsed R — 4,802 (12%)",
-      "Mixed – Active — 3,366 (8%)",
-      "Mixed – Lapsed — 2,779 (7%)",
-      "UNC – No Primary — 16,839 (41%)",
-      "UNC – Lapsed D — 4,617 (11%)",
-      "Pure D — 3,476 (8%)"
+      "Pure R — 5,445 (13%)",
+      "UNC – Lapsed R — 4,562 (11%)",
+      "Mixed – Active — 3,830 (9%)",
+      "Mixed – Lapsed — 1,636 (4%)",
+      "Minor Party — 154 (0%)",
+      "UNC – Non-partisan Ballot — 1,059 (3%)",
+      "UNC – No Primary — 15,943 (38%)",
+      "UNC – Lapsed D — 3,943 (10%)",
+      "Pure D — 4,920 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          5169,
-          4802,
-          3366,
-          2779,
-          16839,
-          4617,
-          3476
+          5445,
+          4562,
+          3830,
+          1636,
+          154,
+          1059,
+          15943,
+          3943,
+          4920
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "KETTERING CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

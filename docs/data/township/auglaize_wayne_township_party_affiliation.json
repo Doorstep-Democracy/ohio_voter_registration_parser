@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 255 (25%)",
-      "UNC – Lapsed R — 150 (15%)",
-      "Mixed – Active — 59 (6%)",
-      "Mixed – Lapsed — 55 (5%)",
-      "UNC – No Primary — 415 (41%)",
-      "UNC – Lapsed D — 52 (5%)",
-      "Pure D — 21 (2%)"
+      "Pure R — 213 (21%)",
+      "UNC – Lapsed R — 193 (19%)",
+      "Mixed – Active — 52 (5%)",
+      "Mixed – Lapsed — 24 (2%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 39 (4%)",
+      "UNC – No Primary — 417 (41%)",
+      "UNC – Lapsed D — 56 (6%)",
+      "Pure D — 17 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          255,
-          150,
-          59,
-          55,
-          415,
+          213,
+          193,
           52,
-          21
+          24,
+          2,
+          39,
+          417,
+          56,
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

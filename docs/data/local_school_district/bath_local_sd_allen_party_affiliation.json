@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,841 (26%)",
-      "UNC – Lapsed R — 782 (11%)",
-      "Mixed – Active — 494 (7%)",
-      "Mixed – Lapsed — 462 (7%)",
-      "UNC – No Primary — 2,778 (40%)",
-      "UNC – Lapsed D — 365 (5%)",
-      "Pure D — 308 (4%)"
+      "Pure R — 1,823 (26%)",
+      "UNC – Lapsed R — 781 (11%)",
+      "Mixed – Active — 491 (7%)",
+      "Mixed – Lapsed — 180 (3%)",
+      "Minor Party — 16 (0%)",
+      "UNC – Non-partisan Ballot — 279 (4%)",
+      "UNC – No Primary — 2,833 (40%)",
+      "UNC – Lapsed D — 370 (5%)",
+      "Pure D — 302 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1841,
-          782,
-          494,
-          462,
-          2778,
-          365,
-          308
+          1823,
+          781,
+          491,
+          180,
+          16,
+          279,
+          2833,
+          370,
+          302
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Bath Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

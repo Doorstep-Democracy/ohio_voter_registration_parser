@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 348 (29%)",
-      "UNC – Lapsed R — 138 (11%)",
-      "Mixed – Active — 139 (12%)",
-      "Mixed – Lapsed — 72 (6%)",
-      "UNC – No Primary — 351 (29%)",
-      "UNC – Lapsed D — 90 (7%)",
-      "Pure D — 70 (6%)"
+      "Pure R — 332 (27%)",
+      "UNC – Lapsed R — 158 (13%)",
+      "Mixed – Active — 148 (12%)",
+      "Mixed – Lapsed — 39 (3%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 31 (3%)",
+      "UNC – No Primary — 342 (28%)",
+      "UNC – Lapsed D — 86 (7%)",
+      "Pure D — 76 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          348,
-          138,
-          139,
-          72,
-          351,
-          90,
-          70
+          332,
+          158,
+          148,
+          39,
+          6,
+          31,
+          342,
+          86,
+          76
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MC KEAN TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 417 (29%)",
-      "UNC – Lapsed R — 196 (14%)",
-      "Mixed – Active — 122 (9%)",
-      "Mixed – Lapsed — 93 (7%)",
-      "UNC – No Primary — 440 (31%)",
-      "UNC – Lapsed D — 86 (6%)",
-      "Pure D — 61 (4%)"
+      "Pure R — 400 (28%)",
+      "UNC – Lapsed R — 222 (16%)",
+      "Mixed – Active — 121 (9%)",
+      "Mixed – Lapsed — 40 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 55 (4%)",
+      "UNC – No Primary — 422 (30%)",
+      "UNC – Lapsed D — 76 (5%)",
+      "Pure D — 84 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          417,
-          196,
-          122,
-          93,
-          440,
-          86,
-          61
+          400,
+          222,
+          121,
+          40,
+          1,
+          55,
+          422,
+          76,
+          84
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BELLVILLE VILLAGE (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

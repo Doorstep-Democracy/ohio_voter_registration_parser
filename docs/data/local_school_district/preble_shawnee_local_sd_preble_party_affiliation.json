@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,191 (20%)",
+      "Pure R — 1,180 (19%)",
       "UNC – Lapsed R — 1,048 (17%)",
-      "Mixed – Active — 531 (9%)",
-      "Mixed – Lapsed — 707 (12%)",
-      "UNC – No Primary — 1,989 (33%)",
-      "UNC – Lapsed D — 431 (7%)",
+      "Mixed – Active — 529 (9%)",
+      "Mixed – Lapsed — 357 (6%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 347 (6%)",
+      "UNC – No Primary — 2,039 (33%)",
+      "UNC – Lapsed D — 435 (7%)",
       "Pure D — 174 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1191,
+          1180,
           1048,
-          531,
-          707,
-          1989,
-          431,
+          529,
+          357,
+          13,
+          347,
+          2039,
+          435,
           174
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Preble Shawnee Local Sd (Preble Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

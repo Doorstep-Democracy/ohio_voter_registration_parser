@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 92 (19%)",
-      "UNC – Lapsed R — 47 (10%)",
-      "Mixed – Active — 59 (12%)",
-      "Mixed – Lapsed — 32 (7%)",
-      "UNC – No Primary — 172 (36%)",
-      "UNC – Lapsed D — 45 (9%)",
-      "Pure D — 30 (6%)"
+      "Pure R — 93 (19%)",
+      "UNC – Lapsed R — 52 (11%)",
+      "Mixed – Active — 60 (12%)",
+      "Mixed – Lapsed — 16 (3%)",
+      "Minor Party — 4 (1%)",
+      "UNC – Non-partisan Ballot — 11 (2%)",
+      "UNC – No Primary — 168 (35%)",
+      "UNC – Lapsed D — 46 (10%)",
+      "Pure D — 32 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          92,
-          47,
-          59,
-          32,
-          172,
-          45,
-          30
+          93,
+          52,
+          60,
+          16,
+          4,
+          11,
+          168,
+          46,
+          32
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DORSET TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

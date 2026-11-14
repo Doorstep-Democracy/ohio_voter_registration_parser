@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
           6,
           77,
-          345,
-          700,
-          564,
+          343,
+          699,
+          563,
           241,
           151,
-          115,
-          77
+          114,
+          78
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          5,
-          93,
-          212,
-          387,
-          596,
-          458,
-          389,
-          310,
-          29
+          4,
+          92,
+          210,
+          380,
+          595,
+          461,
+          390,
+          305,
+          30
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,14 +49,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           4,
-          112,
-          471,
-          875,
-          498,
-          210,
-          122,
+          107,
+          466,
+          870,
+          496,
+          209,
+          120,
           44,
           2
         ],
@@ -69,33 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          7,
-          77,
-          248,
-          458,
-          637,
-          533,
-          438,
-          233,
-          30
+          4,
+          58,
+          167,
+          324,
+          365,
+          194,
+          161,
+          52,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
           2,
+          4,
+          9,
+          9,
+          10,
+          6,
+          3,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          19,
+          79,
+          131,
+          266,
+          335,
+          274,
+          175,
+          33
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          2,
           48,
-          198,
-          434,
-          652,
-          842,
-          1353,
-          1923,
-          1696
+          202,
+          438,
+          656,
+          855,
+          1378,
+          1939,
+          1798
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          14,
+          12,
           80,
-          224,
-          415,
-          502,
-          424,
-          459,
-          279,
-          54
+          221,
+          414,
+          498,
+          427,
+          475,
+          289,
+          57
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          4,
-          73,
-          338,
-          553,
-          326,
-          242,
+          3,
+          71,
+          335,
+          551,
+          323,
+          243,
           235,
-          193,
-          126
+          194,
+          123
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NORTH ROYALTON CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

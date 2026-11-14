@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,689 (25%)",
-      "UNC – Lapsed R — 1,095 (16%)",
-      "Mixed – Active — 561 (8%)",
-      "Mixed – Lapsed — 459 (7%)",
-      "UNC – No Primary — 2,258 (34%)",
-      "UNC – Lapsed D — 426 (6%)",
-      "Pure D — 184 (3%)"
+      "Pure R — 1,698 (25%)",
+      "UNC – Lapsed R — 1,118 (17%)",
+      "Mixed – Active — 572 (9%)",
+      "Mixed – Lapsed — 242 (4%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 209 (3%)",
+      "UNC – No Primary — 2,224 (33%)",
+      "UNC – Lapsed D — 406 (6%)",
+      "Pure D — 229 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1689,
-          1095,
-          561,
-          459,
-          2258,
-          426,
-          184
+          1698,
+          1118,
+          572,
+          242,
+          9,
+          209,
+          2224,
+          406,
+          229
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

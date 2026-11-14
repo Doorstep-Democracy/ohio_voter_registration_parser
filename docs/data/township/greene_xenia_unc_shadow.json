@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 558",
-      "Mixed – Active — 320",
-      "Mixed – Lapsed — 289",
-      "UNC – No Primary — 1,673",
-      "UNC – Lapsed D — 321"
+      "UNC – Lapsed R — 569",
+      "Mixed – Active — 353",
+      "Mixed – Lapsed — 137",
+      "UNC – Non-partisan Ballot — 120",
+      "UNC – No Primary — 1,280",
+      "UNC – Lapsed D — 270"
     ],
     "datasets": [
       {
         "data": [
-          558,
-          320,
-          289,
-          1673,
-          321
+          569,
+          353,
+          137,
+          120,
+          1280,
+          270
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "XENIA (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

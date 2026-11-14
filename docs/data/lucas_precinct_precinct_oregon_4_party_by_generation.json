@@ -4,7 +4,7 @@
   "precinct": "PRECINCT OREGON 4",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           9,
-          60,
+          58,
           14,
           4,
           2
@@ -32,8 +32,8 @@
         "label": "UNC – Lapsed R",
         "data": [
           12,
-          22,
-          29,
+          25,
+          30,
           9,
           2
         ],
@@ -44,9 +44,9 @@
       {
         "label": "Mixed – Active",
         "data": [
-          14,
-          32,
-          12,
+          13,
+          33,
+          13,
           3,
           1
         ],
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           7,
-          20,
+          19,
           15,
           3,
           0
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
           7,
           12,
-          5,
+          4,
           2
         ],
         "backgroundColor": "#c4b5cd",
@@ -86,8 +99,8 @@
           3,
           39,
           49,
-          61,
-          83
+          64,
+          88
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           21,
-          38,
+          37,
           40,
           17,
-          4
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,7 +123,7 @@
         "label": "Pure D",
         "data": [
           16,
-          78,
+          76,
           17,
           9,
           5

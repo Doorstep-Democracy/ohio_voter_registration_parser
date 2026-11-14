@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 8,044",
-      "Mixed – Active — 2,587",
-      "Mixed – Lapsed — 3,883",
-      "UNC – No Primary — 18,480",
-      "UNC – Lapsed D — 3,812"
+      "UNC – Lapsed R — 8,020",
+      "Mixed – Active — 2,568",
+      "Mixed – Lapsed — 1,877",
+      "UNC – Non-partisan Ballot — 1,959",
+      "UNC – No Primary — 18,900",
+      "UNC – Lapsed D — 3,817"
     ],
     "datasets": [
       {
         "data": [
-          8044,
-          2587,
-          3883,
-          18480,
-          3812
+          8020,
+          2568,
+          1877,
+          1959,
+          18900,
+          3817
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GREEN TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

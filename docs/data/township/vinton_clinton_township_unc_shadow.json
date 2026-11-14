@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 119",
-      "Mixed – Active — 114",
-      "Mixed – Lapsed — 44",
-      "UNC – No Primary — 470",
+      "UNC – Lapsed R — 120",
+      "Mixed – Active — 120",
+      "Mixed – Lapsed — 41",
+      "UNC – Non-partisan Ballot — 1",
+      "UNC – No Primary — 473",
       "UNC – Lapsed D — 108"
     ],
     "datasets": [
       {
         "data": [
-          119,
-          114,
-          44,
-          470,
+          120,
+          120,
+          41,
+          1,
+          473,
           108
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CLINTON TOWNSHIP (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

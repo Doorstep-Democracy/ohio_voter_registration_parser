@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,946 (21%)",
-      "UNC – Lapsed R — 1,151 (13%)",
-      "Mixed – Active — 1,091 (12%)",
-      "Mixed – Lapsed — 933 (10%)",
-      "UNC – No Primary — 2,516 (28%)",
-      "UNC – Lapsed D — 919 (10%)",
-      "Pure D — 544 (6%)"
+      "Pure R — 1,922 (21%)",
+      "UNC – Lapsed R — 1,227 (13%)",
+      "Mixed – Active — 1,122 (12%)",
+      "Mixed – Lapsed — 522 (6%)",
+      "Minor Party — 16 (0%)",
+      "UNC – Non-partisan Ballot — 388 (4%)",
+      "UNC – No Primary — 2,503 (27%)",
+      "UNC – Lapsed D — 843 (9%)",
+      "Pure D — 633 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1946,
-          1151,
-          1091,
-          933,
-          2516,
-          919,
-          544
+          1922,
+          1227,
+          1122,
+          522,
+          16,
+          388,
+          2503,
+          843,
+          633
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MOOREFIELD TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

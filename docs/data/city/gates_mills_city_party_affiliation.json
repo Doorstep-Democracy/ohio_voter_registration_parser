@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 241 (12%)",
+      "Pure R — 236 (12%)",
       "UNC – Lapsed R — 311 (15%)",
       "Mixed – Active — 201 (10%)",
-      "Mixed – Lapsed — 192 (9%)",
-      "UNC – No Primary — 700 (34%)",
-      "UNC – Lapsed D — 221 (11%)",
-      "Pure D — 169 (8%)"
+      "Mixed – Lapsed — 148 (7%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 47 (2%)",
+      "UNC – No Primary — 713 (35%)",
+      "UNC – Lapsed D — 212 (10%)",
+      "Pure D — 167 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          241,
+          236,
           311,
           201,
-          192,
-          700,
-          221,
-          169
+          148,
+          2,
+          47,
+          713,
+          212,
+          167
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "GATES MILLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

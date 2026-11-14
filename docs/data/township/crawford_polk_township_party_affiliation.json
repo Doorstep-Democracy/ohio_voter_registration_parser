@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 294 (20%)",
-      "UNC – Lapsed R — 234 (16%)",
-      "Mixed – Active — 93 (6%)",
-      "Mixed – Lapsed — 154 (11%)",
-      "UNC – No Primary — 493 (34%)",
-      "UNC – Lapsed D — 126 (9%)",
-      "Pure D — 64 (4%)"
+      "Pure R — 262 (18%)",
+      "UNC – Lapsed R — 270 (19%)",
+      "Mixed – Active — 84 (6%)",
+      "Mixed – Lapsed — 50 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 109 (8%)",
+      "UNC – No Primary — 477 (33%)",
+      "UNC – Lapsed D — 117 (8%)",
+      "Pure D — 68 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          294,
-          234,
-          93,
-          154,
-          493,
-          126,
-          64
+          262,
+          270,
+          84,
+          50,
+          0,
+          109,
+          477,
+          117,
+          68
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "POLK TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

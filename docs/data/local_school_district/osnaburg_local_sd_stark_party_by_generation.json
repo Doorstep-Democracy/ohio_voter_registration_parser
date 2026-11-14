@@ -13,9 +13,9 @@
       {
         "label": "Pure R",
         "data": [
-          69,
-          237,
-          129,
+          66,
+          238,
+          130,
           69,
           18
         ],
@@ -25,11 +25,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          42,
+          37,
           124,
-          133,
-          114,
-          22
+          135,
+          116,
+          21
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -38,8 +38,8 @@
         "label": "Mixed – Active",
         "data": [
           41,
-          200,
-          81,
+          197,
+          83,
           22,
           0
         ],
@@ -49,23 +49,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          13,
+          65,
+          47,
           16,
-          91,
-          72,
-          54,
-          13
+          3
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          2,
+          3,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          26,
+          26,
+          36,
+          11
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          24,
-          158,
-          273,
-          460,
-          438
+          25,
+          154,
+          276,
+          467,
+          448
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -73,10 +97,10 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          35,
-          139,
-          139,
-          66,
+          34,
+          141,
+          138,
+          65,
           11
         ],
         "backgroundColor": "#93c5fd",
@@ -89,15 +113,15 @@
           151,
           51,
           20,
-          17
+          13
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Osnaburg Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

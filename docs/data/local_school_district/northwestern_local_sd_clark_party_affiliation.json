@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,731 (23%)",
-      "UNC – Lapsed R — 1,012 (13%)",
-      "Mixed – Active — 783 (10%)",
-      "Mixed – Lapsed — 548 (7%)",
-      "UNC – No Primary — 2,529 (33%)",
-      "UNC – Lapsed D — 560 (7%)",
-      "Pure D — 406 (5%)"
+      "Pure R — 1,720 (23%)",
+      "UNC – Lapsed R — 1,009 (13%)",
+      "Mixed – Active — 778 (10%)",
+      "Mixed – Lapsed — 326 (4%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 210 (3%)",
+      "UNC – No Primary — 2,592 (34%)",
+      "UNC – Lapsed D — 557 (7%)",
+      "Pure D — 402 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1731,
-          1012,
-          783,
-          548,
-          2529,
-          560,
-          406
+          1720,
+          1009,
+          778,
+          326,
+          15,
+          210,
+          2592,
+          557,
+          402
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Northwestern Local Sd (Clark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

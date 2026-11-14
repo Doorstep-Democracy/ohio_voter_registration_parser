@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 30 (14%)",
-      "UNC – Lapsed R — 18 (8%)",
-      "Mixed – Active — 19 (9%)",
-      "Mixed – Lapsed — 7 (3%)",
-      "UNC – No Primary — 99 (46%)",
-      "UNC – Lapsed D — 24 (11%)",
-      "Pure D — 17 (8%)"
+      "Pure R — 26 (13%)",
+      "UNC – Lapsed R — 20 (10%)",
+      "Mixed – Active — 17 (8%)",
+      "Mixed – Lapsed — 6 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 3 (1%)",
+      "UNC – No Primary — 94 (45%)",
+      "UNC – Lapsed D — 22 (11%)",
+      "Pure D — 19 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          30,
-          18,
-          19,
-          7,
-          99,
-          24,
-          17
+          26,
+          20,
+          17,
+          6,
+          0,
+          3,
+          94,
+          22,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WASHINGTONVILLE VILLAGE (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

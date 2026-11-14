@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 214 (27%)",
-      "UNC – Lapsed R — 132 (17%)",
-      "Mixed – Active — 53 (7%)",
-      "Mixed – Lapsed — 78 (10%)",
+      "Pure R — 178 (23%)",
+      "UNC – Lapsed R — 171 (22%)",
+      "Mixed – Active — 49 (6%)",
+      "Mixed – Lapsed — 37 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 45 (6%)",
       "UNC – No Primary — 244 (31%)",
-      "UNC – Lapsed D — 39 (5%)",
+      "UNC – Lapsed D — 38 (5%)",
       "Pure D — 23 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          214,
-          132,
-          53,
-          78,
+          178,
+          171,
+          49,
+          37,
+          2,
+          45,
           244,
-          39,
+          38,
           23
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CENTER TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

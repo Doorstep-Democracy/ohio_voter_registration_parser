@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 61 (26%)",
-      "UNC – Lapsed R — 22 (9%)",
-      "Mixed – Active — 25 (11%)",
-      "Mixed – Lapsed — 26 (11%)",
-      "UNC – No Primary — 87 (37%)",
-      "UNC – Lapsed D — 13 (5%)",
-      "Pure D — 4 (2%)"
+      "Pure R — 58 (24%)",
+      "UNC – Lapsed R — 28 (11%)",
+      "Mixed – Active — 23 (9%)",
+      "Mixed – Lapsed — 17 (7%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 10 (4%)",
+      "UNC – No Primary — 92 (38%)",
+      "UNC – Lapsed D — 10 (4%)",
+      "Pure D — 6 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          61,
-          22,
-          25,
-          26,
-          87,
-          13,
-          4
+          58,
+          28,
+          23,
+          17,
+          0,
+          10,
+          92,
+          10,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HOLMESVILLE VILLAGE (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

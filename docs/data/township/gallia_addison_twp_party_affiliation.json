@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 298 (22%)",
-      "UNC – Lapsed R — 144 (11%)",
-      "Mixed – Active — 151 (11%)",
-      "Mixed – Lapsed — 63 (5%)",
-      "UNC – No Primary — 548 (41%)",
-      "UNC – Lapsed D — 84 (6%)",
-      "Pure D — 48 (4%)"
+      "Pure R — 309 (23%)",
+      "UNC – Lapsed R — 150 (11%)",
+      "Mixed – Active — 157 (12%)",
+      "Mixed – Lapsed — 56 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 6 (0%)",
+      "UNC – No Primary — 528 (40%)",
+      "UNC – Lapsed D — 90 (7%)",
+      "Pure D — 39 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          298,
-          144,
-          151,
-          63,
-          548,
-          84,
-          48
+          309,
+          150,
+          157,
+          56,
+          1,
+          6,
+          528,
+          90,
+          39
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADDISON TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

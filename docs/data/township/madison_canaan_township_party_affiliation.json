@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 344 (21%)",
-      "UNC – Lapsed R — 313 (19%)",
-      "Mixed – Active — 76 (5%)",
-      "Mixed – Lapsed — 186 (11%)",
-      "UNC – No Primary — 584 (36%)",
-      "UNC – Lapsed D — 102 (6%)",
-      "Pure D — 25 (2%)"
+      "Pure R — 387 (23%)",
+      "UNC – Lapsed R — 279 (17%)",
+      "Mixed – Active — 106 (6%)",
+      "Mixed – Lapsed — 57 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 102 (6%)",
+      "UNC – No Primary — 579 (35%)",
+      "UNC – Lapsed D — 88 (5%)",
+      "Pure D — 54 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          344,
-          313,
-          76,
-          186,
-          584,
+          387,
+          279,
+          106,
+          57,
+          3,
           102,
-          25
+          579,
+          88,
+          54
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CANAAN TOWNSHIP (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

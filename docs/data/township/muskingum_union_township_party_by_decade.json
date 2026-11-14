@@ -17,14 +17,14 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          22,
-          75,
-          95,
-          102,
+          1,
+          12,
           64,
-          64,
-          20,
+          80,
+          96,
+          58,
+          50,
+          21,
           15
         ],
         "backgroundColor": "#ef4444",
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          8,
-          26,
-          54,
-          66,
-          66,
-          60,
-          39,
-          7
+          16,
+          32,
+          70,
+          72,
+          76,
+          78,
+          41,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          7,
-          39,
-          53,
-          33,
-          25,
-          11,
-          3,
-          0
+          6,
+          40,
+          55,
+          36,
+          28,
+          8,
+          5,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          3,
-          28,
-          27,
-          42,
-          47,
-          49,
+          1,
           24,
-          9
+          18,
+          21,
+          17,
+          20,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          7,
+          8,
+          20,
+          30,
+          32,
+          19,
+          9
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          3,
-          15,
-          42,
-          79,
-          87,
-          115,
-          195,
-          195
+          2,
+          12,
+          40,
+          73,
+          81,
+          110,
+          191,
+          205
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +131,13 @@
         "data": [
           0,
           6,
+          19,
+          34,
+          47,
+          33,
+          27,
           20,
-          43,
-          53,
-          39,
-          29,
-          26,
-          5
+          7
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          3,
-          17,
-          27,
-          15,
-          8,
-          3,
           2,
-          3
+          16,
+          31,
+          25,
+          14,
+          7,
+          9,
+          9
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

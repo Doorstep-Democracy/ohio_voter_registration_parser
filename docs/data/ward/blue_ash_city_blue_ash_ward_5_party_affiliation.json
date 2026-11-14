@@ -3,25 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 202 (10%)",
-      "UNC – Lapsed R — 262 (13%)",
-      "Mixed – Active — 165 (8%)",
-      "Mixed – Lapsed — 131 (7%)",
-      "UNC – Non-partisan Ballot — 56 (3%)",
-      "UNC – No Primary — 732 (36%)",
-      "UNC – Lapsed D — 257 (13%)",
+      "Pure R — 198 (10%)",
+      "UNC – Lapsed R — 265 (13%)",
+      "Mixed – Active — 163 (8%)",
+      "Mixed – Lapsed — 130 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 55 (3%)",
+      "UNC – No Primary — 742 (37%)",
+      "UNC – Lapsed D — 252 (13%)",
       "Pure D — 203 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          202,
-          262,
-          165,
-          131,
-          56,
-          732,
-          257,
+          198,
+          265,
+          163,
+          130,
+          1,
+          55,
+          742,
+          252,
           203
         ],
         "backgroundColor": [
@@ -29,6 +31,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "BLUE ASH WARD 5 (BLUE ASH City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

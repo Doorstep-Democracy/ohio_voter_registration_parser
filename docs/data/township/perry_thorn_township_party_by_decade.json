@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          21,
-          104,
-          195,
-          196,
-          145,
-          132,
-          53,
-          34
+          17,
+          101,
+          186,
+          186,
+          118,
+          94,
+          50,
+          36
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          8,
-          23,
-          75,
-          101,
-          89,
-          48,
-          34,
-          8
+          11,
+          27,
+          84,
+          118,
+          122,
+          88,
+          38,
+          13
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          8,
-          61,
-          92,
-          94,
-          49,
-          40,
           7,
+          61,
+          91,
+          87,
+          34,
+          31,
+          6,
           1
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          3,
-          25,
-          52,
-          50,
-          43,
-          25,
-          9,
-          5
+          4,
+          17,
+          38,
+          38,
+          38,
+          20,
+          2,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          6,
+          12,
+          20,
+          21,
+          14,
+          5,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          8,
-          29,
-          80,
-          132,
-          134,
-          170,
-          208,
-          237
+          7,
+          26,
+          78,
+          127,
+          133,
+          165,
+          211,
+          254
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
+          3,
           7,
           24,
-          38,
-          44,
-          50,
-          42,
-          15,
-          2
+          37,
+          48,
+          51,
+          53,
+          18,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
-          7,
-          32,
+          0,
+          6,
+          30,
           68,
-          26,
-          21,
-          24,
-          7,
-          5
+          25,
+          18,
+          12,
+          8,
+          6
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "THORN TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 109 (25%)",
-      "UNC – Lapsed R — 51 (12%)",
-      "Mixed – Active — 41 (9%)",
-      "Mixed – Lapsed — 26 (6%)",
-      "UNC – No Primary — 164 (38%)",
-      "UNC – Lapsed D — 35 (8%)",
-      "Pure D — 11 (3%)"
+      "Pure R — 117 (27%)",
+      "UNC – Lapsed R — 53 (12%)",
+      "Mixed – Active — 42 (10%)",
+      "Mixed – Lapsed — 17 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 10 (2%)",
+      "UNC – No Primary — 150 (35%)",
+      "UNC – Lapsed D — 28 (6%)",
+      "Pure D — 17 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          109,
-          51,
-          41,
-          26,
-          164,
-          35,
-          11
+          117,
+          53,
+          42,
+          17,
+          0,
+          10,
+          150,
+          28,
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

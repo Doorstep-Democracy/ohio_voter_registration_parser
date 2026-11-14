@@ -4,7 +4,7 @@
   "precinct": "PRECINCT BDM 29",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           8,
-          30,
+          31,
           12,
           5,
           5
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
-          21,
+          9,
+          22,
           13,
           12,
-          4
+          3
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -44,9 +44,9 @@
       {
         "label": "Mixed – Active",
         "data": [
-          28,
+          26,
           69,
-          25,
+          26,
           6,
           1
         ],
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          13,
+          12,
           27,
           16,
           6,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           7,
           41,
-          42,
-          54,
-          58
+          44,
+          55,
+          61
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,8 +109,8 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          19,
-          47,
+          16,
+          46,
           36,
           13,
           3
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          19,
-          59,
+          18,
+          58,
           14,
-          12,
+          13,
           6
         ],
         "backgroundColor": "#3b82f6",

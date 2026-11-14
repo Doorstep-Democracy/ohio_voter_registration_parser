@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,238 (12%)",
-      "UNC – Lapsed R — 3,151 (11%)",
-      "Mixed – Active — 2,156 (8%)",
-      "Mixed – Lapsed — 2,759 (10%)",
-      "UNC – No Primary — 10,910 (40%)",
-      "UNC – Lapsed D — 3,102 (11%)",
-      "Pure D — 2,234 (8%)"
+      "Pure R — 2,994 (11%)",
+      "UNC – Lapsed R — 3,284 (12%)",
+      "Mixed – Active — 2,450 (9%)",
+      "Mixed – Lapsed — 1,271 (5%)",
+      "Minor Party — 54 (0%)",
+      "UNC – Non-partisan Ballot — 1,096 (4%)",
+      "UNC – No Primary — 10,759 (38%)",
+      "UNC – Lapsed D — 2,765 (10%)",
+      "Pure D — 3,341 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          3238,
-          3151,
-          2156,
-          2759,
-          10910,
-          3102,
-          2234
+          2994,
+          3284,
+          2450,
+          1271,
+          54,
+          1096,
+          10759,
+          2765,
+          3341
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "HILLIARD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

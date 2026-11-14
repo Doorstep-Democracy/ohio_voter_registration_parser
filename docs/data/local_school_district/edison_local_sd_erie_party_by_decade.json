@@ -19,12 +19,12 @@
         "data": [
           0,
           28,
-          130,
-          231,
+          127,
+          230,
           199,
-          137,
+          135,
           76,
-          47,
+          46,
           39
         ],
         "backgroundColor": "#ef4444",
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           5,
-          22,
-          82,
+          21,
+          77,
           99,
-          185,
-          144,
-          106,
-          72,
+          186,
+          148,
+          105,
+          70,
           10
         ],
         "backgroundColor": "#fca5a5",
@@ -49,11 +49,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
+          1,
           18,
-          104,
-          243,
-          120,
+          98,
+          240,
+          118,
           73,
           41,
           7,
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          21,
-          87,
-          125,
-          173,
-          134,
-          111,
-          54,
-          27
+          0,
+          15,
+          55,
+          67,
+          86,
+          58,
+          31,
+          9,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          7,
+          4,
+          7,
+          2,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          4,
+          30,
+          55,
+          86,
+          73,
+          80,
+          45,
+          26
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          11,
-          55,
-          150,
-          247,
-          267,
-          421,
-          519,
-          515
+          13,
+          56,
+          149,
+          250,
+          271,
+          420,
+          522,
+          549
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          26,
-          72,
-          136,
-          147,
+          24,
+          71,
+          133,
+          149,
           113,
-          130,
+          129,
           84,
-          14
+          13
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -116,20 +148,20 @@
           0,
           15,
           72,
-          143,
-          102,
+          140,
+          100,
           41,
-          24,
-          29,
-          15
+          23,
+          27,
+          14
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Edison Local Sd (Erie Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

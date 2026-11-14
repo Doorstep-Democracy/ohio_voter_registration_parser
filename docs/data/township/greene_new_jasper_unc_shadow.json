@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 301",
-      "Mixed – Active — 166",
-      "Mixed – Lapsed — 116",
-      "UNC – No Primary — 572",
-      "UNC – Lapsed D — 85"
+      "UNC – Lapsed R — 304",
+      "Mixed – Active — 179",
+      "Mixed – Lapsed — 68",
+      "UNC – Non-partisan Ballot — 42",
+      "UNC – No Primary — 561",
+      "UNC – Lapsed D — 72"
     ],
     "datasets": [
       {
         "data": [
-          301,
-          166,
-          116,
-          572,
-          85
+          304,
+          179,
+          68,
+          42,
+          561,
+          72
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NEW JASPER (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

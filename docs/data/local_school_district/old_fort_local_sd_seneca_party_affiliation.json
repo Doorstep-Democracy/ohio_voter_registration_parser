@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 505 (24%)",
-      "UNC – Lapsed R — 284 (13%)",
-      "Mixed – Active — 229 (11%)",
-      "Mixed – Lapsed — 147 (7%)",
-      "UNC – No Primary — 710 (34%)",
-      "UNC – Lapsed D — 159 (8%)",
-      "Pure D — 75 (4%)"
+      "Pure R — 503 (24%)",
+      "UNC – Lapsed R — 286 (14%)",
+      "Mixed – Active — 228 (11%)",
+      "Mixed – Lapsed — 101 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 44 (2%)",
+      "UNC – No Primary — 716 (34%)",
+      "UNC – Lapsed D — 158 (7%)",
+      "Pure D — 74 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          505,
-          284,
-          229,
-          147,
-          710,
-          159,
-          75
+          503,
+          286,
+          228,
+          101,
+          1,
+          44,
+          716,
+          158,
+          74
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Old Fort Local Sd (Seneca Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

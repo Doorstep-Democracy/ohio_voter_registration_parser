@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,337",
-      "Mixed – Active — 547",
-      "Mixed – Lapsed — 789",
-      "UNC – No Primary — 2,582",
-      "UNC – Lapsed D — 820"
+      "UNC – Lapsed R — 1,490",
+      "Mixed – Active — 511",
+      "Mixed – Lapsed — 361",
+      "UNC – Non-partisan Ballot — 453",
+      "UNC – No Primary — 2,637",
+      "UNC – Lapsed D — 781"
     ],
     "datasets": [
       {
         "data": [
-          1337,
-          547,
-          789,
-          2582,
-          820
+          1490,
+          511,
+          361,
+          453,
+          2637,
+          781
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BLOOM TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 947 (19%)",
-      "UNC – Lapsed R — 488 (10%)",
-      "Mixed – Active — 633 (13%)",
-      "Mixed – Lapsed — 410 (8%)",
-      "UNC – No Primary — 1,563 (32%)",
-      "UNC – Lapsed D — 573 (12%)",
-      "Pure D — 266 (5%)"
+      "Pure R — 871 (18%)",
+      "UNC – Lapsed R — 570 (12%)",
+      "Mixed – Active — 611 (12%)",
+      "Mixed – Lapsed — 347 (7%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 91 (2%)",
+      "UNC – No Primary — 1,560 (32%)",
+      "UNC – Lapsed D — 555 (11%)",
+      "Pure D — 322 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          947,
-          488,
-          633,
-          410,
-          1563,
-          573,
-          266
+          871,
+          570,
+          611,
+          347,
+          4,
+          91,
+          1560,
+          555,
+          322
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "COLUMBIANA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

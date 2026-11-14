@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 184 (5%)",
-      "UNC – Lapsed R — 357 (10%)",
-      "Mixed – Active — 136 (4%)",
-      "Mixed – Lapsed — 127 (4%)",
-      "UNC – Non-partisan Ballot — 103 (3%)",
-      "UNC – No Primary — 1,904 (53%)",
-      "UNC – Lapsed D — 468 (13%)",
-      "Pure D — 283 (8%)"
+      "Pure R — 183 (5%)",
+      "UNC – Lapsed R — 352 (10%)",
+      "Mixed – Active — 134 (4%)",
+      "Mixed – Lapsed — 128 (4%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 102 (3%)",
+      "UNC – No Primary — 1,971 (54%)",
+      "UNC – Lapsed D — 475 (13%)",
+      "Pure D — 284 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          184,
-          357,
-          136,
-          127,
-          103,
-          1904,
-          468,
-          283
+          183,
+          352,
+          134,
+          128,
+          8,
+          102,
+          1971,
+          475,
+          284
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "NORWOOD WARD 3 (NORWOOD City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

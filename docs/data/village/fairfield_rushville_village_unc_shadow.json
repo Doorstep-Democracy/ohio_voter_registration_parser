@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 30",
-      "Mixed – Active — 10",
-      "Mixed – Lapsed — 13",
-      "UNC – No Primary — 66",
-      "UNC – Lapsed D — 17"
+      "UNC – Lapsed R — 36",
+      "Mixed – Active — 9",
+      "Mixed – Lapsed — 11",
+      "UNC – Non-partisan Ballot — 2",
+      "UNC – No Primary — 65",
+      "UNC – Lapsed D — 15"
     ],
     "datasets": [
       {
         "data": [
-          30,
-          10,
-          13,
-          66,
-          17
+          36,
+          9,
+          11,
+          2,
+          65,
+          15
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "RUSHVILLE VILLAGE (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

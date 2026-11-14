@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,436 (6%)",
-      "UNC – Lapsed R — 1,348 (6%)",
-      "Mixed – Active — 2,940 (12%)",
-      "Mixed – Lapsed — 1,661 (7%)",
-      "UNC – No Primary — 8,754 (37%)",
-      "UNC – Lapsed D — 4,514 (19%)",
-      "Pure D — 3,290 (14%)"
+      "Pure R — 1,425 (6%)",
+      "UNC – Lapsed R — 1,361 (6%)",
+      "Mixed – Active — 2,915 (12%)",
+      "Mixed – Lapsed — 1,375 (6%)",
+      "Minor Party — 32 (0%)",
+      "UNC – Non-partisan Ballot — 267 (1%)",
+      "UNC – No Primary — 9,003 (37%)",
+      "UNC – Lapsed D — 4,492 (19%)",
+      "Pure D — 3,267 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          1436,
-          1348,
-          2940,
-          1661,
-          8754,
-          4514,
-          3290
+          1425,
+          1361,
+          2915,
+          1375,
+          32,
+          267,
+          9003,
+          4492,
+          3267
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Austintown Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 105",
-      "Mixed – Active — 33",
-      "Mixed – Lapsed — 45",
-      "UNC – No Primary — 340",
+      "UNC – Lapsed R — 116",
+      "Mixed – Active — 45",
+      "Mixed – Lapsed — 24",
+      "UNC – Non-partisan Ballot — 6",
+      "UNC – No Primary — 331",
       "UNC – Lapsed D — 34"
     ],
     "datasets": [
       {
         "data": [
-          105,
-          33,
+          116,
           45,
-          340,
+          24,
+          6,
+          331,
           34
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "CONVOY VILLAGE (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

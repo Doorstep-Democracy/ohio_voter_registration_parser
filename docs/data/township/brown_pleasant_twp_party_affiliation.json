@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 622 (18%)",
-      "UNC – Lapsed R — 357 (10%)",
-      "Mixed – Active — 394 (11%)",
-      "Mixed – Lapsed — 180 (5%)",
-      "UNC – No Primary — 1,514 (43%)",
-      "UNC – Lapsed D — 313 (9%)",
-      "Pure D — 164 (5%)"
+      "Pure R — 739 (21%)",
+      "UNC – Lapsed R — 318 (9%)",
+      "Mixed – Active — 456 (13%)",
+      "Mixed – Lapsed — 111 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 37 (1%)",
+      "UNC – No Primary — 1,460 (41%)",
+      "UNC – Lapsed D — 258 (7%)",
+      "Pure D — 189 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          622,
-          357,
-          394,
-          180,
-          1514,
-          313,
-          164
+          739,
+          318,
+          456,
+          111,
+          3,
+          37,
+          1460,
+          258,
+          189
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

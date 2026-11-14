@@ -4,7 +4,7 @@
   "precinct": "TIFFIN WEST",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -21,7 +21,7 @@
           19,
           85,
           59,
-          68,
+          67,
           20
         ],
         "backgroundColor": "#ef4444",
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
-          21,
+          3,
+          20,
           11,
-          11,
+          12,
           3
         ],
         "backgroundColor": "#fca5a5",
@@ -44,8 +44,8 @@
       {
         "label": "Mixed – Active",
         "data": [
-          11,
-          41,
+          10,
+          43,
           25,
           13,
           0
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          6,
+          2,
+          8,
           10,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,9 +97,9 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          44,
-          61,
-          64,
+          43,
+          62,
+          66,
           81
         ],
         "backgroundColor": "#9ca3af",
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           7,
-          10,
           11,
+          12,
           7,
-          0
+          1
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

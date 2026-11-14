@@ -17,13 +17,13 @@
         "label": "Pure R",
         "data": [
           2,
+          13,
           12,
-          16,
-          19,
+          17,
+          14,
           11,
-          10,
-          9,
-          0
+          8,
+          1
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,13 +31,13 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
-          11,
-          5,
-          9,
-          10,
           4,
-          5,
+          9,
+          7,
+          12,
+          9,
+          4,
+          8,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -47,9 +47,9 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          5,
+          6,
           11,
-          5,
+          4,
           5,
           3,
           0,
@@ -62,15 +62,45 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          5,
-          5,
           4,
-          11,
-          9,
-          8,
-          1
+          3,
+          1,
+          1,
+          1,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          3,
+          8,
+          7,
+          7,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,12 +108,12 @@
         "data": [
           1,
           3,
-          11,
+          12,
           15,
-          14,
+          13,
           21,
-          47,
-          22
+          49,
+          28
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,11 +122,11 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          5,
-          10,
+          4,
+          8,
           3,
           5,
-          4,
+          5,
           4,
           0
         ],
@@ -108,10 +138,10 @@
         "data": [
           1,
           4,
-          6,
+          8,
           2,
           1,
-          2,
+          3,
           3,
           0
         ],
@@ -120,8 +150,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SPENCER VILLAGE (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

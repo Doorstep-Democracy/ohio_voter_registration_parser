@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,034 (12%)",
-      "UNC – Lapsed R — 874 (10%)",
-      "Mixed – Active — 945 (11%)",
-      "Mixed – Lapsed — 954 (11%)",
-      "UNC – No Primary — 3,167 (35%)",
-      "UNC – Lapsed D — 1,387 (15%)",
-      "Pure D — 595 (7%)"
+      "Pure R — 987 (11%)",
+      "UNC – Lapsed R — 965 (11%)",
+      "Mixed – Active — 972 (11%)",
+      "Mixed – Lapsed — 529 (6%)",
+      "Minor Party — 31 (0%)",
+      "UNC – Non-partisan Ballot — 402 (4%)",
+      "UNC – No Primary — 3,159 (35%)",
+      "UNC – Lapsed D — 1,273 (14%)",
+      "Pure D — 734 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1034,
-          874,
-          945,
-          954,
-          3167,
-          1387,
-          595
+          987,
+          965,
+          972,
+          529,
+          31,
+          402,
+          3159,
+          1273,
+          734
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "VERMILLION (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

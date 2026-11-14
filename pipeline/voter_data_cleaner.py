@@ -1,6 +1,6 @@
 """
-voter_data_cleaner_v2.py
-════════════════════════
+voter_data_cleaner.py
+═════════════════════
 Voter data cleaner, analyser, and exporter for the Ohio Secretary of State
 statewide voter file format (SWVF_*.txt, 135 columns, ~7.9M rows across 4 files).
 
@@ -64,18 +64,19 @@ try:
     import orjson as _orjson
 except ImportError:
     _orjson = None
-try:
-    import psutil as _psutil
-    _psutil_proc = _psutil.Process()
-except ImportError:
-    _psutil = None
-    _psutil_proc = None
+# psutil is a declared dependency and a hard import: stage memory lines are
+# the evidence for OPEN-001, and must fail loudly rather than go missing.
+import psutil as _psutil
+_psutil_proc = _psutil.Process()
+import hashlib
 import logging
+import os
+import platform
 import re
 import sys
 import time
 from datetime import date as date_t
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import polars as pl                  # fast columnar processing — replaces pandas for analysis
@@ -87,16 +88,32 @@ import xlsxwriter                    # noqa: F401 — imported for engine availa
 # Paths and constants
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Derive BASE_DIR from the location of this script so the repo works
-# regardless of where it is cloned or what OS it runs on.
-BASE_DIR     = Path(__file__).resolve().parent.parent
-DOCS_DIR     = BASE_DIR / "docs"
-DATA_DIR     = DOCS_DIR / "data"
-LOGS_DIR     = BASE_DIR / "local" / "logs"  # PATCH: Rerouted to local/ workspace
-PARQUET_DIR          = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
-PARQUET_ENRICHED_DIR = BASE_DIR / "local" / "source" / "parquet_enriched"  # PATCH: Rerouted to local/ workspace
+# Every managed location comes from the single resolver, pipeline/paths.py
+# (CLAUDE.md section 5). The names stay module globals here so callers and
+# tests that read or patch e.g. `voter_data_cleaner.ENRICHED_CACHE` keep working.
+# pipeline/ goes on sys.path so the bare sibling import resolves whether this
+# module is loaded as `voter_data_cleaner` or `pipeline.voter_data_cleaner`.
+_PIPELINE_DIR = str(Path(__file__).resolve().parent)
+if _PIPELINE_DIR not in sys.path:
+    sys.path.insert(0, _PIPELINE_DIR)
+from paths import (  # noqa: E402,F401
+    BASE_DIR,
+    DATA_DIR,
+    DOCS_DIR,
+    ENRICHED_CACHE,
+    LOGS_DIR,
+    OUTPUT_ENV_VAR,
+    OUTPUT_OVERRIDDEN,
+    PARQUET_DIR,
+    PARQUET_ENRICHED_DIR,
+    PARTITION_GLOB,
+    PARTITION_KEY,
+    county_partition,
+    expected_partitions,
+    parquet_glob,
+)
+import memory_budget  # noqa: E402  (sibling module; preflight before heavy loads)
 PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
-ENRICHED_CACHE       = PARQUET_ENRICHED_DIR / "enriched_voters.parquet"
 CLASSIFIER_SRC       = Path(__file__)
 
 # Voter frequency thresholds (fraction of eligible elections in which voter participated).
@@ -151,17 +168,39 @@ MANIFEST_PATH = BASE_DIR / 'download_manifest.json'
 
 
 
-def _cache_is_fresh() -> bool:
-    """Return True iff enriched cache is newer than raw partitions AND classifier."""
+def _fmt_mtime(ts: float) -> str:
+    """Render an mtime for logs: local time to the second."""
+    return datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+
+
+def _cache_is_fresh(logger: logging.Logger | None = None) -> bool:
+    """Return True iff enriched cache is newer than raw partitions AND classifier.
+
+    Single freshness resolver for the enriched cache (jurisdictional_groupings
+    calls this one rather than keeping a copy). Logs the verdict and the three
+    timestamps it compared, per the logging policy in setup_logging(): a cache
+    decision that is not in the run log cannot be audited after the fact.
+    """
+    log = logger or logging.getLogger('voter_analysis')
     if not ENRICHED_CACHE.exists():
+        log.info('Enriched cache freshness: STALE -- %s does not exist', ENRICHED_CACHE)
         return False
     cache_mt = ENRICHED_CACHE.stat().st_mtime
-    raw_partitions = list(PARQUET_DIR.glob("COUNTY_NUMBER=*"))
+    raw_partitions = list(PARQUET_DIR.glob(PARTITION_GLOB))
     if not raw_partitions:
+        log.info('Enriched cache freshness: STALE -- no raw partitions under %s', PARQUET_DIR)
         return False
-    latest_raw    = max(p.stat().st_mtime for p in raw_partitions)
+    newest_raw    = max(raw_partitions, key=lambda p: p.stat().st_mtime)
+    latest_raw    = newest_raw.stat().st_mtime
     classifier_mt = CLASSIFIER_SRC.stat().st_mtime
-    return cache_mt > max(latest_raw, classifier_mt)
+    fresh = cache_mt > max(latest_raw, classifier_mt)
+    log.info(
+        'Enriched cache freshness: %s -- cache %s vs newest raw partition %s (%s) '
+        'and classifier source %s (%s)',
+        'FRESH' if fresh else 'STALE', _fmt_mtime(cache_mt), _fmt_mtime(latest_raw),
+        newest_raw.name, _fmt_mtime(classifier_mt), CLASSIFIER_SRC.name,
+    )
+    return fresh
 
 
 def _write_cache_atomic(df: pl.DataFrame, logger: logging.Logger) -> None:
@@ -333,6 +372,11 @@ def get_source_date(logger: logging.Logger) -> str:
 #   - SWVF COUNTY_NUMBER field values
 #   - manifest slug lookups and dashboard data file prefixes
 # Source: Ohio Secretary of State Statewide Voter File documentation.
+# Display name of the statewide aggregate. export_json slugs it to
+# 'ohio_(statewide)', the file prefix the dashboard's 'state' level and the
+# landing page's headline count read (docs/assets/v2.js STATE_SLUG).
+STATEWIDE_NAME = 'Ohio (Statewide)'
+
 OHIO_COUNTIES: dict[str, str] = {
     '01': 'Adams',       '02': 'Allen',       '03': 'Ashland',     '04': 'Ashtabula',
     '05': 'Athens',      '06': 'Auglaize',    '07': 'Belmont',     '08': 'Brown',
@@ -363,6 +407,130 @@ OHIO_COUNTIES: dict[str, str] = {
 # Logging setup
 # ─────────────────────────────────────────────────────────────────────────────
 
+# File objects faulthandler writes to. faulthandler holds only the file descriptor,
+# so the Python file object must stay referenced for the life of the process.
+_CRASH_LOG_HANDLES: list = []
+
+
+def enable_crash_log(log_path: Path, logger: logging.Logger) -> None:
+    """Route native-crash tracebacks (faulthandler) into this run's log file.
+
+    See the logging policy in setup_logging() for why. Re-enabling points the
+    handler at the newest run log, so a crash lands in the log of the phase
+    that was running (pipeline vs. groupings).
+    """
+    import faulthandler
+    handle = open(log_path, 'a', encoding='utf-8')
+    faulthandler.enable(file=handle, all_threads=True)
+    _CRASH_LOG_HANDLES.append(handle)
+    logger.debug('faulthandler enabled -> %s', log_path)
+
+
+class IsoOffsetFormatter(logging.Formatter):
+    """Log formatter whose %(asctime)s is ISO 8601 local time with its UTC offset,
+    e.g. 2026-11-12T01:34:07-05:00.
+
+    The offset is what lets a log line be matched against OS event logs (kept
+    in UTC) and against logs from other machines without guessing a time zone
+    or a daylight-saving state. It is computed per record, so a run that
+    crosses a DST change stays correct. `datefmt` is ignored.
+    """
+
+    def formatTime(self, record, datefmt=None):
+        return datetime.fromtimestamp(record.created).astimezone().isoformat(timespec='seconds')
+
+
+_RUN_ID: str | None = None
+
+
+def claim_run_id(stamp: str) -> str:
+    """Return this process's run id, setting it to `stamp` if none is set yet.
+
+    The run id is the YYYYMMDD_HHMMSS stamp of the first log file the process
+    opens, so it equals the stamp in that log's file name. Every later log of
+    the same process (the groupings log) records the same id, which is what the
+    logs of one run are joined on. First caller wins; later stamps are ignored.
+    """
+    global _RUN_ID
+    if _RUN_ID is None:
+        _RUN_ID = stamp
+    return _RUN_ID
+
+
+def machine_fingerprint() -> dict:
+    """Platform-neutral description of the machine this run is on.
+
+    Sources: `platform`, os.cpu_count and psutil only. No OS-specific query,
+    and nothing that identifies a person or a host: no hostname, user name or
+    path. It records what the machine was, not whether it is healthy.
+
+    config_id   12 hex chars of SHA-256 over (os, cpu, cpu_count, ram_total_gb).
+                A different id in two run logs means the OS build, the CPU or
+                the installed RAM changed between them. Swap is left out on
+                purpose: a dynamically sized pagefile changes total swap from
+                run to run with no configuration change. Limit: replacing DIMMs
+                with others of the same total size does not change the id.
+    swap_total_gb  None when the OS will not report it
+                (memory_budget.swap_total_bytes).
+    boot_time   When the machine last started, with UTC offset. A different
+                value in two consecutive run logs means a reboot or a crash
+                happened between them.
+    Sizes are GiB (2**30 bytes), labelled GB like the MB figures in _memory_line.
+    """
+    fp = {
+        'os':           platform.platform(),
+        'cpu':          platform.processor() or platform.machine(),
+        'cpu_count':    os.cpu_count(),
+        'ram_total_gb': round(_psutil.virtual_memory().total / 2**30, 1),
+    }
+    fp['config_id'] = hashlib.sha256(
+        '|'.join(str(fp[k]) for k in ('os', 'cpu', 'cpu_count', 'ram_total_gb')).encode('utf-8')
+    ).hexdigest()[:12]
+    swap = memory_budget.swap_total_bytes(_psutil)
+    fp['swap_total_gb'] = None if swap is None else round(swap / 2**30, 1)
+    fp['boot_time'] = (datetime.fromtimestamp(_psutil.boot_time()).astimezone()
+                       .isoformat(timespec='seconds'))
+    return fp
+
+
+def log_run_context(logger: logging.Logger) -> None:
+    """Record what produced this run: run id, process, interpreter, libraries,
+    code, memory, output root and machine fingerprint.
+
+    See the logging policy in setup_logging() for why each item is here.
+    The output-root line states whether ELECTION_DATA_OUT redirected this run;
+    it is the first thing to check when output lands somewhere unexpected.
+    """
+    import subprocess
+    run = claim_run_id(datetime.now().strftime('%Y%m%d_%H%M%S'))
+    logger.info('Run context: run id %s, started %s UTC', run,
+                datetime.now(timezone.utc).isoformat(timespec='seconds'))
+    logger.info('Run context: pid=%d argv=%s cwd=%s', os.getpid(), sys.argv, Path.cwd())
+    logger.info(
+        'Run context: python %s (%s), polars %s, polars thread pool %d',
+        sys.version.split()[0], sys.executable, pl.__version__, pl.thread_pool_size(),
+    )
+    sha = subprocess.run(['git', '-C', str(BASE_DIR), 'rev-parse', 'HEAD'],
+                         capture_output=True, text=True, check=False)
+    branch = subprocess.run(['git', '-C', str(BASE_DIR), 'rev-parse', '--abbrev-ref', 'HEAD'],
+                            capture_output=True, text=True, check=False)
+    if sha.returncode == 0 and branch.returncode == 0:
+        logger.info('Run context: git %s on %s', sha.stdout.strip(), branch.stdout.strip())
+    else:
+        logger.info('Run context: git commit not recorded (%s)',
+                    (sha.stderr or branch.stderr).strip()[:200])
+    vm = _psutil.virtual_memory()
+    logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
+                vm.total / 2**30, vm.available / 2**30)
+    fp = machine_fingerprint()
+    swap = 'unknown' if fp['swap_total_gb'] is None else f"{fp['swap_total_gb']:.1f} GB"
+    logger.info('Run context: machine %s | %s | %d logical CPUs | RAM %.1f GB | swap %s',
+                fp['os'], fp['cpu'], fp['cpu_count'], fp['ram_total_gb'], swap)
+    logger.info('Run context: machine config id %s, booted %s', fp['config_id'], fp['boot_time'])
+    logger.info('Run context: output root %s (%s)', DOCS_DIR,
+                f'{OUTPUT_ENV_VAR} override' if OUTPUT_OVERRIDDEN else 'default, the published tree')
+
+
 def setup_logging(run_label: str = '') -> logging.Logger:
     """
     Configure a logger that writes to both:
@@ -372,11 +540,47 @@ def setup_logging(run_label: str = '') -> logging.Logger:
     The log file is timestamped so each run produces its own file, making
     it easy to compare across runs or share a failing run's log for review.
 
+    Logging policy (verbose by default, added 2026-11-11)
+    ─────────────────────────────────────────────────────
+    Each item below exists because a real run went wrong and the log could not
+    say why. The log file is the record of a run; keep these on by default.
+
+    * Run context at start (log_run_context): pid, argv, Python and polars
+      versions, polars thread pool, git commit and branch, total and available
+      RAM. Two full-state runs died at ~21 GB RSS (2026-10-30 and 2026-11-11,
+      KNOWN_ISSUES.md OPEN-001) with no record of what memory was free, which
+      code was running, or which libraries were loaded.
+    * Native crash tracebacks (enable_crash_log): faulthandler writes the
+      Python stack of every thread into this log file on a segfault or access
+      violation. The 2026-11-11 crash (0xc0000005 in VCRUNTIME140.dll) left no
+      traceback and no log line; it was found only in the Windows event log.
+    * Freshness verdicts (_cache_is_fresh and the groupings resume check):
+      every reuse-or-rebuild decision logs FRESH/STALE with the timestamps it
+      compared. The groupings resume check once skipped 3,062 outdated
+      7-cohort files as "already exported" on every regeneration (May to
+      November 2026), silently mixing data vintages on the public site.
+    * Completion line (ohio_voter_pipeline._dispatch): "PIPELINE COMPLETE" is
+      the last line of a successful run. A native crash returns the shell
+      prompt as if the run had finished quickly; a log without that line
+      ended abnormally, however it looked in the terminal.
+
+    * Machine fingerprint (machine_fingerprint): OS build, CPU, logical CPU
+      count, total RAM and swap, boot time and a short config id, from
+      platform and psutil only. The November 2026 crashes had to be matched
+      to the machine's state from memory; the log now records what the
+      machine was. The fingerprint holds no hostname, user name or path.
+    * Timestamps with UTC offset (IsoOffsetFormatter) and one run id per
+      process (claim_run_id), written into every log of the run and onto the
+      completion line. Matching the 2026-11-11 crash to the OS event log,
+      which is kept in UTC, meant inferring the offset; and the pipeline and
+      groupings logs of one run had nothing in common to join on.
+
     Returns the root logger configured with both handlers.
     """
     LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
     timestamp    = datetime.now().strftime('%Y%m%d_%H%M%S')
+    claim_run_id(timestamp)   # first log of the process: its stamp is the run id
     suffix       = f'_{run_label}' if run_label else ''
     log_path     = LOGS_DIR / f'voter_analysis_{timestamp}{suffix}.log'
 
@@ -399,19 +603,42 @@ def setup_logging(run_label: str = '') -> logging.Logger:
     # ── File handler: DEBUG and above, full timestamps for forensic debugging ──
     file_handler = logging.FileHandler(log_path, encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
-    file_handler.setFormatter(logging.Formatter(
+    file_handler.setFormatter(IsoOffsetFormatter(
         '%(asctime)s  %(levelname)-8s  %(funcName)s:%(lineno)d  %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S',
     ))
     logger.addHandler(file_handler)
 
     logger.info('Log file: %s', log_path)
+    enable_crash_log(log_path, logger)
+    log_run_context(logger)
     return logger
+
+
+def _memory_line() -> str:
+    """Process and system memory for one log line, in MB, from psutil only.
+
+    RSS   resident set: physical pages this process holds now.
+    VMS   virtual size. On Windows psutil reports pagefile-backed private
+          commit here, the figure the commit limit applies to. OPEN-001
+          incident 2 failed on commit while RSS still fit, so RSS alone
+          does not show that failure coming.
+    avail system memory obtainable without paging, the number a memory
+          budget is measured against.
+
+    A point-in-time reading at the moment of the call, not a peak: memory
+    freed inside a stage is not visible here. The allocator can also keep
+    freed pages, so RSS may not fall after a large frame is released.
+    """
+    mem = _psutil_proc.memory_info()
+    avail = _psutil.virtual_memory().available
+    return (f'RSS={mem.rss / 1_048_576:,.0f} MB  VMS={mem.vms / 1_048_576:,.0f} MB  '
+            f'avail={avail / 1_048_576:,.0f} MB')
 
 
 def _timer(logger: logging.Logger, step: str):
     """
-    Context manager that logs how long a labelled step took.
+    Context manager that logs how long a labelled step took and the memory
+    reading at its end (_memory_line), on success and on failure.
 
     Usage:
         with _timer(log, "loading voter files"):
@@ -424,18 +651,12 @@ def _timer(logger: logging.Logger, step: str):
             return self
         def __exit__(self, exc_type, exc_val, exc_tb):
             elapsed = time.perf_counter() - self._start
-            rss_str = ''
-            if _psutil_proc is not None:
-                try:
-                    rss_mb = _psutil_proc.memory_info().rss / 1_048_576
-                    rss_str = f'  RSS={rss_mb:,.0f} MB'
-                except Exception:
-                    pass
+            mem_str = _memory_line()
             if exc_type:
-                logger.error('✗ %s failed after %.1f s — %s: %s',
-                             step, elapsed, exc_type.__name__, exc_val)
+                logger.error('✗ %s failed after %.1f s — %s: %s  %s',
+                             step, elapsed, exc_type.__name__, exc_val, mem_str)
             else:
-                logger.info('  ✓ %s  (%.1f s)%s', step, elapsed, rss_str)
+                logger.info('  ✓ %s  (%.1f s)  %s', step, elapsed, mem_str)
             return False   # do not suppress exceptions
     return _T()
 
@@ -455,7 +676,25 @@ def identify_election_cols(df: pl.DataFrame) -> list[str]:
     Returns columns sorted chronologically by election date so participation
     metrics accumulate in the correct order.
     """
-    cols = [c for c in df.columns if ELEC_RE.match(c)]
+    return election_cols_from_names(df.columns)
+
+
+def _election_span(election_cols: list[str]) -> str:
+    """'N election columns: first to last' for a log line. A frame with no
+    election columns gets a count of 0, not an IndexError."""
+    if not election_cols:
+        return '0 election columns'
+    return f'{len(election_cols)} election columns: {election_cols[0]} to {election_cols[-1]}'
+
+
+def election_cols_from_names(names) -> list[str]:
+    """Election participation column names among `names`, in chronological order.
+
+    Works from names alone, so the election columns of a parquet file can be
+    listed from its schema without loading a row. identify_election_cols is
+    this applied to a frame's columns; there is no second matcher.
+    """
+    cols = [c for c in names if ELEC_RE.match(c)]
     # Sort key routes through the resolver: parse_election_meta is the only place
     # an election column name is decomposed into a date (single-resolver law).
     cols.sort(key=lambda c: parse_election_meta(c)[0])
@@ -518,6 +757,8 @@ def build_col_meta(
     df:            pl.DataFrame,
     election_cols: list[str],
     logger:        'logging.Logger | None' = None,
+    *,
+    read_cells=None,
 ) -> list[ColMeta]:
     """THE single election-column resolver (CLAUDE.md sec 5 single-resolver law).
 
@@ -527,6 +768,12 @@ def build_col_meta(
     a bounded per-column ballot-code profile). Every downstream consumer — the
     cohort classifier, the participation engine, the Excel summaries — obtains
     date/type/regular/partisan facts ONLY from here. There is no second parser.
+
+    read_cells: optional callable(list of names) -> DataFrame of those election
+    columns. Give it when `df` does not hold the election columns itself (the
+    county export: load_enriched_for_export). The ballot-code profile is then
+    taken _PARTICIPATION_BATCH columns at a time. Without it the profile reads
+    `df` in one pass, as before.
 
     partisan_capable: profiled, not named. For each column we count D and R
     ballots in a single vectorised pass; partisan_capable == (n_D + n_R >= 1).
@@ -555,11 +802,21 @@ def build_col_meta(
     partisan_capable: dict[str, bool] = {}
     if parsed:
         cols = [c for c, _, _ in parsed]
-        counts = df.select([
-            ((pl.col(c).str.strip_chars() == 'D') |
-             (pl.col(c).str.strip_chars() == 'R')).sum().alias(c)
-            for c in cols
-        ]).row(0)
+
+        def _partisan_counts(frame: pl.DataFrame, names: list[str]) -> tuple:
+            return frame.select([
+                ((pl.col(c).str.strip_chars() == 'D') |
+                 (pl.col(c).str.strip_chars() == 'R')).sum().alias(c)
+                for c in names
+            ]).row(0)
+
+        if read_cells is None:
+            counts = _partisan_counts(df, cols)
+        else:
+            counts = ()
+            for start in range(0, len(cols), _PARTICIPATION_BATCH):
+                batch = cols[start:start + _PARTICIPATION_BATCH]
+                counts += _partisan_counts(read_cells(batch), batch)
         for (c, _, _), n_partisan in zip(parsed, counts):
             partisan_capable[c] = (n_partisan or 0) >= 1
 
@@ -679,13 +936,15 @@ def build_parquet_cache(
     pdir.mkdir(parents=True, exist_ok=True)
 
     existing = {p.name for p in pdir.iterdir() if p.is_dir()}
-    expected = {f'COUNTY_NUMBER={n:02d}' for n in range(1, 89)}
+    expected = expected_partitions()
     if existing >= expected:
         log.info('Parquet cache complete (%d partitions) — skipping.', len(existing))
         return pdir
 
     log.info('Parquet cache missing %d partition(s). Building from %d txt file(s).',
              len(expected - existing), len(txt_files))
+    # The build below reads the whole raw frame into memory: check it fits first.
+    _preflight_text_build(txt_files, log)
 
     with _timer(log, 'read CSV for Parquet conversion'):
         df = pl.concat([
@@ -728,18 +987,16 @@ def load_voter_files_parquet(
 
     if county_number:
         cnum = county_number.strip().zfill(2)
-        part = pdir / f'COUNTY_NUMBER={cnum}'
-        if not part.exists():
-            part = pdir / f'COUNTY_NUMBER={int(cnum)}'
+        part = pdir / county_partition(cnum)
         if not part.exists():
             raise FileNotFoundError(f'No Parquet partition for county {cnum}.')
         log.info('Loading Parquet partition: %s', part.name)
-        df = pl.read_parquet(str(part) + '/**/*.parquet')
+        df = pl.read_parquet(parquet_glob(part))
         if 'COUNTY_NUMBER' not in df.columns:
             df = df.with_columns(pl.lit(cnum).alias('COUNTY_NUMBER'))
     else:
         log.info('Loading full Parquet cache: %s', pdir)
-        df = pl.read_parquet(str(pdir) + '/**/*.parquet', hive_partitioning=True)
+        df = pl.read_parquet(parquet_glob(pdir), hive_partitioning=True)
 
     # PyArrow may infer COUNTY_NUMBER as integer from the Hive partition key.
     # Cast to String so all downstream str.strip_chars() calls work correctly.
@@ -930,7 +1187,7 @@ def clean_voter_data(df: pl.DataFrame, logger: logging.Logger) -> pl.DataFrame:
     df = df.with_columns([
         pl.col('PARTY_AFFILIATION')
           .str.strip_chars()
-          .replace(PARTY_MAP, default='Other')
+          .replace_strict(PARTY_MAP, default='Other')
           .alias('PARTY_LABEL'),
     ])
 
@@ -965,22 +1222,40 @@ def clean_voter_data(df: pl.DataFrame, logger: logging.Logger) -> pl.DataFrame:
 # Participation metrics  (Polars — single pass via sum_horizontal)
 # ─────────────────────────────────────────────────────────────────────────────
 
+# Election columns evaluated per pass in add_voter_participation. It bounds the
+# transient memory of that step to one batch of Boolean flags; 8 matches the
+# default worker count, so a batch is evaluated in one parallel pass.
+_PARTICIPATION_BATCH = 8
+
+
 def add_voter_participation(
     df:            pl.DataFrame,
     election_cols: list[str],
     logger:        logging.Logger,
+    *,
+    read_cells=None,
 ) -> pl.DataFrame:
     """
-    Compute per-voter participation metrics across all 89 election columns.
+    Compute per-voter participation metrics across every election column.
 
-    WHY sum_horizontal INSTEAD OF A PYTHON LOOP:
-    The pandas v1 approach looped over each election column in Python, creating
-    a series per column and accumulating.  With 89 columns × 7.9M rows that's
-    ~700M boolean evaluations executed serially.
+    Memory shape (OPEN-001; this step took RSS from 26 to 47 GB on the
+    2026-11-12 statewide run). Each election column yields two Boolean flags,
+    eligible and cast, each evaluated once and reused for the all-elections
+    and the generals-only counts. Columns are processed _PARTICIPATION_BATCH at
+    a time and folded into four Int32 running totals, so the transient cost is
+    one batch of flags plus the totals. The previous form built one Int32
+    expression per column per count and handed all of them to sum_horizontal
+    at once, with the cast test evaluated twice per column.
 
-    Polars' sum_horizontal() evaluates all 89 expressions in a single columnar
-    pass using SIMD instructions and thread-level parallelism.  Expect ~10–20×
-    faster execution compared to the pandas loop on Ohio-scale data.
+    read_cells: optional callable(list of names) -> DataFrame of those election
+    columns, row-aligned with `df`. Give it when `df` does not hold the
+    election columns (load_enriched_for_export); each batch is then read
+    through it and released. Without it the columns are taken from `df`.
+    Raises ValueError if a batch does not have exactly as many rows as `df`.
+
+    Semantics are unchanged from that form, including the exact cast test
+    (str.strip_chars() != ''); tools/tests/test_participation_equivalence.py
+    compares the two on randomized frames.
 
     Columns added (all-elections, backward-compatible names):
       Elections_Eligible — number of elections held after the voter's registration date
@@ -999,70 +1274,67 @@ def add_voter_participation(
     that election's date.  A voter "voted" if they were eligible AND their
     participation value is non-empty (X, R, or D).
     """
-    logger.info('Building participation metric expressions for %d election columns ...',
-                len(election_cols))
-
-    # Build one Polars expression per election column for each of:
-    #   elig  — 1 if voter was registered on/before election date, else 0
-    #   voted — 1 if voter was eligible AND has a non-empty participation value
-    # All expressions are Int32 so sum_horizontal produces an integer total.
-    #
-    # Two parallel sets are built: all-elections and generals-only.
-    # Voter_Frequency is based on the generals-only rate so that the ≥75%
-    # "Frequent" threshold is reachable (a voter attending every general
-    # since 2000 scores ~100% instead of ~28% when diluted by 89 elections).
-    elig_exprs:  list[pl.Expr] = []
-    voted_exprs: list[pl.Expr] = []
-    gen_elig_exprs:  list[pl.Expr] = []
-    gen_voted_exprs: list[pl.Expr] = []
-
     # Single resolver: date/type/regular facts come ONLY from build_col_meta,
     # never from the column name here. The "generals" set below is the resolved
     # type_code == 'GENERAL', not a startswith test.
-    col_meta = build_col_meta(df, election_cols, logger)
+    col_meta = build_col_meta(df, election_cols, logger, read_cells=read_cells)
+    read = read_cells or df.select
+    logger.info('Computing participation over %d election columns (%d generals), %d per batch ...',
+                len(col_meta), sum(m.type_code == 'GENERAL' for m in col_meta),
+                _PARTICIPATION_BATCH)
 
-    for m in col_meta:
-        # Polars stores Python date objects directly in comparisons with Date columns
-        elig = (
-            pl.col('REGDATE_DT').is_not_null() &
-            (pl.col('REGDATE_DT') <= pl.lit(m.date))
-        ).cast(pl.Int32)
+    # Voter_Frequency is based on the generals-only rate so that the 75%
+    # "Frequent" threshold is reachable: a voter attending every general since
+    # 2000 scores ~100%, not ~28% diluted by every primary and special.
+    count_cols = ('Elections_Eligible', 'Elections_Voted', 'General_Eligible', 'General_Voted')
+    totals = {name: pl.zeros(df.height, dtype=pl.Int32, eager=True) for name in count_cols}
+    reg = pl.col('REGDATE_DT')
 
-        voted = (
-            elig.cast(pl.Boolean) &                     # must be eligible
-            pl.col(m.col).is_not_null() &               # participation value must exist
-            (pl.col(m.col).str.strip_chars() != '')      # and be non-empty (X / R / D)
-        ).cast(pl.Int32)
+    def _count_true(frame: pl.DataFrame, names: list[str]) -> pl.Series:
+        """Row-wise count of True across `names` as Int32. The flags hold no nulls."""
+        return frame.select(
+            pl.sum_horizontal([pl.col(n).cast(pl.Int32) for n in names])
+        ).to_series()
 
-        elig_exprs.append(elig)
-        voted_exprs.append(voted)
+    for start in range(0, len(col_meta), _PARTICIPATION_BATCH):
+        batch = col_meta[start:start + _PARTICIPATION_BATCH]
+        idx = range(len(batch))
+        # eligible: registered on or before the election date.
+        # cast:     the cell holds a ballot code (non-null and non-blank).
+        # Both are Boolean and never null: a null registration date or a null
+        # cell makes the left operand False, and False & null is False.
+        cells = read([m.col for m in batch])
+        if cells.height != df.height:
+            raise ValueError(
+                f'election cells have {cells.height:,} rows but the frame has {df.height:,}: '
+                'read_cells is not row-aligned with the frame'
+            )
+        # hstack requires equal heights, which the check above guarantees.
+        flags = df.select(
+            [(reg.is_not_null() & (reg <= pl.lit(m.date))).alias(f'_elig_{i}')
+             for i, m in enumerate(batch)]
+        ).hstack(cells.select(
+            [(pl.col(m.col).is_not_null() & (pl.col(m.col).str.strip_chars() != '')).alias(f'_cast_{i}')
+             for i, m in enumerate(batch)]
+        ))
+        del cells
+        # voted: eligible AND cast. A ballot recorded before the registration
+        # date is therefore not counted. REGISTRATION_DATE resets on cancellation
+        # and reactivation, so such ballots exist (CLAUDE.md section 4).
+        flags = flags.with_columns(
+            [(pl.col(f'_elig_{i}') & pl.col(f'_cast_{i}')).alias(f'_voted_{i}') for i in idx]
+        )
+        generals = [i for i in idx if batch[i].type_code == 'GENERAL']
+        totals['Elections_Eligible'] = totals['Elections_Eligible'] + _count_true(flags, [f'_elig_{i}' for i in idx])
+        totals['Elections_Voted'] = totals['Elections_Voted'] + _count_true(flags, [f'_voted_{i}' for i in idx])
+        if generals:
+            totals['General_Eligible'] = totals['General_Eligible'] + _count_true(flags, [f'_elig_{i}' for i in generals])
+            totals['General_Voted'] = totals['General_Voted'] + _count_true(flags, [f'_voted_{i}' for i in generals])
+        del flags
 
-        if m.type_code == 'GENERAL':
-            gen_elig_exprs.append(elig)
-            gen_voted_exprs.append(voted)
-
-    logger.info('  %d total election expressions, %d generals-only',
-                len(elig_exprs), len(gen_elig_exprs))
-
-    # sum_horizontal adds across all expressions row-by-row, fully vectorised.
-    # This replaces the 89-iteration Python for-loop from v1.
-    df = df.with_columns([
-        pl.sum_horizontal(elig_exprs).alias('Elections_Eligible'),
-        pl.sum_horizontal(voted_exprs).alias('Elections_Voted'),
-    ])
-
-    # Generals-only metrics
-    if gen_elig_exprs:
-        df = df.with_columns([
-            pl.sum_horizontal(gen_elig_exprs).alias('General_Eligible'),
-            pl.sum_horizontal(gen_voted_exprs).alias('General_Voted'),
-        ])
-    else:
-        # Edge case: no GENERAL- columns in the data at all
-        df = df.with_columns([
-            pl.lit(0).cast(pl.Int32).alias('General_Eligible'),
-            pl.lit(0).cast(pl.Int32).alias('General_Voted'),
-        ])
+    # A frame with no GENERAL column keeps General_* at 0, which the frequency
+    # label below reports as 'No Eligible Elections'.
+    df = df.with_columns([totals[name].alias(name) for name in count_cols])
 
     # Turnout rate: voted / eligible.  Divide-by-zero → null (not 0), which
     # correctly propagates to 'No Eligible Elections' in the frequency label.
@@ -1141,7 +1413,7 @@ def build_county_summary(df: pl.DataFrame) -> pl.DataFrame:
         .with_columns([
             # Add human-readable county name from our lookup dict
             pl.col('COUNTY_NUMBER')
-              .replace(OHIO_COUNTIES, default='Unknown')
+              .replace_strict(OHIO_COUNTIES, default='Unknown')
               .alias('County Name'),
         ])
         .sort('Total Voters', descending=True)
@@ -1311,7 +1583,13 @@ def build_election_participation(
             (pl.col('Voter Count') / len(df) * 100)
               .round(2)
               .cast(pl.Utf8)
-              .str.concat('%')
+              # KNOWN DEFECT, kept on purpose: str.join is an aggregation. It joins the
+              # whole column into one '%'-separated string and broadcasts it, so every
+              # row of this sheet's Percent column holds the same long string. The
+              # intent was a per-row '12.5%'. This line only replaces the deprecated
+              # spelling (str.concat) with the identical current one; the output is
+              # unchanged. Fixing the value is a separate, output-changing decision.
+              .str.join('%')
               .alias('Percent')
         ])
         .rename({'Voter_Frequency': 'Frequency Class'})
@@ -1518,7 +1796,7 @@ def build_precinct_summary(df: pl.DataFrame) -> pl.DataFrame:
             (pl.col('ACTIVE') + pl.col('CONFIRMATION')).alias('Total Registered'),
             pl.lit('N/A').alias('Est. Unregistered'),
         ])
-        .sort('Total Registered', descending=True)
+        .sort(['Total Registered', 'PRECINCT_NAME'], descending=[True, False])
     )
 
 
@@ -1624,12 +1902,16 @@ UNC_SHADOW_LABELS = {
     'NO_HISTORY':  'No Primary History',
 }
 
-# 8-cohort partisan-spectrum taxonomy — single source of truth for chart exports.
+# 9-cohort partisan-spectrum taxonomy — single source of truth for chart exports.
 # ORDER IS THE SPECTRUM: charts render this list left-to-right, R -> D, so a
 # slice's position asserts where that behaviour sits partisan-wise.
 # UNC_NONPARTISAN sits in the neutral centre beside UNC_NO_PRIMARY: both are
 # zero-partisan-signal populations. It must NOT sit next to the Mixed slices,
 # which would repeat the very conflation this taxonomy was split to fix.
+# MINOR_PARTY (Libertarian, Green and other non-R/D affiliation or primary
+# ballot) sits at the exact centre: it is on neither side of the D/R
+# spectrum. Before it existed those voters fell to cohort OTHER, which no
+# slice listed, so every chart dropped them (11,904 statewide).
 #
 # NOTE (known duplication, CLAUDE.md sec 5): this list is mirrored in
 # jurisdictional_groupings.py, serve/roster_api.py and
@@ -1641,6 +1923,7 @@ COHORT_SLICES = [
     ('UNC_LAPSED_R',    'UNC – Lapsed R',           '#fca5a5'),
     ('MIXED_ACTIVE',    'Mixed – Active',           '#f59e0b'),
     ('MIXED_LAPSED',    'Mixed – Lapsed',           '#a78bfa'),
+    ('MINOR_PARTY',     'Minor Party',              '#14b8a6'),
     ('UNC_NONPARTISAN', 'UNC – Non-partisan Ballot', '#c4b5cd'),
     ('UNC_NO_PRIMARY',  'UNC – No Primary',         '#9ca3af'),
     ('UNC_LAPSED_D',    'UNC – Lapsed D',           '#93c5fd'),
@@ -1652,6 +1935,7 @@ COHORT_STACK_MAP = {
     'UNC_LAPSED_R':    'unc_r',
     'MIXED_ACTIVE':    'unc_mid',
     'MIXED_LAPSED':    'unc_mid',
+    'MINOR_PARTY':     'unc_mid',
     'UNC_NONPARTISAN': 'unc_mid',
     'UNC_NO_PRIMARY':  'unc_mid',
     'UNC_LAPSED_D':    'unc_d',
@@ -1686,6 +1970,31 @@ def identify_primary_cols(election_cols: list[str]) -> list[str]:
     return [c for c in election_cols if parse_election_meta(c)[1] == 'PRIMARY']
 
 
+def _assert_cohort_coverage(frame: pl.DataFrame) -> None:
+    """Raise unless every voter's cohort_family is one of the COHORT_SLICES families.
+
+    Every chart, hero total and lean figure sums the slices, so a family outside
+    them is a voter silently dropped from all of them. That happened: until
+    MINOR_PARTY existed, non-R/D affiliations fell to cohort OTHER and 11,904
+    voters statewide (2026-10-24 snapshot) vanished from every published party
+    chart while the precinct index still counted them. Fail here instead, where
+    the cause is visible (CLAUDE.md sec 5, loud failures).
+    """
+    families = [fam for fam, _, _ in COHORT_SLICES]
+    bad = (
+        frame.filter(~pl.col('cohort_family').is_in(families)
+                     | pl.col('cohort_family').is_null())
+             .group_by(['cohort', 'cohort_family'])
+             .agg(pl.len().alias('n'))
+             .sort('n', descending=True)
+    )
+    if bad.height:
+        raise ValueError(
+            f'cohort_family outside COHORT_SLICES for {int(bad["n"].sum()):,} voters; '
+            f'every chart would drop them. (cohort, cohort_family, n): {bad.rows()}'
+        )
+
+
 def classify_all_voters_primary_history(
     df:             pl.DataFrame,
     primary_cols:   list[str],
@@ -1715,7 +2024,8 @@ def classify_all_voters_primary_history(
     Returns a DataFrame with columns:
         SOS_VOTERID                  Utf8
         d_primaries, r_primaries     Int32  (count of partisan ballots)
-        x_primaries                  Int32  (non-partisan ballots: not in {D, R, ''})
+        x_primaries                  Int32  (non-partisan ballots: code X)
+        m_primaries                  Int32  (minor-party ballots: not in {D, R, X, ''})
         total_primaries              Int32  (any non-empty ballot)
         partisan_primaries           Int32  (= d + r)
         lean_score                   Float64 nullable  decay-weighted partisan lean
@@ -1732,7 +2042,8 @@ def classify_all_voters_primary_history(
                                              oldest-first; auditable by eye
         cohort                       Utf8    PURE_R/PURE_D/CROSSOVER_R/CROSSOVER_D/
                                              UNC_LAPSED_R/UNC_LAPSED_D/UNC_MIXED/
-                                             UNC_NONPARTISAN/UNC_NO_PRIMARY
+                                             UNC_NONPARTISAN/UNC_NO_PRIMARY/
+                                             MINOR_PARTY
         cohort_family                Utf8    rolled-up family
         crossover_class              Utf8 nullable  LOCKED_D/LEAN_D/TRUE_MIXED/...
         regular_primaries_eligible   Int32   regular primaries since registering
@@ -1753,6 +2064,7 @@ def classify_all_voters_primary_history(
             pl.lit(0).cast(pl.Int32).alias('d_primaries'),
             pl.lit(0).cast(pl.Int32).alias('r_primaries'),
             pl.lit(0).cast(pl.Int32).alias('x_primaries'),
+            pl.lit(0).cast(pl.Int32).alias('m_primaries'),
             pl.lit(0).cast(pl.Int32).alias('total_primaries'),
             pl.lit(0).cast(pl.Int32).alias('partisan_primaries'),
             pl.lit(None).cast(pl.Float64).alias('lean_score'),
@@ -1776,6 +2088,7 @@ def classify_all_voters_primary_history(
         cohort_expr = (
             pl.when(pl.col('_party') == 'R').then(pl.lit('PURE_R'))
               .when(pl.col('_party') == 'D').then(pl.lit('PURE_D'))
+              .when(~pl.col('_party').is_in(['R', 'D', ''])).then(pl.lit('MINOR_PARTY'))
               .otherwise(pl.lit('UNC_NO_PRIMARY'))
               .alias('cohort')
         )
@@ -1787,6 +2100,7 @@ def classify_all_voters_primary_history(
             'UNC_NONPARTISAN': 'UNC_NONPARTISAN',
             'MIXED_ACTIVE':    'MIXED_ACTIVE',
             'MIXED_LAPSED':    'MIXED_LAPSED',
+            'MINOR_PARTY':     'MINOR_PARTY',
         }
         out = out.with_columns(
             pl.col('cohort').replace(family_map).alias('cohort_family')
@@ -1809,6 +2123,7 @@ def classify_all_voters_primary_history(
             out = out.join(reg, on='SOS_VOTERID', how='left')
         else:
             out = out.with_columns(pl.lit(False).alias('is_new_registrant'))
+        _assert_cohort_coverage(out)
         return out
 
     logger.info('  classify_all_voters_primary_history: %s voters x %d primary columns',
@@ -1859,13 +2174,19 @@ def classify_all_voters_primary_history(
     d_exprs:   list[pl.Expr] = []
     r_exprs:   list[pl.Expr] = []
     x_exprs:   list[pl.Expr] = []
+    m_exprs:   list[pl.Expr] = []
     any_exprs: list[pl.Expr] = []
 
     for c, _ in col_meta:
         v = pl.col(c).str.strip_chars()
         d_exprs.append((v == 'D').cast(pl.Int32))
         r_exprs.append((v == 'R').cast(pl.Int32))
-        x_exprs.append(((v != '') & (v != 'D') & (v != 'R')).cast(pl.Int32))
+        # X is the non-partisan (issues-only) ballot. Any other non-empty code
+        # is a minor-party ballot (L, G, C, S, N, E seen statewide). Counting
+        # those as X labelled minor-party voters "never a party ballot"
+        # (DATA_QUALITY.md X-PRIMARIES-MINORPARTY-CONFLATION).
+        x_exprs.append((v == 'X').cast(pl.Int32))
+        m_exprs.append(((v != '') & ~v.is_in(['D', 'R', 'X'])).cast(pl.Int32))
         any_exprs.append((v != '').cast(pl.Int32))
 
     # -- Lean numerator/denominator + recent-5yr variant --------------------
@@ -2014,6 +2335,7 @@ def classify_all_voters_primary_history(
         pl.sum_horizontal(d_exprs).alias('d_primaries'),
         pl.sum_horizontal(r_exprs).alias('r_primaries'),
         pl.sum_horizontal(x_exprs).alias('x_primaries'),
+        pl.sum_horizontal(m_exprs).alias('m_primaries'),
         pl.sum_horizontal(any_exprs).alias('total_primaries'),
         (pl.sum_horizontal(lean_num_exprs) if lean_num_exprs
             else pl.lit(0.0)).alias('_lean_num'),
@@ -2138,6 +2460,18 @@ def classify_all_voters_primary_history(
           .then(pl.lit('UNC_LAPSED_R'))
         .when((pl.col('_party') == '') & (pl.col('r_primaries') == 0) & (pl.col('d_primaries') >= 1))
           .then(pl.lit('UNC_LAPSED_D'))
+        # Minor-party voters: affiliated with a party other than R or D (the
+        # SWVF carries L, and once N), or unaffiliated with a minor-party
+        # primary ballot and no D or R ballot. Evaluated BEFORE
+        # UNC_NONPARTISAN: a Green ballot is a party ballot, not an
+        # issues-only one. An unaffiliated voter with any D/R ballot stays on
+        # the lapsed/mixed ladder. A null affiliation matches nothing here,
+        # falls to OTHER, and _assert_cohort_coverage raises.
+        .when(~pl.col('_party').is_in(['R', 'D', '']))
+          .then(pl.lit('MINOR_PARTY'))
+        .when((pl.col('_party') == '') & (pl.col('m_primaries') >= 1) &
+              (pl.col('d_primaries') == 0) & (pl.col('r_primaries') == 0))
+          .then(pl.lit('MINOR_PARTY'))
         # Never cast a partisan ballot, but DID turn out for non-partisan
         # ones (issues, levies, judicial). Evaluated BEFORE the mixed branch:
         # first-match-wins means order is the control flow here. Previously
@@ -2172,11 +2506,13 @@ def classify_all_voters_primary_history(
         'UNC_MIXED':       'MIXED_LAPSED',  # UNC who voted BOTH parties
         'UNC_NONPARTISAN': 'UNC_NONPARTISAN',  # turned out, never a party ballot
         'UNC_NO_PRIMARY':  'UNC_NO_PRIMARY',
-        'OTHER':           'OTHER',
+        'MINOR_PARTY':     'MINOR_PARTY',
+        'OTHER':           'OTHER',  # unreachable by design; the assertion below raises
     }
     work = work.with_columns(
         pl.col('cohort').replace(family_map).alias('cohort_family')
     )
+    _assert_cohort_coverage(work)
 
     # -- crossover_class: applies only to R_CROSSOVER, D_CROSSOVER, UNC_MIXED
     # Tightened thresholds for affiliated crossovers (LOCKED 0.5, LEAN 0.3);
@@ -2237,7 +2573,7 @@ def classify_all_voters_primary_history(
 
     out = work.select([
         'SOS_VOTERID',
-        'd_primaries', 'r_primaries', 'x_primaries',
+        'd_primaries', 'r_primaries', 'x_primaries', 'm_primaries',
         'total_primaries', 'partisan_primaries',
         'lean_score', 'confidence', 'recent_5yr_lean',
         'last_three_party', 'years_since_last_partisan',
@@ -2442,6 +2778,7 @@ def export_json(
     update_manifest:         bool = True,
     unc_classified:          'pl.DataFrame | None' = None,
     include_precinct_charts: bool = False,
+    write_precinct_summary:  bool = True,
 ):
     """
     Write four JSON files into docs/data/ matching the exact schema expected by
@@ -2488,7 +2825,7 @@ def export_json(
     }, DATA_DIR / f'{slug}_decade_distribution.json', logger)
 
     # ── Party affiliation (doughnut chart) ────────────────────────────────────
-    # 8-slice partisan-spectrum layout based on cohort_family.  Falls back to
+    # 9-slice partisan-spectrum layout based on cohort_family.  Falls back to
     # the legacy PARTY_LABEL doughnut when the universal classifier output is
     # not present.  COHORT_SLICES + COHORT_STACK_MAP are module-level constants.
     meta_block: dict | None = None
@@ -2853,9 +3190,10 @@ def export_json(
             'geography': 'county',
             'type':      'bar',
             'updated':   today,
-            'note':      (note + ' — share of the regular elections (primary and '
-                          "general, specials excluded) you've been eligible for "
-                          'since registering. Pew Research Center generational '
+            'note':      (note + ' — share of the regular primaries (specials '
+                          "excluded) you've been eligible for "
+                          'since registering in which you took a party ballot. '
+                          'Pew Research Center generational '
                           'boundaries. Generations with no eligible voters show as '
                           'a gap, not zero.'),
             'chartConfig': {
@@ -2870,26 +3208,30 @@ def export_json(
         }, DATA_DIR / f'{slug}_participation_by_generation.json', logger)
 
     # ── Precinct summary (table) ──────────────────────────────────────────────
-    precinct_df = build_precinct_summary(df)
-    rows = []
-    for row in precinct_df.iter_rows(named=True):
-        rows.append([
-            row.get('PRECINCT_NAME', ''),
-            f"{row.get('ACTIVE', 0):,}",
-            f"{row.get('CONFIRMATION', 0):,}",
-            f"{row.get('Total Registered', 0):,}",
-            row.get('Est. Unregistered', 'N/A'),
-        ])
-    _dump_json({
-        'title':     'Registration by Precinct',
-        'county':    county_name,
-        'geography': 'precinct',
-        'type':      'table',
-        'updated':   today,
-        'note':      note + ' — Est. Unregistered requires Census integration (future)',
-        'headers':   ['Precinct', 'Active', 'Confirmation', 'Total Registered', 'Est. Unregistered'],
-        'rows':      rows,
-    }, DATA_DIR / f'{slug}_precinct_summary.json', logger)
+    # Rows name the precinct only, which identifies it within one county. A
+    # statewide table would list ~8,900 names without their counties, so the
+    # statewide export skips it (write_precinct_summary=False).
+    if write_precinct_summary:
+        precinct_df = build_precinct_summary(df)
+        rows = []
+        for row in precinct_df.iter_rows(named=True):
+            rows.append([
+                row.get('PRECINCT_NAME', ''),
+                f"{row.get('ACTIVE', 0):,}",
+                f"{row.get('CONFIRMATION', 0):,}",
+                f"{row.get('Total Registered', 0):,}",
+                row.get('Est. Unregistered', 'N/A'),
+            ])
+        _dump_json({
+            'title':     'Registration by Precinct',
+            'county':    county_name,
+            'geography': 'precinct',
+            'type':      'table',
+            'updated':   today,
+            'note':      note + ' — Est. Unregistered requires Census integration (future)',
+            'headers':   ['Precinct', 'Active', 'Confirmation', 'Total Registered', 'Est. Unregistered'],
+            'rows':      rows,
+        }, DATA_DIR / f'{slug}_precinct_summary.json', logger)
 
     # ── City/township summary (table) ─────────────────────────────────────────
     city_df = build_city_summary(df)
@@ -3292,7 +3634,7 @@ def export_precinct_charts(
         total = len(pdf)
 
         # ── Party doughnut ────────────────────────────────────────────────────
-        # 8-cohort partisan-spectrum layout — mirrors export_json() exactly so
+        # 9-cohort partisan-spectrum layout — mirrors export_json() exactly so
         # precinct, county, ward, and district charts are visually identical.
         p_unc_ids = set(pdf['SOS_VOTERID'].to_list()) if 'SOS_VOTERID' in pdf.columns else set()
         if 'cohort_family' in pdf.columns:
@@ -3755,9 +4097,40 @@ def export_precinct_charts(
         'precincts': index_entries,
     }, DATA_DIR / f'{slug}_precinct_index.json', logger)
 
+    _prune_orphan_precinct_files(slug, [e['safe_name'] for e in index_entries], logger)
+
     logger.info(
         '  Precinct charts: wrote %d precincts for %s', len(index_entries), county_name
     )
+
+
+# Per-precinct file kinds: {county_slug}_precinct_{safe_name}_{kind}.json.
+# 'narrative' is written later by tools/narrative/generate_narratives.py.
+PRECINCT_FILE_KINDS = ('party', 'unc', 'decade', 'generation', 'party_by_decade',
+                       'party_by_generation', 'narrative')
+
+
+def _prune_orphan_precinct_files(slug: str, safe_names: list, logger: logging.Logger) -> None:
+    """
+    Delete this county's per-precinct files whose precinct is not in the index
+    just written. Precincts are renamed and merged between snapshots, and this
+    export only ever wrote files, so a vanished precinct's files stayed
+    published at their old vintage (2026-11-12: 8 precincts in 4 counties,
+    56 files, last written 2026-07-25). Matching against the exact names the
+    index implies avoids parsing safe names, which contain underscores.
+    The files are tracked in git, so a wrong prune is recoverable.
+    """
+    if not safe_names:
+        raise ValueError(f'{slug}: precinct index is empty; refusing to prune its precinct files')
+    expected = {f'{slug}_precinct_{s}_{k}.json' for s in safe_names for k in PRECINCT_FILE_KINDS}
+    expected |= {f'{slug}_precinct_index.json', f'{slug}_precinct_summary.json'}
+    orphans = sorted(p for p in DATA_DIR.glob(f'{slug}_precinct_*.json')
+                     if p.name not in expected)
+    for p in orphans:
+        p.unlink()
+    if orphans:
+        logger.info('  Precinct charts: removed %d file(s) of precincts no longer in the %s index: %s',
+                    len(orphans), slug, [p.name for p in orphans])
 
 
 def _update_manifest(
@@ -3993,7 +4366,15 @@ def _write_manifest_bulk(
     for county_name in processed_counties:
         slug = county_name.lower().replace(' ', '_')
         new_sections.extend(_sections_for_county(county_name, slug))
-    manifest['sections'] = kept_sections + new_sections
+    # A section whose data file is gone would send charts.js (v1.html) to a
+    # 404, e.g. the statewide precinct summary, which is no longer written.
+    sections = kept_sections + new_sections
+    manifest['sections'] = [s for s in sections
+                            if (DOCS_DIR / s.get('dataUrl', '')).is_file()]
+    if len(manifest['sections']) != len(sections):
+        logger.info('manifest.json: dropped %d section(s) whose data file is missing: %s',
+                    len(sections) - len(manifest['sections']),
+                    sorted(s.get('dataUrl') for s in sections if s not in manifest['sections']))
 
     manifest_path.write_text(json.dumps(manifest, indent=2), encoding='utf-8')
     logger.info(
@@ -4298,20 +4679,386 @@ def build_workbook(
 # Public entry points  (called by ohio_voter_pipeline.py)
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _require_columns(wanted: list[str] | None, available: list[str], where: str) -> list[str] | None:
+    """Return `wanted` re-ordered to the frame's own column order, or None for "all".
+
+    Frame order is kept because callers derive the election-column list from
+    df.columns, and that order is chronological and load-bearing. Raises
+    KeyError naming every missing column: a caller must never proceed on a
+    narrower frame than it asked for.
+    """
+    if wanted is None:
+        return None
+    have = set(available)
+    missing = sorted(set(wanted) - have)
+    if missing:
+        raise KeyError(f'{len(missing)} requested column(s) not in the {where}: {missing}')
+    want = set(wanted)
+    return [c for c in available if c in want]
+
+
+# Columns add_voter_participation appends: four Int32 counts, two Float64 rates,
+# one String label. Used only to size the export frame before it exists.
+_PARTICIPATION_DTYPES = ['Int32'] * 4 + ['Float64'] * 2 + ['String']
+# Stand-in for the classifier's derived columns when sizing a frame that has
+# not been built yet (a rebuild). Provisional, like the rest of the estimate.
+_DERIVED_DTYPES_ESTIMATE = ['Float64'] * 26
+
+
+def _parquet_rows(path: Path) -> int:
+    """Row count of one parquet file, from its footer. No data page is read."""
+    import pyarrow.parquet as pq
+    return pq.ParquetFile(path).metadata.num_rows
+
+
+def _raw_partition_rows() -> dict[str, int]:
+    """Rows per raw-cache partition directory, from parquet footers only."""
+    return {
+        part.name: sum(_parquet_rows(f) for f in part.rglob('*.parquet'))
+        for part in sorted(PARQUET_DIR.glob(f'{PARTITION_KEY}=*')) if part.is_dir()
+    }
+
+
+def _raw_columns() -> tuple[int, int]:
+    """(column count, election column count) of the raw cache, from the footer of
+    its first file. The Hive partition key is counted even though it is a
+    directory name and not a column inside the files."""
+    first = next((f for part in sorted(PARQUET_DIR.glob(f'{PARTITION_KEY}=*'))
+                  for f in sorted(part.rglob('*.parquet'))), None)
+    if first is None:
+        return 0, 0
+    names = list(pl.read_parquet_schema(first))
+    return len(names) + (0 if PARTITION_KEY in names else 1), len(election_cols_from_names(names))
+
+
+def _text_shape(txt_files: list[Path]) -> tuple[int, int, int]:
+    """(estimated rows, columns, election columns) of the raw text files.
+
+    Reads each file's header line and its first 2 MiB only: rows are estimated
+    as file size / average line length in that sample. Good to a few percent
+    for a file whose rows are alike, which is all a memory estimate needs.
+    """
+    rows, names = 0.0, []
+    for path in txt_files:
+        size = path.stat().st_size
+        with open(path, 'rb') as fh:
+            sample = fh.read(2 * 1024 * 1024)
+        header, _, body = sample.partition(b'\n')
+        if not names:
+            names = [n.strip().strip('"') for n in header.decode('utf-8', errors='replace').split(',')]
+        lines = body.count(b'\n')
+        if lines:
+            rows += (size - len(header) - 1) / (len(body) / lines)
+    return int(rows), len(names), len(election_cols_from_names(names))
+
+
+def _memory_context() -> tuple:
+    """(settings, budget, cpu_count) for a preflight: the active policy and the
+    machine as it is right now."""
+    settings = memory_budget.active()
+    machine = memory_budget.read_machine()
+    return settings, memory_budget.make_budget(machine, settings), machine.cpu_count
+
+
+def _preflight_text_build(txt_files: list[Path], logger: logging.Logger) -> None:
+    """Enforce the memory budget before the raw parquet cache is built from text.
+    That build reads the whole raw frame into memory, and it is the first thing
+    a fresh clone does. Raises memory_budget.MemoryBudgetError when it does not fit."""
+    settings, budget, _ = _memory_context()
+    rows, cols, n_election = _text_shape(txt_files)
+    if not rows:
+        logger.warning('Memory budget: could not size the text files; preflight skipped')
+        return
+    memory_budget.enforce(memory_budget.estimate_text_build(rows, cols, n_election),
+                          budget, settings, logger)
+
+
+def _preflight_rebuild(logger: logging.Logger, settings, budget) -> tuple[int, int, int]:
+    """Enforce the budget for an enriched-cache rebuild. Returns (rows, raw
+    columns, election columns) of the raw cache, (0, 0, 0) when it has no
+    partitions to size the run from."""
+    rows = sum(_raw_partition_rows().values())
+    raw_cols, n_election = _raw_columns()
+    if not rows:
+        logger.warning('Memory budget: no raw parquet partitions to size the rebuild from; '
+                       'preflight skipped')
+        return 0, 0, 0
+    memory_budget.enforce(memory_budget.estimate_rebuild(rows, raw_cols, n_election),
+                          budget, settings, logger)
+    return rows, raw_cols, n_election
+
+
+def _preflight_statewide_export(logger: logging.Logger, fresh: bool, requested_workers: int = 0) -> int:
+    """Size the county export, pick its worker count, and enforce the memory
+    budget. Called by the loader after the cache-first decision and before
+    anything is loaded. Returns the worker count to use.
+
+    Shape comes from parquet footers only: rows and dtypes of the enriched
+    cache when it is fresh, of the raw cache when it has to be rebuilt (in
+    which case the rebuild is enforced first). The largest county's share of
+    rows bounds what one worker can hold.
+
+    Workers: an explicit request (argument, or --max-workers) is used as given.
+    Otherwise the count starts at the logical CPU count capped at 8 and is
+    lowered until the estimate fits; if it does not fit at one worker the run
+    is refused (mode auto) or goes ahead with a warning (mode eager).
+
+    Raises memory_budget.MemoryBudgetError.
+    """
+    settings, budget, cpu_count = _memory_context()
+    requested = requested_workers or settings.max_workers
+    start = memory_budget.choose_workers(cpu_count, requested)
+
+    by_part = _raw_partition_rows()
+    total = sum(by_part.values())
+    largest_share = (max(by_part.values()) / total) if total else 1.0
+
+    if fresh:
+        schema = pl.read_parquet_schema(ENRICHED_CACHE)
+        election = set(election_cols_from_names(list(schema)))
+        rows = _parquet_rows(ENRICHED_CACHE)
+        frame_dtypes = [str(t) for c, t in schema.items() if c not in election] + _PARTICIPATION_DTYPES
+        n_election = len(election)
+    else:
+        rows, raw_cols, n_election = _preflight_rebuild(logger, settings, budget)
+        if not rows:
+            return start
+        frame_dtypes = (['String'] * (raw_cols - n_election)
+                        + _DERIVED_DTYPES_ESTIMATE + _PARTICIPATION_DTYPES)
+
+    def estimate_for(workers: int):
+        return memory_budget.estimate_export(rows, frame_dtypes, n_election, largest_share,
+                                             workers, _PARTICIPATION_BATCH)
+
+    workers = start if requested else memory_budget.fit_workers(estimate_for, budget.bytes, start)
+    if workers != start:
+        logger.info('Memory budget: %d worker(s) instead of %d so the county slices fit', workers, start)
+    memory_budget.enforce(estimate_for(workers), budget, settings, logger)
+    return workers
+
+
+def _preflight_groupings(logger: logging.Logger, fresh: bool, columns: list[str]) -> None:
+    """Enforce the memory budget for jurisdictional groupings before its frame
+    is loaded: the projected frame plus one partitioned copy of it. On a stale
+    cache the rebuild is enforced first. Raises memory_budget.MemoryBudgetError."""
+    settings, budget, _ = _memory_context()
+    if fresh:
+        schema = pl.read_parquet_schema(ENRICHED_CACHE)
+        rows = _parquet_rows(ENRICHED_CACHE)
+        dtypes = [str(schema[c]) for c in columns if c in schema]
+    else:
+        rows, _, _ = _preflight_rebuild(logger, settings, budget)
+        if not rows:
+            return
+        dtypes = ['String'] * len(columns)
+    memory_budget.enforce(memory_budget.estimate_groupings(rows, dtypes), budget, settings, logger)
+
+
+def _resolve_enriched(
+    logger:      logging.Logger,
+    txt_files:   list[Path] | None,
+    use_parquet: bool,
+    before_load=None,
+) -> pl.DataFrame | None:
+    """Make the cache-first decision once. The only place it is made.
+
+    Returns None when ENRICHED_CACHE is fresh: the caller reads what it needs
+    from the file and nothing has been loaded. Otherwise rebuilds (load raw,
+    clean, write the cache atomically) and returns the full enriched frame.
+
+    Order is the contract: freshness is decided BEFORE anything is loaded.
+    Loading raw first and then replacing it with the cache held ~21 GB twice
+    and was the trigger for OPEN-001 incident 2 (2026-11-11). On a rebuild the
+    raw and enriched frames do overlap while clean_voter_data runs; that is the
+    cost of a rebuild, paid once per snapshot or classifier change.
+
+    txt_files   SWVF source files. With use_parquet the raw parquet cache is
+                built from them first (idempotent), because freshness is judged
+                against the raw partitions. Required for a CSV rebuild.
+    before_load callable(fresh: bool), run after the decision and before any
+                load. This is where a caller enforces its memory budget
+                (_preflight_*); whatever it raises stops the run with nothing
+                loaded.
+
+    Raises FileNotFoundError (parquet rebuild, no raw cache), ValueError (CSV
+    rebuild without txt_files), and anything before_load raises.
+    """
+    if use_parquet and txt_files is not None:
+        build_parquet_cache(txt_files, logger=logger)
+
+    fresh = _cache_is_fresh(logger)
+    if before_load is not None:
+        before_load(fresh)
+    if fresh:
+        return None
+
+    if use_parquet:
+        with _timer(logger, 'loading voter files (Parquet)'):
+            raw = load_voter_files_parquet(logger=logger)
+    else:
+        if txt_files is None:
+            raise ValueError('enriched cache is stale and use_parquet is False: txt_files is required')
+        with _timer(logger, 'loading voter files (CSV)'):
+            raw = load_voter_files(txt_files, logger=logger)
+    with _timer(logger, 'cleaning voter data'):
+        df = clean_voter_data(raw, logger)
+    del raw
+    logger.info('Writing enriched voter data to persistent cache...')
+    _write_cache_atomic(df, logger)
+    return df
+
+
+def load_enriched_voters(
+    logger:      logging.Logger,
+    *,
+    txt_files:   list[Path] | None = None,
+    use_parquet: bool = True,
+    columns:     list[str] | None = None,
+    before_load=None,
+) -> pl.DataFrame:
+    """Return the statewide enriched frame, cache-first (see _resolve_enriched).
+
+    columns     Projection of the returned frame, in the frame's own column
+                order. On a cache hit only these columns are read from disk.
+                On a rebuild the cache is still written whole. Raises KeyError
+                naming any requested column the frame lacks (_require_columns).
+
+    Callers that only need election history to compute participation should
+    use load_enriched_for_export instead, which never holds it.
+    before_load is passed to _resolve_enriched.
+    """
+    rebuilt = _resolve_enriched(logger, txt_files, use_parquet, before_load)
+    if rebuilt is None:
+        ordered = _require_columns(columns, list(pl.read_parquet_schema(ENRICHED_CACHE)), 'enriched cache')
+        with _timer(logger, 'loading enriched cache'):
+            df = pl.read_parquet(ENRICHED_CACHE, columns=ordered)
+            if ordered is not None:
+                df = df.select(ordered)
+        logger.info('Loaded from enriched cache: %s rows x %d columns%s', f'{df.height:,}', df.width,
+                    '' if ordered is None else ' (projected)')
+        return df
+
+    ordered = _require_columns(columns, rebuilt.columns, 'enriched frame')
+    return rebuilt if ordered is None else rebuilt.select(ordered)
+
+
+# Enriched columns the county export depends on, besides election history. A
+# cache written by an older cleaner or classifier can lack one. Without
+# cohort_family the export would re-classify from election cells it no longer
+# holds; without REGDATE_DT participation fails after the load; without the
+# other two a chart is skipped with no error ('... in df.columns' guards).
+_EXPORT_REQUIRED_COLUMNS = (
+    'cohort_family', 'REGDATE_DT', 'is_new_registrant', 'primary_participation_rate',
+)
+
+
+def _require_export_columns(names, source: str) -> None:
+    """Raise RuntimeError naming every _EXPORT_REQUIRED_COLUMNS member that
+    `names` lacks. `source` says what was checked, for the message."""
+    missing = [c for c in _EXPORT_REQUIRED_COLUMNS if c not in names]
+    if missing:
+        raise RuntimeError(
+            f'{source} has no {", ".join(missing)} column(s); the county export cannot run '
+            'without the cleaner and cohort classifier output. Rebuild the enriched cache '
+            '(see load_enriched_for_export)'
+        )
+
+
+def load_enriched_for_export(
+    logger:      logging.Logger,
+    *,
+    txt_files:   list[Path] | None = None,
+    use_parquet: bool = True,
+    before_load=None,
+):
+    """Return (frame, election_cols, read_cells) for the county export.
+
+    frame          the enriched frame WITHOUT its election-history columns.
+    election_cols  the names of those columns, chronological.
+    read_cells     callable(list of names) -> DataFrame of exactly those
+                   election columns, row-aligned with `frame`. Pass it to
+                   add_voter_participation, then drop the reference.
+
+    Why: the export reads election cells for one thing, the participation
+    counts. Everything after that works from the cohort and participation
+    columns. Election history is 91 String columns, about 13 GB statewide, more
+    than the rest of the frame put together, and the export stages used to
+    carry it unread through every county slice and the statewide pass.
+
+    read_cells always reads ENRICHED_CACHE, so at most one batch of election
+    columns is in memory while participation is computed, on both paths.
+
+    Cache hit   frame is read from ENRICHED_CACHE without those columns. Both
+                reads return rows in file order, which keeps them aligned.
+    Rebuild     the classifier needs every election column, so the full frame
+                exists when _resolve_enriched returns, and the cache has just
+                been written from it in the same row order. The election
+                columns are dropped here and the full frame released, so they
+                are not carried into the export. read_cells must not be bound
+                to the full frame: a bound method would keep it alive.
+
+    Raises RuntimeError naming every column of _EXPORT_REQUIRED_COLUMNS the
+    frame lacks. On a cache hit this is decided from the parquet schema, before
+    the body is read. before_load is passed to _resolve_enriched.
+    """
+    rebuilt = _resolve_enriched(logger, txt_files, use_parquet, before_load)
+    cache = ENRICHED_CACHE
+    if rebuilt is None:
+        names = list(pl.read_parquet_schema(cache))
+        _require_export_columns(names, f'enriched cache {cache.name}')
+        election_cols = election_cols_from_names(names)
+        skip = set(election_cols)
+        keep = [c for c in names if c not in skip]
+        with _timer(logger, 'loading enriched cache (without election history)'):
+            frame = pl.read_parquet(cache, columns=keep).select(keep)
+        logger.info('Loaded from enriched cache: %s rows x %d columns; %d election columns '
+                    'left on disk and read in batches', f'{frame.height:,}', frame.width,
+                    len(election_cols))
+    else:
+        _require_export_columns(rebuilt.columns, 'rebuilt enriched frame')
+        election_cols = identify_election_cols(rebuilt)
+        frame = rebuilt.drop(election_cols)
+        del rebuilt
+        logger.info('Enriched frame rebuilt: %s rows x %d columns; %d election columns '
+                    'released and read back from the cache in batches', f'{frame.height:,}',
+                    frame.width, len(election_cols))
+
+    def read_cells(cols: list[str]) -> pl.DataFrame:
+        return pl.read_parquet(cache, columns=cols).select(cols)
+
+    return frame, election_cols, read_cells
+
+
+def _county_slice(df: pl.DataFrame, county_num: str) -> pl.DataFrame:
+    """Rows of `df` for one county, in frame order. `county_num` is the stripped,
+    zero-padded COUNTY_NUMBER value. The single spelling of the county filter."""
+    return df.filter(pl.col('COUNTY_NUMBER').str.strip_chars() == county_num)
+
+
 def _export_county_worker(args: tuple) -> tuple:
     """
     Thread worker for ThreadPoolExecutor.
-    Receives (county_num, county_df, election_cols, include_precinct_charts).
+    Receives (county_num, statewide_df, election_cols, include_precinct_charts).
 
-    Threads share the main process address space — no IPC serialisation, no
-    pipe handles, no WinError 1450.  county_df is a pre-sliced, pre-enriched
-    Polars DataFrame (cohort columns already attached by clean_voter_data).
+    Memory: the worker filters its own county out of the shared statewide frame
+    and drops the slice when it returns, so the slices resident at any moment
+    are those of the running workers (at most max_workers), never all 88.
+    The statewide frame carries no election-history columns by this point
+    (load_enriched_for_export), so neither do the slices.
+    Slicing every county before the pool started held a second full copy of
+    the frame for the whole export stage (OPEN-001: 44.3 GB RSS with 8 threads).
+
+    Threads share the main process address space: no IPC serialisation, no
+    pipe handles, no WinError 1450. The statewide frame is pre-enriched (cohort
+    columns attached by clean_voter_data) and is only read here; Polars frames
+    are reference-counted and safe to read from several threads.
     orjson releases the GIL during serialisation so threads overlap on I/O.
     """
-    county_num, county_df, election_cols, include_precinct_charts = args
+    county_num, statewide_df, election_cols, include_precinct_charts = args
     county_name = OHIO_COUNTIES.get(county_num.strip(), f'County {county_num}')
     logger = logging.getLogger('voter_analysis')
     try:
+        county_df = _county_slice(statewide_df, county_num)
         primary_cols = identify_primary_cols(election_cols)
 
         # Fast path: build unc_classified from pre-enriched frame (no classifier re-run).
@@ -4345,7 +5092,12 @@ def run_ohio_analysis(
     Args:
         txt_files:               SWVF_*.txt source files.
         use_parquet:             Build/use Hive-partitioned Parquet cache. Default True.
-        max_workers:             Parallel worker processes. 0 = auto.
+        max_workers:             Worker threads for the county export. 0 = derive from the
+                                 CPU count and the memory budget (--max-workers, then
+                                 _preflight_statewide_export).
+
+    Raises memory_budget.MemoryBudgetError, before anything is loaded, when the
+    estimated peak does not fit the memory budget and the memory mode is auto.
         include_precinct_charts: Also write per-precinct party + UNC JSON files.
                                  Significantly increases output file count and run time.
     """
@@ -4355,48 +5107,37 @@ def run_ohio_analysis(
     logger.info('=' * 60)
 
     try:
-        # ── 1. Load ───────────────────────────────────────────────────────────
-        if use_parquet:
-            build_parquet_cache(txt_files, logger=logger)
-            with _timer(logger, 'loading voter files (Parquet)'):
-                df = load_voter_files_parquet(logger=logger)
-        else:
-            with _timer(logger, 'loading voter files (CSV)'):
-                df = load_voter_files(txt_files, logger=logger)
-
-        # ── 2. Clean + enrich ─────────────────────────────────────────────────────────────────────
-        if _cache_is_fresh():
-            logger.info('Loading enriched voter data from persistent cache...')
-            df = pl.read_parquet(ENRICHED_CACHE)
-        else:
-            with _timer(logger, 'cleaning voter data'):
-                df = clean_voter_data(df, logger)
-            logger.info('Writing enriched voter data to persistent cache...')
-            _write_cache_atomic(df, logger)
-
-        election_cols = identify_election_cols(df)
-        logger.info('%d election columns: %s to %s',
-                    len(election_cols), election_cols[0], election_cols[-1])
+        # ── 1. Load + enrich, cache-first, without election history ──────────────
+        # The frame carries no election columns; read_cells hands them to the
+        # participation step a batch at a time (see load_enriched_for_export).
+        # The memory preflight runs inside the loader, after the cache-first
+        # decision and before any load; it also fixes the worker count.
+        plan: dict = {}
+        df, election_cols, read_cells = load_enriched_for_export(
+            logger, txt_files=txt_files, use_parquet=use_parquet,
+            before_load=lambda fresh: plan.update(
+                workers=_preflight_statewide_export(logger, fresh, max_workers)),
+        )
+        logger.info('%s', _election_span(election_cols))
 
         with _timer(logger, 'computing participation metrics'):
-            df = add_voter_participation(df, election_cols, logger)
+            df = add_voter_participation(df, election_cols, logger, read_cells=read_cells)
 
         # ── 3. Parallel county JSON export ────────────────────────────────────
         counties_present = sorted(df['COUNTY_NUMBER'].str.strip_chars().unique().to_list())
-        logger.info('Preparing %d county slices ...', len(counties_present))
+        logger.info('Exporting %d counties; each worker slices its own county ...',
+                    len(counties_present))
 
-        # Build per-county task list.  Threads share address space — no IPC
-        # serialisation needed.  Pass the df slice directly; Polars DataFrames
-        # are reference-counted and safe to read from multiple threads.
-        tasks = []
-        for county_num in counties_present:
-            county_df = df.filter(pl.col('COUNTY_NUMBER').str.strip_chars() == county_num)
-            tasks.append((county_num, county_df, election_cols, include_precinct_charts))
+        # One task per county. Every task carries the same statewide frame by
+        # reference; the worker takes its county slice when it starts and drops
+        # it when it returns (see _export_county_worker).
+        tasks = [(county_num, df, election_cols, include_precinct_charts)
+                 for county_num in counties_present]
 
         # ThreadPoolExecutor: no IPC pipes, no WinError 1450.
         # orjson releases the GIL during serialisation so threads overlap on I/O.
-        # 8 threads matches the i7-9700K physical core count (no hyperthreading).
-        n_workers = max_workers or 8
+        # The count was fixed by the memory preflight (_preflight_statewide_export).
+        n_workers = plan['workers']
         logger.info('Launching %d thread worker(s) ...', n_workers)
 
         processed: list[str] = []
@@ -4420,6 +5161,22 @@ def run_ohio_analysis(
                         logger.error('FAIL %s: %s', cname, exc)
                         failed.append((cname, str(exc)))
 
+        # ── 3b. Statewide aggregate (evaluation M10) ──────────────────────────────
+        # export_json over the whole frame: the same resolver as the counties,
+        # so the statewide charts carry the same 9 cohort labels. The landing
+        # page's headline count and the dashboard's "Ohio" view read these.
+        # No county slice is alive by now: each worker dropped its own on return.
+        # Not added to `processed`: the manifest's county lists name counties only.
+        del tasks, futures
+        with _timer(logger, 'statewide JSON export'):
+            export_json(STATEWIDE_NAME, df, election_cols, logger,
+                        update_manifest=False, write_precinct_summary=False)
+            export_unc_shadow_json(STATEWIDE_NAME, df, identify_primary_cols(election_cols),
+                                   logger, unc_classified=_unc_classified_from_enriched_df(df))
+        state_slug = STATEWIDE_NAME.lower().replace(' ', '_')
+        # Written by earlier versions; skipped now (see export_json).
+        (DATA_DIR / f'{state_slug}_precinct_summary.json').unlink(missing_ok=True)
+
         # ── 4. Write manifest once — no race condition, no O(N²) I/O ──────────
         today = date_t.today().isoformat()
         _write_manifest_bulk(sorted(processed), today, logger)
@@ -4431,6 +5188,9 @@ def run_ohio_analysis(
         logger.info('SUCCESS  (%d counties, %d failed)', len(processed), len(failed))
         logger.info('=' * 60)
 
+    except memory_budget.MemoryBudgetError:
+        # A refusal, not a crash: enforce() already logged the numbers.
+        raise
     except Exception:
         logger.exception('Unhandled error in run_ohio_analysis')
         raise
@@ -4457,6 +5217,9 @@ def run_county_subset(
         county_numbers:          Zero-padded county number strings, e.g. ['57', '29'].
         use_parquet:             Must be True; included for API consistency.
         include_precinct_charts: Also write per-precinct party + UNC JSON files.
+
+    Raises memory_budget.MemoryBudgetError when the raw parquet cache has to be
+    built from text and that build does not fit the memory budget.
     """
     logger = setup_logging('county_subset')
     logger.info('=' * 60)
@@ -4533,6 +5296,9 @@ def run_county_subset(
         logger.info('SUCCESS  (%d counties, %d failed)', len(processed), len(failed))
         logger.info('=' * 60)
 
+    except memory_budget.MemoryBudgetError:
+        # A refusal, not a crash: enforce() already logged the numbers.
+        raise
     except Exception:
         logger.exception('Unhandled error in run_county_subset')
         raise
@@ -4572,7 +5338,7 @@ def run_ohio_excel(
 
         with _timer(logger, 'writing Excel workbook'):
             build_workbook(df, election_cols, output_path,
-                           county_name='Ohio (Statewide)',
+                           county_name=STATEWIDE_NAME,
                            include_raw=False,
                            logger=logger)
         logger.info('Workbook saved: %s', output_path)
@@ -4618,8 +5384,7 @@ def run_county_analysis(
             df = clean_voter_data(df, logger)
 
         election_cols = identify_election_cols(df)
-        logger.info('%d election columns: %s → %s',
-                    len(election_cols), election_cols[0], election_cols[-1])
+        logger.info('%s', _election_span(election_cols))
 
         with _timer(logger, 'computing participation metrics'):
             df = add_voter_participation(df, election_cols, logger)
@@ -4658,7 +5423,7 @@ def run_county_analysis(
 # ══════════════════════════════════════════════════════════════════════════════
 if __name__ == '__main__':
     import sys as _sys
-    # Allow quick smoke-tests: python voter_data_cleaner_v2.py --test
+    # Allow quick smoke-tests: python pipeline/voter_data_cleaner.py --test
     if '--test' in _sys.argv:
         _logger = setup_logging('smoke_test')
         _logger.info('Smoke test: OHIO_COUNTIES has %d entries', len(OHIO_COUNTIES))
@@ -4669,8 +5434,8 @@ if __name__ == '__main__':
             f"County 57 should be Montgomery, got {OHIO_COUNTIES['57']}"
         assert 'strictly alphabetical by county name' in open(__file__, encoding='utf-8').read(), \
             'OHIO_COUNTIES comment block missing'
-        assert hasattr(__import__('voter_data_cleaner_v2'), 'run_county_subset'), \
+        assert callable(globals().get('run_county_subset')), \
             'run_county_subset not found'
         _logger.info('All smoke-test assertions passed.')
     else:
-        print('voter_data_cleaner_v2.py is a library — import it or run with --test')
+        print('voter_data_cleaner.py is a library — import it or run with --test')

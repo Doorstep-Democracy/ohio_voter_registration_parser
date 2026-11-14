@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 265",
-      "Mixed – Active — 252",
-      "Mixed – Lapsed — 112",
-      "UNC – No Primary — 1,172",
-      "UNC – Lapsed D — 215"
+      "UNC – Lapsed R — 261",
+      "Mixed – Active — 251",
+      "Mixed – Lapsed — 89",
+      "UNC – Non-partisan Ballot — 20",
+      "UNC – No Primary — 1,208",
+      "UNC – Lapsed D — 214"
     ],
     "datasets": [
       {
         "data": [
-          265,
-          252,
-          112,
-          1172,
-          215
+          261,
+          251,
+          89,
+          20,
+          1208,
+          214
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Manchester Local Local Sd (Adams Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

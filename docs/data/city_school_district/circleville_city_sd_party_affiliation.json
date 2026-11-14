@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,702 (19%)",
-      "UNC – Lapsed R — 790 (9%)",
-      "Mixed – Active — 1,089 (12%)",
-      "Mixed – Lapsed — 546 (6%)",
-      "UNC – No Primary — 3,621 (40%)",
-      "UNC – Lapsed D — 845 (9%)",
-      "Pure D — 473 (5%)"
+      "Pure R — 1,536 (17%)",
+      "UNC – Lapsed R — 959 (11%)",
+      "Mixed – Active — 1,075 (12%)",
+      "Mixed – Lapsed — 345 (4%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 238 (3%)",
+      "UNC – No Primary — 3,637 (40%)",
+      "UNC – Lapsed D — 791 (9%)",
+      "Pure D — 521 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1702,
-          790,
-          1089,
-          546,
-          3621,
-          845,
-          473
+          1536,
+          959,
+          1075,
+          345,
+          11,
+          238,
+          3637,
+          791,
+          521
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CIRCLEVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

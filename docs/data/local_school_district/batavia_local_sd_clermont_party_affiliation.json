@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,912 (18%)",
-      "UNC – Lapsed R — 1,388 (13%)",
-      "Mixed – Active — 621 (6%)",
-      "Mixed – Lapsed — 790 (7%)",
-      "UNC – No Primary — 4,690 (44%)",
-      "UNC – Lapsed D — 716 (7%)",
-      "Pure D — 505 (5%)"
+      "Pure R — 1,896 (18%)",
+      "UNC – Lapsed R — 1,397 (13%)",
+      "Mixed – Active — 619 (6%)",
+      "Mixed – Lapsed — 290 (3%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 511 (5%)",
+      "UNC – No Primary — 4,818 (45%)",
+      "UNC – Lapsed D — 737 (7%)",
+      "Pure D — 503 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1912,
-          1388,
-          621,
-          790,
-          4690,
-          716,
-          505
+          1896,
+          1397,
+          619,
+          290,
+          15,
+          511,
+          4818,
+          737,
+          503
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Batavia Local Sd (Clermont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

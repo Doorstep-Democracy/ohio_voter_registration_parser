@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,416 (14%)",
-      "UNC – Lapsed R — 1,493 (15%)",
-      "Mixed – Active — 496 (5%)",
-      "Mixed – Lapsed — 709 (7%)",
-      "UNC – No Primary — 4,637 (46%)",
-      "UNC – Lapsed D — 824 (8%)",
-      "Pure D — 430 (4%)"
+      "Pure R — 1,440 (14%)",
+      "UNC – Lapsed R — 1,528 (15%)",
+      "Mixed – Active — 507 (5%)",
+      "Mixed – Lapsed — 347 (3%)",
+      "Minor Party — 23 (0%)",
+      "UNC – Non-partisan Ballot — 376 (4%)",
+      "UNC – No Primary — 4,817 (47%)",
+      "UNC – Lapsed D — 850 (8%)",
+      "Pure D — 438 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1416,
-          1493,
-          496,
-          709,
-          4637,
-          824,
-          430
+          1440,
+          1528,
+          507,
+          347,
+          23,
+          376,
+          4817,
+          850,
+          438
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Monroe Local Sd (Butler Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

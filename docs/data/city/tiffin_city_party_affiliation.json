@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,776 (17%)",
-      "UNC – Lapsed R — 963 (9%)",
-      "Mixed – Active — 1,223 (12%)",
-      "Mixed – Lapsed — 627 (6%)",
-      "UNC – No Primary — 4,283 (42%)",
-      "UNC – Lapsed D — 973 (9%)",
-      "Pure D — 415 (4%)"
+      "Pure R — 1,450 (14%)",
+      "UNC – Lapsed R — 1,273 (12%)",
+      "Mixed – Active — 1,110 (11%)",
+      "Mixed – Lapsed — 602 (6%)",
+      "Minor Party — 26 (0%)",
+      "UNC – Non-partisan Ballot — 160 (2%)",
+      "UNC – No Primary — 4,245 (41%)",
+      "UNC – Lapsed D — 906 (9%)",
+      "Pure D — 541 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1776,
-          963,
-          1223,
-          627,
-          4283,
-          973,
-          415
+          1450,
+          1273,
+          1110,
+          602,
+          26,
+          160,
+          4245,
+          906,
+          541
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "TIFFIN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

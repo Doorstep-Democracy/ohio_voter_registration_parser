@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,072",
-      "Mixed – Active — 1,781",
-      "Mixed – Lapsed — 1,723",
-      "UNC – No Primary — 4,397",
-      "UNC – Lapsed D — 1,401"
+      "UNC – Lapsed R — 2,075",
+      "Mixed – Active — 1,767",
+      "Mixed – Lapsed — 864",
+      "UNC – Non-partisan Ballot — 869",
+      "UNC – No Primary — 4,541",
+      "UNC – Lapsed D — 1,429"
     ],
     "datasets": [
       {
         "data": [
-          2072,
-          1781,
-          1723,
-          4397,
-          1401
+          2075,
+          1767,
+          864,
+          869,
+          4541,
+          1429
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Kenston Local Sd (Geauga Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

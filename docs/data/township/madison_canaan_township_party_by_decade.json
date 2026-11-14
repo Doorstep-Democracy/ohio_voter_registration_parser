@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          12,
-          52,
-          91,
+          10,
+          51,
+          93,
+          93,
           76,
-          61,
-          21,
-          20,
-          11
+          25,
+          19,
+          20
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          8,
-          25,
-          54,
-          80,
-          57,
-          48,
-          31,
-          10
+          7,
+          26,
+          51,
+          60,
+          43,
+          47,
+          34,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,12 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          14,
-          23,
+          4,
+          17,
           24,
-          7,
-          6,
+          32,
+          16,
+          13,
           0,
           0
         ],
@@ -61,29 +61,59 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          12,
-          27,
-          38,
-          31,
-          42,
-          15,
-          19
+          0,
+          6,
+          11,
+          14,
+          13,
+          9,
+          4,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          14,
+          16,
+          13,
+          31,
+          8,
+          16
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           3,
-          11,
-          35,
-          69,
-          60,
-          95,
-          119,
-          192
+          12,
+          39,
+          63,
+          58,
+          89,
+          117,
+          198
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,12 +122,12 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          11,
-          16,
-          23,
-          23,
+          9,
+          12,
+          21,
+          18,
           17,
-          11,
+          10,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -106,22 +136,22 @@
       {
         "label": "Pure D",
         "data": [
-          1,
           0,
-          10,
-          11,
           2,
-          0,
-          0,
-          1
+          13,
+          13,
+          7,
+          3,
+          6,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CANAAN TOWNSHIP (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

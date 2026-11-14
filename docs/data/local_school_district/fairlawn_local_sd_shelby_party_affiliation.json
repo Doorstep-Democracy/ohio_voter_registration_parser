@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,681 (20%)",
-      "UNC – Lapsed R — 1,217 (14%)",
-      "Mixed – Active — 716 (8%)",
-      "Mixed – Lapsed — 390 (5%)",
-      "UNC – No Primary — 3,639 (42%)",
-      "UNC – Lapsed D — 584 (7%)",
-      "Pure D — 362 (4%)"
+      "Pure R — 1,667 (19%)",
+      "UNC – Lapsed R — 1,211 (14%)",
+      "Mixed – Active — 712 (8%)",
+      "Mixed – Lapsed — 328 (4%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 56 (1%)",
+      "UNC – No Primary — 3,687 (43%)",
+      "UNC – Lapsed D — 574 (7%)",
+      "Pure D — 355 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1681,
-          1217,
-          716,
-          390,
-          3639,
-          584,
-          362
+          1667,
+          1211,
+          712,
+          328,
+          14,
+          56,
+          3687,
+          574,
+          355
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Fairlawn Local Sd (Shelby Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

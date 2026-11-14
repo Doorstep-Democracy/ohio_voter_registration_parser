@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 149 (19%)",
-      "UNC – Lapsed R — 108 (14%)",
-      "Mixed – Active — 58 (8%)",
-      "Mixed – Lapsed — 42 (5%)",
-      "UNC – No Primary — 295 (38%)",
-      "UNC – Lapsed D — 84 (11%)",
-      "Pure D — 35 (5%)"
+      "Pure R — 143 (19%)",
+      "UNC – Lapsed R — 116 (15%)",
+      "Mixed – Active — 57 (7%)",
+      "Mixed – Lapsed — 44 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
+      "UNC – No Primary — 286 (37%)",
+      "UNC – Lapsed D — 78 (10%)",
+      "Pure D — 44 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          149,
-          108,
-          58,
-          42,
-          295,
-          84,
-          35
+          143,
+          116,
+          57,
+          44,
+          0,
+          1,
+          286,
+          78,
+          44
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SCIPIO TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

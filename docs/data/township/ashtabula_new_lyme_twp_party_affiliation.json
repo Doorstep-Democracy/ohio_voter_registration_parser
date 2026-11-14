@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 153 (23%)",
-      "UNC – Lapsed R — 55 (8%)",
-      "Mixed – Active — 71 (11%)",
-      "Mixed – Lapsed — 40 (6%)",
-      "UNC – No Primary — 220 (33%)",
-      "UNC – Lapsed D — 86 (13%)",
-      "Pure D — 32 (5%)"
+      "Pure R — 144 (22%)",
+      "UNC – Lapsed R — 62 (9%)",
+      "Mixed – Active — 78 (12%)",
+      "Mixed – Lapsed — 25 (4%)",
+      "Minor Party — 4 (1%)",
+      "UNC – Non-partisan Ballot — 12 (2%)",
+      "UNC – No Primary — 220 (34%)",
+      "UNC – Lapsed D — 67 (10%)",
+      "Pure D — 43 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          153,
-          55,
-          71,
-          40,
+          144,
+          62,
+          78,
+          25,
+          4,
+          12,
           220,
-          86,
-          32
+          67,
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEW LYME TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

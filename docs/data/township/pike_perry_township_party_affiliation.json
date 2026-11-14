@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 48 (13%)",
-      "UNC – Lapsed R — 43 (12%)",
+      "Pure R — 48 (14%)",
+      "UNC – Lapsed R — 45 (13%)",
       "Mixed – Active — 24 (7%)",
-      "Mixed – Lapsed — 17 (5%)",
-      "UNC – No Primary — 176 (49%)",
-      "UNC – Lapsed D — 51 (14%)",
+      "Mixed – Lapsed — 9 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 3 (1%)",
+      "UNC – No Primary — 171 (49%)",
+      "UNC – Lapsed D — 45 (13%)",
       "Pure D — 3 (1%)"
     ],
     "datasets": [
       {
         "data": [
           48,
-          43,
+          45,
           24,
-          17,
-          176,
-          51,
+          9,
+          1,
+          3,
+          171,
+          45,
           3
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PERRY TOWNSHIP (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 171 (14%)",
-      "UNC – Lapsed R — 144 (12%)",
-      "Mixed – Active — 132 (11%)",
-      "Mixed – Lapsed — 118 (10%)",
-      "UNC – No Primary — 421 (34%)",
-      "UNC – Lapsed D — 143 (12%)",
-      "Pure D — 109 (9%)"
+      "Pure R — 200 (16%)",
+      "UNC – Lapsed R — 139 (11%)",
+      "Mixed – Active — 135 (11%)",
+      "Mixed – Lapsed — 51 (4%)",
+      "Minor Party — 7 (1%)",
+      "UNC – Non-partisan Ballot — 62 (5%)",
+      "UNC – No Primary — 410 (33%)",
+      "UNC – Lapsed D — 124 (10%)",
+      "Pure D — 125 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          171,
-          144,
-          132,
-          118,
-          421,
-          143,
-          109
+          200,
+          139,
+          135,
+          51,
+          7,
+          62,
+          410,
+          124,
+          125
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RICHFIELD TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

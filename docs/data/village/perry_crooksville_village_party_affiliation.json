@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 131 (11%)",
-      "UNC – Lapsed R — 99 (8%)",
-      "Mixed – Active — 82 (7%)",
-      "Mixed – Lapsed — 57 (5%)",
-      "UNC – No Primary — 621 (51%)",
-      "UNC – Lapsed D — 165 (14%)",
-      "Pure D — 62 (5%)"
+      "UNC – Lapsed R — 107 (9%)",
+      "Mixed – Active — 78 (6%)",
+      "Mixed – Lapsed — 43 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 18 (1%)",
+      "UNC – No Primary — 624 (51%)",
+      "UNC – Lapsed D — 165 (13%)",
+      "Pure D — 63 (5%)"
     ],
     "datasets": [
       {
         "data": [
           131,
-          99,
-          82,
-          57,
-          621,
+          107,
+          78,
+          43,
+          1,
+          18,
+          624,
           165,
-          62
+          63
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CROOKSVILLE VILLAGE (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

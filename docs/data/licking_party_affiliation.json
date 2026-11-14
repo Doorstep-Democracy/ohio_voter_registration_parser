@@ -3,14 +3,15 @@
   "county": "Licking",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          20765,
-          16017,
-          10205,
-          5224,
-          4776,
-          48928,
-          11509,
-          7503
+          20547,
+          16086,
+          10110,
+          5247,
+          253,
+          4698,
+          50066,
+          11570,
+          7394
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 727,
-    "new_registrants_d": 571,
-    "new_registrants_unc": 14797
+    "new_registrants_r": 709,
+    "new_registrants_d": 546,
+    "new_registrants_unc": 16045
   }
 }

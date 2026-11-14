@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 363",
-      "Mixed – Active — 311",
-      "Mixed – Lapsed — 494",
-      "UNC – No Primary — 6,437",
-      "UNC – Lapsed D — 2,873"
+      "UNC – Lapsed R — 413",
+      "Mixed – Active — 341",
+      "Mixed – Lapsed — 252",
+      "UNC – Non-partisan Ballot — 212",
+      "UNC – No Primary — 6,459",
+      "UNC – Lapsed D — 2,459"
     ],
     "datasets": [
       {
         "data": [
-          363,
-          311,
-          494,
-          6437,
-          2873
+          413,
+          341,
+          252,
+          212,
+          6459,
+          2459
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "FOREST PARK CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

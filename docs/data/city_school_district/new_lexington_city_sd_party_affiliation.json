@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,106 (17%)",
-      "UNC – Lapsed R — 554 (8%)",
-      "Mixed – Active — 661 (10%)",
-      "Mixed – Lapsed — 332 (5%)",
-      "UNC – No Primary — 2,809 (43%)",
-      "UNC – Lapsed D — 746 (11%)",
-      "Pure D — 349 (5%)"
+      "Pure R — 1,068 (16%)",
+      "UNC – Lapsed R — 608 (9%)",
+      "Mixed – Active — 682 (10%)",
+      "Mixed – Lapsed — 232 (4%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 123 (2%)",
+      "UNC – No Primary — 2,811 (42%)",
+      "UNC – Lapsed D — 704 (11%)",
+      "Pure D — 386 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1106,
-          554,
-          661,
-          332,
-          2809,
-          746,
-          349
+          1068,
+          608,
+          682,
+          232,
+          13,
+          123,
+          2811,
+          704,
+          386
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NEW LEXINGTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

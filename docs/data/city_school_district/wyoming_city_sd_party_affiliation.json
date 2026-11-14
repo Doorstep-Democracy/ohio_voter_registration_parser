@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 552 (8%)",
-      "UNC – Lapsed R — 843 (12%)",
-      "Mixed – Active — 544 (8%)",
-      "Mixed – Lapsed — 719 (10%)",
-      "UNC – No Primary — 2,397 (34%)",
-      "UNC – Lapsed D — 1,246 (18%)",
-      "Pure D — 737 (10%)"
+      "Pure R — 422 (6%)",
+      "UNC – Lapsed R — 928 (13%)",
+      "Mixed – Active — 570 (8%)",
+      "Mixed – Lapsed — 467 (7%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 226 (3%)",
+      "UNC – No Primary — 2,326 (33%)",
+      "UNC – Lapsed D — 1,158 (16%)",
+      "Pure D — 1,013 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          552,
-          843,
-          544,
-          719,
-          2397,
-          1246,
-          737
+          422,
+          928,
+          570,
+          467,
+          8,
+          226,
+          2326,
+          1158,
+          1013
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WYOMING CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

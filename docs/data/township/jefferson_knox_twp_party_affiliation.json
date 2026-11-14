@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 236 (9%)",
-      "UNC – Lapsed R — 232 (8%)",
-      "Mixed – Active — 335 (12%)",
-      "Mixed – Lapsed — 185 (7%)",
-      "UNC – No Primary — 1,155 (42%)",
-      "UNC – Lapsed D — 428 (15%)",
-      "Pure D — 203 (7%)"
+      "Pure R — 252 (9%)",
+      "UNC – Lapsed R — 236 (8%)",
+      "Mixed – Active — 334 (12%)",
+      "Mixed – Lapsed — 163 (6%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 39 (1%)",
+      "UNC – No Primary — 1,165 (42%)",
+      "UNC – Lapsed D — 412 (15%)",
+      "Pure D — 196 (7%)"
     ],
     "datasets": [
       {
         "data": [
+          252,
           236,
-          232,
-          335,
-          185,
-          1155,
-          428,
-          203
+          334,
+          163,
+          7,
+          39,
+          1165,
+          412,
+          196
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "KNOX TWP (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

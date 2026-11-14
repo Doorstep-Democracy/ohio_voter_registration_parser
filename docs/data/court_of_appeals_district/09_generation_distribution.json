@@ -1,0 +1,31 @@
+{
+  "title": "Voter Distribution by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Registered Voters",
+        "data": [
+          46930,
+          226763,
+          195660,
+          196295,
+          128554
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 4
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "Court of Appeals District",
+  "jurisdiction_name": "09",
+  "updated": "2026-11-12"
+}

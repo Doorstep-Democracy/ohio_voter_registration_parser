@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,781 (3%)",
-      "UNC – Lapsed R — 2,514 (4%)",
-      "Mixed – Active — 1,787 (3%)",
-      "Mixed – Lapsed — 1,148 (2%)",
-      "UNC – Non-partisan Ballot — 1,471 (2%)",
-      "UNC – No Primary — 36,365 (55%)",
-      "UNC – Lapsed D — 10,765 (16%)",
-      "Pure D — 9,846 (15%)"
+      "Pure R — 1,767 (3%)",
+      "UNC – Lapsed R — 2,497 (4%)",
+      "Mixed – Active — 1,759 (3%)",
+      "Mixed – Lapsed — 1,128 (2%)",
+      "Minor Party — 107 (0%)",
+      "UNC – Non-partisan Ballot — 1,415 (2%)",
+      "UNC – No Primary — 37,924 (56%)",
+      "UNC – Lapsed D — 10,802 (16%)",
+      "Pure D — 9,793 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          1781,
-          2514,
-          1787,
-          1148,
-          1471,
-          36365,
-          10765,
-          9846
+          1767,
+          2497,
+          1759,
+          1128,
+          107,
+          1415,
+          37924,
+          10802,
+          9793
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "COLUMBUS COUNCIL DISTRICT 8 (COLUMBUS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

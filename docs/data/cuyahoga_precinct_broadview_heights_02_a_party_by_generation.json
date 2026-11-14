@@ -4,7 +4,7 @@
   "precinct": "BROADVIEW HEIGHTS-02-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           7,
-          71,
+          70,
           17,
           12,
           7
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
+          5,
           34,
           30,
-          37,
+          38,
           5
         ],
         "backgroundColor": "#fca5a5",
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           16,
-          88,
+          87,
           20,
           6,
           0
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          4,
+          2,
           46,
-          17,
+          16,
           11,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          3,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           2,
           15,
           12,
-          17,
+          16,
           0
         ],
         "backgroundColor": "#c4b5cd",
@@ -85,9 +98,9 @@
         "data": [
           1,
           35,
-          62,
-          111,
-          78
+          61,
+          109,
+          83
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -100,7 +113,7 @@
           30,
           43,
           42,
-          5
+          4
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,8 +123,8 @@
         "label": "Pure D",
         "data": [
           13,
-          41,
-          17,
+          42,
+          18,
           19,
           6
         ],

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 228 (31%)",
-      "UNC – Lapsed R — 79 (11%)",
-      "Mixed – Active — 70 (9%)",
-      "Mixed – Lapsed — 24 (3%)",
-      "UNC – No Primary — 275 (37%)",
-      "UNC – Lapsed D — 45 (6%)",
-      "Pure D — 19 (3%)"
+      "Pure R — 236 (32%)",
+      "UNC – Lapsed R — 78 (11%)",
+      "Mixed – Active — 68 (9%)",
+      "Mixed – Lapsed — 16 (2%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 6 (1%)",
+      "UNC – No Primary — 266 (36%)",
+      "UNC – Lapsed D — 39 (5%)",
+      "Pure D — 28 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          228,
-          79,
-          70,
-          24,
-          275,
-          45,
-          19
+          236,
+          78,
+          68,
+          16,
+          3,
+          6,
+          266,
+          39,
+          28
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

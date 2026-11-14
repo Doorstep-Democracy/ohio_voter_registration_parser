@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,206 (10%)",
-      "UNC – Lapsed R — 1,322 (11%)",
-      "Mixed – Active — 1,132 (10%)",
-      "Mixed – Lapsed — 1,026 (9%)",
-      "UNC – No Primary — 3,336 (28%)",
-      "UNC – Lapsed D — 1,956 (17%)",
-      "Pure D — 1,757 (15%)"
+      "Pure R — 991 (8%)",
+      "UNC – Lapsed R — 1,466 (12%)",
+      "Mixed – Active — 1,130 (10%)",
+      "Mixed – Lapsed — 730 (6%)",
+      "Minor Party — 25 (0%)",
+      "UNC – Non-partisan Ballot — 316 (3%)",
+      "UNC – No Primary — 3,222 (27%)",
+      "UNC – Lapsed D — 1,860 (16%)",
+      "Pure D — 2,089 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          1206,
-          1322,
-          1132,
-          1026,
-          3336,
-          1956,
-          1757
+          991,
+          1466,
+          1130,
+          730,
+          25,
+          316,
+          3222,
+          1860,
+          2089
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WORTHINGTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

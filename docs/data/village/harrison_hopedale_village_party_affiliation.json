@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 69 (12%)",
-      "UNC – Lapsed R — 36 (6%)",
-      "Mixed – Active — 107 (18%)",
-      "Mixed – Lapsed — 34 (6%)",
-      "UNC – No Primary — 194 (33%)",
-      "UNC – Lapsed D — 87 (15%)",
-      "Pure D — 56 (10%)"
+      "Pure R — 67 (11%)",
+      "UNC – Lapsed R — 43 (7%)",
+      "Mixed – Active — 105 (18%)",
+      "Mixed – Lapsed — 32 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 199 (33%)",
+      "UNC – Lapsed D — 86 (14%)",
+      "Pure D — 60 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          69,
-          36,
-          107,
-          34,
-          194,
-          87,
-          56
+          67,
+          43,
+          105,
+          32,
+          0,
+          7,
+          199,
+          86,
+          60
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HOPEDALE VILLAGE (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

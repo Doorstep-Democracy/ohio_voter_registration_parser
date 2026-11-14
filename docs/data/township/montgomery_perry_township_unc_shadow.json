@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 637",
-      "Mixed – Active — 360",
-      "Mixed – Lapsed — 348",
-      "UNC – No Primary — 1,503",
-      "UNC – Lapsed D — 295"
+      "UNC – Lapsed R — 759",
+      "Mixed – Active — 335",
+      "Mixed – Lapsed — 219",
+      "UNC – Non-partisan Ballot — 169",
+      "UNC – No Primary — 1,518",
+      "UNC – Lapsed D — 293"
     ],
     "datasets": [
       {
         "data": [
-          637,
-          360,
-          348,
-          1503,
-          295
+          759,
+          335,
+          219,
+          169,
+          1518,
+          293
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PERRY TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

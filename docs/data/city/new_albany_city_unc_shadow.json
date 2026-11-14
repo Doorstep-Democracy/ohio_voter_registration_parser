@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,174",
-      "Mixed – Active — 492",
-      "Mixed – Lapsed — 690",
-      "UNC – No Primary — 3,770",
-      "UNC – Lapsed D — 945"
+      "UNC – Lapsed R — 1,370",
+      "Mixed – Active — 494",
+      "Mixed – Lapsed — 463",
+      "UNC – Non-partisan Ballot — 248",
+      "UNC – No Primary — 3,761",
+      "UNC – Lapsed D — 942"
     ],
     "datasets": [
       {
         "data": [
-          1174,
-          492,
-          690,
-          3770,
-          945
+          1370,
+          494,
+          463,
+          248,
+          3761,
+          942
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NEW ALBANY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

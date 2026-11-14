@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 295 (30%)",
-      "UNC – Lapsed R — 143 (15%)",
-      "Mixed – Active — 87 (9%)",
-      "Mixed – Lapsed — 51 (5%)",
-      "UNC – No Primary — 356 (36%)",
+      "Pure R — 201 (21%)",
+      "UNC – Lapsed R — 235 (24%)",
+      "Mixed – Active — 72 (7%)",
+      "Mixed – Lapsed — 52 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 14 (1%)",
+      "UNC – No Primary — 340 (35%)",
       "UNC – Lapsed D — 39 (4%)",
-      "Pure D — 15 (2%)"
+      "Pure D — 17 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          295,
-          143,
-          87,
-          51,
-          356,
+          201,
+          235,
+          72,
+          52,
+          1,
+          14,
+          340,
           39,
-          15
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VAN BUREN TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

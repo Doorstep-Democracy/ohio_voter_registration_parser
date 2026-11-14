@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          68,
-          264,
-          450,
-          436,
+          65,
+          257,
+          446,
+          429,
           245,
-          183,
-          121,
-          98
+          182,
+          117,
+          92
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          46,
-          114,
-          196,
-          255,
-          207,
-          206,
-          123,
-          19
+          42,
+          113,
+          194,
+          259,
+          208,
+          205,
+          127,
+          21
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,11 +50,11 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          28,
-          227,
-          297,
-          218,
-          118,
+          23,
+          224,
+          292,
+          217,
+          119,
           54,
           20,
           0
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          4,
-          27,
-          98,
-          138,
-          138,
-          160,
-          151,
-          75,
-          34
+          3,
+          19,
+          77,
+          92,
+          78,
+          83,
+          52,
+          11,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          2,
+          4,
+          4,
+          1,
+          7,
+          6,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          7,
+          22,
+          46,
+          61,
+          78,
+          98,
+          62,
+          35
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          16,
-          56,
-          163,
+          14,
+          51,
+          164,
           258,
-          314,
-          561,
-          717,
-          713
+          315,
+          571,
+          740,
+          767
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          25,
-          52,
+          24,
+          50,
           101,
           143,
-          141,
-          125,
+          145,
+          124,
           66,
-          6
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          12,
-          84,
-          132,
+          11,
+          82,
+          131,
           101,
-          61,
+          60,
           67,
           44,
-          39
+          38
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Greenon Local Sd (Clark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 433 (4%)",
-      "UNC – Lapsed R — 412 (4%)",
-      "Mixed – Active — 1,387 (12%)",
-      "Mixed – Lapsed — 604 (5%)",
-      "UNC – No Primary — 4,651 (40%)",
-      "UNC – Lapsed D — 2,044 (18%)",
-      "Pure D — 2,086 (18%)"
+      "Pure R — 425 (4%)",
+      "UNC – Lapsed R — 453 (4%)",
+      "Mixed – Active — 1,371 (12%)",
+      "Mixed – Lapsed — 522 (4%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 182 (2%)",
+      "UNC – No Primary — 4,642 (40%)",
+      "UNC – Lapsed D — 2,138 (18%)",
+      "Pure D — 1,916 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          433,
-          412,
-          1387,
-          604,
-          4651,
-          2044,
-          2086
+          425,
+          453,
+          1371,
+          522,
+          8,
+          182,
+          4642,
+          2138,
+          1916
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NILES CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

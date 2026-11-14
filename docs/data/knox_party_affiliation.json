@@ -3,14 +3,15 @@
   "county": "Knox",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          10072,
-          5162,
-          3260,
-          1246,
-          1396,
-          15561,
-          2627,
-          2202
+          9998,
+          5232,
+          3230,
+          1254,
+          59,
+          1388,
+          16027,
+          2630,
+          2174
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 286,
-    "new_registrants_d": 169,
-    "new_registrants_unc": 4217
+    "new_registrants_r": 283,
+    "new_registrants_d": 164,
+    "new_registrants_unc": 4773
   }
 }

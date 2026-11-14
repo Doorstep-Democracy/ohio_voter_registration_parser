@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 956",
-      "Mixed – Active — 521",
-      "Mixed – Lapsed — 952",
-      "UNC – No Primary — 2,416",
-      "UNC – Lapsed D — 835"
+      "UNC – Lapsed R — 951",
+      "Mixed – Active — 516",
+      "Mixed – Lapsed — 286",
+      "UNC – Non-partisan Ballot — 649",
+      "UNC – No Primary — 2,442",
+      "UNC – Lapsed D — 827"
     ],
     "datasets": [
       {
         "data": [
-          956,
-          521,
-          952,
-          2416,
-          835
+          951,
+          516,
+          286,
+          649,
+          2442,
+          827
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Benton Carroll Salem Local Sd (Ottawa Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

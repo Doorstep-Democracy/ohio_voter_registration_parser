@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 96 (21%)",
-      "UNC – Lapsed R — 57 (13%)",
+      "Pure R — 116 (26%)",
+      "UNC – Lapsed R — 46 (10%)",
       "Mixed – Active — 41 (9%)",
-      "Mixed – Lapsed — 17 (4%)",
-      "UNC – No Primary — 174 (38%)",
-      "UNC – Lapsed D — 53 (12%)",
-      "Pure D — 14 (3%)"
+      "Mixed – Lapsed — 14 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 3 (1%)",
+      "UNC – No Primary — 162 (36%)",
+      "UNC – Lapsed D — 47 (10%)",
+      "Pure D — 18 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          96,
-          57,
+          116,
+          46,
           41,
-          17,
-          174,
-          53,
-          14
+          14,
+          1,
+          3,
+          162,
+          47,
+          18
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BYRD TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

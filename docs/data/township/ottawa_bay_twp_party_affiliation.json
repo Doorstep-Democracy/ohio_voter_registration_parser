@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 118 (12%)",
-      "UNC – Lapsed R — 91 (9%)",
-      "Mixed – Active — 85 (9%)",
-      "Mixed – Lapsed — 88 (9%)",
-      "UNC – No Primary — 406 (41%)",
-      "UNC – Lapsed D — 118 (12%)",
-      "Pure D — 73 (7%)"
+      "Pure R — 108 (11%)",
+      "UNC – Lapsed R — 111 (11%)",
+      "Mixed – Active — 89 (9%)",
+      "Mixed – Lapsed — 39 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 45 (5%)",
+      "UNC – No Primary — 397 (40%)",
+      "UNC – Lapsed D — 104 (11%)",
+      "Pure D — 93 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          118,
-          91,
-          85,
-          88,
-          406,
-          118,
-          73
+          108,
+          111,
+          89,
+          39,
+          1,
+          45,
+          397,
+          104,
+          93
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BAY TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

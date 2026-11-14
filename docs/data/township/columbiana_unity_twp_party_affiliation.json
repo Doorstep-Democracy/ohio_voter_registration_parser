@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,210 (19%)",
-      "UNC – Lapsed R — 503 (8%)",
-      "Mixed – Active — 768 (12%)",
-      "Mixed – Lapsed — 352 (6%)",
-      "UNC – No Primary — 2,693 (43%)",
-      "UNC – Lapsed D — 497 (8%)",
-      "Pure D — 233 (4%)"
+      "Pure R — 1,139 (18%)",
+      "UNC – Lapsed R — 580 (9%)",
+      "Mixed – Active — 737 (12%)",
+      "Mixed – Lapsed — 278 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 106 (2%)",
+      "UNC – No Primary — 2,688 (43%)",
+      "UNC – Lapsed D — 492 (8%)",
+      "Pure D — 254 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1210,
-          503,
-          768,
-          352,
-          2693,
-          497,
-          233
+          1139,
+          580,
+          737,
+          278,
+          5,
+          106,
+          2688,
+          492,
+          254
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNITY TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT MONTPELIER A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -21,7 +21,7 @@
         "label": "Pure R",
         "data": [
           5,
-          29,
+          28,
           33,
           23,
           25,
@@ -37,8 +37,8 @@
         "label": "UNC – Lapsed R",
         "data": [
           5,
-          9,
-          14,
+          8,
+          12,
           29,
           22,
           21,
@@ -70,14 +70,30 @@
         "data": [
           0,
           6,
-          8,
+          7,
           10,
-          11,
-          5,
+          10,
+          4,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -101,13 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          11,
+          9,
           32,
           69,
-          74,
-          107,
-          173,
-          128
+          75,
+          108,
+          175,
+          135
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -118,9 +134,9 @@
         "data": [
           2,
           5,
-          9,
+          8,
           21,
-          12,
+          11,
           12,
           5,
           1

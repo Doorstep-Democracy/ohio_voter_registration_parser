@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 642 (19%)",
-      "UNC – Lapsed R — 609 (18%)",
-      "Mixed – Active — 274 (8%)",
-      "Mixed – Lapsed — 281 (9%)",
-      "UNC – No Primary — 1,179 (36%)",
-      "UNC – Lapsed D — 227 (7%)",
-      "Pure D — 87 (3%)"
+      "UNC – Lapsed R — 603 (18%)",
+      "Mixed – Active — 273 (8%)",
+      "Mixed – Lapsed — 167 (5%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 108 (3%)",
+      "UNC – No Primary — 1,195 (36%)",
+      "UNC – Lapsed D — 225 (7%)",
+      "Pure D — 81 (2%)"
     ],
     "datasets": [
       {
         "data": [
           642,
-          609,
-          274,
-          281,
-          1179,
-          227,
-          87
+          603,
+          273,
+          167,
+          6,
+          108,
+          1195,
+          225,
+          81
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Buckeye Central Local Sd (Crawford Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

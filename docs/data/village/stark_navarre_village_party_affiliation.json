@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 154 (14%)",
-      "UNC – Lapsed R — 103 (9%)",
-      "Mixed – Active — 100 (9%)",
-      "Mixed – Lapsed — 99 (9%)",
-      "UNC – No Primary — 427 (39%)",
-      "UNC – Lapsed D — 143 (13%)",
-      "Pure D — 68 (6%)"
+      "Pure R — 135 (12%)",
+      "UNC – Lapsed R — 131 (12%)",
+      "Mixed – Active — 104 (9%)",
+      "Mixed – Lapsed — 50 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 51 (5%)",
+      "UNC – No Primary — 434 (38%)",
+      "UNC – Lapsed D — 135 (12%)",
+      "Pure D — 88 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          154,
-          103,
-          100,
-          99,
-          427,
-          143,
-          68
+          135,
+          131,
+          104,
+          50,
+          4,
+          51,
+          434,
+          135,
+          88
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NAVARRE VILLAGE (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

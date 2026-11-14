@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 323",
-      "Mixed – Active — 634",
-      "Mixed – Lapsed — 441",
-      "UNC – No Primary — 1,878",
-      "UNC – Lapsed D — 982"
+      "UNC – Lapsed R — 354",
+      "Mixed – Active — 621",
+      "Mixed – Lapsed — 304",
+      "UNC – Non-partisan Ballot — 146",
+      "UNC – No Primary — 1,894",
+      "UNC – Lapsed D — 974"
     ],
     "datasets": [
       {
         "data": [
-          323,
-          634,
-          441,
-          1878,
-          982
+          354,
+          621,
+          304,
+          146,
+          1894,
+          974
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WEATHERSF TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

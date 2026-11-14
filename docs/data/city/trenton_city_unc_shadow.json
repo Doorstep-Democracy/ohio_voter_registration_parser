@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,192",
-      "Mixed – Active — 281",
-      "Mixed – Lapsed — 943",
-      "UNC – No Primary — 3,963",
-      "UNC – Lapsed D — 681"
+      "UNC – Lapsed R — 1,250",
+      "Mixed – Active — 306",
+      "Mixed – Lapsed — 253",
+      "UNC – Non-partisan Ballot — 625",
+      "UNC – No Primary — 4,043",
+      "UNC – Lapsed D — 608"
     ],
     "datasets": [
       {
         "data": [
-          1192,
-          281,
-          943,
-          3963,
-          681
+          1250,
+          306,
+          253,
+          625,
+          4043,
+          608
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "TRENTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

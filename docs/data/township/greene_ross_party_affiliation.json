@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 196 (34%)",
-      "UNC – Lapsed R — 79 (14%)",
-      "Mixed – Active — 59 (10%)",
-      "Mixed – Lapsed — 26 (4%)",
-      "UNC – No Primary — 175 (30%)",
-      "UNC – Lapsed D — 29 (5%)",
-      "Pure D — 15 (3%)"
+      "Pure R — 190 (32%)",
+      "UNC – Lapsed R — 83 (14%)",
+      "Mixed – Active — 55 (9%)",
+      "Mixed – Lapsed — 20 (3%)",
+      "Minor Party — 7 (1%)",
+      "UNC – Non-partisan Ballot — 10 (2%)",
+      "UNC – No Primary — 178 (30%)",
+      "UNC – Lapsed D — 30 (5%)",
+      "Pure D — 14 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          196,
-          79,
-          59,
-          26,
-          175,
-          29,
-          15
+          190,
+          83,
+          55,
+          20,
+          7,
+          10,
+          178,
+          30,
+          14
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ROSS (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

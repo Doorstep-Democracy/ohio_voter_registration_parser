@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 180",
-      "Mixed – Active — 155",
-      "Mixed – Lapsed — 139",
-      "UNC – No Primary — 672",
-      "UNC – Lapsed D — 216"
+      "UNC – Lapsed R — 195",
+      "Mixed – Active — 149",
+      "Mixed – Lapsed — 83",
+      "UNC – Non-partisan Ballot — 64",
+      "UNC – No Primary — 664",
+      "UNC – Lapsed D — 200"
     ],
     "datasets": [
       {
         "data": [
-          180,
-          155,
-          139,
-          672,
-          216
+          195,
+          149,
+          83,
+          64,
+          664,
+          200
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

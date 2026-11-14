@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          6,
-          115,
-          403,
-          619,
-          650,
-          494,
-          420,
-          224,
-          117
+          5,
+          106,
+          405,
+          674,
+          678,
+          529,
+          456,
+          268,
+          167
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          7,
-          58,
-          159,
-          314,
-          536,
-          559,
-          568,
-          429,
-          65
+          8,
+          65,
+          166,
+          274,
+          523,
+          554,
+          583,
+          425,
+          76
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
+          4,
           32,
-          156,
-          291,
-          245,
-          199,
-          130,
-          44,
+          164,
+          330,
+          283,
+          220,
+          160,
+          67,
           4
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          41,
-          132,
-          218,
-          363,
-          544,
-          789,
-          558,
-          441
+          29,
+          80,
+          104,
+          143,
+          142,
+          94,
+          38,
+          3
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          2,
+          7,
+          5,
+          2,
+          7,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          41,
+          82,
+          172,
+          383,
+          619,
+          462,
+          387
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          2,
-          26,
-          141,
-          313,
-          535,
+          1,
+          24,
+          138,
+          305,
+          548,
           838,
-          1231,
-          2180,
-          1634
+          1244,
+          2198,
+          1877
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          28,
-          117,
-          198,
-          255,
-          353,
-          447,
-          244,
-          39
+          2,
+          27,
+          116,
+          175,
+          236,
+          326,
+          422,
+          251,
+          57
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           2,
-          15,
-          87,
-          126,
-          97,
-          110,
-          121,
-          89,
-          64
+          14,
+          91,
+          151,
+          116,
+          137,
+          175,
+          132,
+          90
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PARIS TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

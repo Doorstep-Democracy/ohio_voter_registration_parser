@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          10,
-          140,
-          396,
+          8,
+          129,
+          402,
+          650,
           669,
-          652,
-          349,
-          229,
-          101,
-          84
+          340,
+          215,
+          107,
+          92
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          11,
-          61,
-          170,
-          324,
-          535,
-          485,
-          417,
-          216,
-          34
+          9,
+          74,
+          183,
+          335,
+          543,
+          518,
+          459,
+          236,
+          47
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           10,
-          54,
-          99,
-          213,
-          173,
-          78,
-          55,
+          47,
+          103,
+          234,
+          194,
+          97,
+          57,
           10,
-          2
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          35,
-          100,
-          140,
-          229,
-          197,
-          153,
-          55,
-          30
+          0,
+          29,
+          68,
+          82,
+          134,
+          95,
+          57,
+          16,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          1,
+          2,
+          1,
+          4,
+          2,
+          4,
+          4,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          10,
+          33,
+          54,
+          90,
+          100,
+          89,
+          41,
+          26
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          5,
-          47,
-          125,
-          266,
-          430,
-          568,
-          843,
-          969,
-          1033
+          3,
+          36,
+          127,
+          236,
+          418,
+          545,
+          814,
+          977,
+          1091
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          27,
+          28,
           83,
-          113,
-          156,
-          167,
+          93,
+          145,
+          157,
           142,
-          78,
-          16
+          81,
+          20
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          28,
-          61,
+          27,
           65,
-          51,
-          50,
-          29,
-          25,
-          25
+          94,
+          78,
+          61,
+          46,
+          33,
+          42
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TURTLECREEK TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

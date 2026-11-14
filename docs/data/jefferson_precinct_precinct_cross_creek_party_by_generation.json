@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CROSS CREEK",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           5,
-          20,
+          22,
           31,
-          30,
+          31,
           8
         ],
         "backgroundColor": "#fca5a5",
@@ -46,7 +46,7 @@
         "data": [
           23,
           100,
-          32,
+          33,
           7,
           0
         ],
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           5,
-          26,
+          25,
           21,
           6,
           0
@@ -68,13 +68,26 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           0,
           5,
-          5,
-          2
+          4,
+          1
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -85,9 +98,9 @@
         "data": [
           4,
           50,
-          78,
-          84,
-          88
+          82,
+          87,
+          91
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           9,
           44,
           43,
-          38,
+          39,
           6
         ],
         "backgroundColor": "#93c5fd",

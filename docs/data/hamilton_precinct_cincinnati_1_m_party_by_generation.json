@@ -4,7 +4,7 @@
   "precinct": "CINCINNATI 1-M",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -35,7 +35,7 @@
           28,
           36,
           48,
-          15
+          14
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          8,
+          7,
           28,
           11,
           11,
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          4,
+          3,
           18,
           17,
-          12,
+          9,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           4,
           8,
           19,
-          8
+          9
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          19,
-          52,
-          215,
-          128
+          18,
+          55,
+          217,
+          134
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          4,
-          19,
-          36,
-          57,
-          13
+          3,
+          18,
+          38,
+          58,
+          12
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           3,
-          32,
+          30,
           25,
-          29,
-          19
+          30,
+          16
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

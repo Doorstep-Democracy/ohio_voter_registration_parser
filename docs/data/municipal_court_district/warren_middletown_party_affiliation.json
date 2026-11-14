@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 440 (13%)",
-      "UNC – Lapsed R — 467 (14%)",
-      "Mixed – Active — 152 (4%)",
-      "Mixed – Lapsed — 297 (9%)",
-      "UNC – No Primary — 1,637 (47%)",
-      "UNC – Lapsed D — 334 (10%)",
-      "Pure D — 131 (4%)"
+      "Pure R — 484 (14%)",
+      "UNC – Lapsed R — 490 (14%)",
+      "Mixed – Active — 165 (5%)",
+      "Mixed – Lapsed — 124 (3%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 155 (4%)",
+      "UNC – No Primary — 1,630 (46%)",
+      "UNC – Lapsed D — 313 (9%)",
+      "Pure D — 209 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          440,
-          467,
-          152,
-          297,
-          1637,
-          334,
-          131
+          484,
+          490,
+          165,
+          124,
+          7,
+          155,
+          1630,
+          313,
+          209
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "MIDDLETOWN (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 139 (16%)",
-      "UNC – Lapsed R — 107 (12%)",
-      "Mixed – Active — 68 (8%)",
-      "Mixed – Lapsed — 91 (10%)",
-      "UNC – No Primary — 314 (36%)",
-      "UNC – Lapsed D — 103 (12%)",
+      "Pure R — 133 (15%)",
+      "UNC – Lapsed R — 119 (13%)",
+      "Mixed – Active — 77 (9%)",
+      "Mixed – Lapsed — 29 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 54 (6%)",
+      "UNC – No Primary — 317 (36%)",
+      "UNC – Lapsed D — 100 (11%)",
       "Pure D — 54 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          139,
-          107,
-          68,
-          91,
-          314,
-          103,
+          133,
+          119,
+          77,
+          29,
+          0,
+          54,
+          317,
+          100,
           54
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PORTAGE TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,949 (25%)",
-      "UNC – Lapsed R — 1,813 (15%)",
-      "Mixed – Active — 1,138 (10%)",
-      "Mixed – Lapsed — 928 (8%)",
-      "UNC – No Primary — 3,625 (31%)",
-      "UNC – Lapsed D — 679 (6%)",
-      "Pure D — 630 (5%)"
+      "Pure R — 2,930 (25%)",
+      "UNC – Lapsed R — 1,838 (16%)",
+      "Mixed – Active — 1,124 (10%)",
+      "Mixed – Lapsed — 462 (4%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 471 (4%)",
+      "UNC – No Primary — 3,694 (31%)",
+      "UNC – Lapsed D — 676 (6%)",
+      "Pure D — 617 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2949,
-          1813,
-          1138,
-          928,
-          3625,
-          679,
-          630
+          2930,
+          1838,
+          1124,
+          462,
+          15,
+          471,
+          3694,
+          676,
+          617
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "TIPP CITY EX VILL SD (MIAMI)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Tipp City Ex Vill Sd (Miami Co.)",
+  "updated": "2026-11-12"
 }

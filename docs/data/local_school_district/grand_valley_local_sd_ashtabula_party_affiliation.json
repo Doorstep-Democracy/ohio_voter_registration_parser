@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 781 (16%)",
-      "UNC – Lapsed R — 541 (11%)",
-      "Mixed – Active — 490 (10%)",
-      "Mixed – Lapsed — 403 (8%)",
-      "UNC – No Primary — 1,865 (38%)",
-      "UNC – Lapsed D — 447 (9%)",
-      "Pure D — 319 (7%)"
+      "Pure R — 776 (16%)",
+      "UNC – Lapsed R — 542 (11%)",
+      "Mixed – Active — 488 (10%)",
+      "Mixed – Lapsed — 211 (4%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 178 (4%)",
+      "UNC – No Primary — 1,893 (39%)",
+      "UNC – Lapsed D — 446 (9%)",
+      "Pure D — 311 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          781,
-          541,
-          490,
-          403,
-          1865,
-          447,
-          319
+          776,
+          542,
+          488,
+          211,
+          14,
+          178,
+          1893,
+          446,
+          311
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Grand Valley Local Sd (Ashtabula Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

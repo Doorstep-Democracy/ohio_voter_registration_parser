@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          8,
-          31,
+          6,
+          29,
+          64,
           62,
-          61,
-          45,
-          35,
-          21,
-          14
+          41,
+          37,
+          15,
+          16
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          8,
+          10,
           30,
-          33,
-          27,
-          16,
-          38,
-          23,
-          4
+          32,
+          25,
+          22,
+          36,
+          31,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,14 +46,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
+          4,
           28,
-          67,
-          51,
-          38,
-          15,
-          5,
-          1
+          66,
+          53,
+          37,
+          16,
+          6,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -62,15 +62,45 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          9,
-          13,
-          23,
-          27,
-          30,
-          23,
-          8
+          10,
+          10,
+          17,
+          20,
+          15,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          4,
+          5,
+          9,
+          12,
+          14,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,12 +108,12 @@
         "data": [
           1,
           18,
-          53,
-          65,
-          79,
+          52,
+          64,
+          77,
           113,
-          140,
-          116
+          135,
+          132
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -91,14 +121,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          7,
-          18,
-          49,
-          40,
-          50,
-          61,
+          6,
+          14,
+          43,
+          32,
+          46,
+          54,
           26,
-          3
+          4
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -106,22 +136,22 @@
       {
         "label": "Pure D",
         "data": [
-          7,
-          38,
-          71,
-          29,
-          49,
-          26,
-          19,
-          13
+          4,
+          40,
+          81,
+          39,
+          54,
+          33,
+          25,
+          17
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ALEXANDER TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

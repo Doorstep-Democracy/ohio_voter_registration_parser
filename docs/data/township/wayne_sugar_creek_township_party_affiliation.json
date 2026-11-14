@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,045 (27%)",
-      "UNC – Lapsed R — 542 (14%)",
-      "Mixed – Active — 251 (7%)",
-      "Mixed – Lapsed — 356 (9%)",
-      "UNC – No Primary — 1,302 (34%)",
-      "UNC – Lapsed D — 205 (5%)",
-      "Pure D — 116 (3%)"
+      "Pure R — 946 (25%)",
+      "UNC – Lapsed R — 660 (17%)",
+      "Mixed – Active — 231 (6%)",
+      "Mixed – Lapsed — 122 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 244 (6%)",
+      "UNC – No Primary — 1,277 (34%)",
+      "UNC – Lapsed D — 195 (5%)",
+      "Pure D — 123 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1045,
-          542,
-          251,
-          356,
-          1302,
-          205,
-          116
+          946,
+          660,
+          231,
+          122,
+          4,
+          244,
+          1277,
+          195,
+          123
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SUGAR CREEK TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

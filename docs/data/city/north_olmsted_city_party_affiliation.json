@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,705 (8%)",
-      "UNC – Lapsed R — 1,858 (9%)",
-      "Mixed – Active — 2,347 (11%)",
-      "Mixed – Lapsed — 2,032 (9%)",
-      "UNC – No Primary — 7,937 (36%)",
-      "UNC – Lapsed D — 3,005 (14%)",
-      "Pure D — 2,893 (13%)"
+      "Pure R — 1,690 (8%)",
+      "UNC – Lapsed R — 1,835 (8%)",
+      "Mixed – Active — 2,316 (11%)",
+      "Mixed – Lapsed — 1,156 (5%)",
+      "Minor Party — 46 (0%)",
+      "UNC – Non-partisan Ballot — 870 (4%)",
+      "UNC – No Primary — 8,131 (37%)",
+      "UNC – Lapsed D — 3,002 (14%)",
+      "Pure D — 2,879 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          1705,
-          1858,
-          2347,
-          2032,
-          7937,
-          3005,
-          2893
+          1690,
+          1835,
+          2316,
+          1156,
+          46,
+          870,
+          8131,
+          3002,
+          2879
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NORTH OLMSTED CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,055",
-      "Mixed – Active — 1,137",
-      "Mixed – Lapsed — 1,042",
-      "UNC – No Primary — 3,161",
-      "UNC – Lapsed D — 1,324"
+      "UNC – Lapsed R — 1,144",
+      "Mixed – Active — 1,116",
+      "Mixed – Lapsed — 628",
+      "UNC – Non-partisan Ballot — 426",
+      "UNC – No Primary — 3,127",
+      "UNC – Lapsed D — 1,214"
     ],
     "datasets": [
       {
         "data": [
-          1055,
-          1137,
-          1042,
-          3161,
-          1324
+          1144,
+          1116,
+          628,
+          426,
+          3127,
+          1214
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NEW FRANKLIN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

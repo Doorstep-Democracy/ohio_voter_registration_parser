@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CHARLESTOWN A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          4,
+          3,
           41,
           22,
           17,
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          9,
+          8,
           10,
           4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -86,8 +99,8 @@
           1,
           30,
           31,
-          56,
-          40
+          57,
+          44
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          9,
-          23,
-          15,
+          8,
+          24,
+          14,
           6,
-          2
+          1
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

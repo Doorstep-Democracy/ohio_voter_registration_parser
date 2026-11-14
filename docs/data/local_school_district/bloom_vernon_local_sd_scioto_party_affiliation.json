@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 546 (19%)",
-      "UNC – Lapsed R — 297 (11%)",
+      "Pure R — 545 (19%)",
+      "UNC – Lapsed R — 291 (10%)",
       "Mixed – Active — 286 (10%)",
-      "Mixed – Lapsed — 146 (5%)",
-      "UNC – No Primary — 1,103 (39%)",
+      "Mixed – Lapsed — 104 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 39 (1%)",
+      "UNC – No Primary — 1,120 (40%)",
       "UNC – Lapsed D — 334 (12%)",
-      "Pure D — 114 (4%)"
+      "Pure D — 111 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          546,
-          297,
+          545,
+          291,
           286,
-          146,
-          1103,
+          104,
+          4,
+          39,
+          1120,
           334,
-          114
+          111
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Bloom Vernon Local Sd (Scioto Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

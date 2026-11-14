@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,957 (16%)",
-      "UNC – Lapsed R — 1,841 (10%)",
-      "Mixed – Active — 1,552 (8%)",
-      "Mixed – Lapsed — 1,925 (10%)",
-      "UNC – No Primary — 7,099 (38%)",
-      "UNC – Lapsed D — 1,745 (9%)",
-      "Pure D — 1,534 (8%)"
+      "Pure R — 2,844 (15%)",
+      "UNC – Lapsed R — 1,983 (10%)",
+      "Mixed – Active — 1,610 (8%)",
+      "Mixed – Lapsed — 697 (4%)",
+      "Minor Party — 36 (0%)",
+      "UNC – Non-partisan Ballot — 1,131 (6%)",
+      "UNC – No Primary — 7,256 (38%)",
+      "UNC – Lapsed D — 1,713 (9%)",
+      "Pure D — 1,773 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          2957,
-          1841,
-          1552,
-          1925,
-          7099,
-          1745,
-          1534
+          2844,
+          1983,
+          1610,
+          697,
+          36,
+          1131,
+          7256,
+          1713,
+          1773
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "PERRYSBURG CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

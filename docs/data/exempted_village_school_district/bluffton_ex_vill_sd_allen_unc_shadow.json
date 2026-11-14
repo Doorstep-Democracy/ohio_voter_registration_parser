@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 850",
-      "Mixed – Active — 282",
-      "Mixed – Lapsed — 363",
-      "UNC – No Primary — 1,287",
+      "UNC – Lapsed R — 854",
+      "Mixed – Active — 281",
+      "Mixed – Lapsed — 173",
+      "UNC – Non-partisan Ballot — 186",
+      "UNC – No Primary — 1,311",
       "UNC – Lapsed D — 269"
     ],
     "datasets": [
       {
         "data": [
-          850,
-          282,
-          363,
-          1287,
+          854,
+          281,
+          173,
+          186,
+          1311,
           269
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "BLUFFTON EX VILL SD (ALLEN)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Bluffton Ex Vill Sd (Allen Co.)",
+  "updated": "2026-11-12"
 }

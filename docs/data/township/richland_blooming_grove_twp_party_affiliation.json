@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 112 (22%)",
-      "UNC – Lapsed R — 72 (14%)",
-      "Mixed – Active — 35 (7%)",
-      "Mixed – Lapsed — 38 (7%)",
-      "UNC – No Primary — 215 (42%)",
-      "UNC – Lapsed D — 29 (6%)",
-      "Pure D — 13 (3%)"
+      "Pure R — 122 (24%)",
+      "UNC – Lapsed R — 67 (13%)",
+      "Mixed – Active — 36 (7%)",
+      "Mixed – Lapsed — 18 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 17 (3%)",
+      "UNC – No Primary — 212 (41%)",
+      "UNC – Lapsed D — 30 (6%)",
+      "Pure D — 15 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          112,
-          72,
-          35,
-          38,
-          215,
-          29,
-          13
+          122,
+          67,
+          36,
+          18,
+          0,
+          17,
+          212,
+          30,
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BLOOMING GROVE TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT MR-6",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,11 +18,11 @@
       {
         "label": "Pure R",
         "data": [
-          13,
+          11,
           85,
           69,
-          31,
-          18
+          32,
+          17
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
-          42,
+          8,
+          43,
           34,
-          35,
-          9
+          38,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          14,
+          13,
           50,
           26,
           5,
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          6,
+          5,
           24,
-          15,
+          16,
           3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           1,
           11,
           10,
-          17,
+          16,
           4
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          45,
-          80,
-          103,
-          99
+          46,
+          77,
+          106,
+          107
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,9 +110,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          25,
-          28,
-          16,
+          24,
+          30,
+          15,
           5
         ],
         "backgroundColor": "#93c5fd",

@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 114 (17%)",
-      "UNC – Lapsed R — 67 (10%)",
-      "Mixed – Active — 52 (8%)",
-      "Mixed – Lapsed — 50 (7%)",
+      "Pure R — 104 (15%)",
+      "UNC – Lapsed R — 82 (12%)",
+      "Mixed – Active — 61 (9%)",
+      "Mixed – Lapsed — 15 (2%)",
+      "Minor Party — 5 (1%)",
+      "UNC – Non-partisan Ballot — 24 (4%)",
       "UNC – No Primary — 301 (45%)",
-      "UNC – Lapsed D — 61 (9%)",
+      "UNC – Lapsed D — 54 (8%)",
       "Pure D — 28 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          114,
-          67,
-          52,
-          50,
-          301,
+          104,
+          82,
           61,
+          15,
+          5,
+          24,
+          301,
+          54,
           28
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARTLAND TOWNSHIP (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

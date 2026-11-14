@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 25 (12%)",
-      "UNC – Lapsed R — 26 (12%)",
-      "Mixed – Active — 7 (3%)",
-      "Mixed – Lapsed — 24 (11%)",
-      "UNC – No Primary — 101 (47%)",
-      "UNC – Lapsed D — 26 (12%)",
-      "Pure D — 6 (3%)"
+      "Pure R — 32 (14%)",
+      "UNC – Lapsed R — 25 (11%)",
+      "Mixed – Active — 13 (6%)",
+      "Mixed – Lapsed — 12 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 9 (4%)",
+      "UNC – No Primary — 97 (43%)",
+      "UNC – Lapsed D — 24 (11%)",
+      "Pure D — 11 (5%)"
     ],
     "datasets": [
       {
         "data": [
+          32,
           25,
-          26,
-          7,
+          13,
+          12,
+          1,
+          9,
+          97,
           24,
-          101,
-          26,
-          6
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GREEN CAMP VILLAGE (Marion Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

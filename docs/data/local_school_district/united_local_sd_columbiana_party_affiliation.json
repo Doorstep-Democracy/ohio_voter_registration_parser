@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,213 (25%)",
-      "UNC – Lapsed R — 593 (12%)",
-      "Mixed – Active — 565 (12%)",
-      "Mixed – Lapsed — 355 (7%)",
-      "UNC – No Primary — 1,617 (33%)",
-      "UNC – Lapsed D — 356 (7%)",
-      "Pure D — 180 (4%)"
+      "Pure R — 1,204 (25%)",
+      "UNC – Lapsed R — 596 (12%)",
+      "Mixed – Active — 564 (12%)",
+      "Mixed – Lapsed — 223 (5%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 127 (3%)",
+      "UNC – No Primary — 1,643 (34%)",
+      "UNC – Lapsed D — 353 (7%)",
+      "Pure D — 178 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1213,
-          593,
-          565,
-          355,
-          1617,
-          356,
-          180
+          1204,
+          596,
+          564,
+          223,
+          9,
+          127,
+          1643,
+          353,
+          178
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "United Local Sd (Columbiana Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

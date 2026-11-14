@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,961 (16%)",
-      "UNC – Lapsed R — 3,880 (13%)",
-      "Mixed – Active — 2,093 (7%)",
-      "Mixed – Lapsed — 2,430 (8%)",
-      "UNC – No Primary — 12,569 (41%)",
-      "UNC – Lapsed D — 3,344 (11%)",
-      "Pure D — 1,187 (4%)"
+      "Pure R — 4,610 (15%)",
+      "UNC – Lapsed R — 4,277 (14%)",
+      "Mixed – Active — 2,121 (7%)",
+      "Mixed – Lapsed — 1,261 (4%)",
+      "Minor Party — 47 (0%)",
+      "UNC – Non-partisan Ballot — 1,174 (4%)",
+      "UNC – No Primary — 12,651 (41%)",
+      "UNC – Lapsed D — 3,163 (10%)",
+      "Pure D — 1,553 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          4961,
-          3880,
-          2093,
-          2430,
-          12569,
-          3344,
-          1187
+          4610,
+          4277,
+          2121,
+          1261,
+          47,
+          1174,
+          12651,
+          3163,
+          1553
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "LANCASTER CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

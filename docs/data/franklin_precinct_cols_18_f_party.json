@@ -4,13 +4,14 @@
   "precinct": "COLS 18-F",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -21,18 +22,20 @@
         "data": [
           20,
           21,
-          38,
-          21,
-          24,
-          390,
-          223,
-          252
+          35,
+          22,
+          4,
+          22,
+          412,
+          213,
+          260
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

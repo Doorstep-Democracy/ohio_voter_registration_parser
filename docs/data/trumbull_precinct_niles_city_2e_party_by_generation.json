@@ -4,7 +4,7 @@
   "precinct": "NILES CITY 2E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
+          5,
+          7,
           6,
-          7,
-          7,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -44,11 +44,11 @@
       {
         "label": "Mixed – Active",
         "data": [
-          12,
+          11,
           44,
           17,
           8,
-          3
+          2
         ],
         "backgroundColor": "#f59e0b",
         "borderRadius": 2,
@@ -68,10 +68,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          1,
+          2,
           3,
           1,
           1
@@ -84,9 +97,9 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          40,
           43,
-          91,
+          44,
+          93,
           81
         ],
         "backgroundColor": "#9ca3af",
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           11,
-          34,
+          36,
           28,
-          35,
-          7
+          36,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -112,7 +125,7 @@
           21,
           63,
           37,
-          25,
+          24,
           6
         ],
         "backgroundColor": "#3b82f6",

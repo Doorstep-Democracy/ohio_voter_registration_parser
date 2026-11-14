@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 279 (16%)",
-      "UNC – Lapsed R — 177 (10%)",
-      "Mixed – Active — 146 (8%)",
-      "Mixed – Lapsed — 127 (7%)",
-      "UNC – No Primary — 745 (43%)",
-      "UNC – Lapsed D — 173 (10%)",
-      "Pure D — 89 (5%)"
+      "Pure R — 250 (14%)",
+      "UNC – Lapsed R — 214 (12%)",
+      "Mixed – Active — 137 (8%)",
+      "Mixed – Lapsed — 77 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 50 (3%)",
+      "UNC – No Primary — 761 (43%)",
+      "UNC – Lapsed D — 153 (9%)",
+      "Pure D — 119 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          279,
-          177,
-          146,
-          127,
-          745,
-          173,
-          89
+          250,
+          214,
+          137,
+          77,
+          4,
+          50,
+          761,
+          153,
+          119
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ANDOVER TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

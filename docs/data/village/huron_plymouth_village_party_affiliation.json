@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 44 (10%)",
-      "UNC – Lapsed R — 47 (11%)",
-      "Mixed – Active — 17 (4%)",
-      "Mixed – Lapsed — 48 (11%)",
-      "UNC – No Primary — 232 (52%)",
-      "UNC – Lapsed D — 36 (8%)",
-      "Pure D — 19 (4%)"
+      "Pure R — 41 (9%)",
+      "UNC – Lapsed R — 55 (12%)",
+      "Mixed – Active — 15 (3%)",
+      "Mixed – Lapsed — 13 (3%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 33 (7%)",
+      "UNC – No Primary — 236 (53%)",
+      "UNC – Lapsed D — 33 (7%)",
+      "Pure D — 20 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          44,
-          47,
-          17,
-          48,
-          232,
-          36,
-          19
+          41,
+          55,
+          15,
+          13,
+          3,
+          33,
+          236,
+          33,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PLYMOUTH VILLAGE (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 30 (15%)",
-      "UNC – Lapsed R — 27 (14%)",
-      "Mixed – Active — 19 (10%)",
-      "Mixed – Lapsed — 9 (4%)",
-      "UNC – No Primary — 74 (37%)",
+      "UNC – Lapsed R — 28 (14%)",
+      "Mixed – Active — 19 (9%)",
+      "Mixed – Lapsed — 4 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (3%)",
+      "UNC – No Primary — 75 (37%)",
       "UNC – Lapsed D — 20 (10%)",
-      "Pure D — 21 (10%)"
+      "Pure D — 20 (10%)"
     ],
     "datasets": [
       {
         "data": [
           30,
-          27,
+          28,
           19,
-          9,
-          74,
+          4,
+          0,
+          6,
+          75,
           20,
-          21
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HARRISBURG VILLAGE  (Franklin Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

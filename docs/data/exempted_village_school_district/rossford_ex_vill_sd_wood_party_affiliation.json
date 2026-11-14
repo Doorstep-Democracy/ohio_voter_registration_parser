@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 803 (8%)",
-      "UNC – Lapsed R — 994 (10%)",
-      "Mixed – Active — 630 (6%)",
-      "Mixed – Lapsed — 877 (9%)",
-      "UNC – No Primary — 4,301 (44%)",
-      "UNC – Lapsed D — 1,372 (14%)",
-      "Pure D — 748 (8%)"
+      "Pure R — 788 (8%)",
+      "UNC – Lapsed R — 987 (10%)",
+      "Mixed – Active — 627 (6%)",
+      "Mixed – Lapsed — 450 (5%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 410 (4%)",
+      "UNC – No Primary — 4,389 (45%)",
+      "UNC – Lapsed D — 1,377 (14%)",
+      "Pure D — 736 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          803,
-          994,
-          630,
-          877,
-          4301,
-          1372,
-          748
+          788,
+          987,
+          627,
+          450,
+          19,
+          410,
+          4389,
+          1377,
+          736
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "ROSSFORD EX VILL SD (WOOD)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Rossford Ex Vill Sd (Wood Co.)",
+  "updated": "2026-11-12"
 }

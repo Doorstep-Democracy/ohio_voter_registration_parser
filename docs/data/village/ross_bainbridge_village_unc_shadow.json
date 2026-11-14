@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 45",
-      "Mixed – Active — 36",
-      "Mixed – Lapsed — 25",
-      "UNC – No Primary — 209",
+      "UNC – Lapsed R — 51",
+      "Mixed – Active — 42",
+      "Mixed – Lapsed — 12",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 208",
       "UNC – Lapsed D — 52"
     ],
     "datasets": [
       {
         "data": [
-          45,
-          36,
-          25,
-          209,
+          51,
+          42,
+          12,
+          9,
+          208,
           52
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "BAINBRIDGE VILLAGE (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

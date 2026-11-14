@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          16,
-          77,
-          177,
-          171,
-          100,
-          98,
-          45,
-          31
+          13,
+          56,
+          175,
+          140,
+          83,
+          94,
+          41,
+          34
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          7,
-          28,
-          52,
-          89,
-          104,
-          119,
-          90,
-          14
+          9,
+          46,
+          61,
+          120,
+          126,
+          130,
+          101,
+          27
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +49,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           10,
-          50,
-          61,
-          42,
-          11,
+          40,
+          55,
+          37,
           16,
+          23,
           3,
           0
         ],
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          7,
-          20,
-          47,
-          37,
-          49,
-          39,
-          35,
-          2
+          1,
+          2,
+          18,
+          24,
+          21,
+          15,
+          12,
+          5,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          11,
+          26,
+          22,
+          32,
+          24,
+          27,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +116,12 @@
           0,
           4,
           6,
-          45,
-          80,
-          77,
-          134,
-          245,
-          266
+          37,
+          74,
+          69,
+          129,
+          230,
+          274
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          8,
+          9,
+          23,
+          22,
+          15,
+          24,
+          15,
           20,
-          26,
-          17,
-          27,
-          20,
-          19,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          6,
-          12,
+          4,
           8,
           11,
+          14,
+          4,
+          0,
           3,
-          1,
-          1,
-          1
+          5
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GERMAN TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

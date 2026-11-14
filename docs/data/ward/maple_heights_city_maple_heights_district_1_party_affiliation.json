@@ -4,24 +4,26 @@
   "chartConfig": {
     "labels": [
       "Pure R — 42 (2%)",
-      "UNC – Lapsed R — 58 (3%)",
-      "Mixed – Active — 82 (4%)",
-      "Mixed – Lapsed — 53 (2%)",
-      "UNC – Non-partisan Ballot — 44 (2%)",
-      "UNC – No Primary — 942 (42%)",
-      "UNC – Lapsed D — 539 (24%)",
+      "UNC – Lapsed R — 56 (2%)",
+      "Mixed – Active — 81 (4%)",
+      "Mixed – Lapsed — 52 (2%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 45 (2%)",
+      "UNC – No Primary — 969 (43%)",
+      "UNC – Lapsed D — 541 (24%)",
       "Pure D — 481 (21%)"
     ],
     "datasets": [
       {
         "data": [
           42,
-          58,
-          82,
-          53,
-          44,
-          942,
-          539,
+          56,
+          81,
+          52,
+          6,
+          45,
+          969,
+          541,
           481
         ],
         "backgroundColor": [
@@ -29,6 +31,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "MAPLE HEIGHTS DISTRICT 1 (MAPLE HEIGHTS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

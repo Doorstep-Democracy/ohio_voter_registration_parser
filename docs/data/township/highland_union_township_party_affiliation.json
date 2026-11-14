@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 235 (19%)",
-      "UNC – Lapsed R — 187 (15%)",
-      "Mixed – Active — 83 (7%)",
-      "Mixed – Lapsed — 54 (4%)",
-      "UNC – No Primary — 577 (47%)",
-      "UNC – Lapsed D — 83 (7%)",
-      "Pure D — 20 (2%)"
+      "Pure R — 243 (19%)",
+      "UNC – Lapsed R — 204 (16%)",
+      "Mixed – Active — 89 (7%)",
+      "Mixed – Lapsed — 38 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 12 (1%)",
+      "UNC – No Primary — 565 (45%)",
+      "UNC – Lapsed D — 70 (6%)",
+      "Pure D — 33 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          235,
-          187,
-          83,
-          54,
-          577,
-          83,
-          20
+          243,
+          204,
+          89,
+          38,
+          2,
+          12,
+          565,
+          70,
+          33
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

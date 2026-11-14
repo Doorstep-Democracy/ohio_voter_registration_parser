@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          18,
-          76,
-          179,
-          172,
-          98,
+          13,
           71,
-          51,
-          28
+          163,
+          180,
+          80,
+          64,
+          44,
+          31
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          5,
+          8,
           24,
-          43,
-          112,
-          112,
-          87,
-          53,
-          8
+          56,
+          115,
+          127,
+          94,
+          55,
+          12
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          10,
-          82,
-          171,
-          112,
+          4,
+          71,
+          169,
+          113,
           51,
-          21,
-          10,
+          18,
+          8,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          5,
-          31,
+          8,
+          36,
           47,
-          85,
-          65,
-          64,
-          11,
-          3
+          56,
+          40,
+          31,
+          4,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          3,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          3,
+          4,
+          27,
+          25,
+          33,
+          11,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +116,12 @@
           0,
           2,
           19,
-          60,
+          56,
+          120,
           131,
-          136,
-          195,
-          256,
-          309
+          192,
+          253,
+          320
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          9,
-          27,
-          41,
-          90,
-          57,
-          40,
-          27,
+          11,
+          22,
+          34,
+          84,
+          53,
+          39,
+          22,
           4
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          4,
-          24,
-          27,
-          23,
+          2,
+          26,
+          34,
+          29,
+          16,
+          11,
           12,
-          8,
-          4,
-          4
+          8
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HAMBDEN TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

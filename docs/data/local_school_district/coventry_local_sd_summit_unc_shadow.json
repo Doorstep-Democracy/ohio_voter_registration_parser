@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 869",
-      "Mixed – Active — 884",
-      "Mixed – Lapsed — 959",
-      "UNC – No Primary — 2,938",
-      "UNC – Lapsed D — 1,341"
+      "UNC – Lapsed R — 862",
+      "Mixed – Active — 874",
+      "Mixed – Lapsed — 546",
+      "UNC – Non-partisan Ballot — 410",
+      "UNC – No Primary — 3,008",
+      "UNC – Lapsed D — 1,332"
     ],
     "datasets": [
       {
         "data": [
-          869,
-          884,
-          959,
-          2938,
-          1341
+          862,
+          874,
+          546,
+          410,
+          3008,
+          1332
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Coventry Local Sd (Summit Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

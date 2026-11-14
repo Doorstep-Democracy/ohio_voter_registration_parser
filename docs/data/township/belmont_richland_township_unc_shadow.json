@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 770",
-      "Mixed – Active — 1,213",
-      "Mixed – Lapsed — 693",
-      "UNC – No Primary — 3,152",
-      "UNC – Lapsed D — 1,007"
+      "UNC – Lapsed R — 824",
+      "Mixed – Active — 1,284",
+      "Mixed – Lapsed — 355",
+      "UNC – Non-partisan Ballot — 317",
+      "UNC – No Primary — 3,102",
+      "UNC – Lapsed D — 895"
     ],
     "datasets": [
       {
         "data": [
-          770,
-          1213,
-          693,
-          3152,
-          1007
+          824,
+          1284,
+          355,
+          317,
+          3102,
+          895
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

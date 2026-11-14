@@ -4,31 +4,34 @@
   "chartConfig": {
     "labels": [
       "Pure R — 68 (9%)",
-      "UNC – Lapsed R — 52 (7%)",
-      "Mixed – Active — 88 (11%)",
-      "Mixed – Lapsed — 32 (4%)",
-      "UNC – Non-partisan Ballot — 26 (3%)",
-      "UNC – No Primary — 313 (40%)",
-      "UNC – Lapsed D — 118 (15%)",
-      "Pure D — 84 (11%)"
+      "UNC – Lapsed R — 55 (7%)",
+      "Mixed – Active — 85 (11%)",
+      "Mixed – Lapsed — 30 (4%)",
+      "Minor Party — 8 (1%)",
+      "UNC – Non-partisan Ballot — 25 (3%)",
+      "UNC – No Primary — 320 (40%)",
+      "UNC – Lapsed D — 124 (16%)",
+      "Pure D — 80 (10%)"
     ],
     "datasets": [
       {
         "data": [
           68,
-          52,
-          88,
-          32,
-          26,
-          313,
-          118,
-          84
+          55,
+          85,
+          30,
+          8,
+          25,
+          320,
+          124,
+          80
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "NEWTON FALLS-WARD 1 (NEWTON FALLS VILLAGE Village)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

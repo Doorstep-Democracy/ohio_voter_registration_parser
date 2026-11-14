@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,444 (7%)",
-      "UNC – Lapsed R — 1,456 (7%)",
-      "Mixed – Active — 974 (5%)",
-      "Mixed – Lapsed — 1,159 (6%)",
-      "UNC – No Primary — 10,243 (52%)",
-      "UNC – Lapsed D — 2,870 (14%)",
-      "Pure D — 1,694 (9%)"
+      "Pure R — 1,314 (7%)",
+      "UNC – Lapsed R — 1,501 (7%)",
+      "Mixed – Active — 1,037 (5%)",
+      "Mixed – Lapsed — 638 (3%)",
+      "Minor Party — 49 (0%)",
+      "UNC – Non-partisan Ballot — 457 (2%)",
+      "UNC – No Primary — 10,164 (51%)",
+      "UNC – Lapsed D — 2,571 (13%)",
+      "Pure D — 2,352 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          1444,
-          1456,
-          974,
-          1159,
-          10243,
-          2870,
-          1694
+          1314,
+          1501,
+          1037,
+          638,
+          49,
+          457,
+          10164,
+          2571,
+          2352
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Truro Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 532 (22%)",
-      "UNC – Lapsed R — 306 (13%)",
-      "Mixed – Active — 203 (8%)",
-      "Mixed – Lapsed — 349 (14%)",
-      "UNC – No Primary — 691 (29%)",
-      "UNC – Lapsed D — 237 (10%)",
-      "Pure D — 97 (4%)"
+      "Pure R — 478 (20%)",
+      "UNC – Lapsed R — 365 (15%)",
+      "Mixed – Active — 202 (8%)",
+      "Mixed – Lapsed — 73 (3%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 267 (11%)",
+      "UNC – No Primary — 704 (29%)",
+      "UNC – Lapsed D — 216 (9%)",
+      "Pure D — 115 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          532,
-          306,
-          203,
-          349,
-          691,
-          237,
-          97
+          478,
+          365,
+          202,
+          73,
+          8,
+          267,
+          704,
+          216,
+          115
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREEN TWP-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

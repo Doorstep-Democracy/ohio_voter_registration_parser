@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 112 (17%)",
-      "UNC – Lapsed R — 62 (9%)",
-      "Mixed – Active — 86 (13%)",
-      "Mixed – Lapsed — 80 (12%)",
-      "UNC – No Primary — 201 (30%)",
+      "Pure R — 107 (16%)",
+      "UNC – Lapsed R — 64 (10%)",
+      "Mixed – Active — 73 (11%)",
+      "Mixed – Lapsed — 28 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 52 (8%)",
+      "UNC – No Primary — 197 (30%)",
       "UNC – Lapsed D — 73 (11%)",
-      "Pure D — 48 (7%)"
+      "Pure D — 52 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          112,
-          62,
-          86,
-          80,
-          201,
+          107,
+          64,
           73,
-          48
+          28,
+          3,
+          52,
+          197,
+          73,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MILAN VILLAGE (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

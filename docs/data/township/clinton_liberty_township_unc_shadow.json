@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 90",
-      "Mixed – Active — 65",
+      "UNC – Lapsed R — 119",
+      "Mixed – Active — 54",
       "Mixed – Lapsed — 36",
-      "UNC – No Primary — 235",
-      "UNC – Lapsed D — 35"
+      "UNC – Non-partisan Ballot — 11",
+      "UNC – No Primary — 243",
+      "UNC – Lapsed D — 25"
     ],
     "datasets": [
       {
         "data": [
-          90,
-          65,
+          119,
+          54,
           36,
-          235,
-          35
+          11,
+          243,
+          25
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

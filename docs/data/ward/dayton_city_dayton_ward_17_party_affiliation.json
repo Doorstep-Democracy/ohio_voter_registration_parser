@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 40 (1%)",
-      "UNC – Lapsed R — 73 (2%)",
-      "Mixed – Active — 58 (2%)",
+      "Pure R — 39 (1%)",
+      "UNC – Lapsed R — 77 (2%)",
+      "Mixed – Active — 57 (2%)",
       "Mixed – Lapsed — 31 (1%)",
-      "UNC – Non-partisan Ballot — 44 (1%)",
-      "UNC – No Primary — 2,239 (65%)",
-      "UNC – Lapsed D — 632 (18%)",
-      "Pure D — 346 (10%)"
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 42 (1%)",
+      "UNC – No Primary — 2,387 (66%)",
+      "UNC – Lapsed D — 622 (17%)",
+      "Pure D — 341 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          40,
-          73,
-          58,
+          39,
+          77,
+          57,
           31,
-          44,
-          2239,
-          632,
-          346
+          6,
+          42,
+          2387,
+          622,
+          341
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "DAYTON WARD 17 (DAYTON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

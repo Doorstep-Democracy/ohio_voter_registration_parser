@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,010 (13%)",
-      "UNC – Lapsed R — 847 (11%)",
-      "Mixed – Active — 1,052 (13%)",
-      "Mixed – Lapsed — 1,002 (13%)",
-      "UNC – No Primary — 2,299 (29%)",
-      "UNC – Lapsed D — 1,029 (13%)",
-      "Pure D — 578 (7%)"
+      "Pure R — 1,059 (14%)",
+      "UNC – Lapsed R — 865 (11%)",
+      "Mixed – Active — 1,165 (15%)",
+      "Mixed – Lapsed — 533 (7%)",
+      "Minor Party — 18 (0%)",
+      "UNC – Non-partisan Ballot — 354 (5%)",
+      "UNC – No Primary — 2,212 (28%)",
+      "UNC – Lapsed D — 885 (11%)",
+      "Pure D — 740 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1010,
-          847,
-          1052,
-          1002,
-          2299,
-          1029,
-          578
+          1059,
+          865,
+          1165,
+          533,
+          18,
+          354,
+          2212,
+          885,
+          740
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "HURON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

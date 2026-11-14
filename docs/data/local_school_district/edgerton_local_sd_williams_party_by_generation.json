@@ -13,9 +13,9 @@
       {
         "label": "Pure R",
         "data": [
-          30,
-          219,
-          133,
+          29,
+          218,
+          134,
           79,
           39
         ],
@@ -25,11 +25,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          33,
+          32,
+          148,
           150,
-          149,
-          100,
-          28
+          101,
+          27
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -38,8 +38,8 @@
         "label": "Mixed – Active",
         "data": [
           26,
-          114,
-          52,
+          112,
+          51,
           15,
           2
         ],
@@ -49,23 +49,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          15,
+          65,
+          38,
           19,
-          83,
-          53,
-          30,
-          6
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          19,
+          16,
+          11,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           18,
-          114,
-          229,
-          308,
-          360
+          116,
+          230,
+          314,
+          389
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -73,11 +97,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          22,
-          66,
+          21,
+          65,
           50,
-          25,
-          7
+          26,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -96,8 +120,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Edgerton Local Sd (Williams Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

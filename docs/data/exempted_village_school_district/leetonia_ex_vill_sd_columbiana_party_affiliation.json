@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 474 (16%)",
-      "UNC – Lapsed R — 267 (9%)",
-      "Mixed – Active — 388 (13%)",
-      "Mixed – Lapsed — 168 (6%)",
-      "UNC – No Primary — 1,133 (39%)",
-      "UNC – Lapsed D — 293 (10%)",
-      "Pure D — 157 (5%)"
+      "Pure R — 472 (16%)",
+      "UNC – Lapsed R — 264 (9%)",
+      "Mixed – Active — 381 (13%)",
+      "Mixed – Lapsed — 99 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 69 (2%)",
+      "UNC – No Primary — 1,135 (40%)",
+      "UNC – Lapsed D — 289 (10%)",
+      "Pure D — 158 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          474,
-          267,
-          388,
-          168,
-          1133,
-          293,
-          157
+          472,
+          264,
+          381,
+          99,
+          0,
+          69,
+          1135,
+          289,
+          158
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "LEETONIA EX VILL SD (COLUMBIANA)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Leetonia Ex Vill Sd (Columbiana Co.)",
+  "updated": "2026-11-12"
 }

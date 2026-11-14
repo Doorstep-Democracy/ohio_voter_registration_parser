@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 265 (25%)",
-      "UNC – Lapsed R — 77 (7%)",
-      "Mixed – Active — 85 (8%)",
-      "Mixed – Lapsed — 24 (2%)",
-      "UNC – No Primary — 543 (51%)",
-      "UNC – Lapsed D — 46 (4%)",
-      "Pure D — 28 (3%)"
+      "Pure R — 255 (24%)",
+      "UNC – Lapsed R — 79 (7%)",
+      "Mixed – Active — 91 (9%)",
+      "Mixed – Lapsed — 13 (1%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 5 (0%)",
+      "UNC – No Primary — 538 (50%)",
+      "UNC – Lapsed D — 44 (4%)",
+      "Pure D — 39 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          265,
-          77,
-          85,
-          24,
-          543,
-          46,
-          28
+          255,
+          79,
+          91,
+          13,
+          2,
+          5,
+          538,
+          44,
+          39
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PEEBLES VILLAGE (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

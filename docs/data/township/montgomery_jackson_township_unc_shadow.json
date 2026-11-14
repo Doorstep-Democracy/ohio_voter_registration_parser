@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 666",
-      "Mixed – Active — 386",
-      "Mixed – Lapsed — 412",
-      "UNC – No Primary — 1,459",
-      "UNC – Lapsed D — 339"
+      "UNC – Lapsed R — 820",
+      "Mixed – Active — 354",
+      "Mixed – Lapsed — 254",
+      "UNC – Non-partisan Ballot — 189",
+      "UNC – No Primary — 1,446",
+      "UNC – Lapsed D — 334"
     ],
     "datasets": [
       {
         "data": [
-          666,
-          386,
-          412,
-          1459,
-          339
+          820,
+          354,
+          254,
+          189,
+          1446,
+          334
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

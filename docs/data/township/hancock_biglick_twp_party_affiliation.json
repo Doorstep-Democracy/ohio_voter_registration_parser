@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 317 (34%)",
-      "UNC – Lapsed R — 130 (14%)",
-      "Mixed – Active — 82 (9%)",
-      "Mixed – Lapsed — 55 (6%)",
-      "UNC – No Primary — 277 (30%)",
-      "UNC – Lapsed D — 55 (6%)",
-      "Pure D — 18 (2%)"
+      "Pure R — 324 (34%)",
+      "UNC – Lapsed R — 128 (14%)",
+      "Mixed – Active — 89 (9%)",
+      "Mixed – Lapsed — 27 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 25 (3%)",
+      "UNC – No Primary — 270 (29%)",
+      "UNC – Lapsed D — 49 (5%)",
+      "Pure D — 25 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          317,
-          130,
-          82,
-          55,
-          277,
-          55,
-          18
+          324,
+          128,
+          89,
+          27,
+          4,
+          25,
+          270,
+          49,
+          25
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BIGLICK TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

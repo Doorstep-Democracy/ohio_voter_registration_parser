@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 150 (26%)",
-      "UNC – Lapsed R — 75 (13%)",
-      "Mixed – Active — 42 (7%)",
-      "Mixed – Lapsed — 29 (5%)",
-      "UNC – No Primary — 235 (40%)",
-      "UNC – Lapsed D — 41 (7%)",
-      "Pure D — 12 (2%)"
+      "Pure R — 117 (20%)",
+      "UNC – Lapsed R — 113 (19%)",
+      "Mixed – Active — 41 (7%)",
+      "Mixed – Lapsed — 28 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 4 (1%)",
+      "UNC – No Primary — 233 (40%)",
+      "UNC – Lapsed D — 35 (6%)",
+      "Pure D — 14 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          150,
-          75,
-          42,
-          29,
-          235,
+          117,
+          113,
           41,
-          12
+          28,
+          1,
+          4,
+          233,
+          35,
+          14
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LATTY TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

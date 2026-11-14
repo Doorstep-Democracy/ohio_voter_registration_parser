@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 928 (11%)",
-      "UNC – Lapsed R — 914 (11%)",
-      "Mixed – Active — 540 (6%)",
-      "Mixed – Lapsed — 544 (6%)",
-      "UNC – No Primary — 4,182 (50%)",
-      "UNC – Lapsed D — 948 (11%)",
-      "Pure D — 384 (5%)"
+      "Pure R — 773 (9%)",
+      "UNC – Lapsed R — 1,053 (12%)",
+      "Mixed – Active — 488 (6%)",
+      "Mixed – Lapsed — 393 (5%)",
+      "Minor Party — 28 (0%)",
+      "UNC – Non-partisan Ballot — 197 (2%)",
+      "UNC – No Primary — 4,226 (49%)",
+      "UNC – Lapsed D — 940 (11%)",
+      "Pure D — 452 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          928,
-          914,
-          540,
-          544,
-          4182,
-          948,
-          384
+          773,
+          1053,
+          488,
+          393,
+          28,
+          197,
+          4226,
+          940,
+          452
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WEST CARROLLTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

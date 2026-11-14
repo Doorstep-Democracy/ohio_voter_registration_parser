@@ -3,14 +3,15 @@
   "county": "Ottawa",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          4710,
-          4034,
-          2418,
-          1308,
-          2183,
-          9279,
-          3397,
-          2350
+          4663,
+          4074,
+          2396,
+          1310,
+          65,
+          2151,
+          9460,
+          3398,
+          2330
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 271,
-    "new_registrants_d": 141,
-    "new_registrants_unc": 3624
+    "new_registrants_r": 268,
+    "new_registrants_d": 136,
+    "new_registrants_unc": 4100
   }
 }

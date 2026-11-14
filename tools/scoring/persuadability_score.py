@@ -76,8 +76,12 @@ from pathlib import Path
 import polars as pl
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-ENRICHED = ROOT / 'local' / 'source' / 'parquet_enriched' / 'enriched_voters.parquet'
-COUNTIES_GEOJSON = ROOT / 'docs' / 'data' / 'state_map' / 'counties.geojson'
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from pipeline.paths import DATA_DIR  # noqa: E402
+from pipeline.paths import ENRICHED_CACHE as ENRICHED  # noqa: E402
+
+COUNTIES_GEOJSON = DATA_DIR / 'state_map' / 'counties.geojson'
 
 
 def county_names() -> dict[str, str]:
@@ -115,14 +119,18 @@ U_COHORTS = ('CROSSOVER_R', 'CROSSOVER_D', 'UNC_MIXED',
              # would silently drop 11,248 Montgomery voters from the
              # denominator rather than raising.
              'UNC_NONPARTISAN',
-             'UNC_NO_PRIMARY')
+             'UNC_NO_PRIMARY',
+             # Libertarian, Green and other parties: no D-vs-R signal, so
+             # unexpressed on this axis. Before MINOR_PARTY existed these
+             # voters were cohort OTHER (see below).
+             'MINOR_PARTY')
 
-# The classifier's .otherwise() fallthrough: non-blank, non-R, non-D
-# affiliation. 795 voters in Montgomery (0.22%). The published chart export
-# DROPS these silently -- county totals are 359,621 not 360,416. We count them
-# in `total_roll` for honesty but exclude them from the scored denominator so
-# our numbers reconcile with the published map. Never inherit an omission by
-# accident; make it a decision.
+# The classifier's .otherwise() fallthrough. Until 2026-11 it held every
+# non-blank, non-R, non-D affiliation (795 Montgomery voters, 0.22%), which the
+# published charts dropped; those voters are now MINOR_PARTY (in U_COHORTS
+# above) and the classifier raises if any row still lands in OTHER. other_n
+# should therefore be 0; it is kept so a regression shows as a non-zero column
+# instead of a silently smaller denominator.
 OTHER_COHORT = 'OTHER'
 
 # Base-size shrinkage. A precinct's closeness is estimated from its expressed

@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          6,
+          5,
           43,
           76,
-          68,
-          35,
-          44,
-          22,
-          8
+          70,
+          29,
+          40,
+          25,
+          13
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,12 +31,12 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          7,
+          8,
           6,
-          25,
-          38,
           24,
-          20,
+          36,
+          24,
+          26,
           15,
           0
         ],
@@ -47,13 +47,13 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          13,
-          21,
-          21,
           12,
+          27,
+          29,
+          15,
           4,
           0,
-          0
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -63,27 +63,57 @@
         "data": [
           0,
           7,
-          20,
-          8,
-          14,
+          7,
+          4,
           5,
-          2,
-          3
+          5,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          8,
+          2,
+          7,
+          3,
+          1,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
+          9,
           10,
-          13,
-          29,
-          42,
+          27,
+          40,
           39,
-          52,
-          62
+          48,
+          53
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,13 +122,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          3,
-          11,
-          9,
-          5,
-          5,
-          5,
-          0
+          4,
+          12,
+          6,
+          4,
+          4,
+          6,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -107,21 +137,21 @@
         "label": "Pure D",
         "data": [
           1,
-          3,
-          8,
-          7,
-          1,
-          0,
           2,
-          2
+          9,
+          7,
+          3,
+          0,
+          1,
+          3
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CAESARSCREEK (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,193 (15%)",
-      "UNC – Lapsed R — 1,150 (15%)",
-      "Mixed – Active — 514 (7%)",
-      "Mixed – Lapsed — 583 (8%)",
-      "UNC – No Primary — 3,291 (43%)",
-      "UNC – Lapsed D — 576 (7%)",
-      "Pure D — 398 (5%)"
+      "Pure R — 1,180 (15%)",
+      "UNC – Lapsed R — 1,159 (15%)",
+      "Mixed – Active — 504 (6%)",
+      "Mixed – Lapsed — 313 (4%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 280 (4%)",
+      "UNC – No Primary — 3,421 (44%)",
+      "UNC – Lapsed D — 579 (7%)",
+      "Pure D — 388 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1193,
-          1150,
-          514,
-          583,
-          3291,
-          576,
-          398
+          1180,
+          1159,
+          504,
+          313,
+          8,
+          280,
+          3421,
+          579,
+          388
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Bethel Local Sd (Miami Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

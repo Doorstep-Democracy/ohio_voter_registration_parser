@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          30,
-          45,
-          55,
-          50,
-          39,
-          23,
-          26,
-          14
+          1,
+          21,
+          37,
+          51,
+          42,
+          37,
+          17,
+          21,
+          9
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          24,
-          45,
-          55,
-          64,
-          67,
-          65,
-          60,
-          8
+          3,
+          31,
+          54,
+          61,
+          75,
+          71,
+          68,
+          70,
+          18
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          14,
-          118,
-          271,
-          404,
-          198,
-          128,
-          94,
-          28,
-          5
+          12,
+          90,
+          236,
+          344,
+          146,
+          87,
+          72,
+          17,
+          6
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          11,
-          33,
-          90,
-          162,
-          147,
-          166,
-          116,
-          60,
-          34
+          9,
+          43,
+          108,
+          186,
+          158,
+          126,
+          86,
+          37,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          18,
+          36,
+          42,
+          82,
+          63,
+          30,
+          23
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          5,
+          4,
           39,
-          113,
-          182,
-          260,
-          384,
-          645,
+          111,
+          198,
+          259,
+          387,
+          641,
           996,
-          829
+          851
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          18,
-          113,
-          168,
-          245,
-          275,
-          272,
-          276,
-          262,
-          102
+          17,
+          130,
+          182,
+          271,
+          304,
+          314,
+          326,
+          296,
+          135
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          28,
-          197,
-          426,
-          500,
-          285,
-          281,
-          188,
-          122,
-          90
+          22,
+          148,
+          402,
+          481,
+          275,
+          249,
+          159,
+          112,
+          110
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "BEACHWOOD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

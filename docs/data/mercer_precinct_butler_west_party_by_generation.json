@@ -4,7 +4,7 @@
   "precinct": "BUTLER WEST",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,10 +18,10 @@
       {
         "label": "Pure R",
         "data": [
-          5,
+          4,
           112,
-          67,
-          96,
+          66,
+          99,
           54
         ],
         "backgroundColor": "#ef4444",
@@ -34,8 +34,8 @@
           2,
           21,
           15,
-          10,
-          11
+          9,
+          10
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -60,10 +60,23 @@
           7,
           4,
           3,
-          1,
+          2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           6,
           12,
           8,
-          18
+          16
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -85,9 +98,9 @@
         "data": [
           3,
           19,
-          19,
-          42,
-          56
+          18,
+          43,
+          62
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -109,7 +122,7 @@
       {
         "label": "Pure D",
         "data": [
-          3,
+          2,
           11,
           2,
           3,

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,835 (15%)",
-      "UNC – Lapsed R — 4,031 (11%)",
-      "Mixed – Active — 3,160 (8%)",
-      "Mixed – Lapsed — 3,619 (10%)",
-      "UNC – No Primary — 13,147 (35%)",
-      "UNC – Lapsed D — 4,654 (12%)",
-      "Pure D — 3,272 (9%)"
+      "Pure R — 5,696 (15%)",
+      "UNC – Lapsed R — 4,269 (11%)",
+      "Mixed – Active — 3,324 (9%)",
+      "Mixed – Lapsed — 1,522 (4%)",
+      "Minor Party — 160 (0%)",
+      "UNC – Non-partisan Ballot — 1,866 (5%)",
+      "UNC – No Primary — 13,215 (35%)",
+      "UNC – Lapsed D — 4,323 (11%)",
+      "Pure D — 3,827 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          5835,
-          4031,
-          3160,
-          3619,
-          13147,
-          4654,
-          3272
+          5696,
+          4269,
+          3324,
+          1522,
+          160,
+          1866,
+          13215,
+          4323,
+          3827
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "MAUMEE (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "CLEVELAND -02-L",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -87,6 +87,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
@@ -94,7 +111,7 @@
           1,
           4,
           7,
-          2,
+          3,
           3,
           6,
           1
@@ -109,12 +126,12 @@
           0,
           2,
           10,
-          30,
+          29,
           46,
-          79,
-          118,
-          171,
-          107
+          85,
+          135,
+          177,
+          114
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -124,13 +141,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
+          12,
           13,
-          14,
-          37,
-          56,
+          38,
+          52,
           53,
           42,
-          18,
+          20,
           4
         ],
         "backgroundColor": "#93c5fd",
@@ -141,13 +158,13 @@
         "label": "Pure D",
         "data": [
           0,
-          8,
+          7,
           34,
-          55,
-          41,
+          53,
+          40,
           19,
-          9,
-          12,
+          8,
+          11,
           3
         ],
         "backgroundColor": "#3b82f6",

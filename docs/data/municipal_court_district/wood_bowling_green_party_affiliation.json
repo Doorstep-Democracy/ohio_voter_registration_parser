@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,263 (16%)",
-      "UNC – Lapsed R — 4,360 (11%)",
-      "Mixed – Active — 3,101 (8%)",
-      "Mixed – Lapsed — 4,075 (10%)",
-      "UNC – No Primary — 15,222 (38%)",
-      "UNC – Lapsed D — 4,772 (12%)",
-      "Pure D — 2,590 (6%)"
+      "Pure R — 6,021 (15%)",
+      "UNC – Lapsed R — 4,652 (11%)",
+      "Mixed – Active — 3,218 (8%)",
+      "Mixed – Lapsed — 1,729 (4%)",
+      "Minor Party — 125 (0%)",
+      "UNC – Non-partisan Ballot — 2,111 (5%)",
+      "UNC – No Primary — 15,406 (38%)",
+      "UNC – Lapsed D — 4,411 (11%)",
+      "Pure D — 3,287 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          6263,
-          4360,
-          3101,
-          4075,
-          15222,
-          4772,
-          2590
+          6021,
+          4652,
+          3218,
+          1729,
+          125,
+          2111,
+          15406,
+          4411,
+          3287
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "BOWLING-GREEN (Wood Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

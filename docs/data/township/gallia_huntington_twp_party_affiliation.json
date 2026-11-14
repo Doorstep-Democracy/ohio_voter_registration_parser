@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 160 (17%)",
-      "UNC – Lapsed R — 95 (10%)",
-      "Mixed – Active — 86 (9%)",
+      "Pure R — 143 (16%)",
+      "UNC – Lapsed R — 117 (13%)",
+      "Mixed – Active — 80 (9%)",
       "Mixed – Lapsed — 45 (5%)",
-      "UNC – No Primary — 408 (44%)",
-      "UNC – Lapsed D — 101 (11%)",
-      "Pure D — 32 (3%)"
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 11 (1%)",
+      "UNC – No Primary — 404 (44%)",
+      "UNC – Lapsed D — 85 (9%)",
+      "Pure D — 37 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          160,
-          95,
-          86,
+          143,
+          117,
+          80,
           45,
-          408,
-          101,
-          32
+          0,
+          11,
+          404,
+          85,
+          37
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HUNTINGTON TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

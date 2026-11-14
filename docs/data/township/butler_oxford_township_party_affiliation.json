@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 796 (9%)",
-      "UNC – Lapsed R — 656 (7%)",
-      "Mixed – Active — 525 (6%)",
-      "Mixed – Lapsed — 534 (6%)",
-      "UNC – No Primary — 4,850 (52%)",
-      "UNC – Lapsed D — 1,061 (11%)",
-      "Pure D — 880 (9%)"
+      "Pure R — 754 (8%)",
+      "UNC – Lapsed R — 701 (7%)",
+      "Mixed – Active — 539 (6%)",
+      "Mixed – Lapsed — 271 (3%)",
+      "Minor Party — 26 (0%)",
+      "UNC – Non-partisan Ballot — 268 (3%)",
+      "UNC – No Primary — 5,011 (52%)",
+      "UNC – Lapsed D — 981 (10%)",
+      "Pure D — 1,100 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          796,
-          656,
-          525,
-          534,
-          4850,
-          1061,
-          880
+          754,
+          701,
+          539,
+          271,
+          26,
+          268,
+          5011,
+          981,
+          1100
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "OXFORD TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

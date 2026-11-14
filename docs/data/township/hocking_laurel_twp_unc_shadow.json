@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 73",
-      "Mixed – Active — 94",
-      "Mixed – Lapsed — 40",
-      "UNC – No Primary — 257",
-      "UNC – Lapsed D — 75"
+      "UNC – Lapsed R — 88",
+      "Mixed – Active — 88",
+      "Mixed – Lapsed — 31",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 259",
+      "UNC – Lapsed D — 74"
     ],
     "datasets": [
       {
         "data": [
-          73,
-          94,
-          40,
-          257,
-          75
+          88,
+          88,
+          31,
+          12,
+          259,
+          74
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LAUREL TWP (Hocking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

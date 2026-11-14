@@ -3,14 +3,15 @@
   "county": "Guernsey",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          3830,
-          3127,
-          2005,
-          1127,
-          605,
-          9593,
-          2244,
-          1100
+          3786,
+          3132,
+          1992,
+          1125,
+          21,
+          594,
+          9760,
+          2241,
+          1091
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -45,7 +48,7 @@
   },
   "meta": {
     "new_registrants_r": 84,
-    "new_registrants_d": 44,
-    "new_registrants_unc": 2689
+    "new_registrants_d": 43,
+    "new_registrants_unc": 2893
   }
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 77 (23%)",
-      "UNC – Lapsed R — 30 (9%)",
-      "Mixed – Active — 10 (3%)",
-      "Mixed – Lapsed — 28 (9%)",
-      "UNC – No Primary — 140 (43%)",
+      "Pure R — 68 (21%)",
+      "UNC – Lapsed R — 40 (12%)",
+      "Mixed – Active — 11 (3%)",
+      "Mixed – Lapsed — 1 (0%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 23 (7%)",
+      "UNC – No Primary — 141 (43%)",
       "UNC – Lapsed D — 22 (7%)",
-      "Pure D — 21 (6%)"
+      "Pure D — 22 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          77,
-          30,
-          10,
-          28,
-          140,
+          68,
+          40,
+          11,
+          1,
+          0,
+          23,
+          141,
           22,
-          21
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "JEROMESVILLE VILLAGE (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

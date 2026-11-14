@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,060 (18%)",
-      "UNC – Lapsed R — 1,006 (17%)",
-      "Mixed – Active — 284 (5%)",
-      "Mixed – Lapsed — 668 (11%)",
-      "UNC – No Primary — 2,598 (43%)",
-      "UNC – Lapsed D — 262 (4%)",
-      "Pure D — 163 (3%)"
+      "Pure R — 1,054 (17%)",
+      "UNC – Lapsed R — 993 (16%)",
+      "Mixed – Active — 282 (5%)",
+      "Mixed – Lapsed — 180 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 482 (8%)",
+      "UNC – No Primary — 2,642 (44%)",
+      "UNC – Lapsed D — 253 (4%)",
+      "Pure D — 162 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1060,
-          1006,
-          284,
-          668,
-          2598,
-          262,
-          163
+          1054,
+          993,
+          282,
+          180,
+          4,
+          482,
+          2642,
+          253,
+          162
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Waynedale Local Sd (Wayne Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

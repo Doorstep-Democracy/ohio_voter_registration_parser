@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          86,
-          262,
-          384,
-          405,
-          288,
-          269,
-          122,
-          50
+          2,
+          73,
+          249,
+          376,
+          402,
+          270,
+          277,
+          120,
+          54
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
-          35,
-          97,
-          143,
-          268,
-          208,
-          195,
-          158,
-          9
+          1,
+          46,
+          108,
+          154,
+          281,
+          238,
+          192,
+          157,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          29,
+          27,
           119,
-          196,
-          173,
-          103,
-          85,
-          10,
-          1
+          198,
+          176,
+          105,
+          76,
+          17,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          24,
+          22,
+          46,
           58,
-          81,
-          117,
-          111,
-          105,
-          57,
-          50
+          72,
+          53,
+          36,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          3,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          17,
+          25,
+          42,
+          60,
+          82,
+          48,
+          45
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          19,
+          17,
           54,
-          107,
-          191,
-          301,
-          469,
-          644,
-          739
+          100,
+          184,
+          300,
+          473,
+          639,
+          788
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          16,
-          53,
-          67,
-          83,
-          93,
+          10,
+          48,
+          63,
+          75,
+          91,
           102,
-          76,
-          11
+          72,
+          15
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           2,
-          12,
-          57,
-          87,
+          15,
+          56,
+          99,
+          65,
           53,
-          48,
-          66,
-          30,
-          29
+          67,
+          49,
+          37
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "TIPP CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

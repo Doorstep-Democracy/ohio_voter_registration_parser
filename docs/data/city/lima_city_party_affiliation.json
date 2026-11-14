@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,766 (10%)",
-      "UNC – Lapsed R — 1,247 (7%)",
-      "Mixed – Active — 649 (4%)",
-      "Mixed – Lapsed — 1,260 (7%)",
-      "UNC – No Primary — 10,021 (55%)",
-      "UNC – Lapsed D — 2,225 (12%)",
-      "Pure D — 1,099 (6%)"
+      "Pure R — 1,497 (8%)",
+      "UNC – Lapsed R — 1,517 (8%)",
+      "Mixed – Active — 581 (3%)",
+      "Mixed – Lapsed — 457 (2%)",
+      "Minor Party — 29 (0%)",
+      "UNC – Non-partisan Ballot — 871 (5%)",
+      "UNC – No Primary — 10,621 (56%)",
+      "UNC – Lapsed D — 2,217 (12%)",
+      "Pure D — 1,161 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1766,
-          1247,
-          649,
-          1260,
-          10021,
-          2225,
-          1099
+          1497,
+          1517,
+          581,
+          457,
+          29,
+          871,
+          10621,
+          2217,
+          1161
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "LIMA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

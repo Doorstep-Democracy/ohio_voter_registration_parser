@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          74,
-          372,
-          726,
-          479,
-          278,
-          169,
+          2,
+          73,
+          367,
+          718,
+          470,
+          272,
+          170,
           113,
-          71
+          70
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
+          1,
           67,
-          174,
-          311,
-          360,
+          167,
+          313,
+          363,
           376,
-          330,
-          206,
-          44
+          332,
+          203,
+          41
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,11 +50,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          21,
-          131,
-          228,
+          18,
+          127,
+          223,
           130,
-          74,
+          73,
           43,
           11,
           1
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          27,
-          92,
-          177,
-          172,
-          176,
-          186,
-          108,
-          93
+          18,
+          63,
+          93,
+          72,
+          78,
+          49,
+          13,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          6,
+          2,
+          0,
+          6,
+          3,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          7,
+          27,
+          81,
+          100,
+          98,
+          131,
+          93,
+          93
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           1,
           12,
-          89,
+          87,
           262,
-          445,
-          575,
-          754,
-          1226,
-          1186
+          448,
+          584,
+          774,
+          1260,
+          1299
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          24,
+          22,
           97,
-          178,
-          189,
-          194,
+          181,
+          192,
+          196,
           176,
-          87,
+          89,
           11
         ],
         "backgroundColor": "#93c5fd",
@@ -114,12 +146,12 @@
         "label": "Pure D",
         "data": [
           2,
-          23,
-          109,
-          194,
-          99,
+          22,
+          108,
+          195,
+          100,
           30,
-          39,
+          38,
           30,
           26
         ],
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Elida Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

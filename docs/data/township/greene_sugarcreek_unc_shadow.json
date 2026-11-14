@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,580",
-      "Mixed – Active — 589",
-      "Mixed – Lapsed — 1,098",
-      "UNC – No Primary — 2,887",
-      "UNC – Lapsed D — 696"
+      "UNC – Lapsed R — 1,706",
+      "Mixed – Active — 615",
+      "Mixed – Lapsed — 466",
+      "UNC – Non-partisan Ballot — 617",
+      "UNC – No Primary — 2,937",
+      "UNC – Lapsed D — 664"
     ],
     "datasets": [
       {
         "data": [
-          1580,
-          589,
-          1098,
-          2887,
-          696
+          1706,
+          615,
+          466,
+          617,
+          2937,
+          664
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SUGARCREEK (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

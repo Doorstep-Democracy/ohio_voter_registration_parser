@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          11,
-          41,
-          76,
+          1,
+          7,
+          39,
           68,
-          43,
-          25,
-          25,
-          5
+          60,
+          36,
+          22,
+          24,
+          9
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           1,
+          5,
           7,
-          14,
-          30,
-          24,
           23,
-          16,
-          3
+          44,
+          32,
+          29,
+          19,
+          4
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          6,
-          27,
-          40,
-          19,
-          19,
-          6,
+          5,
+          20,
+          38,
+          23,
+          21,
+          5,
           2,
           0
         ],
@@ -66,12 +66,12 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          1,
-          7,
+          2,
+          13,
           15,
-          22,
-          13,
-          13,
+          12,
+          7,
+          8,
           1,
           0
         ],
@@ -79,17 +79,49 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          3,
+          7,
+          4,
+          5,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
           0,
           0,
-          9,
-          21,
-          29,
+          6,
+          20,
+          27,
           37,
-          62,
-          77,
-          90
+          61,
+          70,
+          88
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          1,
+          0,
           5,
-          13,
-          22,
-          12,
           11,
-          4,
+          21,
+          11,
+          13,
+          3,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -116,20 +148,20 @@
           0,
           0,
           4,
-          12,
-          6,
-          0,
+          13,
+          5,
           2,
           0,
-          0
+          2,
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

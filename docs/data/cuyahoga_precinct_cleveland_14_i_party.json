@@ -4,13 +4,14 @@
   "precinct": "CLEVELAND-14-I",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -20,19 +21,21 @@
       {
         "data": [
           17,
-          17,
-          10,
-          12,
+          16,
+          9,
+          11,
+          1,
           45,
-          721,
-          149,
-          45
+          748,
+          145,
+          46
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 523 (6%)",
-      "UNC – Lapsed R — 493 (5%)",
-      "Mixed – Active — 671 (7%)",
-      "Mixed – Lapsed — 615 (7%)",
-      "UNC – No Primary — 4,775 (51%)",
-      "UNC – Lapsed D — 1,481 (16%)",
-      "Pure D — 889 (9%)"
+      "Pure R — 552 (6%)",
+      "UNC – Lapsed R — 492 (5%)",
+      "Mixed – Active — 665 (7%)",
+      "Mixed – Lapsed — 303 (3%)",
+      "Minor Party — 33 (0%)",
+      "UNC – Non-partisan Ballot — 283 (3%)",
+      "UNC – No Primary — 4,742 (50%)",
+      "UNC – Lapsed D — 1,373 (14%)",
+      "Pure D — 1,050 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          523,
-          493,
-          671,
-          615,
-          4775,
-          1481,
-          889
+          552,
+          492,
+          665,
+          303,
+          33,
+          283,
+          4742,
+          1373,
+          1050
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "ASHTABULA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 110",
-      "Mixed – Active — 58",
-      "Mixed – Lapsed — 42",
-      "UNC – No Primary — 396",
-      "UNC – Lapsed D — 95"
+      "UNC – Lapsed R — 114",
+      "Mixed – Active — 55",
+      "Mixed – Lapsed — 32",
+      "UNC – Non-partisan Ballot — 13",
+      "UNC – No Primary — 397",
+      "UNC – Lapsed D — 87"
     ],
     "datasets": [
       {
         "data": [
-          110,
-          58,
-          42,
-          396,
-          95
+          114,
+          55,
+          32,
+          13,
+          397,
+          87
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

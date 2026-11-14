@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 175",
-      "Mixed – Active — 136",
-      "Mixed – Lapsed — 141",
-      "UNC – No Primary — 408",
-      "UNC – Lapsed D — 97"
+      "UNC – Lapsed R — 257",
+      "Mixed – Active — 115",
+      "Mixed – Lapsed — 77",
+      "UNC – Non-partisan Ballot — 75",
+      "UNC – No Primary — 413",
+      "UNC – Lapsed D — 100"
     ],
     "datasets": [
       {
         "data": [
-          175,
-          136,
-          141,
-          408,
-          97
+          257,
+          115,
+          77,
+          75,
+          413,
+          100
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WHETSTONE TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

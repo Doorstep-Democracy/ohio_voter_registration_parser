@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 549 (11%)",
-      "UNC – Lapsed R — 441 (9%)",
-      "Mixed – Active — 557 (11%)",
-      "Mixed – Lapsed — 372 (7%)",
-      "UNC – No Primary — 1,872 (37%)",
-      "UNC – Lapsed D — 747 (15%)",
-      "Pure D — 515 (10%)"
+      "Pure R — 604 (12%)",
+      "UNC – Lapsed R — 434 (9%)",
+      "Mixed – Active — 644 (13%)",
+      "Mixed – Lapsed — 203 (4%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 149 (3%)",
+      "UNC – No Primary — 1,762 (35%)",
+      "UNC – Lapsed D — 642 (13%)",
+      "Pure D — 643 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          549,
-          441,
-          557,
-          372,
-          1872,
-          747,
-          515
+          604,
+          434,
+          644,
+          203,
+          15,
+          149,
+          1762,
+          642,
+          643
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "AMHERST TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

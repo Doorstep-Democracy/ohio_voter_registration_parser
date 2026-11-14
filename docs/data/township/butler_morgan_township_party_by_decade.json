@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          26,
-          168,
-          292,
-          296,
-          172,
-          136,
-          78,
-          42
+          0,
+          21,
+          159,
+          263,
+          264,
+          123,
+          77,
+          51,
+          50
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          7,
-          36,
-          96,
-          139,
-          105,
+          13,
+          49,
+          126,
+          188,
+          170,
+          173,
           89,
-          50,
-          2
+          15
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          4,
-          42,
-          80,
-          67,
+          3,
           40,
-          25,
-          6,
-          1
+          72,
+          60,
+          31,
+          18,
+          4,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          11,
-          37,
-          74,
-          91,
-          105,
-          102,
+          0,
+          4,
+          15,
+          31,
+          34,
           30,
-          28
+          18,
+          4,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          5,
+          2,
+          0,
+          2,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          7,
+          19,
+          52,
+          54,
+          78,
+          89,
+          32,
+          32
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           4,
-          25,
-          83,
-          126,
-          151,
-          203,
-          268,
-          386
+          19,
+          73,
+          124,
+          145,
+          189,
+          259,
+          370
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +131,13 @@
         "data": [
           1,
           4,
-          18,
-          33,
-          41,
-          31,
+          14,
+          36,
           40,
-          19,
-          2
+          35,
+          44,
+          23,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           0,
           2,
-          15,
-          33,
           16,
-          8,
-          12,
+          32,
+          17,
           6,
-          2
+          11,
+          3,
+          7
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MORGAN TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

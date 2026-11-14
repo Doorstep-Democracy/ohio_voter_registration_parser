@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 120",
-      "Mixed – Active — 104",
-      "Mixed – Lapsed — 56",
-      "UNC – No Primary — 387",
-      "UNC – Lapsed D — 94"
+      "UNC – Lapsed R — 127",
+      "Mixed – Active — 119",
+      "Mixed – Lapsed — 41",
+      "UNC – Non-partisan Ballot — 7",
+      "UNC – No Primary — 389",
+      "UNC – Lapsed D — 87"
     ],
     "datasets": [
       {
         "data": [
-          120,
-          104,
-          56,
-          387,
-          94
+          127,
+          119,
+          41,
+          7,
+          389,
+          87
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TOWNSHIP (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

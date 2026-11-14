@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 522 (15%)",
-      "UNC – Lapsed R — 435 (12%)",
-      "Mixed – Active — 344 (10%)",
-      "Mixed – Lapsed — 246 (7%)",
-      "UNC – No Primary — 1,353 (38%)",
-      "UNC – Lapsed D — 390 (11%)",
-      "Pure D — 254 (7%)"
+      "Pure R — 521 (15%)",
+      "UNC – Lapsed R — 433 (12%)",
+      "Mixed – Active — 343 (10%)",
+      "Mixed – Lapsed — 144 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 100 (3%)",
+      "UNC – No Primary — 1,370 (39%)",
+      "UNC – Lapsed D — 389 (11%)",
+      "Pure D — 250 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          522,
-          435,
-          344,
-          246,
-          1353,
-          390,
-          254
+          521,
+          433,
+          343,
+          144,
+          6,
+          100,
+          1370,
+          389,
+          250
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Osnaburg Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

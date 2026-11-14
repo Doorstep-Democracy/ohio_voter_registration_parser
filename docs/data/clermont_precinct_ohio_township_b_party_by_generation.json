@@ -4,7 +4,7 @@
   "precinct": "OHIO TOWNSHIP B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          20,
           21,
-          13,
+          22,
+          15,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -46,7 +46,7 @@
         "data": [
           5,
           10,
-          7,
+          8,
           0,
           0
         ],
@@ -59,11 +59,24 @@
         "data": [
           0,
           6,
-          6,
+          7,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,9 +97,9 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          26,
-          38,
-          45,
+          27,
+          37,
+          46,
           51
         ],
         "backgroundColor": "#9ca3af",

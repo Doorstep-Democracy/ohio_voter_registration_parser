@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          26,
-          142,
-          325,
-          329,
-          234,
-          202,
-          47,
-          39
+          0,
+          25,
+          144,
+          373,
+          376,
+          263,
+          256,
+          84,
+          59
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          18,
-          69,
-          210,
-          345,
-          352,
-          423,
-          190,
-          18
+          2,
+          19,
+          73,
+          178,
+          340,
+          355,
+          396,
+          206,
+          25
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
           3,
-          60,
-          116,
-          104,
-          92,
-          51,
-          12,
+          4,
+          65,
+          150,
+          127,
+          108,
+          91,
+          23,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          9,
-          42,
-          108,
-          163,
-          244,
-          248,
-          91,
-          40
+          1,
+          4,
+          31,
+          65,
+          95,
+          92,
+          90,
+          25,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          3,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          7,
+          21,
+          62,
+          129,
+          126,
+          65,
+          32
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          10,
-          68,
-          162,
-          324,
-          727,
-          1048,
-          837,
-          846
+          12,
+          67,
+          167,
+          321,
+          739,
+          1052,
+          913,
+          984
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          7,
-          34,
-          89,
+          5,
+          22,
+          72,
           120,
-          255,
-          295,
-          130,
-          27
+          243,
+          260,
+          141,
+          37
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           0,
           5,
-          28,
-          55,
-          46,
-          57,
-          58,
-          24,
-          18
+          39,
+          91,
+          68,
+          92,
+          138,
+          59,
+          42
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JEROME TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

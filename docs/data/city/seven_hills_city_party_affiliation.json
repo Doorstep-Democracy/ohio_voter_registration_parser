@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,050 (12%)",
-      "UNC – Lapsed R — 770 (9%)",
-      "Mixed – Active — 1,441 (16%)",
-      "Mixed – Lapsed — 1,032 (12%)",
-      "UNC – No Primary — 2,345 (26%)",
-      "UNC – Lapsed D — 1,047 (12%)",
-      "Pure D — 1,259 (14%)"
+      "Pure R — 1,049 (12%)",
+      "UNC – Lapsed R — 771 (9%)",
+      "Mixed – Active — 1,432 (16%)",
+      "Mixed – Lapsed — 494 (6%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 520 (6%)",
+      "UNC – No Primary — 2,380 (27%)",
+      "UNC – Lapsed D — 1,043 (12%)",
+      "Pure D — 1,248 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          1050,
-          770,
-          1441,
-          1032,
-          2345,
-          1047,
-          1259
+          1049,
+          771,
+          1432,
+          494,
+          24,
+          520,
+          2380,
+          1043,
+          1248
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SEVEN HILLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

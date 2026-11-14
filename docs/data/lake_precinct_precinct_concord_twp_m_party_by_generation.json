@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CONCORD TWP M",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,9 +18,9 @@
       {
         "label": "Pure R",
         "data": [
-          17,
-          102,
-          41,
+          16,
+          101,
+          43,
           18,
           5
         ],
@@ -32,10 +32,10 @@
         "label": "UNC – Lapsed R",
         "data": [
           23,
-          90,
+          85,
           60,
-          32,
-          8
+          33,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -46,7 +46,7 @@
         "data": [
           17,
           94,
-          28,
+          27,
           5,
           2
         ],
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           12,
-          54,
+          55,
           20,
           11,
           0
@@ -68,9 +68,22 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          10,
+          9,
           10,
           20,
           17,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          18,
-          73,
-          105,
-          127,
-          143
+          17,
+          74,
+          110,
+          131,
+          152
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          17,
+          16,
           42,
-          59,
-          29,
-          2
+          60,
+          28,
+          4
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,8 +124,8 @@
         "data": [
           11,
           52,
-          18,
-          7,
+          17,
+          8,
           6
         ],
         "backgroundColor": "#3b82f6",

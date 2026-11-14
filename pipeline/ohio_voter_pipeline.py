@@ -19,7 +19,7 @@ import gzip
 import json
 import shutil
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import requests
@@ -27,19 +27,20 @@ from bs4 import BeautifulSoup
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-BASE_DIR   = Path(__file__).resolve().parent.parent
-
 # Ensure pipeline/ is on sys.path (bare sibling imports) and project root
 # is on sys.path (from tools.narrative import ...) regardless of invocation style.
-for _p in [str(Path(__file__).resolve().parent), str(BASE_DIR)]:
+_PIPELINE_DIR = Path(__file__).resolve().parent
+for _p in [str(_PIPELINE_DIR), str(_PIPELINE_DIR.parent)]:
     if _p not in sys.path:
         sys.path.insert(0, _p)
-SOURCE_DIR = BASE_DIR / "local" / "source"  # PATCH: Rerouted to local/ workspace
-TXT_DIR    = SOURCE_DIR / "State Voter Files"
+
+# Every managed location comes from the single resolver (CLAUDE.md section 5).
+from paths import BASE_DIR, DATA_DIR, PARQUET_DIR, SOURCE_DIR, TXT_DIR  # noqa: E402,F401
 MANIFEST   = BASE_DIR / "download_manifest.json"
 
 # Single resolver for snapshot discovery/staging (CLAUDE.md section 5).
 import snapshot_store  # noqa: E402  (needs the sys.path setup above)
+import memory_budget   # noqa: E402  (memory policy for the run; see --memory-mode)
 
 SOS_URL    = "https://www6.ohiosos.gov/ords/f?p=VOTERFTP:STWD"
 SOS_BASE   = "https://www6.ohiosos.gov"
@@ -83,7 +84,7 @@ def _build_city_county_map(logger=None):
     Called at the end of every branch that rebuilds precinct indexes.
     """
     import json
-    data_dir = BASE_DIR / 'docs' / 'data'
+    data_dir = DATA_DIR
     city_counties: dict[str, set[str]] = {}
     city_identities: dict[str, dict[str, set[str]]] = {}
     
@@ -376,7 +377,7 @@ def prompt_next_step(txt_files: list[Path]) -> tuple[str, bool, list[str] | None
     county_numbers is None for full-Ohio runs, a list of strings for targeted runs.
     """
     total_rows_est = sum(f.stat().st_size for f in txt_files) // 140
-    parquet_dir    = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
+    parquet_dir    = PARQUET_DIR
     parquet_ready  = parquet_dir.exists() and any(parquet_dir.iterdir())
     cache_label    = "  ✓ Parquet cache ready (fast load)" if parquet_ready else "  ○ No Parquet cache yet (will build on first run)"
 
@@ -559,6 +560,22 @@ def _run_update_check() -> None:
 
 # -- Argument parsing ----------------------------------------------------------
 
+def _positive_float(text: str) -> float:
+    """argparse type: a number greater than 0."""
+    value = float(text)
+    if not value > 0:
+        raise argparse.ArgumentTypeError(f"must be greater than 0, got {text!r}")
+    return value
+
+
+def _positive_int(text: str) -> int:
+    """argparse type: an integer of at least 1."""
+    value = int(text)
+    if value < 1:
+        raise argparse.ArgumentTypeError(f"must be at least 1, got {text!r}")
+    return value
+
+
 def parse_args(argv=None) -> argparse.Namespace:
     p = argparse.ArgumentParser(
         prog="ohio_voter_pipeline.py",
@@ -579,6 +596,14 @@ def parse_args(argv=None) -> argparse.Namespace:
                    help="Also build per-precinct chart JSON (choices 1/2/3/5).")
     p.add_argument("--no-update-check", action="store_true",
                    help="Skip the interactive SOS update-check prompt.")
+    p.add_argument("--memory-mode", choices=list(memory_budget.MODES), default="auto",
+                   help="auto (default): refuse a stage whose estimated peak does not fit "
+                        "available memory, before loading anything. eager: always run.")
+    p.add_argument("--memory-budget-gb", type=_positive_float, default=None, metavar="GB",
+                   help="Use this memory budget in GB and do not measure available memory.")
+    p.add_argument("--max-workers", type=_positive_int, default=0, metavar="N",
+                   help="Worker threads for parallel stages. Default: logical CPUs, at most 8, "
+                        "lowered if the county slices would not fit the memory budget.")
     return p.parse_args(argv)
 
 
@@ -587,6 +612,10 @@ def parse_args(argv=None) -> argparse.Namespace:
 def main(args: argparse.Namespace | None = None):
     if args is None:
         args = parse_args()
+
+    # One memory policy for the whole run, read by every stage (memory_budget.active()).
+    memory_budget.activate(memory_budget.MemorySettings(
+        mode=args.memory_mode, budget_gb=args.memory_budget_gb, max_workers=args.max_workers))
 
     # --list-snapshots: print and exit before any prompt or network call.
     if args.list_snapshots:
@@ -634,13 +663,67 @@ def main(args: argparse.Namespace | None = None):
             if not county_nums:
                 print(f"  Could not resolve counties from: {args.counties!r}")
                 sys.exit(2)
-        _dispatch(choice, txt_files, include_precincts, county_nums)
+        _dispatch_guarded(choice, txt_files, include_precincts, county_nums)
     else:
         choice, include_precincts, county_nums = prompt_next_step(txt_files)
         if choice == "0":
             print("  Exiting.")
             return
-        _dispatch(choice, txt_files, include_precincts, county_nums)
+        _dispatch_guarded(choice, txt_files, include_precincts, county_nums)
+
+
+def _dispatch_guarded(*args, **kwargs) -> None:
+    """Run _dispatch; report a memory-budget refusal as a refusal.
+
+    A refused run loaded nothing and wrote nothing. It ends with exit code
+    memory_budget.EXIT_REFUSED and, in the run log, the failure marker followed by
+    run_integrity.REFUSED_MARKER. The next run's previous-run check reads that
+    and passes over this run, so it still checks from the last run that ran.
+    Any other exception propagates to the excepthook as before.
+    """
+    try:
+        _dispatch(*args, **kwargs)
+    except memory_budget.MemoryBudgetError as exc:
+        import logging
+        import run_integrity
+        logging.getLogger('voter_analysis').error(
+            '%s: %s: %s', run_integrity.FAILED_MARKER, run_integrity.REFUSED_MARKER, exc)
+        print(f"\n  RUN REFUSED. {exc}")
+        sys.exit(memory_budget.EXIT_REFUSED)
+
+
+def _build_maps(logger, include_precincts: bool) -> None:
+    """
+    Rebuild the landing-map GeoJSON layers in docs/data/state_map/ from the
+    party JSON this run just wrote. The layers bake in lean and total_voters,
+    so a run that skips this leaves the map on an older snapshot (evaluation
+    M5). Reads only docs/data/, docs/manifest.json and local/source/Geo/.
+
+    The Montgomery precinct layers join the per-precinct party files, so they
+    are rebuilt only when this run wrote those files; otherwise they keep
+    their old stamp and the vintage gate reports them.
+
+    Each builder runs as a subprocess, which keeps geopandas out of the
+    pipeline's address space. A builder whose gates fail exits non-zero, and
+    that raises here.
+    """
+    import os
+    import subprocess
+    # UTF-8 both ways and errors='replace': a stray non-ASCII byte from a
+    # builder must not raise at the very end of a multi-hour run.
+    env = {**os.environ, 'PYTHONIOENCODING': 'utf-8'}
+    builders = [BASE_DIR / 'tools' / 'admin' / 'build_state_map.py']
+    if include_precincts:
+        builders.append(BASE_DIR / 'tools' / 'admin' / 'build_precinct_map.py')
+    for script in builders:
+        res = subprocess.run([sys.executable, str(script)], cwd=BASE_DIR, env=env,
+                             capture_output=True, text=True, encoding='utf-8',
+                             errors='replace')
+        for line in (res.stdout + res.stderr).splitlines():
+            logger.info('[maps] %s', line)
+        if res.returncode != 0:
+            raise RuntimeError(f'{script.name} failed (exit {res.returncode}); '
+                               f'see the [maps] lines above')
 
 
 def _dispatch(
@@ -651,7 +734,8 @@ def _dispatch(
 ):
     """Route the user's menu choice to the appropriate analysis functions.
 
-    "1" — Full rebuild: county/precinct JSON then all 12 jurisdictional groupings.
+    "1" — Full rebuild: county/precinct JSON then all 12 jurisdictional groupings,
+          narratives, and the landing-map layers.
     "2" — Same as "1" plus an Excel workbook export.
     "3" — Counties + precincts only; jurisdictional groupings not run.
     "4" — Jurisdictional groupings only (all 12 types); county rebuild skipped.
@@ -661,6 +745,24 @@ def _dispatch(
 
     _log     = v2.setup_logging('pipeline')
     src_date = v2.get_source_date(_log)
+
+    # Output integrity (pipeline/run_integrity.py): log uncaught exceptions into the
+    # run log, report how the previous run ended, and validate every output changed
+    # since it began -- before this run writes anything.
+    import time as _time
+    import run_integrity
+    run_start = _time.time()
+    # setup_logging above claimed the run id; this call only reads it back.
+    run_id = v2.claim_run_id(datetime.now().strftime('%Y%m%d_%H%M%S'))
+    run_integrity.install_excepthook(_log, run_id=run_id)
+
+    def _end_stamp() -> str:
+        """Run id, UTC wall clock and elapsed seconds for the closing log line."""
+        ended = datetime.now(timezone.utc).isoformat(timespec='seconds')
+        return f'run id {run_id}, ended {ended} UTC, elapsed {_time.time() - run_start:.0f} s'
+
+    current_log = Path(next(h.baseFilename for h in _log.handlers if hasattr(h, 'baseFilename')))
+    startup_problems = run_integrity.check_previous_run(v2.LOGS_DIR, current_log, v2.DOCS_DIR, _log)
 
     if choice in ("1", "2"):
         # Step A — build county + precinct chart JSON for all 88 counties.
@@ -699,6 +801,10 @@ def _dispatch(
 
         # Cross-county city map — inverts the freshly-written precinct indexes.
         _build_city_county_map(logger=_log)
+
+        # Landing-map layers: last, because they bake in the county, district
+        # and precinct party JSON written above and the manifest's snapshot.
+        _build_maps(logger=_log, include_precincts=include_precincts)
 
     elif choice == "3":
         # Counties + precincts only — identical to the county pass in option 1
@@ -754,6 +860,24 @@ def _dispatch(
             logger=_log,
         )
 
+    # Seal: flush this run's outputs to disk and validate them, then repeat the
+    # startup findings. PIPELINE COMPLETE is logged only when both are clean, so it
+    # means "outputs are on disk and valid", not merely "the process got here".
+    # A log without either marker ended abnormally even if the terminal looked
+    # normal. Rationale: pipeline/run_integrity.py and voter_data_cleaner.setup_logging().
+    sealed_bad = run_integrity.seal_outputs(v2.DOCS_DIR, run_start, _log)
+    still_bad = run_integrity.recheck(startup_problems, v2.DOCS_DIR, _log)
+    if sealed_bad or still_bad:
+        _log.error(
+            '%s: choice=%s, source date %s, %s -- %d invalid file(s) written this run, '
+            '%d damaged file(s) from before this run still present (listed above)',
+            run_integrity.FAILED_MARKER, choice, src_date, _end_stamp(),
+            len(sealed_bad), len(still_bad),
+        )
+        sys.exit(1)
+    _log.info('%s: choice=%s, source date %s, %s',
+              run_integrity.COMPLETE_MARKER, choice, src_date, _end_stamp())
+
 # ── Narrative phase ───────────────────────────────────────────────────────────
 
 def _narrative_phase(
@@ -771,7 +895,7 @@ def _narrative_phase(
 
     Args:
         levels:       List of LEVELS values to generate, e.g. ['county', 'precinct'].
-        v2:           The voter_data_cleaner_v2 module (already imported by _dispatch).
+        v2:           The pipeline.voter_data_cleaner module (already imported by _dispatch).
         county_names: Optional list of county names (proper-cased) to restrict
                       county/precinct enumeration.  None means all 88 counties.
         logger:       Logger instance.  Defaults to a pipeline logger if None.

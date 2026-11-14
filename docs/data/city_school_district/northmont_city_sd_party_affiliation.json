@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,467 (14%)",
-      "UNC – Lapsed R — 2,548 (10%)",
-      "Mixed – Active — 2,071 (8%)",
-      "Mixed – Lapsed — 2,625 (11%)",
-      "UNC – No Primary — 8,724 (35%)",
-      "UNC – Lapsed D — 3,168 (13%)",
-      "Pure D — 2,373 (10%)"
+      "Pure R — 3,293 (13%)",
+      "UNC – Lapsed R — 2,716 (11%)",
+      "Mixed – Active — 2,082 (8%)",
+      "Mixed – Lapsed — 1,038 (4%)",
+      "Minor Party — 113 (0%)",
+      "UNC – Non-partisan Ballot — 1,436 (6%)",
+      "UNC – No Primary — 8,931 (35%)",
+      "UNC – Lapsed D — 2,976 (12%)",
+      "Pure D — 2,832 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          3467,
-          2548,
-          2071,
-          2625,
-          8724,
-          3168,
-          2373
+          3293,
+          2716,
+          2082,
+          1038,
+          113,
+          1436,
+          8931,
+          2976,
+          2832
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NORTHMONT CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

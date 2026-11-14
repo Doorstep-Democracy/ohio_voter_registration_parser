@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 133 (13%)",
-      "UNC – Lapsed R — 107 (10%)",
-      "Mixed – Active — 106 (10%)",
-      "Mixed – Lapsed — 82 (8%)",
-      "UNC – No Primary — 474 (46%)",
-      "UNC – Lapsed D — 74 (7%)",
-      "Pure D — 54 (5%)"
+      "Pure R — 138 (13%)",
+      "UNC – Lapsed R — 116 (11%)",
+      "Mixed – Active — 101 (10%)",
+      "Mixed – Lapsed — 28 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 51 (5%)",
+      "UNC – No Primary — 464 (45%)",
+      "UNC – Lapsed D — 65 (6%)",
+      "Pure D — 63 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          133,
-          107,
-          106,
-          82,
-          474,
-          74,
-          54
+          138,
+          116,
+          101,
+          28,
+          1,
+          51,
+          464,
+          65,
+          63
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FARMINGTON TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

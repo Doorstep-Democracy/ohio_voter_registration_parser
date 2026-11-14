@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 19 (8%)",
-      "UNC – Lapsed R — 19 (8%)",
-      "Mixed – Active — 19 (8%)",
-      "Mixed – Lapsed — 21 (9%)",
-      "UNC – No Primary — 90 (39%)",
-      "UNC – Lapsed D — 44 (19%)",
-      "Pure D — 16 (7%)"
+      "UNC – Lapsed R — 22 (10%)",
+      "Mixed – Active — 21 (9%)",
+      "Mixed – Lapsed — 16 (7%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (2%)",
+      "UNC – No Primary — 86 (38%)",
+      "UNC – Lapsed D — 39 (17%)",
+      "Pure D — 20 (9%)"
     ],
     "datasets": [
       {
         "data": [
           19,
-          19,
-          19,
+          22,
           21,
-          90,
-          44,
-          16
+          16,
+          0,
+          5,
+          86,
+          39,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "AMSTERDAM VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,298 (19%)",
-      "UNC – Lapsed R — 1,403 (12%)",
-      "Mixed – Active — 1,103 (9%)",
-      "Mixed – Lapsed — 1,046 (9%)",
-      "UNC – No Primary — 3,828 (32%)",
-      "UNC – Lapsed D — 1,290 (11%)",
-      "Pure D — 1,039 (9%)"
+      "Pure R — 2,272 (19%)",
+      "UNC – Lapsed R — 1,474 (12%)",
+      "Mixed – Active — 1,142 (9%)",
+      "Mixed – Lapsed — 517 (4%)",
+      "Minor Party — 40 (0%)",
+      "UNC – Non-partisan Ballot — 514 (4%)",
+      "UNC – No Primary — 3,842 (31%)",
+      "UNC – Lapsed D — 1,196 (10%)",
+      "Pure D — 1,213 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          2298,
-          1403,
-          1103,
-          1046,
-          3828,
-          1290,
-          1039
+          2272,
+          1474,
+          1142,
+          517,
+          40,
+          514,
+          3842,
+          1196,
+          1213
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONCLOVA TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

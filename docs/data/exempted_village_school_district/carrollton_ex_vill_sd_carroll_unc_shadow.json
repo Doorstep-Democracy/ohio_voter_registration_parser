@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,462",
-      "Mixed – Active — 1,011",
-      "Mixed – Lapsed — 727",
-      "UNC – No Primary — 3,671",
-      "UNC – Lapsed D — 929"
+      "UNC – Lapsed R — 1,464",
+      "Mixed – Active — 1,005",
+      "Mixed – Lapsed — 568",
+      "UNC – Non-partisan Ballot — 153",
+      "UNC – No Primary — 3,725",
+      "UNC – Lapsed D — 920"
     ],
     "datasets": [
       {
         "data": [
-          1462,
-          1011,
-          727,
-          3671,
-          929
+          1464,
+          1005,
+          568,
+          153,
+          3725,
+          920
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "CARROLLTON EX VILL SD (CARROLL)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Carrollton Ex Vill Sd (Carroll Co.)",
+  "updated": "2026-11-12"
 }

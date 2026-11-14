@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 313 (7%)",
-      "UNC – Lapsed R — 334 (8%)",
-      "Mixed – Active — 333 (8%)",
-      "Mixed – Lapsed — 194 (5%)",
+      "Pure R — 315 (7%)",
+      "UNC – Lapsed R — 330 (8%)",
+      "Mixed – Active — 330 (8%)",
+      "Mixed – Lapsed — 190 (5%)",
+      "Minor Party — 6 (0%)",
       "UNC – Non-partisan Ballot — 128 (3%)",
-      "UNC – No Primary — 1,749 (42%)",
-      "UNC – Lapsed D — 600 (14%)",
-      "Pure D — 528 (13%)"
+      "UNC – No Primary — 1,782 (42%)",
+      "UNC – Lapsed D — 607 (14%)",
+      "Pure D — 526 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          313,
-          334,
-          333,
-          194,
+          315,
+          330,
+          330,
+          190,
+          6,
           128,
-          1749,
-          600,
-          528
+          1782,
+          607,
+          526
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "C FLS WARD 6 (CUYAHOGA FALLS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

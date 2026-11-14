@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,131 (11%)",
-      "UNC – Lapsed R — 889 (9%)",
-      "Mixed – Active — 687 (7%)",
-      "Mixed – Lapsed — 629 (6%)",
-      "UNC – No Primary — 4,824 (47%)",
-      "UNC – Lapsed D — 1,431 (14%)",
-      "Pure D — 607 (6%)"
+      "Pure R — 1,163 (11%)",
+      "UNC – Lapsed R — 896 (9%)",
+      "Mixed – Active — 806 (8%)",
+      "Mixed – Lapsed — 361 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 203 (2%)",
+      "UNC – No Primary — 4,772 (47%)",
+      "UNC – Lapsed D — 1,312 (13%)",
+      "Pure D — 719 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1131,
-          889,
-          687,
-          629,
-          4824,
-          1431,
-          607
+          1163,
+          896,
+          806,
+          361,
+          6,
+          203,
+          4772,
+          1312,
+          719
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "PORTSMOUTH CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

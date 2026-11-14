@@ -4,7 +4,7 @@
   "precinct": "BEAVERCREEK 019",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -39,12 +39,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          2,
+          1,
           14,
           25,
-          31,
-          31,
-          28,
+          30,
+          33,
+          29,
           9,
           2
         ],
@@ -75,14 +75,31 @@
           0,
           1,
           5,
-          10,
           12,
-          9,
+          12,
+          8,
           9,
           3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -95,7 +112,7 @@
           7,
           10,
           15,
-          22,
+          21,
           12,
           14
         ],
@@ -111,10 +128,10 @@
           2,
           6,
           15,
-          25,
-          27,
-          33,
-          66
+          26,
+          28,
+          35,
+          71
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -125,10 +142,10 @@
         "data": [
           1,
           3,
-          8,
-          16,
+          7,
+          17,
           14,
-          14,
+          13,
           17,
           11,
           3
@@ -148,7 +165,7 @@
           4,
           7,
           2,
-          3
+          2
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

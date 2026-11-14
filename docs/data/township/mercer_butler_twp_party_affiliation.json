@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,873 (42%)",
-      "UNC – Lapsed R — 294 (7%)",
-      "Mixed – Active — 593 (13%)",
-      "Mixed – Lapsed — 345 (8%)",
-      "UNC – No Primary — 1,071 (24%)",
-      "UNC – Lapsed D — 150 (3%)",
-      "Pure D — 173 (4%)"
+      "Pure R — 1,761 (39%)",
+      "UNC – Lapsed R — 421 (9%)",
+      "Mixed – Active — 573 (13%)",
+      "Mixed – Lapsed — 133 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 238 (5%)",
+      "UNC – No Primary — 1,114 (24%)",
+      "UNC – Lapsed D — 159 (3%)",
+      "Pure D — 158 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1873,
-          294,
-          593,
-          345,
-          1071,
-          150,
-          173
+          1761,
+          421,
+          573,
+          133,
+          1,
+          238,
+          1114,
+          159,
+          158
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

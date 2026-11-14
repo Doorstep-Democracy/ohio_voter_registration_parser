@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 106",
-      "Mixed – Active — 81",
-      "Mixed – Lapsed — 84",
-      "UNC – No Primary — 466",
-      "UNC – Lapsed D — 112"
+      "UNC – Lapsed R — 130",
+      "Mixed – Active — 79",
+      "Mixed – Lapsed — 35",
+      "UNC – Non-partisan Ballot — 52",
+      "UNC – No Primary — 455",
+      "UNC – Lapsed D — 107"
     ],
     "datasets": [
       {
         "data": [
-          106,
-          81,
-          84,
-          466,
-          112
+          130,
+          79,
+          35,
+          52,
+          455,
+          107
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TOWNSEND TOWNSHIP (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

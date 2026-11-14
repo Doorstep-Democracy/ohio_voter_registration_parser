@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,148",
-      "Mixed – Active — 2,072",
-      "Mixed – Lapsed — 1,765",
-      "UNC – No Primary — 15,329",
-      "UNC – Lapsed D — 4,532"
+      "UNC – Lapsed R — 2,265",
+      "Mixed – Active — 2,101",
+      "Mixed – Lapsed — 1,115",
+      "UNC – Non-partisan Ballot — 664",
+      "UNC – No Primary — 15,297",
+      "UNC – Lapsed D — 4,180"
     ],
     "datasets": [
       {
         "data": [
-          2148,
-          2072,
-          1765,
-          15329,
-          4532
+          2265,
+          2101,
+          1115,
+          664,
+          15297,
+          4180
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SPRINGFIELD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

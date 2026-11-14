@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 441",
-      "Mixed – Active — 507",
-      "Mixed – Lapsed — 324",
-      "UNC – No Primary — 1,239",
-      "UNC – Lapsed D — 232"
+      "UNC – Lapsed R — 438",
+      "Mixed – Active — 501",
+      "Mixed – Lapsed — 224",
+      "UNC – Non-partisan Ballot — 100",
+      "UNC – No Primary — 1,260",
+      "UNC – Lapsed D — 229"
     ],
     "datasets": [
       {
         "data": [
-          441,
-          507,
-          324,
-          1239,
-          232
+          438,
+          501,
+          224,
+          100,
+          1260,
+          229
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Crestview Local Sd (Columbiana Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

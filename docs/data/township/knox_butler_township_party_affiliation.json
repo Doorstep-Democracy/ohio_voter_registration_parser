@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 119 (24%)",
-      "UNC – Lapsed R — 70 (14%)",
-      "Mixed – Active — 27 (5%)",
-      "Mixed – Lapsed — 32 (6%)",
-      "UNC – No Primary — 220 (45%)",
-      "UNC – Lapsed D — 20 (4%)",
-      "Pure D — 5 (1%)"
+      "Pure R — 114 (23%)",
+      "UNC – Lapsed R — 72 (15%)",
+      "Mixed – Active — 23 (5%)",
+      "Mixed – Lapsed — 13 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 20 (4%)",
+      "UNC – No Primary — 225 (46%)",
+      "UNC – Lapsed D — 18 (4%)",
+      "Pure D — 6 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          119,
-          70,
-          27,
-          32,
-          220,
+          114,
+          72,
+          23,
+          13,
+          0,
           20,
-          5
+          225,
+          18,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

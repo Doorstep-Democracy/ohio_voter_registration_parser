@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 10 (17%)",
-      "UNC – Lapsed R — 5 (8%)",
-      "Mixed – Active — 6 (10%)",
-      "Mixed – Lapsed — 6 (10%)",
-      "UNC – No Primary — 27 (46%)",
-      "UNC – Lapsed D — 5 (8%)",
+      "Pure R — 10 (18%)",
+      "UNC – Lapsed R — 7 (12%)",
+      "Mixed – Active — 6 (11%)",
+      "Mixed – Lapsed — 1 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 4 (7%)",
+      "UNC – No Primary — 25 (44%)",
+      "UNC – Lapsed D — 4 (7%)",
       "Pure D — 0 (0%)"
     ],
     "datasets": [
       {
         "data": [
           10,
-          5,
+          7,
           6,
-          6,
-          27,
-          5,
+          1,
+          0,
+          4,
+          25,
+          4,
           0
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BURKETTSVILLE VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

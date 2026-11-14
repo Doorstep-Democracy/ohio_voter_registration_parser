@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 815 (18%)",
-      "UNC – Lapsed R — 677 (15%)",
-      "Mixed – Active — 359 (8%)",
-      "Mixed – Lapsed — 347 (8%)",
-      "UNC – No Primary — 1,645 (37%)",
-      "UNC – Lapsed D — 384 (9%)",
-      "Pure D — 190 (4%)"
+      "Pure R — 805 (18%)",
+      "UNC – Lapsed R — 674 (15%)",
+      "Mixed – Active — 356 (8%)",
+      "Mixed – Lapsed — 210 (5%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 138 (3%)",
+      "UNC – No Primary — 1,665 (38%)",
+      "UNC – Lapsed D — 385 (9%)",
+      "Pure D — 189 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          815,
-          677,
-          359,
-          347,
-          1645,
-          384,
-          190
+          805,
+          674,
+          356,
+          210,
+          5,
+          138,
+          1665,
+          385,
+          189
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Elgin Local Sd (Marion Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

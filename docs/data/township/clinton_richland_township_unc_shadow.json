@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 284",
-      "Mixed – Active — 150",
-      "Mixed – Lapsed — 94",
-      "UNC – No Primary — 984",
-      "UNC – Lapsed D — 138"
+      "UNC – Lapsed R — 258",
+      "Mixed – Active — 168",
+      "Mixed – Lapsed — 55",
+      "UNC – Non-partisan Ballot — 42",
+      "UNC – No Primary — 912",
+      "UNC – Lapsed D — 113"
     ],
     "datasets": [
       {
         "data": [
-          284,
-          150,
-          94,
-          984,
-          138
+          258,
+          168,
+          55,
+          42,
+          912,
+          113
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

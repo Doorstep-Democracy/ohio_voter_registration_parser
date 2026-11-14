@@ -24,17 +24,21 @@ import polars as pl
 import shapely.geometry
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+from pipeline.cohort_lean import cohort_sides  # noqa: E402
+# Output and cache locations come from the single resolver, so this builder
+# follows ELECTION_DATA_OUT when the pipeline runs it as a subprocess.
+from pipeline.paths import DATA_DIR as DOCS_DATA  # noqa: E402
+from pipeline.paths import DOCS_DIR  # noqa: E402
+from pipeline.paths import ENRICHED_CACHE as ENRICHED_PARQUET  # noqa: E402
 
 GEO_DIR = REPO_ROOT / "local" / "source" / "Geo"
 COUNTIES_GPKG = GEO_DIR / "ohio_census_consolidated.gpkg"
 SOS_DIR = GEO_DIR / "SOS District Maps"
 
-DOCS_DATA = REPO_ROOT / "docs" / "data"
 OUT_DIR = DOCS_DATA / "state_map"
-MANIFEST_PATH = REPO_ROOT / "docs" / "manifest.json"
-
-ENRICHED_PARQUET = REPO_ROOT / "local" / "source" / "parquet_enriched" / "enriched_voters.parquet"
-RAW_PARQUET = REPO_ROOT / "local" / "source" / "parquet" / "raw_voters.parquet"
+MANIFEST_PATH = DOCS_DIR / "manifest.json"
 
 MAX_TARGET_KB = 300
 HARD_FAIL_KB = 600
@@ -124,13 +128,11 @@ def make_feature(geometry, properties):
 def party_lean(data, source_label):
     if not data or "chartConfig" not in data:
         fail(f"malformed party-affiliation JSON: {source_label}")
-    d = data["chartConfig"]["datasets"][0]["data"]
-    r = (d[0] or 0) + (d[1] or 0)
-    dd = (d[5] or 0) + (d[6] or 0)
-    total = sum(d)
+    sides = cohort_sides(data["chartConfig"], source_label)
+    total = sides["total"]
     if total <= 0:
         fail(f"non-positive total_voters for {source_label}: {total}")
-    lean = round((dd - r) / total, 4)
+    lean = round((sides["d"] - sides["r"]) / total, 4)
     if not (-1 <= lean <= 1):
         fail(f"lean out of [-1,1] range for {source_label}: {lean}")
     return lean, int(total)
@@ -152,6 +154,16 @@ def load_manifest_county_slugs():
     if not names:
         fail("manifest.json has no processedCounties/allCounties")
     return {county_slug(n) for n in names}
+
+
+def manifest_snapshot_date():
+    """The snapshot the published party JSON was built from. The map layers
+    bake in lean and total_voters from that JSON, so they share its vintage."""
+    with open(MANIFEST_PATH, encoding="utf-8") as f:
+        snap = json.load(f).get("provenanceSnapshotDate")
+    if not snap:
+        fail("manifest.json has no provenanceSnapshotDate")
+    return snap
 
 
 def build_counties(manifest_slugs):
@@ -253,6 +265,7 @@ def serialize_layer(layer_name, rows, bounds, generated):
 def run_build():
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     manifest_slugs = load_manifest_county_slugs()
+    snapshot = manifest_snapshot_date()
 
     county_rows, bounds = build_counties(manifest_slugs)
 
@@ -300,13 +313,15 @@ def run_build():
 
     provenance = {
         "generated": generated,
+        "provenance_snapshot_date": snapshot,
         "party_data_join": (
             "docs/data/<county_slug>_party_affiliation.json (counties); "
             "docs/data/<dtype>/<id>_party_affiliation.json (districts); "
-            "manifest snapshot 2026-07-14 per current docs/manifest.json"
+            f"snapshot {snapshot} per docs/manifest.json provenanceSnapshotDate"
         ),
         "layers": {
             "counties": {
+                "provenance_snapshot_date": snapshot,
                 "source": str(COUNTIES_GPKG.relative_to(REPO_ROOT)).replace("\\", "/"),
                 "layer": "counties",
                 "note": "full-resolution TIGER/Line county geometry (not generalized cb_*_500k)",
@@ -318,6 +333,7 @@ def run_build():
     }
     for layer_name, config in DISTRICT_LAYERS.items():
         provenance["layers"][layer_name] = {
+            "provenance_snapshot_date": snapshot,
             "source": str(config["shapefile"].relative_to(REPO_ROOT)).replace("\\", "/"),
             "plan_vintage": config["plan_vintage"],
             "feature_count": len(district_rows[layer_name]),
@@ -334,9 +350,9 @@ def run_build():
 
 def check_congress_vintage():
     print("Running congressional plan vintage check (voter file vs 2026-2032 adopted shapefile)...")
-    parquet_path = ENRICHED_PARQUET if ENRICHED_PARQUET.exists() else RAW_PARQUET
+    parquet_path = ENRICHED_PARQUET
     if not parquet_path.exists():
-        fail(f"no parquet source found at {ENRICHED_PARQUET} or {RAW_PARQUET}")
+        fail(f"no parquet source found at {ENRICHED_PARQUET}")
 
     print(f"  voter-file crosswalk from {parquet_path.relative_to(REPO_ROOT)}")
     df = (

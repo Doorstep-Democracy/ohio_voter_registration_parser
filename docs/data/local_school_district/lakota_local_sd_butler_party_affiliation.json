@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 11,458 (15%)",
-      "UNC – Lapsed R — 10,615 (14%)",
-      "Mixed – Active — 4,035 (5%)",
-      "Mixed – Lapsed — 5,464 (7%)",
-      "UNC – No Primary — 31,412 (42%)",
-      "UNC – Lapsed D — 6,088 (8%)",
-      "Pure D — 4,998 (7%)"
+      "Pure R — 11,612 (15%)",
+      "UNC – Lapsed R — 10,843 (14%)",
+      "Mixed – Active — 4,084 (5%)",
+      "Mixed – Lapsed — 2,610 (3%)",
+      "Minor Party — 140 (0%)",
+      "UNC – Non-partisan Ballot — 2,949 (4%)",
+      "UNC – No Primary — 32,494 (43%)",
+      "UNC – Lapsed D — 6,238 (8%)",
+      "Pure D — 4,997 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          11458,
-          10615,
-          4035,
-          5464,
-          31412,
-          6088,
-          4998
+          11612,
+          10843,
+          4084,
+          2610,
+          140,
+          2949,
+          32494,
+          6238,
+          4997
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lakota Local Sd (Butler Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "MONTGOMERY E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          12,
+          10,
           40,
           12,
           2,
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          17,
-          29,
-          46,
-          20,
+          15,
+          28,
+          44,
+          19,
           5
         ],
         "backgroundColor": "#fca5a5",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           5,
-          18,
+          17,
           15,
           4,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           7,
           3,
           5,
-          3
+          4
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          10,
-          27,
-          47,
-          66,
-          64
+          15,
+          31,
+          48,
+          68,
+          62
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,9 +111,9 @@
         "data": [
           12,
           26,
-          22,
-          27,
-          9
+          21,
+          28,
+          7
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

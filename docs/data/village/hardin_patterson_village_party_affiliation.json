@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 14 (22%)",
-      "UNC – Lapsed R — 7 (11%)",
-      "Mixed – Active — 5 (8%)",
-      "Mixed – Lapsed — 3 (5%)",
-      "UNC – No Primary — 27 (42%)",
+      "Pure R — 15 (23%)",
+      "UNC – Lapsed R — 6 (9%)",
+      "Mixed – Active — 4 (6%)",
+      "Mixed – Lapsed — 0 (0%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (3%)",
+      "UNC – No Primary — 28 (44%)",
       "UNC – Lapsed D — 8 (12%)",
       "Pure D — 1 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          14,
-          7,
-          5,
-          3,
-          27,
+          15,
+          6,
+          4,
+          0,
+          0,
+          2,
+          28,
           8,
           1
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PATTERSON VILLAGE (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

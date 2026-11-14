@@ -57,6 +57,11 @@ from pathlib import Path
 
 # tools/admin/ on sys.path so the sibling resolver + crosswalk import cleanly.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Repo root on sys.path for the shared path resolver.
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+from pipeline.paths import BASE_DIR, ENRICHED_CACHE  # noqa: E402
 
 from officials_common import (  # noqa: E402
     COUNTY_NUMBER,
@@ -349,7 +354,7 @@ def run(county_slug: str, verbose: bool) -> dict:
         "sources": {
             "captains_authoritative": str(ELECTED_CSV.relative_to(ROOT)),
             "precinct_crosswalk": f"local/source/precinct_keys/{county_slug}_precincts.csv",
-            "voters": "local/source/parquet_enriched/enriched_voters.parquet",
+            "voters": ENRICHED_CACHE.relative_to(BASE_DIR).as_posix(),
             "dem_cc_secondary_zip": str(DEM_CC_XLSX.relative_to(ROOT)) if cc_zip else None,
         },
         "resolver_reused": {

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 28",
-      "Mixed – Active — 16",
-      "Mixed – Lapsed — 17",
-      "UNC – No Primary — 85",
+      "UNC – Lapsed R — 30",
+      "Mixed – Active — 17",
+      "Mixed – Lapsed — 9",
+      "UNC – Non-partisan Ballot — 8",
+      "UNC – No Primary — 84",
       "UNC – Lapsed D — 21"
     ],
     "datasets": [
       {
         "data": [
-          28,
-          16,
+          30,
           17,
-          85,
+          9,
+          8,
+          84,
           21
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "TREMONT CITY VILLAGE (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

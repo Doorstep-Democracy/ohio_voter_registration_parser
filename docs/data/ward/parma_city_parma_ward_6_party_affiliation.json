@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 525 (9%)",
-      "UNC – Lapsed R — 385 (7%)",
-      "Mixed – Active — 737 (13%)",
-      "Mixed – Lapsed — 341 (6%)",
-      "UNC – Non-partisan Ballot — 340 (6%)",
-      "UNC – No Primary — 1,930 (34%)",
-      "UNC – Lapsed D — 705 (12%)",
-      "Pure D — 686 (12%)"
+      "Pure R — 523 (9%)",
+      "UNC – Lapsed R — 386 (7%)",
+      "Mixed – Active — 730 (13%)",
+      "Mixed – Lapsed — 335 (6%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 334 (6%)",
+      "UNC – No Primary — 1,970 (35%)",
+      "UNC – Lapsed D — 712 (13%)",
+      "Pure D — 676 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          525,
-          385,
-          737,
-          341,
-          340,
-          1930,
-          705,
-          686
+          523,
+          386,
+          730,
+          335,
+          12,
+          334,
+          1970,
+          712,
+          676
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "PARMA WARD 6 (PARMA City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

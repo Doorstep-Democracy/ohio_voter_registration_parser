@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 239 (21%)",
-      "UNC – Lapsed R — 130 (11%)",
-      "Mixed – Active — 89 (8%)",
-      "Mixed – Lapsed — 90 (8%)",
-      "UNC – No Primary — 498 (43%)",
-      "UNC – Lapsed D — 79 (7%)",
-      "Pure D — 40 (3%)"
+      "Pure R — 230 (20%)",
+      "UNC – Lapsed R — 148 (13%)",
+      "Mixed – Active — 95 (8%)",
+      "Mixed – Lapsed — 30 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 55 (5%)",
+      "UNC – No Primary — 494 (43%)",
+      "UNC – Lapsed D — 61 (5%)",
+      "Pure D — 48 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          239,
-          130,
-          89,
-          90,
-          498,
-          79,
-          40
+          230,
+          148,
+          95,
+          30,
+          1,
+          55,
+          494,
+          61,
+          48
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PLYMOUTH TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

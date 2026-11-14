@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 350 (19%)",
+      "Pure R — 371 (20%)",
       "UNC – Lapsed R — 148 (8%)",
-      "Mixed – Active — 222 (12%)",
-      "Mixed – Lapsed — 92 (5%)",
-      "UNC – No Primary — 777 (42%)",
-      "UNC – Lapsed D — 155 (8%)",
-      "Pure D — 93 (5%)"
+      "Mixed – Active — 232 (13%)",
+      "Mixed – Lapsed — 68 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 17 (1%)",
+      "UNC – No Primary — 760 (41%)",
+      "UNC – Lapsed D — 147 (8%)",
+      "Pure D — 89 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          350,
+          371,
           148,
-          222,
-          92,
-          777,
-          155,
-          93
+          232,
+          68,
+          4,
+          17,
+          760,
+          147,
+          89
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

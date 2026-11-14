@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 656 (28%)",
-      "UNC – Lapsed R — 362 (15%)",
-      "Mixed – Active — 171 (7%)",
-      "Mixed – Lapsed — 273 (12%)",
+      "Pure R — 745 (31%)",
+      "UNC – Lapsed R — 326 (14%)",
+      "Mixed – Active — 193 (8%)",
+      "Mixed – Lapsed — 65 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 146 (6%)",
       "UNC – No Primary — 709 (30%)",
-      "UNC – Lapsed D — 124 (5%)",
-      "Pure D — 65 (3%)"
+      "UNC – Lapsed D — 116 (5%)",
+      "Pure D — 91 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          656,
-          362,
-          171,
-          273,
+          745,
+          326,
+          193,
+          65,
+          0,
+          146,
           709,
-          124,
-          65
+          116,
+          91
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ALLEN TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

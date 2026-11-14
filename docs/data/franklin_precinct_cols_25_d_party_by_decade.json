@@ -4,7 +4,7 @@
   "precinct": "COLS 25-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -87,6 +87,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
@@ -94,7 +111,7 @@
           0,
           0,
           5,
-          7,
+          6,
           2,
           4,
           0
@@ -110,11 +127,11 @@
           0,
           7,
           16,
-          44,
-          60,
-          89,
-          168,
-          90
+          45,
+          57,
+          92,
+          166,
+          99
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -124,12 +141,12 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          12,
-          24,
+          11,
+          21,
           28,
+          42,
+          31,
           41,
-          33,
-          39,
           16,
           0
         ],
@@ -142,12 +159,12 @@
         "data": [
           2,
           12,
-          30,
+          31,
           49,
-          38,
+          37,
           29,
           14,
-          10,
+          9,
           9
         ],
         "backgroundColor": "#3b82f6",

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 61 (18%)",
-      "UNC – Lapsed R — 34 (10%)",
-      "Mixed – Active — 26 (8%)",
-      "Mixed – Lapsed — 25 (7%)",
-      "UNC – No Primary — 149 (44%)",
-      "UNC – Lapsed D — 33 (10%)",
-      "Pure D — 12 (4%)"
+      "Pure R — 64 (18%)",
+      "UNC – Lapsed R — 33 (9%)",
+      "Mixed – Active — 34 (10%)",
+      "Mixed – Lapsed — 20 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (2%)",
+      "UNC – No Primary — 151 (43%)",
+      "UNC – Lapsed D — 27 (8%)",
+      "Pure D — 13 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          61,
-          34,
-          26,
-          25,
-          149,
+          64,
           33,
-          12
+          34,
+          20,
+          0,
+          6,
+          151,
+          27,
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LOWELL VILLAGE (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

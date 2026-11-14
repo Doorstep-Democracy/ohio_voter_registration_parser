@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 596",
-      "Mixed – Active — 289",
-      "Mixed – Lapsed — 304",
-      "UNC – No Primary — 1,702",
-      "UNC – Lapsed D — 263"
+      "UNC – Lapsed R — 607",
+      "Mixed – Active — 287",
+      "Mixed – Lapsed — 125",
+      "UNC – Non-partisan Ballot — 181",
+      "UNC – No Primary — 1,732",
+      "UNC – Lapsed D — 259"
     ],
     "datasets": [
       {
         "data": [
-          596,
-          289,
-          304,
-          1702,
-          263
+          607,
+          287,
+          125,
+          181,
+          1732,
+          259
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Williamsburg Local Sd (Clermont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

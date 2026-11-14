@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 387",
-      "Mixed – Active — 214",
-      "Mixed – Lapsed — 222",
-      "UNC – No Primary — 1,011",
-      "UNC – Lapsed D — 213"
+      "UNC – Lapsed R — 423",
+      "Mixed – Active — 243",
+      "Mixed – Lapsed — 104",
+      "UNC – Non-partisan Ballot — 125",
+      "UNC – No Primary — 901",
+      "UNC – Lapsed D — 181"
     ],
     "datasets": [
       {
         "data": [
-          387,
-          214,
-          222,
-          1011,
-          213
+          423,
+          243,
+          104,
+          125,
+          901,
+          181
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BAUGHMAN TWP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

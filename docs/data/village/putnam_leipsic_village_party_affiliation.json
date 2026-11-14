@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 176 (13%)",
-      "UNC – Lapsed R — 178 (13%)",
-      "Mixed – Active — 92 (7%)",
-      "Mixed – Lapsed — 68 (5%)",
-      "UNC – No Primary — 657 (50%)",
-      "UNC – Lapsed D — 118 (9%)",
-      "Pure D — 35 (3%)"
+      "Pure R — 228 (17%)",
+      "UNC – Lapsed R — 150 (11%)",
+      "Mixed – Active — 115 (9%)",
+      "Mixed – Lapsed — 36 (3%)",
+      "Minor Party — 7 (1%)",
+      "UNC – Non-partisan Ballot — 14 (1%)",
+      "UNC – No Primary — 637 (48%)",
+      "UNC – Lapsed D — 99 (7%)",
+      "Pure D — 45 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          176,
-          178,
-          92,
-          68,
-          657,
-          118,
-          35
+          228,
+          150,
+          115,
+          36,
+          7,
+          14,
+          637,
+          99,
+          45
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LEIPSIC VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

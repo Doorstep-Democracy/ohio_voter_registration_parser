@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 570 (15%)",
-      "UNC – Lapsed R — 402 (11%)",
-      "Mixed – Active — 393 (10%)",
-      "Mixed – Lapsed — 382 (10%)",
-      "UNC – No Primary — 1,262 (34%)",
-      "UNC – Lapsed D — 460 (12%)",
-      "Pure D — 283 (8%)"
+      "Pure R — 550 (15%)",
+      "UNC – Lapsed R — 426 (11%)",
+      "Mixed – Active — 385 (10%)",
+      "Mixed – Lapsed — 187 (5%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 207 (5%)",
+      "UNC – No Primary — 1,262 (33%)",
+      "UNC – Lapsed D — 408 (11%)",
+      "Pure D — 354 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          570,
-          402,
-          393,
-          382,
+          550,
+          426,
+          385,
+          187,
+          5,
+          207,
           1262,
-          460,
-          283
+          408,
+          354
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "CANAL FULTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

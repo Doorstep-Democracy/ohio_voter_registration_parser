@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,596 (20%)",
-      "UNC – Lapsed R — 1,473 (18%)",
-      "Mixed – Active — 619 (8%)",
-      "Mixed – Lapsed — 807 (10%)",
-      "UNC – No Primary — 2,735 (33%)",
-      "UNC – Lapsed D — 626 (8%)",
-      "Pure D — 317 (4%)"
+      "Pure R — 1,585 (19%)",
+      "UNC – Lapsed R — 1,470 (18%)",
+      "Mixed – Active — 616 (8%)",
+      "Mixed – Lapsed — 413 (5%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 385 (5%)",
+      "UNC – No Primary — 2,780 (34%)",
+      "UNC – Lapsed D — 630 (8%)",
+      "Pure D — 311 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1596,
-          1473,
-          619,
-          807,
-          2735,
-          626,
-          317
+          1585,
+          1470,
+          616,
+          413,
+          14,
+          385,
+          2780,
+          630,
+          311
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "East Muskingum Local Sd (Musk Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

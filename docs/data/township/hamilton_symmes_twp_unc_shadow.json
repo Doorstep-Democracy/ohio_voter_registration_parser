@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,752",
-      "Mixed – Active — 801",
-      "Mixed – Lapsed — 1,246",
-      "UNC – No Primary — 4,255",
-      "UNC – Lapsed D — 1,178"
+      "UNC – Lapsed R — 1,740",
+      "Mixed – Active — 788",
+      "Mixed – Lapsed — 605",
+      "UNC – Non-partisan Ballot — 631",
+      "UNC – No Primary — 4,407",
+      "UNC – Lapsed D — 1,183"
     ],
     "datasets": [
       {
         "data": [
-          1752,
-          801,
-          1246,
-          4255,
-          1178
+          1740,
+          788,
+          605,
+          631,
+          4407,
+          1183
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SYMMES TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

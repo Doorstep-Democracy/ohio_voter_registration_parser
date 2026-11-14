@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 809",
-      "Mixed – Active — 926",
-      "Mixed – Lapsed — 895",
-      "UNC – No Primary — 7,805",
-      "UNC – Lapsed D — 2,869"
+      "UNC – Lapsed R — 838",
+      "Mixed – Active — 921",
+      "Mixed – Lapsed — 636",
+      "UNC – Non-partisan Ballot — 284",
+      "UNC – No Primary — 7,868",
+      "UNC – Lapsed D — 2,697"
     ],
     "datasets": [
       {
         "data": [
-          809,
-          926,
-          895,
-          7805,
-          2869
+          838,
+          921,
+          636,
+          284,
+          7868,
+          2697
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SANDUSKY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

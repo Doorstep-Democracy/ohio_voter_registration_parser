@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 944 (21%)",
-      "UNC – Lapsed R — 654 (15%)",
-      "Mixed – Active — 407 (9%)",
-      "Mixed – Lapsed — 285 (6%)",
-      "UNC – No Primary — 1,639 (37%)",
-      "UNC – Lapsed D — 320 (7%)",
-      "Pure D — 168 (4%)"
+      "Pure R — 933 (21%)",
+      "UNC – Lapsed R — 651 (15%)",
+      "Mixed – Active — 403 (9%)",
+      "Mixed – Lapsed — 202 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 82 (2%)",
+      "UNC – No Primary — 1,656 (38%)",
+      "UNC – Lapsed D — 321 (7%)",
+      "Pure D — 165 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          944,
-          654,
-          407,
-          285,
-          1639,
-          320,
-          168
+          933,
+          651,
+          403,
+          202,
+          3,
+          82,
+          1656,
+          321,
+          165
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "East Guernsey Local Sd (Guernsey Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

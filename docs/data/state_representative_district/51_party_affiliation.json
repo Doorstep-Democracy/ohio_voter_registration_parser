@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 9,542 (14%)",
-      "UNC – Lapsed R — 7,356 (11%)",
-      "Mixed – Active — 6,841 (10%)",
-      "Mixed – Lapsed — 6,342 (9%)",
-      "UNC – No Primary — 26,479 (38%)",
-      "UNC – Lapsed D — 9,100 (13%)",
-      "Pure D — 3,987 (6%)"
+      "Pure R — 9,444 (14%)",
+      "UNC – Lapsed R — 7,895 (11%)",
+      "Mixed – Active — 7,174 (10%)",
+      "Mixed – Lapsed — 3,392 (5%)",
+      "Minor Party — 106 (0%)",
+      "UNC – Non-partisan Ballot — 2,740 (4%)",
+      "UNC – No Primary — 26,200 (37%)",
+      "UNC – Lapsed D — 7,908 (11%)",
+      "Pure D — 5,066 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          9542,
-          7356,
-          6841,
-          6342,
-          26479,
-          9100,
-          3987
+          9444,
+          7895,
+          7174,
+          3392,
+          106,
+          2740,
+          26200,
+          7908,
+          5066
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "State Representative District",
   "jurisdiction_name": "51",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

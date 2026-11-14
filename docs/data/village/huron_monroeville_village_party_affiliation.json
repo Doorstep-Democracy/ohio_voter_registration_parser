@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 100 (13%)",
-      "UNC – Lapsed R — 71 (9%)",
-      "Mixed – Active — 52 (7%)",
-      "Mixed – Lapsed — 96 (13%)",
-      "UNC – No Primary — 311 (41%)",
-      "UNC – Lapsed D — 73 (10%)",
-      "Pure D — 49 (7%)"
+      "Pure R — 97 (13%)",
+      "UNC – Lapsed R — 65 (9%)",
+      "Mixed – Active — 51 (7%)",
+      "Mixed – Lapsed — 24 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 74 (10%)",
+      "UNC – No Primary — 323 (42%)",
+      "UNC – Lapsed D — 76 (10%)",
+      "Pure D — 49 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          100,
-          71,
-          52,
-          96,
-          311,
-          73,
+          97,
+          65,
+          51,
+          24,
+          1,
+          74,
+          323,
+          76,
           49
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MONROEVILLE VILLAGE (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

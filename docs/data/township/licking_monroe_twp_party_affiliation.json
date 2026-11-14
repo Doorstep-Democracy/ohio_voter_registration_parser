@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,077 (19%)",
-      "UNC – Lapsed R — 827 (15%)",
-      "Mixed – Active — 403 (7%)",
-      "Mixed – Lapsed — 511 (9%)",
-      "UNC – No Primary — 2,106 (37%)",
-      "UNC – Lapsed D — 537 (9%)",
-      "Pure D — 195 (3%)"
+      "Pure R — 981 (17%)",
+      "UNC – Lapsed R — 934 (16%)",
+      "Mixed – Active — 408 (7%)",
+      "Mixed – Lapsed — 289 (5%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 239 (4%)",
+      "UNC – No Primary — 2,090 (37%)",
+      "UNC – Lapsed D — 511 (9%)",
+      "Pure D — 243 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1077,
-          827,
-          403,
+          981,
+          934,
+          408,
+          289,
+          14,
+          239,
+          2090,
           511,
-          2106,
-          537,
-          195
+          243
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONROE TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

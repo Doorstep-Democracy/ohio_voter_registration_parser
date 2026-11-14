@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,928 (16%)",
-      "UNC – Lapsed R — 2,222 (12%)",
-      "Mixed – Active — 1,829 (10%)",
-      "Mixed – Lapsed — 1,779 (10%)",
-      "UNC – No Primary — 6,205 (34%)",
-      "UNC – Lapsed D — 1,735 (10%)",
-      "Pure D — 1,415 (8%)"
+      "Pure R — 2,611 (14%)",
+      "UNC – Lapsed R — 2,488 (14%)",
+      "Mixed – Active — 1,830 (10%)",
+      "Mixed – Lapsed — 982 (5%)",
+      "Minor Party — 30 (0%)",
+      "UNC – Non-partisan Ballot — 892 (5%)",
+      "UNC – No Primary — 6,079 (33%)",
+      "UNC – Lapsed D — 1,736 (9%)",
+      "Pure D — 1,657 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          2928,
-          2222,
-          1829,
-          1779,
-          6205,
-          1735,
-          1415
+          2611,
+          2488,
+          1830,
+          982,
+          30,
+          892,
+          6079,
+          1736,
+          1657
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "HUDSON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

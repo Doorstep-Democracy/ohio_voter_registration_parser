@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 900 (16%)",
-      "UNC – Lapsed R — 732 (13%)",
-      "Mixed – Active — 412 (7%)",
-      "Mixed – Lapsed — 826 (14%)",
-      "UNC – No Primary — 1,659 (29%)",
-      "UNC – Lapsed D — 719 (13%)",
-      "Pure D — 459 (8%)"
+      "Pure R — 893 (16%)",
+      "UNC – Lapsed R — 739 (13%)",
+      "Mixed – Active — 406 (7%)",
+      "Mixed – Lapsed — 257 (4%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 560 (10%)",
+      "UNC – No Primary — 1,714 (30%)",
+      "UNC – Lapsed D — 718 (12%)",
+      "Pure D — 456 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          900,
-          732,
-          412,
-          826,
-          1659,
-          719,
-          459
+          893,
+          739,
+          406,
+          257,
+          12,
+          560,
+          1714,
+          718,
+          456
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Genoa Area Local Sd (Ottawa Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          4,
-          107,
-          278,
-          399,
-          324,
-          216,
-          181,
-          110,
-          64
+          2,
+          77,
+          223,
+          356,
+          260,
+          137,
+          104,
+          65,
+          45
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
-          57,
-          112,
-          146,
-          216,
-          161,
-          142,
-          110,
-          15
+          5,
+          68,
+          167,
+          203,
+          281,
+          242,
+          221,
+          157,
+          40
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          8,
-          66,
-          214,
-          257,
-          150,
-          96,
-          51,
-          12,
-          0
+          5,
+          53,
+          165,
+          232,
+          120,
+          56,
+          36,
+          16,
+          4
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          4,
-          44,
-          83,
-          122,
-          90,
-          74,
-          50,
-          29,
-          12
+          5,
+          52,
+          125,
+          128,
+          106,
+          87,
+          41,
+          13,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          2,
+          6,
+          1,
+          2,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          5,
+          6,
+          18,
+          19,
+          23,
+          28,
+          14,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           3,
-          30,
-          118,
-          282,
-          379,
-          474,
-          600,
-          902,
-          839
+          24,
+          116,
+          264,
+          373,
+          466,
+          592,
+          913,
+          888
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           6,
-          47,
-          77,
-          120,
-          109,
-          85,
-          77,
+          37,
+          73,
+          128,
+          100,
+          80,
+          75,
           54,
-          7
+          14
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          14,
-          53,
-          72,
-          29,
-          19,
-          18,
-          15,
-          11
+          1,
+          11,
+          54,
+          69,
+          39,
+          25,
+          22,
+          24,
+          18
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "GREENVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

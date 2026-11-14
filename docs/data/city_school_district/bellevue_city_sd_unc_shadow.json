@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 845",
-      "Mixed – Active — 672",
-      "Mixed – Lapsed — 780",
-      "UNC – No Primary — 3,314",
-      "UNC – Lapsed D — 742"
+      "UNC – Lapsed R — 893",
+      "Mixed – Active — 701",
+      "Mixed – Lapsed — 286",
+      "UNC – Non-partisan Ballot — 451",
+      "UNC – No Primary — 3,184",
+      "UNC – Lapsed D — 687"
     ],
     "datasets": [
       {
         "data": [
-          845,
-          672,
-          780,
-          3314,
-          742
+          893,
+          701,
+          286,
+          451,
+          3184,
+          687
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "BELLEVUE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

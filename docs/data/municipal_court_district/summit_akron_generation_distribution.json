@@ -1,0 +1,31 @@
+{
+  "title": "Voter Distribution by Generation",
+  "type": "bar",
+  "chartConfig": {
+    "labels": [
+      "Silent/Greatest",
+      "Baby Boomers",
+      "Gen X",
+      "Millennials",
+      "Gen Z"
+    ],
+    "datasets": [
+      {
+        "label": "Registered Voters",
+        "data": [
+          7206,
+          39890,
+          36473,
+          44074,
+          28453
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 4
+      }
+    ]
+  },
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
+  "geography": "Municipal Court District",
+  "jurisdiction_name": "AKRON (Summit Co.)",
+  "updated": "2026-11-12"
+}

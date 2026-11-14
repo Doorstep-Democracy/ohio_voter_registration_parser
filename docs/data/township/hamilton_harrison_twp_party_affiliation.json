@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,230 (21%)",
-      "UNC – Lapsed R — 1,354 (13%)",
-      "Mixed – Active — 760 (7%)",
-      "Mixed – Lapsed — 780 (7%)",
-      "UNC – No Primary — 4,379 (42%)",
-      "UNC – Lapsed D — 548 (5%)",
-      "Pure D — 395 (4%)"
+      "Pure R — 2,220 (21%)",
+      "UNC – Lapsed R — 1,341 (13%)",
+      "Mixed – Active — 757 (7%)",
+      "Mixed – Lapsed — 311 (3%)",
+      "Minor Party — 36 (0%)",
+      "UNC – Non-partisan Ballot — 468 (4%)",
+      "UNC – No Primary — 4,457 (42%)",
+      "UNC – Lapsed D — 537 (5%)",
+      "Pure D — 386 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          2230,
-          1354,
-          760,
-          780,
-          4379,
-          548,
-          395
+          2220,
+          1341,
+          757,
+          311,
+          36,
+          468,
+          4457,
+          537,
+          386
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

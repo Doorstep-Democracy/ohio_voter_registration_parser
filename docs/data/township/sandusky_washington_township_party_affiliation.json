@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 405 (26%)",
-      "UNC – Lapsed R — 199 (13%)",
-      "Mixed – Active — 102 (6%)",
-      "Mixed – Lapsed — 153 (10%)",
-      "UNC – No Primary — 546 (35%)",
-      "UNC – Lapsed D — 99 (6%)",
-      "Pure D — 67 (4%)"
+      "Pure R — 399 (25%)",
+      "UNC – Lapsed R — 230 (15%)",
+      "Mixed – Active — 119 (8%)",
+      "Mixed – Lapsed — 41 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 93 (6%)",
+      "UNC – No Primary — 525 (33%)",
+      "UNC – Lapsed D — 90 (6%)",
+      "Pure D — 83 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          405,
-          199,
-          102,
-          153,
-          546,
-          99,
-          67
+          399,
+          230,
+          119,
+          41,
+          5,
+          93,
+          525,
+          90,
+          83
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

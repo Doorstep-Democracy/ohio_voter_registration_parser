@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          106,
-          448,
-          788,
-          643,
-          430,
-          401,
-          206,
-          156
+          105,
+          444,
+          791,
+          635,
+          425,
+          399,
+          205,
+          155
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          58,
-          134,
-          195,
-          223,
-          261,
-          235,
+          57,
+          135,
+          198,
+          225,
+          264,
+          238,
           180,
-          30
+          32
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
-          46,
-          217,
-          346,
-          275,
+          2,
+          44,
+          216,
+          340,
+          274,
           164,
-          110,
-          43,
+          109,
+          41,
           3
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          33,
-          88,
-          127,
-          111,
-          110,
-          125,
+          18,
+          54,
+          65,
           55,
-          33
+          47,
+          34,
+          12,
+          3
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          5,
+          10,
+          13,
+          6,
+          14,
+          6,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          13,
+          29,
+          65,
+          59,
+          66,
+          91,
+          45,
+          27
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          29,
-          99,
-          227,
-          337,
-          435,
-          649,
-          871,
-          910
+          28,
+          101,
+          230,
+          342,
+          437,
+          656,
+          886,
+          969
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          36,
+          2,
+          35,
           101,
-          147,
-          114,
-          128,
-          157,
-          65,
-          12
+          144,
+          116,
+          130,
+          162,
+          68,
+          11
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          21,
-          158,
-          250,
-          176,
+          19,
+          156,
+          246,
+          177,
           123,
-          118,
-          68,
-          41
+          116,
+          67,
+          40
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Lexington Local Sd (Richland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

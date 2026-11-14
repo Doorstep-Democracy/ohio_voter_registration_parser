@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 12",
-      "Mixed – Active — 11",
-      "Mixed – Lapsed — 21",
-      "UNC – No Primary — 61",
-      "UNC – Lapsed D — 23"
+      "UNC – Lapsed R — 14",
+      "Mixed – Active — 9",
+      "Mixed – Lapsed — 9",
+      "UNC – Non-partisan Ballot — 11",
+      "UNC – No Primary — 63",
+      "UNC – Lapsed D — 28"
     ],
     "datasets": [
       {
         "data": [
-          12,
+          14,
+          9,
+          9,
           11,
-          21,
-          61,
-          23
+          63,
+          28
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "CLAY CENTER VILLAGE (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

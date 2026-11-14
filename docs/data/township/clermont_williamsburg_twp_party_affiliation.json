@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 899 (24%)",
-      "UNC – Lapsed R — 422 (11%)",
-      "Mixed – Active — 257 (7%)",
-      "Mixed – Lapsed — 252 (7%)",
-      "UNC – No Primary — 1,559 (41%)",
-      "UNC – Lapsed D — 241 (6%)",
-      "Pure D — 153 (4%)"
+      "Pure R — 847 (22%)",
+      "UNC – Lapsed R — 508 (13%)",
+      "Mixed – Active — 251 (7%)",
+      "Mixed – Lapsed — 117 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 152 (4%)",
+      "UNC – No Primary — 1,546 (40%)",
+      "UNC – Lapsed D — 231 (6%)",
+      "Pure D — 169 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          899,
-          422,
-          257,
-          252,
-          1559,
-          241,
-          153
+          847,
+          508,
+          251,
+          117,
+          4,
+          152,
+          1546,
+          231,
+          169
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WILLIAMSBURG TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

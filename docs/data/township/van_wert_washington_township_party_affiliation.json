@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 673 (20%)",
-      "UNC – Lapsed R — 537 (16%)",
-      "Mixed – Active — 236 (7%)",
-      "Mixed – Lapsed — 238 (7%)",
-      "UNC – No Primary — 1,360 (41%)",
-      "UNC – Lapsed D — 197 (6%)",
-      "Pure D — 63 (2%)"
+      "Pure R — 640 (19%)",
+      "UNC – Lapsed R — 593 (18%)",
+      "Mixed – Active — 227 (7%)",
+      "Mixed – Lapsed — 147 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 115 (3%)",
+      "UNC – No Primary — 1,338 (40%)",
+      "UNC – Lapsed D — 183 (6%)",
+      "Pure D — 77 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          673,
-          537,
-          236,
-          238,
-          1360,
-          197,
-          63
+          640,
+          593,
+          227,
+          147,
+          4,
+          115,
+          1338,
+          183,
+          77
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

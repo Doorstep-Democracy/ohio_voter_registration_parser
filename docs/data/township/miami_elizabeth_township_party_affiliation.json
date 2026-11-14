@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 443 (35%)",
-      "UNC – Lapsed R — 174 (14%)",
-      "Mixed – Active — 119 (9%)",
-      "Mixed – Lapsed — 77 (6%)",
-      "UNC – No Primary — 352 (27%)",
-      "UNC – Lapsed D — 75 (6%)",
-      "Pure D — 41 (3%)"
+      "Pure R — 439 (34%)",
+      "UNC – Lapsed R — 183 (14%)",
+      "Mixed – Active — 127 (10%)",
+      "Mixed – Lapsed — 42 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 35 (3%)",
+      "UNC – No Primary — 351 (27%)",
+      "UNC – Lapsed D — 65 (5%)",
+      "Pure D — 49 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          443,
-          174,
-          119,
-          77,
-          352,
-          75,
-          41
+          439,
+          183,
+          127,
+          42,
+          3,
+          35,
+          351,
+          65,
+          49
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ELIZABETH TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

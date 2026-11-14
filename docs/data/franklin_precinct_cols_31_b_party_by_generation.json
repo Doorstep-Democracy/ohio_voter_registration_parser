@@ -4,7 +4,7 @@
   "precinct": "COLS 31-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,7 +32,7 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          14,
+          13,
           5,
           8,
           2
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           3,
-          12,
+          11,
           5,
           1,
           1
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          6,
+          7,
           3,
           3,
           0
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           5,
           7,
-          7,
+          6,
           2
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          60,
-          160,
-          303,
-          172
+          61,
+          159,
+          322,
+          192
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          20,
-          28,
-          28,
-          3
+          18,
+          26,
+          30,
+          4
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,7 +124,7 @@
         "data": [
           2,
           24,
-          14,
+          16,
           20,
           4
         ],

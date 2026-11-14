@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,554 (9%)",
-      "UNC – Lapsed R — 1,227 (7%)",
-      "Mixed – Active — 1,058 (6%)",
-      "Mixed – Lapsed — 872 (5%)",
-      "UNC – No Primary — 9,094 (55%)",
-      "UNC – Lapsed D — 1,988 (12%)",
-      "Pure D — 729 (4%)"
+      "Pure R — 1,478 (9%)",
+      "UNC – Lapsed R — 1,384 (8%)",
+      "Mixed – Active — 1,033 (6%)",
+      "Mixed – Lapsed — 606 (4%)",
+      "Minor Party — 35 (0%)",
+      "UNC – Non-partisan Ballot — 341 (2%)",
+      "UNC – No Primary — 9,013 (54%)",
+      "UNC – Lapsed D — 1,919 (12%)",
+      "Pure D — 872 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1554,
-          1227,
-          1058,
-          872,
-          9094,
-          1988,
-          729
+          1478,
+          1384,
+          1033,
+          606,
+          35,
+          341,
+          9013,
+          1919,
+          872
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MARION CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

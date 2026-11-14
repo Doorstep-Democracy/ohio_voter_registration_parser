@@ -3,25 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 492 (16%)",
-      "UNC – Lapsed R — 385 (13%)",
+      "Pure R — 489 (16%)",
+      "UNC – Lapsed R — 384 (12%)",
       "Mixed – Active — 365 (12%)",
-      "Mixed – Lapsed — 127 (4%)",
-      "UNC – Non-partisan Ballot — 112 (4%)",
-      "UNC – No Primary — 905 (30%)",
-      "UNC – Lapsed D — 315 (10%)",
+      "Mixed – Lapsed — 120 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 111 (4%)",
+      "UNC – No Primary — 934 (30%)",
+      "UNC – Lapsed D — 319 (10%)",
       "Pure D — 363 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          492,
-          385,
+          489,
+          384,
           365,
-          127,
-          112,
-          905,
-          315,
+          120,
+          4,
+          111,
+          934,
+          319,
           363
         ],
         "backgroundColor": [
@@ -29,6 +31,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "NORTH CANTON WARD 2 (NORTH CANTON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

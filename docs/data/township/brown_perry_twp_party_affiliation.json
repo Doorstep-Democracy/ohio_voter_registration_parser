@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 657 (20%)",
-      "UNC – Lapsed R — 490 (15%)",
-      "Mixed – Active — 289 (9%)",
-      "Mixed – Lapsed — 227 (7%)",
-      "UNC – No Primary — 1,224 (38%)",
-      "UNC – Lapsed D — 246 (8%)",
-      "Pure D — 81 (3%)"
+      "Pure R — 668 (21%)",
+      "UNC – Lapsed R — 505 (16%)",
+      "Mixed – Active — 298 (9%)",
+      "Mixed – Lapsed — 161 (5%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 65 (2%)",
+      "UNC – No Primary — 1,210 (37%)",
+      "UNC – Lapsed D — 227 (7%)",
+      "Pure D — 105 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          657,
-          490,
-          289,
+          668,
+          505,
+          298,
+          161,
+          9,
+          65,
+          1210,
           227,
-          1224,
-          246,
-          81
+          105
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PERRY TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

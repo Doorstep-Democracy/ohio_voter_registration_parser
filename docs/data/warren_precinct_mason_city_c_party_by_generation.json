@@ -4,7 +4,7 @@
   "precinct": "MASON CITY C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,8 +18,8 @@
       {
         "label": "Pure R",
         "data": [
-          6,
-          73,
+          4,
+          71,
           62,
           3,
           17
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
+          5,
           46,
           83,
-          34,
+          36,
           20
         ],
         "backgroundColor": "#fca5a5",
@@ -60,10 +60,23 @@
           2,
           19,
           40,
-          8,
+          7,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,8 +86,8 @@
           0,
           16,
           27,
-          5,
-          5
+          4,
+          4
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -85,9 +98,9 @@
         "data": [
           4,
           42,
-          103,
-          103,
-          214
+          106,
+          100,
+          223
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           5,
           26,
           65,
-          28,
+          31,
           30
         ],
         "backgroundColor": "#93c5fd",
@@ -111,7 +124,7 @@
         "data": [
           0,
           24,
-          18,
+          17,
           7,
           11
         ],

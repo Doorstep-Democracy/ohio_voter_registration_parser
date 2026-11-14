@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 702",
-      "Mixed – Active — 601",
-      "Mixed – Lapsed — 683",
-      "UNC – No Primary — 2,172",
-      "UNC – Lapsed D — 753"
+      "UNC – Lapsed R — 628",
+      "Mixed – Active — 727",
+      "Mixed – Lapsed — 220",
+      "UNC – Non-partisan Ballot — 364",
+      "UNC – No Primary — 2,075",
+      "UNC – Lapsed D — 585"
     ],
     "datasets": [
       {
         "data": [
-          702,
-          601,
-          683,
-          2172,
-          753
+          628,
+          727,
+          220,
+          364,
+          2075,
+          585
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "LOUISVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

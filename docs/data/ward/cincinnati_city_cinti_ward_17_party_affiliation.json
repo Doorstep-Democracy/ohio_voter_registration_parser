@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 25 (1%)",
+      "Pure R — 22 (0%)",
       "UNC – Lapsed R — 96 (2%)",
-      "Mixed – Active — 74 (2%)",
-      "Mixed – Lapsed — 68 (2%)",
-      "UNC – Non-partisan Ballot — 81 (2%)",
-      "UNC – No Primary — 2,780 (63%)",
-      "UNC – Lapsed D — 797 (18%)",
-      "Pure D — 482 (11%)"
+      "Mixed – Active — 73 (2%)",
+      "Mixed – Lapsed — 69 (2%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 79 (2%)",
+      "UNC – No Primary — 2,902 (65%)",
+      "UNC – Lapsed D — 778 (17%)",
+      "Pure D — 477 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          25,
+          22,
           96,
-          74,
-          68,
-          81,
-          2780,
-          797,
-          482
+          73,
+          69,
+          3,
+          79,
+          2902,
+          778,
+          477
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "CINTI WARD 17 (CINCINNATI City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

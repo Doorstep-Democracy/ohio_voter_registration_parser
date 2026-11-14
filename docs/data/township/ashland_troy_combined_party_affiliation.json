@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 186 (23%)",
-      "UNC – Lapsed R — 95 (12%)",
-      "Mixed – Active — 73 (9%)",
-      "Mixed – Lapsed — 89 (11%)",
-      "UNC – No Primary — 263 (33%)",
-      "UNC – Lapsed D — 55 (7%)",
-      "Pure D — 35 (4%)"
+      "Pure R — 169 (21%)",
+      "UNC – Lapsed R — 117 (15%)",
+      "Mixed – Active — 65 (8%)",
+      "Mixed – Lapsed — 27 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 67 (9%)",
+      "UNC – No Primary — 250 (32%)",
+      "UNC – Lapsed D — 58 (7%)",
+      "Pure D — 33 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          186,
-          95,
-          73,
-          89,
-          263,
-          55,
-          35
+          169,
+          117,
+          65,
+          27,
+          2,
+          67,
+          250,
+          58,
+          33
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TROY-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

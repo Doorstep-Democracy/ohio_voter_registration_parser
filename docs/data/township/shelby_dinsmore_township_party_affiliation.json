@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 533 (23%)",
-      "UNC – Lapsed R — 380 (16%)",
-      "Mixed – Active — 262 (11%)",
-      "Mixed – Lapsed — 139 (6%)",
-      "UNC – No Primary — 883 (37%)",
-      "UNC – Lapsed D — 126 (5%)",
-      "Pure D — 33 (1%)"
+      "Pure R — 531 (22%)",
+      "UNC – Lapsed R — 418 (18%)",
+      "Mixed – Active — 265 (11%)",
+      "Mixed – Lapsed — 98 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 44 (2%)",
+      "UNC – No Primary — 848 (36%)",
+      "UNC – Lapsed D — 118 (5%)",
+      "Pure D — 40 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          533,
-          380,
-          262,
-          139,
-          883,
-          126,
-          33
+          531,
+          418,
+          265,
+          98,
+          4,
+          44,
+          848,
+          118,
+          40
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DINSMORE TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

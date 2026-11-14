@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 259 (6%)",
-      "UNC – Lapsed R — 392 (10%)",
-      "Mixed – Active — 316 (8%)",
-      "Mixed – Lapsed — 177 (4%)",
+      "Pure R — 257 (6%)",
+      "UNC – Lapsed R — 389 (9%)",
+      "Mixed – Active — 304 (7%)",
+      "Mixed – Lapsed — 178 (4%)",
+      "Minor Party — 6 (0%)",
       "UNC – Non-partisan Ballot — 110 (3%)",
-      "UNC – No Primary — 1,834 (45%)",
-      "UNC – Lapsed D — 507 (12%)",
-      "Pure D — 475 (12%)"
+      "UNC – No Primary — 1,895 (46%)",
+      "UNC – Lapsed D — 524 (13%)",
+      "Pure D — 472 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          259,
-          392,
-          316,
-          177,
+          257,
+          389,
+          304,
+          178,
+          6,
           110,
-          1834,
-          507,
-          475
+          1895,
+          524,
+          472
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "WESTLAKE WARD 3 (WESTLAKE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

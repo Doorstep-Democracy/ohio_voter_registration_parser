@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 317 (33%)",
-      "UNC – Lapsed R — 138 (14%)",
-      "Mixed – Active — 82 (9%)",
-      "Mixed – Lapsed — 38 (4%)",
-      "UNC – No Primary — 317 (33%)",
-      "UNC – Lapsed D — 56 (6%)",
-      "Pure D — 10 (1%)"
+      "Pure R — 252 (26%)",
+      "UNC – Lapsed R — 208 (22%)",
+      "Mixed – Active — 77 (8%)",
+      "Mixed – Lapsed — 33 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 12 (1%)",
+      "UNC – No Primary — 306 (32%)",
+      "UNC – Lapsed D — 54 (6%)",
+      "Pure D — 12 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          317,
-          138,
-          82,
-          38,
-          317,
-          56,
-          10
+          252,
+          208,
+          77,
+          33,
+          0,
+          12,
+          306,
+          54,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

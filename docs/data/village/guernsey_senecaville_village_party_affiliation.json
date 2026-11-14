@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 36 (15%)",
-      "UNC – Lapsed R — 22 (9%)",
-      "Mixed – Active — 23 (9%)",
-      "Mixed – Lapsed — 19 (8%)",
-      "UNC – No Primary — 107 (44%)",
-      "UNC – Lapsed D — 20 (8%)",
-      "Pure D — 18 (7%)"
+      "Pure R — 28 (11%)",
+      "UNC – Lapsed R — 33 (13%)",
+      "Mixed – Active — 20 (8%)",
+      "Mixed – Lapsed — 17 (7%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 105 (43%)",
+      "UNC – Lapsed D — 22 (9%)",
+      "Pure D — 15 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          36,
-          22,
-          23,
-          19,
-          107,
+          28,
+          33,
           20,
-          18
+          17,
+          1,
+          4,
+          105,
+          22,
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SENECAVILLE VILLAGE (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

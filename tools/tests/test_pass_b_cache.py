@@ -2,12 +2,13 @@
 Pass B — Step 0 cache helper tests.
 
 Tests _cache_is_fresh() and _write_cache_atomic() behavior in both
-voter_data_cleaner_v2 and jurisdictional_groupings.
+pipeline/voter_data_cleaner.py and jurisdictional_groupings.
 Requires polars; skips automatically if not installed.
 """
 import logging
 import os
 import time
+from datetime import date
 from pathlib import Path
 
 import pytest
@@ -15,6 +16,7 @@ import pytest
 polars = pytest.importorskip("polars")
 from pipeline import voter_data_cleaner as _v2
 from pipeline import jurisdictional_groupings as _jg
+from pipeline.paths import county_partition
 
 
 # ── _cache_is_fresh() ────────────────────────────────────────────────────────
@@ -24,13 +26,19 @@ def mod(request):
     return request.param
 
 
-def _make_partition(parquet_dir: Path, name="COUNTY_NUMBER=01"):
+def _make_partition(parquet_dir: Path, name=county_partition(1)):
     p = parquet_dir / name
     p.mkdir(parents=True, exist_ok=True)
     return p
 
 
 class TestCacheIsFresh:
+    # voter_data_cleaner owns the single _cache_is_fresh(); jurisdictional_groupings
+    # delegates to it (its copy was removed 2026-11-11), so only one module is tested.
+    @pytest.fixture
+    def mod(self):
+        return _v2
+
     def test_missing_cache_returns_false(self, mod, tmp_path, monkeypatch):
         monkeypatch.setattr(mod, "ENRICHED_CACHE", tmp_path / "cache.parquet")
         monkeypatch.setattr(mod, "PARQUET_DIR",    tmp_path / "parquet")
@@ -104,6 +112,36 @@ class TestCacheIsFresh:
 # ── _write_cache_atomic() ────────────────────────────────────────────────────
 
 class TestWriteCacheAtomic:
+    # voter_data_cleaner owns the single _write_cache_atomic(); jurisdictional_groupings
+    # delegates to it (its copy, which wrote no provenance sidecar, was removed
+    # 2026-11-12), so only one module is tested.
+    @pytest.fixture
+    def mod(self):
+        return _v2
+
+    def test_groupings_keeps_no_copy(self):
+        assert not hasattr(_jg, "_write_cache_atomic")
+        assert not hasattr(_jg, "_cache_is_fresh")
+
+    def test_writes_provenance_sidecar(self, mod, tmp_path, monkeypatch):
+        import json
+        cache = tmp_path / "cache.parquet"
+        monkeypatch.setattr(mod, "ENRICHED_CACHE", cache)
+        mod._write_cache_atomic(polars.DataFrame({"x": [1]}), logging.getLogger("test"))
+        side = json.loads(cache.with_suffix(".provenance.json").read_text(encoding="utf-8"))
+        assert side["provenance_snapshot_date"] == "2026-10-24"
+        assert "affiliation_window_years" in side
+
+    @pytest.fixture(autouse=True)
+    def _pin_snapshot_date(self, monkeypatch):
+        # voter_data_cleaner._write_cache_atomic stamps the provenance sidecar
+        # with get_snapshot_date(), which reads the staged snapshot under
+        # local/ and raises when none is staged (a fresh checkout / CI).
+        # These tests exercise the atomic write, not snapshot staging, so pin
+        # the date instead of depending on whatever is staged on this machine.
+        monkeypatch.setattr(_v2, "get_snapshot_date",
+                            lambda logger=None: date(2026, 10, 24))
+
     def test_creates_parquet_at_target_path(self, mod, tmp_path, monkeypatch):
         cache = tmp_path / "cache.parquet"
         monkeypatch.setattr(mod, "ENRICHED_CACHE", cache)

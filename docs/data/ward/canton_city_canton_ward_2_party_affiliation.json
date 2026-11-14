@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 66 (2%)",
-      "UNC – Lapsed R — 96 (3%)",
+      "Pure R — 64 (2%)",
+      "UNC – Lapsed R — 95 (2%)",
       "Mixed – Active — 107 (3%)",
-      "Mixed – Lapsed — 58 (2%)",
-      "UNC – Non-partisan Ballot — 45 (1%)",
-      "UNC – No Primary — 2,509 (66%)",
-      "UNC – Lapsed D — 604 (16%)",
-      "Pure D — 301 (8%)"
+      "Mixed – Lapsed — 57 (1%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 49 (1%)",
+      "UNC – No Primary — 2,666 (68%)",
+      "UNC – Lapsed D — 601 (15%)",
+      "Pure D — 302 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          66,
-          96,
+          64,
+          95,
           107,
-          58,
-          45,
-          2509,
-          604,
-          301
+          57,
+          1,
+          49,
+          2666,
+          601,
+          302
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "CANTON WARD 2 (CANTON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

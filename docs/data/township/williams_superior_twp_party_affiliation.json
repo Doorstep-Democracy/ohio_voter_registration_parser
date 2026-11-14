@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 282 (30%)",
-      "UNC – Lapsed R — 160 (17%)",
-      "Mixed – Active — 100 (11%)",
-      "Mixed – Lapsed — 71 (8%)",
-      "UNC – No Primary — 268 (29%)",
-      "UNC – Lapsed D — 43 (5%)",
-      "Pure D — 10 (1%)"
+      "Pure R — 284 (30%)",
+      "UNC – Lapsed R — 176 (19%)",
+      "Mixed – Active — 99 (10%)",
+      "Mixed – Lapsed — 55 (6%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 14 (1%)",
+      "UNC – No Primary — 264 (28%)",
+      "UNC – Lapsed D — 35 (4%)",
+      "Pure D — 16 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          282,
-          160,
-          100,
-          71,
-          268,
-          43,
-          10
+          284,
+          176,
+          99,
+          55,
+          2,
+          14,
+          264,
+          35,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SUPERIOR TWP (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

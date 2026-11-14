@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 905",
-      "Mixed – Active — 388",
-      "Mixed – Lapsed — 344",
-      "UNC – No Primary — 2,313",
-      "UNC – Lapsed D — 268"
+      "UNC – Lapsed R — 915",
+      "Mixed – Active — 381",
+      "Mixed – Lapsed — 193",
+      "UNC – Non-partisan Ballot — 153",
+      "UNC – No Primary — 2,360",
+      "UNC – Lapsed D — 275"
     ],
     "datasets": [
       {
         "data": [
-          905,
-          388,
-          344,
-          2313,
-          268
+          915,
+          381,
+          193,
+          153,
+          2360,
+          275
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Blanchester Local Sd (Clinton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

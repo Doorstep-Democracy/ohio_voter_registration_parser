@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 395 (2%)",
-      "UNC – Lapsed R — 468 (3%)",
-      "Mixed – Active — 788 (5%)",
-      "Mixed – Lapsed — 656 (4%)",
-      "UNC – No Primary — 6,457 (41%)",
-      "UNC – Lapsed D — 3,465 (22%)",
-      "Pure D — 3,624 (23%)"
+      "Pure R — 389 (2%)",
+      "UNC – Lapsed R — 461 (3%)",
+      "Mixed – Active — 780 (5%)",
+      "Mixed – Lapsed — 398 (2%)",
+      "Minor Party — 22 (0%)",
+      "UNC – Non-partisan Ballot — 248 (2%)",
+      "UNC – No Primary — 6,670 (42%)",
+      "UNC – Lapsed D — 3,431 (21%)",
+      "Pure D — 3,614 (23%)"
     ],
     "datasets": [
       {
         "data": [
-          395,
-          468,
-          788,
-          656,
-          6457,
-          3465,
-          3624
+          389,
+          461,
+          780,
+          398,
+          22,
+          248,
+          6670,
+          3431,
+          3614
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SOUTH EUCLID CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

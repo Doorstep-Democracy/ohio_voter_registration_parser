@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 243",
+      "UNC – Lapsed R — 260",
       "Mixed – Active — 227",
-      "Mixed – Lapsed — 172",
-      "UNC – No Primary — 1,358",
-      "UNC – Lapsed D — 338"
+      "Mixed – Lapsed — 126",
+      "UNC – Non-partisan Ballot — 62",
+      "UNC – No Primary — 1,361",
+      "UNC – Lapsed D — 306"
     ],
     "datasets": [
       {
         "data": [
-          243,
+          260,
           227,
-          172,
-          1358,
-          338
+          126,
+          62,
+          1361,
+          306
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OXFORD TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

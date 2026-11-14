@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,548 (24%)",
-      "UNC – Lapsed R — 1,302 (12%)",
-      "Mixed – Active — 836 (8%)",
-      "Mixed – Lapsed — 493 (5%)",
-      "UNC – No Primary — 4,660 (43%)",
-      "UNC – Lapsed D — 678 (6%)",
-      "Pure D — 230 (2%)"
+      "Pure R — 2,468 (23%)",
+      "UNC – Lapsed R — 1,438 (13%)",
+      "Mixed – Active — 850 (8%)",
+      "Mixed – Lapsed — 360 (3%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 127 (1%)",
+      "UNC – No Primary — 4,651 (43%)",
+      "UNC – Lapsed D — 598 (6%)",
+      "Pure D — 322 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2548,
-          1302,
-          836,
-          493,
-          4660,
-          678,
-          230
+          2468,
+          1438,
+          850,
+          360,
+          13,
+          127,
+          4651,
+          598,
+          322
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "HILLSBORO CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

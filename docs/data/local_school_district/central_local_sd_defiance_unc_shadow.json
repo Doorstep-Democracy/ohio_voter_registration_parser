@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 821",
-      "Mixed – Active — 352",
-      "Mixed – Lapsed — 338",
-      "UNC – No Primary — 1,344",
-      "UNC – Lapsed D — 298"
+      "UNC – Lapsed R — 813",
+      "Mixed – Active — 344",
+      "Mixed – Lapsed — 241",
+      "UNC – Non-partisan Ballot — 94",
+      "UNC – No Primary — 1,364",
+      "UNC – Lapsed D — 297"
     ],
     "datasets": [
       {
         "data": [
-          821,
-          352,
-          338,
-          1344,
-          298
+          813,
+          344,
+          241,
+          94,
+          1364,
+          297
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Central Local Sd (Defiance Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

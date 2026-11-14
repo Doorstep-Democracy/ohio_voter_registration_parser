@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 455 (13%)",
-      "UNC – Lapsed R — 394 (12%)",
-      "Mixed – Active — 258 (8%)",
-      "Mixed – Lapsed — 377 (11%)",
-      "UNC – No Primary — 1,462 (43%)",
-      "UNC – Lapsed D — 327 (10%)",
-      "Pure D — 113 (3%)"
+      "Pure R — 409 (12%)",
+      "UNC – Lapsed R — 470 (14%)",
+      "Mixed – Active — 248 (7%)",
+      "Mixed – Lapsed — 167 (5%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 205 (6%)",
+      "UNC – No Primary — 1,501 (43%)",
+      "UNC – Lapsed D — 319 (9%)",
+      "Pure D — 149 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          455,
-          394,
-          258,
-          377,
-          1462,
-          327,
-          113
+          409,
+          470,
+          248,
+          167,
+          8,
+          205,
+          1501,
+          319,
+          149
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NEW CARLISLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

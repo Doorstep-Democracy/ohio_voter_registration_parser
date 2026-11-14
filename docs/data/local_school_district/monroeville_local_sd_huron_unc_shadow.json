@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 338",
-      "Mixed – Active — 207",
-      "Mixed – Lapsed — 357",
-      "UNC – No Primary — 872",
-      "UNC – Lapsed D — 226"
+      "UNC – Lapsed R — 335",
+      "Mixed – Active — 203",
+      "Mixed – Lapsed — 102",
+      "UNC – Non-partisan Ballot — 254",
+      "UNC – No Primary — 889",
+      "UNC – Lapsed D — 229"
     ],
     "datasets": [
       {
         "data": [
-          338,
-          207,
-          357,
-          872,
-          226
+          335,
+          203,
+          102,
+          254,
+          889,
+          229
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Monroeville Local Sd (Huron Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

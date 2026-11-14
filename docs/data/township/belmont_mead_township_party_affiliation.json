@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 360 (9%)",
-      "UNC – Lapsed R — 242 (6%)",
-      "Mixed – Active — 538 (14%)",
-      "Mixed – Lapsed — 332 (9%)",
-      "UNC – No Primary — 1,434 (38%)",
-      "UNC – Lapsed D — 584 (15%)",
-      "Pure D — 323 (8%)"
+      "Pure R — 399 (10%)",
+      "UNC – Lapsed R — 249 (6%)",
+      "Mixed – Active — 638 (17%)",
+      "Mixed – Lapsed — 162 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 125 (3%)",
+      "UNC – No Primary — 1,434 (37%)",
+      "UNC – Lapsed D — 501 (13%)",
+      "Pure D — 352 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          360,
-          242,
-          538,
-          332,
+          399,
+          249,
+          638,
+          162,
+          6,
+          125,
           1434,
-          584,
-          323
+          501,
+          352
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MEAD TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

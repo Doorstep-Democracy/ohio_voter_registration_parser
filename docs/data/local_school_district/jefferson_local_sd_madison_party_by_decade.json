@@ -19,10 +19,10 @@
         "data": [
           0,
           26,
-          131,
+          130,
+          219,
           220,
-          222,
-          113,
+          110,
           52,
           62,
           31
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          15,
-          55,
+          0,
+          14,
+          56,
           104,
-          180,
-          151,
-          116,
-          111,
-          14
+          181,
+          157,
+          115,
+          113,
+          12
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,10 +50,10 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          17,
-          78,
+          16,
+          77,
           104,
-          89,
+          83,
           49,
           18,
           6,
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          12,
-          30,
-          61,
-          113,
-          92,
-          58,
-          36,
-          10
+          7,
+          20,
+          45,
+          67,
+          29,
+          23,
+          8,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          4,
+          3,
+          1,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          9,
+          19,
+          48,
+          61,
+          34,
+          26,
+          10
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          7,
+          8,
           34,
-          122,
-          164,
-          287,
-          336,
-          529,
-          466
+          123,
+          166,
+          295,
+          333,
+          540,
+          491
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +131,13 @@
         "data": [
           4,
           8,
-          46,
-          68,
-          82,
-          63,
-          68,
-          48,
-          10
+          47,
+          69,
+          84,
+          67,
+          66,
+          54,
+          11
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -117,19 +149,19 @@
           1,
           28,
           55,
-          37,
-          22,
+          36,
+          21,
           19,
           17,
-          18
+          17
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Jefferson Local Sd (Madison Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

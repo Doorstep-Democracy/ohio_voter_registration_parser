@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          38,
-          219,
-          436,
-          365,
-          221,
+          31,
+          216,
+          435,
+          364,
+          220,
           110,
-          72,
-          53
+          71,
+          51
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          42,
-          172,
+          43,
+          168,
+          296,
+          375,
           298,
-          371,
-          295,
-          228,
-          132,
-          32
+          231,
+          134,
+          33
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,10 +51,10 @@
         "data": [
           0,
           24,
-          122,
-          235,
-          169,
-          80,
+          123,
+          231,
+          170,
+          79,
           27,
           5,
           1
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          29,
-          87,
-          168,
-          128,
-          98,
-          60,
-          20,
-          14
+          1,
+          23,
+          70,
+          126,
+          99,
+          65,
+          37,
+          4,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          2,
+          4,
+          1,
+          4,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          11,
+          36,
+          27,
+          38,
+          21,
+          15,
+          14
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          13,
-          85,
-          283,
-          466,
-          442,
-          520,
-          623,
-          577
+          12,
+          86,
+          280,
+          473,
+          449,
+          516,
+          627,
+          631
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          20,
-          76,
-          136,
-          134,
-          85,
-          58,
-          40,
-          6
+          19,
+          73,
+          139,
+          135,
+          89,
+          59,
+          42,
+          7
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,8 +147,8 @@
         "data": [
           0,
           10,
-          39,
-          79,
+          37,
+          77,
           45,
           9,
           8,
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Indian Lake Local Sd (Logan Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

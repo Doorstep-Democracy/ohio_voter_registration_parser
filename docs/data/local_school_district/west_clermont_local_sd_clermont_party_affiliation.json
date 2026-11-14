@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8,292 (16%)",
-      "UNC – Lapsed R — 6,298 (12%)",
-      "Mixed – Active — 2,885 (6%)",
-      "Mixed – Lapsed — 5,165 (10%)",
-      "UNC – No Primary — 21,444 (42%)",
-      "UNC – Lapsed D — 4,047 (8%)",
-      "Pure D — 2,676 (5%)"
+      "Pure R — 8,210 (16%)",
+      "UNC – Lapsed R — 6,283 (12%)",
+      "Mixed – Active — 2,855 (6%)",
+      "Mixed – Lapsed — 1,429 (3%)",
+      "Minor Party — 61 (0%)",
+      "UNC – Non-partisan Ballot — 3,700 (7%)",
+      "UNC – No Primary — 22,104 (43%)",
+      "UNC – Lapsed D — 4,077 (8%)",
+      "Pure D — 2,646 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          8292,
-          6298,
-          2885,
-          5165,
-          21444,
-          4047,
-          2676
+          8210,
+          6283,
+          2855,
+          1429,
+          61,
+          3700,
+          22104,
+          4077,
+          2646
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "West Clermont Local Sd (Clermont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

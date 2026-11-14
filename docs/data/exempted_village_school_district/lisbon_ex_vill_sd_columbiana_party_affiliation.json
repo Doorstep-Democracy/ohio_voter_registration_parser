@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 590 (17%)",
-      "UNC – Lapsed R — 338 (10%)",
-      "Mixed – Active — 417 (12%)",
-      "Mixed – Lapsed — 216 (6%)",
-      "UNC – No Primary — 1,476 (42%)",
-      "UNC – Lapsed D — 297 (9%)",
-      "Pure D — 149 (4%)"
+      "Pure R — 584 (17%)",
+      "UNC – Lapsed R — 340 (10%)",
+      "Mixed – Active — 416 (12%)",
+      "Mixed – Lapsed — 159 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 47 (1%)",
+      "UNC – No Primary — 1,513 (43%)",
+      "UNC – Lapsed D — 300 (9%)",
+      "Pure D — 148 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          590,
-          338,
-          417,
-          216,
-          1476,
-          297,
-          149
+          584,
+          340,
+          416,
+          159,
+          2,
+          47,
+          1513,
+          300,
+          148
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "LISBON EX VILL SD (COLUMBIANA)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Lisbon Ex Vill Sd (Columbiana Co.)",
+  "updated": "2026-11-12"
 }

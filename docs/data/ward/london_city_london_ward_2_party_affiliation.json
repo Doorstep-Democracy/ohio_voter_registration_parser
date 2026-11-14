@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 326 (21%)",
-      "UNC – Lapsed R — 226 (15%)",
-      "Mixed – Active — 161 (11%)",
-      "Mixed – Lapsed — 88 (6%)",
-      "UNC – Non-partisan Ballot — 52 (3%)",
-      "UNC – No Primary — 484 (32%)",
-      "UNC – Lapsed D — 111 (7%)",
-      "Pure D — 81 (5%)"
+      "Pure R — 317 (21%)",
+      "UNC – Lapsed R — 223 (15%)",
+      "Mixed – Active — 159 (10%)",
+      "Mixed – Lapsed — 84 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 47 (3%)",
+      "UNC – No Primary — 499 (33%)",
+      "UNC – Lapsed D — 117 (8%)",
+      "Pure D — 80 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          326,
-          226,
-          161,
-          88,
-          52,
-          484,
-          111,
-          81
+          317,
+          223,
+          159,
+          84,
+          4,
+          47,
+          499,
+          117,
+          80
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "LONDON WARD 2 (LONDON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

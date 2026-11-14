@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          42,
-          255,
-          500,
+          40,
+          250,
           495,
-          317,
-          182,
-          118,
-          79
+          494,
+          315,
+          184,
+          116,
+          75
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          39,
-          161,
-          267,
-          420,
+          0,
+          37,
+          158,
+          271,
+          424,
           400,
-          353,
-          214,
-          33
+          351,
+          222,
+          34
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,10 +50,10 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          15,
+          13,
+          155,
+          261,
           158,
-          263,
-          159,
           102,
           58,
           11,
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          22,
-          81,
-          151,
-          177,
-          163,
-          125,
-          28,
-          11
+          18,
+          72,
+          136,
+          150,
+          119,
+          82,
+          13,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          2,
+          5,
+          4,
+          4,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          9,
+          13,
+          23,
+          48,
+          42,
+          14,
+          10
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          10,
-          89,
-          270,
-          466,
-          699,
-          856,
-          1162,
-          989
+          9,
+          90,
+          264,
+          468,
+          700,
+          858,
+          1184,
+          1045
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          22,
-          93,
+          19,
+          89,
           155,
-          232,
-          214,
-          172,
-          75,
+          231,
+          219,
+          170,
+          80,
           10
         ],
         "backgroundColor": "#93c5fd",
@@ -115,21 +147,21 @@
         "data": [
           0,
           8,
-          70,
-          125,
-          68,
+          69,
+          122,
+          67,
           43,
-          25,
-          19,
-          30
+          27,
+          18,
+          29
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Tri-Valley Local Sd (Musk Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

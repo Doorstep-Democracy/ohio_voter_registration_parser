@@ -12,7 +12,10 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from typing import Optional
+
+from pipeline.cohort_lean import cohort_sides
 
 TEMPLATE_VERSION = 'v2'
 PER_LEVEL_CONFIG_VERSION = 'v1'
@@ -61,6 +64,15 @@ LEVEL_CONFIGS: dict[str, dict] = {
         'render_generation': False, 'render_decade_trend': False,
         'embed_parent': True, 'lead_with_geography': False,
         'officeholder_offices': ['mayor', 'village_council'],
+    },
+    'ward': {
+        # Municipality-scoped ward entities (jurisdictional_groupings.
+        # build_ward_entities). The parent city/village is named in the subject
+        # line (see _format_jurisdiction_subject); no ward officeholder source.
+        'noun': 'ward', 'small_n_threshold': 500,
+        'render_generation': False, 'render_decade_trend': False,
+        'embed_parent': False, 'lead_with_geography': False,
+        'officeholder_offices': [],
     },
     'township': {
         'noun': 'township', 'small_n_threshold': 500,
@@ -133,21 +145,25 @@ OFFICE_LABELS: dict[str, str] = {
 
 def build_metrics_for_level(level, party_json, decade_json=None,
                             generation_json=None, party_decade_json=None,
-                            parent_county=None, geography_counties=None):
+                            parent_county=None, geography_counties=None,
+                            source=None):
     if not party_json or 'chartConfig' not in party_json:
         return None
     cfg = LEVEL_CONFIGS.get(level)
     if cfg is None:
         raise ValueError(f'Unknown level: {level!r}')
 
-    data = party_json['chartConfig']['datasets'][0]['data']
-    total = sum(data)
+    # `source` names the file in errors; the chart title alone ("Party
+    # Affiliation") does not say which of ~13k files failed.
+    sides = cohort_sides(party_json['chartConfig'],
+                         source or party_json.get('title') or f'{level} party chart')
+    total = sides['total']
     if total == 0:
         return None
 
-    r_lean = data[0] + data[1]
-    d_lean = data[5] + data[6]
-    unc = data[2] + data[3] + data[4]
+    r_lean = sides['r']
+    d_lean = sides['d']
+    unc = sides['unc']
 
     name = (party_json.get('jurisdiction_name')
             or party_json.get('precinct')
@@ -162,8 +178,8 @@ def build_metrics_for_level(level, party_json, decade_json=None,
             'r_lean_pct': round(r_lean / total * 100, 1),
             'd_lean_pct': round(d_lean / total * 100, 1),
             'unc_pct':    round(unc    / total * 100, 1),
-            'pure_r_pct': round(data[0] / total * 100, 1),
-            'pure_d_pct': round(data[6] / total * 100, 1),
+            'pure_r_pct': round(sides['pure_r'] / total * 100, 1),
+            'pure_d_pct': round(sides['pure_d'] / total * 100, 1),
             'net_lean':   round((d_lean - r_lean) / total * 100, 1),
         },
         'small_n': total < cfg['small_n_threshold'],
@@ -213,6 +229,14 @@ def _lean_phrase(net):
     return party, magnitude
 
 
+_WARD_NAME_RE = re.compile(r'^(.+) \((.+) (City|Village)\)$')
+
+
+def _capwords(s):
+    # str.title() renders '1ST WARD' as '1St Ward'; capitalize per word instead.
+    return ' '.join(w.capitalize() for w in s.split())
+
+
 def _format_jurisdiction_subject(metrics, cfg):
     name  = metrics['name']
     noun  = cfg['noun']
@@ -227,6 +251,13 @@ def _format_jurisdiction_subject(metrics, cfg):
 
     if level == 'county':
         return f'{bare_title} County'
+    if level == 'ward':
+        # Ward display names are 'AKRON WARD 1 (AKRON City)' / 'FIRST WARD
+        # (ALLIANCE City)': render 'Akron Ward 1 (City of Akron)'.
+        m = _WARD_NAME_RE.match(name)
+        if m:
+            ward, place, kind = m.groups()
+            return f'{_capwords(ward)} ({kind.title()} of {_capwords(place)})'
     if cfg['embed_parent'] and parent:
         return f'{bare_title} ({noun} in {parent.title()} County)'
     if cfg['lead_with_geography']:

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 119 (24%)",
-      "UNC – Lapsed R — 89 (18%)",
-      "Mixed – Active — 43 (9%)",
-      "Mixed – Lapsed — 39 (8%)",
-      "UNC – No Primary — 165 (34%)",
-      "UNC – Lapsed D — 21 (4%)",
-      "Pure D — 13 (3%)"
+      "Pure R — 120 (25%)",
+      "UNC – Lapsed R — 87 (18%)",
+      "Mixed – Active — 37 (8%)",
+      "Mixed – Lapsed — 31 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 11 (2%)",
+      "UNC – No Primary — 164 (34%)",
+      "UNC – Lapsed D — 19 (4%)",
+      "Pure D — 19 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          119,
-          89,
-          43,
-          39,
-          165,
-          21,
-          13
+          120,
+          87,
+          37,
+          31,
+          0,
+          11,
+          164,
+          19,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MARION TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

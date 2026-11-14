@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 45 (20%)",
-      "UNC – Lapsed R — 41 (18%)",
-      "Mixed – Active — 14 (6%)",
-      "Mixed – Lapsed — 23 (10%)",
-      "UNC – No Primary — 67 (30%)",
-      "UNC – Lapsed D — 30 (13%)",
-      "Pure D — 6 (3%)"
+      "Pure R — 44 (19%)",
+      "UNC – Lapsed R — 43 (18%)",
+      "Mixed – Active — 16 (7%)",
+      "Mixed – Lapsed — 11 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 9 (4%)",
+      "UNC – No Primary — 75 (32%)",
+      "UNC – Lapsed D — 27 (12%)",
+      "Pure D — 8 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          45,
-          41,
-          14,
-          23,
-          67,
-          30,
-          6
+          44,
+          43,
+          16,
+          11,
+          0,
+          9,
+          75,
+          27,
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TEXAS TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

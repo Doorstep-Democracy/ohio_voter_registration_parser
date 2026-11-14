@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 96 (5%)",
-      "UNC – Lapsed R — 80 (4%)",
-      "Mixed – Active — 231 (11%)",
-      "Mixed – Lapsed — 158 (8%)",
-      "UNC – No Primary — 1,037 (51%)",
-      "UNC – Lapsed D — 290 (14%)",
-      "Pure D — 129 (6%)"
+      "Pure R — 99 (5%)",
+      "UNC – Lapsed R — 83 (4%)",
+      "Mixed – Active — 243 (12%)",
+      "Mixed – Lapsed — 66 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 91 (4%)",
+      "UNC – No Primary — 1,053 (51%)",
+      "UNC – Lapsed D — 269 (13%)",
+      "Pure D — 140 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          96,
-          80,
-          231,
-          158,
-          1037,
-          290,
-          129
+          99,
+          83,
+          243,
+          66,
+          1,
+          91,
+          1053,
+          269,
+          140
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BELLAIRE VILLAGE (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

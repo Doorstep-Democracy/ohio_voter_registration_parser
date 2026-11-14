@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 404 (30%)",
-      "UNC – Lapsed R — 164 (12%)",
-      "Mixed – Active — 95 (7%)",
-      "Mixed – Lapsed — 159 (12%)",
-      "UNC – No Primary — 390 (29%)",
-      "UNC – Lapsed D — 68 (5%)",
-      "Pure D — 50 (4%)"
+      "Pure R — 376 (28%)",
+      "UNC – Lapsed R — 202 (15%)",
+      "Mixed – Active — 92 (7%)",
+      "Mixed – Lapsed — 33 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 124 (9%)",
+      "UNC – No Primary — 387 (29%)",
+      "UNC – Lapsed D — 67 (5%)",
+      "Pure D — 57 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          404,
-          164,
-          95,
-          159,
-          390,
-          68,
-          50
+          376,
+          202,
+          92,
+          33,
+          0,
+          124,
+          387,
+          67,
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MOHICAN-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

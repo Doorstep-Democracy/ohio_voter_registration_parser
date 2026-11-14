@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 440 (6%)",
-      "UNC – Lapsed R — 320 (4%)",
-      "Mixed – Active — 626 (9%)",
-      "Mixed – Lapsed — 638 (9%)",
-      "UNC – No Primary — 3,170 (43%)",
-      "UNC – Lapsed D — 1,332 (18%)",
-      "Pure D — 802 (11%)"
+      "Pure R — 424 (6%)",
+      "UNC – Lapsed R — 349 (5%)",
+      "Mixed – Active — 648 (9%)",
+      "Mixed – Lapsed — 263 (4%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 323 (4%)",
+      "UNC – No Primary — 3,206 (43%)",
+      "UNC – Lapsed D — 1,198 (16%)",
+      "Pure D — 943 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          440,
-          320,
-          626,
-          638,
-          3170,
-          1332,
-          802
+          424,
+          349,
+          648,
+          263,
+          19,
+          323,
+          3206,
+          1198,
+          943
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "BROOKLYN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,798 (7%)",
-      "UNC – Lapsed R — 1,755 (7%)",
-      "Mixed – Active — 2,105 (8%)",
-      "Mixed – Lapsed — 2,173 (9%)",
-      "UNC – No Primary — 11,037 (44%)",
-      "UNC – Lapsed D — 4,379 (17%)",
-      "Pure D — 1,828 (7%)"
+      "Pure R — 1,768 (7%)",
+      "UNC – Lapsed R — 1,857 (7%)",
+      "Mixed – Active — 2,106 (8%)",
+      "Mixed – Lapsed — 1,330 (5%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 854 (3%)",
+      "UNC – No Primary — 11,063 (44%)",
+      "UNC – Lapsed D — 4,097 (16%)",
+      "Pure D — 2,241 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1798,
-          1755,
-          2105,
-          2173,
-          11037,
-          4379,
-          1828
+          1768,
+          1857,
+          2106,
+          1330,
+          41,
+          854,
+          11063,
+          4097,
+          2241
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "SANDUSKY (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

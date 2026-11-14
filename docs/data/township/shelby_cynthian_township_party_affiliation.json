@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 359 (26%)",
-      "UNC – Lapsed R — 170 (12%)",
-      "Mixed – Active — 197 (14%)",
-      "Mixed – Lapsed — 97 (7%)",
-      "UNC – No Primary — 444 (32%)",
-      "UNC – Lapsed D — 79 (6%)",
-      "Pure D — 27 (2%)"
+      "Pure R — 334 (24%)",
+      "UNC – Lapsed R — 210 (15%)",
+      "Mixed – Active — 188 (14%)",
+      "Mixed – Lapsed — 65 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 33 (2%)",
+      "UNC – No Primary — 446 (32%)",
+      "UNC – Lapsed D — 80 (6%)",
+      "Pure D — 26 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          359,
-          170,
-          197,
-          97,
-          444,
-          79,
-          27
+          334,
+          210,
+          188,
+          65,
+          1,
+          33,
+          446,
+          80,
+          26
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CYNTHIAN TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

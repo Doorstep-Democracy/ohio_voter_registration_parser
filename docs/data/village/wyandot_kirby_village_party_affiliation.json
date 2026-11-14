@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 10 (13%)",
-      "UNC – Lapsed R — 11 (15%)",
-      "Mixed – Active — 6 (8%)",
-      "Mixed – Lapsed — 3 (4%)",
+      "Pure R — 13 (17%)",
+      "UNC – Lapsed R — 10 (13%)",
+      "Mixed – Active — 4 (5%)",
+      "Mixed – Lapsed — 0 (0%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 3 (4%)",
       "UNC – No Primary — 34 (45%)",
-      "UNC – Lapsed D — 8 (11%)",
+      "UNC – Lapsed D — 7 (9%)",
       "Pure D — 3 (4%)"
     ],
     "datasets": [
       {
         "data": [
+          13,
           10,
-          11,
-          6,
+          4,
+          0,
+          1,
           3,
           34,
-          8,
+          7,
           3
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "KIRBY VILLAGE (Wyandot Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

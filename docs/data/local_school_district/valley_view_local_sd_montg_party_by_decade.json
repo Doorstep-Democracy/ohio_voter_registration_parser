@@ -17,13 +17,13 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          34,
-          169,
-          367,
-          312,
-          186,
-          112,
+          0,
+          30,
+          168,
+          369,
+          311,
+          185,
+          114,
           75,
           44
         ],
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          36,
-          110,
-          205,
-          329,
+          34,
+          108,
+          204,
+          330,
           331,
-          378,
-          234,
-          61
+          381,
+          240,
+          59
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,9 +51,9 @@
         "data": [
           0,
           28,
-          135,
+          134,
           210,
-          172,
+          173,
           102,
           51,
           8,
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          21,
-          76,
-          142,
-          189,
-          203,
-          203,
-          120,
-          36
+          17,
+          66,
+          108,
+          125,
+          112,
+          90,
+          20,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          3,
+          1,
+          2,
+          5,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          9,
+          33,
+          62,
+          88,
+          112,
+          102,
+          36
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           1,
           6,
-          43,
-          102,
-          172,
-          240,
-          425,
-          632,
-          727
+          41,
+          103,
+          175,
+          243,
+          432,
+          639,
+          773
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          18,
-          67,
+          17,
+          65,
           68,
-          109,
-          141,
+          107,
+          144,
           126,
-          74,
-          23
+          77,
+          22
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          9,
-          37,
+          8,
+          36,
           65,
-          49,
+          48,
           35,
-          40,
-          18,
-          31
+          37,
+          19,
+          29
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Valley View Local Sd (Montg Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

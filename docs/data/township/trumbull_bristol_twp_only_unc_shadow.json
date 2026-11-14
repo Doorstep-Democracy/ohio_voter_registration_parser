@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 131",
-      "Mixed – Active — 270",
-      "Mixed – Lapsed — 126",
-      "UNC – No Primary — 654",
-      "UNC – Lapsed D — 199"
+      "UNC – Lapsed R — 166",
+      "Mixed – Active — 264",
+      "Mixed – Lapsed — 86",
+      "UNC – Non-partisan Ballot — 53",
+      "UNC – No Primary — 640",
+      "UNC – Lapsed D — 205"
     ],
     "datasets": [
       {
         "data": [
-          131,
-          270,
-          126,
-          654,
-          199
+          166,
+          264,
+          86,
+          53,
+          640,
+          205
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BRISTOL TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

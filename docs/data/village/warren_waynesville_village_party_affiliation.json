@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 464 (23%)",
+      "Pure R — 458 (23%)",
       "UNC – Lapsed R — 302 (15%)",
-      "Mixed – Active — 169 (8%)",
-      "Mixed – Lapsed — 112 (6%)",
-      "UNC – No Primary — 729 (37%)",
-      "UNC – Lapsed D — 131 (7%)",
-      "Pure D — 89 (4%)"
+      "Mixed – Active — 175 (9%)",
+      "Mixed – Lapsed — 69 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 40 (2%)",
+      "UNC – No Primary — 705 (36%)",
+      "UNC – Lapsed D — 125 (6%)",
+      "Pure D — 105 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          464,
+          458,
           302,
-          169,
-          112,
-          729,
-          131,
-          89
+          175,
+          69,
+          2,
+          40,
+          705,
+          125,
+          105
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WAYNESVILLE VILLAGE (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

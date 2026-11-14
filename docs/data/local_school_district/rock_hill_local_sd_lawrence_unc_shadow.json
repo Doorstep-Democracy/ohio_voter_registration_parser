@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,074",
-      "Mixed – Active — 460",
-      "Mixed – Lapsed — 383",
-      "UNC – No Primary — 2,057",
-      "UNC – Lapsed D — 544"
+      "UNC – Lapsed R — 1,066",
+      "Mixed – Active — 459",
+      "Mixed – Lapsed — 359",
+      "UNC – Non-partisan Ballot — 22",
+      "UNC – No Primary — 2,093",
+      "UNC – Lapsed D — 536"
     ],
     "datasets": [
       {
         "data": [
-          1074,
-          460,
-          383,
-          2057,
-          544
+          1066,
+          459,
+          359,
+          22,
+          2093,
+          536
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Rock Hill Local Sd (Lawrence Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 327 (27%)",
-      "UNC – Lapsed R — 180 (15%)",
-      "Mixed – Active — 87 (7%)",
-      "Mixed – Lapsed — 156 (13%)",
-      "UNC – No Primary — 328 (28%)",
-      "UNC – Lapsed D — 71 (6%)",
-      "Pure D — 43 (4%)"
+      "Pure R — 341 (29%)",
+      "UNC – Lapsed R — 168 (14%)",
+      "Mixed – Active — 94 (8%)",
+      "Mixed – Lapsed — 36 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 98 (8%)",
+      "UNC – No Primary — 338 (28%)",
+      "UNC – Lapsed D — 73 (6%)",
+      "Pure D — 42 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          327,
-          180,
-          87,
-          156,
-          328,
-          71,
-          43
+          341,
+          168,
+          94,
+          36,
+          5,
+          98,
+          338,
+          73,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TAYLOR TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

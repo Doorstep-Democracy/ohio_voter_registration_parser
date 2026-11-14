@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 375 (25%)",
-      "UNC – Lapsed R — 220 (14%)",
+      "Pure R — 359 (24%)",
+      "UNC – Lapsed R — 240 (16%)",
       "Mixed – Active — 172 (11%)",
-      "Mixed – Lapsed — 104 (7%)",
-      "UNC – No Primary — 519 (34%)",
-      "UNC – Lapsed D — 99 (6%)",
-      "Pure D — 35 (2%)"
+      "Mixed – Lapsed — 68 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 40 (3%)",
+      "UNC – No Primary — 499 (33%)",
+      "UNC – Lapsed D — 86 (6%)",
+      "Pure D — 42 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          375,
-          220,
+          359,
+          240,
           172,
-          104,
-          519,
-          99,
-          35
+          68,
+          1,
+          40,
+          499,
+          86,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SALEM TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

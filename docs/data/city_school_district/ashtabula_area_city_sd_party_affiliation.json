@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,463 (9%)",
-      "UNC – Lapsed R — 1,009 (6%)",
-      "Mixed – Active — 1,388 (9%)",
-      "Mixed – Lapsed — 1,127 (7%)",
-      "UNC – No Primary — 6,960 (44%)",
-      "UNC – Lapsed D — 2,326 (15%)",
-      "Pure D — 1,493 (9%)"
+      "Pure R — 1,500 (9%)",
+      "UNC – Lapsed R — 1,058 (7%)",
+      "Mixed – Active — 1,416 (9%)",
+      "Mixed – Lapsed — 600 (4%)",
+      "Minor Party — 49 (0%)",
+      "UNC – Non-partisan Ballot — 461 (3%)",
+      "UNC – No Primary — 6,886 (43%)",
+      "UNC – Lapsed D — 2,098 (13%)",
+      "Pure D — 1,796 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1463,
-          1009,
-          1388,
-          1127,
-          6960,
-          2326,
-          1493
+          1500,
+          1058,
+          1416,
+          600,
+          49,
+          461,
+          6886,
+          2098,
+          1796
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ASHTABULA AREA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

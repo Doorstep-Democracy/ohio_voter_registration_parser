@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,143 (13%)",
-      "UNC – Lapsed R — 2,175 (9%)",
-      "Mixed – Active — 2,049 (9%)",
-      "Mixed – Lapsed — 4,430 (19%)",
-      "UNC – No Primary — 7,317 (31%)",
-      "UNC – Lapsed D — 2,850 (12%)",
-      "Pure D — 1,766 (7%)"
+      "Pure R — 2,682 (11%)",
+      "UNC – Lapsed R — 2,644 (11%)",
+      "Mixed – Active — 2,014 (8%)",
+      "Mixed – Lapsed — 1,036 (4%)",
+      "Minor Party — 58 (0%)",
+      "UNC – Non-partisan Ballot — 3,308 (14%)",
+      "UNC – No Primary — 7,405 (31%)",
+      "UNC – Lapsed D — 2,688 (11%)",
+      "Pure D — 2,052 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          3143,
-          2175,
-          2049,
-          4430,
-          7317,
-          2850,
-          1766
+          2682,
+          2644,
+          2014,
+          1036,
+          58,
+          3308,
+          7405,
+          2688,
+          2052
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BRUNSWICK CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

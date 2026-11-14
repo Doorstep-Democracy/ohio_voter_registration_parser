@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,402 (4%)",
-      "UNC – Lapsed R — 1,355 (4%)",
-      "Mixed – Active — 2,553 (7%)",
-      "Mixed – Lapsed — 1,372 (4%)",
-      "UNC – No Primary — 19,072 (51%)",
-      "UNC – Lapsed D — 6,347 (17%)",
-      "Pure D — 5,412 (14%)"
+      "Pure R — 1,477 (4%)",
+      "UNC – Lapsed R — 1,434 (4%)",
+      "Mixed – Active — 2,577 (7%)",
+      "Mixed – Lapsed — 1,030 (3%)",
+      "Minor Party — 68 (0%)",
+      "UNC – Non-partisan Ballot — 495 (1%)",
+      "UNC – No Primary — 19,027 (50%)",
+      "UNC – Lapsed D — 6,175 (16%)",
+      "Pure D — 5,814 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          1402,
-          1355,
-          2553,
-          1372,
-          19072,
-          6347,
-          5412
+          1477,
+          1434,
+          2577,
+          1030,
+          68,
+          495,
+          19027,
+          6175,
+          5814
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "LORAIN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

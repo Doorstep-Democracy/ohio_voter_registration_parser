@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 132",
-      "Mixed – Active — 65",
-      "Mixed – Lapsed — 58",
-      "UNC – No Primary — 312",
-      "UNC – Lapsed D — 43"
+      "UNC – Lapsed R — 153",
+      "Mixed – Active — 66",
+      "Mixed – Lapsed — 39",
+      "UNC – Non-partisan Ballot — 21",
+      "UNC – No Primary — 310",
+      "UNC – Lapsed D — 44"
     ],
     "datasets": [
       {
         "data": [
-          132,
-          65,
-          58,
-          312,
-          43
+          153,
+          66,
+          39,
+          21,
+          310,
+          44
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

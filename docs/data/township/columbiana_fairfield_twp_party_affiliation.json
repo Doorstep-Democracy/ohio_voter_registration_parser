@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,508 (22%)",
-      "UNC – Lapsed R — 672 (10%)",
-      "Mixed – Active — 894 (13%)",
-      "Mixed – Lapsed — 552 (8%)",
-      "UNC – No Primary — 2,204 (32%)",
-      "UNC – Lapsed D — 674 (10%)",
-      "Pure D — 278 (4%)"
+      "Pure R — 1,396 (20%)",
+      "UNC – Lapsed R — 780 (11%)",
+      "Mixed – Active — 859 (13%)",
+      "Mixed – Lapsed — 423 (6%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 158 (2%)",
+      "UNC – No Primary — 2,216 (32%)",
+      "UNC – Lapsed D — 646 (9%)",
+      "Pure D — 344 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1508,
-          672,
-          894,
-          552,
-          2204,
-          674,
-          278
+          1396,
+          780,
+          859,
+          423,
+          6,
+          158,
+          2216,
+          646,
+          344
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

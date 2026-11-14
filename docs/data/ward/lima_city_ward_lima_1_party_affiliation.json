@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 173 (7%)",
-      "UNC – Lapsed R — 225 (10%)",
-      "Mixed – Active — 63 (3%)",
-      "Mixed – Lapsed — 59 (3%)",
+      "Pure R — 166 (7%)",
+      "UNC – Lapsed R — 225 (9%)",
+      "Mixed – Active — 64 (3%)",
+      "Mixed – Lapsed — 60 (2%)",
+      "Minor Party — 5 (0%)",
       "UNC – Non-partisan Ballot — 101 (4%)",
-      "UNC – No Primary — 1,319 (57%)",
+      "UNC – No Primary — 1,431 (59%)",
       "UNC – Lapsed D — 265 (11%)",
-      "Pure D — 108 (5%)"
+      "Pure D — 110 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          173,
+          166,
           225,
-          63,
-          59,
+          64,
+          60,
+          5,
           101,
-          1319,
+          1431,
           265,
-          108
+          110
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "Ward Lima 1 (LIMA City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

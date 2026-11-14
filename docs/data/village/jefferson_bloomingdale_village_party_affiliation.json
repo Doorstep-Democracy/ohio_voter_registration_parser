@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 11 (10%)",
-      "UNC – Lapsed R — 15 (14%)",
+      "Pure R — 12 (11%)",
+      "UNC – Lapsed R — 18 (16%)",
       "Mixed – Active — 12 (11%)",
-      "Mixed – Lapsed — 10 (9%)",
-      "UNC – No Primary — 40 (37%)",
-      "UNC – Lapsed D — 15 (14%)",
-      "Pure D — 6 (6%)"
+      "Mixed – Lapsed — 6 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (4%)",
+      "UNC – No Primary — 41 (36%)",
+      "UNC – Lapsed D — 13 (12%)",
+      "Pure D — 6 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          11,
-          15,
           12,
-          10,
-          40,
-          15,
+          18,
+          12,
+          6,
+          0,
+          5,
+          41,
+          13,
           6
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BLOOMINGDALE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

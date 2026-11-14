@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 53",
-      "Mixed – Active — 35",
-      "Mixed – Lapsed — 41",
-      "UNC – No Primary — 85",
-      "UNC – Lapsed D — 35"
+      "UNC – Lapsed R — 50",
+      "Mixed – Active — 43",
+      "Mixed – Lapsed — 19",
+      "UNC – Non-partisan Ballot — 20",
+      "UNC – No Primary — 74",
+      "UNC – Lapsed D — 21"
     ],
     "datasets": [
       {
         "data": [
-          53,
-          35,
-          41,
-          85,
-          35
+          50,
+          43,
+          19,
+          20,
+          74,
+          21
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ALEXANDRIA VILLAGE (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

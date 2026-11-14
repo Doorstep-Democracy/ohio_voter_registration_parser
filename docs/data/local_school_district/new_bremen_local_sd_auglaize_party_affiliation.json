@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 709 (24%)",
-      "UNC – Lapsed R — 705 (24%)",
-      "Mixed – Active — 219 (7%)",
-      "Mixed – Lapsed — 265 (9%)",
-      "UNC – No Primary — 865 (29%)",
-      "UNC – Lapsed D — 132 (4%)",
-      "Pure D — 54 (2%)"
+      "Pure R — 702 (24%)",
+      "UNC – Lapsed R — 703 (24%)",
+      "Mixed – Active — 218 (7%)",
+      "Mixed – Lapsed — 109 (4%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 160 (5%)",
+      "UNC – No Primary — 890 (30%)",
+      "UNC – Lapsed D — 133 (4%)",
+      "Pure D — 52 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          709,
-          705,
-          219,
-          265,
-          865,
-          132,
-          54
+          702,
+          703,
+          218,
+          109,
+          10,
+          160,
+          890,
+          133,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "New Bremen Local Sd (Auglaize Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

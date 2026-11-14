@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          54,
-          124,
-          166,
-          109,
-          87,
-          68,
-          44,
-          23
+          1,
+          50,
+          113,
+          158,
+          106,
+          92,
+          73,
+          47,
+          22
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
+          1,
           14,
-          39,
-          53,
           43,
-          57,
-          57,
-          42,
-          4
+          66,
+          45,
+          56,
+          59,
+          45,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,13 +51,13 @@
         "data": [
           0,
           9,
-          57,
-          74,
-          63,
-          31,
-          17,
-          7,
-          0
+          59,
+          75,
+          64,
+          35,
+          25,
+          9,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          5,
+          4,
+          17,
           17,
           19,
-          15,
-          21,
-          20,
-          6,
+          13,
+          13,
+          4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          3,
+          3,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +116,12 @@
           0,
           5,
           37,
-          85,
-          133,
-          193,
-          245,
-          330,
-          238
+          79,
+          131,
+          189,
+          239,
+          314,
+          250
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          8,
+          7,
+          27,
+          40,
+          42,
           29,
-          41,
-          44,
-          31,
-          34,
-          22,
+          30,
+          21,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          7,
-          21,
-          35,
+          4,
+          19,
+          37,
+          16,
           15,
-          15,
-          11,
+          10,
           7,
-          3
+          4
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GALLIPOLIS TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

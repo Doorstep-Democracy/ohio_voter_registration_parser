@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 406 (11%)",
-      "UNC – Lapsed R — 367 (10%)",
-      "Mixed – Active — 230 (6%)",
-      "Mixed – Lapsed — 190 (5%)",
-      "UNC – No Primary — 1,837 (52%)",
-      "UNC – Lapsed D — 404 (11%)",
-      "Pure D — 115 (3%)"
+      "Pure R — 390 (11%)",
+      "UNC – Lapsed R — 412 (12%)",
+      "Mixed – Active — 219 (6%)",
+      "Mixed – Lapsed — 151 (4%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 48 (1%)",
+      "UNC – No Primary — 1,834 (51%)",
+      "UNC – Lapsed D — 372 (10%)",
+      "Pure D — 140 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          406,
-          367,
-          230,
-          190,
-          1837,
-          404,
-          115
+          390,
+          412,
+          219,
+          151,
+          14,
+          48,
+          1834,
+          372,
+          140
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HUNTINGTON TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

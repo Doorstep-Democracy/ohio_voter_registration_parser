@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 865 (20%)",
-      "UNC – Lapsed R — 528 (12%)",
-      "Mixed – Active — 415 (10%)",
-      "Mixed – Lapsed — 418 (10%)",
-      "UNC – No Primary — 1,441 (33%)",
-      "UNC – Lapsed D — 416 (10%)",
-      "Pure D — 223 (5%)"
+      "Pure R — 904 (21%)",
+      "UNC – Lapsed R — 554 (13%)",
+      "Mixed – Active — 450 (10%)",
+      "Mixed – Lapsed — 182 (4%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 222 (5%)",
+      "UNC – No Primary — 1,343 (31%)",
+      "UNC – Lapsed D — 375 (9%)",
+      "Pure D — 298 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          865,
-          528,
-          415,
-          418,
-          1441,
-          416,
-          223
+          904,
+          554,
+          450,
+          182,
+          17,
+          222,
+          1343,
+          375,
+          298
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Guilford TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

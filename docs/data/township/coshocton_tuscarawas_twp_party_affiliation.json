@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 151 (16%)",
-      "UNC – Lapsed R — 64 (7%)",
-      "Mixed – Active — 111 (12%)",
-      "Mixed – Lapsed — 42 (5%)",
-      "UNC – No Primary — 433 (47%)",
-      "UNC – Lapsed D — 96 (10%)",
-      "Pure D — 29 (3%)"
+      "Pure R — 142 (15%)",
+      "UNC – Lapsed R — 84 (9%)",
+      "Mixed – Active — 112 (12%)",
+      "Mixed – Lapsed — 36 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 12 (1%)",
+      "UNC – No Primary — 425 (46%)",
+      "UNC – Lapsed D — 85 (9%)",
+      "Pure D — 33 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          151,
-          64,
-          111,
-          42,
-          433,
-          96,
-          29
+          142,
+          84,
+          112,
+          36,
+          1,
+          12,
+          425,
+          85,
+          33
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TUSCARAWAS TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

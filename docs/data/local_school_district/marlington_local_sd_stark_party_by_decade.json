@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          73,
-          260,
-          563,
-          590,
+          1,
+          72,
+          256,
+          559,
+          589,
           349,
-          245,
-          164,
-          120
+          244,
+          163,
+          118
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          52,
-          93,
+          45,
+          91,
           192,
-          259,
-          212,
-          198,
-          187,
+          269,
+          213,
+          195,
+          183,
           48
         ],
         "backgroundColor": "#fca5a5",
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          43,
-          182,
+          42,
+          177,
           332,
-          263,
-          146,
+          262,
+          145,
           69,
-          18,
+          17,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          31,
-          86,
-          115,
-          195,
-          132,
-          135,
-          87,
-          19
+          25,
+          64,
+          77,
+          106,
+          72,
+          43,
+          13,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          4,
+          4,
+          3,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          20,
+          36,
+          91,
+          60,
+          91,
+          73,
+          20
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          20,
+          22,
           82,
-          204,
-          321,
-          451,
-          552,
+          209,
+          329,
+          453,
+          555,
           777,
-          744
+          797
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          24,
-          92,
-          158,
-          175,
-          130,
+          23,
+          93,
+          159,
+          177,
           132,
-          97,
-          13
+          130,
+          101,
+          12
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -116,11 +148,11 @@
           1,
           22,
           111,
-          208,
-          119,
-          78,
+          202,
+          117,
+          77,
           50,
-          30,
+          27,
           30
         ],
         "backgroundColor": "#3b82f6",
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Marlington Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

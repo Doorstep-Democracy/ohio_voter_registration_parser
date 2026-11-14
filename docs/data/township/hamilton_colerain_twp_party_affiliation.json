@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,021 (12%)",
-      "UNC – Lapsed R — 4,586 (11%)",
-      "Mixed – Active — 2,122 (5%)",
-      "Mixed – Lapsed — 3,069 (7%)",
-      "UNC – No Primary — 18,763 (45%)",
-      "UNC – Lapsed D — 4,992 (12%)",
-      "Pure D — 3,338 (8%)"
+      "Pure R — 4,979 (12%)",
+      "UNC – Lapsed R — 4,543 (11%)",
+      "Mixed – Active — 2,114 (5%)",
+      "Mixed – Lapsed — 1,344 (3%)",
+      "Minor Party — 69 (0%)",
+      "UNC – Non-partisan Ballot — 1,697 (4%)",
+      "UNC – No Primary — 19,297 (46%)",
+      "UNC – Lapsed D — 5,010 (12%)",
+      "Pure D — 3,315 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          5021,
-          4586,
-          2122,
-          3069,
-          18763,
-          4992,
-          3338
+          4979,
+          4543,
+          2114,
+          1344,
+          69,
+          1697,
+          19297,
+          5010,
+          3315
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "COLERAIN TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

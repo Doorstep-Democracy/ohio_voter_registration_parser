@@ -17,18 +17,18 @@ Functions:
    Sub-field rule: last token is a sub iff it matches ^[A-Z]$ or ^\\d+-[A-Z]$
    Everything else after the leading code is treated as part of the name.
 
-2. AGGREGATE: Compiles all individual {county}_precincts.csv files into a 
+2. AGGREGATE: Compiles all individual {NN}_{County}_precinct_key.csv files into a 
    single multi-tab Excel workbook with formatted headers, auto-filters, 
    and frozen panes.
 
 Output:
 ───────
-- CSVs: ./source/precinct_keys/{county}_precincts.csv
-- XLSX: ./precinct_keys_master.xlsx
+- CSVs: local/source/County Data Files/{NN}_{County}/{NN}_{County}_precinct_key.csv
+- XLSX: local/source/County Data Files/precinct_keys_master.xlsx
 
 Usage:
 ──────
-    python tools/precinct_key_manager.py
+    python tools/admin/precinct_key_manager.py
 
 Requires: curl_cffi, beautifulsoup4, xlsxwriter
 """
@@ -55,6 +55,9 @@ except ImportError as e:
 # ── Paths ─────────────────────────────────────────────────────────────────────
 # BASE_DIR is the project root — script lives two levels deep in tools/admin/.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+from pipeline.paths import county_partition_file  # noqa: E402
 COUNTY_DATA_DIR = BASE_DIR / "local" / "source" / "County Data Files"
 LOG_DIR  = BASE_DIR / "local" / "working"
 MASTER_XLSX = COUNTY_DATA_DIR / "precinct_keys_master.xlsx"
@@ -188,7 +191,7 @@ def generate_from_parquet(county: str):
     county_num = county_map.get(county)
     if not county_num: return None
     
-    parquet_path = BASE_DIR / "local" / "source" / "parquet" / f"COUNTY_NUMBER={county_num}" / "part-0.parquet"
+    parquet_path = county_partition_file(county_num)
     if not parquet_path.exists(): return None
     
     try:
@@ -241,9 +244,10 @@ def combine_web_and_parquet(county_str: str, web_rows: list):
         "Van Wert", "Vinton", "Warren", "Washington", "Wayne", "Williams", "Wood", "Wyandot"
     ]
     county_num = {c.lower().replace(" ", ""): f"{i+1:02d}" for i, c in enumerate(OHIO_COUNTIES)}.get(county_str)
-    parquet_path = BASE_DIR / "local" / "source" / "parquet" / f"COUNTY_NUMBER={county_num}" / "part-0.parquet"
+    # An unknown county leaves county_num None; keep that on the not-found branch.
+    parquet_path = county_partition_file(county_num) if county_num else None
     
-    if not parquet_path.exists():
+    if parquet_path is None or not parquet_path.exists():
         web_df['PRECINCT_CODE'] = ""
         web_df['PRECINCT_NAME'] = ""
         out_cols = ['county', 'vtrapp_web_code', 'vtrapp_web_label', 'PRECINCT_CODE', 'PRECINCT_NAME']

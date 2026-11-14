@@ -3,14 +3,15 @@
   "county": "Ashland",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          8125,
-          4769,
-          2335,
-          997,
-          2113,
-          11405,
-          2206,
-          1486
+          8053,
+          4770,
+          2318,
+          1002,
+          64,
+          2084,
+          11597,
+          2210,
+          1460
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 269,
-    "new_registrants_d": 102,
-    "new_registrants_unc": 3661
+    "new_registrants_r": 261,
+    "new_registrants_d": 99,
+    "new_registrants_unc": 3909
   }
 }

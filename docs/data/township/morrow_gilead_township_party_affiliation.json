@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,035 (26%)",
-      "UNC – Lapsed R — 433 (11%)",
-      "Mixed – Active — 381 (10%)",
-      "Mixed – Lapsed — 256 (6%)",
-      "UNC – No Primary — 1,433 (36%)",
-      "UNC – Lapsed D — 260 (7%)",
-      "Pure D — 162 (4%)"
+      "Pure R — 929 (23%)",
+      "UNC – Lapsed R — 534 (13%)",
+      "Mixed – Active — 366 (9%)",
+      "Mixed – Lapsed — 133 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 138 (3%)",
+      "UNC – No Primary — 1,453 (37%)",
+      "UNC – Lapsed D — 255 (6%)",
+      "Pure D — 169 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1035,
-          433,
-          381,
-          256,
-          1433,
-          260,
-          162
+          929,
+          534,
+          366,
+          133,
+          1,
+          138,
+          1453,
+          255,
+          169
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GILEAD TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

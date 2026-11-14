@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,15 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          0,
           4,
-          13,
-          22,
+          10,
+          20,
+          15,
+          12,
           17,
-          18,
-          19,
-          18,
-          5
+          22,
+          6
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          0,
-          3,
           6,
+          8,
           11,
-          20,
-          18,
+          26,
+          23,
           19,
-          7
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          6,
+          3,
           13,
-          26,
+          21,
           14,
           7,
-          3,
+          2,
           1,
           0
         ],
@@ -65,31 +61,59 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          2,
+          3,
+          10,
+          9,
+          1,
           1,
           0,
-          3,
-          5,
-          9,
-          6,
-          7,
-          5,
-          2
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          5,
+          6,
+          5,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
           1,
           0,
           4,
           7,
           14,
-          11,
-          57,
-          44
+          12,
+          61,
+          45
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +122,12 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          0,
-          3,
+          2,
           3,
           7,
           0,
           1,
-          2,
+          1,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -113,10 +136,9 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           1,
           1,
-          3,
+          2,
           0,
           0,
           0,
@@ -128,8 +150,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "RUSSIA VILLAGE (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

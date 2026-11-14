@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 28 (7%)",
+      "Pure R — 27 (7%)",
       "UNC – Lapsed R — 15 (4%)",
-      "Mixed – Active — 35 (9%)",
-      "Mixed – Lapsed — 14 (3%)",
-      "UNC – Non-partisan Ballot — 21 (5%)",
-      "UNC – No Primary — 193 (48%)",
+      "Mixed – Active — 34 (8%)",
+      "Mixed – Lapsed — 15 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 22 (5%)",
+      "UNC – No Primary — 197 (49%)",
       "UNC – Lapsed D — 49 (12%)",
-      "Pure D — 48 (12%)"
+      "Pure D — 46 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          28,
+          27,
           15,
-          35,
-          14,
-          21,
-          193,
+          34,
+          15,
+          0,
+          22,
+          197,
           49,
-          48
+          46
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "NELSONVILLE WARD 2 (NELSONVILLE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

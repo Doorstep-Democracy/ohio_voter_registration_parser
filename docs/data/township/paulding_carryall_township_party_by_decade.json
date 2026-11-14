@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          10,
-          45,
-          74,
-          76,
-          54,
-          33,
-          15,
-          15
+          8,
+          43,
+          70,
+          65,
+          35,
+          26,
+          9,
+          7
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          7,
-          20,
-          36,
-          59,
-          55,
-          62,
+          9,
+          21,
           39,
-          0
+          72,
+          76,
+          71,
+          45,
+          13
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          5,
-          26,
-          36,
-          33,
-          21,
-          4,
+          2,
+          22,
+          42,
+          32,
+          18,
+          7,
           1,
           0
         ],
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          6,
+          7,
+          8,
           10,
-          22,
-          50,
-          30,
-          30,
-          3,
-          1
+          32,
+          19,
+          14,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          3,
+          8,
+          19,
+          16,
+          14,
+          2,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +116,12 @@
           0,
           8,
           13,
-          77,
+          81,
           84,
-          104,
-          132,
-          192,
-          183
+          105,
+          134,
+          193,
+          205
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          5,
-          20,
-          54,
-          36,
-          35,
+          7,
+          22,
+          53,
           29,
-          19,
+          36,
+          29,
+          20,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          4,
-          11,
-          27,
-          16,
-          5,
-          5,
           2,
-          1
+          9,
+          23,
+          19,
+          4,
+          6,
+          3,
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CARRYALL TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

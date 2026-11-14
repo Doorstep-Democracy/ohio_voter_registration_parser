@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 94 (22%)",
-      "UNC – Lapsed R — 41 (10%)",
-      "Mixed – Active — 26 (6%)",
-      "Mixed – Lapsed — 49 (12%)",
-      "UNC – No Primary — 179 (42%)",
-      "UNC – Lapsed D — 27 (6%)",
-      "Pure D — 9 (2%)"
+      "Pure R — 81 (19%)",
+      "UNC – Lapsed R — 54 (13%)",
+      "Mixed – Active — 23 (5%)",
+      "Mixed – Lapsed — 7 (2%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 41 (10%)",
+      "UNC – No Primary — 174 (41%)",
+      "UNC – Lapsed D — 29 (7%)",
+      "Pure D — 12 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          94,
+          81,
+          54,
+          23,
+          7,
+          3,
           41,
-          26,
-          49,
-          179,
-          27,
-          9
+          174,
+          29,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MILLVILLE VILLAGE (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 73 (24%)",
-      "UNC – Lapsed R — 37 (12%)",
-      "Mixed – Active — 23 (8%)",
-      "Mixed – Lapsed — 14 (5%)",
-      "UNC – No Primary — 120 (40%)",
+      "Pure R — 68 (22%)",
+      "UNC – Lapsed R — 45 (15%)",
+      "Mixed – Active — 31 (10%)",
+      "Mixed – Lapsed — 4 (1%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 7 (2%)",
+      "UNC – No Primary — 116 (38%)",
       "UNC – Lapsed D — 17 (6%)",
-      "Pure D — 16 (5%)"
+      "Pure D — 15 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          73,
-          37,
-          23,
-          14,
-          120,
+          68,
+          45,
+          31,
+          4,
+          2,
+          7,
+          116,
           17,
-          16
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LAURA VILLAGE (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

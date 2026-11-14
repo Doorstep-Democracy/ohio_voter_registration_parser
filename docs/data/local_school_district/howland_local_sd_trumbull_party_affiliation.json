@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,303 (8%)",
-      "UNC – Lapsed R — 1,133 (7%)",
-      "Mixed – Active — 2,055 (13%)",
-      "Mixed – Lapsed — 1,154 (7%)",
-      "UNC – No Primary — 5,260 (33%)",
-      "UNC – Lapsed D — 2,818 (18%)",
-      "Pure D — 2,209 (14%)"
+      "Pure R — 1,291 (8%)",
+      "UNC – Lapsed R — 1,123 (7%)",
+      "Mixed – Active — 2,042 (13%)",
+      "Mixed – Lapsed — 805 (5%)",
+      "Minor Party — 21 (0%)",
+      "UNC – Non-partisan Ballot — 335 (2%)",
+      "UNC – No Primary — 5,371 (34%)",
+      "UNC – Lapsed D — 2,791 (17%)",
+      "Pure D — 2,195 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          1303,
-          1133,
-          2055,
-          1154,
-          5260,
-          2818,
-          2209
+          1291,
+          1123,
+          2042,
+          805,
+          21,
+          335,
+          5371,
+          2791,
+          2195
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Howland Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

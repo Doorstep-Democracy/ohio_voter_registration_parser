@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 270 (25%)",
-      "UNC – Lapsed R — 196 (18%)",
-      "Mixed – Active — 112 (11%)",
-      "Mixed – Lapsed — 74 (7%)",
-      "UNC – No Primary — 337 (32%)",
-      "UNC – Lapsed D — 54 (5%)",
-      "Pure D — 20 (2%)"
+      "Pure R — 247 (23%)",
+      "UNC – Lapsed R — 213 (20%)",
+      "Mixed – Active — 117 (11%)",
+      "Mixed – Lapsed — 46 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 27 (3%)",
+      "UNC – No Primary — 342 (32%)",
+      "UNC – Lapsed D — 42 (4%)",
+      "Pure D — 32 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          270,
-          196,
-          112,
-          74,
-          337,
-          54,
-          20
+          247,
+          213,
+          117,
+          46,
+          4,
+          27,
+          342,
+          42,
+          32
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 410 (22%)",
-      "UNC – Lapsed R — 217 (11%)",
-      "Mixed – Active — 160 (8%)",
-      "Mixed – Lapsed — 179 (9%)",
-      "UNC – No Primary — 754 (40%)",
-      "UNC – Lapsed D — 113 (6%)",
-      "Pure D — 54 (3%)"
+      "Pure R — 433 (23%)",
+      "UNC – Lapsed R — 204 (11%)",
+      "Mixed – Active — 164 (9%)",
+      "Mixed – Lapsed — 57 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 114 (6%)",
+      "UNC – No Primary — 743 (39%)",
+      "UNC – Lapsed D — 105 (6%)",
+      "Pure D — 68 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          410,
-          217,
-          160,
-          179,
-          754,
-          113,
-          54
+          433,
+          204,
+          164,
+          57,
+          2,
+          114,
+          743,
+          105,
+          68
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DUNHAM TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 257 (16%)",
+      "Pure R — 250 (15%)",
       "UNC – Lapsed R — 154 (9%)",
       "Mixed – Active — 171 (10%)",
       "Mixed – Lapsed — 47 (3%)",
+      "Minor Party — 0 (0%)",
       "UNC – Non-partisan Ballot — 37 (2%)",
-      "UNC – No Primary — 672 (41%)",
-      "UNC – Lapsed D — 191 (12%)",
-      "Pure D — 128 (8%)"
+      "UNC – No Primary — 698 (42%)",
+      "UNC – Lapsed D — 192 (11%)",
+      "Pure D — 126 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          257,
+          250,
           154,
           171,
           47,
+          0,
           37,
-          672,
-          191,
-          128
+          698,
+          192,
+          126
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "PORTSMOUTH WARD 5 (PORTSMOUTH City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

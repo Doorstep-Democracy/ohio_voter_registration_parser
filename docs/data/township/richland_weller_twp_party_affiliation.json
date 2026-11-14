@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 327 (26%)",
-      "UNC – Lapsed R — 152 (12%)",
-      "Mixed – Active — 106 (9%)",
-      "Mixed – Lapsed — 74 (6%)",
-      "UNC – No Primary — 451 (36%)",
-      "UNC – Lapsed D — 76 (6%)",
-      "Pure D — 50 (4%)"
+      "Pure R — 321 (26%)",
+      "UNC – Lapsed R — 166 (13%)",
+      "Mixed – Active — 129 (10%)",
+      "Mixed – Lapsed — 26 (2%)",
+      "Minor Party — 7 (1%)",
+      "UNC – Non-partisan Ballot — 34 (3%)",
+      "UNC – No Primary — 436 (35%)",
+      "UNC – Lapsed D — 62 (5%)",
+      "Pure D — 59 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          327,
-          152,
-          106,
-          74,
-          451,
-          76,
-          50
+          321,
+          166,
+          129,
+          26,
+          7,
+          34,
+          436,
+          62,
+          59
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WELLER TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

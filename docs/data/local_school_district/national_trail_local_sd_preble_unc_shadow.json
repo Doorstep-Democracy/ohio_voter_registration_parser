@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 645",
-      "Mixed – Active — 348",
-      "Mixed – Lapsed — 265",
-      "UNC – No Primary — 1,787",
+      "UNC – Lapsed R — 639",
+      "Mixed – Active — 344",
+      "Mixed – Lapsed — 194",
+      "UNC – Non-partisan Ballot — 65",
+      "UNC – No Primary — 1,823",
       "UNC – Lapsed D — 294"
     ],
     "datasets": [
       {
         "data": [
-          645,
-          348,
-          265,
-          1787,
+          639,
+          344,
+          194,
+          65,
+          1823,
           294
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "National Trail Local Sd (Preble Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

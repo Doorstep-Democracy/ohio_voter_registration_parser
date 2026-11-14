@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 487 (22%)",
-      "UNC – Lapsed R — 332 (15%)",
-      "Mixed – Active — 262 (12%)",
-      "Mixed – Lapsed — 151 (7%)",
-      "UNC – No Primary — 721 (33%)",
-      "UNC – Lapsed D — 155 (7%)",
-      "Pure D — 71 (3%)"
+      "Pure R — 498 (23%)",
+      "UNC – Lapsed R — 350 (16%)",
+      "Mixed – Active — 265 (12%)",
+      "Mixed – Lapsed — 85 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 68 (3%)",
+      "UNC – No Primary — 692 (32%)",
+      "UNC – Lapsed D — 145 (7%)",
+      "Pure D — 88 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          487,
-          332,
-          262,
-          151,
-          721,
-          155,
-          71
+          498,
+          350,
+          265,
+          85,
+          3,
+          68,
+          692,
+          145,
+          88
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLARIDON TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

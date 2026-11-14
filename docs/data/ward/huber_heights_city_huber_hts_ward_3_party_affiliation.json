@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 386 (8%)",
-      "UNC – Lapsed R — 488 (10%)",
-      "Mixed – Active — 285 (6%)",
-      "Mixed – Lapsed — 178 (4%)",
+      "Pure R — 383 (8%)",
+      "UNC – Lapsed R — 482 (10%)",
+      "Mixed – Active — 278 (6%)",
+      "Mixed – Lapsed — 171 (3%)",
+      "Minor Party — 16 (0%)",
       "UNC – Non-partisan Ballot — 224 (5%)",
-      "UNC – No Primary — 2,309 (48%)",
-      "UNC – Lapsed D — 609 (13%)",
-      "Pure D — 328 (7%)"
+      "UNC – No Primary — 2,398 (49%)",
+      "UNC – Lapsed D — 610 (12%)",
+      "Pure D — 326 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          386,
-          488,
-          285,
-          178,
+          383,
+          482,
+          278,
+          171,
+          16,
           224,
-          2309,
-          609,
-          328
+          2398,
+          610,
+          326
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "HUBER HTS WARD 3 (HUBER HEIGHTS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

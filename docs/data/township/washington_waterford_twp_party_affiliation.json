@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 587 (25%)",
-      "UNC – Lapsed R — 276 (12%)",
-      "Mixed – Active — 228 (10%)",
-      "Mixed – Lapsed — 128 (5%)",
-      "UNC – No Primary — 820 (35%)",
-      "UNC – Lapsed D — 198 (8%)",
-      "Pure D — 106 (5%)"
+      "Pure R — 640 (27%)",
+      "UNC – Lapsed R — 252 (11%)",
+      "Mixed – Active — 280 (12%)",
+      "Mixed – Lapsed — 66 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 32 (1%)",
+      "UNC – No Primary — 784 (33%)",
+      "UNC – Lapsed D — 148 (6%)",
+      "Pure D — 165 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          587,
-          276,
-          228,
-          128,
-          820,
-          198,
-          106
+          640,
+          252,
+          280,
+          66,
+          4,
+          32,
+          784,
+          148,
+          165
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WATERFORD TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

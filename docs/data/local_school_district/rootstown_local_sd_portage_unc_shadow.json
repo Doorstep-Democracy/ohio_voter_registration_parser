@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 591",
-      "Mixed – Active — 814",
-      "Mixed – Lapsed — 616",
-      "UNC – No Primary — 2,137",
-      "UNC – Lapsed D — 766"
+      "UNC – Lapsed R — 589",
+      "Mixed – Active — 807",
+      "Mixed – Lapsed — 339",
+      "UNC – Non-partisan Ballot — 266",
+      "UNC – No Primary — 2,178",
+      "UNC – Lapsed D — 765"
     ],
     "datasets": [
       {
         "data": [
-          591,
-          814,
-          616,
-          2137,
-          766
+          589,
+          807,
+          339,
+          266,
+          2178,
+          765
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Rootstown Local Sd (Portage Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

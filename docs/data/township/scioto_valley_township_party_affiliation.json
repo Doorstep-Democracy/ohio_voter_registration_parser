@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 265 (18%)",
-      "UNC – Lapsed R — 197 (13%)",
-      "Mixed – Active — 130 (9%)",
-      "Mixed – Lapsed — 94 (6%)",
-      "UNC – No Primary — 588 (39%)",
-      "UNC – Lapsed D — 177 (12%)",
-      "Pure D — 52 (3%)"
+      "Pure R — 275 (18%)",
+      "UNC – Lapsed R — 201 (13%)",
+      "Mixed – Active — 145 (10%)",
+      "Mixed – Lapsed — 66 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 20 (1%)",
+      "UNC – No Primary — 575 (38%)",
+      "UNC – Lapsed D — 157 (10%)",
+      "Pure D — 62 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          265,
-          197,
-          130,
-          94,
-          588,
-          177,
-          52
+          275,
+          201,
+          145,
+          66,
+          0,
+          20,
+          575,
+          157,
+          62
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VALLEY TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

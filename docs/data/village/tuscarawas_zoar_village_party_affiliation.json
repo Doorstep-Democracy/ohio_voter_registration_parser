@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 31 (23%)",
-      "UNC – Lapsed R — 21 (16%)",
-      "Mixed – Active — 19 (14%)",
-      "Mixed – Lapsed — 11 (8%)",
-      "UNC – No Primary — 24 (18%)",
-      "UNC – Lapsed D — 23 (17%)",
-      "Pure D — 6 (4%)"
+      "Pure R — 29 (21%)",
+      "UNC – Lapsed R — 23 (17%)",
+      "Mixed – Active — 16 (12%)",
+      "Mixed – Lapsed — 8 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (4%)",
+      "UNC – No Primary — 26 (19%)",
+      "UNC – Lapsed D — 20 (15%)",
+      "Pure D — 7 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          31,
-          21,
-          19,
-          11,
-          24,
+          29,
           23,
-          6
+          16,
+          8,
+          0,
+          6,
+          26,
+          20,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ZOAR VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

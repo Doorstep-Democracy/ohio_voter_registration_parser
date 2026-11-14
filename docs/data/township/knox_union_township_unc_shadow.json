@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 97",
-      "Mixed – Active — 74",
-      "Mixed – Lapsed — 43",
-      "UNC – No Primary — 263",
-      "UNC – Lapsed D — 25"
+      "UNC – Lapsed R — 111",
+      "Mixed – Active — 75",
+      "Mixed – Lapsed — 21",
+      "UNC – Non-partisan Ballot — 21",
+      "UNC – No Primary — 276",
+      "UNC – Lapsed D — 27"
     ],
     "datasets": [
       {
         "data": [
-          97,
-          74,
-          43,
-          263,
-          25
+          111,
+          75,
+          21,
+          21,
+          276,
+          27
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

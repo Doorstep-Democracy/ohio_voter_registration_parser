@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          7,
-          113,
-          348,
-          644,
-          523,
-          392,
-          280,
-          182,
-          100
+          6,
+          88,
+          295,
+          559,
+          477,
+          290,
+          198,
+          139,
+          90
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           6,
-          58,
-          116,
-          215,
-          256,
+          67,
+          147,
+          287,
+          304,
+          337,
+          286,
           239,
-          203,
-          189,
-          37
+          72
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          7,
-          70,
-          320,
-          524,
-          344,
-          219,
-          136,
-          48,
-          6
+          6,
+          53,
+          287,
+          520,
+          303,
+          175,
+          117,
+          40,
+          8
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          6,
+          5,
+          50,
+          115,
+          162,
+          172,
+          164,
+          105,
           37,
-          99,
-          167,
-          177,
-          166,
-          124,
-          65,
-          19
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          3,
+          11,
+          1,
+          6,
+          6,
+          3,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          12,
+          27,
+          49,
+          44,
+          47,
+          43,
+          18
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          23,
-          119,
-          278,
-          471,
-          622,
-          966,
-          1424,
-          1279
+          19,
+          108,
+          261,
+          456,
+          612,
+          939,
+          1399,
+          1321
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          39,
-          118,
-          234,
-          202,
-          185,
-          216,
-          156,
-          22
+          38,
+          110,
+          218,
+          170,
+          173,
+          210,
+          154,
+          28
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          5,
-          35,
-          124,
-          178,
-          71,
-          27,
+          2,
           34,
-          31,
-          20
+          132,
+          185,
+          111,
+          45,
+          53,
+          56,
+          38
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "TIFFIN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -13,11 +13,11 @@
       {
         "label": "Pure R",
         "data": [
-          128,
-          780,
-          434,
-          246,
-          105
+          124,
+          770,
+          432,
+          241,
+          104
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -25,10 +25,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          68,
-          315,
-          441,
-          324,
+          64,
+          314,
+          446,
+          329,
           73
         ],
         "backgroundColor": "#fca5a5",
@@ -37,10 +37,10 @@
       {
         "label": "Mixed – Active",
         "data": [
-          77,
-          337,
-          151,
-          59,
+          72,
+          332,
+          149,
+          57,
           4
         ],
         "backgroundColor": "#f59e0b",
@@ -49,23 +49,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          40,
-          169,
-          247,
-          166,
-          44
+          31,
+          95,
+          107,
+          52,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          1,
+          3,
+          6,
+          11,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          6,
+          69,
+          136,
+          110,
+          41
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          23,
-          191,
-          341,
-          629,
-          668
+          22,
+          195,
+          339,
+          636,
+          703
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -74,10 +98,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           27,
-          123,
-          178,
-          120,
-          17
+          122,
+          176,
+          117,
+          20
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -85,19 +109,19 @@
       {
         "label": "Pure D",
         "data": [
-          27,
-          145,
+          26,
+          142,
           38,
           58,
-          20
+          17
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Northridge Local Sd (Licking Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

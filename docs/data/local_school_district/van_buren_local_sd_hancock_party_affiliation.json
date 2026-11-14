@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,556 (30%)",
-      "UNC – Lapsed R — 749 (14%)",
-      "Mixed – Active — 431 (8%)",
-      "Mixed – Lapsed — 428 (8%)",
-      "UNC – No Primary — 1,513 (29%)",
-      "UNC – Lapsed D — 288 (6%)",
-      "Pure D — 214 (4%)"
+      "Pure R — 1,541 (30%)",
+      "UNC – Lapsed R — 746 (14%)",
+      "Mixed – Active — 429 (8%)",
+      "Mixed – Lapsed — 193 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 229 (4%)",
+      "UNC – No Primary — 1,538 (30%)",
+      "UNC – Lapsed D — 290 (6%)",
+      "Pure D — 212 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1556,
-          749,
-          431,
-          428,
-          1513,
-          288,
-          214
+          1541,
+          746,
+          429,
+          193,
+          3,
+          229,
+          1538,
+          290,
+          212
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Van Buren Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

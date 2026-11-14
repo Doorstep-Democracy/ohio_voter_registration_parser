@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          3,
-          110,
-          663,
-          1096,
-          1109,
-          698,
-          542,
-          177,
-          152
+          2,
+          91,
+          636,
+          1131,
+          1073,
+          693,
+          526,
+          184,
+          160
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          7,
-          72,
-          251,
-          605,
-          869,
-          1001,
-          807,
-          466,
-          47
+          8,
+          70,
+          260,
+          565,
+          924,
+          1018,
+          827,
+          472,
+          80
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,15 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           1,
-          23,
-          245,
-          379,
-          280,
-          217,
-          140,
-          28,
+          19,
+          251,
+          429,
+          311,
+          250,
+          162,
+          44,
           4
         ],
         "backgroundColor": "#f59e0b",
@@ -69,33 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           2,
-          29,
-          191,
-          341,
-          461,
-          534,
-          414,
-          140,
-          71
+          21,
+          128,
+          189,
+          225,
+          187,
+          121,
+          37,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          3,
+          3,
+          9,
+          9,
+          10,
+          13,
+          7,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          7,
+          55,
+          112,
+          211,
+          323,
+          270,
+          93,
+          61
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          0,
-          30,
-          217,
-          474,
-          765,
-          1074,
-          1948,
-          2361,
-          2334
+          31,
+          211,
+          452,
+          728,
+          1042,
+          1942,
+          2364,
+          2484
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           1,
-          24,
-          128,
-          236,
-          305,
-          422,
-          457,
-          240,
-          41
+          21,
+          94,
+          209,
+          261,
+          391,
+          428,
+          223,
+          61
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           1,
-          22,
-          134,
-          166,
-          114,
-          148,
-          139,
-          68,
-          56
+          20,
+          165,
+          209,
+          165,
+          202,
+          222,
+          144,
+          89
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HAMILTON TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

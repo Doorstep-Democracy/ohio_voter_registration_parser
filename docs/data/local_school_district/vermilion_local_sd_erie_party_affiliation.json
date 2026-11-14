@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,170 (11%)",
-      "UNC – Lapsed R — 1,081 (10%)",
-      "Mixed – Active — 1,215 (11%)",
-      "Mixed – Lapsed — 1,105 (10%)",
-      "UNC – No Primary — 3,623 (34%)",
-      "UNC – Lapsed D — 1,440 (14%)",
-      "Pure D — 949 (9%)"
+      "Pure R — 1,160 (11%)",
+      "UNC – Lapsed R — 1,095 (10%)",
+      "Mixed – Active — 1,202 (11%)",
+      "Mixed – Lapsed — 606 (6%)",
+      "Minor Party — 32 (0%)",
+      "UNC – Non-partisan Ballot — 508 (5%)",
+      "UNC – No Primary — 3,719 (35%)",
+      "UNC – Lapsed D — 1,463 (14%)",
+      "Pure D — 931 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1170,
-          1081,
-          1215,
-          1105,
-          3623,
-          1440,
-          949
+          1160,
+          1095,
+          1202,
+          606,
+          32,
+          508,
+          3719,
+          1463,
+          931
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Vermilion Local Sd (Erie Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

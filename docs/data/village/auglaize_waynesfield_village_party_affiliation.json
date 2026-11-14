@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 91 (20%)",
-      "UNC – Lapsed R — 62 (13%)",
-      "Mixed – Active — 19 (4%)",
-      "Mixed – Lapsed — 23 (5%)",
-      "UNC – No Primary — 228 (49%)",
-      "UNC – Lapsed D — 22 (5%)",
-      "Pure D — 16 (3%)"
+      "Pure R — 78 (17%)",
+      "UNC – Lapsed R — 74 (16%)",
+      "Mixed – Active — 17 (4%)",
+      "Mixed – Lapsed — 10 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 16 (3%)",
+      "UNC – No Primary — 226 (49%)",
+      "UNC – Lapsed D — 26 (6%)",
+      "Pure D — 12 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          91,
-          62,
-          19,
-          23,
-          228,
-          22,
-          16
+          78,
+          74,
+          17,
+          10,
+          0,
+          16,
+          226,
+          26,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WAYNESFIELD VILLAGE (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

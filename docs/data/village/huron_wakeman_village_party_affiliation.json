@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 118 (18%)",
-      "UNC – Lapsed R — 50 (8%)",
-      "Mixed – Active — 49 (8%)",
-      "Mixed – Lapsed — 40 (6%)",
-      "UNC – No Primary — 256 (40%)",
-      "UNC – Lapsed D — 72 (11%)",
-      "Pure D — 57 (9%)"
+      "Pure R — 114 (18%)",
+      "UNC – Lapsed R — 59 (9%)",
+      "Mixed – Active — 48 (8%)",
+      "Mixed – Lapsed — 15 (2%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 25 (4%)",
+      "UNC – No Primary — 249 (39%)",
+      "UNC – Lapsed D — 64 (10%)",
+      "Pure D — 64 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          118,
-          50,
-          49,
-          40,
-          256,
-          72,
-          57
+          114,
+          59,
+          48,
+          15,
+          2,
+          25,
+          249,
+          64,
+          64
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WAKEMAN VILLAGE (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

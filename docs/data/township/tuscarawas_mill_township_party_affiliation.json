@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 206 (7%)",
-      "UNC – Lapsed R — 170 (6%)",
-      "Mixed – Active — 247 (9%)",
-      "Mixed – Lapsed — 170 (6%)",
-      "UNC – No Primary — 1,348 (48%)",
-      "UNC – Lapsed D — 484 (17%)",
-      "Pure D — 182 (6%)"
+      "Pure R — 203 (7%)",
+      "UNC – Lapsed R — 197 (7%)",
+      "Mixed – Active — 249 (9%)",
+      "Mixed – Lapsed — 133 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 43 (2%)",
+      "UNC – No Primary — 1,352 (48%)",
+      "UNC – Lapsed D — 453 (16%)",
+      "Pure D — 197 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          206,
-          170,
-          247,
-          170,
-          1348,
-          484,
-          182
+          203,
+          197,
+          249,
+          133,
+          2,
+          43,
+          1352,
+          453,
+          197
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MILL TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

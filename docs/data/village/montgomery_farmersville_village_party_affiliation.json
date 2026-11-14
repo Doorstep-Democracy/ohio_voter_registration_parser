@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 133 (19%)",
-      "UNC – Lapsed R — 128 (18%)",
-      "Mixed – Active — 76 (11%)",
-      "Mixed – Lapsed — 74 (11%)",
-      "UNC – No Primary — 218 (31%)",
-      "UNC – Lapsed D — 59 (8%)",
-      "Pure D — 16 (2%)"
+      "Pure R — 113 (16%)",
+      "UNC – Lapsed R — 147 (21%)",
+      "Mixed – Active — 68 (10%)",
+      "Mixed – Lapsed — 46 (7%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 34 (5%)",
+      "UNC – No Primary — 221 (31%)",
+      "UNC – Lapsed D — 53 (8%)",
+      "Pure D — 18 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          133,
-          128,
-          76,
-          74,
-          218,
-          59,
-          16
+          113,
+          147,
+          68,
+          46,
+          3,
+          34,
+          221,
+          53,
+          18
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FARMERSVILLE VILLAGE (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

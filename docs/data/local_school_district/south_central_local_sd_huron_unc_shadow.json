@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 390",
+      "UNC – Lapsed R — 385",
       "Mixed – Active — 133",
-      "Mixed – Lapsed — 215",
-      "UNC – No Primary — 1,039",
-      "UNC – Lapsed D — 156"
+      "Mixed – Lapsed — 80",
+      "UNC – Non-partisan Ballot — 132",
+      "UNC – No Primary — 1,060",
+      "UNC – Lapsed D — 151"
     ],
     "datasets": [
       {
         "data": [
-          390,
+          385,
           133,
-          215,
-          1039,
-          156
+          80,
+          132,
+          1060,
+          151
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "South Central Local Sd (Huron Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

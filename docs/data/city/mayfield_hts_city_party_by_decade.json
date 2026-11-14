@@ -19,13 +19,13 @@
         "data": [
           4,
           48,
-          132,
-          185,
-          128,
+          131,
+          187,
+          129,
           54,
-          60,
-          50,
-          21
+          57,
+          53,
+          20
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
+          5,
           52,
-          112,
+          111,
           158,
-          157,
-          141,
-          148,
-          120,
-          14
+          155,
+          139,
+          143,
+          121,
+          16
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          62,
+          61,
           224,
-          268,
+          264,
           152,
-          72,
-          66,
+          73,
+          64,
           45,
           2
         ],
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          11,
-          96,
-          142,
-          171,
-          184,
-          146,
-          152,
-          88,
-          11
+          10,
+          81,
+          117,
+          116,
+          125,
+          92,
+          68,
+          25,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          3,
+          2,
+          1,
+          0,
+          4,
+          3,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          11,
+          24,
+          57,
+          57,
+          57,
+          85,
+          59,
+          10
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           8,
           72,
-          231,
-          390,
-          512,
-          614,
-          982,
-          1617,
-          1033
+          238,
+          398,
+          511,
+          616,
+          995,
+          1649,
+          1133
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          15,
-          152,
-          255,
+          13,
+          145,
+          253,
           380,
-          388,
-          375,
+          389,
+          381,
           458,
-          329,
-          20
+          342,
+          24
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           7,
-          81,
-          300,
-          397,
-          254,
-          218,
-          244,
+          82,
+          306,
+          400,
+          252,
+          221,
+          246,
           183,
-          84
+          88
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MAYFIELD HTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

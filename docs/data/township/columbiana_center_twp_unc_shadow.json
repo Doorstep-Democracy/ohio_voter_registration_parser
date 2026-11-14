@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 304",
-      "Mixed – Active — 421",
-      "Mixed – Lapsed — 228",
-      "UNC – No Primary — 1,577",
-      "UNC – Lapsed D — 300"
+      "UNC – Lapsed R — 334",
+      "Mixed – Active — 420",
+      "Mixed – Lapsed — 162",
+      "UNC – Non-partisan Ballot — 58",
+      "UNC – No Primary — 1,604",
+      "UNC – Lapsed D — 297"
     ],
     "datasets": [
       {
         "data": [
-          304,
-          421,
-          228,
-          1577,
-          300
+          334,
+          420,
+          162,
+          58,
+          1604,
+          297
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CENTER TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

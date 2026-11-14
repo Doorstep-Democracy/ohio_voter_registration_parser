@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 148",
-      "Mixed – Active — 145",
-      "Mixed – Lapsed — 67",
-      "UNC – No Primary — 498",
+      "UNC – Lapsed R — 194",
+      "Mixed – Active — 132",
+      "Mixed – Lapsed — 64",
+      "UNC – Non-partisan Ballot — 20",
+      "UNC – No Primary — 486",
       "UNC – Lapsed D — 116"
     ],
     "datasets": [
       {
         "data": [
-          148,
-          145,
-          67,
-          498,
+          194,
+          132,
+          64,
+          20,
+          486,
           116
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RACCOON TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 217",
-      "Mixed – Active — 277",
-      "Mixed – Lapsed — 173",
-      "UNC – No Primary — 1,144",
-      "UNC – Lapsed D — 360"
+      "UNC – Lapsed R — 236",
+      "Mixed – Active — 249",
+      "Mixed – Lapsed — 152",
+      "UNC – Non-partisan Ballot — 46",
+      "UNC – No Primary — 1,147",
+      "UNC – Lapsed D — 364"
     ],
     "datasets": [
       {
         "data": [
-          217,
-          277,
-          173,
-          1144,
-          360
+          236,
+          249,
+          152,
+          46,
+          1147,
+          364
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIVERPOOL TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

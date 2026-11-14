@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 20 (21%)",
+      "Pure R — 24 (25%)",
       "UNC – Lapsed R — 14 (15%)",
-      "Mixed – Active — 17 (18%)",
-      "Mixed – Lapsed — 6 (6%)",
-      "UNC – No Primary — 31 (32%)",
-      "UNC – Lapsed D — 6 (6%)",
+      "Mixed – Active — 18 (19%)",
+      "Mixed – Lapsed — 3 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 28 (29%)",
+      "UNC – Lapsed D — 5 (5%)",
       "Pure D — 2 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          20,
+          24,
           14,
-          17,
-          6,
-          31,
-          6,
+          18,
+          3,
+          0,
+          1,
+          28,
+          5,
           2
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MILLER CITY VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

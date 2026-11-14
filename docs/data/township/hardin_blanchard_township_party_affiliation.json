@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 226 (24%)",
-      "UNC – Lapsed R — 106 (11%)",
-      "Mixed – Active — 76 (8%)",
-      "Mixed – Lapsed — 60 (6%)",
-      "UNC – No Primary — 376 (41%)",
-      "UNC – Lapsed D — 68 (7%)",
+      "Pure R — 201 (22%)",
+      "UNC – Lapsed R — 133 (14%)",
+      "Mixed – Active — 68 (7%)",
+      "Mixed – Lapsed — 48 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 21 (2%)",
+      "UNC – No Primary — 375 (41%)",
+      "UNC – Lapsed D — 65 (7%)",
       "Pure D — 12 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          226,
-          106,
-          76,
-          60,
-          376,
+          201,
+          133,
           68,
+          48,
+          1,
+          21,
+          375,
+          65,
           12
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BLANCHARD TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

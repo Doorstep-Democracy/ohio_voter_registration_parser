@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 224",
-      "Mixed – Active — 230",
-      "Mixed – Lapsed — 150",
-      "UNC – No Primary — 564",
-      "UNC – Lapsed D — 123"
+      "UNC – Lapsed R — 276",
+      "Mixed – Active — 232",
+      "Mixed – Lapsed — 91",
+      "UNC – Non-partisan Ballot — 61",
+      "UNC – No Primary — 546",
+      "UNC – Lapsed D — 110"
     ],
     "datasets": [
       {
         "data": [
-          224,
-          230,
-          150,
-          564,
-          123
+          276,
+          232,
+          91,
+          61,
+          546,
+          110
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BURTON TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

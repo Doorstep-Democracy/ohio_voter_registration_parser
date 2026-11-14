@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 7",
+      "UNC – Lapsed R — 8",
       "Mixed – Active — 7",
-      "Mixed – Lapsed — 2",
-      "UNC – No Primary — 14",
-      "UNC – Lapsed D — 6"
+      "Mixed – Lapsed — 1",
+      "UNC – Non-partisan Ballot — 1",
+      "UNC – No Primary — 16",
+      "UNC – Lapsed D — 7"
     ],
     "datasets": [
       {
         "data": [
+          8,
           7,
-          7,
-          2,
-          14,
-          6
+          1,
+          1,
+          16,
+          7
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "OTWAY VILLAGE (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

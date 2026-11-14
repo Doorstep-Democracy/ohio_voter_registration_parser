@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 503",
-      "Mixed – Active — 768",
-      "Mixed – Lapsed — 561",
-      "UNC – No Primary — 2,381",
-      "UNC – Lapsed D — 1,007"
+      "UNC – Lapsed R — 550",
+      "Mixed – Active — 775",
+      "Mixed – Lapsed — 334",
+      "UNC – Non-partisan Ballot — 205",
+      "UNC – No Primary — 2,345",
+      "UNC – Lapsed D — 895"
     ],
     "datasets": [
       {
         "data": [
-          503,
-          768,
-          561,
-          2381,
-          1007
+          550,
+          775,
+          334,
+          205,
+          2345,
+          895
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SAYBROOK TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

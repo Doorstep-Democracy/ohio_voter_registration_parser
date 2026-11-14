@@ -4,7 +4,7 @@
   "precinct": "PARMA-07-F",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,10 +18,10 @@
       {
         "label": "Pure R",
         "data": [
-          4,
-          35,
+          2,
+          36,
           9,
-          10,
+          12,
           2
         ],
         "backgroundColor": "#ef4444",
@@ -31,7 +31,7 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          3,
           25,
           19,
           7,
@@ -60,10 +60,23 @@
           0,
           21,
           12,
-          6,
+          5,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           6,
           65,
-          55,
+          52,
           151,
-          140
+          148
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,10 +109,10 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          11,
+          9,
           47,
+          26,
           27,
-          28,
           3
         ],
         "backgroundColor": "#93c5fd",
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          11,
-          37,
-          13,
-          9,
+          10,
+          36,
+          12,
+          8,
           16
         ],
         "backgroundColor": "#3b82f6",

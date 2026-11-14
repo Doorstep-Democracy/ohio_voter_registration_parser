@@ -3,14 +3,15 @@
   "county": "Geauga",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          12052,
-          9356,
-          8497,
-          3816,
-          2968,
-          20291,
-          5798,
-          3980
+          11942,
+          9350,
+          8435,
+          3843,
+          122,
+          2948,
+          20804,
+          5849,
+          3908
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 368,
-    "new_registrants_d": 289,
-    "new_registrants_unc": 5936
+    "new_registrants_r": 359,
+    "new_registrants_d": 279,
+    "new_registrants_unc": 6549
   }
 }

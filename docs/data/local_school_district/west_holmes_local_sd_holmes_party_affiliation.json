@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,262 (23%)",
-      "UNC – Lapsed R — 1,706 (17%)",
-      "Mixed – Active — 828 (8%)",
-      "Mixed – Lapsed — 567 (6%)",
-      "UNC – No Primary — 3,748 (38%)",
-      "UNC – Lapsed D — 526 (5%)",
-      "Pure D — 280 (3%)"
+      "Pure R — 2,245 (23%)",
+      "UNC – Lapsed R — 1,712 (17%)",
+      "Mixed – Active — 823 (8%)",
+      "Mixed – Lapsed — 361 (4%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 206 (2%)",
+      "UNC – No Primary — 3,805 (38%)",
+      "UNC – Lapsed D — 527 (5%)",
+      "Pure D — 276 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2262,
-          1706,
-          828,
-          567,
-          3748,
-          526,
-          280
+          2245,
+          1712,
+          823,
+          361,
+          17,
+          206,
+          3805,
+          527,
+          276
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "West Holmes Local Sd (Holmes Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

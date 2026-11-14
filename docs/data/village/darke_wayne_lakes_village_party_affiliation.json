@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 128 (25%)",
-      "UNC – Lapsed R — 55 (11%)",
-      "Mixed – Active — 51 (10%)",
-      "Mixed – Lapsed — 34 (7%)",
-      "UNC – No Primary — 180 (35%)",
-      "UNC – Lapsed D — 43 (8%)",
-      "Pure D — 25 (5%)"
+      "Pure R — 117 (22%)",
+      "UNC – Lapsed R — 70 (13%)",
+      "Mixed – Active — 48 (9%)",
+      "Mixed – Lapsed — 33 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 179 (34%)",
+      "UNC – Lapsed D — 41 (8%)",
+      "Pure D — 28 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          128,
-          55,
-          51,
-          34,
-          180,
-          43,
-          25
+          117,
+          70,
+          48,
+          33,
+          0,
+          7,
+          179,
+          41,
+          28
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WAYNE LAKES VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

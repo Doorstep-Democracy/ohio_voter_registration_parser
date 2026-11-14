@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 392 (22%)",
-      "UNC – Lapsed R — 289 (17%)",
-      "Mixed – Active — 180 (10%)",
-      "Mixed – Lapsed — 107 (6%)",
-      "UNC – No Primary — 650 (37%)",
-      "UNC – Lapsed D — 96 (5%)",
-      "Pure D — 37 (2%)"
+      "Pure R — 390 (22%)",
+      "UNC – Lapsed R — 286 (16%)",
+      "Mixed – Active — 179 (10%)",
+      "Mixed – Lapsed — 60 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 43 (2%)",
+      "UNC – No Primary — 655 (38%)",
+      "UNC – Lapsed D — 95 (5%)",
+      "Pure D — 36 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          392,
-          289,
-          180,
-          107,
-          650,
-          96,
-          37
+          390,
+          286,
+          179,
+          60,
+          1,
+          43,
+          655,
+          95,
+          36
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Jackson Center Local Sd (Shelby Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

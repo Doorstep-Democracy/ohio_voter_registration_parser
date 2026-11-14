@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 108 (22%)",
-      "UNC – Lapsed R — 56 (12%)",
-      "Mixed – Active — 35 (7%)",
-      "Mixed – Lapsed — 27 (6%)",
-      "UNC – No Primary — 213 (44%)",
-      "UNC – Lapsed D — 35 (7%)",
-      "Pure D — 12 (2%)"
+      "Pure R — 101 (21%)",
+      "UNC – Lapsed R — 63 (13%)",
+      "Mixed – Active — 29 (6%)",
+      "Mixed – Lapsed — 18 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 8 (2%)",
+      "UNC – No Primary — 204 (43%)",
+      "UNC – Lapsed D — 37 (8%)",
+      "Pure D — 13 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          108,
-          56,
-          35,
-          27,
-          213,
-          35,
-          12
+          101,
+          63,
+          29,
+          18,
+          0,
+          8,
+          204,
+          37,
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "KILLBUCK VILLAGE (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 490 (14%)",
-      "UNC – Lapsed R — 419 (12%)",
-      "Mixed – Active — 298 (9%)",
-      "Mixed – Lapsed — 230 (7%)",
-      "UNC – No Primary — 1,513 (43%)",
-      "UNC – Lapsed D — 393 (11%)",
-      "Pure D — 161 (5%)"
+      "Pure R — 479 (14%)",
+      "UNC – Lapsed R — 418 (12%)",
+      "Mixed – Active — 295 (8%)",
+      "Mixed – Lapsed — 171 (5%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 58 (2%)",
+      "UNC – No Primary — 1,542 (44%)",
+      "UNC – Lapsed D — 389 (11%)",
+      "Pure D — 159 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          490,
-          419,
-          298,
-          230,
-          1513,
-          393,
-          161
+          479,
+          418,
+          295,
+          171,
+          6,
+          58,
+          1542,
+          389,
+          159
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Paint Valley Local Sd (Ross Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

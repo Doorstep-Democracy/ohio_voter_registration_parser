@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,515 (12%)",
-      "UNC – Lapsed R — 2,799 (9%)",
-      "Mixed – Active — 1,366 (5%)",
-      "Mixed – Lapsed — 2,000 (7%)",
-      "UNC – No Primary — 15,969 (53%)",
-      "UNC – Lapsed D — 3,284 (11%)",
-      "Pure D — 1,338 (4%)"
+      "Pure R — 3,285 (11%)",
+      "UNC – Lapsed R — 3,144 (10%)",
+      "Mixed – Active — 1,329 (4%)",
+      "Mixed – Lapsed — 854 (3%)",
+      "Minor Party — 62 (0%)",
+      "UNC – Non-partisan Ballot — 1,135 (4%)",
+      "UNC – No Primary — 16,048 (52%)",
+      "UNC – Lapsed D — 3,064 (10%)",
+      "Pure D — 1,759 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          3515,
-          2799,
-          1366,
-          2000,
-          15969,
-          3284,
-          1338
+          3285,
+          3144,
+          1329,
+          854,
+          62,
+          1135,
+          16048,
+          3064,
+          1759
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MIDDLETOWN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

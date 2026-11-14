@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 294",
-      "Mixed – Active — 170",
-      "Mixed – Lapsed — 129",
-      "UNC – No Primary — 883",
-      "UNC – Lapsed D — 118"
+      "UNC – Lapsed R — 327",
+      "Mixed – Active — 159",
+      "Mixed – Lapsed — 99",
+      "UNC – Non-partisan Ballot — 43",
+      "UNC – No Primary — 857",
+      "UNC – Lapsed D — 119"
     ],
     "datasets": [
       {
         "data": [
-          294,
-          170,
-          129,
-          883,
-          118
+          327,
+          159,
+          99,
+          43,
+          857,
+          119
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Fayette Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

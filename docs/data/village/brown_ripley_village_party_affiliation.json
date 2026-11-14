@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 185 (18%)",
-      "UNC – Lapsed R — 76 (7%)",
-      "Mixed – Active — 119 (12%)",
-      "Mixed – Lapsed — 50 (5%)",
-      "UNC – No Primary — 471 (46%)",
-      "UNC – Lapsed D — 81 (8%)",
-      "Pure D — 49 (5%)"
+      "Pure R — 194 (19%)",
+      "UNC – Lapsed R — 75 (7%)",
+      "Mixed – Active — 122 (12%)",
+      "Mixed – Lapsed — 38 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 9 (1%)",
+      "UNC – No Primary — 462 (45%)",
+      "UNC – Lapsed D — 82 (8%)",
+      "Pure D — 46 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          185,
-          76,
-          119,
-          50,
-          471,
-          81,
-          49
+          194,
+          75,
+          122,
+          38,
+          2,
+          9,
+          462,
+          82,
+          46
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "RIPLEY VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 52",
-      "Mixed – Active — 43",
-      "Mixed – Lapsed — 15",
-      "UNC – No Primary — 231",
-      "UNC – Lapsed D — 51"
+      "UNC – Lapsed R — 44",
+      "Mixed – Active — 48",
+      "Mixed – Lapsed — 11",
+      "UNC – Non-partisan Ballot — 1",
+      "UNC – No Primary — 232",
+      "UNC – Lapsed D — 50"
     ],
     "datasets": [
       {
         "data": [
-          52,
-          43,
-          15,
-          231,
-          51
+          44,
+          48,
+          11,
+          1,
+          232,
+          50
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "HAMDEN VILLAGE (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

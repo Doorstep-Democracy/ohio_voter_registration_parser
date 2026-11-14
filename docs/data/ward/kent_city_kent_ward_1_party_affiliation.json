@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 179 (5%)",
-      "UNC – Lapsed R — 187 (6%)",
-      "Mixed – Active — 403 (12%)",
-      "Mixed – Lapsed — 88 (3%)",
-      "UNC – Non-partisan Ballot — 108 (3%)",
-      "UNC – No Primary — 1,088 (33%)",
-      "UNC – Lapsed D — 427 (13%)",
-      "Pure D — 832 (25%)"
+      "Pure R — 178 (5%)",
+      "UNC – Lapsed R — 185 (6%)",
+      "Mixed – Active — 399 (12%)",
+      "Mixed – Lapsed — 90 (3%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 105 (3%)",
+      "UNC – No Primary — 1,145 (34%)",
+      "UNC – Lapsed D — 433 (13%)",
+      "Pure D — 814 (24%)"
     ],
     "datasets": [
       {
         "data": [
-          179,
-          187,
-          403,
-          88,
-          108,
-          1088,
-          427,
-          832
+          178,
+          185,
+          399,
+          90,
+          6,
+          105,
+          1145,
+          433,
+          814
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "KENT WARD 1 (KENT City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

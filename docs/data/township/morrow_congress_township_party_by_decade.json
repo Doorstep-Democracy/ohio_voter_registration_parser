@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          19,
-          73,
-          154,
-          135,
-          86,
-          57,
-          33,
-          21
+          0,
+          14,
+          58,
+          149,
+          121,
+          80,
+          54,
+          28,
+          17
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          7,
-          10,
+          11,
+          22,
+          62,
+          97,
+          72,
           58,
-          83,
-          64,
-          56,
-          37,
-          3
+          44,
+          10
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,11 +51,11 @@
         "data": [
           0,
           1,
-          31,
+          26,
           73,
-          45,
+          47,
           28,
-          15,
+          14,
           3,
           2
         ],
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          1,
-          16,
-          41,
-          44,
-          36,
+          0,
+          13,
+          35,
+          25,
           22,
-          5,
-          2
+          13,
+          2,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          6,
+          8,
+          19,
+          12,
+          10,
+          4,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           6,
-          16,
-          55,
-          71,
-          89,
-          112,
-          129,
-          144
+          15,
+          54,
+          73,
+          91,
+          115,
+          132,
+          151
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          3,
-          9,
-          36,
-          40,
-          36,
-          29,
-          16,
-          4
+          5,
+          15,
+          38,
+          39,
+          34,
+          31,
+          19,
+          7
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          6,
-          20,
-          26,
-          15,
-          11,
-          2,
           3,
-          5
+          13,
+          28,
+          17,
+          14,
+          3,
+          0,
+          3
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CONGRESS TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 357 (10%)",
-      "UNC – Lapsed R — 348 (9%)",
-      "Mixed – Active — 219 (6%)",
-      "Mixed – Lapsed — 331 (9%)",
-      "UNC – No Primary — 1,668 (45%)",
-      "UNC – Lapsed D — 565 (15%)",
-      "Pure D — 255 (7%)"
+      "Pure R — 358 (10%)",
+      "UNC – Lapsed R — 369 (10%)",
+      "Mixed – Active — 225 (6%)",
+      "Mixed – Lapsed — 128 (3%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 207 (5%)",
+      "UNC – No Primary — 1,628 (43%)",
+      "UNC – Lapsed D — 523 (14%)",
+      "Pure D — 318 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          357,
-          348,
-          219,
-          331,
-          1668,
-          565,
-          255
+          358,
+          369,
+          225,
+          128,
+          9,
+          207,
+          1628,
+          523,
+          318
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "PORT CLINTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

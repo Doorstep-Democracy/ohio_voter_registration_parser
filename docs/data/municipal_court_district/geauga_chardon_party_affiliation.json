@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 12,426 (19%)",
-      "UNC – Lapsed R — 8,602 (13%)",
-      "Mixed – Active — 8,324 (12%)",
-      "Mixed – Lapsed — 6,837 (10%)",
-      "UNC – No Primary — 21,119 (32%)",
-      "UNC – Lapsed D — 6,404 (10%)",
-      "Pure D — 2,974 (4%)"
+      "Pure R — 11,942 (18%)",
+      "UNC – Lapsed R — 9,350 (14%)",
+      "Mixed – Active — 8,435 (13%)",
+      "Mixed – Lapsed — 3,843 (6%)",
+      "Minor Party — 122 (0%)",
+      "UNC – Non-partisan Ballot — 2,948 (4%)",
+      "UNC – No Primary — 20,804 (31%)",
+      "UNC – Lapsed D — 5,849 (9%)",
+      "Pure D — 3,908 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          12426,
-          8602,
-          8324,
-          6837,
-          21119,
-          6404,
-          2974
+          11942,
+          9350,
+          8435,
+          3843,
+          122,
+          2948,
+          20804,
+          5849,
+          3908
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "CHARDON (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

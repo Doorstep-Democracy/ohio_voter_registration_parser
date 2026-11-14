@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 797 (18%)",
-      "UNC – Lapsed R — 774 (18%)",
-      "Mixed – Active — 235 (5%)",
-      "Mixed – Lapsed — 350 (8%)",
-      "UNC – No Primary — 1,808 (42%)",
-      "UNC – Lapsed D — 288 (7%)",
-      "Pure D — 94 (2%)"
+      "Pure R — 883 (20%)",
+      "UNC – Lapsed R — 726 (16%)",
+      "Mixed – Active — 275 (6%)",
+      "Mixed – Lapsed — 163 (4%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 167 (4%)",
+      "UNC – No Primary — 1,782 (40%)",
+      "UNC – Lapsed D — 242 (5%)",
+      "Pure D — 175 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          797,
-          774,
-          235,
-          350,
-          1808,
-          288,
-          94
+          883,
+          726,
+          275,
+          163,
+          12,
+          167,
+          1782,
+          242,
+          175
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SALEM TOWNSHIP (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

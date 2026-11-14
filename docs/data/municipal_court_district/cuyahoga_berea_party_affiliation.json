@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8,606 (10%)",
-      "UNC – Lapsed R — 7,195 (8%)",
-      "Mixed – Active — 9,226 (11%)",
-      "Mixed – Lapsed — 8,817 (10%)",
-      "UNC – No Primary — 30,626 (36%)",
-      "UNC – Lapsed D — 12,315 (14%)",
-      "Pure D — 8,486 (10%)"
+      "Pure R — 8,387 (10%)",
+      "UNC – Lapsed R — 7,491 (9%)",
+      "Mixed – Active — 9,607 (11%)",
+      "Mixed – Lapsed — 4,387 (5%)",
+      "Minor Party — 195 (0%)",
+      "UNC – Non-partisan Ballot — 4,121 (5%)",
+      "UNC – No Primary — 30,112 (35%)",
+      "UNC – Lapsed D — 11,076 (13%)",
+      "Pure D — 10,658 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          8606,
-          7195,
-          9226,
-          8817,
-          30626,
-          12315,
-          8486
+          8387,
+          7491,
+          9607,
+          4387,
+          195,
+          4121,
+          30112,
+          11076,
+          10658
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "BEREA (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

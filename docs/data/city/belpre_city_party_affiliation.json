@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,047 (23%)",
-      "UNC – Lapsed R — 325 (7%)",
-      "Mixed – Active — 496 (11%)",
-      "Mixed – Lapsed — 464 (10%)",
-      "UNC – No Primary — 1,713 (38%)",
-      "UNC – Lapsed D — 275 (6%)",
-      "Pure D — 244 (5%)"
+      "Pure R — 873 (19%)",
+      "UNC – Lapsed R — 510 (11%)",
+      "Mixed – Active — 435 (9%)",
+      "Mixed – Lapsed — 174 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 331 (7%)",
+      "UNC – No Primary — 1,729 (38%)",
+      "UNC – Lapsed D — 301 (7%)",
+      "Pure D — 249 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1047,
-          325,
-          496,
-          464,
-          1713,
-          275,
-          244
+          873,
+          510,
+          435,
+          174,
+          2,
+          331,
+          1729,
+          301,
+          249
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BELPRE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

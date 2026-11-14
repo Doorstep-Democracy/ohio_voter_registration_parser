@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 916 (5%)",
-      "UNC – Lapsed R — 851 (4%)",
-      "Mixed – Active — 2,287 (12%)",
-      "Mixed – Lapsed — 1,216 (6%)",
-      "UNC – No Primary — 7,204 (38%)",
-      "UNC – Lapsed D — 3,491 (18%)",
-      "Pure D — 3,040 (16%)"
+      "Pure R — 886 (5%)",
+      "UNC – Lapsed R — 931 (5%)",
+      "Mixed – Active — 2,253 (12%)",
+      "Mixed – Lapsed — 932 (5%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 409 (2%)",
+      "UNC – No Primary — 7,196 (38%)",
+      "UNC – Lapsed D — 3,562 (19%)",
+      "Pure D — 2,864 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          916,
-          851,
-          2287,
-          1216,
-          7204,
-          3491,
-          3040
+          886,
+          931,
+          2253,
+          932,
+          19,
+          409,
+          7196,
+          3562,
+          2864
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "NILES (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

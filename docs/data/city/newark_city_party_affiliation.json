@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,201 (13%)",
-      "UNC – Lapsed R — 3,324 (11%)",
-      "Mixed – Active — 2,243 (7%)",
-      "Mixed – Lapsed — 2,051 (7%)",
-      "UNC – No Primary — 14,642 (47%)",
-      "UNC – Lapsed D — 3,241 (10%)",
-      "Pure D — 1,435 (5%)"
+      "Pure R — 4,058 (13%)",
+      "UNC – Lapsed R — 3,546 (11%)",
+      "Mixed – Active — 2,337 (7%)",
+      "Mixed – Lapsed — 1,326 (4%)",
+      "Minor Party — 62 (0%)",
+      "UNC – Non-partisan Ballot — 750 (2%)",
+      "UNC – No Primary — 14,495 (46%)",
+      "UNC – Lapsed D — 2,956 (9%)",
+      "Pure D — 1,942 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          4201,
-          3324,
-          2243,
-          2051,
-          14642,
-          3241,
-          1435
+          4058,
+          3546,
+          2337,
+          1326,
+          62,
+          750,
+          14495,
+          2956,
+          1942
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NEWARK CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

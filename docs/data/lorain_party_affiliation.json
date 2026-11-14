@@ -3,14 +3,15 @@
   "county": "Lorain",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          20256,
-          18628,
-          21180,
-          9649,
-          7904,
-          81702,
-          28567,
-          26636
+          20082,
+          18680,
+          20996,
+          9683,
+          407,
+          7827,
+          84610,
+          28629,
+          26336
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 813,
-    "new_registrants_d": 1568,
-    "new_registrants_unc": 22531
+    "new_registrants_r": 801,
+    "new_registrants_d": 1523,
+    "new_registrants_unc": 25989
   }
 }

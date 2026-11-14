@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 78 (17%)",
-      "UNC – Lapsed R — 78 (17%)",
-      "Mixed – Active — 28 (6%)",
-      "Mixed – Lapsed — 30 (6%)",
-      "UNC – No Primary — 188 (40%)",
-      "UNC – Lapsed D — 51 (11%)",
+      "Pure R — 80 (17%)",
+      "UNC – Lapsed R — 87 (18%)",
+      "Mixed – Active — 29 (6%)",
+      "Mixed – Lapsed — 18 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 14 (3%)",
+      "UNC – No Primary — 181 (38%)",
+      "UNC – Lapsed D — 48 (10%)",
       "Pure D — 17 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          78,
-          78,
-          28,
-          30,
-          188,
-          51,
+          80,
+          87,
+          29,
+          18,
+          0,
+          14,
+          181,
+          48,
           17
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

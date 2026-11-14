@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 148 (28%)",
-      "UNC – Lapsed R — 78 (15%)",
-      "Mixed – Active — 54 (10%)",
-      "Mixed – Lapsed — 31 (6%)",
-      "UNC – No Primary — 170 (32%)",
-      "UNC – Lapsed D — 39 (7%)",
-      "Pure D — 15 (3%)"
+      "Pure R — 138 (26%)",
+      "UNC – Lapsed R — 89 (17%)",
+      "Mixed – Active — 65 (12%)",
+      "Mixed – Lapsed — 16 (3%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 7 (1%)",
+      "UNC – No Primary — 167 (31%)",
+      "UNC – Lapsed D — 32 (6%)",
+      "Pure D — 17 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          148,
-          78,
-          54,
-          31,
-          170,
-          39,
-          15
+          138,
+          89,
+          65,
+          16,
+          3,
+          7,
+          167,
+          32,
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DUDLEY TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

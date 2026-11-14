@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 415 (18%)",
-      "UNC – Lapsed R — 296 (13%)",
-      "Mixed – Active — 185 (8%)",
-      "Mixed – Lapsed — 236 (10%)",
-      "UNC – No Primary — 796 (34%)",
-      "UNC – Lapsed D — 299 (13%)",
-      "Pure D — 125 (5%)"
+      "Pure R — 432 (18%)",
+      "UNC – Lapsed R — 299 (13%)",
+      "Mixed – Active — 201 (9%)",
+      "Mixed – Lapsed — 81 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 148 (6%)",
+      "UNC – No Primary — 757 (32%)",
+      "UNC – Lapsed D — 251 (11%)",
+      "Pure D — 175 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          415,
-          296,
-          185,
-          236,
-          796,
+          432,
           299,
-          125
+          201,
+          81,
+          5,
+          148,
+          757,
+          251,
+          175
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WOODVILLE TOWNSHIP (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

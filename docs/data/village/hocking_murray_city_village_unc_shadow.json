@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 12",
+      "UNC – Lapsed R — 16",
       "Mixed – Active — 9",
-      "Mixed – Lapsed — 13",
-      "UNC – No Primary — 100",
-      "UNC – Lapsed D — 42"
+      "Mixed – Lapsed — 8",
+      "UNC – Non-partisan Ballot — 6",
+      "UNC – No Primary — 104",
+      "UNC – Lapsed D — 40"
     ],
     "datasets": [
       {
         "data": [
-          12,
+          16,
           9,
-          13,
-          100,
-          42
+          8,
+          6,
+          104,
+          40
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "MURRAY CITY VILLAGE (Hocking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

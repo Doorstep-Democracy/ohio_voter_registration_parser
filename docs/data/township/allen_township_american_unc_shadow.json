@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,252",
-      "Mixed – Active — 618",
-      "Mixed – Lapsed — 860",
-      "UNC – No Primary — 3,619",
-      "UNC – Lapsed D — 826"
+      "UNC – Lapsed R — 1,626",
+      "Mixed – Active — 569",
+      "Mixed – Lapsed — 364",
+      "UNC – Non-partisan Ballot — 511",
+      "UNC – No Primary — 3,714",
+      "UNC – Lapsed D — 808"
     ],
     "datasets": [
       {
         "data": [
-          1252,
-          618,
-          860,
-          3619,
-          826
+          1626,
+          569,
+          364,
+          511,
+          3714,
+          808
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Township American (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

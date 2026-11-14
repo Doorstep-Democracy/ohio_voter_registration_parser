@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 33",
+      "UNC – Lapsed R — 36",
       "Mixed – Active — 33",
-      "Mixed – Lapsed — 17",
-      "UNC – No Primary — 96",
-      "UNC – Lapsed D — 20"
+      "Mixed – Lapsed — 16",
+      "UNC – Non-partisan Ballot — 3",
+      "UNC – No Primary — 92",
+      "UNC – Lapsed D — 24"
     ],
     "datasets": [
       {
         "data": [
+          36,
           33,
-          33,
-          17,
-          96,
-          20
+          16,
+          3,
+          92,
+          24
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MOOREFIELD TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

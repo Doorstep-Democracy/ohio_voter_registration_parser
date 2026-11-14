@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 130",
-      "Mixed – Active — 48",
-      "Mixed – Lapsed — 47",
-      "UNC – No Primary — 338",
-      "UNC – Lapsed D — 62"
+      "UNC – Lapsed R — 137",
+      "Mixed – Active — 46",
+      "Mixed – Lapsed — 48",
+      "UNC – Non-partisan Ballot — 3",
+      "UNC – No Primary — 334",
+      "UNC – Lapsed D — 54"
     ],
     "datasets": [
       {
         "data": [
-          130,
+          137,
+          46,
           48,
-          47,
-          338,
-          62
+          3,
+          334,
+          54
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BLOOMFIELD TWP (Jackson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

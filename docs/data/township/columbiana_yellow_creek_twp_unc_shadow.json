@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 95",
-      "Mixed – Active — 180",
-      "Mixed – Lapsed — 96",
-      "UNC – No Primary — 497",
-      "UNC – Lapsed D — 163"
+      "UNC – Lapsed R — 108",
+      "Mixed – Active — 166",
+      "Mixed – Lapsed — 76",
+      "UNC – Non-partisan Ballot — 28",
+      "UNC – No Primary — 495",
+      "UNC – Lapsed D — 164"
     ],
     "datasets": [
       {
         "data": [
-          95,
-          180,
-          96,
-          497,
-          163
+          108,
+          166,
+          76,
+          28,
+          495,
+          164
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "YELLOW CREEK TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 581 (10%)",
-      "UNC – Lapsed R — 544 (9%)",
-      "Mixed – Active — 782 (14%)",
-      "Mixed – Lapsed — 485 (8%)",
-      "UNC – No Primary — 2,015 (35%)",
-      "UNC – Lapsed D — 913 (16%)",
-      "Pure D — 441 (8%)"
+      "Pure R — 627 (11%)",
+      "UNC – Lapsed R — 555 (10%)",
+      "Mixed – Active — 853 (15%)",
+      "Mixed – Lapsed — 354 (6%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 82 (1%)",
+      "UNC – No Primary — 1,987 (34%)",
+      "UNC – Lapsed D — 849 (15%)",
+      "Pure D — 471 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          581,
-          544,
-          782,
-          485,
-          2015,
-          913,
-          441
+          627,
+          555,
+          853,
+          354,
+          17,
+          82,
+          1987,
+          849,
+          471
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CROSS CREEK TWP (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

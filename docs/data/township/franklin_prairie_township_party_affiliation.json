@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,148 (10%)",
-      "UNC – Lapsed R — 1,072 (10%)",
-      "Mixed – Active — 619 (6%)",
-      "Mixed – Lapsed — 866 (8%)",
-      "UNC – No Primary — 5,627 (50%)",
-      "UNC – Lapsed D — 1,229 (11%)",
-      "Pure D — 625 (6%)"
+      "Pure R — 1,208 (11%)",
+      "UNC – Lapsed R — 1,061 (9%)",
+      "Mixed – Active — 729 (6%)",
+      "Mixed – Lapsed — 331 (3%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 434 (4%)",
+      "UNC – No Primary — 5,625 (49%)",
+      "UNC – Lapsed D — 1,045 (9%)",
+      "Pure D — 953 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1148,
-          1072,
-          619,
-          866,
-          5627,
-          1229,
-          625
+          1208,
+          1061,
+          729,
+          331,
+          41,
+          434,
+          5625,
+          1045,
+          953
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Prairie Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

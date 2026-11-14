@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 259 (8%)",
-      "UNC – Lapsed R — 322 (11%)",
-      "Mixed – Active — 293 (10%)",
-      "Mixed – Lapsed — 309 (10%)",
-      "UNC – No Primary — 1,039 (34%)",
-      "UNC – Lapsed D — 452 (15%)",
-      "Pure D — 392 (13%)"
+      "Pure R — 255 (8%)",
+      "UNC – Lapsed R — 323 (10%)",
+      "Mixed – Active — 289 (9%)",
+      "Mixed – Lapsed — 236 (8%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 72 (2%)",
+      "UNC – No Primary — 1,063 (35%)",
+      "UNC – Lapsed D — 454 (15%)",
+      "Pure D — 385 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          259,
-          322,
-          293,
-          309,
-          1039,
-          452,
-          392
+          255,
+          323,
+          289,
+          236,
+          4,
+          72,
+          1063,
+          454,
+          385
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MORELAND HILLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

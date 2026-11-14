@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 158 (25%)",
-      "UNC – Lapsed R — 60 (9%)",
-      "Mixed – Active — 73 (11%)",
-      "Mixed – Lapsed — 34 (5%)",
-      "UNC – No Primary — 237 (37%)",
-      "UNC – Lapsed D — 52 (8%)",
-      "Pure D — 22 (3%)"
+      "Pure R — 137 (22%)",
+      "UNC – Lapsed R — 78 (12%)",
+      "Mixed – Active — 66 (11%)",
+      "Mixed – Lapsed — 30 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 8 (1%)",
+      "UNC – No Primary — 235 (38%)",
+      "UNC – Lapsed D — 50 (8%)",
+      "Pure D — 22 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          158,
-          60,
-          73,
-          34,
-          237,
-          52,
+          137,
+          78,
+          66,
+          30,
+          0,
+          8,
+          235,
+          50,
           22
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MILLWOOD TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

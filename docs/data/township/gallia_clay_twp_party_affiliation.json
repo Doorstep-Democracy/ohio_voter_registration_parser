@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 327 (29%)",
-      "UNC – Lapsed R — 152 (14%)",
-      "Mixed – Active — 117 (10%)",
-      "Mixed – Lapsed — 46 (4%)",
+      "Pure R — 306 (27%)",
+      "UNC – Lapsed R — 181 (16%)",
+      "Mixed – Active — 111 (10%)",
+      "Mixed – Lapsed — 53 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 3 (0%)",
       "UNC – No Primary — 373 (33%)",
-      "UNC – Lapsed D — 82 (7%)",
-      "Pure D — 21 (2%)"
+      "UNC – Lapsed D — 69 (6%)",
+      "Pure D — 31 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          327,
-          152,
-          117,
-          46,
+          306,
+          181,
+          111,
+          53,
+          1,
+          3,
           373,
-          82,
-          21
+          69,
+          31
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLAY TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

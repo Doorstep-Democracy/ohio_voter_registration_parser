@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          42,
-          159,
-          322,
-          272,
+          41,
+          155,
+          321,
+          271,
           209,
           168,
           94,
-          73
+          68
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          19,
-          45,
-          107,
-          171,
-          164,
-          200,
-          90,
-          30
+          20,
+          44,
+          108,
+          168,
+          155,
+          202,
+          92,
+          31
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          8,
-          55,
-          89,
+          9,
+          54,
+          90,
           80,
-          49,
-          44,
-          8,
+          50,
+          45,
+          9,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          9,
-          25,
-          53,
-          79,
-          98,
-          127,
-          45,
-          23
+          0,
+          6,
+          17,
+          36,
+          36,
+          24,
+          41,
+          4,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          2,
+          2,
+          2,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          6,
+          16,
+          40,
+          74,
+          88,
+          41,
+          20
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           8,
-          32,
-          76,
-          164,
-          214,
-          336,
-          402,
-          430
+          34,
+          72,
+          159,
+          207,
+          321,
+          387,
+          441
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -100,11 +132,11 @@
           1,
           7,
           18,
-          29,
+          27,
           36,
           60,
           67,
-          39,
+          38,
           7
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          4,
+          2,
           20,
           37,
           17,
           20,
           16,
           28,
-          17
+          14
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Liberty-Benton Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

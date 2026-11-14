@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,14 +16,13 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          2,
-          3,
-          3,
+          1,
           5,
-          9,
-          3,
-          2,
+          4,
+          5,
+          8,
+          4,
+          1,
           2
         ],
         "backgroundColor": "#ef4444",
@@ -34,13 +32,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          0,
-          4,
           2,
-          2,
-          3,
           1,
+          2,
           5,
+          3,
+          6,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -51,8 +48,7 @@
         "data": [
           0,
           0,
-          0,
-          8,
+          6,
           2,
           2,
           1,
@@ -66,30 +62,58 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          2,
+          1,
+          1,
+          1,
+          1,
           0,
-          2,
-          2,
-          1,
-          1,
-          2,
-          1,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          0,
           3,
-          5,
-          11,
-          17,
-          14,
+          4,
+          12,
+          16,
+          16,
           21,
-          30
+          34
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,12 +121,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
           2,
-          4,
+          3,
           5,
           11,
-          4,
+          3,
           0,
           1,
           0
@@ -113,23 +136,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           3,
-          1,
+          2,
           0,
           1,
-          0,
           1,
           1,
-          0
+          1,
+          1
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ADELPHI VILLAGE (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

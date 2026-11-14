@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,115 (13%)",
-      "UNC – Lapsed R — 4,244 (11%)",
-      "Mixed – Active — 4,011 (10%)",
-      "Mixed – Lapsed — 3,591 (9%)",
-      "UNC – No Primary — 14,590 (37%)",
-      "UNC – Lapsed D — 5,690 (14%)",
-      "Pure D — 2,611 (7%)"
+      "Pure R — 5,715 (14%)",
+      "UNC – Lapsed R — 4,003 (10%)",
+      "Mixed – Active — 4,721 (12%)",
+      "Mixed – Lapsed — 2,003 (5%)",
+      "Minor Party — 88 (0%)",
+      "UNC – Non-partisan Ballot — 1,270 (3%)",
+      "UNC – No Primary — 13,618 (34%)",
+      "UNC – Lapsed D — 4,568 (11%)",
+      "Pure D — 4,223 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          5115,
-          4244,
-          4011,
-          3591,
-          14590,
-          5690,
-          2611
+          5715,
+          4003,
+          4721,
+          2003,
+          88,
+          1270,
+          13618,
+          4568,
+          4223
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "MENTOR (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

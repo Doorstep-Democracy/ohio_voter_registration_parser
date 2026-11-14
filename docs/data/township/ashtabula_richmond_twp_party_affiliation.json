@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 101 (18%)",
-      "UNC – Lapsed R — 52 (9%)",
-      "Mixed – Active — 47 (9%)",
-      "Mixed – Lapsed — 40 (7%)",
-      "UNC – No Primary — 235 (43%)",
-      "UNC – Lapsed D — 46 (8%)",
-      "Pure D — 29 (5%)"
+      "Pure R — 89 (16%)",
+      "UNC – Lapsed R — 69 (12%)",
+      "Mixed – Active — 49 (9%)",
+      "Mixed – Lapsed — 16 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 21 (4%)",
+      "UNC – No Primary — 227 (41%)",
+      "UNC – Lapsed D — 45 (8%)",
+      "Pure D — 36 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          101,
-          52,
-          47,
-          40,
-          235,
-          46,
-          29
+          89,
+          69,
+          49,
+          16,
+          1,
+          21,
+          227,
+          45,
+          36
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RICHMOND TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

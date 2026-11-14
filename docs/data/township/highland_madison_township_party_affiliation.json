@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 561 (16%)",
-      "UNC – Lapsed R — 389 (11%)",
-      "Mixed – Active — 229 (7%)",
-      "Mixed – Lapsed — 193 (5%)",
-      "UNC – No Primary — 1,702 (48%)",
-      "UNC – Lapsed D — 327 (9%)",
-      "Pure D — 109 (3%)"
+      "Pure R — 583 (17%)",
+      "UNC – Lapsed R — 400 (11%)",
+      "Mixed – Active — 247 (7%)",
+      "Mixed – Lapsed — 111 (3%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 56 (2%)",
+      "UNC – No Primary — 1,657 (47%)",
+      "UNC – Lapsed D — 290 (8%)",
+      "Pure D — 151 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          561,
-          389,
-          229,
-          193,
-          1702,
-          327,
-          109
+          583,
+          400,
+          247,
+          111,
+          7,
+          56,
+          1657,
+          290,
+          151
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

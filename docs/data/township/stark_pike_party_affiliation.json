@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 459 (17%)",
-      "UNC – Lapsed R — 247 (9%)",
-      "Mixed – Active — 274 (10%)",
-      "Mixed – Lapsed — 193 (7%)",
-      "UNC – No Primary — 987 (37%)",
-      "UNC – Lapsed D — 310 (12%)",
-      "Pure D — 176 (7%)"
+      "Pure R — 442 (17%)",
+      "UNC – Lapsed R — 280 (11%)",
+      "Mixed – Active — 280 (11%)",
+      "Mixed – Lapsed — 120 (5%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 77 (3%)",
+      "UNC – No Primary — 970 (37%)",
+      "UNC – Lapsed D — 273 (10%)",
+      "Pure D — 198 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          459,
-          247,
-          274,
-          193,
-          987,
-          310,
-          176
+          442,
+          280,
+          280,
+          120,
+          5,
+          77,
+          970,
+          273,
+          198
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PIKE (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

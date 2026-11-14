@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 20 (5%)",
-      "UNC – Lapsed R — 28 (7%)",
-      "Mixed – Active — 51 (13%)",
-      "Mixed – Lapsed — 18 (5%)",
-      "UNC – No Primary — 171 (44%)",
-      "UNC – Lapsed D — 62 (16%)",
-      "Pure D — 37 (10%)"
+      "Pure R — 21 (5%)",
+      "UNC – Lapsed R — 27 (7%)",
+      "Mixed – Active — 47 (12%)",
+      "Mixed – Lapsed — 16 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 9 (2%)",
+      "UNC – No Primary — 167 (43%)",
+      "UNC – Lapsed D — 58 (15%)",
+      "Pure D — 41 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          20,
-          28,
-          51,
-          18,
-          171,
-          62,
-          37
+          21,
+          27,
+          47,
+          16,
+          1,
+          9,
+          167,
+          58,
+          41
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "YORKVILLE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

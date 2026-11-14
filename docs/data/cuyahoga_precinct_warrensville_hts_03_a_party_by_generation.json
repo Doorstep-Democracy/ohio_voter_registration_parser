@@ -4,7 +4,7 @@
   "precinct": "WARRENSVILLE HTS-03-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
           2,
-          9,
-          3,
+          10,
+          2,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          39,
+          40,
           85,
-          170,
-          128
+          166,
+          142
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          26,
+          25,
           81,
-          83,
+          86,
           44,
-          6
+          8
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,11 +122,11 @@
       {
         "label": "Pure D",
         "data": [
-          37,
-          99,
-          55,
-          16,
-          5
+          36,
+          97,
+          53,
+          17,
+          4
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

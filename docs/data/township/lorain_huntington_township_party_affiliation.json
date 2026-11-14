@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 200 (21%)",
-      "UNC – Lapsed R — 88 (9%)",
-      "Mixed – Active — 112 (12%)",
-      "Mixed – Lapsed — 101 (11%)",
-      "UNC – No Primary — 320 (34%)",
-      "UNC – Lapsed D — 79 (8%)",
-      "Pure D — 54 (6%)"
+      "Pure R — 199 (21%)",
+      "UNC – Lapsed R — 103 (11%)",
+      "Mixed – Active — 105 (11%)",
+      "Mixed – Lapsed — 42 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 65 (7%)",
+      "UNC – No Primary — 317 (33%)",
+      "UNC – Lapsed D — 69 (7%)",
+      "Pure D — 55 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          200,
-          88,
-          112,
-          101,
-          320,
-          79,
-          54
+          199,
+          103,
+          105,
+          42,
+          3,
+          65,
+          317,
+          69,
+          55
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HUNTINGTON TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

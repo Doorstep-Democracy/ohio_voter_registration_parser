@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 829",
-      "Mixed – Active — 1,198",
-      "Mixed – Lapsed — 787",
-      "UNC – No Primary — 4,179",
-      "UNC – Lapsed D — 1,148"
+      "UNC – Lapsed R — 950",
+      "Mixed – Active — 1,180",
+      "Mixed – Lapsed — 515",
+      "UNC – Non-partisan Ballot — 289",
+      "UNC – No Primary — 4,135",
+      "UNC – Lapsed D — 1,069"
     ],
     "datasets": [
       {
         "data": [
-          829,
-          1198,
-          787,
-          4179,
-          1148
+          950,
+          1180,
+          515,
+          289,
+          4135,
+          1069
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PERRY TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

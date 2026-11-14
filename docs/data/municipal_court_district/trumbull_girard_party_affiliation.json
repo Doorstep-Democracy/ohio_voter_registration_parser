@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,897 (7%)",
-      "UNC – Lapsed R — 1,135 (4%)",
-      "Mixed – Active — 3,463 (13%)",
-      "Mixed – Lapsed — 1,552 (6%)",
-      "UNC – No Primary — 9,677 (36%)",
-      "UNC – Lapsed D — 4,533 (17%)",
-      "Pure D — 4,453 (17%)"
+      "Pure R — 1,841 (7%)",
+      "UNC – Lapsed R — 1,244 (5%)",
+      "Mixed – Active — 3,415 (13%)",
+      "Mixed – Lapsed — 1,173 (4%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 606 (2%)",
+      "UNC – No Primary — 9,720 (36%)",
+      "UNC – Lapsed D — 4,767 (18%)",
+      "Pure D — 4,185 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          1897,
-          1135,
-          3463,
-          1552,
-          9677,
-          4533,
-          4453
+          1841,
+          1244,
+          3415,
+          1173,
+          41,
+          606,
+          9720,
+          4767,
+          4185
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "GIRARD (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

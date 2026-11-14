@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 633 (19%)",
+      "Pure R — 632 (18%)",
       "UNC – Lapsed R — 400 (12%)",
-      "Mixed – Active — 336 (10%)",
-      "Mixed – Lapsed — 289 (9%)",
-      "UNC – No Primary — 1,145 (34%)",
-      "UNC – Lapsed D — 364 (11%)",
+      "Mixed – Active — 334 (10%)",
+      "Mixed – Lapsed — 180 (5%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 105 (3%)",
+      "UNC – No Primary — 1,179 (34%)",
+      "UNC – Lapsed D — 369 (11%)",
       "Pure D — 232 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          633,
+          632,
           400,
-          336,
-          289,
-          1145,
-          364,
+          334,
+          180,
+          5,
+          105,
+          1179,
+          369,
           232
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Brown Local Sd (Carroll Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

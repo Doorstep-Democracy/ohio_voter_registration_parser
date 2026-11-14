@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,340 (18%)",
-      "UNC – Lapsed R — 1,190 (16%)",
-      "Mixed – Active — 533 (7%)",
-      "Mixed – Lapsed — 683 (9%)",
-      "UNC – No Primary — 2,903 (40%)",
-      "UNC – Lapsed D — 482 (7%)",
-      "Pure D — 178 (2%)"
+      "Pure R — 1,459 (20%)",
+      "UNC – Lapsed R — 1,206 (16%)",
+      "Mixed – Active — 558 (8%)",
+      "Mixed – Lapsed — 326 (4%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 303 (4%)",
+      "UNC – No Primary — 2,836 (39%)",
+      "UNC – Lapsed D — 453 (6%)",
+      "Pure D — 202 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1340,
-          1190,
-          533,
-          683,
-          2903,
-          482,
-          178
+          1459,
+          1206,
+          558,
+          326,
+          19,
+          303,
+          2836,
+          453,
+          202
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ST MARYS TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

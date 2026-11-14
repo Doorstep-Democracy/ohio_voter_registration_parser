@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 507 (13%)",
-      "UNC – Lapsed R — 509 (13%)",
-      "Mixed – Active — 267 (7%)",
-      "Mixed – Lapsed — 425 (11%)",
-      "UNC – No Primary — 1,491 (38%)",
-      "UNC – Lapsed D — 434 (11%)",
-      "Pure D — 262 (7%)"
+      "Pure R — 560 (13%)",
+      "UNC – Lapsed R — 519 (12%)",
+      "Mixed – Active — 340 (8%)",
+      "Mixed – Lapsed — 192 (5%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 187 (4%)",
+      "UNC – No Primary — 1,588 (37%)",
+      "UNC – Lapsed D — 400 (9%)",
+      "Pure D — 446 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          507,
-          509,
-          267,
-          425,
-          1491,
-          434,
-          262
+          560,
+          519,
+          340,
+          192,
+          9,
+          187,
+          1588,
+          400,
+          446
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Brown Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

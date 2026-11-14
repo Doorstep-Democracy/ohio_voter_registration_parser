@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 158 (16%)",
-      "UNC – Lapsed R — 109 (11%)",
-      "Mixed – Active — 61 (6%)",
+      "Pure R — 157 (16%)",
+      "UNC – Lapsed R — 111 (11%)",
+      "Mixed – Active — 62 (6%)",
       "Mixed – Lapsed — 32 (3%)",
-      "UNC – Non-partisan Ballot — 49 (5%)",
-      "UNC – No Primary — 447 (45%)",
-      "UNC – Lapsed D — 80 (8%)",
-      "Pure D — 47 (5%)"
+      "Minor Party — 5 (1%)",
+      "UNC – Non-partisan Ballot — 46 (5%)",
+      "UNC – No Primary — 457 (46%)",
+      "UNC – Lapsed D — 78 (8%)",
+      "Pure D — 46 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          158,
-          109,
-          61,
+          157,
+          111,
+          62,
           32,
-          49,
-          447,
-          80,
-          47
+          5,
+          46,
+          457,
+          78,
+          46
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "WILLARD 4TH WARD (WILLARD City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

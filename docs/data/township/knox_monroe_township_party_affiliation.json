@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 469 (25%)",
-      "UNC – Lapsed R — 230 (12%)",
-      "Mixed – Active — 150 (8%)",
-      "Mixed – Lapsed — 119 (6%)",
-      "UNC – No Primary — 713 (38%)",
-      "UNC – Lapsed D — 154 (8%)",
-      "Pure D — 59 (3%)"
+      "Pure R — 480 (25%)",
+      "UNC – Lapsed R — 240 (12%)",
+      "Mixed – Active — 165 (8%)",
+      "Mixed – Lapsed — 59 (3%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 55 (3%)",
+      "UNC – No Primary — 719 (37%)",
+      "UNC – Lapsed D — 133 (7%)",
+      "Pure D — 98 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          469,
-          230,
-          150,
-          119,
-          713,
-          154,
-          59
+          480,
+          240,
+          165,
+          59,
+          7,
+          55,
+          719,
+          133,
+          98
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONROE TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

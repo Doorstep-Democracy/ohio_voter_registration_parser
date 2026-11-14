@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 89 (10%)",
-      "UNC – Lapsed R — 49 (6%)",
-      "Mixed – Active — 84 (10%)",
-      "Mixed – Lapsed — 52 (6%)",
-      "UNC – No Primary — 284 (33%)",
-      "UNC – Lapsed D — 158 (18%)",
-      "Pure D — 141 (16%)"
+      "Pure R — 88 (10%)",
+      "UNC – Lapsed R — 52 (6%)",
+      "Mixed – Active — 82 (10%)",
+      "Mixed – Lapsed — 40 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 14 (2%)",
+      "UNC – No Primary — 281 (33%)",
+      "UNC – Lapsed D — 147 (17%)",
+      "Pure D — 153 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          89,
-          49,
-          84,
+          88,
           52,
-          284,
-          158,
-          141
+          82,
+          40,
+          0,
+          14,
+          281,
+          147,
+          153
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "AMES TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

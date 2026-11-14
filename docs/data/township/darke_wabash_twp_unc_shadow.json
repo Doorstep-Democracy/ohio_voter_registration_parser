@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 79",
-      "Mixed – Active — 77",
-      "Mixed – Lapsed — 44",
-      "UNC – No Primary — 152",
-      "UNC – Lapsed D — 21"
+      "UNC – Lapsed R — 133",
+      "Mixed – Active — 68",
+      "Mixed – Lapsed — 41",
+      "UNC – Non-partisan Ballot — 10",
+      "UNC – No Primary — 157",
+      "UNC – Lapsed D — 19"
     ],
     "datasets": [
       {
         "data": [
-          79,
-          77,
-          44,
-          152,
-          21
+          133,
+          68,
+          41,
+          10,
+          157,
+          19
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WABASH TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

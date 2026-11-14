@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,220 (16%)",
-      "UNC – Lapsed R — 777 (10%)",
-      "Mixed – Active — 1,000 (13%)",
-      "Mixed – Lapsed — 620 (8%)",
-      "UNC – No Primary — 2,669 (35%)",
-      "UNC – Lapsed D — 830 (11%)",
-      "Pure D — 515 (7%)"
+      "Pure R — 1,211 (16%)",
+      "UNC – Lapsed R — 776 (10%)",
+      "Mixed – Active — 993 (13%)",
+      "Mixed – Lapsed — 332 (4%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 282 (4%)",
+      "UNC – No Primary — 2,704 (35%)",
+      "UNC – Lapsed D — 823 (11%)",
+      "Pure D — 512 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1220,
-          777,
-          1000,
-          620,
-          2669,
-          830,
-          515
+          1211,
+          776,
+          993,
+          332,
+          9,
+          282,
+          2704,
+          823,
+          512
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Southeast Local Sd (Portage Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

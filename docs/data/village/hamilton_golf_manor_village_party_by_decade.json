@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          3,
+          2,
           12,
-          16,
-          16,
-          9,
-          11,
+          14,
           15,
-          3
+          5,
+          12,
+          12,
+          6
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          4,
           5,
-          11,
-          14,
-          4,
-          11,
-          22,
+          6,
+          13,
+          16,
+          8,
+          15,
+          25,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -51,10 +51,10 @@
         "data": [
           0,
           1,
-          19,
-          22,
-          10,
-          11,
+          17,
+          20,
+          13,
+          16,
           6,
           4,
           0
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          6,
-          9,
-          10,
-          22,
-          17,
-          26,
+          4,
+          7,
+          7,
+          11,
           8,
-          1
+          7,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          8,
+          15,
+          5,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           1,
           3,
-          24,
-          66,
-          129,
-          186,
-          301,
-          422,
-          250
+          21,
+          58,
+          124,
+          180,
+          290,
+          411,
+          306
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          12,
-          57,
-          119,
-          138,
-          129,
-          148,
+          11,
+          58,
+          99,
+          112,
+          110,
+          139,
           69,
-          5
+          4
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
+          0,
           3,
+          46,
+          120,
+          88,
           49,
-          94,
-          58,
-          27,
-          45,
-          29,
-          8
+          71,
+          49,
+          16
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "GOLF MANOR VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,705 (18%)",
-      "UNC – Lapsed R — 4,794 (18%)",
-      "Mixed – Active — 1,664 (6%)",
-      "Mixed – Lapsed — 2,571 (10%)",
-      "UNC – No Primary — 10,008 (37%)",
-      "UNC – Lapsed D — 2,273 (8%)",
-      "Pure D — 803 (3%)"
+      "Pure R — 4,445 (16%)",
+      "UNC – Lapsed R — 5,115 (19%)",
+      "Mixed – Active — 1,794 (7%)",
+      "Mixed – Lapsed — 1,300 (5%)",
+      "Minor Party — 38 (0%)",
+      "UNC – Non-partisan Ballot — 1,165 (4%)",
+      "UNC – No Primary — 10,006 (37%)",
+      "UNC – Lapsed D — 2,102 (8%)",
+      "Pure D — 1,210 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          4705,
-          4794,
-          1664,
-          2571,
-          10008,
-          2273,
-          803
+          4445,
+          5115,
+          1794,
+          1300,
+          38,
+          1165,
+          10006,
+          2102,
+          1210
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SPRINGBORO COMMUNITY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

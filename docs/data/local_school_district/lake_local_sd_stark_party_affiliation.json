@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,910 (27%)",
-      "UNC – Lapsed R — 1,299 (9%)",
-      "Mixed – Active — 1,683 (12%)",
-      "Mixed – Lapsed — 1,520 (10%)",
-      "UNC – No Primary — 3,754 (26%)",
-      "UNC – Lapsed D — 978 (7%)",
-      "Pure D — 1,454 (10%)"
+      "Pure R — 3,867 (26%)",
+      "UNC – Lapsed R — 1,324 (9%)",
+      "Mixed – Active — 1,663 (11%)",
+      "Mixed – Lapsed — 448 (3%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 1,077 (7%)",
+      "UNC – No Primary — 3,903 (27%)",
+      "UNC – Lapsed D — 969 (7%)",
+      "Pure D — 1,431 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          3910,
-          1299,
-          1683,
-          1520,
-          3754,
-          978,
-          1454
+          3867,
+          1324,
+          1663,
+          448,
+          13,
+          1077,
+          3903,
+          969,
+          1431
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lake Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

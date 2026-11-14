@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 421 (29%)",
-      "UNC – Lapsed R — 286 (20%)",
-      "Mixed – Active — 72 (5%)",
-      "Mixed – Lapsed — 82 (6%)",
-      "UNC – No Primary — 494 (34%)",
-      "UNC – Lapsed D — 76 (5%)",
-      "Pure D — 35 (2%)"
+      "Pure R — 345 (24%)",
+      "UNC – Lapsed R — 360 (25%)",
+      "Mixed – Active — 65 (4%)",
+      "Mixed – Lapsed — 33 (2%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 52 (4%)",
+      "UNC – No Primary — 480 (33%)",
+      "UNC – Lapsed D — 72 (5%)",
+      "Pure D — 43 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          421,
-          286,
+          345,
+          360,
+          65,
+          33,
+          1,
+          52,
+          480,
           72,
-          82,
-          494,
-          76,
-          35
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Township Amanda (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

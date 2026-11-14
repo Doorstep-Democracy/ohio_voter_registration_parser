@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,068 (23%)",
-      "UNC – Lapsed R — 430 (9%)",
-      "Mixed – Active — 407 (9%)",
-      "Mixed – Lapsed — 367 (8%)",
-      "UNC – No Primary — 1,845 (40%)",
-      "UNC – Lapsed D — 292 (6%)",
-      "Pure D — 217 (5%)"
+      "Pure R — 730 (16%)",
+      "UNC – Lapsed R — 795 (17%)",
+      "Mixed – Active — 309 (7%)",
+      "Mixed – Lapsed — 236 (5%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 232 (5%)",
+      "UNC – No Primary — 1,856 (40%)",
+      "UNC – Lapsed D — 338 (7%)",
+      "Pure D — 180 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1068,
-          430,
-          407,
-          367,
-          1845,
-          292,
-          217
+          730,
+          795,
+          309,
+          236,
+          9,
+          232,
+          1856,
+          338,
+          180
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WAUSEON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

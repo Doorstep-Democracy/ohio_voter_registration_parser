@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 61,890 (7%)",
-      "UNC – Lapsed R — 67,543 (8%)",
-      "Mixed – Active — 42,232 (5%)",
-      "Mixed – Lapsed — 56,082 (6%)",
-      "UNC – No Primary — 442,258 (50%)",
-      "UNC – Lapsed D — 127,543 (14%)",
-      "Pure D — 87,744 (10%)"
+      "Pure R — 55,836 (6%)",
+      "UNC – Lapsed R — 71,887 (8%)",
+      "Mixed – Active — 45,534 (5%)",
+      "Mixed – Lapsed — 27,272 (3%)",
+      "Minor Party — 1,689 (0%)",
+      "UNC – Non-partisan Ballot — 25,747 (3%)",
+      "UNC – No Primary — 444,013 (49%)",
+      "UNC – Lapsed D — 118,333 (13%)",
+      "Pure D — 115,443 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          61890,
-          67543,
-          42232,
-          56082,
-          442258,
-          127543,
-          87744
+          55836,
+          71887,
+          45534,
+          27272,
+          1689,
+          25747,
+          444013,
+          118333,
+          115443
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Court of Appeals District",
   "jurisdiction_name": "10",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

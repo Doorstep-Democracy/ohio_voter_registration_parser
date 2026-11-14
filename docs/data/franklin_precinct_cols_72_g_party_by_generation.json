@@ -4,7 +4,7 @@
   "precinct": "COLS 72-G",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,8 +19,8 @@
         "label": "Pure R",
         "data": [
           4,
-          42,
-          20,
+          41,
+          18,
           6,
           7
         ],
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          5,
           22,
           42,
-          39,
+          38,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -45,8 +45,8 @@
         "label": "Mixed – Active",
         "data": [
           4,
-          42,
-          15,
+          41,
+          14,
           15,
           0
         ],
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          5,
-          15,
+          4,
+          14,
           11,
           3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          17,
-          26,
-          78,
-          73
+          16,
+          25,
+          82,
+          77
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,8 +110,8 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          9,
-          32,
+          8,
+          31,
           25,
           5
         ],
@@ -112,8 +125,8 @@
           4,
           22,
           10,
-          27,
-          7
+          26,
+          6
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

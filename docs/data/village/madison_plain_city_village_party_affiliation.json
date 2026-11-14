@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 499 (16%)",
-      "UNC – Lapsed R — 534 (17%)",
-      "Mixed – Active — 161 (5%)",
-      "Mixed – Lapsed — 426 (14%)",
-      "UNC – No Primary — 1,065 (35%)",
-      "UNC – Lapsed D — 293 (10%)",
-      "Pure D — 101 (3%)"
+      "Pure R — 617 (19%)",
+      "UNC – Lapsed R — 511 (15%)",
+      "Mixed – Active — 237 (7%)",
+      "Mixed – Lapsed — 107 (3%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 247 (7%)",
+      "UNC – No Primary — 1,101 (33%)",
+      "UNC – Lapsed D — 239 (7%)",
+      "Pure D — 233 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          499,
-          534,
-          161,
-          426,
-          1065,
-          293,
-          101
+          617,
+          511,
+          237,
+          107,
+          8,
+          247,
+          1101,
+          239,
+          233
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PLAIN CITY VILLAGE (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

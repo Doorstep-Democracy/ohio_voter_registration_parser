@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 572 (19%)",
-      "UNC – Lapsed R — 454 (15%)",
-      "Mixed – Active — 284 (9%)",
-      "Mixed – Lapsed — 279 (9%)",
-      "UNC – No Primary — 1,029 (34%)",
-      "UNC – Lapsed D — 299 (10%)",
-      "Pure D — 141 (5%)"
+      "Pure R — 571 (19%)",
+      "UNC – Lapsed R — 453 (15%)",
+      "Mixed – Active — 282 (9%)",
+      "Mixed – Lapsed — 171 (6%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 102 (3%)",
+      "UNC – No Primary — 1,050 (34%)",
+      "UNC – Lapsed D — 302 (10%)",
+      "Pure D — 143 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          572,
-          454,
-          284,
-          279,
-          1029,
-          299,
-          141
+          571,
+          453,
+          282,
+          171,
+          4,
+          102,
+          1050,
+          302,
+          143
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Ridgedale Local Sd (Marion Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,030 (23%)",
-      "UNC – Lapsed R — 596 (14%)",
-      "Mixed – Active — 289 (7%)",
-      "Mixed – Lapsed — 304 (7%)",
-      "UNC – No Primary — 1,702 (39%)",
-      "UNC – Lapsed D — 263 (6%)",
-      "Pure D — 201 (5%)"
+      "Pure R — 1,027 (23%)",
+      "UNC – Lapsed R — 607 (14%)",
+      "Mixed – Active — 287 (6%)",
+      "Mixed – Lapsed — 125 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 181 (4%)",
+      "UNC – No Primary — 1,732 (39%)",
+      "UNC – Lapsed D — 259 (6%)",
+      "Pure D — 195 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1030,
-          596,
-          289,
-          304,
-          1702,
-          263,
-          201
+          1027,
+          607,
+          287,
+          125,
+          5,
+          181,
+          1732,
+          259,
+          195
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Williamsburg Local Sd (Clermont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          42,
-          77,
-          66,
-          55,
-          28,
-          22,
-          18,
-          13
+          2,
+          37,
+          75,
+          75,
+          59,
+          40,
+          23,
+          23,
+          16
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
-          26,
-          26,
-          31,
-          38,
+          3,
+          33,
+          33,
+          29,
+          42,
+          19,
+          18,
           24,
-          11,
-          24,
-          1
+          4
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +49,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          4,
-          35,
-          74,
-          56,
-          36,
-          20,
-          9,
+          3,
+          27,
+          84,
+          60,
+          41,
+          26,
+          11,
           1,
           0
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          26,
+          32,
+          25,
           23,
-          43,
-          37,
-          42,
-          27,
-          11,
-          9,
-          4
+          8,
+          3,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          3,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          8,
+          11,
+          12,
+          14,
+          7,
+          10,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          14,
+          11,
           44,
-          95,
-          136,
-          133,
-          179,
-          232,
-          228
+          83,
+          125,
+          125,
+          164,
+          225,
+          238
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          14,
-          38,
-          61,
-          66,
-          56,
-          39,
-          14,
-          3
+          2,
+          15,
+          35,
+          46,
+          49,
+          53,
+          32,
+          16,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           3,
-          26,
-          57,
-          55,
-          16,
-          7,
-          3,
-          3,
-          2
+          25,
+          61,
+          64,
+          36,
+          10,
+          15,
+          5,
+          8
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SEBRING VILLAGE (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

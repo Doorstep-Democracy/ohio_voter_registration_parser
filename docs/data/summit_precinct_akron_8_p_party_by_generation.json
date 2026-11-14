@@ -4,7 +4,7 @@
   "precinct": "AKRON 8-P",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          8,
+          7,
           34,
           8,
           4,
@@ -31,7 +31,7 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          13,
+          12,
           25,
           22,
           19,
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           16,
-          89,
+          88,
           22,
           14,
           1
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          8,
+          6,
           24,
-          15,
-          7,
+          16,
+          8,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           0,
           6,
           4,
-          6,
+          7,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          33,
-          40,
+          32,
+          41,
           77,
-          70
+          76
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,7 +110,7 @@
         "label": "UNC – Lapsed D",
         "data": [
           11,
-          23,
+          25,
           38,
           51,
           17
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           10,
-          88,
+          89,
           57,
-          44,
-          10
+          46,
+          9
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

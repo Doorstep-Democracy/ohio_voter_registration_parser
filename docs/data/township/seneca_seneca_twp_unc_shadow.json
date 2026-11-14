@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 146",
-      "Mixed – Active — 113",
-      "Mixed – Lapsed — 66",
-      "UNC – No Primary — 311",
-      "UNC – Lapsed D — 92"
+      "UNC – Lapsed R — 159",
+      "Mixed – Active — 109",
+      "Mixed – Lapsed — 45",
+      "UNC – Non-partisan Ballot — 31",
+      "UNC – No Primary — 308",
+      "UNC – Lapsed D — 87"
     ],
     "datasets": [
       {
         "data": [
-          146,
-          113,
-          66,
-          311,
-          92
+          159,
+          109,
+          45,
+          31,
+          308,
+          87
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SENECA TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

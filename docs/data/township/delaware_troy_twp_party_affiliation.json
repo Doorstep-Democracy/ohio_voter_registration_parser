@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 316 (18%)",
-      "UNC – Lapsed R — 268 (15%)",
-      "Mixed – Active — 142 (8%)",
-      "Mixed – Lapsed — 145 (8%)",
-      "UNC – No Primary — 653 (37%)",
-      "UNC – Lapsed D — 147 (8%)",
-      "Pure D — 84 (5%)"
+      "Pure R — 282 (16%)",
+      "UNC – Lapsed R — 313 (18%)",
+      "Mixed – Active — 160 (9%)",
+      "Mixed – Lapsed — 93 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 44 (2%)",
+      "UNC – No Primary — 662 (37%)",
+      "UNC – Lapsed D — 132 (7%)",
+      "Pure D — 99 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          316,
-          268,
-          142,
-          145,
-          653,
-          147,
-          84
+          282,
+          313,
+          160,
+          93,
+          3,
+          44,
+          662,
+          132,
+          99
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TROY TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

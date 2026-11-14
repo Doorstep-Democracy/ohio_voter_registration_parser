@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 196",
-      "Mixed – Active — 100",
-      "Mixed – Lapsed — 89",
-      "UNC – No Primary — 528",
-      "UNC – Lapsed D — 84"
+      "UNC – Lapsed R — 253",
+      "Mixed – Active — 112",
+      "Mixed – Lapsed — 54",
+      "UNC – Non-partisan Ballot — 28",
+      "UNC – No Primary — 511",
+      "UNC – Lapsed D — 78"
     ],
     "datasets": [
       {
         "data": [
-          196,
-          100,
-          89,
-          528,
-          84
+          253,
+          112,
+          54,
+          28,
+          511,
+          78
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

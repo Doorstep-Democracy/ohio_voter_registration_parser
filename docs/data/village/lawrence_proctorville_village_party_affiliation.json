@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 38 (11%)",
-      "UNC – Lapsed R — 36 (10%)",
+      "Pure R — 34 (10%)",
+      "UNC – Lapsed R — 37 (10%)",
       "Mixed – Active — 25 (7%)",
       "Mixed – Lapsed — 12 (3%)",
-      "UNC – No Primary — 197 (55%)",
-      "UNC – Lapsed D — 29 (8%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
+      "UNC – No Primary — 196 (55%)",
+      "UNC – Lapsed D — 28 (8%)",
       "Pure D — 23 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          38,
-          36,
+          34,
+          37,
           25,
           12,
-          197,
-          29,
+          0,
+          1,
+          196,
+          28,
           23
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PROCTORVILLE VILLAGE (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

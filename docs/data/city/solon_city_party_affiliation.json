@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,274 (7%)",
-      "UNC – Lapsed R — 1,310 (7%)",
-      "Mixed – Active — 1,954 (11%)",
-      "Mixed – Lapsed — 1,591 (9%)",
-      "UNC – No Primary — 6,057 (34%)",
-      "UNC – Lapsed D — 2,334 (13%)",
-      "Pure D — 3,226 (18%)"
+      "Pure R — 1,259 (7%)",
+      "UNC – Lapsed R — 1,306 (7%)",
+      "Mixed – Active — 1,930 (11%)",
+      "Mixed – Lapsed — 787 (4%)",
+      "Minor Party — 39 (0%)",
+      "UNC – Non-partisan Ballot — 770 (4%)",
+      "UNC – No Primary — 6,154 (35%)",
+      "UNC – Lapsed D — 2,310 (13%)",
+      "Pure D — 3,206 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          1274,
-          1310,
-          1954,
-          1591,
-          6057,
-          2334,
-          3226
+          1259,
+          1306,
+          1930,
+          787,
+          39,
+          770,
+          6154,
+          2310,
+          3206
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SOLON CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

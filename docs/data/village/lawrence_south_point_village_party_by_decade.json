@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          22,
-          64,
-          108,
-          101,
-          60,
-          69,
-          27,
-          10
+          0,
+          17,
+          56,
+          99,
+          98,
+          53,
+          55,
+          25,
+          11
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          14,
-          19,
-          39,
-          59,
-          67,
-          58,
-          40,
-          5
+          18,
+          24,
+          50,
+          63,
+          75,
+          68,
+          44,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          13,
+          0,
+          12,
+          51,
           56,
-          63,
-          42,
-          27,
-          24,
-          8,
+          46,
+          25,
+          22,
+          9,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          4,
-          10,
-          27,
-          30,
-          24,
-          9,
-          6,
+          2,
+          5,
+          12,
+          29,
+          21,
+          23,
+          11,
+          2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          0,
+          5,
+          2,
+          1,
+          3,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +116,12 @@
           1,
           3,
           26,
-          68,
+          62,
           136,
-          166,
+          173,
           222,
-          286,
-          223
+          290,
+          256
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +131,13 @@
         "data": [
           0,
           12,
-          21,
-          35,
-          59,
-          47,
+          23,
+          30,
+          54,
+          46,
           38,
           24,
-          0
+          1
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,13 +146,13 @@
         "label": "Pure D",
         "data": [
           0,
-          2,
-          21,
-          28,
+          1,
+          18,
           32,
+          36,
           14,
+          12,
           9,
-          7,
           4
         ],
         "backgroundColor": "#3b82f6",
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SOUTH POINT VILLAGE (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

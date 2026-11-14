@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,211 (30%)",
-      "UNC – Lapsed R — 525 (13%)",
-      "Mixed – Active — 265 (7%)",
-      "Mixed – Lapsed — 479 (12%)",
-      "UNC – No Primary — 1,246 (31%)",
-      "UNC – Lapsed D — 189 (5%)",
+      "Pure R — 1,008 (25%)",
+      "UNC – Lapsed R — 824 (20%)",
+      "Mixed – Active — 230 (6%)",
+      "Mixed – Lapsed — 136 (3%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 364 (9%)",
+      "UNC – No Primary — 1,183 (29%)",
+      "UNC – Lapsed D — 200 (5%)",
       "Pure D — 94 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          1211,
-          525,
-          265,
-          479,
-          1246,
-          189,
+          1008,
+          824,
+          230,
+          136,
+          9,
+          364,
+          1183,
+          200,
           94
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MORGAN TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

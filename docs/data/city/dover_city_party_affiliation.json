@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,082 (14%)",
-      "UNC – Lapsed R — 701 (9%)",
-      "Mixed – Active — 1,039 (13%)",
-      "Mixed – Lapsed — 659 (8%)",
-      "UNC – No Primary — 2,677 (34%)",
-      "UNC – Lapsed D — 1,038 (13%)",
-      "Pure D — 731 (9%)"
+      "Pure R — 885 (11%)",
+      "UNC – Lapsed R — 899 (11%)",
+      "Mixed – Active — 929 (12%)",
+      "Mixed – Lapsed — 498 (6%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 302 (4%)",
+      "UNC – No Primary — 2,707 (34%)",
+      "UNC – Lapsed D — 1,055 (13%)",
+      "Pure D — 723 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1082,
-          701,
-          1039,
-          659,
-          2677,
-          1038,
-          731
+          885,
+          899,
+          929,
+          498,
+          4,
+          302,
+          2707,
+          1055,
+          723
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "DOVER CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

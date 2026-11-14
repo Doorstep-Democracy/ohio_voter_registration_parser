@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 257 (28%)",
-      "UNC – Lapsed R — 154 (17%)",
-      "Mixed – Active — 65 (7%)",
-      "Mixed – Lapsed — 41 (4%)",
-      "UNC – No Primary — 343 (37%)",
-      "UNC – Lapsed D — 49 (5%)",
+      "Pure R — 231 (25%)",
+      "UNC – Lapsed R — 188 (20%)",
+      "Mixed – Active — 55 (6%)",
+      "Mixed – Lapsed — 34 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 17 (2%)",
+      "UNC – No Primary — 336 (36%)",
+      "UNC – Lapsed D — 47 (5%)",
       "Pure D — 23 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          257,
-          154,
-          65,
-          41,
-          343,
-          49,
+          231,
+          188,
+          55,
+          34,
+          2,
+          17,
+          336,
+          47,
           23
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PUSHETA TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,092 (21%)",
-      "UNC – Lapsed R — 811 (15%)",
-      "Mixed – Active — 408 (8%)",
-      "Mixed – Lapsed — 417 (8%)",
-      "UNC – No Primary — 1,844 (35%)",
-      "UNC – Lapsed D — 406 (8%)",
-      "Pure D — 277 (5%)"
+      "Pure R — 1,088 (21%)",
+      "UNC – Lapsed R — 818 (15%)",
+      "Mixed – Active — 401 (8%)",
+      "Mixed – Lapsed — 193 (4%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 220 (4%)",
+      "UNC – No Primary — 1,873 (35%)",
+      "UNC – Lapsed D — 409 (8%)",
+      "Pure D — 274 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1092,
-          811,
-          408,
-          417,
-          1844,
-          406,
-          277
+          1088,
+          818,
+          401,
+          193,
+          14,
+          220,
+          1873,
+          409,
+          274
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Liberty Union-Thurston Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

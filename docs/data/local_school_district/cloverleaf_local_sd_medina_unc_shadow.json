@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,048",
-      "Mixed – Active — 1,377",
-      "Mixed – Lapsed — 1,677",
-      "UNC – No Primary — 4,548",
-      "UNC – Lapsed D — 1,357"
+      "UNC – Lapsed R — 2,057",
+      "Mixed – Active — 1,364",
+      "Mixed – Lapsed — 651",
+      "UNC – Non-partisan Ballot — 1,013",
+      "UNC – No Primary — 4,649",
+      "UNC – Lapsed D — 1,364"
     ],
     "datasets": [
       {
         "data": [
-          2048,
-          1377,
-          1677,
-          4548,
-          1357
+          2057,
+          1364,
+          651,
+          1013,
+          4649,
+          1364
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Cloverleaf Local Sd (Medina Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

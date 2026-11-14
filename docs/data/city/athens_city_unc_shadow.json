@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 323",
-      "Mixed – Active — 398",
-      "Mixed – Lapsed — 347",
-      "UNC – No Primary — 5,787",
-      "UNC – Lapsed D — 1,479"
+      "UNC – Lapsed R — 313",
+      "Mixed – Active — 422",
+      "Mixed – Lapsed — 208",
+      "UNC – Non-partisan Ballot — 179",
+      "UNC – No Primary — 6,423",
+      "UNC – Lapsed D — 1,569"
     ],
     "datasets": [
       {
         "data": [
-          323,
-          398,
-          347,
-          5787,
-          1479
+          313,
+          422,
+          208,
+          179,
+          6423,
+          1569
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "ATHENS CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

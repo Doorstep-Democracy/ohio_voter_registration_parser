@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 810 (17%)",
-      "UNC – Lapsed R — 579 (12%)",
+      "Pure R — 829 (17%)",
+      "UNC – Lapsed R — 593 (12%)",
       "Mixed – Active — 238 (5%)",
-      "Mixed – Lapsed — 408 (9%)",
-      "UNC – No Primary — 2,142 (45%)",
-      "UNC – Lapsed D — 330 (7%)",
-      "Pure D — 208 (4%)"
+      "Mixed – Lapsed — 157 (3%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 233 (5%)",
+      "UNC – No Primary — 2,191 (45%)",
+      "UNC – Lapsed D — 303 (6%)",
+      "Pure D — 267 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          810,
-          579,
+          829,
+          593,
           238,
-          408,
-          2142,
-          330,
-          208
+          157,
+          10,
+          233,
+          2191,
+          303,
+          267
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SOUTH LEBANON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

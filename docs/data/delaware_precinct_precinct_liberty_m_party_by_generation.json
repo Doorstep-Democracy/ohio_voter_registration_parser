@@ -4,7 +4,7 @@
   "precinct": "PRECINCT LIBERTY M",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -34,8 +34,8 @@
           3,
           9,
           32,
-          12,
-          5
+          13,
+          4
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -57,7 +57,7 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
           2,
           12,
           4,
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           2,
           9,
-          5,
+          4,
           6
         ],
         "backgroundColor": "#c4b5cd",
@@ -85,9 +98,9 @@
         "data": [
           2,
           10,
-          34,
-          61,
-          84
+          35,
+          60,
+          91
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,8 +111,8 @@
         "data": [
           2,
           5,
-          19,
-          17,
+          20,
+          16,
           4
         ],
         "backgroundColor": "#93c5fd",

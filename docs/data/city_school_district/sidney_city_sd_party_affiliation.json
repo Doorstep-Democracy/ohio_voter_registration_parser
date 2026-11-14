@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,668 (17%)",
-      "UNC – Lapsed R — 1,941 (12%)",
-      "Mixed – Active — 1,467 (9%)",
-      "Mixed – Lapsed — 1,301 (8%)",
-      "UNC – No Primary — 6,827 (43%)",
-      "UNC – Lapsed D — 1,151 (7%)",
-      "Pure D — 409 (3%)"
+      "Pure R — 2,649 (17%)",
+      "UNC – Lapsed R — 2,053 (13%)",
+      "Mixed – Active — 1,527 (10%)",
+      "Mixed – Lapsed — 762 (5%)",
+      "Minor Party — 23 (0%)",
+      "UNC – Non-partisan Ballot — 469 (3%)",
+      "UNC – No Primary — 6,858 (43%)",
+      "UNC – Lapsed D — 1,056 (7%)",
+      "Pure D — 530 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2668,
-          1941,
-          1467,
-          1301,
-          6827,
-          1151,
-          409
+          2649,
+          2053,
+          1527,
+          762,
+          23,
+          469,
+          6858,
+          1056,
+          530
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SIDNEY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

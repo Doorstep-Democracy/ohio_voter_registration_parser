@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 139",
-      "Mixed – Active — 118",
-      "Mixed – Lapsed — 115",
-      "UNC – No Primary — 468",
-      "UNC – Lapsed D — 153"
+      "UNC – Lapsed R — 163",
+      "Mixed – Active — 126",
+      "Mixed – Lapsed — 66",
+      "UNC – Non-partisan Ballot — 44",
+      "UNC – No Primary — 463",
+      "UNC – Lapsed D — 146"
     ],
     "datasets": [
       {
         "data": [
-          139,
-          118,
-          115,
-          468,
-          153
+          163,
+          126,
+          66,
+          44,
+          463,
+          146
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ROME TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

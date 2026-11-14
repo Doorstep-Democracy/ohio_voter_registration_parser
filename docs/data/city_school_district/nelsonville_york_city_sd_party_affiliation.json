@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 271 (6%)",
-      "UNC – Lapsed R — 282 (6%)",
-      "Mixed – Active — 395 (9%)",
-      "Mixed – Lapsed — 315 (7%)",
-      "UNC – No Primary — 2,051 (46%)",
-      "UNC – Lapsed D — 731 (16%)",
-      "Pure D — 414 (9%)"
+      "UNC – Lapsed R — 297 (7%)",
+      "Mixed – Active — 414 (9%)",
+      "Mixed – Lapsed — 210 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 88 (2%)",
+      "UNC – No Primary — 2,076 (46%)",
+      "UNC – Lapsed D — 688 (15%)",
+      "Pure D — 453 (10%)"
     ],
     "datasets": [
       {
         "data": [
           271,
-          282,
-          395,
-          315,
-          2051,
-          731,
-          414
+          297,
+          414,
+          210,
+          4,
+          88,
+          2076,
+          688,
+          453
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NELSONVILLE-YORK CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

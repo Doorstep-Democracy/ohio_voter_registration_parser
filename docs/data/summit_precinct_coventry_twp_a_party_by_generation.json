@@ -4,7 +4,7 @@
   "precinct": "COVENTRY TWP A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -20,8 +20,8 @@
         "data": [
           4,
           36,
-          19,
-          13,
+          20,
+          11,
           4
         ],
         "backgroundColor": "#ef4444",
@@ -34,8 +34,8 @@
           2,
           27,
           35,
-          25,
-          9
+          22,
+          12
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          8,
+          6,
           51,
           14,
           3,
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          6,
-          23,
-          20,
-          4,
+          5,
+          25,
+          19,
+          3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           6,
           74,
-          111,
-          138,
-          103
+          113,
+          140,
+          105
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,10 +109,10 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          12,
-          51,
+          11,
+          49,
           47,
-          35,
+          36,
           3
         ],
         "backgroundColor": "#93c5fd",

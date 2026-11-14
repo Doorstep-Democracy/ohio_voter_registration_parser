@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 309 (12%)",
-      "UNC – Lapsed R — 211 (8%)",
-      "Mixed – Active — 309 (12%)",
-      "Mixed – Lapsed — 206 (8%)",
-      "UNC – No Primary — 956 (36%)",
-      "UNC – Lapsed D — 421 (16%)",
-      "Pure D — 257 (10%)"
+      "Pure R — 293 (11%)",
+      "UNC – Lapsed R — 240 (9%)",
+      "Mixed – Active — 317 (12%)",
+      "Mixed – Lapsed — 135 (5%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 87 (3%)",
+      "UNC – No Primary — 950 (35%)",
+      "UNC – Lapsed D — 391 (15%)",
+      "Pure D — 273 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          309,
-          211,
-          309,
-          206,
-          956,
-          421,
-          257
+          293,
+          240,
+          317,
+          135,
+          6,
+          87,
+          950,
+          391,
+          273
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEWTON TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

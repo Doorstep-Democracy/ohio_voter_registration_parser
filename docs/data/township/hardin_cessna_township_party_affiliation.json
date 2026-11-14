@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 98 (31%)",
-      "UNC – Lapsed R — 43 (14%)",
-      "Mixed – Active — 36 (11%)",
-      "Mixed – Lapsed — 26 (8%)",
-      "UNC – No Primary — 79 (25%)",
-      "UNC – Lapsed D — 27 (8%)",
-      "Pure D — 9 (3%)"
+      "UNC – Lapsed R — 44 (14%)",
+      "Mixed – Active — 39 (12%)",
+      "Mixed – Lapsed — 11 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 15 (5%)",
+      "UNC – No Primary — 75 (24%)",
+      "UNC – Lapsed D — 24 (8%)",
+      "Pure D — 11 (3%)"
     ],
     "datasets": [
       {
         "data": [
           98,
-          43,
-          36,
-          26,
-          79,
-          27,
-          9
+          44,
+          39,
+          11,
+          0,
+          15,
+          75,
+          24,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CESSNA TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

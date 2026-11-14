@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          5,
-          99,
-          358,
-          580,
-          451,
-          316,
-          210,
+          6,
+          86,
+          342,
+          557,
+          450,
+          330,
+          214,
           122,
-          71
+          110
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          40,
-          139,
-          229,
-          289,
-          284,
-          217,
-          162,
-          25
+          46,
+          150,
+          255,
+          292,
+          281,
+          228,
+          163,
+          34
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
+          2,
           39,
-          150,
-          245,
-          161,
+          141,
+          244,
+          167,
           88,
-          43,
-          9,
-          2
+          54,
+          18,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          27,
-          91,
-          119,
-          154,
-          126,
-          101,
-          39,
-          10
+          24,
+          82,
+          102,
+          99,
+          72,
+          58,
+          9,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          3,
+          2,
+          0,
+          6,
+          4,
+          2,
+          5
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          12,
+          25,
+          48,
+          53,
+          37,
+          25,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          26,
-          116,
-          270,
-          382,
-          487,
-          671,
-          852,
-          935
+          21,
+          108,
+          251,
+          377,
+          482,
+          664,
+          831,
+          951
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
-          24,
-          63,
-          102,
-          128,
-          127,
-          100,
-          69,
-          5
+          1,
+          23,
+          56,
+          97,
+          119,
+          117,
+          98,
+          67,
+          10
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           2,
           16,
-          53,
-          61,
-          40,
-          17,
-          22,
-          14,
-          12
+          54,
+          75,
+          50,
+          27,
+          23,
+          28,
+          25
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "EATON COMMUNITY SCHOOLS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,599 (3%)",
-      "UNC – Lapsed R — 2,144 (4%)",
-      "Mixed – Active — 4,387 (9%)",
-      "Mixed – Lapsed — 3,296 (7%)",
-      "UNC – No Primary — 17,308 (36%)",
-      "UNC – Lapsed D — 8,746 (18%)",
-      "Pure D — 10,215 (21%)"
+      "Pure R — 1,320 (3%)",
+      "UNC – Lapsed R — 2,370 (5%)",
+      "Mixed – Active — 3,874 (8%)",
+      "Mixed – Lapsed — 2,509 (5%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 1,190 (2%)",
+      "UNC – No Primary — 17,341 (36%)",
+      "UNC – Lapsed D — 9,451 (20%)",
+      "Pure D — 10,251 (21%)"
     ],
     "datasets": [
       {
         "data": [
-          1599,
-          2144,
-          4387,
-          3296,
-          17308,
-          8746,
-          10215
+          1320,
+          2370,
+          3874,
+          2509,
+          41,
+          1190,
+          17341,
+          9451,
+          10251
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "SHAKER-HEIGHTS (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

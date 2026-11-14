@@ -4,7 +4,7 @@
   "precinct": "PRECINCT UNION 5",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -22,8 +22,8 @@
         "data": [
           1,
           20,
-          22,
-          22,
+          21,
+          23,
           12,
           8,
           2,
@@ -36,7 +36,7 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
+          1,
           9,
           13,
           20,
@@ -82,7 +82,7 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
           0,
@@ -93,6 +93,22 @@
           0,
           0
         ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 3,
         "stack": "unc_mid"
@@ -100,14 +116,14 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          2,
-          7,
+          1,
+          9,
           15,
           34,
-          48,
+          49,
           46,
-          53,
-          63
+          54,
+          64
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -117,11 +133,11 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
+          6,
           7,
-          7,
-          12,
           13,
-          2,
+          13,
+          3,
           11,
           0
         ],

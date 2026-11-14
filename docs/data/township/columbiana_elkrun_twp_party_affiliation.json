@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 259 (20%)",
-      "UNC – Lapsed R — 128 (10%)",
-      "Mixed – Active — 202 (15%)",
-      "Mixed – Lapsed — 67 (5%)",
-      "UNC – No Primary — 511 (39%)",
-      "UNC – Lapsed D — 116 (9%)",
-      "Pure D — 37 (3%)"
+      "Pure R — 228 (17%)",
+      "UNC – Lapsed R — 165 (12%)",
+      "Mixed – Active — 189 (14%)",
+      "Mixed – Lapsed — 69 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 15 (1%)",
+      "UNC – No Primary — 508 (38%)",
+      "UNC – Lapsed D — 114 (9%)",
+      "Pure D — 40 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          259,
-          128,
-          202,
-          67,
-          511,
-          116,
-          37
+          228,
+          165,
+          189,
+          69,
+          0,
+          15,
+          508,
+          114,
+          40
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ELKRUN TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

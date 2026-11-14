@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 114 (19%)",
-      "UNC – Lapsed R — 66 (11%)",
-      "Mixed – Active — 59 (10%)",
-      "Mixed – Lapsed — 56 (10%)",
-      "UNC – No Primary — 236 (40%)",
-      "UNC – Lapsed D — 36 (6%)",
-      "Pure D — 19 (3%)"
+      "Pure R — 94 (16%)",
+      "UNC – Lapsed R — 86 (15%)",
+      "Mixed – Active — 51 (9%)",
+      "Mixed – Lapsed — 34 (6%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 26 (5%)",
+      "UNC – No Primary — 220 (38%)",
+      "UNC – Lapsed D — 34 (6%)",
+      "Pure D — 24 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          114,
-          66,
-          59,
-          56,
-          236,
-          36,
-          19
+          94,
+          86,
+          51,
+          34,
+          3,
+          26,
+          220,
+          34,
+          24
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ATTICA VILLAGE (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

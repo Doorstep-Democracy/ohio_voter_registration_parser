@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 291 (23%)",
-      "UNC – Lapsed R — 159 (12%)",
-      "Mixed – Active — 106 (8%)",
-      "Mixed – Lapsed — 89 (7%)",
-      "UNC – No Primary — 488 (38%)",
-      "UNC – Lapsed D — 91 (7%)",
-      "Pure D — 57 (4%)"
+      "Pure R — 271 (22%)",
+      "UNC – Lapsed R — 159 (13%)",
+      "Mixed – Active — 115 (9%)",
+      "Mixed – Lapsed — 48 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 26 (2%)",
+      "UNC – No Primary — 489 (39%)",
+      "UNC – Lapsed D — 85 (7%)",
+      "Pure D — 64 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          291,
+          271,
           159,
-          106,
-          89,
-          488,
-          91,
-          57
+          115,
+          48,
+          0,
+          26,
+          489,
+          85,
+          64
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "JAMESTOWN VILLAGE (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

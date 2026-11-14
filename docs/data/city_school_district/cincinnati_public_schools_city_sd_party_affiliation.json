@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 9,334 (4%)",
-      "UNC – Lapsed R — 13,501 (6%)",
-      "Mixed – Active — 8,456 (3%)",
-      "Mixed – Lapsed — 13,067 (5%)",
-      "UNC – No Primary — 132,734 (54%)",
-      "UNC – Lapsed D — 43,692 (18%)",
-      "Pure D — 23,139 (9%)"
+      "Pure R — 8,422 (3%)",
+      "UNC – Lapsed R — 13,986 (6%)",
+      "Mixed – Active — 9,044 (4%)",
+      "Mixed – Lapsed — 6,265 (2%)",
+      "Minor Party — 324 (0%)",
+      "UNC – Non-partisan Ballot — 5,549 (2%)",
+      "UNC – No Primary — 138,010 (54%)",
+      "UNC – Lapsed D — 39,538 (16%)",
+      "Pure D — 32,330 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          9334,
-          13501,
-          8456,
-          13067,
-          132734,
-          43692,
-          23139
+          8422,
+          13986,
+          9044,
+          6265,
+          324,
+          5549,
+          138010,
+          39538,
+          32330
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CINCINNATI PUBLIC SCHOOLS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

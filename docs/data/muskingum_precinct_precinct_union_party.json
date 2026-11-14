@@ -4,13 +4,14 @@
   "precinct": "PRECINCT UNION",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -20,12 +21,13 @@
       {
         "data": [
           101,
-          92,
+          93,
           24,
           23,
-          49,
-          152,
-          41,
+          1,
+          48,
+          160,
+          42,
           8
         ],
         "backgroundColor": [
@@ -33,6 +35,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

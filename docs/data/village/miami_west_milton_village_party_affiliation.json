@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 753 (23%)",
-      "UNC – Lapsed R — 391 (12%)",
-      "Mixed – Active — 235 (7%)",
-      "Mixed – Lapsed — 277 (8%)",
-      "UNC – No Primary — 1,309 (40%)",
-      "UNC – Lapsed D — 205 (6%)",
-      "Pure D — 126 (4%)"
+      "Pure R — 747 (22%)",
+      "UNC – Lapsed R — 422 (13%)",
+      "Mixed – Active — 234 (7%)",
+      "Mixed – Lapsed — 106 (3%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 164 (5%)",
+      "UNC – No Primary — 1,303 (39%)",
+      "UNC – Lapsed D — 195 (6%)",
+      "Pure D — 151 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          753,
-          391,
-          235,
-          277,
-          1309,
-          205,
-          126
+          747,
+          422,
+          234,
+          106,
+          7,
+          164,
+          1303,
+          195,
+          151
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WEST MILTON VILLAGE (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

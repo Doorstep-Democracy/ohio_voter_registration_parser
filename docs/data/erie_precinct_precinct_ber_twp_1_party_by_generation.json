@@ -4,7 +4,7 @@
   "precinct": "PRECINCT BER TWP #1",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -33,7 +33,7 @@
         "data": [
           6,
           29,
-          24,
+          25,
           21,
           1
         ],
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          12,
+          11,
           78,
           17,
           5,
@@ -57,9 +57,9 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          10,
-          27,
-          12,
+          9,
+          26,
+          11,
           9,
           0
         ],
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
-          12,
-          12,
+          13,
+          14,
           6,
           3
         ],
@@ -85,9 +98,9 @@
         "data": [
           5,
           49,
-          49,
-          69,
-          59
+          50,
+          67,
+          61
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,8 +110,8 @@
         "label": "UNC – Lapsed D",
         "data": [
           13,
-          44,
-          25,
+          43,
+          24,
           23,
           1
         ],

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 25 (8%)",
-      "UNC – Lapsed R — 22 (7%)",
-      "Mixed – Active — 30 (9%)",
+      "Pure R — 17 (5%)",
+      "UNC – Lapsed R — 25 (8%)",
+      "Mixed – Active — 33 (10%)",
       "Mixed – Lapsed — 17 (5%)",
-      "UNC – No Primary — 121 (37%)",
-      "UNC – Lapsed D — 65 (20%)",
-      "Pure D — 50 (15%)"
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 128 (39%)",
+      "UNC – Lapsed D — 59 (18%)",
+      "Pure D — 49 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          25,
-          22,
-          30,
           17,
-          121,
-          65,
-          50
+          25,
+          33,
+          17,
+          1,
+          2,
+          128,
+          59,
+          49
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BUCHTEL VILLAGE (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

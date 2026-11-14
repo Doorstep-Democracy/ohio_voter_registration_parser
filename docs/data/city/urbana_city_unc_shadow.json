@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 838",
-      "Mixed – Active — 574",
-      "Mixed – Lapsed — 476",
-      "UNC – No Primary — 3,089",
-      "UNC – Lapsed D — 669"
+      "UNC – Lapsed R — 831",
+      "Mixed – Active — 643",
+      "Mixed – Lapsed — 301",
+      "UNC – Non-partisan Ballot — 150",
+      "UNC – No Primary — 3,062",
+      "UNC – Lapsed D — 581"
     ],
     "datasets": [
       {
         "data": [
-          838,
-          574,
-          476,
-          3089,
-          669
+          831,
+          643,
+          301,
+          150,
+          3062,
+          581
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "URBANA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

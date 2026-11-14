@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 99",
-      "Mixed – Active — 38",
-      "Mixed – Lapsed — 75",
-      "UNC – No Primary — 461",
-      "UNC – Lapsed D — 77"
+      "UNC – Lapsed R — 85",
+      "Mixed – Active — 48",
+      "Mixed – Lapsed — 29",
+      "UNC – Non-partisan Ballot — 48",
+      "UNC – No Primary — 413",
+      "UNC – Lapsed D — 62"
     ],
     "datasets": [
       {
         "data": [
-          99,
-          38,
-          75,
-          461,
-          77
+          85,
+          48,
+          29,
+          48,
+          413,
+          62
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "WEST SALEM VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

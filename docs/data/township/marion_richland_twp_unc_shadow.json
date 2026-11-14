@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 215",
+      "UNC – Lapsed R — 214",
       "Mixed – Active — 129",
-      "Mixed – Lapsed — 114",
-      "UNC – No Primary — 396",
-      "UNC – Lapsed D — 92"
+      "Mixed – Lapsed — 60",
+      "UNC – Non-partisan Ballot — 55",
+      "UNC – No Primary — 399",
+      "UNC – Lapsed D — 93"
     ],
     "datasets": [
       {
         "data": [
-          215,
+          214,
           129,
-          114,
-          396,
-          92
+          60,
+          55,
+          399,
+          93
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

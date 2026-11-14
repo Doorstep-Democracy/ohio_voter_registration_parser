@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 491",
-      "Mixed – Active — 543",
-      "Mixed – Lapsed — 546",
-      "UNC – No Primary — 2,570",
-      "UNC – Lapsed D — 805"
+      "UNC – Lapsed R — 537",
+      "Mixed – Active — 580",
+      "Mixed – Lapsed — 277",
+      "UNC – Non-partisan Ballot — 258",
+      "UNC – No Primary — 2,556",
+      "UNC – Lapsed D — 727"
     ],
     "datasets": [
       {
         "data": [
-          491,
-          543,
-          546,
-          2570,
-          805
+          537,
+          580,
+          277,
+          258,
+          2556,
+          727
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GENEVA TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

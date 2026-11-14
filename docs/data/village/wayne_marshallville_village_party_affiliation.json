@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 78 (17%)",
-      "UNC – Lapsed R — 59 (13%)",
-      "Mixed – Active — 30 (6%)",
-      "Mixed – Lapsed — 37 (8%)",
-      "UNC – No Primary — 207 (44%)",
-      "UNC – Lapsed D — 45 (10%)",
-      "Pure D — 10 (2%)"
+      "Pure R — 65 (14%)",
+      "UNC – Lapsed R — 68 (15%)",
+      "Mixed – Active — 33 (7%)",
+      "Mixed – Lapsed — 17 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 18 (4%)",
+      "UNC – No Primary — 206 (44%)",
+      "UNC – Lapsed D — 44 (9%)",
+      "Pure D — 12 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          78,
-          59,
-          30,
-          37,
-          207,
-          45,
-          10
+          65,
+          68,
+          33,
+          17,
+          2,
+          18,
+          206,
+          44,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MARSHALLVILLE VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

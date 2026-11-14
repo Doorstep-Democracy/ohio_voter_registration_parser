@@ -4,7 +4,7 @@
   "precinct": "WASHINGTON TOWNSHIP",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,8 +32,8 @@
         "label": "UNC – Lapsed R",
         "data": [
           8,
-          44,
-          47,
+          43,
+          49,
           58,
           20
         ],
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
@@ -86,8 +99,8 @@
           5,
           23,
           47,
-          78,
-          117
+          77,
+          129
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

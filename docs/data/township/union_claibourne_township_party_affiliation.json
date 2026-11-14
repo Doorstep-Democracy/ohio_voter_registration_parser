@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 532 (23%)",
-      "UNC – Lapsed R — 285 (12%)",
-      "Mixed – Active — 152 (7%)",
-      "Mixed – Lapsed — 145 (6%)",
-      "UNC – No Primary — 958 (42%)",
+      "Pure R — 502 (22%)",
+      "UNC – Lapsed R — 326 (14%)",
+      "Mixed – Active — 162 (7%)",
+      "Mixed – Lapsed — 79 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 57 (2%)",
+      "UNC – No Primary — 965 (41%)",
       "UNC – Lapsed D — 155 (7%)",
-      "Pure D — 76 (3%)"
+      "Pure D — 79 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          532,
-          285,
-          152,
-          145,
-          958,
+          502,
+          326,
+          162,
+          79,
+          5,
+          57,
+          965,
           155,
-          76
+          79
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLAIBOURNE TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

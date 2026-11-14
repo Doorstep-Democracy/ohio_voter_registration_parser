@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 74",
-      "Mixed – Active — 28",
-      "Mixed – Lapsed — 31",
-      "UNC – No Primary — 154",
-      "UNC – Lapsed D — 38"
+      "UNC – Lapsed R — 77",
+      "Mixed – Active — 34",
+      "Mixed – Lapsed — 23",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 148",
+      "UNC – Lapsed D — 31"
     ],
     "datasets": [
       {
         "data": [
-          74,
-          28,
-          31,
-          154,
-          38
+          77,
+          34,
+          23,
+          9,
+          148,
+          31
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

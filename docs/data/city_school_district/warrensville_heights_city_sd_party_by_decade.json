@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          14,
-          3,
-          13,
-          6,
-          2,
+          11,
           4,
-          2,
-          1
+          13,
+          7,
+          4,
+          0,
+          3,
+          2
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,13 +34,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
+          5,
           4,
-          6,
           3,
           4,
           8,
-          11,
-          6,
+          13,
+          5,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          12,
-          39,
-          39,
-          32,
-          11,
-          3,
           0,
+          9,
+          36,
+          36,
+          28,
+          8,
+          1,
+          2,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          11,
-          29,
-          35,
-          50,
-          49,
-          36,
-          22,
-          6
+          10,
+          16,
+          24,
+          26,
+          17,
+          8,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
-          15,
-          88,
-          283,
-          435,
-          581,
-          914,
-          1534,
-          847
+          0,
+          0,
+          2,
+          4,
+          1,
+          2,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          11,
+          10,
+          21,
+          30,
+          25,
+          13,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          1,
+          17,
+          78,
+          274,
+          418,
+          565,
+          899,
+          1497,
+          955
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          21,
-          123,
-          285,
-          505,
-          542,
-          486,
+          20,
+          144,
+          320,
           477,
-          246,
-          20
+          513,
+          449,
+          449,
+          238,
+          18
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          15,
-          186,
-          582,
-          604,
-          364,
-          154,
-          100,
-          76,
-          26
+          12,
+          158,
+          539,
+          629,
+          408,
+          194,
+          135,
+          115,
+          58
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "WARRENSVILLE HEIGHTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

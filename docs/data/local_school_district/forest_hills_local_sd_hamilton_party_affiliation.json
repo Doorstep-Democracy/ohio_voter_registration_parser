@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,967 (13%)",
-      "UNC – Lapsed R — 6,405 (17%)",
-      "Mixed – Active — 2,629 (7%)",
-      "Mixed – Lapsed — 4,601 (12%)",
-      "UNC – No Primary — 12,156 (33%)",
-      "UNC – Lapsed D — 3,520 (9%)",
-      "Pure D — 2,809 (8%)"
+      "Pure R — 4,903 (13%)",
+      "UNC – Lapsed R — 6,396 (17%)",
+      "Mixed – Active — 2,611 (7%)",
+      "Mixed – Lapsed — 2,025 (5%)",
+      "Minor Party — 67 (0%)",
+      "UNC – Non-partisan Ballot — 2,544 (7%)",
+      "UNC – No Primary — 12,529 (34%)",
+      "UNC – Lapsed D — 3,525 (9%)",
+      "Pure D — 2,780 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          4967,
-          6405,
-          2629,
-          4601,
-          12156,
-          3520,
-          2809
+          4903,
+          6396,
+          2611,
+          2025,
+          67,
+          2544,
+          12529,
+          3525,
+          2780
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Forest Hills Local Sd (Hamilton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

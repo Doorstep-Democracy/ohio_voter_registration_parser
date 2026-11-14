@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 356",
-      "Mixed – Active — 901",
-      "Mixed – Lapsed — 511",
-      "UNC – No Primary — 3,914",
-      "UNC – Lapsed D — 1,118"
+      "UNC – Lapsed R — 380",
+      "Mixed – Active — 958",
+      "Mixed – Lapsed — 263",
+      "UNC – Non-partisan Ballot — 216",
+      "UNC – No Primary — 3,890",
+      "UNC – Lapsed D — 1,024"
     ],
     "datasets": [
       {
         "data": [
-          356,
-          901,
-          511,
-          3914,
-          1118
+          380,
+          958,
+          263,
+          216,
+          3890,
+          1024
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PEASE TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

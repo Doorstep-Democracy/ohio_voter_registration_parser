@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 194 (5%)",
-      "UNC – Lapsed R — 146 (4%)",
-      "Mixed – Active — 360 (10%)",
-      "Mixed – Lapsed — 238 (6%)",
-      "UNC – No Primary — 1,970 (53%)",
-      "UNC – Lapsed D — 548 (15%)",
-      "Pure D — 290 (8%)"
+      "Pure R — 214 (6%)",
+      "UNC – Lapsed R — 155 (4%)",
+      "Mixed – Active — 406 (11%)",
+      "Mixed – Lapsed — 98 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 107 (3%)",
+      "UNC – No Primary — 1,968 (52%)",
+      "UNC – Lapsed D — 498 (13%)",
+      "Pure D — 321 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          194,
-          146,
-          360,
-          238,
-          1970,
-          548,
-          290
+          214,
+          155,
+          406,
+          98,
+          2,
+          107,
+          1968,
+          498,
+          321
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MARTINS FERRY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

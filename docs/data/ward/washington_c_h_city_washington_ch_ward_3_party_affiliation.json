@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 582 (22%)",
-      "UNC – Lapsed R — 369 (14%)",
-      "Mixed – Active — 203 (8%)",
-      "Mixed – Lapsed — 120 (5%)",
-      "UNC – Non-partisan Ballot — 54 (2%)",
-      "UNC – No Primary — 1,041 (40%)",
-      "UNC – Lapsed D — 152 (6%)",
-      "Pure D — 88 (3%)"
+      "Pure R — 575 (22%)",
+      "UNC – Lapsed R — 371 (14%)",
+      "Mixed – Active — 202 (8%)",
+      "Mixed – Lapsed — 116 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 55 (2%)",
+      "UNC – No Primary — 1,057 (40%)",
+      "UNC – Lapsed D — 149 (6%)",
+      "Pure D — 87 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          582,
-          369,
-          203,
-          120,
-          54,
-          1041,
-          152,
-          88
+          575,
+          371,
+          202,
+          116,
+          4,
+          55,
+          1057,
+          149,
+          87
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "WASHINGTON CH WARD 3 (WASHINGTON C.H. City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

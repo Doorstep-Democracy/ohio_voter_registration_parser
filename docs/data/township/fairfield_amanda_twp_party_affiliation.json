@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 435 (23%)",
-      "UNC – Lapsed R — 265 (14%)",
-      "Mixed – Active — 141 (8%)",
-      "Mixed – Lapsed — 183 (10%)",
-      "UNC – No Primary — 614 (33%)",
-      "UNC – Lapsed D — 161 (9%)",
-      "Pure D — 61 (3%)"
+      "Pure R — 378 (20%)",
+      "UNC – Lapsed R — 328 (17%)",
+      "Mixed – Active — 143 (8%)",
+      "Mixed – Lapsed — 67 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 111 (6%)",
+      "UNC – No Primary — 636 (34%)",
+      "UNC – Lapsed D — 157 (8%)",
+      "Pure D — 58 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          435,
-          265,
-          141,
-          183,
-          614,
-          161,
-          61
+          378,
+          328,
+          143,
+          67,
+          5,
+          111,
+          636,
+          157,
+          58
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "AMANDA TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

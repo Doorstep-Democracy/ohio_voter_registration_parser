@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          3,
           4,
-          6,
-          7,
-          3,
           4,
-          0,
-          1
+          5,
+          8,
+          4,
+          3,
+          3,
+          2
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
+          1,
           2,
-          2,
-          10,
+          8,
           15,
-          5,
+          4,
+          10,
           11,
-          12,
-          2
+          0
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          2,
-          13,
-          22,
-          15,
-          7,
+          0,
+          11,
+          25,
+          19,
+          9,
           5,
           4,
-          0
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          1,
           2,
+          5,
+          12,
+          13,
+          6,
+          8,
           0,
-          4,
-          20,
-          19,
-          21,
-          27,
-          17,
-          7
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          1,
+          4,
+          5,
+          10,
+          17,
+          14,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           4,
-          20,
-          64,
-          115,
+          18,
+          56,
+          110,
           158,
-          220,
-          445,
-          283
+          223,
+          438,
+          305
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          19,
-          51,
-          101,
-          134,
-          120,
-          138,
-          111,
-          11
+          22,
+          49,
+          82,
+          103,
+          98,
+          125,
+          105,
+          15
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          9,
-          66,
-          97,
-          76,
-          26,
-          20,
-          27,
-          9
+          7,
+          63,
+          122,
+          104,
+          53,
+          40,
+          47,
+          31
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "WOODLAWN VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

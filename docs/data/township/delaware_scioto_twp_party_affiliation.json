@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 723 (22%)",
-      "UNC – Lapsed R — 517 (16%)",
-      "Mixed – Active — 289 (9%)",
-      "Mixed – Lapsed — 230 (7%)",
-      "UNC – No Primary — 1,038 (32%)",
-      "UNC – Lapsed D — 282 (9%)",
-      "Pure D — 143 (4%)"
+      "Pure R — 705 (22%)",
+      "UNC – Lapsed R — 549 (17%)",
+      "Mixed – Active — 304 (9%)",
+      "Mixed – Lapsed — 142 (4%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 80 (2%)",
+      "UNC – No Primary — 1,007 (31%)",
+      "UNC – Lapsed D — 261 (8%)",
+      "Pure D — 176 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          723,
-          517,
-          289,
-          230,
-          1038,
-          282,
-          143
+          705,
+          549,
+          304,
+          142,
+          8,
+          80,
+          1007,
+          261,
+          176
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SCIOTO TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

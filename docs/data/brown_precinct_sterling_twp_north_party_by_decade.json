@@ -4,7 +4,7 @@
   "precinct": "STERLING TWP NORTH",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -21,10 +21,10 @@
         "label": "Pure R",
         "data": [
           4,
-          22,
-          51,
-          55,
-          40,
+          20,
+          52,
+          54,
+          39,
           27,
           8,
           12
@@ -40,8 +40,8 @@
           9,
           34,
           42,
-          24,
-          27,
+          26,
+          30,
           27,
           4
         ],
@@ -69,15 +69,31 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          3,
-          6,
-          11,
+          2,
+          5,
+          10,
           10,
           3,
+          1,
+          1
+        ],
+        "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           2,
           0
         ],
-        "backgroundColor": "#a78bfa",
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -85,12 +101,12 @@
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          2,
+          3,
           5,
           4,
-          3,
+          4,
           8,
-          2,
+          1,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -100,14 +116,14 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          7,
-          11,
+          5,
+          10,
           47,
-          58,
-          87,
-          112,
-          171,
-          89
+          59,
+          86,
+          113,
+          172,
+          96
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -118,11 +134,11 @@
         "data": [
           4,
           6,
-          21,
-          14,
+          19,
+          12,
           16,
           11,
-          11,
+          10,
           1
         ],
         "backgroundColor": "#93c5fd",

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 302",
-      "Mixed – Active — 131",
-      "Mixed – Lapsed — 142",
-      "UNC – No Primary — 729",
-      "UNC – Lapsed D — 123"
+      "UNC – Lapsed R — 364",
+      "Mixed – Active — 125",
+      "Mixed – Lapsed — 101",
+      "UNC – Non-partisan Ballot — 59",
+      "UNC – No Primary — 700",
+      "UNC – Lapsed D — 107"
     ],
     "datasets": [
       {
         "data": [
-          302,
-          131,
-          142,
-          729,
-          123
+          364,
+          125,
+          101,
+          59,
+          700,
+          107
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

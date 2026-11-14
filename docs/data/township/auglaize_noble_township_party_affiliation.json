@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 331 (25%)",
-      "UNC – Lapsed R — 248 (19%)",
-      "Mixed – Active — 126 (9%)",
-      "Mixed – Lapsed — 155 (12%)",
-      "UNC – No Primary — 372 (28%)",
-      "UNC – Lapsed D — 69 (5%)",
-      "Pure D — 30 (2%)"
+      "Pure R — 360 (27%)",
+      "UNC – Lapsed R — 254 (19%)",
+      "Mixed – Active — 140 (10%)",
+      "Mixed – Lapsed — 56 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 79 (6%)",
+      "UNC – No Primary — 368 (27%)",
+      "UNC – Lapsed D — 65 (5%)",
+      "Pure D — 25 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          331,
-          248,
-          126,
-          155,
-          372,
-          69,
-          30
+          360,
+          254,
+          140,
+          56,
+          2,
+          79,
+          368,
+          65,
+          25
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NOBLE TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

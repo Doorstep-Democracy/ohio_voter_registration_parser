@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          7,
+          2,
           61,
-          141,
-          137,
-          66,
-          66,
-          39,
-          16
+          136,
+          129,
+          55,
+          68,
+          44,
+          15
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          16,
-          15,
-          42,
-          61,
-          34,
-          41,
-          29,
-          7
+          19,
+          13,
+          48,
+          66,
+          46,
+          39,
+          26,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          15,
+          13,
+          65,
           66,
-          68,
-          70,
-          34,
-          19,
-          3,
-          0
+          73,
+          33,
+          23,
+          4,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          4,
-          15,
-          26,
-          32,
-          34,
-          27,
-          10,
-          2
+          5,
+          12,
+          24,
+          18,
+          13,
+          9,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          5,
+          5,
+          14,
+          17,
+          15,
+          7,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           4,
-          18,
-          41,
-          74,
-          90,
-          121,
-          185,
-          181
+          20,
+          37,
+          75,
+          91,
+          117,
+          173,
+          187
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          6,
-          24,
-          31,
+          10,
+          22,
+          28,
           42,
           35,
-          37,
-          24,
+          33,
+          20,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          7,
-          23,
-          34,
+          4,
           20,
-          16,
-          8,
-          3,
-          0
+          36,
+          20,
+          17,
+          14,
+          14,
+          4
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NEWTON TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

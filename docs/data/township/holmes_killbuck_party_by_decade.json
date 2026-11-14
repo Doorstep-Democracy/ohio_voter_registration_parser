@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          11,
-          31,
-          61,
-          65,
-          42,
-          35,
+          9,
+          30,
+          59,
+          68,
+          39,
           29,
-          11
+          25,
+          13
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          6,
           15,
-          26,
-          29,
-          34,
           25,
-          19,
-          1
+          28,
+          36,
+          32,
+          24,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -48,10 +48,10 @@
         "data": [
           3,
           17,
-          28,
-          20,
-          19,
-          4,
+          27,
+          21,
+          18,
+          2,
           1,
           0
         ],
@@ -61,28 +61,58 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          7,
-          12,
-          14,
+          0,
+          5,
           8,
           9,
-          3,
-          3
+          7,
+          4,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          4,
+          3,
+          2,
+          5,
+          3,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          8,
+          6,
           32,
-          53,
-          66,
-          84,
-          124,
+          50,
+          67,
+          83,
+          123,
           115
         ],
         "backgroundColor": "#9ca3af",
@@ -92,11 +122,11 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          15,
-          15,
-          11,
+          9,
+          16,
+          10,
           12,
-          7,
+          8,
           6,
           0
         ],
@@ -107,12 +137,12 @@
         "label": "Pure D",
         "data": [
           1,
-          7,
-          9,
+          13,
+          8,
           3,
-          1,
-          1,
+          2,
           0,
+          2,
           3
         ],
         "backgroundColor": "#3b82f6",
@@ -120,8 +150,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "KILLBUCK (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

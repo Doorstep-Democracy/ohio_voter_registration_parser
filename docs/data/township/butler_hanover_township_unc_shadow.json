@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 856",
-      "Mixed – Active — 324",
-      "Mixed – Lapsed — 501",
-      "UNC – No Primary — 2,233",
-      "UNC – Lapsed D — 446"
+      "UNC – Lapsed R — 851",
+      "Mixed – Active — 384",
+      "Mixed – Lapsed — 155",
+      "UNC – Non-partisan Ballot — 297",
+      "UNC – No Primary — 2,165",
+      "UNC – Lapsed D — 382"
     ],
     "datasets": [
       {
         "data": [
-          856,
-          324,
-          501,
-          2233,
-          446
+          851,
+          384,
+          155,
+          297,
+          2165,
+          382
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HANOVER TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

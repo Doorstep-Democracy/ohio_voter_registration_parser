@@ -4,7 +4,7 @@
   "precinct": "PRECINCT RUTLAND VILLAGE",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,8 +31,8 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          10,
+          2,
+          11,
           7,
           12,
           2
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          9,
+          8,
           1,
           5,
           0
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
           0,
           1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
           0,
           2
         ],
@@ -86,8 +99,8 @@
           1,
           7,
           20,
-          32,
-          25
+          31,
+          27
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -113,7 +126,7 @@
           1,
           2,
           2,
-          3
+          2
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

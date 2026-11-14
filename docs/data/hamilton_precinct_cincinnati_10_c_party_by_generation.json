@@ -4,7 +4,7 @@
   "precinct": "CINCINNATI 10-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -21,7 +21,7 @@
           2,
           1,
           1,
-          2,
+          3,
           2
         ],
         "backgroundColor": "#ef4444",
@@ -33,9 +33,9 @@
         "data": [
           2,
           6,
-          12,
+          13,
           23,
-          4
+          5
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -60,10 +60,23 @@
           2,
           12,
           10,
-          14,
+          15,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           2,
           5,
           14,
-          5
+          8
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          54,
-          138,
-          384,
-          240
+          53,
+          142,
+          403,
+          264
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          47,
-          53,
-          114,
-          5
+          46,
+          52,
+          108,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,11 +122,11 @@
       {
         "label": "Pure D",
         "data": [
-          3,
+          2,
           38,
           39,
-          77,
-          35
+          75,
+          42
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

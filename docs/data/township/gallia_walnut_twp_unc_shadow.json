@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 58",
-      "Mixed – Active — 58",
-      "Mixed – Lapsed — 26",
-      "UNC – No Primary — 151",
-      "UNC – Lapsed D — 49"
+      "UNC – Lapsed R — 63",
+      "Mixed – Active — 50",
+      "Mixed – Lapsed — 34",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 150",
+      "UNC – Lapsed D — 42"
     ],
     "datasets": [
       {
         "data": [
-          58,
-          58,
-          26,
-          151,
-          49
+          63,
+          50,
+          34,
+          4,
+          150,
+          42
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WALNUT TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

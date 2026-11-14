@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 584 (26%)",
-      "UNC – Lapsed R — 265 (12%)",
-      "Mixed – Active — 162 (7%)",
-      "Mixed – Lapsed — 219 (10%)",
-      "UNC – No Primary — 752 (33%)",
-      "UNC – Lapsed D — 174 (8%)",
-      "Pure D — 100 (4%)"
+      "Pure R — 545 (24%)",
+      "UNC – Lapsed R — 322 (14%)",
+      "Mixed – Active — 158 (7%)",
+      "Mixed – Lapsed — 77 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 132 (6%)",
+      "UNC – No Primary — 746 (33%)",
+      "UNC – Lapsed D — 145 (6%)",
+      "Pure D — 139 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          584,
-          265,
-          162,
-          219,
-          752,
-          174,
-          100
+          545,
+          322,
+          158,
+          77,
+          2,
+          132,
+          746,
+          145,
+          139
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREEN CREEK TOWNSHIP (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

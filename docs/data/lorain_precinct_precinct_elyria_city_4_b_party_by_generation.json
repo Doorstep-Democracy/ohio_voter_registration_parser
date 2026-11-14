@@ -4,7 +4,7 @@
   "precinct": "PRECINCT ELYRIA CITY 4-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,9 +19,9 @@
         "label": "Pure R",
         "data": [
           12,
-          38,
-          29,
-          9,
+          36,
+          30,
+          10,
           4
         ],
         "backgroundColor": "#ef4444",
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          11,
+          10,
           28,
           11,
           13,
-          3
+          2
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           7,
-          29,
-          21,
+          30,
+          19,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           8,
           43,
-          67,
-          141,
-          107
+          71,
+          144,
+          112
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,10 +109,10 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          11,
+          10,
           51,
           39,
-          39,
+          37,
           4
         ],
         "backgroundColor": "#93c5fd",
@@ -109,11 +122,11 @@
       {
         "label": "Pure D",
         "data": [
-          14,
+          12,
           67,
           29,
           22,
-          11
+          10
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

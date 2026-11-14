@@ -19,15 +19,15 @@
         "label": "Pure R",
         "data": [
           0,
-          8,
-          62,
-          211,
-          322,
-          312,
-          170,
-          128,
-          95,
-          51
+          4,
+          48,
+          183,
+          279,
+          243,
+          129,
+          93,
+          82,
+          46
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -36,15 +36,15 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          6,
-          51,
-          123,
-          246,
-          334,
-          342,
-          360,
-          316,
-          30
+          8,
+          54,
+          125,
+          260,
+          387,
+          373,
+          381,
+          319,
+          47
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -53,15 +53,15 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          12,
-          133,
-          769,
-          1280,
-          933,
-          567,
-          402,
-          135,
-          20
+          9,
+          120,
+          709,
+          1208,
+          852,
+          503,
+          350,
+          134,
+          29
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -70,32 +70,66 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          12,
-          118,
-          304,
-          621,
-          797,
-          823,
-          817,
-          567,
-          233
+          9,
+          93,
+          256,
+          450,
+          538,
+          446,
+          340,
+          123,
+          13
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          4,
+          15,
+          21,
+          20,
+          22,
+          18,
+          5
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          15,
+          66,
+          170,
+          236,
+          339,
+          391,
+          262,
+          78
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          20,
-          139,
-          643,
-          2097,
-          3344,
-          4607,
-          7600,
-          11914,
-          8608
+          19,
+          137,
+          627,
+          2055,
+          3340,
+          4660,
+          7788,
+          12127,
+          9665
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -104,15 +138,15 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          110,
-          656,
-          1594,
-          3252,
-          3822,
-          3880,
-          3988,
-          2848,
-          478
+          117,
+          727,
+          1710,
+          3163,
+          3709,
+          3806,
+          4207,
+          3042,
+          652
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +154,24 @@
       {
         "label": "Pure D",
         "data": [
-          1,
-          89,
-          1153,
-          3849,
-          5424,
-          3575,
-          2377,
-          2263,
-          1530,
-          647
+          0,
+          58,
+          965,
+          3626,
+          5506,
+          3838,
+          2631,
+          2324,
+          1752,
+          924
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "State Representative District",
   "jurisdiction_name": "18",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

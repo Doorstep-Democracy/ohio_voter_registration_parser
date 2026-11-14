@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 382",
-      "Mixed – Active — 968",
-      "Mixed – Lapsed — 469",
-      "UNC – No Primary — 3,234",
-      "UNC – Lapsed D — 1,535"
+      "UNC – Lapsed R — 379",
+      "Mixed – Active — 969",
+      "Mixed – Lapsed — 320",
+      "UNC – Non-partisan Ballot — 150",
+      "UNC – No Primary — 3,311",
+      "UNC – Lapsed D — 1,520"
     ],
     "datasets": [
       {
         "data": [
-          382,
-          968,
-          469,
-          3234,
-          1535
+          379,
+          969,
+          320,
+          150,
+          3311,
+          1520
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Liberty Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

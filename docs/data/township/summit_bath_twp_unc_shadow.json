@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,062",
-      "Mixed – Active — 811",
-      "Mixed – Lapsed — 807",
-      "UNC – No Primary — 2,588",
-      "UNC – Lapsed D — 943"
+      "UNC – Lapsed R — 1,171",
+      "Mixed – Active — 793",
+      "Mixed – Lapsed — 484",
+      "UNC – Non-partisan Ballot — 336",
+      "UNC – No Primary — 2,569",
+      "UNC – Lapsed D — 918"
     ],
     "datasets": [
       {
         "data": [
-          1062,
-          811,
-          807,
-          2588,
-          943
+          1171,
+          793,
+          484,
+          336,
+          2569,
+          918
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BATH TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

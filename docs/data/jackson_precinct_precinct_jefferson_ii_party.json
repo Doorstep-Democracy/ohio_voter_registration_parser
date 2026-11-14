@@ -4,13 +4,14 @@
   "precinct": "PRECINCT JEFFERSON II",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,13 +20,14 @@
     "datasets": [
       {
         "data": [
-          93,
-          125,
+          92,
+          127,
           50,
-          54,
-          5,
-          390,
-          81,
+          53,
+          0,
+          6,
+          387,
+          79,
           10
         ],
         "backgroundColor": [
@@ -33,6 +35,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

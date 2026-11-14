@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 135 (32%)",
-      "UNC – Lapsed R — 74 (17%)",
-      "Mixed – Active — 33 (8%)",
-      "Mixed – Lapsed — 25 (6%)",
-      "UNC – No Primary — 134 (32%)",
-      "UNC – Lapsed D — 15 (4%)",
-      "Pure D — 8 (2%)"
+      "Pure R — 169 (40%)",
+      "UNC – Lapsed R — 61 (14%)",
+      "Mixed – Active — 39 (9%)",
+      "Mixed – Lapsed — 12 (3%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 10 (2%)",
+      "UNC – No Primary — 111 (26%)",
+      "UNC – Lapsed D — 10 (2%)",
+      "Pure D — 12 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          135,
-          74,
-          33,
-          25,
-          134,
-          15,
-          8
+          169,
+          61,
+          39,
+          12,
+          3,
+          10,
+          111,
+          10,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 195",
-      "Mixed – Active — 209",
-      "Mixed – Lapsed — 170",
-      "UNC – No Primary — 611",
-      "UNC – Lapsed D — 168"
+      "UNC – Lapsed R — 222",
+      "Mixed – Active — 213",
+      "Mixed – Lapsed — 72",
+      "UNC – Non-partisan Ballot — 85",
+      "UNC – No Primary — 614",
+      "UNC – Lapsed D — 148"
     ],
     "datasets": [
       {
         "data": [
-          195,
-          209,
-          170,
-          611,
-          168
+          222,
+          213,
+          72,
+          85,
+          614,
+          148
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALTCREEK TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

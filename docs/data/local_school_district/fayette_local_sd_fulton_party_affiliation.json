@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 260 (16%)",
-      "UNC – Lapsed R — 236 (15%)",
-      "Mixed – Active — 108 (7%)",
-      "Mixed – Lapsed — 107 (7%)",
-      "UNC – No Primary — 719 (45%)",
+      "Pure R — 259 (16%)",
+      "UNC – Lapsed R — 234 (15%)",
+      "Mixed – Active — 107 (7%)",
+      "Mixed – Lapsed — 58 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 51 (3%)",
+      "UNC – No Primary — 736 (46%)",
       "UNC – Lapsed D — 110 (7%)",
       "Pure D — 46 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          260,
-          236,
-          108,
+          259,
+          234,
           107,
-          719,
+          58,
+          2,
+          51,
+          736,
           110,
           46
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Fayette Local Sd (Fulton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

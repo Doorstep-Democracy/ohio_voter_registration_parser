@@ -4,7 +4,7 @@
   "precinct": "PERRY TWP EAST",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
-          41,
+          9,
+          42,
           28,
           22,
-          1
+          2
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -46,7 +46,7 @@
         "data": [
           12,
           48,
-          21,
+          19,
           3,
           0
         ],
@@ -59,7 +59,7 @@
         "data": [
           4,
           12,
-          15,
+          14,
           8,
           0
         ],
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          4,
-          5,
           3,
           5,
+          3,
+          6,
           2
         ],
         "backgroundColor": "#c4b5cd",
@@ -86,8 +99,8 @@
           3,
           37,
           65,
-          76,
-          86
+          78,
+          89
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,7 +111,7 @@
         "data": [
           10,
           27,
-          28,
+          27,
           9,
           1
         ],
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          10,
+          9,
           34,
           15,
-          5,
+          4,
           3
         ],
         "backgroundColor": "#3b82f6",

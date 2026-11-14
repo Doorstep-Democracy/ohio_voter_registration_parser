@@ -4,7 +4,7 @@
   "precinct": "PRECINCT LORAIN CITY 4-F",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -33,7 +33,7 @@
         "data": [
           0,
           8,
-          12,
+          11,
           4,
           1
         ],
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          5,
+          3,
           7,
-          2,
+          1,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           5,
           4,
           5,
-          4
+          3
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -85,7 +98,7 @@
         "data": [
           4,
           22,
-          39,
+          40,
           67,
           61
         ],
@@ -96,7 +109,7 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          13,
+          11,
           24,
           29,
           15,
@@ -110,7 +123,7 @@
         "label": "Pure D",
         "data": [
           4,
-          39,
+          40,
           21,
           15,
           5

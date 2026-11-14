@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 662 (20%)",
-      "UNC – Lapsed R — 635 (19%)",
+      "Pure R — 654 (19%)",
+      "UNC – Lapsed R — 631 (19%)",
       "Mixed – Active — 315 (9%)",
-      "Mixed – Lapsed — 267 (8%)",
-      "UNC – No Primary — 1,140 (34%)",
-      "UNC – Lapsed D — 225 (7%)",
+      "Mixed – Lapsed — 191 (6%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 73 (2%)",
+      "UNC – No Primary — 1,144 (34%)",
+      "UNC – Lapsed D — 228 (7%)",
       "Pure D — 123 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          662,
-          635,
+          654,
+          631,
           315,
-          267,
-          1140,
-          225,
+          191,
+          5,
+          73,
+          1144,
+          228,
           123
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Seneca East Local Sd (Seneca Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

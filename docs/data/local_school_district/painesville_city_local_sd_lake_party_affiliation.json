@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 498 (6%)",
-      "UNC – Lapsed R — 380 (5%)",
-      "Mixed – Active — 449 (6%)",
-      "Mixed – Lapsed — 376 (5%)",
-      "UNC – No Primary — 4,216 (55%)",
-      "UNC – Lapsed D — 1,109 (14%)",
-      "Pure D — 693 (9%)"
+      "Pure R — 493 (6%)",
+      "UNC – Lapsed R — 371 (5%)",
+      "Mixed – Active — 448 (6%)",
+      "Mixed – Lapsed — 219 (3%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 146 (2%)",
+      "UNC – No Primary — 4,327 (55%)",
+      "UNC – Lapsed D — 1,091 (14%)",
+      "Pure D — 684 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          498,
-          380,
-          449,
-          376,
-          4216,
-          1109,
-          693
+          493,
+          371,
+          448,
+          219,
+          19,
+          146,
+          4327,
+          1091,
+          684
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Painesville City Local Sd (Lake Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

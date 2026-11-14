@@ -580,7 +580,10 @@ def _cli_dry_run(slug: str) -> None:
     # Locate the narrative JSON for this slug.
     # We look in docs/data/ first (county/precinct), then docs/data/*/ (districts).
     root = Path(__file__).resolve().parent.parent.parent
-    data_dir = root / "docs" / "data"
+    if str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    from pipeline.paths import DATA_DIR  # noqa: PLC0415
+    data_dir = DATA_DIR
 
     candidate = data_dir / f"{slug}_narrative.json"
     if not candidate.exists():

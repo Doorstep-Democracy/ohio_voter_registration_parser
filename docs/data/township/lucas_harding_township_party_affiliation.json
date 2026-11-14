@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 86 (17%)",
-      "UNC – Lapsed R — 71 (14%)",
-      "Mixed – Active — 32 (6%)",
-      "Mixed – Lapsed — 55 (11%)",
-      "UNC – No Primary — 162 (33%)",
-      "UNC – Lapsed D — 56 (11%)",
-      "Pure D — 32 (6%)"
+      "Pure R — 88 (18%)",
+      "UNC – Lapsed R — 66 (13%)",
+      "Mixed – Active — 35 (7%)",
+      "Mixed – Lapsed — 16 (3%)",
+      "Minor Party — 7 (1%)",
+      "UNC – Non-partisan Ballot — 28 (6%)",
+      "UNC – No Primary — 160 (33%)",
+      "UNC – Lapsed D — 53 (11%)",
+      "Pure D — 36 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          86,
-          71,
-          32,
-          55,
-          162,
-          56,
-          32
+          88,
+          66,
+          35,
+          16,
+          7,
+          28,
+          160,
+          53,
+          36
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARDING TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

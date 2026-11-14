@@ -4,7 +4,7 @@
   "precinct": "HILL 3-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -20,12 +20,12 @@
       {
         "label": "Pure R",
         "data": [
-          3,
+          2,
           12,
           27,
           16,
           14,
-          9,
+          8,
           9,
           9
         ],
@@ -36,13 +36,13 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          3,
           6,
-          14,
           15,
+          14,
           21,
-          28,
-          19,
+          27,
+          20,
           3
         ],
         "backgroundColor": "#fca5a5",
@@ -52,7 +52,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           12,
           17,
           21,
@@ -69,7 +69,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          8,
+          7,
           8,
           15,
           8,
@@ -82,12 +82,28 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           1,
-          1,
-          9,
+          2,
+          8,
           6,
           7,
           4,
@@ -102,12 +118,12 @@
         "data": [
           1,
           9,
-          18,
+          17,
           29,
-          65,
-          123,
-          155,
-          99
+          63,
+          121,
+          150,
+          107
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -117,13 +133,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          10,
           9,
-          21,
+          9,
           20,
+          19,
+          28,
           26,
-          25,
-          5
+          4
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -134,12 +150,12 @@
         "data": [
           0,
           8,
-          12,
+          10,
           19,
-          14,
+          13,
           25,
           25,
-          11
+          13
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

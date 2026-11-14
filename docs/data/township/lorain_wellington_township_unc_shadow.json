@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 418",
-      "Mixed – Active — 407",
-      "Mixed – Lapsed — 389",
-      "UNC – No Primary — 1,601",
-      "UNC – Lapsed D — 428"
+      "UNC – Lapsed R — 441",
+      "Mixed – Active — 403",
+      "Mixed – Lapsed — 176",
+      "UNC – Non-partisan Ballot — 199",
+      "UNC – No Primary — 1,602",
+      "UNC – Lapsed D — 410"
     ],
     "datasets": [
       {
         "data": [
-          418,
-          407,
-          389,
-          1601,
-          428
+          441,
+          403,
+          176,
+          199,
+          1602,
+          410
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WELLINGTON TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

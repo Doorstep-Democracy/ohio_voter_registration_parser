@@ -4,7 +4,7 @@
   "precinct": "MAYFIELD VILLAGE-01-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,8 +18,8 @@
       {
         "label": "Pure R",
         "data": [
-          15,
-          34,
+          14,
+          35,
           18,
           4,
           3
@@ -31,9 +31,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          13,
-          27,
-          18,
+          14,
+          26,
+          17,
           9,
           5
         ],
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           7,
-          25,
-          13,
+          23,
+          12,
           6,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           6,
           14,
-          34,
+          33,
           55,
-          57
+          63
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,10 +109,10 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          14,
+          15,
           36,
           26,
-          16,
+          17,
           8
         ],
         "backgroundColor": "#93c5fd",
@@ -113,7 +126,7 @@
           23,
           13,
           13,
-          6
+          5
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

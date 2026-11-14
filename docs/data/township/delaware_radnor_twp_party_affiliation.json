@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 414 (31%)",
-      "UNC – Lapsed R — 178 (14%)",
-      "Mixed – Active — 130 (10%)",
-      "Mixed – Lapsed — 77 (6%)",
-      "UNC – No Primary — 374 (28%)",
-      "UNC – Lapsed D — 78 (6%)",
-      "Pure D — 64 (5%)"
+      "Pure R — 372 (28%)",
+      "UNC – Lapsed R — 218 (16%)",
+      "Mixed – Active — 124 (9%)",
+      "Mixed – Lapsed — 65 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 26 (2%)",
+      "UNC – No Primary — 371 (28%)",
+      "UNC – Lapsed D — 73 (6%)",
+      "Pure D — 70 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          414,
-          178,
-          130,
-          77,
-          374,
-          78,
-          64
+          372,
+          218,
+          124,
+          65,
+          3,
+          26,
+          371,
+          73,
+          70
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RADNOR TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

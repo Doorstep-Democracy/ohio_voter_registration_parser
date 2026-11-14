@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 16",
-      "Mixed – Active — 6",
+      "UNC – Lapsed R — 25",
+      "Mixed – Active — 7",
       "Mixed – Lapsed — 3",
+      "UNC – Non-partisan Ballot — 0",
       "UNC – No Primary — 38",
-      "UNC – Lapsed D — 8"
+      "UNC – Lapsed D — 12"
     ],
     "datasets": [
       {
         "data": [
-          16,
-          6,
+          25,
+          7,
           3,
+          0,
           38,
-          8
+          12
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "LATTY VILLAGE (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,051",
-      "Mixed – Active — 617",
-      "Mixed – Lapsed — 718",
-      "UNC – No Primary — 1,955",
-      "UNC – Lapsed D — 517"
+      "UNC – Lapsed R — 1,308",
+      "Mixed – Active — 527",
+      "Mixed – Lapsed — 435",
+      "UNC – Non-partisan Ballot — 365",
+      "UNC – No Primary — 1,980",
+      "UNC – Lapsed D — 519"
     ],
     "datasets": [
       {
         "data": [
-          1051,
-          617,
-          718,
-          1955,
-          517
+          1308,
+          527,
+          435,
+          365,
+          1980,
+          519
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GERMAN TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

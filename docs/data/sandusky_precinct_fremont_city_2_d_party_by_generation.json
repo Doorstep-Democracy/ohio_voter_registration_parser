@@ -4,7 +4,7 @@
   "precinct": "FREMONT CITY 2-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,7 +32,7 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          13,
+          14,
           11,
           8,
           4
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           6,
-          36,
+          37,
           5,
           4,
           1
@@ -57,7 +57,7 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
+          1,
           9,
           0,
           2,
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           4,
           2,
           11,
-          9,
+          8,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          20,
+          19,
           14,
-          11,
-          3
+          12,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,11 +122,11 @@
       {
         "label": "Pure D",
         "data": [
-          7,
-          17,
-          11,
           6,
-          6
+          16,
+          10,
+          6,
+          5
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 86 (11%)",
-      "UNC – Lapsed R — 59 (7%)",
-      "Mixed – Active — 60 (8%)",
-      "Mixed – Lapsed — 71 (9%)",
-      "UNC – No Primary — 297 (37%)",
-      "UNC – Lapsed D — 131 (16%)",
-      "Pure D — 92 (12%)"
+      "Pure R — 77 (10%)",
+      "UNC – Lapsed R — 73 (9%)",
+      "Mixed – Active — 65 (8%)",
+      "Mixed – Lapsed — 48 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 18 (2%)",
+      "UNC – No Primary — 293 (37%)",
+      "UNC – Lapsed D — 121 (15%)",
+      "Pure D — 103 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          86,
-          59,
-          60,
-          71,
-          297,
-          131,
-          92
+          77,
+          73,
+          65,
+          48,
+          1,
+          18,
+          293,
+          121,
+          103
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ROME TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

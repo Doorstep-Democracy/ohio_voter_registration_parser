@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 952 (18%)",
-      "UNC – Lapsed R — 609 (11%)",
-      "Mixed – Active — 467 (9%)",
-      "Mixed – Lapsed — 400 (8%)",
-      "UNC – No Primary — 2,060 (39%)",
-      "UNC – Lapsed D — 451 (8%)",
-      "Pure D — 376 (7%)"
+      "Pure R — 945 (18%)",
+      "UNC – Lapsed R — 600 (11%)",
+      "Mixed – Active — 461 (9%)",
+      "Mixed – Lapsed — 219 (4%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 174 (3%)",
+      "UNC – No Primary — 2,110 (39%)",
+      "UNC – Lapsed D — 459 (9%)",
+      "Pure D — 372 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          952,
-          609,
-          467,
-          400,
-          2060,
-          451,
-          376
+          945,
+          600,
+          461,
+          219,
+          13,
+          174,
+          2110,
+          459,
+          372
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Pymatuning Valley Local Sd (Ashtabula Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

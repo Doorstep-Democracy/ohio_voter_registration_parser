@@ -4,7 +4,7 @@
   "precinct": "DUBLIN CITY 2",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           2,
-          37,
+          36,
           48,
           8,
           13
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          31,
-          105,
-          36,
+          33,
+          103,
+          39,
           13
         ],
         "backgroundColor": "#fca5a5",
@@ -46,7 +46,7 @@
         "data": [
           4,
           24,
-          34,
+          33,
           7,
           0
         ],
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           4,
-          13,
+          14,
           26,
           7,
           1
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           4,
           17,
-          7,
+          8,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           10,
-          71,
-          355,
-          182,
-          338
+          70,
+          359,
+          186,
+          362
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,9 +110,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          28,
-          75,
-          35,
+          29,
+          76,
+          39,
           17
         ],
         "backgroundColor": "#93c5fd",
@@ -111,9 +124,9 @@
         "data": [
           6,
           17,
-          26,
+          24,
           19,
-          21
+          20
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

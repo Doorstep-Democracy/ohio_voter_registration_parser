@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 687 (27%)",
-      "UNC – Lapsed R — 302 (12%)",
-      "Mixed – Active — 329 (13%)",
-      "Mixed – Lapsed — 156 (6%)",
+      "Pure R — 624 (25%)",
+      "UNC – Lapsed R — 366 (15%)",
+      "Mixed – Active — 313 (12%)",
+      "Mixed – Lapsed — 105 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 66 (3%)",
       "UNC – No Primary — 801 (32%)",
-      "UNC – Lapsed D — 162 (6%)",
-      "Pure D — 68 (3%)"
+      "UNC – Lapsed D — 160 (6%)",
+      "Pure D — 75 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          687,
-          302,
-          329,
-          156,
+          624,
+          366,
+          313,
+          105,
+          2,
+          66,
           801,
-          162,
-          68
+          160,
+          75
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

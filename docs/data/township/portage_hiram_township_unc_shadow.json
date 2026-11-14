@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 197",
-      "Mixed – Active — 211",
-      "Mixed – Lapsed — 242",
-      "UNC – No Primary — 570",
-      "UNC – Lapsed D — 214"
+      "UNC – Lapsed R — 222",
+      "Mixed – Active — 214",
+      "Mixed – Lapsed — 103",
+      "UNC – Non-partisan Ballot — 134",
+      "UNC – No Primary — 565",
+      "UNC – Lapsed D — 202"
     ],
     "datasets": [
       {
         "data": [
-          197,
-          211,
-          242,
-          570,
-          214
+          222,
+          214,
+          103,
+          134,
+          565,
+          202
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HIRAM TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

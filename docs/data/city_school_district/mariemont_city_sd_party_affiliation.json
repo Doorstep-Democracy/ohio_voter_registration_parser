@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 732 (10%)",
-      "UNC – Lapsed R — 1,056 (15%)",
-      "Mixed – Active — 486 (7%)",
-      "Mixed – Lapsed — 577 (8%)",
-      "UNC – No Primary — 2,893 (41%)",
-      "UNC – Lapsed D — 776 (11%)",
-      "Pure D — 465 (7%)"
+      "Pure R — 584 (8%)",
+      "UNC – Lapsed R — 1,146 (16%)",
+      "Mixed – Active — 496 (7%)",
+      "Mixed – Lapsed — 418 (6%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 185 (3%)",
+      "UNC – No Primary — 2,813 (40%)",
+      "UNC – Lapsed D — 758 (11%)",
+      "Pure D — 630 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          732,
-          1056,
-          486,
-          577,
-          2893,
-          776,
-          465
+          584,
+          1146,
+          496,
+          418,
+          12,
+          185,
+          2813,
+          758,
+          630
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MARIEMONT CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

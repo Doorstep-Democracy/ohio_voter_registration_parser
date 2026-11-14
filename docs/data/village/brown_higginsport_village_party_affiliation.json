@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 30 (20%)",
-      "UNC – Lapsed R — 11 (7%)",
+      "Pure R — 28 (19%)",
+      "UNC – Lapsed R — 13 (9%)",
       "Mixed – Active — 9 (6%)",
       "Mixed – Lapsed — 9 (6%)",
-      "UNC – No Primary — 71 (47%)",
-      "UNC – Lapsed D — 16 (11%)",
-      "Pure D — 4 (3%)"
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 70 (47%)",
+      "UNC – Lapsed D — 15 (10%)",
+      "Pure D — 3 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          30,
-          11,
+          28,
+          13,
           9,
           9,
-          71,
-          16,
-          4
+          0,
+          2,
+          70,
+          15,
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HIGGINSPORT VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

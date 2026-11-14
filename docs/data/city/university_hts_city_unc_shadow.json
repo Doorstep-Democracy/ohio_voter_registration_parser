@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 421",
-      "Mixed – Active — 629",
-      "Mixed – Lapsed — 575",
-      "UNC – No Primary — 3,772",
-      "UNC – Lapsed D — 1,592"
+      "UNC – Lapsed R — 423",
+      "Mixed – Active — 622",
+      "Mixed – Lapsed — 407",
+      "UNC – Non-partisan Ballot — 163",
+      "UNC – No Primary — 3,870",
+      "UNC – Lapsed D — 1,599"
     ],
     "datasets": [
       {
         "data": [
-          421,
-          629,
-          575,
-          3772,
-          1592
+          423,
+          622,
+          407,
+          163,
+          3870,
+          1599
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "UNIVERSITY HTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

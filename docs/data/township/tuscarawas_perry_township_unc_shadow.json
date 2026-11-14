@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 25",
-      "Mixed – Active — 27",
-      "Mixed – Lapsed — 22",
-      "UNC – No Primary — 93",
-      "UNC – Lapsed D — 43"
+      "UNC – Lapsed R — 26",
+      "Mixed – Active — 29",
+      "Mixed – Lapsed — 12",
+      "UNC – Non-partisan Ballot — 10",
+      "UNC – No Primary — 90",
+      "UNC – Lapsed D — 39"
     ],
     "datasets": [
       {
         "data": [
-          25,
-          27,
-          22,
-          93,
-          43
+          26,
+          29,
+          12,
+          10,
+          90,
+          39
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PERRY TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

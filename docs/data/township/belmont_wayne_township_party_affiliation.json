@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 68 (15%)",
-      "UNC – Lapsed R — 37 (8%)",
-      "Mixed – Active — 79 (17%)",
-      "Mixed – Lapsed — 44 (10%)",
-      "UNC – No Primary — 152 (34%)",
-      "UNC – Lapsed D — 52 (11%)",
-      "Pure D — 21 (5%)"
+      "Pure R — 66 (15%)",
+      "UNC – Lapsed R — 45 (10%)",
+      "Mixed – Active — 81 (18%)",
+      "Mixed – Lapsed — 18 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 24 (5%)",
+      "UNC – No Primary — 145 (32%)",
+      "UNC – Lapsed D — 50 (11%)",
+      "Pure D — 22 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          37,
-          79,
-          44,
-          152,
-          52,
-          21
+          66,
+          45,
+          81,
+          18,
+          1,
+          24,
+          145,
+          50,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WAYNE TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 91 (14%)",
-      "UNC – Lapsed R — 60 (9%)",
-      "Mixed – Active — 50 (8%)",
-      "Mixed – Lapsed — 28 (4%)",
-      "UNC – No Primary — 301 (45%)",
-      "UNC – Lapsed D — 104 (16%)",
-      "Pure D — 32 (5%)"
+      "Pure R — 87 (13%)",
+      "UNC – Lapsed R — 67 (10%)",
+      "Mixed – Active — 57 (8%)",
+      "Mixed – Lapsed — 13 (2%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 11 (2%)",
+      "UNC – No Primary — 302 (45%)",
+      "UNC – Lapsed D — 86 (13%)",
+      "Pure D — 51 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          91,
-          60,
-          50,
-          28,
-          301,
-          104,
-          32
+          87,
+          67,
+          57,
+          13,
+          1,
+          11,
+          302,
+          86,
+          51
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SALTLICK TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

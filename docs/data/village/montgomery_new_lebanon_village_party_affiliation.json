@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 275 (12%)",
-      "UNC – Lapsed R — 309 (13%)",
-      "Mixed – Active — 160 (7%)",
-      "Mixed – Lapsed — 198 (8%)",
-      "UNC – No Primary — 1,127 (48%)",
-      "UNC – Lapsed D — 209 (9%)",
-      "Pure D — 87 (4%)"
+      "Pure R — 245 (10%)",
+      "UNC – Lapsed R — 362 (15%)",
+      "Mixed – Active — 139 (6%)",
+      "Mixed – Lapsed — 126 (5%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 92 (4%)",
+      "UNC – No Primary — 1,138 (47%)",
+      "UNC – Lapsed D — 216 (9%)",
+      "Pure D — 94 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          275,
-          309,
-          160,
-          198,
-          1127,
-          209,
-          87
+          245,
+          362,
+          139,
+          126,
+          8,
+          92,
+          1138,
+          216,
+          94
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW LEBANON VILLAGE (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

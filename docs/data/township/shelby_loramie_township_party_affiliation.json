@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 468 (27%)",
-      "UNC – Lapsed R — 264 (15%)",
-      "Mixed – Active — 213 (12%)",
-      "Mixed – Lapsed — 123 (7%)",
-      "UNC – No Primary — 565 (32%)",
-      "UNC – Lapsed D — 92 (5%)",
-      "Pure D — 19 (1%)"
+      "Pure R — 451 (26%)",
+      "UNC – Lapsed R — 306 (17%)",
+      "Mixed – Active — 195 (11%)",
+      "Mixed – Lapsed — 85 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 53 (3%)",
+      "UNC – No Primary — 570 (32%)",
+      "UNC – Lapsed D — 83 (5%)",
+      "Pure D — 20 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          468,
-          264,
-          213,
-          123,
-          565,
-          92,
-          19
+          451,
+          306,
+          195,
+          85,
+          1,
+          53,
+          570,
+          83,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LORAMIE TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

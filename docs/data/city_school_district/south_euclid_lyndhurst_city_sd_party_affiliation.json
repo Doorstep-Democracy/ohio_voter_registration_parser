@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,177 (5%)",
-      "UNC – Lapsed R — 1,139 (4%)",
-      "Mixed – Active — 1,819 (7%)",
-      "Mixed – Lapsed — 1,448 (6%)",
-      "UNC – No Primary — 10,066 (39%)",
-      "UNC – Lapsed D — 5,548 (21%)",
-      "Pure D — 4,725 (18%)"
+      "Pure R — 1,074 (4%)",
+      "UNC – Lapsed R — 1,178 (4%)",
+      "Mixed – Active — 1,798 (7%)",
+      "Mixed – Lapsed — 898 (3%)",
+      "Minor Party — 35 (0%)",
+      "UNC – Non-partisan Ballot — 514 (2%)",
+      "UNC – No Primary — 10,056 (38%)",
+      "UNC – Lapsed D — 5,096 (19%)",
+      "Pure D — 5,632 (21%)"
     ],
     "datasets": [
       {
         "data": [
-          1177,
-          1139,
-          1819,
-          1448,
-          10066,
-          5548,
-          4725
+          1074,
+          1178,
+          1798,
+          898,
+          35,
+          514,
+          10056,
+          5096,
+          5632
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SOUTH EUCLID-LYNDHURST CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 79",
+      "UNC – Lapsed R — 89",
       "Mixed – Active — 59",
-      "Mixed – Lapsed — 35",
-      "UNC – No Primary — 247",
-      "UNC – Lapsed D — 32"
+      "Mixed – Lapsed — 21",
+      "UNC – Non-partisan Ballot — 11",
+      "UNC – No Primary — 244",
+      "UNC – Lapsed D — 30"
     ],
     "datasets": [
       {
         "data": [
-          79,
+          89,
           59,
-          35,
-          247,
-          32
+          21,
+          11,
+          244,
+          30
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

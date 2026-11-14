@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,407 (20%)",
-      "UNC – Lapsed R — 3,187 (14%)",
-      "Mixed – Active — 1,803 (8%)",
-      "Mixed – Lapsed — 1,475 (7%)",
-      "UNC – No Primary — 9,098 (41%)",
-      "UNC – Lapsed D — 1,715 (8%)",
-      "Pure D — 511 (2%)"
+      "Pure R — 4,149 (18%)",
+      "UNC – Lapsed R — 3,494 (16%)",
+      "Mixed – Active — 1,926 (9%)",
+      "Mixed – Lapsed — 990 (4%)",
+      "Minor Party — 39 (0%)",
+      "UNC – Non-partisan Ballot — 483 (2%)",
+      "UNC – No Primary — 8,940 (40%)",
+      "UNC – Lapsed D — 1,563 (7%)",
+      "Pure D — 852 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          4407,
-          3187,
-          1803,
-          1475,
-          9098,
-          1715,
-          511
+          4149,
+          3494,
+          1926,
+          990,
+          39,
+          483,
+          8940,
+          1563,
+          852
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "TROY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

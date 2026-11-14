@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 36 (23%)",
-      "UNC – Lapsed R — 25 (16%)",
-      "Mixed – Active — 10 (6%)",
-      "Mixed – Lapsed — 7 (5%)",
-      "UNC – No Primary — 56 (36%)",
-      "UNC – Lapsed D — 15 (10%)",
-      "Pure D — 6 (4%)"
+      "Pure R — 35 (23%)",
+      "UNC – Lapsed R — 23 (15%)",
+      "Mixed – Active — 11 (7%)",
+      "Mixed – Lapsed — 1 (1%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (4%)",
+      "UNC – No Primary — 57 (37%)",
+      "UNC – Lapsed D — 13 (8%)",
+      "Pure D — 8 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          36,
-          25,
-          10,
-          7,
-          56,
-          15,
-          6
+          35,
+          23,
+          11,
+          1,
+          0,
+          6,
+          57,
+          13,
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "POTSDAM VILLAGE (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

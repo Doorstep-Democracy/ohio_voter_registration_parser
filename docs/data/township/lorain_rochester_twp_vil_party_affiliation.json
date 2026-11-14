@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 144 (26%)",
-      "UNC – Lapsed R — 61 (11%)",
-      "Mixed – Active — 62 (11%)",
-      "Mixed – Lapsed — 45 (8%)",
-      "UNC – No Primary — 178 (32%)",
-      "UNC – Lapsed D — 36 (6%)",
+      "Pure R — 143 (25%)",
+      "UNC – Lapsed R — 62 (11%)",
+      "Mixed – Active — 61 (11%)",
+      "Mixed – Lapsed — 22 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 22 (4%)",
+      "UNC – No Primary — 182 (32%)",
+      "UNC – Lapsed D — 38 (7%)",
       "Pure D — 34 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          144,
-          61,
+          143,
           62,
-          45,
-          178,
-          36,
+          61,
+          22,
+          1,
+          22,
+          182,
+          38,
           34
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ROCHESTER TWP & VIL (Lorain Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

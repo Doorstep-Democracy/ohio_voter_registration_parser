@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 234",
-      "Mixed – Active — 404",
-      "Mixed – Lapsed — 337",
-      "UNC – No Primary — 1,091",
-      "UNC – Lapsed D — 956"
+      "UNC – Lapsed R — 233",
+      "Mixed – Active — 438",
+      "Mixed – Lapsed — 168",
+      "UNC – Non-partisan Ballot — 118",
+      "UNC – No Primary — 1,084",
+      "UNC – Lapsed D — 832"
     ],
     "datasets": [
       {
         "data": [
-          234,
-          404,
-          337,
-          1091,
-          956
+          233,
+          438,
+          168,
+          118,
+          1084,
+          832
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MIAMI (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

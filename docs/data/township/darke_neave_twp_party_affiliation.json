@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 387 (27%)",
-      "UNC – Lapsed R — 177 (12%)",
-      "Mixed – Active — 123 (8%)",
-      "Mixed – Lapsed — 81 (6%)",
-      "UNC – No Primary — 555 (38%)",
-      "UNC – Lapsed D — 80 (6%)",
-      "Pure D — 49 (3%)"
+      "Pure R — 334 (23%)",
+      "UNC – Lapsed R — 236 (16%)",
+      "Mixed – Active — 114 (8%)",
+      "Mixed – Lapsed — 71 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 21 (1%)",
+      "UNC – No Primary — 541 (37%)",
+      "UNC – Lapsed D — 76 (5%)",
+      "Pure D — 56 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          387,
-          177,
-          123,
-          81,
-          555,
-          80,
-          49
+          334,
+          236,
+          114,
+          71,
+          0,
+          21,
+          541,
+          76,
+          56
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEAVE TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

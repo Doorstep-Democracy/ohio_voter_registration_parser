@@ -4,7 +4,7 @@
   "precinct": "PRECINCT LICKING A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -22,10 +22,10 @@
         "label": "Pure R",
         "data": [
           1,
-          1,
+          0,
           16,
-          50,
-          48,
+          49,
+          47,
           25,
           16,
           15,
@@ -39,14 +39,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          2,
+          1,
           12,
           24,
           34,
           38,
-          37,
+          38,
           17,
-          5
+          6
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 3,
@@ -87,15 +87,32 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
           0,
           0,
           1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          0,
           3,
           4,
-          5,
+          4,
           0,
           2
         ],
@@ -109,12 +126,12 @@
           1,
           0,
           6,
-          19,
-          33,
+          18,
+          34,
           44,
-          55,
-          73,
-          76
+          57,
+          72,
+          87
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -125,12 +142,12 @@
         "data": [
           0,
           2,
-          4,
-          11,
-          11,
-          13,
+          3,
           12,
-          5,
+          11,
+          12,
+          12,
+          6,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -148,7 +165,7 @@
           3,
           0,
           2,
-          4
+          3
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 33 (16%)",
-      "UNC – Lapsed R — 23 (11%)",
-      "Mixed – Active — 21 (10%)",
-      "Mixed – Lapsed — 12 (6%)",
-      "UNC – No Primary — 94 (45%)",
-      "UNC – Lapsed D — 16 (8%)",
-      "Pure D — 12 (6%)"
+      "UNC – Lapsed R — 27 (13%)",
+      "Mixed – Active — 24 (11%)",
+      "Mixed – Lapsed — 6 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 85 (40%)",
+      "UNC – Lapsed D — 14 (7%)",
+      "Pure D — 19 (9%)"
     ],
     "datasets": [
       {
         "data": [
           33,
-          23,
-          21,
-          12,
-          94,
-          16,
-          12
+          27,
+          24,
+          6,
+          0,
+          4,
+          85,
+          14,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEY VILLAGE (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 696 (29%)",
-      "UNC – Lapsed R — 200 (8%)",
-      "Mixed – Active — 382 (16%)",
-      "Mixed – Lapsed — 193 (8%)",
-      "UNC – No Primary — 625 (26%)",
-      "UNC – Lapsed D — 145 (6%)",
-      "Pure D — 181 (7%)"
+      "Pure R — 601 (25%)",
+      "UNC – Lapsed R — 315 (13%)",
+      "Mixed – Active — 351 (14%)",
+      "Mixed – Lapsed — 106 (4%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 111 (5%)",
+      "UNC – No Primary — 611 (25%)",
+      "UNC – Lapsed D — 152 (6%)",
+      "Pure D — 169 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          696,
-          200,
-          382,
-          193,
-          625,
-          145,
-          181
+          601,
+          315,
+          351,
+          106,
+          7,
+          111,
+          611,
+          152,
+          169
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LEROY TOWNSHIP (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

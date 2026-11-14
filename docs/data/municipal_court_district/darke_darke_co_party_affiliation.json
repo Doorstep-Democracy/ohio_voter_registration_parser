@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8,592 (26%)",
-      "UNC – Lapsed R — 4,323 (13%)",
-      "Mixed – Active — 3,246 (10%)",
-      "Mixed – Lapsed — 1,942 (6%)",
-      "UNC – No Primary — 12,743 (38%)",
-      "UNC – Lapsed D — 1,790 (5%)",
-      "Pure D — 803 (2%)"
+      "Pure R — 6,589 (20%)",
+      "UNC – Lapsed R — 6,378 (19%)",
+      "Mixed – Active — 2,746 (8%)",
+      "Mixed – Lapsed — 1,862 (6%)",
+      "Minor Party — 56 (0%)",
+      "UNC – Non-partisan Ballot — 558 (2%)",
+      "UNC – No Primary — 12,739 (38%)",
+      "UNC – Lapsed D — 1,748 (5%)",
+      "Pure D — 868 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          8592,
-          4323,
-          3246,
-          1942,
-          12743,
-          1790,
-          803
+          6589,
+          6378,
+          2746,
+          1862,
+          56,
+          558,
+          12739,
+          1748,
+          868
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "DARKE-CO (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

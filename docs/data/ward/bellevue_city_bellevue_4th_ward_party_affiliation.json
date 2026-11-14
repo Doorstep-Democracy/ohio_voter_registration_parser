@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 126 (12%)",
-      "UNC – Lapsed R — 101 (10%)",
-      "Mixed – Active — 60 (6%)",
+      "Pure R — 122 (12%)",
+      "UNC – Lapsed R — 100 (10%)",
+      "Mixed – Active — 59 (6%)",
       "Mixed – Lapsed — 26 (3%)",
+      "Minor Party — 4 (0%)",
       "UNC – Non-partisan Ballot — 75 (7%)",
       "UNC – No Primary — 467 (45%)",
-      "UNC – Lapsed D — 99 (10%)",
-      "Pure D — 74 (7%)"
+      "UNC – Lapsed D — 102 (10%)",
+      "Pure D — 72 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          126,
-          101,
-          60,
+          122,
+          100,
+          59,
           26,
+          4,
           75,
           467,
-          99,
-          74
+          102,
+          72
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "BELLEVUE 4TH WARD (BELLEVUE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

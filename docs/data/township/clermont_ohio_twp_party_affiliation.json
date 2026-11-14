@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 641 (17%)",
-      "UNC – Lapsed R — 468 (12%)",
-      "Mixed – Active — 175 (5%)",
-      "Mixed – Lapsed — 278 (7%)",
-      "UNC – No Primary — 1,808 (48%)",
-      "UNC – Lapsed D — 303 (8%)",
-      "Pure D — 109 (3%)"
+      "Pure R — 808 (21%)",
+      "UNC – Lapsed R — 393 (10%)",
+      "Mixed – Active — 230 (6%)",
+      "Mixed – Lapsed — 75 (2%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 196 (5%)",
+      "UNC – No Primary — 1,719 (44%)",
+      "UNC – Lapsed D — 253 (7%)",
+      "Pure D — 185 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          641,
-          468,
-          175,
-          278,
-          1808,
-          303,
-          109
+          808,
+          393,
+          230,
+          75,
+          12,
+          196,
+          1719,
+          253,
+          185
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "OHIO TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

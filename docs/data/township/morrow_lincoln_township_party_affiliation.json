@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 285 (20%)",
-      "UNC – Lapsed R — 203 (15%)",
-      "Mixed – Active — 89 (6%)",
-      "Mixed – Lapsed — 122 (9%)",
-      "UNC – No Primary — 558 (40%)",
-      "UNC – Lapsed D — 97 (7%)",
-      "Pure D — 38 (3%)"
+      "Pure R — 307 (22%)",
+      "UNC – Lapsed R — 200 (14%)",
+      "Mixed – Active — 102 (7%)",
+      "Mixed – Lapsed — 51 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 51 (4%)",
+      "UNC – No Primary — 521 (38%)",
+      "UNC – Lapsed D — 88 (6%)",
+      "Pure D — 60 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          285,
-          203,
-          89,
-          122,
-          558,
-          97,
-          38
+          307,
+          200,
+          102,
+          51,
+          3,
+          51,
+          521,
+          88,
+          60
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LINCOLN TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 804",
-      "Mixed – Active — 540",
-      "Mixed – Lapsed — 412",
-      "UNC – No Primary — 2,418",
-      "UNC – Lapsed D — 743"
+      "UNC – Lapsed R — 765",
+      "Mixed – Active — 600",
+      "Mixed – Lapsed — 293",
+      "UNC – Non-partisan Ballot — 87",
+      "UNC – No Primary — 2,387",
+      "UNC – Lapsed D — 677"
     ],
     "datasets": [
       {
         "data": [
-          804,
-          540,
-          412,
-          2418,
-          743
+          765,
+          600,
+          293,
+          87,
+          2387,
+          677
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PORTER TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

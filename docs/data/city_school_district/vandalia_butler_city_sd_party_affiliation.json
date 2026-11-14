@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,951 (17%)",
-      "UNC – Lapsed R — 2,222 (13%)",
-      "Mixed – Active — 1,312 (7%)",
-      "Mixed – Lapsed — 1,394 (8%)",
-      "UNC – No Primary — 6,846 (39%)",
-      "UNC – Lapsed D — 1,878 (11%)",
-      "Pure D — 909 (5%)"
+      "Pure R — 2,689 (15%)",
+      "UNC – Lapsed R — 2,497 (14%)",
+      "Mixed – Active — 1,296 (7%)",
+      "Mixed – Lapsed — 769 (4%)",
+      "Minor Party — 54 (0%)",
+      "UNC – Non-partisan Ballot — 596 (3%)",
+      "UNC – No Primary — 6,930 (39%)",
+      "UNC – Lapsed D — 1,780 (10%)",
+      "Pure D — 1,130 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2951,
-          2222,
-          1312,
-          1394,
-          6846,
-          1878,
-          909
+          2689,
+          2497,
+          1296,
+          769,
+          54,
+          596,
+          6930,
+          1780,
+          1130
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "VANDALIA-BUTLER CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

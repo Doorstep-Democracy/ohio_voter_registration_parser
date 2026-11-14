@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WADSWORTH CITY 2-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,9 +19,9 @@
         "label": "Pure R",
         "data": [
           9,
-          101,
+          99,
           69,
-          35,
+          36,
           24
         ],
         "backgroundColor": "#ef4444",
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           6,
-          28,
+          29,
           40,
-          31,
+          30,
           5
         ],
         "backgroundColor": "#fca5a5",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          17,
-          2,
+          16,
+          3,
           6,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,8 +86,8 @@
           0,
           7,
           19,
-          22,
-          9
+          21,
+          8
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          5,
-          35,
-          57,
-          104,
-          141
+          4,
+          37,
+          59,
+          107,
+          152
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,7 +111,7 @@
         "data": [
           1,
           17,
-          15,
+          14,
           21,
           5
         ],
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          21,
+          1,
+          20,
           28,
-          44,
+          43,
           13
         ],
         "backgroundColor": "#3b82f6",

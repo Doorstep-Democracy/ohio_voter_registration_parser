@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 64 (17%)",
-      "UNC – Lapsed R — 46 (13%)",
+      "Pure R — 56 (15%)",
+      "UNC – Lapsed R — 51 (14%)",
       "Mixed – Active — 28 (8%)",
-      "Mixed – Lapsed — 17 (5%)",
-      "UNC – No Primary — 189 (52%)",
-      "UNC – Lapsed D — 16 (4%)",
-      "Pure D — 6 (2%)"
+      "Mixed – Lapsed — 14 (4%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
+      "UNC – No Primary — 191 (52%)",
+      "UNC – Lapsed D — 18 (5%)",
+      "Pure D — 5 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          64,
-          46,
+          56,
+          51,
           28,
-          17,
-          189,
-          16,
-          6
+          14,
+          2,
+          1,
+          191,
+          18,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MIDDLE POINT VILLAGE (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

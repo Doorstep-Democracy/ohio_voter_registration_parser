@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 447",
-      "Mixed – Active — 167",
-      "Mixed – Lapsed — 251",
-      "UNC – No Primary — 1,379",
-      "UNC – Lapsed D — 287"
+      "UNC – Lapsed R — 522",
+      "Mixed – Active — 177",
+      "Mixed – Lapsed — 113",
+      "UNC – Non-partisan Ballot — 140",
+      "UNC – No Primary — 1,373",
+      "UNC – Lapsed D — 260"
     ],
     "datasets": [
       {
         "data": [
-          447,
-          167,
-          251,
-          1379,
-          287
+          522,
+          177,
+          113,
+          140,
+          1373,
+          260
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CANAAN TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 199 (21%)",
-      "UNC – Lapsed R — 113 (12%)",
-      "Mixed – Active — 89 (9%)",
-      "Mixed – Lapsed — 122 (13%)",
-      "UNC – No Primary — 343 (35%)",
-      "UNC – Lapsed D — 70 (7%)",
-      "Pure D — 33 (3%)"
+      "Pure R — 218 (22%)",
+      "UNC – Lapsed R — 109 (11%)",
+      "Mixed – Active — 98 (10%)",
+      "Mixed – Lapsed — 40 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 75 (8%)",
+      "UNC – No Primary — 337 (34%)",
+      "UNC – Lapsed D — 55 (6%)",
+      "Pure D — 52 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          199,
-          113,
-          89,
-          122,
-          343,
-          70,
-          33
+          218,
+          109,
+          98,
+          40,
+          2,
+          75,
+          337,
+          55,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DECATUR TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

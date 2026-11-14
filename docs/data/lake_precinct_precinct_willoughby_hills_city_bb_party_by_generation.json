@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WILLOUGHBY HILLS CITY BB",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,9 +18,9 @@
       {
         "label": "Pure R",
         "data": [
-          16,
-          79,
-          48,
+          15,
+          78,
+          47,
           4,
           7
         ],
@@ -31,7 +31,7 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          14,
+          13,
           29,
           34,
           19,
@@ -47,7 +47,7 @@
           19,
           54,
           14,
-          1,
+          2,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -57,8 +57,8 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          13,
-          32,
+          12,
+          33,
           20,
           6,
           0
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
-          14,
+          12,
           11,
-          6,
+          5,
           0
         ],
         "backgroundColor": "#c4b5cd",
@@ -86,8 +99,8 @@
           5,
           31,
           45,
-          78,
-          97
+          80,
+          99
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,9 +111,9 @@
         "data": [
           2,
           43,
-          37,
-          23,
-          6
+          38,
+          25,
+          7
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,8 +122,8 @@
       {
         "label": "Pure D",
         "data": [
-          11,
-          40,
+          10,
+          39,
           17,
           6,
           4

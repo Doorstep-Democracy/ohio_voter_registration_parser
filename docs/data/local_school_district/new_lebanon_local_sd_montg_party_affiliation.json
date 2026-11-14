@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 635 (14%)",
-      "UNC – Lapsed R — 732 (17%)",
-      "Mixed – Active — 306 (7%)",
-      "Mixed – Lapsed — 413 (9%)",
-      "UNC – No Primary — 1,795 (41%)",
+      "Pure R — 627 (14%)",
+      "UNC – Lapsed R — 732 (16%)",
+      "Mixed – Active — 297 (7%)",
+      "Mixed – Lapsed — 245 (5%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 173 (4%)",
+      "UNC – No Primary — 1,834 (41%)",
       "UNC – Lapsed D — 368 (8%)",
-      "Pure D — 177 (4%)"
+      "Pure D — 173 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          635,
+          627,
           732,
-          306,
-          413,
-          1795,
+          297,
+          245,
+          15,
+          173,
+          1834,
           368,
-          177
+          173
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "New Lebanon Local Sd (Montg Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

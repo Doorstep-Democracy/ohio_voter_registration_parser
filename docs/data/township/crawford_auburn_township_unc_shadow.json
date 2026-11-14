@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 55",
-      "Mixed – Active — 35",
-      "Mixed – Lapsed — 43",
-      "UNC – No Primary — 168",
-      "UNC – Lapsed D — 41"
+      "UNC – Lapsed R — 73",
+      "Mixed – Active — 31",
+      "Mixed – Lapsed — 24",
+      "UNC – Non-partisan Ballot — 22",
+      "UNC – No Primary — 172",
+      "UNC – Lapsed D — 37"
     ],
     "datasets": [
       {
         "data": [
-          55,
-          35,
-          43,
-          168,
-          41
+          73,
+          31,
+          24,
+          22,
+          172,
+          37
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "AUBURN TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

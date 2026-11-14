@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 684 (16%)",
-      "UNC – Lapsed R — 606 (14%)",
-      "Mixed – Active — 347 (8%)",
-      "Mixed – Lapsed — 352 (8%)",
-      "UNC – No Primary — 1,694 (40%)",
-      "UNC – Lapsed D — 383 (9%)",
+      "Pure R — 676 (16%)",
+      "UNC – Lapsed R — 612 (14%)",
+      "Mixed – Active — 343 (8%)",
+      "Mixed – Lapsed — 231 (5%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 113 (3%)",
+      "UNC – No Primary — 1,738 (41%)",
+      "UNC – Lapsed D — 382 (9%)",
       "Pure D — 181 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          684,
-          606,
-          347,
-          352,
-          1694,
-          383,
+          676,
+          612,
+          343,
+          231,
+          7,
+          113,
+          1738,
+          382,
           181
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Adena Local Sd (Ross Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

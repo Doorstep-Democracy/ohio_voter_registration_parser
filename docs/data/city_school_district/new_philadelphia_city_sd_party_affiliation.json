@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,674 (12%)",
-      "UNC – Lapsed R — 1,429 (10%)",
-      "Mixed – Active — 1,251 (9%)",
-      "Mixed – Lapsed — 1,574 (12%)",
-      "UNC – No Primary — 4,663 (34%)",
-      "UNC – Lapsed D — 2,189 (16%)",
-      "Pure D — 854 (6%)"
+      "Pure R — 2,183 (16%)",
+      "UNC – Lapsed R — 1,153 (8%)",
+      "Mixed – Active — 1,714 (13%)",
+      "Mixed – Lapsed — 519 (4%)",
+      "Minor Party — 35 (0%)",
+      "UNC – Non-partisan Ballot — 617 (5%)",
+      "UNC – No Primary — 4,430 (32%)",
+      "UNC – Lapsed D — 1,449 (11%)",
+      "Pure D — 1,543 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1674,
-          1429,
-          1251,
-          1574,
-          4663,
-          2189,
-          854
+          2183,
+          1153,
+          1714,
+          519,
+          35,
+          617,
+          4430,
+          1449,
+          1543
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NEW PHILADELPHIA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

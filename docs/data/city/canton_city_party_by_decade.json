@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          10,
-          113,
-          260,
-          591,
-          384,
-          265,
-          167,
-          108,
-          49
+          6,
+          86,
+          230,
+          572,
+          396,
+          247,
+          173,
+          110,
+          61
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
-          56,
-          137,
+          3,
+          63,
+          157,
+          323,
+          373,
+          366,
           309,
-          368,
-          330,
-          296,
-          250,
-          29
+          268,
+          34
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          10,
-          126,
-          487,
-          746,
-          566,
-          272,
-          190,
-          69,
-          7
+          5,
+          100,
+          447,
+          739,
+          539,
+          282,
+          191,
+          67,
+          15
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          47,
-          149,
-          273,
-          319,
-          329,
-          284,
-          143,
-          29
+          5,
+          60,
+          151,
+          235,
+          253,
+          183,
+          139,
+          60,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          9,
+          2,
+          5,
+          9,
+          6,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          6,
+          27,
+          62,
+          107,
+          157,
+          155,
+          92,
+          35
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           4,
-          70,
-          335,
-          1288,
-          2192,
-          2918,
-          4191,
-          5559,
-          3786
+          63,
+          326,
+          1254,
+          2159,
+          2949,
+          4340,
+          5842,
+          4584
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           12,
-          125,
-          434,
-          995,
-          1139,
-          1163,
-          1119,
-          596,
-          68
+          140,
+          497,
+          1003,
+          1118,
+          1187,
+          1149,
+          628,
+          106
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          12,
-          179,
-          668,
-          1262,
-          922,
-          643,
-          450,
-          269,
-          132
+          6,
+          141,
+          577,
+          1244,
+          960,
+          680,
+          521,
+          374,
+          200
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "CANTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

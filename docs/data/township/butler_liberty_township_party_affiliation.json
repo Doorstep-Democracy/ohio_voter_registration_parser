@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,427 (17%)",
-      "UNC – Lapsed R — 4,704 (14%)",
-      "Mixed – Active — 1,483 (5%)",
-      "Mixed – Lapsed — 2,525 (8%)",
-      "UNC – No Primary — 14,397 (44%)",
-      "UNC – Lapsed D — 2,787 (9%)",
-      "Pure D — 1,327 (4%)"
+      "Pure R — 5,348 (16%)",
+      "UNC – Lapsed R — 4,905 (15%)",
+      "Mixed – Active — 1,637 (5%)",
+      "Mixed – Lapsed — 1,042 (3%)",
+      "Minor Party — 69 (0%)",
+      "UNC – Non-partisan Ballot — 1,370 (4%)",
+      "UNC – No Primary — 14,288 (43%)",
+      "UNC – Lapsed D — 2,504 (8%)",
+      "Pure D — 2,040 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          5427,
-          4704,
-          1483,
-          2525,
-          14397,
-          2787,
-          1327
+          5348,
+          4905,
+          1637,
+          1042,
+          69,
+          1370,
+          14288,
+          2504,
+          2040
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

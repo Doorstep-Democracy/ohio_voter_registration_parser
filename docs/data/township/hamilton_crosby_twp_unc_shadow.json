@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 726",
+      "UNC – Lapsed R — 750",
       "Mixed – Active — 394",
-      "Mixed – Lapsed — 500",
-      "UNC – No Primary — 1,957",
-      "UNC – Lapsed D — 307"
+      "Mixed – Lapsed — 178",
+      "UNC – Non-partisan Ballot — 327",
+      "UNC – No Primary — 2,040",
+      "UNC – Lapsed D — 313"
     ],
     "datasets": [
       {
         "data": [
-          726,
+          750,
           394,
-          500,
-          1957,
-          307
+          178,
+          327,
+          2040,
+          313
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CROSBY TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

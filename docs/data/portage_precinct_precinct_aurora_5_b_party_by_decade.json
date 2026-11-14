@@ -4,7 +4,7 @@
   "precinct": "PRECINCT AURORA 5-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -22,11 +22,11 @@
         "label": "Pure R",
         "data": [
           1,
-          12,
+          11,
           39,
-          51,
-          22,
-          8,
+          53,
+          21,
+          10,
           2,
           2,
           2
@@ -41,8 +41,8 @@
           0,
           7,
           17,
-          33,
-          24,
+          35,
+          25,
           17,
           7,
           6,
@@ -72,17 +72,34 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
           4,
-          6,
+          7,
           15,
           25,
-          5,
+          6,
           0,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -109,12 +126,12 @@
           0,
           2,
           16,
-          13,
+          12,
           32,
-          23,
-          41,
-          53,
-          54
+          24,
+          40,
+          50,
+          62
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -124,14 +141,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          4,
+          3,
           11,
-          23,
+          22,
           20,
           13,
-          17,
+          16,
           7,
-          1
+          2
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -141,7 +158,7 @@
         "label": "Pure D",
         "data": [
           0,
-          2,
+          1,
           17,
           18,
           13,

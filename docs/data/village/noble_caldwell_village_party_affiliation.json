@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 248 (21%)",
-      "UNC – Lapsed R — 138 (12%)",
-      "Mixed – Active — 132 (11%)",
-      "Mixed – Lapsed — 84 (7%)",
-      "UNC – No Primary — 365 (32%)",
-      "UNC – Lapsed D — 131 (11%)",
-      "Pure D — 56 (5%)"
+      "Pure R — 229 (20%)",
+      "UNC – Lapsed R — 146 (13%)",
+      "Mixed – Active — 133 (11%)",
+      "Mixed – Lapsed — 60 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 25 (2%)",
+      "UNC – No Primary — 374 (32%)",
+      "UNC – Lapsed D — 129 (11%)",
+      "Pure D — 61 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          248,
-          138,
-          132,
-          84,
-          365,
-          131,
-          56
+          229,
+          146,
+          133,
+          60,
+          3,
+          25,
+          374,
+          129,
+          61
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CALDWELL VILLAGE (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

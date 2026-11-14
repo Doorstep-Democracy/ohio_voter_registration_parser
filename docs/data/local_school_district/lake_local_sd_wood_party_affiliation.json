@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 837 (11%)",
-      "UNC – Lapsed R — 715 (9%)",
-      "Mixed – Active — 642 (8%)",
-      "Mixed – Lapsed — 664 (9%)",
-      "UNC – No Primary — 2,994 (39%)",
-      "UNC – Lapsed D — 1,109 (15%)",
-      "Pure D — 654 (9%)"
+      "Pure R — 829 (11%)",
+      "UNC – Lapsed R — 721 (9%)",
+      "Mixed – Active — 633 (8%)",
+      "Mixed – Lapsed — 328 (4%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 333 (4%)",
+      "UNC – No Primary — 3,065 (40%)",
+      "UNC – Lapsed D — 1,098 (14%)",
+      "Pure D — 647 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          837,
-          715,
-          642,
-          664,
-          2994,
-          1109,
-          654
+          829,
+          721,
+          633,
+          328,
+          17,
+          333,
+          3065,
+          1098,
+          647
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lake Local Sd (Wood Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -4,13 +4,14 @@
   "precinct": "PRECINCT 0006 SIDNEY 2ND WARD C",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,13 +20,14 @@
     "datasets": [
       {
         "data": [
-          105,
-          72,
-          66,
-          24,
+          104,
+          73,
+          67,
+          23,
+          0,
           19,
-          225,
-          40,
+          234,
+          41,
           23
         ],
         "backgroundColor": [
@@ -33,6 +35,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

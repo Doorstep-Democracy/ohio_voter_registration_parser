@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 85 (27%)",
-      "UNC – Lapsed R — 29 (9%)",
-      "Mixed – Active — 21 (7%)",
-      "Mixed – Lapsed — 27 (9%)",
-      "UNC – No Primary — 117 (37%)",
-      "UNC – Lapsed D — 19 (6%)",
-      "Pure D — 19 (6%)"
+      "Pure R — 73 (23%)",
+      "UNC – Lapsed R — 40 (12%)",
+      "Mixed – Active — 19 (6%)",
+      "Mixed – Lapsed — 12 (4%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 18 (6%)",
+      "UNC – No Primary — 114 (36%)",
+      "UNC – Lapsed D — 21 (7%)",
+      "Pure D — 22 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          85,
-          29,
-          21,
-          27,
-          117,
+          73,
+          40,
           19,
-          19
+          12,
+          2,
+          18,
+          114,
+          21,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CARROLL VILLAGE (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

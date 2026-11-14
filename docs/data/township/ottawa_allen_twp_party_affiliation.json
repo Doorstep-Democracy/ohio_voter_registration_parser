@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 533 (21%)",
-      "UNC – Lapsed R — 191 (7%)",
-      "Mixed – Active — 234 (9%)",
-      "Mixed – Lapsed — 356 (14%)",
-      "UNC – No Primary — 742 (29%)",
-      "UNC – Lapsed D — 305 (12%)",
-      "Pure D — 237 (9%)"
+      "Pure R — 418 (16%)",
+      "UNC – Lapsed R — 343 (13%)",
+      "Mixed – Active — 190 (7%)",
+      "Mixed – Lapsed — 126 (5%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 252 (10%)",
+      "UNC – No Primary — 738 (28%)",
+      "UNC – Lapsed D — 348 (13%)",
+      "Pure D — 200 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          533,
-          191,
-          234,
-          356,
-          742,
-          305,
-          237
+          418,
+          343,
+          190,
+          126,
+          7,
+          252,
+          738,
+          348,
+          200
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ALLEN TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

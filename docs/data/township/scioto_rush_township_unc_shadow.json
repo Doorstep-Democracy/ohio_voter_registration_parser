@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 164",
-      "Mixed – Active — 160",
-      "Mixed – Lapsed — 99",
-      "UNC – No Primary — 757",
-      "UNC – Lapsed D — 213"
+      "UNC – Lapsed R — 176",
+      "Mixed – Active — 180",
+      "Mixed – Lapsed — 75",
+      "UNC – Non-partisan Ballot — 17",
+      "UNC – No Primary — 730",
+      "UNC – Lapsed D — 191"
     ],
     "datasets": [
       {
         "data": [
-          164,
-          160,
-          99,
-          757,
-          213
+          176,
+          180,
+          75,
+          17,
+          730,
+          191
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RUSH TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

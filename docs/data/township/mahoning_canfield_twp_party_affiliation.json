@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,068 (14%)",
-      "UNC – Lapsed R — 476 (6%)",
-      "Mixed – Active — 1,419 (19%)",
-      "Mixed – Lapsed — 551 (7%)",
-      "UNC – No Primary — 2,251 (30%)",
-      "UNC – Lapsed D — 924 (12%)",
-      "Pure D — 713 (10%)"
+      "Pure R — 846 (11%)",
+      "UNC – Lapsed R — 761 (10%)",
+      "Mixed – Active — 1,269 (17%)",
+      "Mixed – Lapsed — 623 (8%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 129 (2%)",
+      "UNC – No Primary — 2,241 (30%)",
+      "UNC – Lapsed D — 999 (13%)",
+      "Pure D — 620 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1068,
-          476,
-          1419,
-          551,
-          2251,
-          924,
-          713
+          846,
+          761,
+          1269,
+          623,
+          5,
+          129,
+          2241,
+          999,
+          620
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CANFIELD TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

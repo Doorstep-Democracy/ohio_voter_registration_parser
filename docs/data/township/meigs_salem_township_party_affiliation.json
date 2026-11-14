@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 113 (19%)",
-      "UNC – Lapsed R — 69 (12%)",
-      "Mixed – Active — 57 (10%)",
-      "Mixed – Lapsed — 36 (6%)",
-      "UNC – No Primary — 236 (40%)",
-      "UNC – Lapsed D — 59 (10%)",
-      "Pure D — 21 (4%)"
+      "Pure R — 121 (20%)",
+      "UNC – Lapsed R — 78 (13%)",
+      "Mixed – Active — 64 (10%)",
+      "Mixed – Lapsed — 28 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 237 (39%)",
+      "UNC – Lapsed D — 57 (9%)",
+      "Pure D — 21 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          113,
-          69,
+          121,
+          78,
+          64,
+          28,
+          0,
+          5,
+          237,
           57,
-          36,
-          236,
-          59,
           21
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SALEM TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

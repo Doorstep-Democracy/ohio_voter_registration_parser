@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 358",
-      "Mixed – Active — 153",
-      "Mixed – Lapsed — 232",
-      "UNC – No Primary — 720",
-      "UNC – Lapsed D — 118"
+      "UNC – Lapsed R — 416",
+      "Mixed – Active — 147",
+      "Mixed – Lapsed — 101",
+      "UNC – Non-partisan Ballot — 128",
+      "UNC – No Primary — 743",
+      "UNC – Lapsed D — 111"
     ],
     "datasets": [
       {
         "data": [
-          358,
-          153,
-          232,
-          720,
-          118
+          416,
+          147,
+          101,
+          128,
+          743,
+          111
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

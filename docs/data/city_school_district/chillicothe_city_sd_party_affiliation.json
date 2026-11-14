@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,537 (11%)",
-      "UNC – Lapsed R — 1,266 (9%)",
-      "Mixed – Active — 1,036 (7%)",
-      "Mixed – Lapsed — 999 (7%)",
-      "UNC – No Primary — 6,557 (46%)",
-      "UNC – Lapsed D — 1,989 (14%)",
-      "Pure D — 909 (6%)"
+      "Pure R — 1,661 (12%)",
+      "UNC – Lapsed R — 1,226 (8%)",
+      "Mixed – Active — 1,214 (8%)",
+      "Mixed – Lapsed — 520 (4%)",
+      "Minor Party — 38 (0%)",
+      "UNC – Non-partisan Ballot — 381 (3%)",
+      "UNC – No Primary — 6,333 (44%)",
+      "UNC – Lapsed D — 1,640 (11%)",
+      "Pure D — 1,416 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          1537,
-          1266,
-          1036,
-          999,
-          6557,
-          1989,
-          909
+          1661,
+          1226,
+          1214,
+          520,
+          38,
+          381,
+          6333,
+          1640,
+          1416
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CHILLICOTHE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

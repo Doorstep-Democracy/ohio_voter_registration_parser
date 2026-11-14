@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 207 (17%)",
-      "UNC – Lapsed R — 137 (11%)",
-      "Mixed – Active — 83 (7%)",
-      "Mixed – Lapsed — 73 (6%)",
-      "UNC – No Primary — 571 (48%)",
-      "UNC – Lapsed D — 72 (6%)",
-      "Pure D — 55 (5%)"
+      "UNC – Lapsed R — 135 (11%)",
+      "Mixed – Active — 81 (7%)",
+      "Mixed – Lapsed — 43 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 31 (3%)",
+      "UNC – No Primary — 577 (48%)",
+      "UNC – Lapsed D — 70 (6%)",
+      "Pure D — 54 (5%)"
     ],
     "datasets": [
       {
         "data": [
           207,
-          137,
-          83,
-          73,
-          571,
-          72,
-          55
+          135,
+          81,
+          43,
+          1,
+          31,
+          577,
+          70,
+          54
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Bloomfield-Mespo Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

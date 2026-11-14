@@ -4,7 +4,7 @@
   "precinct": "PRECINCT PULASKI SOUTH",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           5,
-          19,
-          28,
-          24,
+          21,
+          26,
+          23,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -46,7 +46,7 @@
         "data": [
           4,
           36,
-          9,
+          8,
           2,
           0
         ],
@@ -64,6 +64,19 @@
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -86,8 +99,8 @@
           1,
           24,
           33,
-          68,
-          60
+          66,
+          64
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,9 +109,9 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
+          1,
           8,
-          8,
+          9,
           11,
           2
         ],

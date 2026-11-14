@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 153",
-      "Mixed – Active — 99",
-      "Mixed – Lapsed — 47",
-      "UNC – No Primary — 373",
-      "UNC – Lapsed D — 58"
+      "UNC – Lapsed R — 159",
+      "Mixed – Active — 100",
+      "Mixed – Lapsed — 40",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 365",
+      "UNC – Lapsed D — 57"
     ],
     "datasets": [
       {
         "data": [
-          153,
-          99,
-          47,
-          373,
-          58
+          159,
+          100,
+          40,
+          9,
+          365,
+          57
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MALTA TOWNSHIP (Morgan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

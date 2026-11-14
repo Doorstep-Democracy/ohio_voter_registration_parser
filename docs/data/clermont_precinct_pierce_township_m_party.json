@@ -4,13 +4,14 @@
   "precinct": "PIERCE TOWNSHIP M",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,13 +20,14 @@
     "datasets": [
       {
         "data": [
-          272,
-          142,
+          267,
+          141,
           81,
-          35,
-          41,
-          150,
-          35,
+          36,
+          0,
+          43,
+          154,
+          37,
           41
         ],
         "backgroundColor": [
@@ -33,6 +35,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

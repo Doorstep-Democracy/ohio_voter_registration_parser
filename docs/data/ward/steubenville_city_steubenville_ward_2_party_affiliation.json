@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 219 (12%)",
+      "Pure R — 215 (12%)",
       "UNC – Lapsed R — 99 (5%)",
-      "Mixed – Active — 216 (12%)",
-      "Mixed – Lapsed — 55 (3%)",
+      "Mixed – Active — 214 (11%)",
+      "Mixed – Lapsed — 53 (3%)",
+      "Minor Party — 3 (0%)",
       "UNC – Non-partisan Ballot — 16 (1%)",
-      "UNC – No Primary — 833 (45%)",
-      "UNC – Lapsed D — 273 (15%)",
-      "Pure D — 141 (8%)"
+      "UNC – No Primary — 859 (46%)",
+      "UNC – Lapsed D — 267 (14%)",
+      "Pure D — 143 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          219,
+          215,
           99,
-          216,
-          55,
+          214,
+          53,
+          3,
           16,
-          833,
-          273,
-          141
+          859,
+          267,
+          143
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "STEUBENVILLE WARD 2 (STEUBENVILLE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

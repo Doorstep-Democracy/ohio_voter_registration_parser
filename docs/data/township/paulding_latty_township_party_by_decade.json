@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          12,
-          16,
-          34,
-          27,
-          27,
-          17,
-          14
+          1,
+          10,
+          14,
+          30,
+          15,
+          21,
+          14,
+          12
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          6,
-          10,
-          9,
-          17,
+          3,
+          7,
           12,
-          16,
-          4
+          14,
+          29,
+          19,
+          21,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -47,11 +47,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          8,
-          13,
           7,
-          11,
-          3,
+          15,
+          8,
+          7,
+          4,
           0,
           0
         ],
@@ -62,15 +62,45 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          3,
-          8,
+          4,
+          7,
           6,
-          5,
-          5,
-          2,
+          7,
+          4,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,12 +108,12 @@
         "data": [
           0,
           4,
-          14,
-          25,
-          26,
-          36,
-          67,
-          63
+          12,
+          24,
+          27,
+          37,
+          62,
+          67
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,13 +122,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
+          7,
+          7,
           6,
-          8,
-          9,
-          8,
           6,
-          4,
-          0
+          5,
+          3,
+          1
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -107,10 +137,10 @@
         "label": "Pure D",
         "data": [
           0,
-          4,
+          3,
           1,
-          3,
-          3,
+          4,
+          5,
           0,
           0,
           1
@@ -120,8 +150,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LATTY TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

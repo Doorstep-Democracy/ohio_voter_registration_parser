@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 140",
-      "Mixed – Active — 64",
-      "Mixed – Lapsed — 86",
-      "UNC – No Primary — 422",
-      "UNC – Lapsed D — 89"
+      "UNC – Lapsed R — 156",
+      "Mixed – Active — 69",
+      "Mixed – Lapsed — 61",
+      "UNC – Non-partisan Ballot — 24",
+      "UNC – No Primary — 430",
+      "UNC – Lapsed D — 79"
     ],
     "datasets": [
       {
         "data": [
-          140,
-          64,
-          86,
-          422,
-          89
+          156,
+          69,
+          61,
+          24,
+          430,
+          79
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

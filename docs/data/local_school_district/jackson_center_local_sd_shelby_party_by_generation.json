@@ -13,11 +13,11 @@
       {
         "label": "Pure R",
         "data": [
-          33,
-          159,
+          31,
+          157,
           103,
-          62,
-          35
+          63,
+          36
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -26,10 +26,10 @@
         "label": "UNC – Lapsed R",
         "data": [
           12,
-          64,
+          65,
           106,
-          88,
-          19
+          86,
+          17
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -38,7 +38,7 @@
         "label": "Mixed – Active",
         "data": [
           18,
-          101,
+          100,
           47,
           13,
           1
@@ -49,23 +49,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          11,
-          30,
-          36,
-          26,
-          4
+          7,
+          16,
+          22,
+          14,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          13,
+          13,
+          13,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           5,
-          73,
-          135,
-          214,
-          223
+          71,
+          131,
+          215,
+          233
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -74,9 +98,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           7,
-          35,
-          31,
-          22,
+          36,
+          30,
+          21,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -89,15 +113,15 @@
           17,
           11,
           2,
-          6
+          5
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Jackson Center Local Sd (Shelby Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

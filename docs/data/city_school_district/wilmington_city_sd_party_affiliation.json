@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,265 (25%)",
-      "UNC – Lapsed R — 1,473 (11%)",
-      "Mixed – Active — 1,158 (9%)",
-      "Mixed – Lapsed — 609 (5%)",
-      "UNC – No Primary — 5,448 (42%)",
-      "UNC – Lapsed D — 768 (6%)",
-      "Pure D — 284 (2%)"
+      "Pure R — 2,665 (20%)",
+      "UNC – Lapsed R — 2,075 (16%)",
+      "Mixed – Active — 1,003 (8%)",
+      "Mixed – Lapsed — 592 (4%)",
+      "Minor Party — 50 (0%)",
+      "UNC – Non-partisan Ballot — 185 (1%)",
+      "UNC – No Primary — 5,517 (42%)",
+      "UNC – Lapsed D — 753 (6%)",
+      "Pure D — 362 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          3265,
-          1473,
-          1158,
-          609,
-          5448,
-          768,
-          284
+          2665,
+          2075,
+          1003,
+          592,
+          50,
+          185,
+          5517,
+          753,
+          362
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WILMINGTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

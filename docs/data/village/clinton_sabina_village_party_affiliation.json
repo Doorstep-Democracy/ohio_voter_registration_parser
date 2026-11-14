@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 226 (16%)",
-      "UNC – Lapsed R — 184 (13%)",
-      "Mixed – Active — 98 (7%)",
-      "Mixed – Lapsed — 62 (4%)",
-      "UNC – No Primary — 730 (51%)",
-      "UNC – Lapsed D — 104 (7%)",
-      "Pure D — 27 (2%)"
+      "Pure R — 257 (18%)",
+      "UNC – Lapsed R — 180 (13%)",
+      "Mixed – Active — 106 (7%)",
+      "Mixed – Lapsed — 36 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 30 (2%)",
+      "UNC – No Primary — 689 (48%)",
+      "UNC – Lapsed D — 88 (6%)",
+      "Pure D — 38 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          226,
-          184,
-          98,
-          62,
-          730,
-          104,
-          27
+          257,
+          180,
+          106,
+          36,
+          3,
+          30,
+          689,
+          88,
+          38
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SABINA VILLAGE (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 207 (15%)",
-      "UNC – Lapsed R — 198 (14%)",
+      "Pure R — 205 (15%)",
+      "UNC – Lapsed R — 200 (14%)",
       "Mixed – Active — 184 (13%)",
-      "Mixed – Lapsed — 82 (6%)",
+      "Mixed – Lapsed — 79 (6%)",
+      "Minor Party — 3 (0%)",
       "UNC – Non-partisan Ballot — 80 (6%)",
-      "UNC – No Primary — 365 (26%)",
-      "UNC – Lapsed D — 156 (11%)",
-      "Pure D — 132 (9%)"
+      "UNC – No Primary — 368 (26%)",
+      "UNC – Lapsed D — 154 (11%)",
+      "Pure D — 131 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          207,
-          198,
+          205,
+          200,
           184,
-          82,
+          79,
+          3,
           80,
-          365,
-          156,
-          132
+          368,
+          154,
+          131
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "KIRTLAND WARD 3 (KIRTLAND City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

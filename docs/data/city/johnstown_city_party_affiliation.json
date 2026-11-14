@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 675 (17%)",
-      "UNC – Lapsed R — 553 (14%)",
-      "Mixed – Active — 258 (7%)",
-      "Mixed – Lapsed — 354 (9%)",
-      "UNC – No Primary — 1,556 (40%)",
-      "UNC – Lapsed D — 390 (10%)",
-      "Pure D — 142 (4%)"
+      "Pure R — 644 (16%)",
+      "UNC – Lapsed R — 597 (15%)",
+      "Mixed – Active — 265 (7%)",
+      "Mixed – Lapsed — 179 (5%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 173 (4%)",
+      "UNC – No Primary — 1,552 (39%)",
+      "UNC – Lapsed D — 373 (9%)",
+      "Pure D — 177 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          675,
-          553,
-          258,
-          354,
-          1556,
-          390,
-          142
+          644,
+          597,
+          265,
+          179,
+          8,
+          173,
+          1552,
+          373,
+          177
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "JOHNSTOWN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

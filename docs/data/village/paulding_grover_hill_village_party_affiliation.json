@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 22 (12%)",
-      "UNC – Lapsed R — 21 (11%)",
-      "Mixed – Active — 7 (4%)",
-      "Mixed – Lapsed — 11 (6%)",
-      "UNC – No Primary — 106 (57%)",
-      "UNC – Lapsed D — 17 (9%)",
-      "Pure D — 2 (1%)"
+      "Pure R — 23 (12%)",
+      "UNC – Lapsed R — 24 (13%)",
+      "Mixed – Active — 9 (5%)",
+      "Mixed – Lapsed — 6 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 103 (56%)",
+      "UNC – Lapsed D — 13 (7%)",
+      "Pure D — 4 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          22,
-          21,
-          7,
-          11,
-          106,
-          17,
-          2
+          23,
+          24,
+          9,
+          6,
+          0,
+          2,
+          103,
+          13,
+          4
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GROVER HILL VILLAGE (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 419 (22%)",
-      "UNC – Lapsed R — 172 (9%)",
-      "Mixed – Active — 201 (10%)",
-      "Mixed – Lapsed — 101 (5%)",
-      "UNC – No Primary — 783 (41%)",
-      "UNC – Lapsed D — 172 (9%)",
-      "Pure D — 77 (4%)"
+      "Pure R — 379 (20%)",
+      "UNC – Lapsed R — 215 (11%)",
+      "Mixed – Active — 192 (10%)",
+      "Mixed – Lapsed — 85 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 31 (2%)",
+      "UNC – No Primary — 772 (40%)",
+      "UNC – Lapsed D — 155 (8%)",
+      "Pure D — 95 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          419,
-          172,
-          201,
-          101,
-          783,
-          172,
-          77
+          379,
+          215,
+          192,
+          85,
+          1,
+          31,
+          772,
+          155,
+          95
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WEST TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

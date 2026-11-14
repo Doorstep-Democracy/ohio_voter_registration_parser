@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          3,
-          44,
-          76,
-          58,
-          35,
-          32,
-          14,
-          12
+          2,
+          42,
+          79,
+          61,
+          33,
+          31,
+          17,
+          11
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -36,12 +36,12 @@
           0,
           4,
           9,
-          28,
+          24,
           52,
-          51,
-          50,
+          54,
+          58,
           22,
-          0
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           5,
-          18,
-          47,
-          29,
-          26,
-          17,
-          2,
+          16,
+          58,
+          37,
+          34,
+          20,
+          4,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           1,
-          7,
-          46,
-          55,
-          64,
-          58,
-          18,
-          16
+          1,
+          5,
+          30,
+          25,
+          19,
+          14,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          4,
+          8,
+          22,
+          38,
+          36,
+          13,
+          16
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           5,
-          23,
-          56,
-          81,
-          171,
-          217,
-          264,
-          304
+          21,
+          47,
+          76,
+          168,
+          218,
+          251,
+          319
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          12,
-          31,
-          72,
-          111,
-          118,
-          125,
-          44,
-          11
+          2,
+          9,
+          23,
+          61,
+          82,
+          86,
+          98,
+          37,
+          17
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
-          4,
-          24,
-          77,
-          46,
-          57,
-          31,
-          16,
-          9
+          0,
+          6,
+          32,
+          89,
+          75,
+          89,
+          69,
+          35,
+          24
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TWINSBURG TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

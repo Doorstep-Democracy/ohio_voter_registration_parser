@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,171 (20%)",
-      "UNC – Lapsed R — 849 (14%)",
-      "Mixed – Active — 597 (10%)",
-      "Mixed – Lapsed — 475 (8%)",
-      "UNC – No Primary — 1,926 (33%)",
-      "UNC – Lapsed D — 668 (11%)",
-      "Pure D — 236 (4%)"
+      "Pure R — 1,090 (18%)",
+      "UNC – Lapsed R — 940 (16%)",
+      "Mixed – Active — 573 (10%)",
+      "Mixed – Lapsed — 386 (6%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 133 (2%)",
+      "UNC – No Primary — 1,919 (32%)",
+      "UNC – Lapsed D — 635 (11%)",
+      "Pure D — 288 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1171,
-          849,
-          597,
-          475,
-          1926,
-          668,
-          236
+          1090,
+          940,
+          573,
+          386,
+          4,
+          133,
+          1919,
+          635,
+          288
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FALLS TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

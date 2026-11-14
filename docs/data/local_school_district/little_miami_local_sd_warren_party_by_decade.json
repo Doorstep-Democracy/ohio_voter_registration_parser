@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           2,
-          123,
-          785,
-          1448,
-          1330,
-          762,
-          589,
-          265,
-          175
+          117,
+          779,
+          1438,
+          1323,
+          760,
+          583,
+          264,
+          171
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           9,
-          100,
-          356,
+          93,
+          347,
           726,
-          1142,
-          1203,
-          1020,
-          611,
-          87
+          1144,
+          1205,
+          1035,
+          620,
+          89
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          33,
-          322,
-          556,
-          412,
-          247,
-          165,
+          32,
+          318,
+          554,
+          411,
+          251,
+          163,
           52,
           1
         ],
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          45,
-          221,
-          374,
-          537,
-          598,
-          440,
-          166,
-          46
+          2,
+          31,
+          156,
+          236,
+          298,
+          232,
+          142,
+          44,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          3,
+          5,
+          10,
+          11,
+          12,
+          17,
+          10,
+          5
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          11,
+          66,
+          139,
+          243,
+          359,
+          290,
+          124,
+          43
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          36,
-          241,
-          559,
-          872,
-          1285,
-          2318,
-          2851,
-          2569
+          37,
+          248,
+          571,
+          871,
+          1294,
+          2348,
+          2926,
+          2760
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          34,
-          129,
-          250,
-          314,
-          428,
-          492,
+          32,
+          121,
+          253,
+          313,
+          439,
+          500,
           223,
-          43
+          50
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          29,
-          194,
-          272,
-          176,
-          190,
-          223,
-          183,
-          93
+          28,
+          188,
+          265,
+          172,
+          188,
+          224,
+          177,
+          88
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Little Miami Local Sd (Warren Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

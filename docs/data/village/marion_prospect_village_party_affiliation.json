@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 115 (16%)",
-      "UNC – Lapsed R — 90 (12%)",
-      "Mixed – Active — 60 (8%)",
-      "Mixed – Lapsed — 62 (9%)",
-      "UNC – No Primary — 310 (43%)",
-      "UNC – Lapsed D — 69 (9%)",
-      "Pure D — 23 (3%)"
+      "Pure R — 97 (13%)",
+      "UNC – Lapsed R — 107 (15%)",
+      "Mixed – Active — 61 (8%)",
+      "Mixed – Lapsed — 40 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 23 (3%)",
+      "UNC – No Primary — 309 (42%)",
+      "UNC – Lapsed D — 65 (9%)",
+      "Pure D — 33 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          115,
-          90,
-          60,
-          62,
-          310,
-          69,
-          23
+          97,
+          107,
+          61,
+          40,
+          0,
+          23,
+          309,
+          65,
+          33
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PROSPECT VILLAGE (Marion Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

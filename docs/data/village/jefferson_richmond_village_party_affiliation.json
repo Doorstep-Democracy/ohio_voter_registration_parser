@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 49 (16%)",
-      "UNC – Lapsed R — 43 (14%)",
-      "Mixed – Active — 44 (14%)",
-      "Mixed – Lapsed — 30 (10%)",
-      "UNC – No Primary — 89 (29%)",
-      "UNC – Lapsed D — 36 (12%)",
-      "Pure D — 14 (5%)"
+      "Pure R — 50 (16%)",
+      "UNC – Lapsed R — 42 (14%)",
+      "Mixed – Active — 46 (15%)",
+      "Mixed – Lapsed — 24 (8%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 6 (2%)",
+      "UNC – No Primary — 95 (31%)",
+      "UNC – Lapsed D — 30 (10%)",
+      "Pure D — 17 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          49,
-          43,
-          44,
+          50,
+          42,
+          46,
+          24,
+          1,
+          6,
+          95,
           30,
-          89,
-          36,
-          14
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "RICHMOND VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "GALION 2B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,9 +19,9 @@
         "label": "Pure R",
         "data": [
           11,
-          39,
+          38,
           10,
-          16,
+          17,
           3
         ],
         "backgroundColor": "#ef4444",
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           7,
-          31,
+          30,
           36,
-          28,
+          29,
           7
         ],
         "backgroundColor": "#fca5a5",
@@ -45,9 +45,9 @@
         "label": "Mixed – Active",
         "data": [
           8,
-          14,
-          7,
-          1,
+          12,
+          8,
+          2,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           5,
-          12,
+          11,
           8,
-          3,
+          2,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           2,
           26,
-          51,
-          91,
-          79
+          50,
+          90,
+          80
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,8 +110,8 @@
         "label": "UNC – Lapsed D",
         "data": [
           8,
-          20,
-          17,
+          21,
+          19,
           11,
           0
         ],

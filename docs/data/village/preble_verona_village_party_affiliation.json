@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 38 (16%)",
-      "UNC – Lapsed R — 39 (17%)",
-      "Mixed – Active — 24 (10%)",
-      "Mixed – Lapsed — 22 (9%)",
+      "Pure R — 36 (15%)",
+      "UNC – Lapsed R — 44 (19%)",
+      "Mixed – Active — 23 (10%)",
+      "Mixed – Lapsed — 16 (7%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (3%)",
       "UNC – No Primary — 90 (38%)",
-      "UNC – Lapsed D — 20 (9%)",
-      "Pure D — 1 (0%)"
+      "UNC – Lapsed D — 18 (8%)",
+      "Pure D — 3 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          38,
-          39,
-          24,
-          22,
+          36,
+          44,
+          23,
+          16,
+          0,
+          6,
           90,
-          20,
-          1
+          18,
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "VERONA VILLAGE (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

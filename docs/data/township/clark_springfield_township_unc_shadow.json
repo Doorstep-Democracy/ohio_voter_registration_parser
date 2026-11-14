@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 797",
-      "Mixed – Active — 1,003",
-      "Mixed – Lapsed — 653",
-      "UNC – No Primary — 3,164",
-      "UNC – Lapsed D — 876"
+      "UNC – Lapsed R — 805",
+      "Mixed – Active — 1,077",
+      "Mixed – Lapsed — 339",
+      "UNC – Non-partisan Ballot — 269",
+      "UNC – No Primary — 3,022",
+      "UNC – Lapsed D — 781"
     ],
     "datasets": [
       {
         "data": [
-          797,
-          1003,
-          653,
-          3164,
-          876
+          805,
+          1077,
+          339,
+          269,
+          3022,
+          781
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

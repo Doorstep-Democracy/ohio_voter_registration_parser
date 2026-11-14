@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 99 (28%)",
+      "Pure R — 109 (31%)",
       "UNC – Lapsed R — 68 (19%)",
-      "Mixed – Active — 19 (5%)",
-      "Mixed – Lapsed — 31 (9%)",
-      "UNC – No Primary — 106 (30%)",
-      "UNC – Lapsed D — 19 (5%)",
-      "Pure D — 7 (2%)"
+      "Mixed – Active — 18 (5%)",
+      "Mixed – Lapsed — 17 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 16 (5%)",
+      "UNC – No Primary — 98 (28%)",
+      "UNC – Lapsed D — 14 (4%)",
+      "Pure D — 10 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          99,
+          109,
           68,
-          19,
-          31,
-          106,
-          19,
-          7
+          18,
+          17,
+          1,
+          16,
+          98,
+          14,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DALLAS TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

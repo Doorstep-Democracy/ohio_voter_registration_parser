@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 389 (7%)",
-      "UNC – Lapsed R — 431 (8%)",
-      "Mixed – Active — 590 (11%)",
-      "Mixed – Lapsed — 264 (5%)",
-      "UNC – Non-partisan Ballot — 207 (4%)",
-      "UNC – No Primary — 1,949 (37%)",
-      "UNC – Lapsed D — 715 (14%)",
-      "Pure D — 737 (14%)"
+      "Pure R — 390 (7%)",
+      "UNC – Lapsed R — 428 (8%)",
+      "Mixed – Active — 581 (11%)",
+      "Mixed – Lapsed — 260 (5%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 199 (4%)",
+      "UNC – No Primary — 1,986 (37%)",
+      "UNC – Lapsed D — 710 (13%)",
+      "Pure D — 736 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          389,
-          431,
-          590,
-          264,
-          207,
-          1949,
-          715,
-          737
+          390,
+          428,
+          581,
+          260,
+          13,
+          199,
+          1986,
+          710,
+          736
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "NORTH OLMSTED WARD 2 (NORTH OLMSTED City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

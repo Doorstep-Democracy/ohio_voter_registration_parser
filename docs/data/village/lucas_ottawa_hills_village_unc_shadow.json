@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 263",
-      "Mixed – Active — 305",
-      "Mixed – Lapsed — 314",
-      "UNC – No Primary — 1,306",
-      "UNC – Lapsed D — 356"
+      "UNC – Lapsed R — 294",
+      "Mixed – Active — 323",
+      "Mixed – Lapsed — 105",
+      "UNC – Non-partisan Ballot — 197",
+      "UNC – No Primary — 1,304",
+      "UNC – Lapsed D — 363"
     ],
     "datasets": [
       {
         "data": [
-          263,
-          305,
-          314,
-          1306,
-          356
+          294,
+          323,
+          105,
+          197,
+          1304,
+          363
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "OTTAWA HILLS VILLAGE (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

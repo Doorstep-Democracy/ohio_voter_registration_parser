@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 151",
-      "Mixed – Active — 108",
-      "Mixed – Lapsed — 87",
-      "UNC – No Primary — 429",
-      "UNC – Lapsed D — 86"
+      "UNC – Lapsed R — 162",
+      "Mixed – Active — 122",
+      "Mixed – Lapsed — 53",
+      "UNC – Non-partisan Ballot — 15",
+      "UNC – No Primary — 412",
+      "UNC – Lapsed D — 74"
     ],
     "datasets": [
       {
         "data": [
-          151,
-          108,
-          87,
-          429,
-          86
+          162,
+          122,
+          53,
+          15,
+          412,
+          74
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OLIVE TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

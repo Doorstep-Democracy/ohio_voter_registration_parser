@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 148",
-      "Mixed – Active — 104",
-      "Mixed – Lapsed — 77",
-      "UNC – No Primary — 385",
-      "UNC – Lapsed D — 56"
+      "UNC – Lapsed R — 177",
+      "Mixed – Active — 100",
+      "Mixed – Lapsed — 50",
+      "UNC – Non-partisan Ballot — 22",
+      "UNC – No Primary — 373",
+      "UNC – Lapsed D — 48"
     ],
     "datasets": [
       {
         "data": [
-          148,
-          104,
-          77,
-          385,
-          56
+          177,
+          100,
+          50,
+          22,
+          373,
+          48
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TURTLECREEK TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

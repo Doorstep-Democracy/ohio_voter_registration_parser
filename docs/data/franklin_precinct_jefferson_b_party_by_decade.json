@@ -4,7 +4,7 @@
   "precinct": "JEFFERSON-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -23,12 +23,12 @@
         "data": [
           0,
           4,
-          22,
-          45,
-          44,
           21,
-          14,
-          5,
+          45,
+          43,
+          22,
+          13,
+          4,
           2
         ],
         "backgroundColor": "#ef4444",
@@ -39,13 +39,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          4,
-          9,
+          3,
+          8,
           26,
-          46,
-          39,
-          28,
-          13,
+          47,
+          40,
+          27,
+          11,
           3
         ],
         "backgroundColor": "#fca5a5",
@@ -73,11 +73,11 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          1,
+          2,
           4,
           4,
-          11,
-          13,
+          12,
+          12,
           15,
           1,
           0
@@ -87,14 +87,31 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          1,
+          2,
           5,
           5,
           12,
-          14,
+          13,
           6,
           1,
           6
@@ -111,10 +128,10 @@
           6,
           16,
           43,
-          41,
-          62,
-          59,
-          92
+          39,
+          64,
+          60,
+          99
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -127,10 +144,10 @@
           2,
           7,
           9,
-          12,
-          17,
-          30,
-          10,
+          13,
+          19,
+          31,
+          11,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -143,12 +160,12 @@
           0,
           1,
           5,
-          20,
+          21,
           23,
-          18,
+          19,
           16,
-          10,
-          6
+          13,
+          7
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

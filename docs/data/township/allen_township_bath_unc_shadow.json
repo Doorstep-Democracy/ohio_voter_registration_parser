@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 711",
-      "Mixed – Active — 405",
-      "Mixed – Lapsed — 424",
-      "UNC – No Primary — 2,570",
-      "UNC – Lapsed D — 357"
+      "UNC – Lapsed R — 669",
+      "Mixed – Active — 450",
+      "Mixed – Lapsed — 153",
+      "UNC – Non-partisan Ballot — 243",
+      "UNC – No Primary — 2,495",
+      "UNC – Lapsed D — 321"
     ],
     "datasets": [
       {
         "data": [
-          711,
-          405,
-          424,
-          2570,
-          357
+          669,
+          450,
+          153,
+          243,
+          2495,
+          321
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Township Bath (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

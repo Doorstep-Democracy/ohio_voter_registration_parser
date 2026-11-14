@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 71",
-      "Mixed – Active — 32",
-      "Mixed – Lapsed — 55",
-      "UNC – No Primary — 162",
-      "UNC – Lapsed D — 56"
+      "UNC – Lapsed R — 66",
+      "Mixed – Active — 35",
+      "Mixed – Lapsed — 16",
+      "UNC – Non-partisan Ballot — 28",
+      "UNC – No Primary — 160",
+      "UNC – Lapsed D — 53"
     ],
     "datasets": [
       {
         "data": [
-          71,
-          32,
-          55,
-          162,
-          56
+          66,
+          35,
+          16,
+          28,
+          160,
+          53
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARDING TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

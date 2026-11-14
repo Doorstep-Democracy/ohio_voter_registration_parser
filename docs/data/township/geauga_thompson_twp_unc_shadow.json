@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 172",
-      "Mixed – Active — 176",
-      "Mixed – Lapsed — 171",
-      "UNC – No Primary — 479",
-      "UNC – Lapsed D — 155"
+      "UNC – Lapsed R — 196",
+      "Mixed – Active — 174",
+      "Mixed – Lapsed — 83",
+      "UNC – Non-partisan Ballot — 86",
+      "UNC – No Primary — 476",
+      "UNC – Lapsed D — 150"
     ],
     "datasets": [
       {
         "data": [
-          172,
-          176,
-          171,
-          479,
-          155
+          196,
+          174,
+          83,
+          86,
+          476,
+          150
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "THOMPSON TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

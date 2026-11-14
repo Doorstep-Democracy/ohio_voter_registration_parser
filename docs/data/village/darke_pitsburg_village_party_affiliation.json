@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 87 (30%)",
-      "UNC – Lapsed R — 31 (11%)",
-      "Mixed – Active — 18 (6%)",
-      "Mixed – Lapsed — 20 (7%)",
-      "UNC – No Primary — 115 (40%)",
-      "UNC – Lapsed D — 10 (3%)",
-      "Pure D — 8 (3%)"
+      "Pure R — 65 (22%)",
+      "UNC – Lapsed R — 48 (17%)",
+      "Mixed – Active — 21 (7%)",
+      "Mixed – Lapsed — 10 (3%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 9 (3%)",
+      "UNC – No Primary — 117 (40%)",
+      "UNC – Lapsed D — 11 (4%)",
+      "Pure D — 6 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          87,
-          31,
-          18,
-          20,
-          115,
+          65,
+          48,
+          21,
           10,
-          8
+          2,
+          9,
+          117,
+          11,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PITSBURG VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

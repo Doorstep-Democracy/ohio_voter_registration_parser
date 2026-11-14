@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 93 (24%)",
-      "UNC – Lapsed R — 52 (14%)",
-      "Mixed – Active — 44 (12%)",
-      "Mixed – Lapsed — 33 (9%)",
-      "UNC – No Primary — 129 (34%)",
-      "UNC – Lapsed D — 22 (6%)",
-      "Pure D — 7 (2%)"
+      "Pure R — 94 (24%)",
+      "UNC – Lapsed R — 55 (14%)",
+      "Mixed – Active — 44 (11%)",
+      "Mixed – Lapsed — 20 (5%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 12 (3%)",
+      "UNC – No Primary — 132 (34%)",
+      "UNC – Lapsed D — 25 (6%)",
+      "Pure D — 5 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          93,
-          52,
+          94,
+          55,
           44,
-          33,
-          129,
-          22,
-          7
+          20,
+          2,
+          12,
+          132,
+          25,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BEDFORD TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

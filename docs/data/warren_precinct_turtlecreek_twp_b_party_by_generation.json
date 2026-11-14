@@ -4,7 +4,7 @@
   "precinct": "TURTLECREEK TWP B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -22,7 +22,7 @@
           95,
           61,
           20,
-          16
+          18
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -34,7 +34,7 @@
           5,
           44,
           57,
-          39,
+          40,
           10
         ],
         "backgroundColor": "#fca5a5",
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          3,
+          1,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
-          7,
+          6,
           12,
-          7,
+          6,
           5
         ],
         "backgroundColor": "#c4b5cd",
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          2,
-          25,
-          33,
-          59,
-          80
+          1,
+          24,
+          35,
+          61,
+          81
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           2,
           11,
           3,
-          6,
+          7,
           2
         ],
         "backgroundColor": "#93c5fd",

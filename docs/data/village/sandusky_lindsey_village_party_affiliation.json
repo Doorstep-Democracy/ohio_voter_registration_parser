@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 93 (29%)",
-      "UNC – Lapsed R — 36 (11%)",
-      "Mixed – Active — 21 (7%)",
-      "Mixed – Lapsed — 27 (8%)",
-      "UNC – No Primary — 107 (33%)",
-      "UNC – Lapsed D — 24 (7%)",
-      "Pure D — 15 (5%)"
+      "Pure R — 86 (27%)",
+      "UNC – Lapsed R — 49 (15%)",
+      "Mixed – Active — 24 (7%)",
+      "Mixed – Lapsed — 7 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 21 (6%)",
+      "UNC – No Primary — 98 (30%)",
+      "UNC – Lapsed D — 19 (6%)",
+      "Pure D — 20 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          93,
-          36,
-          21,
-          27,
-          107,
+          86,
+          49,
           24,
-          15
+          7,
+          0,
+          21,
+          98,
+          19,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LINDSEY VILLAGE (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

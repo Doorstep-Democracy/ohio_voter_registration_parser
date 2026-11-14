@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 420",
-      "Mixed – Active — 259",
-      "Mixed – Lapsed — 512",
-      "UNC – No Primary — 1,327",
-      "UNC – Lapsed D — 413"
+      "UNC – Lapsed R — 451",
+      "Mixed – Active — 266",
+      "Mixed – Lapsed — 135",
+      "UNC – Non-partisan Ballot — 362",
+      "UNC – No Primary — 1,317",
+      "UNC – Lapsed D — 393"
     ],
     "datasets": [
       {
         "data": [
-          420,
-          259,
-          512,
-          1327,
-          413
+          451,
+          266,
+          135,
+          362,
+          1317,
+          393
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALEM TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

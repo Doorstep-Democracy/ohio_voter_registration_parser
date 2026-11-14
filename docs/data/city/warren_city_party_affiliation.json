@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 715 (3%)",
-      "UNC – Lapsed R — 617 (3%)",
-      "Mixed – Active — 1,769 (8%)",
-      "Mixed – Lapsed — 791 (4%)",
-      "UNC – No Primary — 10,372 (47%)",
-      "UNC – Lapsed D — 3,493 (16%)",
-      "Pure D — 4,170 (19%)"
+      "Pure R — 706 (3%)",
+      "UNC – Lapsed R — 694 (3%)",
+      "Mixed – Active — 1,733 (8%)",
+      "Mixed – Lapsed — 567 (3%)",
+      "Minor Party — 26 (0%)",
+      "UNC – Non-partisan Ballot — 361 (2%)",
+      "UNC – No Primary — 10,528 (47%)",
+      "UNC – Lapsed D — 4,183 (19%)",
+      "Pure D — 3,389 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          715,
-          617,
-          1769,
-          791,
-          10372,
-          3493,
-          4170
+          706,
+          694,
+          1733,
+          567,
+          26,
+          361,
+          10528,
+          4183,
+          3389
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WARREN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

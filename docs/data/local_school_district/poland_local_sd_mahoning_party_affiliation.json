@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,121 (10%)",
-      "UNC – Lapsed R — 740 (6%)",
-      "Mixed – Active — 2,256 (20%)",
-      "Mixed – Lapsed — 963 (8%)",
-      "UNC – No Primary — 3,241 (28%)",
-      "UNC – Lapsed D — 1,546 (14%)",
-      "Pure D — 1,524 (13%)"
+      "Pure R — 1,112 (10%)",
+      "UNC – Lapsed R — 747 (7%)",
+      "Mixed – Active — 2,247 (20%)",
+      "Mixed – Lapsed — 743 (6%)",
+      "Minor Party — 18 (0%)",
+      "UNC – Non-partisan Ballot — 212 (2%)",
+      "UNC – No Primary — 3,334 (29%)",
+      "UNC – Lapsed D — 1,543 (13%)",
+      "Pure D — 1,515 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          1121,
-          740,
-          2256,
-          963,
-          3241,
-          1546,
-          1524
+          1112,
+          747,
+          2247,
+          743,
+          18,
+          212,
+          3334,
+          1543,
+          1515
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Poland Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT YGN7 E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           8,
-          27,
+          26,
           14,
           4,
           0
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          43,
-          57,
-          118,
-          69
+          45,
+          60,
+          116,
+          79
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,9 +110,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           11,
-          46,
-          42,
-          30,
+          45,
+          43,
+          28,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           6,
-          42,
+          41,
           21,
-          8,
-          3
+          7,
+          4
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

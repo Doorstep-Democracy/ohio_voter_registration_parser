@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 649",
-      "Mixed – Active — 658",
-      "Mixed – Lapsed — 551",
-      "UNC – No Primary — 1,858",
-      "UNC – Lapsed D — 638"
+      "UNC – Lapsed R — 738",
+      "Mixed – Active — 669",
+      "Mixed – Lapsed — 258",
+      "UNC – Non-partisan Ballot — 298",
+      "UNC – No Primary — 1,831",
+      "UNC – Lapsed D — 610"
     ],
     "datasets": [
       {
         "data": [
-          649,
-          658,
-          551,
-          1858,
-          638
+          738,
+          669,
+          258,
+          298,
+          1831,
+          610
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LAWRENCE (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

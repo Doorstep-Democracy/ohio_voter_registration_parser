@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,356 (19%)",
-      "UNC – Lapsed R — 714 (10%)",
-      "Mixed – Active — 715 (10%)",
-      "Mixed – Lapsed — 554 (8%)",
-      "UNC – No Primary — 3,235 (44%)",
-      "UNC – Lapsed D — 520 (7%)",
-      "Pure D — 198 (3%)"
+      "Pure R — 1,111 (15%)",
+      "UNC – Lapsed R — 965 (13%)",
+      "Mixed – Active — 619 (8%)",
+      "Mixed – Lapsed — 293 (4%)",
+      "Minor Party — 21 (0%)",
+      "UNC – Non-partisan Ballot — 360 (5%)",
+      "UNC – No Primary — 3,240 (44%)",
+      "UNC – Lapsed D — 506 (7%)",
+      "Pure D — 230 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1356,
-          714,
-          715,
-          554,
-          3235,
-          520,
-          198
+          1111,
+          965,
+          619,
+          293,
+          21,
+          360,
+          3240,
+          506,
+          230
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BUCYRUS CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

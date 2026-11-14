@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,441 (17%)",
-      "UNC – Lapsed R — 693 (8%)",
-      "Mixed – Active — 1,190 (14%)",
-      "Mixed – Lapsed — 1,131 (13%)",
-      "UNC – No Primary — 2,062 (24%)",
-      "UNC – Lapsed D — 1,082 (13%)",
-      "Pure D — 838 (10%)"
+      "Pure R — 1,335 (16%)",
+      "UNC – Lapsed R — 775 (9%)",
+      "Mixed – Active — 1,209 (14%)",
+      "Mixed – Lapsed — 426 (5%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 658 (8%)",
+      "UNC – No Primary — 2,072 (24%)",
+      "UNC – Lapsed D — 989 (12%)",
+      "Pure D — 1,021 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          1441,
-          693,
-          1190,
-          1131,
-          2062,
-          1082,
-          838
+          1335,
+          775,
+          1209,
+          426,
+          15,
+          658,
+          2072,
+          989,
+          1021
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SAGAMORE HLS TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

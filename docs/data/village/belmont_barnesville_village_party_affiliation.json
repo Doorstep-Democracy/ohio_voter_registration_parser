@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 276 (11%)",
-      "UNC – Lapsed R — 208 (9%)",
-      "Mixed – Active — 183 (8%)",
-      "Mixed – Lapsed — 243 (10%)",
-      "UNC – No Primary — 1,053 (44%)",
-      "UNC – Lapsed D — 313 (13%)",
-      "Pure D — 139 (6%)"
+      "Pure R — 269 (11%)",
+      "UNC – Lapsed R — 231 (10%)",
+      "Mixed – Active — 179 (7%)",
+      "Mixed – Lapsed — 95 (4%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 148 (6%)",
+      "UNC – No Primary — 1,044 (43%)",
+      "UNC – Lapsed D — 281 (12%)",
+      "Pure D — 166 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          276,
-          208,
-          183,
-          243,
-          1053,
-          313,
-          139
+          269,
+          231,
+          179,
+          95,
+          10,
+          148,
+          1044,
+          281,
+          166
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BARNESVILLE VILLAGE (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

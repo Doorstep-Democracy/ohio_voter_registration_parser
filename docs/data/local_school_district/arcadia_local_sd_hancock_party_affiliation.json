@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 616 (29%)",
-      "UNC – Lapsed R — 289 (13%)",
-      "Mixed – Active — 229 (11%)",
-      "Mixed – Lapsed — 125 (6%)",
-      "UNC – No Primary — 664 (31%)",
-      "UNC – Lapsed D — 136 (6%)",
+      "Pure R — 616 (28%)",
+      "UNC – Lapsed R — 288 (13%)",
+      "Mixed – Active — 228 (10%)",
+      "Mixed – Lapsed — 73 (3%)",
+      "Minor Party — 11 (1%)",
+      "UNC – Non-partisan Ballot — 50 (2%)",
+      "UNC – No Primary — 691 (32%)",
+      "UNC – Lapsed D — 135 (6%)",
       "Pure D — 89 (4%)"
     ],
     "datasets": [
       {
         "data": [
           616,
-          289,
-          229,
-          125,
-          664,
-          136,
+          288,
+          228,
+          73,
+          11,
+          50,
+          691,
+          135,
           89
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Arcadia Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

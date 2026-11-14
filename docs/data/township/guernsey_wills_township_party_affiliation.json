@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 246 (25%)",
-      "UNC – Lapsed R — 117 (12%)",
+      "Pure R — 215 (22%)",
+      "UNC – Lapsed R — 149 (15%)",
       "Mixed – Active — 117 (12%)",
-      "Mixed – Lapsed — 59 (6%)",
-      "UNC – No Primary — 341 (34%)",
-      "UNC – Lapsed D — 80 (8%)",
-      "Pure D — 39 (4%)"
+      "Mixed – Lapsed — 38 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 22 (2%)",
+      "UNC – No Primary — 332 (33%)",
+      "UNC – Lapsed D — 78 (8%)",
+      "Pure D — 43 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          246,
+          215,
+          149,
           117,
-          117,
-          59,
-          341,
-          80,
-          39
+          38,
+          1,
+          22,
+          332,
+          78,
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WILLS TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

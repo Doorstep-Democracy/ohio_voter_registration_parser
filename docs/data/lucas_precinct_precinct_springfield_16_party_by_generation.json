@@ -4,7 +4,7 @@
   "precinct": "PRECINCT SPRINGFIELD 16",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -20,7 +20,7 @@
         "data": [
           5,
           52,
-          11,
+          12,
           8,
           4
         ],
@@ -35,7 +35,7 @@
           18,
           15,
           9,
-          2
+          3
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -59,11 +59,24 @@
         "data": [
           5,
           7,
-          2,
+          3,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          2,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           0,
           9,
           11,
-          5,
+          4,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           4,
-          50,
-          74,
-          150,
-          156
+          48,
+          75,
+          146,
+          170
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,9 +111,9 @@
         "data": [
           6,
           43,
-          39,
-          26,
-          6
+          40,
+          24,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,9 +123,9 @@
         "label": "Pure D",
         "data": [
           15,
-          71,
+          70,
           11,
-          12,
+          11,
           4
         ],
         "backgroundColor": "#3b82f6",

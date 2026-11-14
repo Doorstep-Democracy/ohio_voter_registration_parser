@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 132 (11%)",
-      "UNC – Lapsed R — 92 (8%)",
-      "Mixed – Active — 147 (12%)",
-      "Mixed – Lapsed — 80 (7%)",
-      "UNC – No Primary — 541 (45%)",
-      "UNC – Lapsed D — 137 (11%)",
-      "Pure D — 68 (6%)"
+      "Pure R — 142 (12%)",
+      "UNC – Lapsed R — 90 (8%)",
+      "Mixed – Active — 164 (14%)",
+      "Mixed – Lapsed — 39 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 33 (3%)",
+      "UNC – No Primary — 528 (44%)",
+      "UNC – Lapsed D — 118 (10%)",
+      "Pure D — 81 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          132,
-          92,
-          147,
-          80,
-          541,
-          137,
-          68
+          142,
+          90,
+          164,
+          39,
+          0,
+          33,
+          528,
+          118,
+          81
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LEETONIA VILLAGE (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

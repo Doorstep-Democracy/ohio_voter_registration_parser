@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 29 (14%)",
-      "UNC – Lapsed R — 17 (8%)",
-      "Mixed – Active — 13 (6%)",
-      "Mixed – Lapsed — 9 (4%)",
-      "UNC – No Primary — 101 (50%)",
-      "UNC – Lapsed D — 28 (14%)",
-      "Pure D — 7 (3%)"
+      "Pure R — 30 (14%)",
+      "UNC – Lapsed R — 19 (9%)",
+      "Mixed – Active — 11 (5%)",
+      "Mixed – Lapsed — 6 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 106 (50%)",
+      "UNC – Lapsed D — 25 (12%)",
+      "Pure D — 10 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          29,
-          17,
-          13,
-          9,
-          101,
-          28,
-          7
+          30,
+          19,
+          11,
+          6,
+          0,
+          4,
+          106,
+          25,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ADELPHI VILLAGE (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

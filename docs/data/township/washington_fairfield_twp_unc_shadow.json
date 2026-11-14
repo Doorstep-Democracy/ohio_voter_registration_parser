@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 87",
-      "Mixed – Active — 83",
-      "Mixed – Lapsed — 93",
-      "UNC – No Primary — 232",
-      "UNC – Lapsed D — 56"
+      "UNC – Lapsed R — 103",
+      "Mixed – Active — 94",
+      "Mixed – Lapsed — 26",
+      "UNC – Non-partisan Ballot — 55",
+      "UNC – No Primary — 239",
+      "UNC – Lapsed D — 42"
     ],
     "datasets": [
       {
         "data": [
-          87,
-          83,
-          93,
-          232,
-          56
+          103,
+          94,
+          26,
+          55,
+          239,
+          42
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

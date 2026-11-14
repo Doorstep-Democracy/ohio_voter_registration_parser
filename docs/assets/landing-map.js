@@ -459,7 +459,7 @@
 
   // ── Hero stat: total registered voters ───────────────────
   // Statewide file is a doughnut chartConfig; sum whatever cohort
-  // array it carries (3 today: UNC/REP/DEM) so this stays correct
+  // array it carries (the 9 cohort slices today) so this stays correct
   // if the cohort count changes.
   function loadHeroStat() {
     var el = document.getElementById('hero-stat');

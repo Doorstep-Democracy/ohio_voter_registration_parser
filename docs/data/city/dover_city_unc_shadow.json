@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 701",
-      "Mixed – Active — 1,039",
-      "Mixed – Lapsed — 659",
-      "UNC – No Primary — 2,677",
-      "UNC – Lapsed D — 1,038"
+      "UNC – Lapsed R — 899",
+      "Mixed – Active — 929",
+      "Mixed – Lapsed — 498",
+      "UNC – Non-partisan Ballot — 302",
+      "UNC – No Primary — 2,707",
+      "UNC – Lapsed D — 1,055"
     ],
     "datasets": [
       {
         "data": [
-          701,
-          1039,
-          659,
-          2677,
-          1038
+          899,
+          929,
+          498,
+          302,
+          2707,
+          1055
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "DOVER CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

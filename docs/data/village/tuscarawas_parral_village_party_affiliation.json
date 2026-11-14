@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 13 (10%)",
-      "UNC – Lapsed R — 11 (9%)",
-      "Mixed – Active — 17 (13%)",
-      "Mixed – Lapsed — 12 (9%)",
-      "UNC – No Primary — 43 (34%)",
+      "Pure R — 15 (12%)",
+      "UNC – Lapsed R — 7 (5%)",
+      "Mixed – Active — 18 (14%)",
+      "Mixed – Lapsed — 7 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (2%)",
+      "UNC – No Primary — 46 (36%)",
       "UNC – Lapsed D — 20 (16%)",
-      "Pure D — 11 (9%)"
+      "Pure D — 14 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          13,
-          11,
-          17,
-          12,
-          43,
+          15,
+          7,
+          18,
+          7,
+          0,
+          2,
+          46,
           20,
-          11
+          14
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "PARRAL VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

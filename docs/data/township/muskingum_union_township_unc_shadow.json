@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 327",
-      "Mixed – Active — 171",
-      "Mixed – Lapsed — 229",
-      "UNC – No Primary — 731",
-      "UNC – Lapsed D — 221"
+      "UNC – Lapsed R — 392",
+      "Mixed – Active — 179",
+      "Mixed – Lapsed — 101",
+      "UNC – Non-partisan Ballot — 128",
+      "UNC – No Primary — 714",
+      "UNC – Lapsed D — 193"
     ],
     "datasets": [
       {
         "data": [
-          327,
-          171,
-          229,
-          731,
-          221
+          392,
+          179,
+          101,
+          128,
+          714,
+          193
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

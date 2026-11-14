@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 307 (37%)",
-      "UNC – Lapsed R — 121 (15%)",
-      "Mixed – Active — 58 (7%)",
-      "Mixed – Lapsed — 39 (5%)",
-      "UNC – No Primary — 278 (34%)",
-      "UNC – Lapsed D — 19 (2%)",
+      "Pure R — 252 (30%)",
+      "UNC – Lapsed R — 178 (21%)",
+      "Mixed – Active — 49 (6%)",
+      "Mixed – Lapsed — 25 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 24 (3%)",
+      "UNC – No Primary — 281 (34%)",
+      "UNC – Lapsed D — 18 (2%)",
       "Pure D — 7 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          307,
-          121,
-          58,
-          39,
-          278,
-          19,
+          252,
+          178,
+          49,
+          25,
+          0,
+          24,
+          281,
+          18,
           7
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

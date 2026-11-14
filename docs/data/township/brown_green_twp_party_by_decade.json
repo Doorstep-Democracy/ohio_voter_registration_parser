@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          5,
-          28,
-          83,
-          68,
-          60,
-          60,
-          30,
-          19
+          4,
+          32,
+          92,
+          79,
+          76,
+          63,
+          43,
+          25
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          5,
-          22,
+          6,
+          16,
+          33,
+          62,
           43,
-          66,
-          45,
-          44,
-          26,
-          6
+          48,
+          24,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,11 +51,11 @@
         "data": [
           1,
           2,
-          18,
-          40,
+          15,
+          45,
           44,
-          24,
-          8,
+          27,
+          17,
           7,
           0
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          7,
-          19,
-          29,
-          25,
+          8,
+          16,
+          23,
           21,
-          20,
-          2,
-          2
+          15,
+          6,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          2,
+          5,
+          3,
+          10,
+          0,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          7,
+          6,
           27,
-          81,
-          118,
-          166,
-          202,
-          241,
-          245
+          74,
+          108,
+          160,
+          193,
+          236,
+          244
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          9,
-          16,
-          37,
-          36,
+          10,
+          12,
           32,
-          16,
-          18,
-          4
+          30,
+          29,
+          11,
+          20,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          5,
-          11,
-          12,
           4,
+          12,
+          18,
+          7,
+          7,
           6,
-          3,
-          3,
-          6
+          7,
+          11
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GREEN TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

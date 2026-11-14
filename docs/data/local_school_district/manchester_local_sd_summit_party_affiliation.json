@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 839 (14%)",
-      "UNC – Lapsed R — 759 (12%)",
-      "Mixed – Active — 707 (11%)",
-      "Mixed – Lapsed — 657 (11%)",
-      "UNC – No Primary — 1,919 (31%)",
-      "UNC – Lapsed D — 780 (13%)",
-      "Pure D — 524 (8%)"
+      "Pure R — 832 (13%)",
+      "UNC – Lapsed R — 750 (12%)",
+      "Mixed – Active — 698 (11%)",
+      "Mixed – Lapsed — 377 (6%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 267 (4%)",
+      "UNC – No Primary — 1,946 (32%)",
+      "UNC – Lapsed D — 776 (13%)",
+      "Pure D — 520 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          839,
-          759,
-          707,
-          657,
-          1919,
-          780,
-          524
+          832,
+          750,
+          698,
+          377,
+          11,
+          267,
+          1946,
+          776,
+          520
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Manchester Local Sd (Summit Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

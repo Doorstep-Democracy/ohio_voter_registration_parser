@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,060 (11%)",
-      "UNC – Lapsed R — 2,214 (12%)",
-      "Mixed – Active — 1,640 (9%)",
-      "Mixed – Lapsed — 1,740 (10%)",
-      "UNC – No Primary — 6,867 (38%)",
-      "UNC – Lapsed D — 2,150 (12%)",
-      "Pure D — 1,269 (7%)"
+      "Pure R — 1,755 (10%)",
+      "UNC – Lapsed R — 2,516 (14%)",
+      "Mixed – Active — 1,617 (9%)",
+      "Mixed – Lapsed — 1,186 (7%)",
+      "Minor Party — 21 (0%)",
+      "UNC – Non-partisan Ballot — 586 (3%)",
+      "UNC – No Primary — 6,828 (38%)",
+      "UNC – Lapsed D — 2,100 (12%)",
+      "Pure D — 1,522 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          2060,
-          2214,
-          1640,
-          1740,
-          6867,
-          2150,
-          1269
+          1755,
+          2516,
+          1617,
+          1186,
+          21,
+          586,
+          6828,
+          2100,
+          1522
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "AVON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

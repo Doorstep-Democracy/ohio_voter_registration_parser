@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          3,
+          2,
           10,
           13,
-          18,
-          11,
+          14,
+          10,
           8,
-          1,
-          7
+          4,
+          8
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
+          1,
           2,
-          5,
-          0,
-          2,
-          3,
           6,
-          1
+          3,
+          2,
+          4,
+          6,
+          2
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -48,12 +48,12 @@
         "data": [
           0,
           2,
-          5,
-          1,
-          1,
-          2,
+          4,
           0,
-          0
+          1,
+          1,
+          0,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -62,11 +62,11 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
+          0,
           1,
           2,
+          0,
           3,
-          2,
-          5,
           0,
           0
         ],
@@ -74,16 +74,46 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
           1,
           2,
-          6,
+          5,
           11,
-          16,
-          13,
+          15,
+          12,
           34,
-          23
+          19
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -93,9 +123,9 @@
         "data": [
           0,
           0,
-          2,
-          4,
-          2,
+          1,
+          3,
+          3,
           6,
           0,
           0
@@ -108,9 +138,9 @@
         "data": [
           0,
           1,
-          4,
-          1,
+          6,
           2,
+          1,
           2,
           1,
           0
@@ -120,8 +150,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "SAVANNAH VILLAGE (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

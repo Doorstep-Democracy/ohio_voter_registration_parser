@@ -4,7 +4,7 @@
   "precinct": "PRECINCT ORANGE 2",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -21,13 +21,13 @@
         "label": "Pure R",
         "data": [
           3,
-          23,
+          22,
           43,
           38,
           33,
           17,
           13,
-          11
+          9
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 3,
@@ -38,7 +38,7 @@
         "data": [
           0,
           6,
-          7,
+          9,
           15,
           27,
           16,
@@ -54,12 +54,12 @@
         "data": [
           0,
           5,
-          14,
+          15,
           7,
           8,
           4,
           0,
-          1
+          0
         ],
         "backgroundColor": "#f59e0b",
         "borderRadius": 3,
@@ -82,9 +82,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          1,
+          0,
           5,
           14,
           11,
@@ -103,11 +119,11 @@
           0,
           2,
           10,
-          18,
+          19,
           26,
           32,
-          45,
-          50
+          46,
+          53
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,

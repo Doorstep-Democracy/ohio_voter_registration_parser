@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 565 (15%)",
-      "UNC – Lapsed R — 263 (7%)",
-      "Mixed – Active — 305 (8%)",
-      "Mixed – Lapsed — 314 (9%)",
-      "UNC – No Primary — 1,306 (36%)",
-      "UNC – Lapsed D — 356 (10%)",
-      "Pure D — 567 (15%)"
+      "Pure R — 514 (14%)",
+      "UNC – Lapsed R — 294 (8%)",
+      "Mixed – Active — 323 (9%)",
+      "Mixed – Lapsed — 105 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 197 (5%)",
+      "UNC – No Primary — 1,304 (35%)",
+      "UNC – Lapsed D — 363 (10%)",
+      "Pure D — 601 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          565,
-          263,
-          305,
-          314,
-          1306,
-          356,
-          567
+          514,
+          294,
+          323,
+          105,
+          4,
+          197,
+          1304,
+          363,
+          601
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "OTTAWA HILLS VILLAGE (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

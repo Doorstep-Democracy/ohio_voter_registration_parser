@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          7,
-          26,
-          59,
-          83,
-          54,
-          24,
-          16,
-          9
+          5,
+          25,
+          57,
+          74,
+          47,
+          23,
+          15,
+          11
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,13 +32,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           8,
-          14,
-          27,
-          40,
-          38,
-          28,
-          13,
-          2
+          15,
+          30,
+          49,
+          47,
+          33,
+          17,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -47,11 +47,11 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          22,
-          32,
-          30,
-          18,
-          8,
+          20,
+          34,
+          25,
+          14,
+          6,
           0,
           0
         ],
@@ -62,28 +62,58 @@
         "label": "Mixed – Lapsed",
         "data": [
           4,
-          13,
           11,
-          17,
-          19,
-          17,
+          8,
+          20,
+          14,
+          12,
           1,
-          2
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          2,
+          1,
+          11,
+          6,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          18,
-          34,
-          64,
-          104,
-          115,
-          180,
-          142
+          17,
+          33,
+          65,
+          103,
+          109,
+          184,
+          154
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -91,14 +121,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
+          2,
           12,
-          27,
-          39,
-          38,
-          21,
-          15,
-          1
+          22,
+          41,
+          37,
+          25,
+          14,
+          0
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -106,22 +136,22 @@
       {
         "label": "Pure D",
         "data": [
-          3,
-          10,
-          16,
-          14,
-          3,
           1,
-          0,
-          1
+          6,
+          20,
+          14,
+          5,
+          1,
+          2,
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

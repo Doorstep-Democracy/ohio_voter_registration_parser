@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 165 (7%)",
-      "UNC – Lapsed R — 174 (8%)",
-      "Mixed – Active — 237 (10%)",
-      "Mixed – Lapsed — 86 (4%)",
+      "Pure R — 164 (7%)",
+      "UNC – Lapsed R — 170 (8%)",
+      "Mixed – Active — 230 (10%)",
+      "Mixed – Lapsed — 84 (4%)",
+      "Minor Party — 5 (0%)",
       "UNC – Non-partisan Ballot — 82 (4%)",
-      "UNC – No Primary — 855 (38%)",
-      "UNC – Lapsed D — 275 (12%)",
-      "Pure D — 401 (18%)"
+      "UNC – No Primary — 849 (38%)",
+      "UNC – Lapsed D — 271 (12%)",
+      "Pure D — 394 (18%)"
     ],
     "datasets": [
       {
         "data": [
-          165,
-          174,
-          237,
-          86,
+          164,
+          170,
+          230,
+          84,
+          5,
           82,
-          855,
-          275,
-          401
+          849,
+          271,
+          394
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "SOLON WARD 7 (SOLON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

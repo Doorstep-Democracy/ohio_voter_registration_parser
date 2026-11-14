@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 390 (27%)",
-      "UNC – Lapsed R — 232 (16%)",
-      "Mixed – Active — 97 (7%)",
-      "Mixed – Lapsed — 75 (5%)",
-      "UNC – No Primary — 559 (38%)",
-      "UNC – Lapsed D — 78 (5%)",
-      "Pure D — 22 (2%)"
+      "Pure R — 358 (25%)",
+      "UNC – Lapsed R — 269 (18%)",
+      "Mixed – Active — 91 (6%)",
+      "Mixed – Lapsed — 50 (3%)",
+      "Minor Party — 9 (1%)",
+      "UNC – Non-partisan Ballot — 25 (2%)",
+      "UNC – No Primary — 546 (37%)",
+      "UNC – Lapsed D — 77 (5%)",
+      "Pure D — 36 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          390,
-          232,
-          97,
-          75,
-          559,
-          78,
-          22
+          358,
+          269,
+          91,
+          50,
+          9,
+          25,
+          546,
+          77,
+          36
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RUSHCREEK TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

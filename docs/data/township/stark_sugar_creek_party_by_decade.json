@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          31,
-          110,
-          152,
-          152,
-          110,
-          69,
-          44,
-          16
+          0,
+          22,
+          100,
+          138,
+          143,
+          96,
+          48,
+          41,
+          15
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          14,
-          43,
-          75,
-          106,
-          80,
-          71,
-          56,
-          3
+          1,
+          19,
+          47,
+          92,
+          131,
+          97,
+          98,
+          62,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          9,
-          52,
-          106,
-          79,
-          42,
-          18,
+          8,
+          48,
+          107,
+          77,
+          41,
+          20,
           4,
           0
         ],
@@ -67,29 +67,61 @@
         "data": [
           1,
           8,
-          37,
-          54,
-          68,
-          62,
-          55,
-          21,
-          5
+          27,
+          38,
+          43,
+          27,
+          24,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          1,
+          4,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          11,
+          20,
+          31,
+          39,
+          34,
+          23,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
-          10,
+          0,
+          8,
           40,
-          107,
-          173,
-          181,
-          277,
-          408,
-          317
+          101,
+          161,
+          179,
+          270,
+          398,
+          337
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          17,
-          38,
-          83,
-          66,
-          77,
-          53,
           19,
-          1
+          33,
+          73,
+          60,
+          67,
+          50,
+          17,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          6,
-          43,
-          48,
-          26,
-          9,
-          18,
-          7,
-          2
+          4,
+          42,
+          56,
+          31,
+          15,
+          16,
+          13,
+          9
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SUGAR CREEK (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

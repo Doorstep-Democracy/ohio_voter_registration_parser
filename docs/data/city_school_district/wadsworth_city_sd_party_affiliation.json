@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,732 (19%)",
-      "UNC – Lapsed R — 2,103 (11%)",
-      "Mixed – Active — 1,994 (10%)",
-      "Mixed – Lapsed — 1,355 (7%)",
-      "UNC – No Primary — 7,912 (40%)",
-      "UNC – Lapsed D — 1,964 (10%)",
-      "Pure D — 832 (4%)"
+      "Pure R — 4,141 (21%)",
+      "UNC – Lapsed R — 2,123 (11%)",
+      "Mixed – Active — 2,238 (11%)",
+      "Mixed – Lapsed — 610 (3%)",
+      "Minor Party — 71 (0%)",
+      "UNC – Non-partisan Ballot — 894 (4%)",
+      "UNC – No Primary — 6,806 (34%)",
+      "UNC – Lapsed D — 1,406 (7%)",
+      "Pure D — 1,827 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          3732,
-          2103,
-          1994,
-          1355,
-          7912,
-          1964,
-          832
+          4141,
+          2123,
+          2238,
+          610,
+          71,
+          894,
+          6806,
+          1406,
+          1827
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WADSWORTH CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

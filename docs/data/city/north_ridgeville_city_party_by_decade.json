@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          9,
-          112,
-          571,
-          847,
-          742,
-          633,
-          532,
-          242,
-          115
+          5,
+          89,
+          511,
+          779,
+          620,
+          423,
+          285,
+          166,
+          96
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
-          59,
-          218,
-          333,
-          445,
-          469,
-          373,
-          278,
-          29
+          5,
+          62,
+          260,
+          398,
+          583,
+          681,
+          630,
+          371,
+          60
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           8,
-          127,
-          730,
-          978,
-          693,
-          506,
-          323,
-          59,
+          105,
+          699,
+          963,
+          654,
+          421,
+          259,
+          69,
           4
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           8,
-          71,
-          246,
-          424,
-          480,
-          503,
-          516,
-          230,
-          73
+          70,
+          210,
+          300,
+          352,
+          329,
+          193,
+          45,
+          2
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          6,
+          5,
+          8,
+          11,
+          6,
+          5,
+          4
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          6,
+          59,
+          150,
+          173,
+          278,
+          370,
+          195,
+          66
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
+          0,
           51,
-          236,
-          538,
-          822,
-          1115,
-          1590,
-          2248,
-          1772
+          214,
+          503,
+          786,
+          1105,
+          1558,
+          2266,
+          1844
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          4,
-          96,
-          321,
-          492,
-          682,
-          645,
-          614,
-          329,
-          30
+          3,
+          94,
+          305,
+          445,
+          612,
+          635,
+          616,
+          323,
+          49
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          53,
-          426,
-          580,
-          361,
-          320,
-          361,
-          133,
-          90
+          49,
+          423,
+          638,
+          447,
+          343,
+          421,
+          191,
+          156
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NORTH RIDGEVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

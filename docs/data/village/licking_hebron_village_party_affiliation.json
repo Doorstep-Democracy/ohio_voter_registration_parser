@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 241 (13%)",
-      "UNC – Lapsed R — 217 (12%)",
-      "Mixed – Active — 136 (8%)",
-      "Mixed – Lapsed — 152 (8%)",
-      "UNC – No Primary — 800 (44%)",
-      "UNC – Lapsed D — 194 (11%)",
-      "Pure D — 67 (4%)"
+      "Pure R — 243 (13%)",
+      "UNC – Lapsed R — 238 (13%)",
+      "Mixed – Active — 140 (8%)",
+      "Mixed – Lapsed — 68 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 84 (5%)",
+      "UNC – No Primary — 776 (43%)",
+      "UNC – Lapsed D — 179 (10%)",
+      "Pure D — 89 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          241,
-          217,
-          136,
-          152,
-          800,
-          194,
-          67
+          243,
+          238,
+          140,
+          68,
+          5,
+          84,
+          776,
+          179,
+          89
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HEBRON VILLAGE (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -18,14 +17,13 @@
         "label": "Pure R",
         "data": [
           1,
-          3,
           11,
           16,
-          18,
-          7,
-          7,
+          17,
           8,
-          1
+          5,
+          8,
+          2
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,13 +31,12 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          2,
+          4,
           3,
           5,
+          12,
+          14,
           10,
-          15,
-          8,
           10,
           1
         ],
@@ -49,13 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          0,
+          1,
           3,
-          10,
+          9,
           9,
           2,
-          7,
+          5,
           1,
           0
         ],
@@ -65,17 +61,46 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           1,
           2,
+          4,
           3,
-          3,
-          7,
-          9,
-          1,
+          5,
+          11,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,12 +108,11 @@
         "data": [
           0,
           0,
-          0,
           8,
-          7,
+          6,
           12,
-          17,
-          32,
+          21,
+          33,
           19
         ],
         "backgroundColor": "#9ca3af",
@@ -98,11 +122,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          1,
-          6,
           5,
-          18,
-          6,
+          5,
+          17,
+          5,
           11,
           8,
           0
@@ -114,11 +137,10 @@
         "label": "Pure D",
         "data": [
           0,
-          0,
-          1,
+          2,
           8,
-          3,
-          0,
+          4,
+          1,
           2,
           0,
           1
@@ -128,8 +150,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MARION TOWNSHIP (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

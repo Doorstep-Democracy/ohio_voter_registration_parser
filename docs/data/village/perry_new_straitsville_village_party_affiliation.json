@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 47 (13%)",
-      "UNC – Lapsed R — 24 (7%)",
-      "Mixed – Active — 41 (11%)",
-      "Mixed – Lapsed — 30 (8%)",
-      "UNC – No Primary — 159 (43%)",
-      "UNC – Lapsed D — 51 (14%)",
-      "Pure D — 17 (5%)"
+      "Pure R — 43 (12%)",
+      "UNC – Lapsed R — 26 (7%)",
+      "Mixed – Active — 38 (10%)",
+      "Mixed – Lapsed — 14 (4%)",
+      "Minor Party — 4 (1%)",
+      "UNC – Non-partisan Ballot — 17 (5%)",
+      "UNC – No Primary — 160 (43%)",
+      "UNC – Lapsed D — 49 (13%)",
+      "Pure D — 22 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          47,
-          24,
-          41,
-          30,
-          159,
-          51,
-          17
+          43,
+          26,
+          38,
+          14,
+          4,
+          17,
+          160,
+          49,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW STRAITSVILLE VILLAGE (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

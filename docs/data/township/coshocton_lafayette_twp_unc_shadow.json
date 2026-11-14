@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 213",
-      "Mixed – Active — 369",
-      "Mixed – Lapsed — 145",
-      "UNC – No Primary — 970",
-      "UNC – Lapsed D — 205"
+      "UNC – Lapsed R — 268",
+      "Mixed – Active — 363",
+      "Mixed – Lapsed — 93",
+      "UNC – Non-partisan Ballot — 60",
+      "UNC – No Primary — 951",
+      "UNC – Lapsed D — 191"
     ],
     "datasets": [
       {
         "data": [
-          213,
-          369,
-          145,
-          970,
-          205
+          268,
+          363,
+          93,
+          60,
+          951,
+          191
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LAFAYETTE TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

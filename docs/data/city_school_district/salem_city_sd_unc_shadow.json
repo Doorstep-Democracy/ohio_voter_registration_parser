@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 848",
-      "Mixed – Active — 1,229",
-      "Mixed – Lapsed — 801",
-      "UNC – No Primary — 4,238",
-      "UNC – Lapsed D — 1,161"
+      "UNC – Lapsed R — 975",
+      "Mixed – Active — 1,208",
+      "Mixed – Lapsed — 527",
+      "UNC – Non-partisan Ballot — 293",
+      "UNC – No Primary — 4,194",
+      "UNC – Lapsed D — 1,082"
     ],
     "datasets": [
       {
         "data": [
-          848,
-          1229,
-          801,
-          4238,
-          1161
+          975,
+          1208,
+          527,
+          293,
+          4194,
+          1082
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "SALEM CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 226 (30%)",
-      "UNC – Lapsed R — 103 (14%)",
-      "Mixed – Active — 120 (16%)",
-      "Mixed – Lapsed — 52 (7%)",
-      "UNC – No Primary — 188 (25%)",
-      "UNC – Lapsed D — 37 (5%)",
-      "Pure D — 19 (3%)"
+      "Pure R — 252 (34%)",
+      "UNC – Lapsed R — 91 (12%)",
+      "Mixed – Active — 134 (18%)",
+      "Mixed – Lapsed — 32 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 10 (1%)",
+      "UNC – No Primary — 175 (24%)",
+      "UNC – Lapsed D — 29 (4%)",
+      "Pure D — 16 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          226,
-          103,
-          120,
-          52,
-          188,
-          37,
-          19
+          252,
+          91,
+          134,
+          32,
+          0,
+          10,
+          175,
+          29,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GLANDORF VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

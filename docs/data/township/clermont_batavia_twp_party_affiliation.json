@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,780 (14%)",
-      "UNC – Lapsed R — 2,743 (14%)",
-      "Mixed – Active — 860 (4%)",
-      "Mixed – Lapsed — 2,080 (11%)",
-      "UNC – No Primary — 8,920 (45%)",
-      "UNC – Lapsed D — 1,734 (9%)",
-      "Pure D — 519 (3%)"
+      "Pure R — 3,329 (17%)",
+      "UNC – Lapsed R — 2,465 (12%)",
+      "Mixed – Active — 1,124 (6%)",
+      "Mixed – Lapsed — 494 (2%)",
+      "Minor Party — 32 (0%)",
+      "UNC – Non-partisan Ballot — 1,305 (6%)",
+      "UNC – No Primary — 8,919 (44%)",
+      "UNC – Lapsed D — 1,490 (7%)",
+      "Pure D — 946 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2780,
-          2743,
-          860,
-          2080,
-          8920,
-          1734,
-          519
+          3329,
+          2465,
+          1124,
+          494,
+          32,
+          1305,
+          8919,
+          1490,
+          946
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BATAVIA TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

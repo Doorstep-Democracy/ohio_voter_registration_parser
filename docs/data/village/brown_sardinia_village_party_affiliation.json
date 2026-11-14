@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 84 (13%)",
-      "UNC – Lapsed R — 62 (10%)",
-      "Mixed – Active — 61 (10%)",
-      "Mixed – Lapsed — 42 (7%)",
-      "UNC – No Primary — 330 (51%)",
-      "UNC – Lapsed D — 55 (9%)",
-      "Pure D — 7 (1%)"
+      "Pure R — 104 (16%)",
+      "UNC – Lapsed R — 60 (9%)",
+      "Mixed – Active — 53 (8%)",
+      "Mixed – Lapsed — 39 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 6 (1%)",
+      "UNC – No Primary — 323 (50%)",
+      "UNC – Lapsed D — 49 (8%)",
+      "Pure D — 16 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          84,
-          62,
-          61,
-          42,
-          330,
-          55,
-          7
+          104,
+          60,
+          53,
+          39,
+          1,
+          6,
+          323,
+          49,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SARDINIA VILLAGE (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

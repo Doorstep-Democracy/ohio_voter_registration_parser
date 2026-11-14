@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 263 (26%)",
-      "UNC – Lapsed R — 192 (19%)",
-      "Mixed – Active — 141 (14%)",
-      "Mixed – Lapsed — 85 (8%)",
-      "UNC – No Primary — 256 (25%)",
-      "UNC – Lapsed D — 51 (5%)",
-      "Pure D — 22 (2%)"
+      "Pure R — 372 (37%)",
+      "UNC – Lapsed R — 138 (14%)",
+      "Mixed – Active — 183 (18%)",
+      "Mixed – Lapsed — 40 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 17 (2%)",
+      "UNC – No Primary — 206 (20%)",
+      "UNC – Lapsed D — 35 (3%)",
+      "Pure D — 27 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          263,
-          192,
-          141,
-          85,
-          256,
-          51,
-          22
+          372,
+          138,
+          183,
+          40,
+          0,
+          17,
+          206,
+          35,
+          27
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "KALIDA VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

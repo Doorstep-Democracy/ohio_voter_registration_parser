@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 162 (6%)",
+      "Pure R — 160 (6%)",
       "UNC – Lapsed R — 143 (6%)",
-      "Mixed – Active — 294 (11%)",
-      "Mixed – Lapsed — 233 (9%)",
-      "UNC – No Primary — 801 (31%)",
-      "UNC – Lapsed D — 526 (20%)",
-      "Pure D — 429 (17%)"
+      "Mixed – Active — 288 (11%)",
+      "Mixed – Lapsed — 124 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 108 (4%)",
+      "UNC – No Primary — 815 (31%)",
+      "UNC – Lapsed D — 519 (20%)",
+      "Pure D — 428 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          162,
+          160,
           143,
-          294,
-          233,
-          801,
-          526,
-          429
+          288,
+          124,
+          4,
+          108,
+          815,
+          519,
+          428
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Mcdonald Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

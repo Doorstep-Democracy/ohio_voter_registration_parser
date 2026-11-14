@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 425",
-      "Mixed – Active — 287",
-      "Mixed – Lapsed — 227",
-      "UNC – No Primary — 1,229",
-      "UNC – Lapsed D — 256"
+      "UNC – Lapsed R — 323",
+      "Mixed – Active — 349",
+      "Mixed – Lapsed — 77",
+      "UNC – Non-partisan Ballot — 120",
+      "UNC – No Primary — 1,093",
+      "UNC – Lapsed D — 184"
     ],
     "datasets": [
       {
         "data": [
-          425,
-          287,
-          227,
-          1229,
-          256
+          323,
+          349,
+          77,
+          120,
+          1093,
+          184
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "LEXINGTON VILLAGE (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

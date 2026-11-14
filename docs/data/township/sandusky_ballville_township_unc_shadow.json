@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 605",
-      "Mixed – Active — 477",
-      "Mixed – Lapsed — 479",
-      "UNC – No Primary — 1,245",
-      "UNC – Lapsed D — 362"
+      "UNC – Lapsed R — 600",
+      "Mixed – Active — 522",
+      "Mixed – Lapsed — 163",
+      "UNC – Non-partisan Ballot — 267",
+      "UNC – No Primary — 1,208",
+      "UNC – Lapsed D — 314"
     ],
     "datasets": [
       {
         "data": [
-          605,
-          477,
-          479,
-          1245,
-          362
+          600,
+          522,
+          163,
+          267,
+          1208,
+          314
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BALLVILLE TOWNSHIP (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

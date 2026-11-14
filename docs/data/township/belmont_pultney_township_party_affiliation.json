@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 343 (7%)",
-      "UNC – Lapsed R — 255 (5%)",
-      "Mixed – Active — 739 (16%)",
-      "Mixed – Lapsed — 370 (8%)",
-      "UNC – No Primary — 2,001 (42%)",
-      "UNC – Lapsed D — 708 (15%)",
-      "Pure D — 324 (7%)"
+      "Pure R — 367 (8%)",
+      "UNC – Lapsed R — 260 (5%)",
+      "Mixed – Active — 790 (16%)",
+      "Mixed – Lapsed — 175 (4%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 190 (4%)",
+      "UNC – No Primary — 2,018 (42%)",
+      "UNC – Lapsed D — 631 (13%)",
+      "Pure D — 350 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          343,
-          255,
-          739,
-          370,
-          2001,
-          708,
-          324
+          367,
+          260,
+          790,
+          175,
+          7,
+          190,
+          2018,
+          631,
+          350
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PULTNEY TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

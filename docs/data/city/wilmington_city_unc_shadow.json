@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 755",
-      "Mixed – Active — 651",
-      "Mixed – Lapsed — 340",
-      "UNC – No Primary — 3,344",
-      "UNC – Lapsed D — 471"
+      "UNC – Lapsed R — 1,063",
+      "Mixed – Active — 534",
+      "Mixed – Lapsed — 374",
+      "UNC – Non-partisan Ballot — 98",
+      "UNC – No Primary — 3,410",
+      "UNC – Lapsed D — 489"
     ],
     "datasets": [
       {
         "data": [
-          755,
-          651,
-          340,
-          3344,
-          471
+          1063,
+          534,
+          374,
+          98,
+          3410,
+          489
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "WILMINGTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

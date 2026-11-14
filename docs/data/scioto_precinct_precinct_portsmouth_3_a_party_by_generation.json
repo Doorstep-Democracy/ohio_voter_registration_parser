@@ -4,7 +4,7 @@
   "precinct": "PRECINCT PORTSMOUTH 3-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,8 +31,8 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          18,
-          13,
+          16,
+          15,
           4,
           5,
           1
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          17,
+          16,
           11,
           4,
           5,
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          8,
+          7,
           9,
-          5,
+          4,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,7 +97,7 @@
         "label": "UNC – No Primary",
         "data": [
           8,
-          12,
+          11,
           12,
           21,
           18
@@ -97,7 +110,7 @@
         "label": "UNC – Lapsed D",
         "data": [
           9,
-          14,
+          15,
           9,
           11,
           3

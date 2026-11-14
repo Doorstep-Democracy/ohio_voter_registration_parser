@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,374 (21%)",
-      "UNC – Lapsed R — 2,675 (13%)",
-      "Mixed – Active — 1,376 (7%)",
-      "Mixed – Lapsed — 1,622 (8%)",
-      "UNC – No Primary — 8,757 (42%)",
-      "UNC – Lapsed D — 1,108 (5%)",
-      "Pure D — 815 (4%)"
+      "Pure R — 4,367 (21%)",
+      "UNC – Lapsed R — 2,689 (13%)",
+      "Mixed – Active — 1,371 (7%)",
+      "Mixed – Lapsed — 623 (3%)",
+      "Minor Party — 65 (0%)",
+      "UNC – Non-partisan Ballot — 1,001 (5%)",
+      "UNC – No Primary — 8,947 (43%)",
+      "UNC – Lapsed D — 1,097 (5%)",
+      "Pure D — 799 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          4374,
-          2675,
-          1376,
-          1622,
-          8757,
-          1108,
-          815
+          4367,
+          2689,
+          1371,
+          623,
+          65,
+          1001,
+          8947,
+          1097,
+          799
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Southwest Local Sd (Hamilton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

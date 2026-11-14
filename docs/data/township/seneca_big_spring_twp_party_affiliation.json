@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 311 (28%)",
-      "UNC – Lapsed R — 175 (16%)",
-      "Mixed – Active — 113 (10%)",
-      "Mixed – Lapsed — 82 (7%)",
+      "Pure R — 263 (23%)",
+      "UNC – Lapsed R — 232 (21%)",
+      "Mixed – Active — 107 (9%)",
+      "Mixed – Lapsed — 53 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 33 (3%)",
       "UNC – No Primary — 337 (30%)",
-      "UNC – Lapsed D — 65 (6%)",
-      "Pure D — 29 (3%)"
+      "UNC – Lapsed D — 59 (5%)",
+      "Pure D — 43 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          311,
-          175,
-          113,
-          82,
+          263,
+          232,
+          107,
+          53,
+          3,
+          33,
           337,
-          65,
-          29
+          59,
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BIG SPRING TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

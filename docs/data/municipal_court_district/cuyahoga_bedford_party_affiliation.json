@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,674 (5%)",
-      "UNC – Lapsed R — 2,886 (5%)",
-      "Mixed – Active — 3,718 (6%)",
-      "Mixed – Lapsed — 3,602 (6%)",
-      "UNC – No Primary — 23,524 (41%)",
-      "UNC – Lapsed D — 12,140 (21%)",
-      "Pure D — 9,103 (16%)"
+      "Pure R — 2,510 (4%)",
+      "UNC – Lapsed R — 2,973 (5%)",
+      "Mixed – Active — 3,867 (7%)",
+      "Mixed – Lapsed — 1,979 (3%)",
+      "Minor Party — 95 (0%)",
+      "UNC – Non-partisan Ballot — 1,556 (3%)",
+      "UNC – No Primary — 22,959 (40%)",
+      "UNC – Lapsed D — 11,038 (19%)",
+      "Pure D — 11,060 (19%)"
     ],
     "datasets": [
       {
         "data": [
-          2674,
-          2886,
-          3718,
-          3602,
-          23524,
-          12140,
-          9103
+          2510,
+          2973,
+          3867,
+          1979,
+          95,
+          1556,
+          22959,
+          11038,
+          11060
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "BEDFORD (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

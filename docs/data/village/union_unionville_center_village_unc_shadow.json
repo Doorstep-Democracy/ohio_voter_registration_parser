@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 21",
-      "Mixed – Active — 10",
-      "Mixed – Lapsed — 7",
-      "UNC – No Primary — 57",
+      "UNC – Lapsed R — 25",
+      "Mixed – Active — 13",
+      "Mixed – Lapsed — 8",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 55",
       "UNC – Lapsed D — 5"
     ],
     "datasets": [
       {
         "data": [
-          21,
-          10,
-          7,
-          57,
+          25,
+          13,
+          8,
+          0,
+          55,
           5
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "UNIONVILLE CENTER VILLAGE (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

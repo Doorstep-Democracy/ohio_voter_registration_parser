@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          7,
+          1,
+          6,
+          18,
           23,
-          31,
           15,
-          16,
-          13,
-          5
+          12,
+          11,
+          6
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
-          8,
-          27,
+          2,
+          9,
+          32,
+          49,
           39,
-          41,
           36,
-          17,
-          2
+          16,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,14 +46,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          11,
-          20,
-          16,
-          4,
+          2,
+          9,
+          19,
+          18,
+          8,
+          10,
           5,
-          7,
-          0
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -62,15 +62,45 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          7,
-          21,
-          25,
-          21,
-          20,
-          17,
+          6,
+          15,
+          12,
+          10,
+          11,
+          6,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          7,
+          11,
+          9,
+          10,
+          11,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -78,12 +108,12 @@
         "data": [
           1,
           7,
-          26,
-          33,
-          73,
-          133,
-          194,
-          159
+          27,
+          32,
+          69,
+          132,
+          189,
+          160
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -91,13 +121,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          9,
-          18,
-          17,
+          2,
+          8,
+          15,
+          16,
           46,
-          46,
-          31,
+          41,
+          29,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -106,22 +136,22 @@
       {
         "label": "Pure D",
         "data": [
-          3,
-          7,
-          19,
-          11,
-          19,
-          19,
+          4,
+          8,
+          20,
           13,
-          2
+          20,
+          25,
+          33,
+          11
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "FAIRFAX VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

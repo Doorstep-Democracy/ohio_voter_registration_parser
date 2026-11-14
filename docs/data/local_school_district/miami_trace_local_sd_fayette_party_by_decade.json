@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           3,
-          65,
-          256,
-          501,
-          490,
-          340,
-          232,
-          178,
-          97
+          64,
+          251,
+          499,
+          492,
+          338,
+          231,
+          179,
+          92
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          32,
+          30,
           116,
-          212,
+          217,
           288,
-          272,
-          258,
-          165,
-          25
+          273,
+          260,
+          170,
+          26
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          17,
-          118,
-          235,
-          186,
-          106,
-          78,
+          18,
+          116,
+          229,
+          184,
+          104,
+          77,
           14,
           1
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          16,
-          72,
-          138,
-          153,
-          130,
-          109,
-          29,
-          6
+          15,
+          60,
+          108,
+          112,
+          70,
+          63,
+          5,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          4,
+          3,
+          2,
+          3,
+          4
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          12,
+          29,
+          45,
+          56,
+          46,
+          23,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           4,
-          13,
-          75,
-          223,
+          14,
+          74,
+          224,
           401,
-          548,
-          664,
-          830,
-          808
+          545,
+          678,
+          851,
+          852
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +131,13 @@
         "data": [
           0,
           16,
-          48,
-          102,
-          121,
-          117,
-          83,
-          55,
-          8
+          49,
+          101,
+          122,
+          116,
+          85,
+          56,
+          9
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -117,19 +149,19 @@
           12,
           46,
           79,
-          36,
+          35,
           22,
           27,
-          24,
-          21
+          22,
+          17
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Miami Trace Local Sd (Fayette Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

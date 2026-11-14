@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 368 (18%)",
-      "UNC – Lapsed R — 249 (12%)",
-      "Mixed – Active — 211 (10%)",
-      "Mixed – Lapsed — 248 (12%)",
-      "UNC – No Primary — 676 (33%)",
+      "UNC – Lapsed R — 266 (13%)",
+      "Mixed – Active — 233 (11%)",
+      "Mixed – Lapsed — 104 (5%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 122 (6%)",
+      "UNC – No Primary — 672 (33%)",
       "UNC – Lapsed D — 181 (9%)",
-      "Pure D — 87 (4%)"
+      "Pure D — 107 (5%)"
     ],
     "datasets": [
       {
         "data": [
           368,
-          249,
-          211,
-          248,
-          676,
+          266,
+          233,
+          104,
+          5,
+          122,
+          672,
           181,
-          87
+          107
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MIDDLEFIELD VILLAGE (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

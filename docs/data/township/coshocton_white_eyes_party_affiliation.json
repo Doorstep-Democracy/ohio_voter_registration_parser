@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 189 (27%)",
-      "UNC – Lapsed R — 63 (9%)",
-      "Mixed – Active — 76 (11%)",
-      "Mixed – Lapsed — 35 (5%)",
-      "UNC – No Primary — 254 (36%)",
-      "UNC – Lapsed D — 48 (7%)",
-      "Pure D — 38 (5%)"
+      "Pure R — 192 (27%)",
+      "UNC – Lapsed R — 67 (10%)",
+      "Mixed – Active — 78 (11%)",
+      "Mixed – Lapsed — 28 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 12 (2%)",
+      "UNC – No Primary — 247 (35%)",
+      "UNC – Lapsed D — 37 (5%)",
+      "Pure D — 42 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          189,
-          63,
-          76,
-          35,
-          254,
-          48,
-          38
+          192,
+          67,
+          78,
+          28,
+          0,
+          12,
+          247,
+          37,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WHITE EYES (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

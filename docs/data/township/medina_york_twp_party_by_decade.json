@@ -18,13 +18,13 @@
         "label": "Pure R",
         "data": [
           0,
-          18,
-          92,
-          179,
-          169,
-          95,
-          50,
-          29,
+          10,
+          82,
+          164,
+          148,
+          89,
+          40,
+          22,
           14
         ],
         "backgroundColor": "#ef4444",
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          8,
-          38,
-          85,
-          102,
-          79,
-          55,
-          23,
-          4
+          14,
+          47,
+          105,
+          124,
+          89,
+          68,
+          30,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
+          0,
           8,
-          82,
-          125,
-          61,
-          47,
-          19,
-          3,
-          0
+          72,
+          122,
+          60,
+          43,
+          22,
+          5,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          5,
-          39,
-          74,
-          100,
-          120,
-          141,
+          1,
+          2,
+          24,
+          40,
           42,
-          59
+          25,
+          5,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          21,
+          34,
+          57,
+          95,
+          131,
+          36,
+          57
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           9,
-          25,
-          52,
-          85,
-          98,
-          123,
-          206,
-          234
+          22,
+          46,
+          84,
+          94,
+          124,
+          200,
+          255
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +131,13 @@
         "data": [
           0,
           7,
-          43,
-          46,
-          63,
-          80,
-          39,
+          44,
+          47,
+          60,
+          71,
+          38,
           36,
-          3
+          4
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           0,
           1,
-          49,
-          73,
+          48,
+          76,
+          28,
           26,
-          14,
-          14,
-          4,
-          7
+          16,
+          10,
+          12
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "York TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

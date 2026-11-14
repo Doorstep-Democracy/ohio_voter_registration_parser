@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6 (9%)",
-      "UNC – Lapsed R — 11 (16%)",
-      "Mixed – Active — 4 (6%)",
-      "Mixed – Lapsed — 4 (6%)",
-      "UNC – No Primary — 32 (47%)",
-      "UNC – Lapsed D — 9 (13%)",
-      "Pure D — 2 (3%)"
+      "Pure R — 5 (7%)",
+      "UNC – Lapsed R — 12 (18%)",
+      "Mixed – Active — 3 (4%)",
+      "Mixed – Lapsed — 3 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (3%)",
+      "UNC – No Primary — 33 (49%)",
+      "UNC – Lapsed D — 7 (10%)",
+      "Pure D — 3 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          6,
-          11,
-          4,
-          4,
-          32,
-          9,
-          2
+          5,
+          12,
+          3,
+          3,
+          0,
+          2,
+          33,
+          7,
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "DEXTER CITY VILLAGE (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

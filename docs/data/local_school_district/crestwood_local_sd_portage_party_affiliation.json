@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,370 (15%)",
-      "UNC – Lapsed R — 954 (10%)",
-      "Mixed – Active — 1,042 (11%)",
-      "Mixed – Lapsed — 1,167 (13%)",
-      "UNC – No Primary — 3,108 (33%)",
-      "UNC – Lapsed D — 949 (10%)",
-      "Pure D — 691 (7%)"
+      "Pure R — 1,363 (15%)",
+      "UNC – Lapsed R — 951 (10%)",
+      "Mixed – Active — 1,029 (11%)",
+      "Mixed – Lapsed — 450 (5%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 722 (8%)",
+      "UNC – No Primary — 3,179 (34%)",
+      "UNC – Lapsed D — 946 (10%)",
+      "Pure D — 683 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1370,
-          954,
-          1042,
-          1167,
-          3108,
-          949,
-          691
+          1363,
+          951,
+          1029,
+          450,
+          17,
+          722,
+          3179,
+          946,
+          683
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Crestwood Local Sd (Portage Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 402 (24%)",
-      "UNC – Lapsed R — 332 (20%)",
-      "Mixed – Active — 139 (8%)",
-      "Mixed – Lapsed — 140 (8%)",
-      "UNC – No Primary — 513 (31%)",
-      "UNC – Lapsed D — 104 (6%)",
-      "Pure D — 19 (1%)"
+      "Pure R — 431 (26%)",
+      "UNC – Lapsed R — 316 (19%)",
+      "Mixed – Active — 171 (10%)",
+      "Mixed – Lapsed — 95 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 18 (1%)",
+      "UNC – No Primary — 502 (30%)",
+      "UNC – Lapsed D — 91 (6%)",
+      "Pure D — 29 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          402,
-          332,
-          139,
-          140,
-          513,
-          104,
-          19
+          431,
+          316,
+          171,
+          95,
+          1,
+          18,
+          502,
+          91,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CHESTER TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

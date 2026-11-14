@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 100",
-      "Mixed – Active — 26",
-      "Mixed – Lapsed — 34",
-      "UNC – No Primary — 146",
-      "UNC – Lapsed D — 29"
+      "UNC – Lapsed R — 99",
+      "Mixed – Active — 27",
+      "Mixed – Lapsed — 28",
+      "UNC – Non-partisan Ballot — 6",
+      "UNC – No Primary — 145",
+      "UNC – Lapsed D — 28"
     ],
     "datasets": [
       {
         "data": [
-          100,
-          26,
-          34,
-          146,
-          29
+          99,
+          27,
+          28,
+          6,
+          145,
+          28
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DECATUR TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

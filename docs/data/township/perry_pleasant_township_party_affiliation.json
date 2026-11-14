@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 149 (24%)",
-      "UNC – Lapsed R — 53 (9%)",
-      "Mixed – Active — 64 (10%)",
-      "Mixed – Lapsed — 41 (7%)",
-      "UNC – No Primary — 217 (35%)",
-      "UNC – Lapsed D — 67 (11%)",
+      "Pure R — 146 (23%)",
+      "UNC – Lapsed R — 61 (10%)",
+      "Mixed – Active — 63 (10%)",
+      "Mixed – Lapsed — 27 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 15 (2%)",
+      "UNC – No Primary — 215 (34%)",
+      "UNC – Lapsed D — 66 (11%)",
       "Pure D — 32 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          149,
-          53,
-          64,
-          41,
-          217,
-          67,
+          146,
+          61,
+          63,
+          27,
+          1,
+          15,
+          215,
+          66,
           32
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

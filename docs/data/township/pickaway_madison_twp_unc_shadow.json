@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 107",
-      "Mixed – Active — 129",
-      "Mixed – Lapsed — 62",
-      "UNC – No Primary — 354",
-      "UNC – Lapsed D — 76"
+      "UNC – Lapsed R — 109",
+      "Mixed – Active — 135",
+      "Mixed – Lapsed — 23",
+      "UNC – Non-partisan Ballot — 33",
+      "UNC – No Primary — 365",
+      "UNC – Lapsed D — 71"
     ],
     "datasets": [
       {
         "data": [
-          107,
-          129,
-          62,
-          354,
-          76
+          109,
+          135,
+          23,
+          33,
+          365,
+          71
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MADISON TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

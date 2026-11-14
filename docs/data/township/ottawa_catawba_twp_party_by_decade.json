@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          33,
-          182,
-          305,
-          167,
-          47,
-          28,
+          31,
+          185,
+          355,
+          233,
+          78,
+          39,
           11,
-          10
+          12
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
-          23,
-          81,
-          177,
-          190,
-          67,
-          48,
-          22,
-          2
+          1,
+          26,
+          75,
+          137,
+          148,
+          52,
+          44,
+          25,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          21,
-          89,
-          135,
-          56,
-          14,
-          5,
-          2,
+          15,
+          103,
+          169,
+          93,
+          24,
+          8,
+          1,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,29 +66,61 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          13,
-          77,
-          98,
-          105,
-          48,
-          19,
+          12,
+          33,
+          43,
+          36,
+          11,
           4,
-          4
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          2,
+          2,
+          0,
+          2,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          35,
+          34,
+          43,
+          22,
+          17,
+          8,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          1,
-          8,
-          63,
-          104,
-          134,
-          109,
-          94,
-          137,
+          0,
+          5,
+          52,
+          78,
+          101,
+          96,
+          90,
+          124,
           161
         ],
         "backgroundColor": "#9ca3af",
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          12,
+          8,
+          35,
+          45,
           53,
-          71,
-          76,
-          33,
-          19,
+          26,
           16,
-          3
+          17,
+          4
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
-          10,
-          65,
-          86,
+          0,
           15,
-          12,
+          82,
+          113,
+          43,
+          28,
+          7,
           5,
-          4,
-          2
+          5
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CATAWBA TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

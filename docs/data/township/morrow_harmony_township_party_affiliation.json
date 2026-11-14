@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 451 (24%)",
-      "UNC – Lapsed R — 242 (13%)",
-      "Mixed – Active — 153 (8%)",
-      "Mixed – Lapsed — 136 (7%)",
-      "UNC – No Primary — 708 (37%)",
-      "UNC – Lapsed D — 142 (8%)",
-      "Pure D — 59 (3%)"
+      "Pure R — 400 (21%)",
+      "UNC – Lapsed R — 294 (15%)",
+      "Mixed – Active — 140 (7%)",
+      "Mixed – Lapsed — 92 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 61 (3%)",
+      "UNC – No Primary — 700 (37%)",
+      "UNC – Lapsed D — 139 (7%)",
+      "Pure D — 74 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          451,
-          242,
-          153,
-          136,
-          708,
-          142,
-          59
+          400,
+          294,
+          140,
+          92,
+          3,
+          61,
+          700,
+          139,
+          74
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARMONY TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

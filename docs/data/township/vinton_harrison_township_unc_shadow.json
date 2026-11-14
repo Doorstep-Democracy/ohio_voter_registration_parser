@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 91",
-      "Mixed – Active — 61",
-      "Mixed – Lapsed — 44",
-      "UNC – No Primary — 257",
-      "UNC – Lapsed D — 59"
+      "UNC – Lapsed R — 96",
+      "Mixed – Active — 71",
+      "Mixed – Lapsed — 25",
+      "UNC – Non-partisan Ballot — 13",
+      "UNC – No Primary — 256",
+      "UNC – Lapsed D — 60"
     ],
     "datasets": [
       {
         "data": [
-          91,
-          61,
-          44,
-          257,
-          59
+          96,
+          71,
+          25,
+          13,
+          256,
+          60
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

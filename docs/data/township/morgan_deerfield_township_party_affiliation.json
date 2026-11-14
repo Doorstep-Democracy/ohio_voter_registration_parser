@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 177 (32%)",
-      "UNC – Lapsed R — 84 (15%)",
+      "Pure R — 165 (30%)",
+      "UNC – Lapsed R — 99 (18%)",
       "Mixed – Active — 51 (9%)",
-      "Mixed – Lapsed — 18 (3%)",
+      "Mixed – Lapsed — 13 (2%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 4 (1%)",
       "UNC – No Primary — 163 (30%)",
-      "UNC – Lapsed D — 37 (7%)",
-      "Pure D — 19 (3%)"
+      "UNC – Lapsed D — 36 (7%)",
+      "Pure D — 18 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          177,
-          84,
+          165,
+          99,
           51,
-          18,
+          13,
+          1,
+          4,
           163,
-          37,
-          19
+          36,
+          18
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DEERFIELD TOWNSHIP (Morgan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

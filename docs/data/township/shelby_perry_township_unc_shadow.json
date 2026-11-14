@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 72",
+      "UNC – Lapsed R — 81",
       "Mixed – Active — 71",
-      "Mixed – Lapsed — 35",
-      "UNC – No Primary — 219",
-      "UNC – Lapsed D — 35"
+      "Mixed – Lapsed — 16",
+      "UNC – Non-partisan Ballot — 15",
+      "UNC – No Primary — 213",
+      "UNC – Lapsed D — 33"
     ],
     "datasets": [
       {
         "data": [
-          72,
+          81,
           71,
-          35,
-          219,
-          35
+          16,
+          15,
+          213,
+          33
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PERRY TOWNSHIP (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

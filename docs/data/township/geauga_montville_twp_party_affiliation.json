@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 293 (21%)",
-      "UNC – Lapsed R — 163 (12%)",
-      "Mixed – Active — 191 (14%)",
-      "Mixed – Lapsed — 137 (10%)",
-      "UNC – No Primary — 430 (31%)",
-      "UNC – Lapsed D — 126 (9%)",
-      "Pure D — 46 (3%)"
+      "Pure R — 300 (22%)",
+      "UNC – Lapsed R — 175 (13%)",
+      "Mixed – Active — 196 (14%)",
+      "Mixed – Lapsed — 72 (5%)",
+      "Minor Party — 7 (1%)",
+      "UNC – Non-partisan Ballot — 54 (4%)",
+      "UNC – No Primary — 421 (30%)",
+      "UNC – Lapsed D — 121 (9%)",
+      "Pure D — 41 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          293,
-          163,
-          191,
-          137,
-          430,
-          126,
-          46
+          300,
+          175,
+          196,
+          72,
+          7,
+          54,
+          421,
+          121,
+          41
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONTVILLE TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

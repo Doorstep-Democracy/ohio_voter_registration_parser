@@ -3,14 +3,15 @@
   "county": "Hocking",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          2903,
+          2873,
           1915,
-          1836,
-          700,
-          256,
-          6953,
-          1808,
-          1160
+          1812,
+          701,
+          37,
+          251,
+          7059,
+          1790,
+          1139
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -45,7 +48,7 @@
   },
   "meta": {
     "new_registrants_r": 80,
-    "new_registrants_d": 54,
-    "new_registrants_unc": 1844
+    "new_registrants_d": 51,
+    "new_registrants_unc": 1987
   }
 }

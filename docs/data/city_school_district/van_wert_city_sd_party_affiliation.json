@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,128 (22%)",
-      "UNC – Lapsed R — 1,373 (14%)",
-      "Mixed – Active — 733 (8%)",
-      "Mixed – Lapsed — 503 (5%)",
-      "UNC – No Primary — 4,256 (44%)",
-      "UNC – Lapsed D — 531 (5%)",
-      "Pure D — 248 (3%)"
+      "Pure R — 1,895 (19%)",
+      "UNC – Lapsed R — 1,662 (17%)",
+      "Mixed – Active — 645 (7%)",
+      "Mixed – Lapsed — 458 (5%)",
+      "Minor Party — 18 (0%)",
+      "UNC – Non-partisan Ballot — 146 (1%)",
+      "UNC – No Primary — 4,192 (43%)",
+      "UNC – Lapsed D — 539 (6%)",
+      "Pure D — 235 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          2128,
-          1373,
-          733,
-          503,
-          4256,
-          531,
-          248
+          1895,
+          1662,
+          645,
+          458,
+          18,
+          146,
+          4192,
+          539,
+          235
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "VAN WERT CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

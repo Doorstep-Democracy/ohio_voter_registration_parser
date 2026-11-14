@@ -4,7 +4,7 @@
   "precinct": "PRECINCT FOURTH WARD A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -20,12 +20,12 @@
       {
         "label": "Pure R",
         "data": [
-          3,
+          2,
           13,
           27,
-          33,
+          32,
           27,
-          12,
+          11,
           10,
           7
         ],
@@ -36,9 +36,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
-          14,
-          18,
+          4,
+          13,
+          19,
           31,
           28,
           35,
@@ -70,14 +70,30 @@
         "data": [
           2,
           5,
-          7,
-          10,
-          17,
+          8,
+          11,
+          15,
           5,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -90,7 +106,7 @@
           1,
           8,
           6,
-          4,
+          3,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -101,13 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           4,
-          6,
+          5,
           24,
           45,
-          58,
-          72,
+          59,
+          76,
           136,
-          110
+          117
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -118,11 +134,11 @@
         "data": [
           3,
           4,
-          11,
-          15,
+          13,
+          16,
           15,
           9,
-          11,
+          10,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -136,8 +152,8 @@
           2,
           6,
           5,
-          7,
-          4,
+          6,
+          3,
           2,
           7
         ],

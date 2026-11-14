@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,856 (20%)",
-      "UNC – Lapsed R — 1,371 (9%)",
-      "Mixed – Active — 1,203 (8%)",
-      "Mixed – Lapsed — 976 (7%)",
-      "UNC – No Primary — 5,888 (41%)",
-      "UNC – Lapsed D — 1,156 (8%)",
-      "Pure D — 1,015 (7%)"
+      "Pure R — 2,826 (19%)",
+      "UNC – Lapsed R — 1,374 (9%)",
+      "Mixed – Active — 1,198 (8%)",
+      "Mixed – Lapsed — 377 (3%)",
+      "Minor Party — 61 (0%)",
+      "UNC – Non-partisan Ballot — 598 (4%)",
+      "UNC – No Primary — 5,951 (41%)",
+      "UNC – Lapsed D — 1,147 (8%)",
+      "Pure D — 1,007 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          2856,
-          1371,
-          1203,
-          976,
-          5888,
-          1156,
-          1015
+          2826,
+          1374,
+          1198,
+          377,
+          61,
+          598,
+          5951,
+          1147,
+          1007
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Madison Local Sd (Richland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

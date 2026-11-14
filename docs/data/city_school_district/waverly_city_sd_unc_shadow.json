@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 819",
-      "Mixed – Active — 628",
-      "Mixed – Lapsed — 559",
-      "UNC – No Primary — 3,134",
-      "UNC – Lapsed D — 1,043"
+      "UNC – Lapsed R — 745",
+      "Mixed – Active — 794",
+      "Mixed – Lapsed — 357",
+      "UNC – Non-partisan Ballot — 161",
+      "UNC – No Primary — 2,919",
+      "UNC – Lapsed D — 827"
     ],
     "datasets": [
       {
         "data": [
-          819,
-          628,
-          559,
-          3134,
-          1043
+          745,
+          794,
+          357,
+          161,
+          2919,
+          827
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "WAVERLY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

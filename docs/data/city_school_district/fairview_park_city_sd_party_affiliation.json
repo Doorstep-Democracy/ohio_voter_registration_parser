@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 968 (8%)",
-      "UNC – Lapsed R — 965 (8%)",
-      "Mixed – Active — 1,396 (12%)",
-      "Mixed – Lapsed — 1,043 (9%)",
-      "UNC – No Primary — 4,276 (36%)",
-      "UNC – Lapsed D — 1,901 (16%)",
-      "Pure D — 1,488 (12%)"
+      "Pure R — 866 (7%)",
+      "UNC – Lapsed R — 1,048 (9%)",
+      "Mixed – Active — 1,377 (11%)",
+      "Mixed – Lapsed — 664 (5%)",
+      "Minor Party — 27 (0%)",
+      "UNC – Non-partisan Ballot — 358 (3%)",
+      "UNC – No Primary — 4,208 (35%)",
+      "UNC – Lapsed D — 1,764 (15%)",
+      "Pure D — 1,811 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          968,
-          965,
-          1396,
-          1043,
-          4276,
-          1901,
-          1488
+          866,
+          1048,
+          1377,
+          664,
+          27,
+          358,
+          4208,
+          1764,
+          1811
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "FAIRVIEW PARK CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

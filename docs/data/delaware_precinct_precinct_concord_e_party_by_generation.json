@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CONCORD E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          6,
+          5,
           68,
           24,
           11,
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          7,
-          48,
+          5,
           46,
+          45,
           28,
-          3
+          2
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -60,10 +60,23 @@
           0,
           8,
           13,
-          6,
+          7,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           5,
-          39,
-          54,
-          74,
-          79
+          38,
+          52,
+          73,
+          86
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,9 +109,9 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          17,
-          26,
+          2,
+          16,
+          27,
           13,
           5
         ],
@@ -110,8 +123,8 @@
         "label": "Pure D",
         "data": [
           0,
-          24,
-          11,
+          22,
+          10,
           14,
           4
         ],

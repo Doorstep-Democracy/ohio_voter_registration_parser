@@ -4,8 +4,8 @@ snapshot_store.py
 Single resolver for SOS voter-file snapshots (CLAUDE.md section 5: never
 duplicate discovery/staging logic).  Every consumer -- the interactive
 pipeline (`ohio_voter_pipeline.py`), the wrapper
-(`ohio_voter_pipeline_wrapper.py`), and the future temporal engine
-(`pipeline/temporal/snapshot_state.py`) -- imports this module rather than
+(`ohio_voter_pipeline_wrapper.py`), and any future temporal engine (not yet
+written) -- imports this module rather than
 re-deriving where snapshots live or how one gets staged.
 
 Layout this module owns
@@ -38,24 +38,27 @@ import hashlib
 import json
 import re
 import shutil
+import sys
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
 # ── Config (resolved from __file__, never CWD) ────────────────────────────────
-BASE_DIR      = Path(__file__).resolve().parent.parent
-SOURCE_DIR    = BASE_DIR / "local" / "source"
+# Shared locations come from the single resolver, pipeline/paths.py. pipeline/
+# goes on sys.path so the bare sibling import resolves under either import style.
+_PIPELINE_DIR = str(Path(__file__).resolve().parent)
+if _PIPELINE_DIR not in sys.path:
+    sys.path.insert(0, _PIPELINE_DIR)
+from paths import BASE_DIR, ENRICHED_CACHE, PARQUET_DIR, SOURCE_DIR, TXT_DIR  # noqa: E402,F401
+
 SNAPSHOTS_DIR = SOURCE_DIR / "snapshots"
-STAGING_DIR   = SOURCE_DIR / "State Voter Files"
+STAGING_DIR   = TXT_DIR   # the staging cache IS the staged raw-voter-file directory
 STAGED_FROM   = STAGING_DIR / "staged_from.json"
 
-# Downstream caches keyed off the staged snapshot, not owned by this module but
-# invalidated here because stage() is the only place that knows a *different*
-# snapshot just replaced the staged one. Paths must match voter_data_cleaner.py
-# / jurisdictional_groupings.py exactly (duplicated there per existing pattern
-# in this codebase, not re-centralized here to keep this patch scoped).
-PARQUET_DIR     = SOURCE_DIR / "parquet"
-ENRICHED_CACHE  = SOURCE_DIR / "parquet_enriched" / "enriched_voters.parquet"
+# PARQUET_DIR and ENRICHED_CACHE are downstream caches keyed off the staged
+# snapshot. They are not owned by this module but are invalidated here, because
+# stage() is the only place that knows a *different* snapshot just replaced the
+# staged one.
 
 
 def _invalidate_downstream_caches(prev_snapshot_date: str | None, new_snapshot_date: str) -> None:

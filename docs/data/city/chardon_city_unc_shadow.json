@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 507",
-      "Mixed – Active — 416",
-      "Mixed – Lapsed — 383",
-      "UNC – No Primary — 1,408",
-      "UNC – Lapsed D — 436"
+      "UNC – Lapsed R — 545",
+      "Mixed – Active — 445",
+      "Mixed – Lapsed — 238",
+      "UNC – Non-partisan Ballot — 125",
+      "UNC – No Primary — 1,382",
+      "UNC – Lapsed D — 397"
     ],
     "datasets": [
       {
         "data": [
-          507,
-          416,
-          383,
-          1408,
-          436
+          545,
+          445,
+          238,
+          125,
+          1382,
+          397
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "CHARDON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

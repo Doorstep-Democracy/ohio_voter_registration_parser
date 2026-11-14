@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,252 (25%)",
-      "UNC – Lapsed R — 758 (15%)",
-      "Mixed – Active — 321 (7%)",
-      "Mixed – Lapsed — 476 (10%)",
-      "UNC – No Primary — 1,687 (34%)",
-      "UNC – Lapsed D — 296 (6%)",
-      "Pure D — 131 (3%)"
+      "Pure R — 1,190 (25%)",
+      "UNC – Lapsed R — 796 (16%)",
+      "Mixed – Active — 333 (7%)",
+      "Mixed – Lapsed — 170 (4%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 278 (6%)",
+      "UNC – No Primary — 1,634 (34%)",
+      "UNC – Lapsed D — 277 (6%)",
+      "Pure D — 167 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1252,
-          758,
-          321,
-          476,
-          1687,
-          296,
-          131
+          1190,
+          796,
+          333,
+          170,
+          8,
+          278,
+          1634,
+          277,
+          167
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

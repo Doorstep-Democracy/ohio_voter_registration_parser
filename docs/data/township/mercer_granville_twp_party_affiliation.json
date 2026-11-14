@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 982 (34%)",
-      "UNC – Lapsed R — 431 (15%)",
-      "Mixed – Active — 255 (9%)",
-      "Mixed – Lapsed — 207 (7%)",
-      "UNC – No Primary — 862 (30%)",
-      "UNC – Lapsed D — 95 (3%)",
-      "Pure D — 45 (2%)"
+      "Pure R — 694 (24%)",
+      "UNC – Lapsed R — 720 (25%)",
+      "Mixed – Active — 208 (7%)",
+      "Mixed – Lapsed — 121 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 127 (4%)",
+      "UNC – No Primary — 852 (30%)",
+      "UNC – Lapsed D — 93 (3%)",
+      "Pure D — 47 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          982,
-          431,
-          255,
-          207,
-          862,
-          95,
-          45
+          694,
+          720,
+          208,
+          121,
+          2,
+          127,
+          852,
+          93,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GRANVILLE TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 79 (20%)",
-      "UNC – Lapsed R — 49 (13%)",
+      "Pure R — 78 (20%)",
+      "UNC – Lapsed R — 53 (13%)",
       "Mixed – Active — 30 (8%)",
-      "Mixed – Lapsed — 44 (11%)",
-      "UNC – No Primary — 134 (35%)",
-      "UNC – Lapsed D — 31 (8%)",
-      "Pure D — 19 (5%)"
+      "Mixed – Lapsed — 11 (3%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 27 (7%)",
+      "UNC – No Primary — 142 (36%)",
+      "UNC – Lapsed D — 29 (7%)",
+      "Pure D — 22 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          79,
-          49,
+          78,
+          53,
           30,
-          44,
-          134,
-          31,
-          19
+          11,
+          3,
+          27,
+          142,
+          29,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SPENCER VILLAGE (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

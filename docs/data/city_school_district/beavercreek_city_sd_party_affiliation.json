@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8,589 (20%)",
-      "UNC – Lapsed R — 5,705 (13%)",
-      "Mixed – Active — 3,641 (8%)",
-      "Mixed – Lapsed — 5,149 (12%)",
-      "UNC – No Primary — 14,254 (33%)",
-      "UNC – Lapsed D — 3,711 (9%)",
-      "Pure D — 2,412 (6%)"
+      "Pure R — 7,510 (17%)",
+      "UNC – Lapsed R — 6,812 (15%)",
+      "Mixed – Active — 3,562 (8%)",
+      "Mixed – Lapsed — 2,063 (5%)",
+      "Minor Party — 119 (0%)",
+      "UNC – Non-partisan Ballot — 2,965 (7%)",
+      "UNC – No Primary — 14,389 (33%)",
+      "UNC – Lapsed D — 3,786 (9%)",
+      "Pure D — 2,827 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          8589,
-          5705,
-          3641,
-          5149,
-          14254,
-          3711,
-          2412
+          7510,
+          6812,
+          3562,
+          2063,
+          119,
+          2965,
+          14389,
+          3786,
+          2827
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "BEAVERCREEK CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

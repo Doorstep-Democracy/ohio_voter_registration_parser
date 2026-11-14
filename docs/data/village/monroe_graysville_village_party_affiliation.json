@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6 (12%)",
+      "Pure R — 7 (13%)",
       "UNC – Lapsed R — 3 (6%)",
       "Mixed – Active — 10 (19%)",
-      "Mixed – Lapsed — 6 (12%)",
-      "UNC – No Primary — 17 (33%)",
+      "Mixed – Lapsed — 3 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (4%)",
+      "UNC – No Primary — 18 (34%)",
       "UNC – Lapsed D — 3 (6%)",
       "Pure D — 7 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          6,
+          7,
           3,
           10,
-          6,
-          17,
+          3,
+          0,
+          2,
+          18,
           3,
           7
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GRAYSVILLE VILLAGE (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

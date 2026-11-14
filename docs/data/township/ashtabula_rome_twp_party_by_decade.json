@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,14 +16,13 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          8,
-          31,
-          78,
-          40,
-          43,
-          26,
-          7,
+          6,
+          28,
+          72,
+          41,
+          36,
+          24,
+          6,
           8
         ],
         "backgroundColor": "#ef4444",
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
           1,
-          11,
-          24,
-          37,
-          33,
-          21,
-          11,
-          1
+          13,
+          30,
+          39,
+          41,
+          23,
+          14,
+          2
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
           4,
-          16,
-          39,
-          39,
-          11,
-          8,
+          18,
+          43,
+          41,
+          10,
+          10,
           0,
           0
         ],
@@ -65,31 +61,59 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
           1,
-          14,
-          27,
-          32,
-          18,
-          14,
           7,
-          2
+          20,
+          18,
+          8,
+          10,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
+          5,
+          8,
+          12,
+          11,
           3,
           4,
-          32,
-          75,
-          60,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          3,
+          5,
+          29,
+          73,
+          58,
           96,
-          99,
-          99
+          92,
+          107
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +121,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          4,
-          10,
-          24,
-          37,
-          32,
+          5,
+          13,
+          15,
+          35,
+          33,
           28,
-          17,
-          0
+          15,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +137,21 @@
         "label": "Pure D",
         "data": [
           0,
-          1,
-          22,
-          16,
+          19,
+          24,
           15,
-          9,
+          10,
+          3,
           6,
-          0,
-          5
+          3
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ROME TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

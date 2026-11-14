@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,029",
-      "Mixed – Active — 1,149",
-      "Mixed – Lapsed — 1,182",
-      "UNC – No Primary — 3,303",
-      "UNC – Lapsed D — 1,330"
+      "UNC – Lapsed R — 1,158",
+      "Mixed – Active — 1,086",
+      "Mixed – Lapsed — 630",
+      "UNC – Non-partisan Ballot — 578",
+      "UNC – No Primary — 3,285",
+      "UNC – Lapsed D — 1,250"
     ],
     "datasets": [
       {
         "data": [
-          1029,
-          1149,
-          1182,
-          3303,
-          1330
+          1158,
+          1086,
+          630,
+          578,
+          3285,
+          1250
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "ERIE-CO (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -17,13 +17,13 @@
         "label": "Pure R",
         "data": [
           1,
-          9,
-          10,
-          18,
           8,
-          13,
-          6,
-          1
+          7,
+          21,
+          7,
+          12,
+          7,
+          3
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,12 +32,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          5,
-          9,
-          13,
-          15,
-          11,
           6,
+          11,
+          10,
+          16,
+          13,
+          7,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -47,11 +47,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          5,
-          18,
-          12,
-          10,
-          5,
+          4,
+          22,
+          14,
+          13,
+          4,
           2,
           0
         ],
@@ -62,28 +62,58 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
+          7,
+          9,
           6,
-          11,
-          13,
-          10,
+          6,
           3,
           1,
-          1
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          0,
+          6,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          5,
+          4,
           28,
-          27,
-          51,
-          52,
+          26,
+          49,
+          50,
           73,
-          57
+          59
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,13 +122,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          8,
-          22,
+          7,
+          23,
           24,
-          22,
-          18,
-          5,
-          0
+          23,
+          16,
+          4,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -108,20 +138,20 @@
         "data": [
           2,
           7,
-          12,
-          12,
-          6,
+          10,
+          11,
+          5,
+          4,
           2,
-          2,
-          2
+          1
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SCIOTO TOWNSHIP (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

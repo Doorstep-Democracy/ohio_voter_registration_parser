@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 362",
-      "Mixed – Active — 418",
-      "Mixed – Lapsed — 385",
-      "UNC – No Primary — 1,267",
-      "UNC – Lapsed D — 553"
+      "UNC – Lapsed R — 405",
+      "Mixed – Active — 423",
+      "Mixed – Lapsed — 222",
+      "UNC – Non-partisan Ballot — 147",
+      "UNC – No Primary — 1,257",
+      "UNC – Lapsed D — 518"
     ],
     "datasets": [
       {
         "data": [
-          362,
-          418,
-          385,
-          1267,
-          553
+          405,
+          423,
+          222,
+          147,
+          1257,
+          518
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "VERMILION TWP (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

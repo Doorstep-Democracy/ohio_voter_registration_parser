@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 24 (12%)",
-      "UNC – Lapsed R — 16 (8%)",
-      "Mixed – Active — 13 (6%)",
-      "Mixed – Lapsed — 10 (5%)",
-      "UNC – No Primary — 121 (60%)",
-      "UNC – Lapsed D — 12 (6%)",
-      "Pure D — 4 (2%)"
+      "Pure R — 22 (11%)",
+      "UNC – Lapsed R — 17 (9%)",
+      "Mixed – Active — 10 (5%)",
+      "Mixed – Lapsed — 8 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 3 (2%)",
+      "UNC – No Primary — 121 (61%)",
+      "UNC – Lapsed D — 17 (9%)",
+      "Pure D — 1 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          24,
-          16,
-          13,
+          22,
+          17,
           10,
+          8,
+          0,
+          3,
           121,
-          12,
-          4
+          17,
+          1
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MIDLAND VILLAGE (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 79",
-      "Mixed – Active — 49",
-      "Mixed – Lapsed — 61",
-      "UNC – No Primary — 203",
-      "UNC – Lapsed D — 54"
+      "UNC – Lapsed R — 91",
+      "Mixed – Active — 50",
+      "Mixed – Lapsed — 31",
+      "UNC – Non-partisan Ballot — 27",
+      "UNC – No Primary — 197",
+      "UNC – Lapsed D — 48"
     ],
     "datasets": [
       {
         "data": [
-          79,
-          49,
-          61,
-          203,
-          54
+          91,
+          50,
+          31,
+          27,
+          197,
+          48
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DEERCREEK TOWNSHIP (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

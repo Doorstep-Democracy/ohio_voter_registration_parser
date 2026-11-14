@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 218 (20%)",
-      "UNC – Lapsed R — 117 (11%)",
-      "Mixed – Active — 76 (7%)",
-      "Mixed – Lapsed — 76 (7%)",
-      "UNC – No Primary — 423 (39%)",
-      "UNC – Lapsed D — 126 (12%)",
-      "Pure D — 40 (4%)"
+      "Pure R — 196 (18%)",
+      "UNC – Lapsed R — 146 (14%)",
+      "Mixed – Active — 80 (7%)",
+      "Mixed – Lapsed — 30 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 37 (3%)",
+      "UNC – No Primary — 416 (39%)",
+      "UNC – Lapsed D — 112 (10%)",
+      "Pure D — 55 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          218,
-          117,
-          76,
-          76,
-          423,
-          126,
-          40
+          196,
+          146,
+          80,
+          30,
+          3,
+          37,
+          416,
+          112,
+          55
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLARKSFIELD TOWNSHIP (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

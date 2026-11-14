@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 353 (22%)",
-      "UNC – Lapsed R — 156 (10%)",
-      "Mixed – Active — 137 (9%)",
-      "Mixed – Lapsed — 168 (10%)",
-      "UNC – No Primary — 632 (39%)",
-      "UNC – Lapsed D — 115 (7%)",
-      "Pure D — 47 (3%)"
+      "Pure R — 317 (20%)",
+      "UNC – Lapsed R — 211 (13%)",
+      "Mixed – Active — 127 (8%)",
+      "Mixed – Lapsed — 75 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 101 (6%)",
+      "UNC – No Primary — 618 (38%)",
+      "UNC – Lapsed D — 96 (6%)",
+      "Pure D — 57 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          353,
-          156,
-          137,
-          168,
-          632,
-          115,
-          47
+          317,
+          211,
+          127,
+          75,
+          4,
+          101,
+          618,
+          96,
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SULLIVAN-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

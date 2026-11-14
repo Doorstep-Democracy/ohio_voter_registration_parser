@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 702 (14%)",
-      "UNC – Lapsed R — 563 (11%)",
+      "Pure R — 692 (14%)",
+      "UNC – Lapsed R — 565 (11%)",
       "Mixed – Active — 797 (16%)",
-      "Mixed – Lapsed — 483 (10%)",
-      "UNC – No Primary — 1,544 (30%)",
+      "Mixed – Lapsed — 355 (7%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 133 (3%)",
+      "UNC – No Primary — 1,575 (31%)",
       "UNC – Lapsed D — 590 (12%)",
-      "Pure D — 385 (8%)"
+      "Pure D — 388 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          702,
-          563,
+          692,
+          565,
           797,
-          483,
-          1544,
+          355,
+          9,
+          133,
+          1575,
           590,
-          385
+          388
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "South Range Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

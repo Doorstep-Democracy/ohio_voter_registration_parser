@@ -4,7 +4,7 @@
   "precinct": "MAPLE HEIGHTS-04-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
@@ -86,8 +99,8 @@
           0,
           27,
           63,
-          130,
-          126
+          126,
+          145
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           9,
-          56,
+          54,
           59,
           34,
-          6
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,7 +123,7 @@
         "label": "Pure D",
         "data": [
           9,
-          74,
+          73,
           23,
           13,
           6

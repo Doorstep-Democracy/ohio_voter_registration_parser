@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WINTERSVILLE B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -21,9 +21,9 @@
         "label": "Pure R",
         "data": [
           1,
-          10,
-          15,
           9,
+          15,
+          8,
           10,
           9,
           9,
@@ -38,12 +38,12 @@
         "data": [
           2,
           5,
-          7,
+          8,
           14,
           6,
           9,
-          9,
-          3
+          8,
+          2
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 3,
@@ -54,8 +54,8 @@
         "data": [
           6,
           25,
-          42,
-          21,
+          41,
+          20,
           15,
           7,
           1,
@@ -69,8 +69,8 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          12,
-          7,
+          11,
+          8,
           9,
           9,
           0,
@@ -82,6 +82,22 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
@@ -89,8 +105,8 @@
           0,
           0,
           2,
-          3,
-          1,
+          4,
+          0,
           0
         ],
         "backgroundColor": "#c4b5cd",
@@ -101,13 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          6,
+          5,
           20,
           27,
           30,
-          53,
-          63,
-          64
+          55,
+          62,
+          68
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,13 +132,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          11,
+          10,
           11,
           19,
-          27,
+          26,
           14,
           15,
-          13,
+          12,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -133,8 +149,8 @@
         "label": "Pure D",
         "data": [
           3,
-          26,
-          28,
+          25,
+          29,
           10,
           6,
           6,

@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          19,
-          83,
-          159,
+          16,
+          78,
+          158,
           135,
-          126,
-          113,
-          147,
-          77
+          138,
+          118,
+          165,
+          91
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          7,
+          10,
           35,
-          42,
-          67,
-          77,
-          106,
-          103,
-          4
+          45,
+          79,
+          76,
+          104,
+          102,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          47,
-          186,
-          340,
-          196,
-          100,
-          57,
-          20,
-          0
+          43,
+          182,
+          351,
+          200,
+          111,
+          65,
+          24,
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          5,
-          14,
-          47,
-          88,
-          82,
+          2,
+          16,
+          44,
           75,
           75,
-          23,
-          7
+          53,
+          42,
+          9,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          5,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          0,
+          3,
+          4,
+          8,
+          13,
+          28,
+          21,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          16,
-          74,
-          219,
-          452,
-          564,
-          803,
-          1254,
-          1037
+          12,
+          64,
+          198,
+          443,
+          557,
+          813,
+          1251,
+          1109
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          41,
-          134,
-          289,
-          345,
-          238,
-          227,
-          116,
-          9
+          35,
+          121,
+          254,
+          319,
+          219,
+          212,
+          110,
+          11
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          5,
-          34,
+          4,
+          30,
           113,
-          152,
-          90,
-          35,
-          21,
-          22,
-          5
+          171,
+          110,
+          57,
+          37,
+          39,
+          16
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "STEUBENVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 97",
-      "Mixed – Active — 212",
-      "Mixed – Lapsed — 96",
-      "UNC – No Primary — 475",
-      "UNC – Lapsed D — 172"
+      "UNC – Lapsed R — 112",
+      "Mixed – Active — 210",
+      "Mixed – Lapsed — 65",
+      "UNC – Non-partisan Ballot — 31",
+      "UNC – No Primary — 474",
+      "UNC – Lapsed D — 169"
     ],
     "datasets": [
       {
         "data": [
-          97,
-          212,
-          96,
-          475,
-          172
+          112,
+          210,
+          65,
+          31,
+          474,
+          169
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARTFORD TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 26 (13%)",
-      "UNC – Lapsed R — 18 (9%)",
-      "Mixed – Active — 15 (8%)",
-      "Mixed – Lapsed — 14 (7%)",
-      "UNC – No Primary — 90 (47%)",
+      "Pure R — 27 (14%)",
+      "UNC – Lapsed R — 18 (10%)",
+      "Mixed – Active — 16 (8%)",
+      "Mixed – Lapsed — 9 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 3 (2%)",
+      "UNC – No Primary — 86 (46%)",
       "UNC – Lapsed D — 23 (12%)",
       "Pure D — 7 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          26,
+          27,
           18,
-          15,
-          14,
-          90,
+          16,
+          9,
+          0,
+          3,
+          86,
           23,
           7
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BROWN TOWNSHIP (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

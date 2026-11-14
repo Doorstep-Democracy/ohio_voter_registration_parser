@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,695",
-      "Mixed – Active — 1,104",
-      "Mixed – Lapsed — 3,087",
-      "UNC – No Primary — 6,900",
-      "UNC – Lapsed D — 1,684"
+      "UNC – Lapsed R — 2,674",
+      "Mixed – Active — 1,264",
+      "Mixed – Lapsed — 634",
+      "UNC – Non-partisan Ballot — 2,150",
+      "UNC – No Primary — 7,173",
+      "UNC – Lapsed D — 1,612"
     ],
     "datasets": [
       {
         "data": [
-          2695,
-          1104,
-          3087,
-          6900,
-          1684
+          2674,
+          1264,
+          634,
+          2150,
+          7173,
+          1612
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PARIS TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT TWIN TWP WEST-N",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          17,
+          16,
           21,
-          14,
+          13,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          9,
+          8,
           5,
           4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,8 +97,8 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          31,
-          22,
+          34,
+          23,
           28,
           36
         ],

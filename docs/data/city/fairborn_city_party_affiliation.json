@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,394 (11%)",
-      "UNC – Lapsed R — 2,693 (12%)",
-      "Mixed – Active — 1,190 (5%)",
-      "Mixed – Lapsed — 1,580 (7%)",
-      "UNC – No Primary — 11,281 (50%)",
-      "UNC – Lapsed D — 2,407 (11%)",
-      "Pure D — 978 (4%)"
+      "Pure R — 2,283 (10%)",
+      "UNC – Lapsed R — 2,777 (12%)",
+      "Mixed – Active — 1,227 (5%)",
+      "Mixed – Lapsed — 909 (4%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 642 (3%)",
+      "UNC – No Primary — 11,232 (49%)",
+      "UNC – Lapsed D — 2,282 (10%)",
+      "Pure D — 1,383 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2394,
-          2693,
-          1190,
-          1580,
-          11281,
-          2407,
-          978
+          2283,
+          2777,
+          1227,
+          909,
+          41,
+          642,
+          11232,
+          2282,
+          1383
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "FAIRBORN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

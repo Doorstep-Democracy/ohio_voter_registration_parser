@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 931 (6%)",
-      "UNC – Lapsed R — 997 (6%)",
-      "Mixed – Active — 620 (4%)",
-      "Mixed – Lapsed — 836 (5%)",
-      "UNC – No Primary — 8,534 (51%)",
-      "UNC – Lapsed D — 3,346 (20%)",
-      "Pure D — 1,464 (9%)"
+      "Pure R — 977 (6%)",
+      "UNC – Lapsed R — 964 (6%)",
+      "Mixed – Active — 700 (4%)",
+      "Mixed – Lapsed — 372 (2%)",
+      "Minor Party — 33 (0%)",
+      "UNC – Non-partisan Ballot — 352 (2%)",
+      "UNC – No Primary — 8,604 (50%)",
+      "UNC – Lapsed D — 2,729 (16%)",
+      "Pure D — 2,465 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          931,
-          997,
-          620,
-          836,
-          8534,
-          3346,
-          1464
+          977,
+          964,
+          700,
+          372,
+          33,
+          352,
+          8604,
+          2729,
+          2465
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MT HEALTHY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

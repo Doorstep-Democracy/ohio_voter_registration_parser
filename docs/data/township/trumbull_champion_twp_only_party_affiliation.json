@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 831 (13%)",
-      "UNC – Lapsed R — 454 (7%)",
-      "Mixed – Active — 850 (13%)",
-      "Mixed – Lapsed — 546 (9%)",
-      "UNC – No Primary — 2,036 (32%)",
-      "UNC – Lapsed D — 944 (15%)",
-      "Pure D — 729 (11%)"
+      "Pure R — 844 (13%)",
+      "UNC – Lapsed R — 509 (8%)",
+      "Mixed – Active — 860 (13%)",
+      "Mixed – Lapsed — 249 (4%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 286 (4%)",
+      "UNC – No Primary — 2,003 (31%)",
+      "UNC – Lapsed D — 906 (14%)",
+      "Pure D — 760 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          831,
-          454,
-          850,
-          546,
-          2036,
-          944,
-          729
+          844,
+          509,
+          860,
+          249,
+          11,
+          286,
+          2003,
+          906,
+          760
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CHAMPION TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

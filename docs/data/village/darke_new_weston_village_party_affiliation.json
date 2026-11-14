@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 18 (24%)",
-      "UNC – Lapsed R — 5 (7%)",
+      "Pure R — 14 (18%)",
+      "UNC – Lapsed R — 9 (12%)",
       "Mixed – Active — 7 (9%)",
       "Mixed – Lapsed — 2 (3%)",
-      "UNC – No Primary — 38 (51%)",
-      "UNC – Lapsed D — 2 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 40 (53%)",
+      "UNC – Lapsed D — 1 (1%)",
       "Pure D — 2 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          18,
-          5,
+          14,
+          9,
           7,
           2,
-          38,
-          2,
+          0,
+          1,
+          40,
+          1,
           2
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW WESTON VILLAGE (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

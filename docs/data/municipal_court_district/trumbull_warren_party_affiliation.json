@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,980 (7%)",
-      "UNC – Lapsed R — 2,038 (5%)",
-      "Mixed – Active — 4,635 (11%)",
-      "Mixed – Lapsed — 2,286 (5%)",
-      "UNC – No Primary — 17,780 (41%)",
-      "UNC – Lapsed D — 6,952 (16%)",
-      "Pure D — 7,127 (16%)"
+      "Pure R — 2,902 (7%)",
+      "UNC – Lapsed R — 2,314 (5%)",
+      "Mixed – Active — 4,543 (10%)",
+      "Mixed – Lapsed — 1,555 (4%)",
+      "Minor Party — 57 (0%)",
+      "UNC – Non-partisan Ballot — 977 (2%)",
+      "UNC – No Primary — 17,883 (41%)",
+      "UNC – Lapsed D — 7,744 (18%)",
+      "Pure D — 6,144 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          2980,
-          2038,
-          4635,
-          2286,
-          17780,
-          6952,
-          7127
+          2902,
+          2314,
+          4543,
+          1555,
+          57,
+          977,
+          17883,
+          7744,
+          6144
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "WARREN (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

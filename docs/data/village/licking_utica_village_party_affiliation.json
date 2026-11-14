@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 250 (20%)",
-      "UNC – Lapsed R — 110 (9%)",
-      "Mixed – Active — 97 (8%)",
-      "Mixed – Lapsed — 99 (8%)",
-      "UNC – No Primary — 546 (44%)",
-      "UNC – Lapsed D — 91 (7%)",
-      "Pure D — 47 (4%)"
+      "Pure R — 231 (18%)",
+      "UNC – Lapsed R — 122 (10%)",
+      "Mixed – Active — 106 (8%)",
+      "Mixed – Lapsed — 41 (3%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 55 (4%)",
+      "UNC – No Primary — 567 (45%)",
+      "UNC – Lapsed D — 89 (7%)",
+      "Pure D — 52 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          250,
-          110,
-          97,
-          99,
-          546,
-          91,
-          47
+          231,
+          122,
+          106,
+          41,
+          6,
+          55,
+          567,
+          89,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "UTICA VILLAGE (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 369",
-      "Mixed – Active — 875",
-      "Mixed – Lapsed — 449",
-      "UNC – No Primary — 3,308",
-      "UNC – Lapsed D — 1,690"
+      "UNC – Lapsed R — 375",
+      "Mixed – Active — 957",
+      "Mixed – Lapsed — 311",
+      "UNC – Non-partisan Ballot — 150",
+      "UNC – No Primary — 3,273",
+      "UNC – Lapsed D — 1,506"
     ],
     "datasets": [
       {
         "data": [
-          369,
-          875,
-          449,
-          3308,
-          1690
+          375,
+          957,
+          311,
+          150,
+          3273,
+          1506
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

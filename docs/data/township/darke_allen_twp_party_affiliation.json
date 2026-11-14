@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 180 (27%)",
-      "UNC – Lapsed R — 84 (13%)",
-      "Mixed – Active — 54 (8%)",
-      "Mixed – Lapsed — 41 (6%)",
-      "UNC – No Primary — 258 (39%)",
-      "UNC – Lapsed D — 35 (5%)",
-      "Pure D — 13 (2%)"
+      "Pure R — 125 (19%)",
+      "UNC – Lapsed R — 148 (22%)",
+      "Mixed – Active — 45 (7%)",
+      "Mixed – Lapsed — 27 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 21 (3%)",
+      "UNC – No Primary — 261 (39%)",
+      "UNC – Lapsed D — 33 (5%)",
+      "Pure D — 11 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          180,
-          84,
-          54,
-          41,
-          258,
-          35,
-          13
+          125,
+          148,
+          45,
+          27,
+          0,
+          21,
+          261,
+          33,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ALLEN TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

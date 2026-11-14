@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 901 (22%)",
-      "UNC – Lapsed R — 590 (14%)",
-      "Mixed – Active — 296 (7%)",
-      "Mixed – Lapsed — 366 (9%)",
-      "UNC – No Primary — 1,517 (37%)",
-      "UNC – Lapsed D — 251 (6%)",
-      "Pure D — 186 (5%)"
+      "Pure R — 889 (21%)",
+      "UNC – Lapsed R — 595 (14%)",
+      "Mixed – Active — 293 (7%)",
+      "Mixed – Lapsed — 122 (3%)",
+      "Minor Party — 16 (0%)",
+      "UNC – Non-partisan Ballot — 246 (6%)",
+      "UNC – No Primary — 1,556 (37%)",
+      "UNC – Lapsed D — 253 (6%)",
+      "Pure D — 186 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          901,
-          590,
-          296,
-          366,
-          1517,
-          251,
+          889,
+          595,
+          293,
+          122,
+          16,
+          246,
+          1556,
+          253,
           186
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "UPPER SANDUSKY CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

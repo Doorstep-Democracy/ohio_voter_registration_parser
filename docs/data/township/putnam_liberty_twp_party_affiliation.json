@@ -4,22 +4,26 @@
   "chartConfig": {
     "labels": [
       "Pure R — 317 (28%)",
-      "UNC – Lapsed R — 195 (17%)",
-      "Mixed – Active — 148 (13%)",
-      "Mixed – Lapsed — 62 (5%)",
-      "UNC – No Primary — 345 (30%)",
-      "UNC – Lapsed D — 51 (4%)",
+      "UNC – Lapsed R — 197 (17%)",
+      "Mixed – Active — 147 (13%)",
+      "Mixed – Lapsed — 51 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 11 (1%)",
+      "UNC – No Primary — 347 (30%)",
+      "UNC – Lapsed D — 49 (4%)",
       "Pure D — 31 (3%)"
     ],
     "datasets": [
       {
         "data": [
           317,
-          195,
-          148,
-          62,
-          345,
+          197,
+          147,
           51,
+          1,
+          11,
+          347,
+          49,
           31
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 360 (16%)",
-      "UNC – Lapsed R — 233 (10%)",
-      "Mixed – Active — 222 (10%)",
-      "Mixed – Lapsed — 143 (6%)",
-      "UNC – No Primary — 882 (39%)",
-      "UNC – Lapsed D — 249 (11%)",
-      "Pure D — 158 (7%)"
+      "UNC – Lapsed R — 227 (10%)",
+      "Mixed – Active — 221 (10%)",
+      "Mixed – Lapsed — 113 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 35 (2%)",
+      "UNC – No Primary — 897 (40%)",
+      "UNC – Lapsed D — 245 (11%)",
+      "Pure D — 157 (7%)"
     ],
     "datasets": [
       {
         "data": [
           360,
-          233,
-          222,
-          143,
-          882,
-          249,
-          158
+          227,
+          221,
+          113,
+          2,
+          35,
+          897,
+          245,
+          157
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Clay Local Sd (Scioto Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

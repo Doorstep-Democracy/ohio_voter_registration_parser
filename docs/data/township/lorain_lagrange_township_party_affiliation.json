@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 580 (13%)",
-      "UNC – Lapsed R — 477 (11%)",
-      "Mixed – Active — 430 (10%)",
-      "Mixed – Lapsed — 510 (11%)",
-      "UNC – No Primary — 1,689 (38%)",
-      "UNC – Lapsed D — 587 (13%)",
-      "Pure D — 215 (5%)"
+      "Pure R — 557 (12%)",
+      "UNC – Lapsed R — 534 (12%)",
+      "Mixed – Active — 455 (10%)",
+      "Mixed – Lapsed — 228 (5%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 286 (6%)",
+      "UNC – No Primary — 1,652 (36%)",
+      "UNC – Lapsed D — 534 (12%)",
+      "Pure D — 280 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          580,
-          477,
-          430,
-          510,
-          1689,
-          587,
-          215
+          557,
+          534,
+          455,
+          228,
+          5,
+          286,
+          1652,
+          534,
+          280
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LAGRANGE TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

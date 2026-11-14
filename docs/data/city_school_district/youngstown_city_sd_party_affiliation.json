@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 636 (2%)",
-      "UNC – Lapsed R — 639 (2%)",
-      "Mixed – Active — 1,974 (6%)",
-      "Mixed – Lapsed — 1,028 (3%)",
-      "UNC – No Primary — 18,182 (51%)",
-      "UNC – Lapsed D — 7,612 (21%)",
-      "Pure D — 5,661 (16%)"
+      "Pure R — 624 (2%)",
+      "UNC – Lapsed R — 731 (2%)",
+      "Mixed – Active — 1,954 (5%)",
+      "Mixed – Lapsed — 962 (3%)",
+      "Minor Party — 37 (0%)",
+      "UNC – Non-partisan Ballot — 181 (0%)",
+      "UNC – No Primary — 19,017 (52%)",
+      "UNC – Lapsed D — 7,333 (20%)",
+      "Pure D — 6,054 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          636,
-          639,
-          1974,
-          1028,
-          18182,
-          7612,
-          5661
+          624,
+          731,
+          1954,
+          962,
+          37,
+          181,
+          19017,
+          7333,
+          6054
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "YOUNGSTOWN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

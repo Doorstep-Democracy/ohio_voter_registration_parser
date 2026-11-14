@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 35 (8%)",
-      "UNC – Lapsed R — 47 (10%)",
-      "Mixed – Active — 48 (11%)",
-      "Mixed – Lapsed — 54 (12%)",
-      "UNC – No Primary — 177 (39%)",
-      "UNC – Lapsed D — 69 (15%)",
-      "Pure D — 27 (6%)"
+      "Pure R — 39 (9%)",
+      "UNC – Lapsed R — 45 (10%)",
+      "Mixed – Active — 44 (10%)",
+      "Mixed – Lapsed — 29 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 29 (6%)",
+      "UNC – No Primary — 175 (38%)",
+      "UNC – Lapsed D — 60 (13%)",
+      "Pure D — 35 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          35,
-          47,
-          48,
-          54,
-          177,
-          69,
-          27
+          39,
+          45,
+          44,
+          29,
+          0,
+          29,
+          175,
+          60,
+          35
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLAY TOWNSHIP (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

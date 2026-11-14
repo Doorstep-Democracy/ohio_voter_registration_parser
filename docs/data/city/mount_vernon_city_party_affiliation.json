@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,829 (18%)",
-      "UNC – Lapsed R — 1,109 (11%)",
-      "Mixed – Active — 684 (7%)",
-      "Mixed – Lapsed — 702 (7%)",
-      "UNC – No Primary — 4,679 (45%)",
-      "UNC – Lapsed D — 913 (9%)",
-      "Pure D — 484 (5%)"
+      "Pure R — 1,873 (18%)",
+      "UNC – Lapsed R — 1,142 (11%)",
+      "Mixed – Active — 749 (7%)",
+      "Mixed – Lapsed — 325 (3%)",
+      "Minor Party — 16 (0%)",
+      "UNC – Non-partisan Ballot — 333 (3%)",
+      "UNC – No Primary — 4,589 (44%)",
+      "UNC – Lapsed D — 756 (7%)",
+      "Pure D — 738 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1829,
-          1109,
-          684,
-          702,
-          4679,
-          913,
-          484
+          1873,
+          1142,
+          749,
+          325,
+          16,
+          333,
+          4589,
+          756,
+          738
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MOUNT VERNON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

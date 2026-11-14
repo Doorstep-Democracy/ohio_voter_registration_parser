@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,159 (16%)",
-      "UNC – Lapsed R — 555 (8%)",
-      "Mixed – Active — 804 (11%)",
-      "Mixed – Lapsed — 543 (7%)",
-      "UNC – No Primary — 3,148 (43%)",
-      "UNC – Lapsed D — 805 (11%)",
-      "Pure D — 345 (5%)"
+      "Pure R — 1,070 (15%)",
+      "UNC – Lapsed R — 645 (9%)",
+      "Mixed – Active — 786 (11%)",
+      "Mixed – Lapsed — 358 (5%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 206 (3%)",
+      "UNC – No Primary — 3,125 (42%)",
+      "UNC – Lapsed D — 752 (10%)",
+      "Pure D — 430 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1159,
-          555,
-          804,
-          543,
-          3148,
-          805,
-          345
+          1070,
+          645,
+          786,
+          358,
+          7,
+          206,
+          3125,
+          752,
+          430
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SALEM CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "NELSONVILLE 4",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -21,7 +21,7 @@
           1,
           7,
           11,
-          3,
+          1,
           2
         ],
         "backgroundColor": "#ef4444",
@@ -33,7 +33,7 @@
         "data": [
           3,
           9,
-          12,
+          14,
           12,
           2
         ],
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          10,
-          10,
+          9,
+          12,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           4,
           32,
-          50,
-          126,
-          196
+          49,
+          125,
+          204
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          10,
-          27,
+          9,
+          26,
           32,
-          16,
-          7
+          15,
+          4
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

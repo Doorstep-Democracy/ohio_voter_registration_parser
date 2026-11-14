@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 58 (14%)",
-      "UNC – Lapsed R — 43 (10%)",
-      "Mixed – Active — 60 (14%)",
-      "Mixed – Lapsed — 52 (12%)",
-      "UNC – No Primary — 109 (25%)",
-      "UNC – Lapsed D — 73 (17%)",
-      "Pure D — 34 (8%)"
+      "Pure R — 60 (14%)",
+      "UNC – Lapsed R — 44 (10%)",
+      "Mixed – Active — 56 (13%)",
+      "Mixed – Lapsed — 30 (7%)",
+      "Minor Party — 3 (1%)",
+      "UNC – Non-partisan Ballot — 23 (5%)",
+      "UNC – No Primary — 104 (24%)",
+      "UNC – Lapsed D — 72 (17%)",
+      "Pure D — 39 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          58,
-          43,
           60,
-          52,
-          109,
-          73,
-          34
+          44,
+          56,
+          30,
+          3,
+          23,
+          104,
+          72,
+          39
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BAY VIEW VILLAGE (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

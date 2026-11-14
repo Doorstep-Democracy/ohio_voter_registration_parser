@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,070 (23%)",
-      "UNC – Lapsed R — 493 (10%)",
-      "Mixed – Active — 345 (7%)",
-      "Mixed – Lapsed — 278 (6%)",
-      "UNC – No Primary — 2,073 (44%)",
-      "UNC – Lapsed D — 331 (7%)",
-      "Pure D — 127 (3%)"
+      "Pure R — 1,004 (21%)",
+      "UNC – Lapsed R — 547 (12%)",
+      "Mixed – Active — 336 (7%)",
+      "Mixed – Lapsed — 190 (4%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 101 (2%)",
+      "UNC – No Primary — 2,089 (44%)",
+      "UNC – Lapsed D — 329 (7%)",
+      "Pure D — 143 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1070,
-          493,
-          345,
-          278,
-          2073,
-          331,
-          127
+          1004,
+          547,
+          336,
+          190,
+          9,
+          101,
+          2089,
+          329,
+          143
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

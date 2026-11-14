@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 540",
-      "Mixed – Active — 312",
-      "Mixed – Lapsed — 274",
-      "UNC – No Primary — 1,112",
-      "UNC – Lapsed D — 248"
+      "UNC – Lapsed R — 604",
+      "Mixed – Active — 309",
+      "Mixed – Lapsed — 163",
+      "UNC – Non-partisan Ballot — 119",
+      "UNC – No Primary — 1,075",
+      "UNC – Lapsed D — 240"
     ],
     "datasets": [
       {
         "data": [
-          540,
-          312,
-          274,
-          1112,
-          248
+          604,
+          309,
+          163,
+          119,
+          1075,
+          240
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARLEM TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

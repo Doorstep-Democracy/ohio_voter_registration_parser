@@ -4,7 +4,7 @@
   "precinct": "PRECINCT HOLLOWAY VILLAGE",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -21,7 +21,7 @@
           0,
           8,
           8,
-          7,
+          6,
           3
         ],
         "backgroundColor": "#ef4444",
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
           0,
           5,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,7 +98,7 @@
         "data": [
           0,
           15,
-          21,
+          23,
           27,
           18
         ],

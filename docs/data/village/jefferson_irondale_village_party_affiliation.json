@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 11 (6%)",
-      "UNC – Lapsed R — 7 (4%)",
-      "Mixed – Active — 14 (7%)",
-      "Mixed – Lapsed — 21 (10%)",
-      "UNC – No Primary — 99 (50%)",
+      "Pure R — 10 (5%)",
+      "UNC – Lapsed R — 9 (4%)",
+      "Mixed – Active — 16 (8%)",
+      "Mixed – Lapsed — 16 (8%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (2%)",
+      "UNC – No Primary — 100 (49%)",
       "UNC – Lapsed D — 26 (13%)",
-      "Pure D — 22 (11%)"
+      "Pure D — 21 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          11,
-          7,
-          14,
-          21,
-          99,
+          10,
+          9,
+          16,
+          16,
+          0,
+          5,
+          100,
           26,
-          22
+          21
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "IRONDALE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

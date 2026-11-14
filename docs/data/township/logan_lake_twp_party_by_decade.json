@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          48,
-          206,
-          333,
-          250,
-          195,
-          135,
-          78,
-          46
+          1,
+          30,
+          165,
+          286,
+          201,
+          158,
+          110,
+          59,
+          38
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          34,
-          80,
-          137,
-          182,
-          190,
-          158,
-          146,
-          18
+          43,
+          112,
+          179,
+          229,
+          223,
+          187,
+          161,
+          39
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          18,
-          94,
-          164,
-          118,
-          66,
-          46,
-          15,
-          3
+          1,
+          14,
+          84,
+          162,
+          108,
+          68,
+          41,
+          17,
+          5
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          13,
-          47,
-          66,
-          95,
-          105,
-          75,
-          34,
-          16
+          12,
+          42,
+          57,
+          59,
+          67,
+          46,
+          9,
+          1
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
-          18,
-          59,
-          186,
-          420,
-          498,
-          719,
-          1124,
-          823
+          0,
+          1,
+          1,
+          1,
+          4,
+          3,
+          3,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          5,
+          13,
+          17,
+          37,
+          45,
+          36,
+          21,
+          8
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          1,
+          16,
+          57,
+          172,
+          409,
+          487,
+          709,
+          1110,
+          854
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          20,
-          38,
-          92,
-          105,
-          108,
-          132,
-          78,
+          21,
+          37,
+          89,
+          97,
+          96,
+          121,
+          68,
           5
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          4,
+          2,
+          30,
+          48,
+          39,
           31,
-          46,
-          22,
-          16,
-          23,
-          10,
-          8
+          36,
+          31,
+          32
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LAKE TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 274 (10%)",
-      "UNC – Lapsed R — 216 (8%)",
-      "Mixed – Active — 145 (5%)",
-      "Mixed – Lapsed — 265 (9%)",
-      "UNC – No Primary — 1,121 (40%)",
-      "UNC – Lapsed D — 525 (19%)",
-      "Pure D — 265 (9%)"
+      "Pure R — 276 (10%)",
+      "UNC – Lapsed R — 226 (8%)",
+      "Mixed – Active — 174 (6%)",
+      "Mixed – Lapsed — 96 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 137 (5%)",
+      "UNC – No Primary — 1,105 (39%)",
+      "UNC – Lapsed D — 415 (15%)",
+      "Pure D — 419 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          274,
-          216,
-          145,
-          265,
-          1121,
-          525,
-          265
+          276,
+          226,
+          174,
+          96,
+          3,
+          137,
+          1105,
+          415,
+          419
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TWINSBURG TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

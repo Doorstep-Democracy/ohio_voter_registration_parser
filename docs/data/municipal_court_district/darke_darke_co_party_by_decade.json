@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          8,
-          276,
-          1032,
-          1856,
-          1787,
-          1348,
-          1181,
-          712,
-          392
+          6,
+          195,
+          833,
+          1612,
+          1461,
+          910,
+          772,
+          453,
+          347
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          14,
-          154,
-          404,
-          610,
-          956,
-          816,
-          713,
-          571,
-          85
+          13,
+          199,
+          567,
+          856,
+          1287,
+          1265,
+          1139,
+          858,
+          194
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          13,
-          150,
-          684,
-          997,
-          678,
-          443,
-          233,
+          6,
+          122,
+          569,
+          915,
+          573,
+          329,
+          181,
           44,
-          4
+          7
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          9,
-          91,
-          256,
-          405,
-          482,
-          308,
-          235,
-          109,
-          46
+          11,
+          94,
+          320,
+          401,
+          474,
+          325,
+          200,
+          35,
+          2
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
+          0,
+          6,
+          10,
+          14,
           7,
-          60,
-          337,
-          842,
-          1314,
-          1653,
-          2185,
-          3115,
-          3230
+          11,
+          2,
+          6
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          12,
+          36,
+          82,
+          118,
+          100,
+          98,
+          75,
+          36
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          7,
+          51,
+          322,
+          802,
+          1285,
+          1626,
+          2160,
+          3102,
+          3384
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           9,
-          103,
-          238,
-          371,
-          372,
-          281,
-          269,
-          131,
-          16
+          90,
+          239,
+          360,
+          350,
+          279,
+          249,
+          141,
+          31
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          3,
-          42,
-          193,
-          252,
-          104,
-          78,
-          54,
-          45,
-          32
+          1,
+          36,
+          173,
+          256,
+          126,
+          86,
+          85,
+          59,
+          46
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "DARKE-CO (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

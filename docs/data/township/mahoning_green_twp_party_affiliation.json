@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 378 (17%)",
-      "UNC – Lapsed R — 215 (9%)",
-      "Mixed – Active — 359 (16%)",
-      "Mixed – Lapsed — 198 (9%)",
-      "UNC – No Primary — 723 (32%)",
-      "UNC – Lapsed D — 276 (12%)",
-      "Pure D — 122 (5%)"
+      "Pure R — 367 (16%)",
+      "UNC – Lapsed R — 246 (11%)",
+      "Mixed – Active — 371 (16%)",
+      "Mixed – Lapsed — 148 (6%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 58 (3%)",
+      "UNC – No Primary — 696 (30%)",
+      "UNC – Lapsed D — 231 (10%)",
+      "Pure D — 165 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          378,
-          215,
-          359,
-          198,
-          723,
-          276,
-          122
+          367,
+          246,
+          371,
+          148,
+          3,
+          58,
+          696,
+          231,
+          165
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREEN TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 182 (16%)",
-      "UNC – Lapsed R — 161 (14%)",
-      "Mixed – Active — 77 (7%)",
-      "Mixed – Lapsed — 66 (6%)",
-      "UNC – No Primary — 493 (44%)",
-      "UNC – Lapsed D — 97 (9%)",
-      "Pure D — 43 (4%)"
+      "Pure R — 168 (15%)",
+      "UNC – Lapsed R — 181 (16%)",
+      "Mixed – Active — 62 (5%)",
+      "Mixed – Lapsed — 63 (6%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 16 (1%)",
+      "UNC – No Primary — 502 (44%)",
+      "UNC – Lapsed D — 102 (9%)",
+      "Pure D — 42 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          182,
-          161,
-          77,
-          66,
-          493,
-          97,
-          43
+          168,
+          181,
+          62,
+          63,
+          1,
+          16,
+          502,
+          102,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

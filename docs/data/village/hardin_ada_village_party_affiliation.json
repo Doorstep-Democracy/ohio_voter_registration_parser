@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 386 (18%)",
-      "UNC – Lapsed R — 234 (11%)",
-      "Mixed – Active — 133 (6%)",
-      "Mixed – Lapsed — 116 (5%)",
-      "UNC – No Primary — 1,033 (48%)",
-      "UNC – Lapsed D — 152 (7%)",
-      "Pure D — 99 (5%)"
+      "Pure R — 361 (16%)",
+      "UNC – Lapsed R — 272 (12%)",
+      "Mixed – Active — 115 (5%)",
+      "Mixed – Lapsed — 81 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 43 (2%)",
+      "UNC – No Primary — 1,053 (48%)",
+      "UNC – Lapsed D — 156 (7%)",
+      "Pure D — 106 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          386,
-          234,
-          133,
-          116,
-          1033,
-          152,
-          99
+          361,
+          272,
+          115,
+          81,
+          6,
+          43,
+          1053,
+          156,
+          106
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ADA VILLAGE (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

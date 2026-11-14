@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,128 (20%)",
-      "UNC – Lapsed R — 946 (17%)",
-      "Mixed – Active — 310 (6%)",
-      "Mixed – Lapsed — 546 (10%)",
-      "UNC – No Primary — 2,170 (39%)",
-      "UNC – Lapsed D — 369 (7%)",
-      "Pure D — 149 (3%)"
+      "Pure R — 1,224 (21%)",
+      "UNC – Lapsed R — 970 (16%)",
+      "Mixed – Active — 352 (6%)",
+      "Mixed – Lapsed — 233 (4%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 329 (6%)",
+      "UNC – No Primary — 2,225 (38%)",
+      "UNC – Lapsed D — 383 (6%)",
+      "Pure D — 173 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1128,
-          946,
-          310,
-          546,
-          2170,
-          369,
-          149
+          1224,
+          970,
+          352,
+          233,
+          10,
+          329,
+          2225,
+          383,
+          173
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Madison Local Sd (Butler Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT FOURTH WARD A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,10 +18,10 @@
       {
         "label": "Pure R",
         "data": [
-          9,
+          8,
           50,
-          45,
-          17,
+          44,
+          16,
           11
         ],
         "backgroundColor": "#ef4444",
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
-          48,
+          8,
+          49,
           44,
-          45,
-          9
+          46,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           5,
-          15,
-          21,
+          17,
+          19,
           7,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           0,
           5,
           8,
-          8,
+          7,
           3
         ],
         "backgroundColor": "#c4b5cd",
@@ -86,8 +99,8 @@
           8,
           54,
           81,
-          159,
-          153
+          163,
+          160
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,9 +110,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          23,
+          26,
           22,
-          16,
+          15,
           4
         ],
         "backgroundColor": "#93c5fd",
@@ -111,7 +124,7 @@
         "data": [
           1,
           10,
-          10,
+          8,
           5,
           7
         ],

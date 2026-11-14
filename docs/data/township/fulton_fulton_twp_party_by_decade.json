@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          13,
-          67,
-          99,
-          80,
-          61,
-          38,
-          20,
-          9
+          9,
+          66,
+          89,
+          79,
+          47,
+          31,
+          23,
+          13
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          7,
-          13,
-          33,
-          70,
-          33,
+          10,
+          12,
+          47,
+          69,
+          45,
+          43,
           38,
-          37,
-          3
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
+          1,
           8,
-          38,
-          63,
-          54,
-          31,
-          14,
-          6,
+          36,
+          73,
+          55,
+          21,
+          12,
+          7,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          5,
-          24,
-          43,
-          55,
-          39,
-          25,
-          13,
-          3
+          1,
+          4,
+          18,
+          22,
+          30,
+          31,
+          9,
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          4,
+          12,
+          19,
+          13,
+          23,
+          8,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           6,
-          18,
-          45,
-          60,
-          86,
-          147,
-          200,
-          211
+          17,
+          42,
+          63,
+          83,
+          140,
+          193,
+          216
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          12,
-          28,
+          0,
+          11,
+          27,
           52,
-          65,
-          32,
-          30,
-          21,
-          3
+          61,
+          34,
+          27,
+          23,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          6,
-          23,
-          54,
-          24,
-          10,
-          8,
-          6,
-          3
+          4,
+          22,
+          51,
+          31,
+          12,
+          11,
+          9,
+          9
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FULTON TWP (Fulton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

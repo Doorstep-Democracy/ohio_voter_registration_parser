@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 175 (18%)",
-      "UNC – Lapsed R — 150 (16%)",
-      "Mixed – Active — 74 (8%)",
-      "Mixed – Lapsed — 71 (7%)",
-      "UNC – No Primary — 357 (37%)",
+      "Pure R — 176 (18%)",
+      "UNC – Lapsed R — 157 (16%)",
+      "Mixed – Active — 84 (9%)",
+      "Mixed – Lapsed — 40 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 24 (2%)",
+      "UNC – No Primary — 337 (35%)",
       "UNC – Lapsed D — 86 (9%)",
-      "Pure D — 52 (5%)"
+      "Pure D — 57 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          175,
-          150,
-          74,
-          71,
-          357,
+          176,
+          157,
+          84,
+          40,
+          3,
+          24,
+          337,
           86,
-          52
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "OSTRANDER VILLAGE (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

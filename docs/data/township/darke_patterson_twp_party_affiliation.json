@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 291 (33%)",
-      "UNC – Lapsed R — 111 (12%)",
-      "Mixed – Active — 103 (12%)",
-      "Mixed – Lapsed — 59 (7%)",
-      "UNC – No Primary — 293 (33%)",
-      "UNC – Lapsed D — 26 (3%)",
-      "Pure D — 7 (1%)"
+      "Pure R — 231 (26%)",
+      "UNC – Lapsed R — 170 (19%)",
+      "Mixed – Active — 94 (11%)",
+      "Mixed – Lapsed — 51 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 16 (2%)",
+      "UNC – No Primary — 297 (33%)",
+      "UNC – Lapsed D — 27 (3%)",
+      "Pure D — 5 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          291,
-          111,
-          103,
-          59,
-          293,
-          26,
-          7
+          231,
+          170,
+          94,
+          51,
+          0,
+          16,
+          297,
+          27,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PATTERSON TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

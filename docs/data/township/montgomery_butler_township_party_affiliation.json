@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,233 (20%)",
-      "UNC – Lapsed R — 780 (12%)",
-      "Mixed – Active — 536 (9%)",
-      "Mixed – Lapsed — 535 (9%)",
-      "UNC – No Primary — 2,150 (34%)",
-      "UNC – Lapsed D — 691 (11%)",
-      "Pure D — 368 (6%)"
+      "Pure R — 1,224 (19%)",
+      "UNC – Lapsed R — 819 (13%)",
+      "Mixed – Active — 530 (8%)",
+      "Mixed – Lapsed — 278 (4%)",
+      "Minor Party — 31 (0%)",
+      "UNC – Non-partisan Ballot — 231 (4%)",
+      "UNC – No Primary — 2,170 (34%)",
+      "UNC – Lapsed D — 647 (10%)",
+      "Pure D — 465 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1233,
-          780,
-          536,
-          535,
-          2150,
-          691,
-          368
+          1224,
+          819,
+          530,
+          278,
+          31,
+          231,
+          2170,
+          647,
+          465
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BUTLER TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

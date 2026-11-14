@@ -4,7 +4,7 @@
   "precinct": "LOUISVILLE A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,9 +19,9 @@
         "label": "Pure R",
         "data": [
           17,
+          51,
           53,
-          53,
-          34,
+          33,
           10
         ],
         "backgroundColor": "#ef4444",
@@ -31,9 +31,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
+          2,
           18,
-          40,
+          39,
           17,
           12
         ],
@@ -44,9 +44,9 @@
       {
         "label": "Mixed – Active",
         "data": [
-          6,
+          5,
           50,
-          37,
+          36,
           23,
           1
         ],
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           2,
-          27,
-          22,
+          28,
+          23,
           8
         ],
         "backgroundColor": "#c4b5cd",
@@ -86,8 +99,8 @@
           0,
           21,
           32,
-          80,
-          86
+          81,
+          93
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           12,
+          26,
+          30,
           25,
-          31,
-          25,
-          8
+          6
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          5,
+          6,
           31,
           19,
-          14,
+          13,
           7
         ],
         "backgroundColor": "#3b82f6",

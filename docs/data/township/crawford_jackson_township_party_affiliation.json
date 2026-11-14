@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 42 (15%)",
-      "UNC – Lapsed R — 24 (9%)",
-      "Mixed – Active — 22 (8%)",
-      "Mixed – Lapsed — 22 (8%)",
-      "UNC – No Primary — 126 (46%)",
-      "UNC – Lapsed D — 22 (8%)",
-      "Pure D — 14 (5%)"
+      "Pure R — 34 (13%)",
+      "UNC – Lapsed R — 34 (13%)",
+      "Mixed – Active — 17 (6%)",
+      "Mixed – Lapsed — 12 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 15 (6%)",
+      "UNC – No Primary — 120 (45%)",
+      "UNC – Lapsed D — 24 (9%)",
+      "Pure D — 13 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          42,
+          34,
+          34,
+          17,
+          12,
+          0,
+          15,
+          120,
           24,
-          22,
-          22,
-          126,
-          22,
-          14
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

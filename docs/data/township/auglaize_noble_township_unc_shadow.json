@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 248",
-      "Mixed – Active — 126",
-      "Mixed – Lapsed — 155",
-      "UNC – No Primary — 372",
-      "UNC – Lapsed D — 69"
+      "UNC – Lapsed R — 254",
+      "Mixed – Active — 140",
+      "Mixed – Lapsed — 56",
+      "UNC – Non-partisan Ballot — 79",
+      "UNC – No Primary — 368",
+      "UNC – Lapsed D — 65"
     ],
     "datasets": [
       {
         "data": [
-          248,
-          126,
-          155,
-          372,
-          69
+          254,
+          140,
+          56,
+          79,
+          368,
+          65
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NOBLE TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 753",
-      "Mixed – Active — 759",
-      "Mixed – Lapsed — 485",
-      "UNC – No Primary — 2,046",
-      "UNC – Lapsed D — 592"
+      "UNC – Lapsed R — 771",
+      "Mixed – Active — 754",
+      "Mixed – Lapsed — 212",
+      "UNC – Non-partisan Ballot — 266",
+      "UNC – No Primary — 2,115",
+      "UNC – Lapsed D — 593"
     ],
     "datasets": [
       {
         "data": [
-          753,
-          759,
-          485,
-          2046,
-          592
+          771,
+          754,
+          212,
+          266,
+          2115,
+          593
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Otsego Local Sd (Wood Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

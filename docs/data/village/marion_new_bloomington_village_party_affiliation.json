@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 19 (11%)",
-      "UNC – Lapsed R — 17 (10%)",
-      "Mixed – Active — 6 (3%)",
-      "Mixed – Lapsed — 14 (8%)",
-      "UNC – No Primary — 98 (56%)",
-      "UNC – Lapsed D — 17 (10%)",
+      "Pure R — 16 (9%)",
+      "UNC – Lapsed R — 19 (11%)",
+      "Mixed – Active — 4 (2%)",
+      "Mixed – Lapsed — 8 (5%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 7 (4%)",
+      "UNC – No Primary — 95 (56%)",
+      "UNC – Lapsed D — 16 (9%)",
       "Pure D — 5 (3%)"
     ],
     "datasets": [
       {
         "data": [
+          16,
           19,
-          17,
-          6,
-          14,
-          98,
-          17,
+          4,
+          8,
+          1,
+          7,
+          95,
+          16,
           5
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW BLOOMINGTON VILLAGE (Marion Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "COLS 22-G",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -21,7 +21,7 @@
           7,
           29,
           11,
-          7,
+          6,
           0
         ],
         "backgroundColor": "#ef4444",
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          3,
           18,
-          21,
-          25,
-          0
+          22,
+          22,
+          1
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -47,8 +47,8 @@
           9,
           31,
           23,
-          17,
-          3
+          18,
+          4
         ],
         "backgroundColor": "#f59e0b",
         "borderRadius": 2,
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          11,
-          21,
+          14,
+          22,
           9,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           1,
           16,
-          33,
-          111,
-          67
+          32,
+          112,
+          72
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
-          31,
-          46,
+          1,
+          34,
+          44,
           59,
-          10
+          11
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           9,
-          87,
-          80,
-          76,
-          22
+          86,
+          79,
+          74,
+          20
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 906 (28%)",
-      "UNC – Lapsed R — 262 (8%)",
-      "Mixed – Active — 324 (10%)",
-      "Mixed – Lapsed — 102 (3%)",
-      "UNC – No Primary — 1,335 (41%)",
-      "UNC – Lapsed D — 208 (6%)",
-      "Pure D — 155 (5%)"
+      "Pure R — 920 (28%)",
+      "UNC – Lapsed R — 250 (8%)",
+      "Mixed – Active — 340 (10%)",
+      "Mixed – Lapsed — 83 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 19 (1%)",
+      "UNC – No Primary — 1,319 (40%)",
+      "UNC – Lapsed D — 207 (6%)",
+      "Pure D — 171 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          906,
-          262,
-          324,
-          102,
-          1335,
-          208,
-          155
+          920,
+          250,
+          340,
+          83,
+          4,
+          19,
+          1319,
+          207,
+          171
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TIFFIN TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

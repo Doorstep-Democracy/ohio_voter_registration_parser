@@ -4,7 +4,7 @@
   "precinct": "CHESHIRE TWP",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           10,
-          62,
+          61,
           25,
           21,
           7
@@ -33,7 +33,7 @@
         "data": [
           3,
           42,
-          21,
+          22,
           22,
           4
         ],
@@ -44,9 +44,9 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
+          2,
           21,
-          16,
+          15,
           6,
           0
         ],
@@ -64,6 +64,19 @@
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -86,8 +99,8 @@
           5,
           36,
           45,
-          60,
-          65
+          62,
+          68
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

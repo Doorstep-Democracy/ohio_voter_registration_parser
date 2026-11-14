@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,203 (22%)",
-      "UNC – Lapsed R — 1,534 (16%)",
-      "Mixed – Active — 708 (7%)",
-      "Mixed – Lapsed — 999 (10%)",
-      "UNC – No Primary — 3,159 (32%)",
-      "UNC – Lapsed D — 655 (7%)",
-      "Pure D — 559 (6%)"
+      "Pure R — 2,179 (22%)",
+      "UNC – Lapsed R — 1,624 (16%)",
+      "Mixed – Active — 706 (7%)",
+      "Mixed – Lapsed — 347 (3%)",
+      "Minor Party — 23 (0%)",
+      "UNC – Non-partisan Ballot — 673 (7%)",
+      "UNC – No Primary — 3,342 (33%)",
+      "UNC – Lapsed D — 684 (7%)",
+      "Pure D — 554 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2203,
-          1534,
-          708,
-          999,
-          3159,
-          655,
-          559
+          2179,
+          1624,
+          706,
+          347,
+          23,
+          673,
+          3342,
+          684,
+          554
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Jonathan Alder Local Sd (Madison Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

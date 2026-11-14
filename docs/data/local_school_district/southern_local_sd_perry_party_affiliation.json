@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 436 (16%)",
-      "UNC – Lapsed R — 233 (9%)",
-      "Mixed – Active — 259 (10%)",
-      "Mixed – Lapsed — 148 (6%)",
-      "UNC – No Primary — 1,102 (41%)",
-      "UNC – Lapsed D — 331 (12%)",
-      "Pure D — 156 (6%)"
+      "Pure R — 434 (16%)",
+      "UNC – Lapsed R — 234 (9%)",
+      "Mixed – Active — 257 (10%)",
+      "Mixed – Lapsed — 84 (3%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 60 (2%)",
+      "UNC – No Primary — 1,123 (42%)",
+      "UNC – Lapsed D — 334 (12%)",
+      "Pure D — 154 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          436,
-          233,
-          259,
-          148,
-          1102,
-          331,
-          156
+          434,
+          234,
+          257,
+          84,
+          8,
+          60,
+          1123,
+          334,
+          154
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Southern Local Sd (Perry Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

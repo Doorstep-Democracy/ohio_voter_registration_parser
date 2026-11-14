@@ -3,6 +3,7 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
+      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -16,12 +17,13 @@
       {
         "label": "Pure R",
         "data": [
+          0,
           2,
           33,
           65,
-          78,
-          51,
-          28,
+          77,
+          49,
+          26,
           30,
           10
         ],
@@ -31,14 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
+          1,
           10,
-          28,
+          27,
           33,
           77,
           73,
-          62,
-          44,
-          10
+          63,
+          46,
+          11
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -46,10 +49,11 @@
       {
         "label": "Mixed – Active",
         "data": [
+          0,
           5,
           18,
           33,
-          42,
+          41,
           25,
           4,
           0,
@@ -61,29 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          14,
-          44,
-          45,
-          31,
-          17,
+          0,
           1,
-          1
+          8,
+          27,
+          27,
+          16,
+          11,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          6,
+          18,
+          20,
+          15,
+          5,
+          0,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
+          0,
           7,
           14,
-          56,
+          57,
           82,
           111,
-          152,
-          221,
-          177
+          151,
+          216,
+          182
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -91,13 +129,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          11,
+          0,
+          10,
           16,
-          26,
+          25,
           33,
           26,
           23,
-          7,
+          8,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -106,12 +145,13 @@
       {
         "label": "Pure D",
         "data": [
+          0,
           2,
           8,
           17,
           12,
           2,
-          4,
+          3,
           2,
           2
         ],
@@ -120,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "BRADFORD EX VILL SD (MIAMI)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Bradford Ex Vill Sd (Miami Co.)",
+  "updated": "2026-11-12"
 }

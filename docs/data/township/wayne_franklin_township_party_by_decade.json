@@ -18,13 +18,13 @@
         "label": "Pure R",
         "data": [
           0,
-          14,
-          64,
-          117,
-          112,
-          65,
-          37,
-          19,
+          11,
+          53,
+          106,
+          110,
+          45,
+          26,
+          15,
           13
         ],
         "backgroundColor": "#ef4444",
@@ -33,14 +33,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
+          0,
           7,
-          23,
-          57,
-          102,
-          86,
-          53,
-          26,
+          33,
+          68,
+          107,
+          106,
+          64,
+          28,
           3
         ],
         "backgroundColor": "#fca5a5",
@@ -49,14 +49,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          5,
-          37,
-          48,
-          35,
-          17,
-          7,
+          1,
           4,
+          30,
+          53,
+          33,
+          14,
+          7,
+          5,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
+          2,
+          13,
+          23,
+          24,
+          19,
+          17,
           3,
-          15,
-          50,
-          56,
-          49,
-          44,
-          12,
-          2
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          6,
+          23,
+          29,
+          32,
+          27,
+          8,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          2,
-          15,
+          1,
+          14,
           44,
-          52,
-          96,
+          55,
+          97,
           126,
-          178,
-          207
+          175,
+          231
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          2,
-          15,
+          3,
+          14,
           31,
-          17,
-          23,
-          16,
-          13,
-          1
+          14,
+          20,
+          15,
+          12,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,13 +146,13 @@
         "label": "Pure D",
         "data": [
           0,
-          5,
-          9,
+          4,
+          10,
           25,
-          5,
-          0,
+          8,
+          2,
           6,
-          3,
+          5,
           2
         ],
         "backgroundColor": "#3b82f6",
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 312 (23%)",
-      "UNC – Lapsed R — 105 (8%)",
-      "Mixed – Active — 151 (11%)",
-      "Mixed – Lapsed — 61 (5%)",
-      "UNC – No Primary — 521 (39%)",
-      "UNC – Lapsed D — 136 (10%)",
-      "Pure D — 61 (5%)"
+      "Pure R — 299 (22%)",
+      "UNC – Lapsed R — 122 (9%)",
+      "Mixed – Active — 163 (12%)",
+      "Mixed – Lapsed — 40 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 13 (1%)",
+      "UNC – No Primary — 519 (38%)",
+      "UNC – Lapsed D — 115 (8%)",
+      "Pure D — 82 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          312,
-          105,
-          151,
-          61,
-          521,
-          136,
-          61
+          299,
+          122,
+          163,
+          40,
+          1,
+          13,
+          519,
+          115,
+          82
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NEWPORT TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

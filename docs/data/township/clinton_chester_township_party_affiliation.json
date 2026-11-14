@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 412 (26%)",
-      "UNC – Lapsed R — 286 (18%)",
-      "Mixed – Active — 108 (7%)",
-      "Mixed – Lapsed — 194 (12%)",
-      "UNC – No Primary — 443 (28%)",
-      "UNC – Lapsed D — 110 (7%)",
-      "Pure D — 53 (3%)"
+      "Pure R — 376 (23%)",
+      "UNC – Lapsed R — 325 (20%)",
+      "Mixed – Active — 110 (7%)",
+      "Mixed – Lapsed — 70 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 117 (7%)",
+      "UNC – No Primary — 473 (29%)",
+      "UNC – Lapsed D — 105 (6%)",
+      "Pure D — 60 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          412,
-          286,
-          108,
-          194,
-          443,
+          376,
+          325,
           110,
-          53
+          70,
+          3,
+          117,
+          473,
+          105,
+          60
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CHESTER TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

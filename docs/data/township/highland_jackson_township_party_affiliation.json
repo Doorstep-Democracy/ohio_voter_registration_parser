@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 135 (20%)",
-      "UNC – Lapsed R — 95 (14%)",
-      "Mixed – Active — 39 (6%)",
-      "Mixed – Lapsed — 43 (6%)",
-      "UNC – No Primary — 281 (42%)",
-      "UNC – Lapsed D — 43 (6%)",
+      "Pure R — 129 (20%)",
+      "UNC – Lapsed R — 96 (15%)",
+      "Mixed – Active — 40 (6%)",
+      "Mixed – Lapsed — 36 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 6 (1%)",
+      "UNC – No Primary — 273 (42%)",
+      "UNC – Lapsed D — 46 (7%)",
       "Pure D — 26 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          135,
-          95,
-          39,
-          43,
-          281,
-          43,
+          129,
+          96,
+          40,
+          36,
+          3,
+          6,
+          273,
+          46,
           26
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

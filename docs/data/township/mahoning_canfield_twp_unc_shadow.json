@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 476",
-      "Mixed – Active — 1,419",
-      "Mixed – Lapsed — 551",
-      "UNC – No Primary — 2,251",
-      "UNC – Lapsed D — 924"
+      "UNC – Lapsed R — 761",
+      "Mixed – Active — 1,269",
+      "Mixed – Lapsed — 623",
+      "UNC – Non-partisan Ballot — 129",
+      "UNC – No Primary — 2,241",
+      "UNC – Lapsed D — 999"
     ],
     "datasets": [
       {
         "data": [
-          476,
-          1419,
-          551,
-          2251,
-          924
+          761,
+          1269,
+          623,
+          129,
+          2241,
+          999
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CANFIELD TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

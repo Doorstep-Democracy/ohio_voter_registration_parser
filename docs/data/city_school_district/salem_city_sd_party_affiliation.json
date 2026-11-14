@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,786 (17%)",
-      "UNC – Lapsed R — 848 (8%)",
-      "Mixed – Active — 1,229 (12%)",
-      "Mixed – Lapsed — 801 (8%)",
-      "UNC – No Primary — 4,238 (40%)",
-      "UNC – Lapsed D — 1,161 (11%)",
-      "Pure D — 524 (5%)"
+      "Pure R — 1,654 (16%)",
+      "UNC – Lapsed R — 975 (9%)",
+      "Mixed – Active — 1,208 (11%)",
+      "Mixed – Lapsed — 527 (5%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 293 (3%)",
+      "UNC – No Primary — 4,194 (40%)",
+      "UNC – Lapsed D — 1,082 (10%)",
+      "Pure D — 647 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1786,
-          848,
-          1229,
-          801,
-          4238,
-          1161,
-          524
+          1654,
+          975,
+          1208,
+          527,
+          14,
+          293,
+          4194,
+          1082,
+          647
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SALEM CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

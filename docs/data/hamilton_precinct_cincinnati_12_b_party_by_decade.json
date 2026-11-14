@@ -4,7 +4,7 @@
   "precinct": "CINCINNATI 12-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1950s",
@@ -34,7 +34,7 @@
           0,
           0,
           1,
-          4
+          5
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 3,
@@ -67,13 +67,26 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           0,
           1,
           2,
-          4
+          2
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 3,
@@ -83,10 +96,10 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          1,
+          2,
           5,
-          141,
-          509
+          137,
+          1178
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -98,8 +111,8 @@
           0,
           0,
           0,
-          8,
-          9
+          6,
+          24
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -112,7 +125,7 @@
           0,
           0,
           4,
-          7
+          10
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 185 (7%)",
-      "UNC – Lapsed R — 158 (6%)",
-      "Mixed – Active — 296 (10%)",
-      "Mixed – Lapsed — 143 (5%)",
-      "UNC – Non-partisan Ballot — 60 (2%)",
-      "UNC – No Primary — 849 (30%)",
-      "UNC – Lapsed D — 468 (16%)",
-      "Pure D — 687 (24%)"
+      "Pure R — 186 (7%)",
+      "UNC – Lapsed R — 160 (6%)",
+      "Mixed – Active — 288 (10%)",
+      "Mixed – Lapsed — 142 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 57 (2%)",
+      "UNC – No Primary — 867 (30%)",
+      "UNC – Lapsed D — 464 (16%)",
+      "Pure D — 689 (24%)"
     ],
     "datasets": [
       {
         "data": [
-          185,
-          158,
-          296,
-          143,
-          60,
-          849,
-          468,
-          687
+          186,
+          160,
+          288,
+          142,
+          4,
+          57,
+          867,
+          464,
+          689
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "LYNDHURST WARD 3 (LYNDHURST City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

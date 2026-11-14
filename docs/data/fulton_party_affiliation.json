@@ -3,14 +3,15 @@
   "county": "Fulton",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          5316,
-          4589,
-          2344,
-          1428,
-          1368,
-          9976,
-          2388,
-          1309
+          5274,
+          4577,
+          2333,
+          1420,
+          77,
+          1353,
+          10200,
+          2390,
+          1293
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 182,
-    "new_registrants_d": 67,
-    "new_registrants_unc": 2900
+    "new_registrants_r": 181,
+    "new_registrants_d": 64,
+    "new_registrants_unc": 3195
   }
 }

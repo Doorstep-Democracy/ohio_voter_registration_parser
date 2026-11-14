@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 480 (7%)",
-      "UNC – Lapsed R — 661 (9%)",
-      "Mixed – Active — 525 (7%)",
-      "Mixed – Lapsed — 508 (7%)",
-      "UNC – No Primary — 2,850 (40%)",
-      "UNC – Lapsed D — 1,015 (14%)",
-      "Pure D — 1,015 (14%)"
+      "Pure R — 372 (5%)",
+      "UNC – Lapsed R — 712 (10%)",
+      "Mixed – Active — 531 (7%)",
+      "Mixed – Lapsed — 284 (4%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 230 (3%)",
+      "UNC – No Primary — 2,804 (39%)",
+      "UNC – Lapsed D — 1,033 (14%)",
+      "Pure D — 1,178 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          480,
-          661,
-          525,
-          508,
-          2850,
-          1015,
-          1015
+          372,
+          712,
+          531,
+          284,
+          9,
+          230,
+          2804,
+          1033,
+          1178
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "GRANDVIEW HEIGHTS CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

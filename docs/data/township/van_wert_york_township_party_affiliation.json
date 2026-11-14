@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 165 (31%)",
-      "UNC – Lapsed R — 110 (20%)",
-      "Mixed – Active — 25 (5%)",
-      "Mixed – Lapsed — 30 (6%)",
-      "UNC – No Primary — 186 (35%)",
-      "UNC – Lapsed D — 19 (4%)",
-      "Pure D — 3 (1%)"
+      "Pure R — 159 (29%)",
+      "UNC – Lapsed R — 126 (23%)",
+      "Mixed – Active — 28 (5%)",
+      "Mixed – Lapsed — 26 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 174 (32%)",
+      "UNC – Lapsed D — 14 (3%)",
+      "Pure D — 8 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          165,
-          110,
-          25,
-          30,
-          186,
-          19,
-          3
+          159,
+          126,
+          28,
+          26,
+          0,
+          5,
+          174,
+          14,
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "YORK TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

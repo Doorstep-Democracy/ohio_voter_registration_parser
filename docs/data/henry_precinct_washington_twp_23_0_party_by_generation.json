@@ -4,7 +4,7 @@
   "precinct": "WASHINGTON TWP 23.0",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,11 +18,11 @@
       {
         "label": "Pure R",
         "data": [
-          15,
-          114,
+          14,
+          111,
           72,
           60,
-          21
+          19
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -31,9 +31,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          9,
+          8,
           62,
-          57,
+          60,
           50,
           6
         ],
@@ -57,9 +57,9 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          9,
-          14,
-          26,
+          7,
+          13,
+          27,
           9,
           0
         ],
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           3,
           10,
-          12,
-          17,
+          11,
+          18,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           7,
-          46,
-          85,
+          45,
+          89,
           137,
-          159
+          166
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          6,
-          51,
-          41,
+          5,
+          50,
+          40,
           21,
-          5
+          3
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -112,7 +125,7 @@
           5,
           36,
           11,
-          5,
+          4,
           4
         ],
         "backgroundColor": "#3b82f6",

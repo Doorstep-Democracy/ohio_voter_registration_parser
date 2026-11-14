@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          6,
-          32,
-          61,
-          64,
-          40,
-          37,
-          17,
-          12
+          4,
+          31,
+          59,
+          69,
+          38,
+          29,
+          14,
+          10
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          0,
+          1,
           9,
-          28,
-          33,
-          57,
-          28,
-          15,
-          1
+          29,
+          30,
+          59,
+          37,
+          19,
+          4
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          5,
+          4,
           10,
-          28,
-          25,
-          15,
-          6,
+          30,
+          22,
+          13,
+          7,
           0,
           0
         ],
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          2,
+          3,
           8,
-          14,
-          9,
-          12,
-          9,
-          4,
-          1
+          8,
+          5,
+          11,
+          6,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          1,
+          4,
+          6,
+          3,
+          2,
+          2,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           0,
-          6,
-          18,
-          21,
+          5,
+          17,
+          20,
           43,
-          63,
-          87,
-          84
+          64,
+          85,
+          88
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,8 +131,8 @@
         "data": [
           0,
           1,
-          2,
-          8,
+          3,
+          9,
           4,
           10,
           8,
@@ -115,21 +147,21 @@
         "data": [
           0,
           0,
-          3,
-          6,
-          5,
           2,
+          5,
+          5,
+          4,
           1,
-          1,
-          0
+          2,
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "MONROE (Holmes Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 31 (14%)",
-      "UNC – Lapsed R — 35 (15%)",
-      "Mixed – Active — 13 (6%)",
+      "Pure R — 43 (19%)",
+      "UNC – Lapsed R — 26 (11%)",
+      "Mixed – Active — 16 (7%)",
       "Mixed – Lapsed — 11 (5%)",
-      "UNC – No Primary — 96 (42%)",
-      "UNC – Lapsed D — 31 (14%)",
-      "Pure D — 11 (5%)"
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 97 (42%)",
+      "UNC – Lapsed D — 25 (11%)",
+      "Pure D — 13 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          31,
-          35,
-          13,
+          43,
+          26,
+          16,
           11,
-          96,
-          31,
-          11
+          0,
+          0,
+          97,
+          25,
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BEAVER VILLAGE (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

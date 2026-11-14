@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 17",
-      "Mixed – Active — 26",
-      "Mixed – Lapsed — 19",
-      "UNC – No Primary — 61",
+      "UNC – Lapsed R — 21",
+      "Mixed – Active — 25",
+      "Mixed – Lapsed — 11",
+      "UNC – Non-partisan Ballot — 11",
+      "UNC – No Primary — 63",
       "UNC – Lapsed D — 7"
     ],
     "datasets": [
       {
         "data": [
-          17,
-          26,
-          19,
-          61,
+          21,
+          25,
+          11,
+          11,
+          63,
           7
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "CATAWBA VILLAGE (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

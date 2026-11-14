@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 509 (14%)",
+      "Pure R — 504 (14%)",
       "UNC – Lapsed R — 289 (8%)",
-      "Mixed – Active — 324 (9%)",
-      "Mixed – Lapsed — 304 (8%)",
-      "UNC – No Primary — 1,270 (35%)",
+      "Mixed – Active — 321 (9%)",
+      "Mixed – Lapsed — 104 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 196 (5%)",
+      "UNC – No Primary — 1,301 (35%)",
       "UNC – Lapsed D — 359 (10%)",
-      "Pure D — 606 (17%)"
+      "Pure D — 597 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          509,
+          504,
           289,
-          324,
-          304,
-          1270,
+          321,
+          104,
+          4,
+          196,
+          1301,
           359,
-          606
+          597
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Ottawa Hills Local Sd (Lucas Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

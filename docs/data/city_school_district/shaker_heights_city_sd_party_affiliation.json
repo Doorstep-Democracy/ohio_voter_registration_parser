@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 586 (2%)",
-      "UNC – Lapsed R — 825 (3%)",
-      "Mixed – Active — 1,712 (7%)",
-      "Mixed – Lapsed — 1,362 (5%)",
-      "UNC – No Primary — 9,223 (37%)",
-      "UNC – Lapsed D — 5,214 (21%)",
-      "Pure D — 6,170 (25%)"
+      "Pure R — 465 (2%)",
+      "UNC – Lapsed R — 901 (4%)",
+      "Mixed – Active — 1,604 (6%)",
+      "Mixed – Lapsed — 930 (4%)",
+      "Minor Party — 27 (0%)",
+      "UNC – Non-partisan Ballot — 466 (2%)",
+      "UNC – No Primary — 9,236 (36%)",
+      "UNC – Lapsed D — 5,554 (22%)",
+      "Pure D — 6,349 (25%)"
     ],
     "datasets": [
       {
         "data": [
-          586,
-          825,
-          1712,
-          1362,
-          9223,
-          5214,
-          6170
+          465,
+          901,
+          1604,
+          930,
+          27,
+          466,
+          9236,
+          5554,
+          6349
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "SHAKER HEIGHTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 116 (28%)",
-      "UNC – Lapsed R — 48 (12%)",
-      "Mixed – Active — 29 (7%)",
-      "Mixed – Lapsed — 45 (11%)",
-      "UNC – No Primary — 135 (33%)",
-      "UNC – Lapsed D — 34 (8%)",
-      "Pure D — 7 (2%)"
+      "Pure R — 122 (29%)",
+      "UNC – Lapsed R — 60 (14%)",
+      "Mixed – Active — 30 (7%)",
+      "Mixed – Lapsed — 17 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 29 (7%)",
+      "UNC – No Primary — 125 (30%)",
+      "UNC – Lapsed D — 26 (6%)",
+      "Pure D — 11 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          116,
-          48,
+          122,
+          60,
+          30,
+          17,
+          2,
           29,
-          45,
-          135,
-          34,
-          7
+          125,
+          26,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TOD TOWNSHIP (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

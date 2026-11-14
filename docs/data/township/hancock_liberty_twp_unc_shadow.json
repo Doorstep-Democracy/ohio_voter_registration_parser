@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 758",
-      "Mixed – Active — 321",
-      "Mixed – Lapsed — 476",
-      "UNC – No Primary — 1,687",
-      "UNC – Lapsed D — 296"
+      "UNC – Lapsed R — 796",
+      "Mixed – Active — 333",
+      "Mixed – Lapsed — 170",
+      "UNC – Non-partisan Ballot — 278",
+      "UNC – No Primary — 1,634",
+      "UNC – Lapsed D — 277"
     ],
     "datasets": [
       {
         "data": [
-          758,
-          321,
-          476,
-          1687,
-          296
+          796,
+          333,
+          170,
+          278,
+          1634,
+          277
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

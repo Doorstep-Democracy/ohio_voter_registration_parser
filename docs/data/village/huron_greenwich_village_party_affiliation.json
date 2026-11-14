@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 166 (20%)",
-      "UNC – Lapsed R — 96 (12%)",
-      "Mixed – Active — 45 (5%)",
-      "Mixed – Lapsed — 70 (8%)",
-      "UNC – No Primary — 372 (45%)",
-      "UNC – Lapsed D — 47 (6%)",
-      "Pure D — 33 (4%)"
+      "Pure R — 139 (17%)",
+      "UNC – Lapsed R — 122 (15%)",
+      "Mixed – Active — 34 (4%)",
+      "Mixed – Lapsed — 26 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 50 (6%)",
+      "UNC – No Primary — 376 (45%)",
+      "UNC – Lapsed D — 52 (6%)",
+      "Pure D — 29 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          166,
-          96,
-          45,
-          70,
-          372,
-          47,
-          33
+          139,
+          122,
+          34,
+          26,
+          1,
+          50,
+          376,
+          52,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GREENWICH VILLAGE (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

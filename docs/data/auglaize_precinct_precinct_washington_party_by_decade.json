@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WASHINGTON",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -23,11 +23,11 @@
         "data": [
           1,
           4,
-          29,
-          67,
-          52,
           28,
-          22,
+          69,
+          51,
+          27,
+          21,
           16,
           13
         ],
@@ -38,9 +38,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          4,
-          13,
+          0,
+          3,
+          10,
           34,
           46,
           49,
@@ -87,6 +87,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
@@ -113,8 +130,8 @@
           23,
           26,
           41,
-          55,
-          60
+          57,
+          61
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -126,7 +143,7 @@
           0,
           1,
           2,
-          6,
+          7,
           3,
           3,
           2,

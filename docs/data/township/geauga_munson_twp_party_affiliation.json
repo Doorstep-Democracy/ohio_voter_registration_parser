@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,142 (21%)",
-      "UNC – Lapsed R — 712 (13%)",
-      "Mixed – Active — 760 (14%)",
-      "Mixed – Lapsed — 513 (9%)",
-      "UNC – No Primary — 1,560 (29%)",
-      "UNC – Lapsed D — 477 (9%)",
-      "Pure D — 273 (5%)"
+      "Pure R — 1,107 (20%)",
+      "UNC – Lapsed R — 761 (14%)",
+      "Mixed – Active — 756 (14%)",
+      "Mixed – Lapsed — 356 (7%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 145 (3%)",
+      "UNC – No Primary — 1,514 (28%)",
+      "UNC – Lapsed D — 436 (8%)",
+      "Pure D — 348 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1142,
-          712,
-          760,
-          513,
-          1560,
-          477,
-          273
+          1107,
+          761,
+          756,
+          356,
+          10,
+          145,
+          1514,
+          436,
+          348
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MUNSON TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          8,
-          39,
-          87,
-          85,
-          32,
+          7,
+          38,
+          89,
+          88,
+          44,
+          42,
           37,
-          26,
-          15
+          17
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -36,12 +36,12 @@
           1,
           10,
           17,
-          45,
-          40,
-          35,
-          45,
-          35,
-          5
+          43,
+          41,
+          30,
+          44,
+          34,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          7,
-          40,
+          8,
+          41,
           57,
-          43,
-          32,
-          17,
-          5,
+          54,
+          35,
+          23,
+          4,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          4,
+          2,
+          16,
+          33,
+          27,
           18,
-          34,
-          37,
-          26,
-          23,
           11,
-          2
+          6,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          1,
+          4,
+          7,
+          8,
+          9,
+          4,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          8,
-          27,
-          55,
-          121,
-          148,
-          164,
-          212,
-          189
+          6,
+          26,
+          56,
+          114,
+          141,
+          158,
+          203,
+          195
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          8,
-          21,
+          10,
+          14,
+          40,
+          60,
           52,
-          67,
-          55,
-          44,
-          36,
-          3
+          35,
+          32,
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          6,
-          31,
-          37,
-          20,
-          16,
-          4,
           3,
-          2
+          35,
+          49,
+          23,
+          17,
+          15,
+          10,
+          6
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CLAY TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

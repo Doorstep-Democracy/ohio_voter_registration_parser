@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,225 (19%)",
-      "UNC – Lapsed R — 913 (14%)",
-      "Mixed – Active — 567 (9%)",
-      "Mixed – Lapsed — 921 (14%)",
-      "UNC – No Primary — 1,922 (30%)",
-      "UNC – Lapsed D — 662 (10%)",
-      "Pure D — 304 (5%)"
+      "Pure R — 1,072 (16%)",
+      "UNC – Lapsed R — 1,056 (16%)",
+      "Mixed – Active — 566 (9%)",
+      "Mixed – Lapsed — 326 (5%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 620 (9%)",
+      "UNC – No Primary — 1,951 (30%)",
+      "UNC – Lapsed D — 588 (9%)",
+      "Pure D — 393 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1225,
-          913,
-          567,
-          921,
-          1922,
-          662,
-          304
+          1072,
+          1056,
+          566,
+          326,
+          10,
+          620,
+          1951,
+          588,
+          393
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Hinckley TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

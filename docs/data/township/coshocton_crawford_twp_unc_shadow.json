@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 63",
-      "Mixed – Active — 20",
-      "Mixed – Lapsed — 20",
-      "UNC – No Primary — 194",
-      "UNC – Lapsed D — 14"
+      "UNC – Lapsed R — 66",
+      "Mixed – Active — 25",
+      "Mixed – Lapsed — 11",
+      "UNC – Non-partisan Ballot — 6",
+      "UNC – No Primary — 188",
+      "UNC – Lapsed D — 12"
     ],
     "datasets": [
       {
         "data": [
-          63,
-          20,
-          20,
-          194,
-          14
+          66,
+          25,
+          11,
+          6,
+          188,
+          12
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CRAWFORD TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

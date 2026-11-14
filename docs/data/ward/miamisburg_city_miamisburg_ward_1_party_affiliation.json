@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 423 (13%)",
-      "UNC – Lapsed R — 548 (17%)",
-      "Mixed – Active — 258 (8%)",
-      "Mixed – Lapsed — 172 (5%)",
-      "UNC – Non-partisan Ballot — 74 (2%)",
-      "UNC – No Primary — 1,338 (41%)",
-      "UNC – Lapsed D — 327 (10%)",
-      "Pure D — 157 (5%)"
+      "Pure R — 419 (13%)",
+      "UNC – Lapsed R — 550 (16%)",
+      "Mixed – Active — 254 (8%)",
+      "Mixed – Lapsed — 174 (5%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 75 (2%)",
+      "UNC – No Primary — 1,385 (41%)",
+      "UNC – Lapsed D — 318 (10%)",
+      "Pure D — 156 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          423,
-          548,
-          258,
-          172,
-          74,
-          1338,
-          327,
-          157
+          419,
+          550,
+          254,
+          174,
+          8,
+          75,
+          1385,
+          318,
+          156
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "MIAMISBURG WARD 1 (MIAMISBURG City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

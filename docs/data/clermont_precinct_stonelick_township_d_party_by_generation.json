@@ -4,7 +4,7 @@
   "precinct": "STONELICK TOWNSHIP D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          7,
+          6,
           36,
           43,
-          27,
-          6
+          25,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
@@ -85,9 +98,9 @@
         "data": [
           4,
           49,
-          76,
-          105,
-          113
+          77,
+          104,
+          117
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,7 +110,7 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          18,
+          17,
           21,
           12,
           1
@@ -112,7 +125,7 @@
           5,
           24,
           2,
-          5,
+          4,
           0
         ],
         "backgroundColor": "#3b82f6",

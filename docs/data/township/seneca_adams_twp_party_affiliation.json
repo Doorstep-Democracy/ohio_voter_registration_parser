@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 231 (27%)",
-      "UNC – Lapsed R — 95 (11%)",
-      "Mixed – Active — 126 (15%)",
-      "Mixed – Lapsed — 62 (7%)",
-      "UNC – No Primary — 263 (31%)",
-      "UNC – Lapsed D — 49 (6%)",
-      "Pure D — 32 (4%)"
+      "Pure R — 223 (26%)",
+      "UNC – Lapsed R — 112 (13%)",
+      "Mixed – Active — 128 (15%)",
+      "Mixed – Lapsed — 36 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 26 (3%)",
+      "UNC – No Primary — 257 (30%)",
+      "UNC – Lapsed D — 46 (5%)",
+      "Pure D — 29 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          231,
-          95,
-          126,
-          62,
-          263,
-          49,
-          32
+          223,
+          112,
+          128,
+          36,
+          4,
+          26,
+          257,
+          46,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

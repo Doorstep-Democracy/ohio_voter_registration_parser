@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 162",
-      "Mixed – Active — 216",
-      "Mixed – Lapsed — 166",
-      "UNC – No Primary — 858",
-      "UNC – Lapsed D — 335"
+      "UNC – Lapsed R — 157",
+      "Mixed – Active — 251",
+      "Mixed – Lapsed — 86",
+      "UNC – Non-partisan Ballot — 64",
+      "UNC – No Primary — 836",
+      "UNC – Lapsed D — 311"
     ],
     "datasets": [
       {
         "data": [
-          162,
-          216,
-          166,
-          858,
-          335
+          157,
+          251,
+          86,
+          64,
+          836,
+          311
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ELYRIA TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

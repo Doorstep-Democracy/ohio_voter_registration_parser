@@ -4,7 +4,7 @@
   "precinct": "CINCINNATI 20-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -33,9 +33,9 @@
         "data": [
           2,
           15,
-          12,
           13,
-          0
+          13,
+          1
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           6,
           6,
-          7,
+          6,
           3
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           6,
-          64,
-          141,
-          280,
-          196
+          65,
+          145,
+          297,
+          228
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          5,
+          4,
           35,
-          46,
-          51,
-          3
+          48,
+          53,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,9 +124,9 @@
         "data": [
           3,
           28,
-          12,
-          19,
-          4
+          11,
+          22,
+          2
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

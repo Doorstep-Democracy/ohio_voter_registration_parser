@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 461",
-      "Mixed – Active — 337",
-      "Mixed – Lapsed — 216",
-      "UNC – No Primary — 1,076",
-      "UNC – Lapsed D — 234"
+      "UNC – Lapsed R — 407",
+      "Mixed – Active — 395",
+      "Mixed – Lapsed — 139",
+      "UNC – Non-partisan Ballot — 32",
+      "UNC – No Primary — 1,045",
+      "UNC – Lapsed D — 208"
     ],
     "datasets": [
       {
         "data": [
-          461,
-          337,
-          216,
-          1076,
-          234
+          407,
+          395,
+          139,
+          32,
+          1045,
+          208
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "OTTAWA VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

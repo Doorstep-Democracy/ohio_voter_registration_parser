@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 615 (32%)",
-      "UNC – Lapsed R — 274 (14%)",
-      "Mixed – Active — 164 (8%)",
-      "Mixed – Lapsed — 298 (15%)",
-      "UNC – No Primary — 431 (22%)",
-      "UNC – Lapsed D — 98 (5%)",
-      "Pure D — 67 (3%)"
+      "Pure R — 626 (32%)",
+      "UNC – Lapsed R — 284 (15%)",
+      "Mixed – Active — 178 (9%)",
+      "Mixed – Lapsed — 73 (4%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 195 (10%)",
+      "UNC – No Primary — 428 (22%)",
+      "UNC – Lapsed D — 92 (5%)",
+      "Pure D — 74 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          615,
-          274,
-          164,
-          298,
-          431,
-          98,
-          67
+          626,
+          284,
+          178,
+          73,
+          8,
+          195,
+          428,
+          92,
+          74
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ALLEN TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

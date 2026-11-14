@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 450",
-      "Mixed – Active — 543",
-      "Mixed – Lapsed — 379",
-      "UNC – No Primary — 1,673",
-      "UNC – Lapsed D — 470"
+      "UNC – Lapsed R — 492",
+      "Mixed – Active — 566",
+      "Mixed – Lapsed — 151",
+      "UNC – Non-partisan Ballot — 203",
+      "UNC – No Primary — 1,622",
+      "UNC – Lapsed D — 438"
     ],
     "datasets": [
       {
         "data": [
-          450,
-          543,
-          379,
-          1673,
-          470
+          492,
+          566,
+          151,
+          203,
+          1622,
+          438
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "ONTARIO CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

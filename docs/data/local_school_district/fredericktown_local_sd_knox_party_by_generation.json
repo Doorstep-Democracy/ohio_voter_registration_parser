@@ -13,10 +13,10 @@
       {
         "label": "Pure R",
         "data": [
-          116,
+          112,
           623,
-          342,
-          213,
+          338,
+          212,
           88
         ],
         "backgroundColor": "#ef4444",
@@ -25,11 +25,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          40,
-          213,
-          247,
-          202,
-          60
+          37,
+          209,
+          251,
+          205,
+          64
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -38,9 +38,9 @@
         "label": "Mixed – Active",
         "data": [
           34,
-          226,
-          92,
-          50,
+          225,
+          90,
+          51,
           7
         ],
         "backgroundColor": "#f59e0b",
@@ -49,23 +49,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          22,
-          86,
-          110,
-          76,
-          12
+          11,
+          59,
+          50,
+          30,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          9,
+          28,
+          61,
+          46,
+          12
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           22,
-          185,
-          327,
-          553,
-          587
+          184,
+          333,
+          560,
+          613
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -73,9 +97,9 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          30,
-          106,
-          80,
+          28,
+          104,
+          79,
           76,
           12
         ],
@@ -85,19 +109,19 @@
       {
         "label": "Pure D",
         "data": [
-          22,
-          101,
+          21,
+          100,
           22,
           27,
-          20
+          18
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Fredericktown Local Sd (Knox Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

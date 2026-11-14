@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 263 (13%)",
-      "UNC – Lapsed R — 337 (17%)",
-      "Mixed – Active — 117 (6%)",
-      "Mixed – Lapsed — 161 (8%)",
-      "UNC – No Primary — 938 (47%)",
-      "UNC – Lapsed D — 174 (9%)",
-      "Pure D — 11 (1%)"
+      "Pure R — 250 (13%)",
+      "UNC – Lapsed R — 360 (18%)",
+      "Mixed – Active — 132 (7%)",
+      "Mixed – Lapsed — 137 (7%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 17 (1%)",
+      "UNC – No Primary — 913 (46%)",
+      "UNC – Lapsed D — 153 (8%)",
+      "Pure D — 28 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          263,
-          337,
-          117,
-          161,
-          938,
-          174,
-          11
+          250,
+          360,
+          132,
+          137,
+          3,
+          17,
+          913,
+          153,
+          28
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TWP (Jackson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

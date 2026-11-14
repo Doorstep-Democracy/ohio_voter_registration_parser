@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          11,
-          71,
-          165,
-          156,
-          94,
-          61,
-          49,
-          25
+          0,
+          9,
+          60,
+          143,
+          136,
+          76,
+          40,
+          36,
+          20
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,13 +35,13 @@
         "data": [
           1,
           8,
-          34,
-          73,
-          80,
-          85,
-          71,
-          46,
-          4
+          40,
+          89,
+          102,
+          104,
+          91,
+          61,
+          10
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,13 +49,13 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          12,
-          27,
+          1,
+          10,
+          28,
           58,
-          40,
-          25,
-          3,
+          41,
+          22,
+          4,
           2,
           0
         ],
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          5,
-          26,
-          58,
-          72,
-          48,
-          40,
+          0,
+          4,
           11,
-          9
+          30,
+          25,
+          15,
+          12,
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          13,
+          28,
+          46,
+          36,
+          27,
+          10,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -84,12 +116,12 @@
           0,
           4,
           20,
-          98,
-          135,
+          95,
+          134,
           167,
-          193,
-          308,
-          254
+          199,
+          314,
+          282
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          11,
-          18,
-          50,
-          24,
+          9,
+          14,
+          43,
+          23,
           33,
           21,
           11,
-          3
+          4
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           0,
           2,
-          16,
-          29,
-          21,
+          19,
+          37,
+          26,
           3,
-          6,
-          1,
-          2
+          8,
+          3,
+          4
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "EAST UNION TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

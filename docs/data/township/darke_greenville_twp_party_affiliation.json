@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,550 (22%)",
-      "UNC – Lapsed R — 1,385 (12%)",
-      "Mixed – Active — 1,180 (10%)",
-      "Mixed – Lapsed — 709 (6%)",
-      "UNC – No Primary — 4,661 (40%)",
-      "UNC – Lapsed D — 729 (6%)",
-      "Pure D — 305 (3%)"
+      "Pure R — 1,918 (17%)",
+      "UNC – Lapsed R — 2,026 (18%)",
+      "Mixed – Active — 958 (8%)",
+      "Mixed – Lapsed — 740 (6%)",
+      "Minor Party — 22 (0%)",
+      "UNC – Non-partisan Ballot — 188 (2%)",
+      "UNC – No Primary — 4,653 (40%)",
+      "UNC – Lapsed D — 723 (6%)",
+      "Pure D — 340 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2550,
-          1385,
-          1180,
-          709,
-          4661,
-          729,
-          305
+          1918,
+          2026,
+          958,
+          740,
+          22,
+          188,
+          4653,
+          723,
+          340
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GREENVILLE TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

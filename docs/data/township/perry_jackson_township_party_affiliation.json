@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 360 (21%)",
-      "UNC – Lapsed R — 158 (9%)",
-      "Mixed – Active — 186 (11%)",
-      "Mixed – Lapsed — 81 (5%)",
-      "UNC – No Primary — 728 (42%)",
-      "UNC – Lapsed D — 158 (9%)",
-      "Pure D — 78 (4%)"
+      "Pure R — 344 (19%)",
+      "UNC – Lapsed R — 185 (10%)",
+      "Mixed – Active — 186 (10%)",
+      "Mixed – Lapsed — 58 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 31 (2%)",
+      "UNC – No Primary — 724 (41%)",
+      "UNC – Lapsed D — 153 (9%)",
+      "Pure D — 92 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          360,
-          158,
+          344,
+          185,
           186,
-          81,
-          728,
-          158,
-          78
+          58,
+          3,
+          31,
+          724,
+          153,
+          92
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

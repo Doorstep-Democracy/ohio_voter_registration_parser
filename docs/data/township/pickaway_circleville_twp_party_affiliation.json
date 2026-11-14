@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 430 (25%)",
-      "UNC – Lapsed R — 176 (10%)",
-      "Mixed – Active — 201 (12%)",
-      "Mixed – Lapsed — 123 (7%)",
-      "UNC – No Primary — 577 (33%)",
-      "UNC – Lapsed D — 140 (8%)",
-      "Pure D — 91 (5%)"
+      "Pure R — 423 (24%)",
+      "UNC – Lapsed R — 196 (11%)",
+      "Mixed – Active — 204 (12%)",
+      "Mixed – Lapsed — 72 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 46 (3%)",
+      "UNC – No Primary — 567 (32%)",
+      "UNC – Lapsed D — 139 (8%)",
+      "Pure D — 100 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          430,
-          176,
-          201,
-          123,
-          577,
-          140,
-          91
+          423,
+          196,
+          204,
+          72,
+          1,
+          46,
+          567,
+          139,
+          100
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CIRCLEVILLE TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 283",
-      "Mixed – Active — 159",
-      "Mixed – Lapsed — 154",
-      "UNC – No Primary — 630",
-      "UNC – Lapsed D — 165"
+      "UNC – Lapsed R — 276",
+      "Mixed – Active — 170",
+      "Mixed – Lapsed — 90",
+      "UNC – Non-partisan Ballot — 57",
+      "UNC – No Primary — 617",
+      "UNC – Lapsed D — 160"
     ],
     "datasets": [
       {
         "data": [
-          283,
-          159,
-          154,
-          630,
-          165
+          276,
+          170,
+          90,
+          57,
+          617,
+          160
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NEWARK TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

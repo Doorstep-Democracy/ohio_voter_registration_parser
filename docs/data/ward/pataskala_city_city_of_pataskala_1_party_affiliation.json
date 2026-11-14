@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 449 (12%)",
-      "UNC – Lapsed R — 416 (11%)",
+      "Pure R — 447 (12%)",
+      "UNC – Lapsed R — 420 (11%)",
       "Mixed – Active — 231 (6%)",
-      "Mixed – Lapsed — 135 (4%)",
+      "Mixed – Lapsed — 138 (4%)",
+      "Minor Party — 8 (0%)",
       "UNC – Non-partisan Ballot — 159 (4%)",
-      "UNC – No Primary — 1,653 (45%)",
-      "UNC – Lapsed D — 422 (11%)",
-      "Pure D — 242 (7%)"
+      "UNC – No Primary — 1,709 (45%)",
+      "UNC – Lapsed D — 434 (11%)",
+      "Pure D — 240 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          449,
-          416,
+          447,
+          420,
           231,
-          135,
+          138,
+          8,
           159,
-          1653,
-          422,
-          242
+          1709,
+          434,
+          240
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "CITY OF PATASKALA 1 (PATASKALA City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

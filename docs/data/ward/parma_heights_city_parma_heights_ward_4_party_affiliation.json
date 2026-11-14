@@ -3,25 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 191 (6%)",
-      "UNC – Lapsed R — 260 (8%)",
-      "Mixed – Active — 370 (11%)",
-      "Mixed – Lapsed — 151 (4%)",
-      "UNC – Non-partisan Ballot — 166 (5%)",
-      "UNC – No Primary — 1,416 (42%)",
-      "UNC – Lapsed D — 433 (13%)",
+      "Pure R — 189 (6%)",
+      "UNC – Lapsed R — 261 (8%)",
+      "Mixed – Active — 365 (11%)",
+      "Mixed – Lapsed — 156 (5%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 156 (5%)",
+      "UNC – No Primary — 1,430 (42%)",
+      "UNC – Lapsed D — 430 (13%)",
       "Pure D — 393 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          191,
-          260,
-          370,
-          151,
-          166,
-          1416,
-          433,
+          189,
+          261,
+          365,
+          156,
+          10,
+          156,
+          1430,
+          430,
           393
         ],
         "backgroundColor": [
@@ -29,6 +31,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "PARMA HEIGHTS WARD 4 (PARMA HEIGHTS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

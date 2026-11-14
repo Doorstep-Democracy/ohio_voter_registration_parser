@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 734 (19%)",
-      "UNC – Lapsed R — 453 (12%)",
-      "Mixed – Active — 323 (8%)",
-      "Mixed – Lapsed — 351 (9%)",
-      "UNC – No Primary — 1,541 (39%)",
-      "UNC – Lapsed D — 266 (7%)",
-      "Pure D — 242 (6%)"
+      "Pure R — 725 (19%)",
+      "UNC – Lapsed R — 455 (12%)",
+      "Mixed – Active — 317 (8%)",
+      "Mixed – Lapsed — 124 (3%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 222 (6%)",
+      "UNC – No Primary — 1,555 (40%)",
+      "UNC – Lapsed D — 267 (7%)",
+      "Pure D — 236 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          734,
-          453,
-          323,
-          351,
-          1541,
-          266,
-          242
+          725,
+          455,
+          317,
+          124,
+          10,
+          222,
+          1555,
+          267,
+          236
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "CLYDE CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 234 (20%)",
-      "UNC – Lapsed R — 116 (10%)",
-      "Mixed – Active — 103 (9%)",
-      "Mixed – Lapsed — 60 (5%)",
-      "UNC – No Primary — 585 (49%)",
-      "UNC – Lapsed D — 79 (7%)",
-      "Pure D — 22 (2%)"
+      "Pure R — 216 (18%)",
+      "UNC – Lapsed R — 130 (11%)",
+      "Mixed – Active — 98 (8%)",
+      "Mixed – Lapsed — 48 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 17 (1%)",
+      "UNC – No Primary — 576 (48%)",
+      "UNC – Lapsed D — 81 (7%)",
+      "Pure D — 23 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          234,
-          116,
-          103,
-          60,
-          585,
-          79,
-          22
+          216,
+          130,
+          98,
+          48,
+          3,
+          17,
+          576,
+          81,
+          23
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BUCK TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

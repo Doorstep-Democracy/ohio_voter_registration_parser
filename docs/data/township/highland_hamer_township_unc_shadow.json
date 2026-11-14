@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 45",
-      "Mixed – Active — 63",
-      "Mixed – Lapsed — 13",
-      "UNC – No Primary — 191",
-      "UNC – Lapsed D — 19"
+      "UNC – Lapsed R — 52",
+      "Mixed – Active — 61",
+      "Mixed – Lapsed — 17",
+      "UNC – Non-partisan Ballot — 3",
+      "UNC – No Primary — 185",
+      "UNC – Lapsed D — 16"
     ],
     "datasets": [
       {
         "data": [
-          45,
-          63,
-          13,
-          191,
-          19
+          52,
+          61,
+          17,
+          3,
+          185,
+          16
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HAMER TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

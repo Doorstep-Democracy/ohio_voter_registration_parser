@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 759 (11%)",
-      "UNC – Lapsed R — 503 (7%)",
-      "Mixed – Active — 768 (11%)",
-      "Mixed – Lapsed — 561 (8%)",
-      "UNC – No Primary — 2,381 (35%)",
-      "UNC – Lapsed D — 1,007 (15%)",
-      "Pure D — 751 (11%)"
+      "Pure R — 744 (11%)",
+      "UNC – Lapsed R — 550 (8%)",
+      "Mixed – Active — 775 (11%)",
+      "Mixed – Lapsed — 334 (5%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 205 (3%)",
+      "UNC – No Primary — 2,345 (35%)",
+      "UNC – Lapsed D — 895 (13%)",
+      "Pure D — 906 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          759,
-          503,
-          768,
-          561,
-          2381,
-          1007,
-          751
+          744,
+          550,
+          775,
+          334,
+          19,
+          205,
+          2345,
+          895,
+          906
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SAYBROOK TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

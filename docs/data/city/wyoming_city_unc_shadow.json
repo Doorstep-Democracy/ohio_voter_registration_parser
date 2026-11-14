@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 850",
-      "Mixed – Active — 555",
-      "Mixed – Lapsed — 720",
-      "UNC – No Primary — 2,411",
-      "UNC – Lapsed D — 1,252"
+      "UNC – Lapsed R — 937",
+      "Mixed – Active — 583",
+      "Mixed – Lapsed — 469",
+      "UNC – Non-partisan Ballot — 227",
+      "UNC – No Primary — 2,343",
+      "UNC – Lapsed D — 1,163"
     ],
     "datasets": [
       {
         "data": [
-          850,
-          555,
-          720,
-          2411,
-          1252
+          937,
+          583,
+          469,
+          227,
+          2343,
+          1163
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "WYOMING CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

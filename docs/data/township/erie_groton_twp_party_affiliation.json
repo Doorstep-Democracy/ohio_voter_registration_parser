@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 156 (17%)",
-      "UNC – Lapsed R — 103 (11%)",
-      "Mixed – Active — 111 (12%)",
-      "Mixed – Lapsed — 89 (10%)",
-      "UNC – No Primary — 325 (35%)",
-      "UNC – Lapsed D — 102 (11%)",
-      "Pure D — 47 (5%)"
+      "Pure R — 152 (16%)",
+      "UNC – Lapsed R — 114 (12%)",
+      "Mixed – Active — 106 (11%)",
+      "Mixed – Lapsed — 45 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 48 (5%)",
+      "UNC – No Primary — 332 (35%)",
+      "UNC – Lapsed D — 96 (10%)",
+      "Pure D — 50 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          156,
-          103,
-          111,
-          89,
-          325,
-          102,
-          47
+          152,
+          114,
+          106,
+          45,
+          1,
+          48,
+          332,
+          96,
+          50
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GROTON TWP (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

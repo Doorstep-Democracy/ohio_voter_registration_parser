@@ -19,15 +19,15 @@
         "label": "Pure R",
         "data": [
           0,
-          9,
-          151,
-          426,
-          815,
-          540,
-          316,
-          207,
-          117,
-          60
+          7,
+          132,
+          380,
+          814,
+          582,
+          367,
+          235,
+          152,
+          98
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -36,15 +36,15 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          2,
-          56,
-          157,
-          273,
-          338,
-          355,
-          257,
+          1,
+          64,
+          181,
+          274,
+          322,
+          344,
+          266,
           175,
-          37
+          43
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -53,15 +53,15 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          3,
-          85,
-          293,
-          472,
-          278,
-          143,
-          49,
-          15,
-          2
+          2,
+          66,
+          294,
+          502,
+          341,
+          167,
+          72,
+          28,
+          5
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -70,32 +70,66 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          5,
+          4,
+          44,
+          107,
+          141,
+          121,
+          90,
           48,
-          159,
-          312,
-          361,
-          377,
-          365,
-          125,
-          39
+          11,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          5,
+          2,
+          2,
+          6,
+          6,
+          5,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          14,
+          57,
+          138,
+          179,
+          245,
+          274,
+          95,
+          31
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          3,
-          39,
-          149,
-          431,
-          693,
-          914,
-          1214,
-          1661,
-          1530
+          2,
+          38,
+          141,
+          388,
+          648,
+          859,
+          1168,
+          1622,
+          1573
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -104,15 +138,15 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          5,
+          3,
           34,
-          153,
-          334,
-          327,
-          262,
-          307,
-          195,
-          18
+          148,
+          284,
+          265,
+          232,
+          271,
+          171,
+          22
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -121,23 +155,23 @@
         "label": "Pure D",
         "data": [
           0,
-          2,
-          49,
-          224,
-          336,
-          140,
-          75,
-          54,
+          3,
           46,
-          18
+          221,
+          400,
+          214,
+          134,
+          112,
+          94,
+          56
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "FREMONT (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

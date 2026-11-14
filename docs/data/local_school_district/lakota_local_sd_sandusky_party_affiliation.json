@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 775 (18%)",
-      "UNC – Lapsed R — 558 (13%)",
-      "Mixed – Active — 352 (8%)",
-      "Mixed – Lapsed — 337 (8%)",
-      "UNC – No Primary — 1,557 (37%)",
-      "UNC – Lapsed D — 366 (9%)",
-      "Pure D — 250 (6%)"
+      "Pure R — 765 (18%)",
+      "UNC – Lapsed R — 552 (13%)",
+      "Mixed – Active — 348 (8%)",
+      "Mixed – Lapsed — 216 (5%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 116 (3%)",
+      "UNC – No Primary — 1,589 (38%)",
+      "UNC – Lapsed D — 367 (9%)",
+      "Pure D — 247 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          775,
-          558,
-          352,
-          337,
-          1557,
-          366,
-          250
+          765,
+          552,
+          348,
+          216,
+          13,
+          116,
+          1589,
+          367,
+          247
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Lakota Local Sd (Sandusky Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

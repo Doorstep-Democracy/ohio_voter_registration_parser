@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 611",
-      "Mixed – Active — 314",
-      "Mixed – Lapsed — 480",
-      "UNC – No Primary — 1,383",
-      "UNC – Lapsed D — 283"
+      "UNC – Lapsed R — 613",
+      "Mixed – Active — 309",
+      "Mixed – Lapsed — 111",
+      "UNC – Non-partisan Ballot — 364",
+      "UNC – No Primary — 1,405",
+      "UNC – Lapsed D — 286"
     ],
     "datasets": [
       {
         "data": [
-          611,
-          314,
-          480,
-          1383,
-          283
+          613,
+          309,
+          111,
+          364,
+          1405,
+          286
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Mapleton Local Sd (Ashland Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

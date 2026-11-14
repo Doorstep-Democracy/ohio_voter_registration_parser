@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,469 (15%)",
-      "UNC – Lapsed R — 1,520 (15%)",
-      "Mixed – Active — 506 (5%)",
-      "Mixed – Lapsed — 766 (8%)",
-      "UNC – No Primary — 4,720 (48%)",
-      "UNC – Lapsed D — 681 (7%)",
-      "Pure D — 152 (2%)"
+      "Pure R — 2,030 (20%)",
+      "UNC – Lapsed R — 1,295 (13%)",
+      "Mixed – Active — 711 (7%)",
+      "Mixed – Lapsed — 305 (3%)",
+      "Minor Party — 31 (0%)",
+      "UNC – Non-partisan Ballot — 495 (5%)",
+      "UNC – No Primary — 4,250 (42%)",
+      "UNC – Lapsed D — 530 (5%)",
+      "Pure D — 403 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1469,
-          1520,
-          506,
-          766,
-          4720,
-          681,
-          152
+          2030,
+          1295,
+          711,
+          305,
+          31,
+          495,
+          4250,
+          530,
+          403
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "HARRISON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

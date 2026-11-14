@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 941 (14%)",
-      "UNC – Lapsed R — 847 (13%)",
-      "Mixed – Active — 548 (8%)",
-      "Mixed – Lapsed — 445 (7%)",
-      "UNC – No Primary — 2,773 (42%)",
-      "UNC – Lapsed D — 765 (12%)",
-      "Pure D — 318 (5%)"
+      "Pure R — 829 (12%)",
+      "UNC – Lapsed R — 976 (15%)",
+      "Mixed – Active — 487 (7%)",
+      "Mixed – Lapsed — 438 (7%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 57 (1%)",
+      "UNC – No Primary — 2,779 (42%)",
+      "UNC – Lapsed D — 739 (11%)",
+      "Pure D — 352 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          941,
-          847,
-          548,
-          445,
-          2773,
-          765,
-          318
+          829,
+          976,
+          487,
+          438,
+          14,
+          57,
+          2779,
+          739,
+          352
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "IRONTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

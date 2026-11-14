@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,559 (10%)",
-      "UNC – Lapsed R — 2,603 (10%)",
-      "Mixed – Active — 2,800 (11%)",
-      "Mixed – Lapsed — 2,387 (9%)",
-      "UNC – No Primary — 9,325 (37%)",
-      "UNC – Lapsed D — 3,145 (12%)",
-      "Pure D — 2,397 (10%)"
+      "Pure R — 2,238 (9%)",
+      "UNC – Lapsed R — 2,887 (11%)",
+      "Mixed – Active — 2,791 (11%)",
+      "Mixed – Lapsed — 1,531 (6%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 858 (3%)",
+      "UNC – No Primary — 9,282 (36%)",
+      "UNC – Lapsed D — 3,014 (12%)",
+      "Pure D — 2,821 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          2559,
-          2603,
-          2800,
-          2387,
-          9325,
-          3145,
-          2397
+          2238,
+          2887,
+          2791,
+          1531,
+          41,
+          858,
+          9282,
+          3014,
+          2821
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WESTLAKE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

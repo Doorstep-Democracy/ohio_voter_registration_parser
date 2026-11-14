@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,388 (14%)",
-      "UNC – Lapsed R — 1,055 (11%)",
-      "Mixed – Active — 1,137 (12%)",
-      "Mixed – Lapsed — 1,042 (11%)",
-      "UNC – No Primary — 3,161 (32%)",
-      "UNC – Lapsed D — 1,324 (14%)",
-      "Pure D — 684 (7%)"
+      "Pure R — 1,323 (13%)",
+      "UNC – Lapsed R — 1,144 (12%)",
+      "Mixed – Active — 1,116 (11%)",
+      "Mixed – Lapsed — 628 (6%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 426 (4%)",
+      "UNC – No Primary — 3,127 (32%)",
+      "UNC – Lapsed D — 1,214 (12%)",
+      "Pure D — 817 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1388,
-          1055,
-          1137,
-          1042,
-          3161,
-          1324,
-          684
+          1323,
+          1144,
+          1116,
+          628,
+          19,
+          426,
+          3127,
+          1214,
+          817
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NEW FRANKLIN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

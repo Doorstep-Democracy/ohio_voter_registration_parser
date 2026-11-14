@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 403 (24%)",
-      "UNC – Lapsed R — 226 (14%)",
-      "Mixed – Active — 108 (6%)",
-      "Mixed – Lapsed — 111 (7%)",
-      "UNC – No Primary — 615 (37%)",
-      "UNC – Lapsed D — 152 (9%)",
-      "Pure D — 58 (3%)"
+      "Pure R — 389 (23%)",
+      "UNC – Lapsed R — 242 (14%)",
+      "Mixed – Active — 106 (6%)",
+      "Mixed – Lapsed — 73 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 44 (3%)",
+      "UNC – No Primary — 620 (37%)",
+      "UNC – Lapsed D — 149 (9%)",
+      "Pure D — 63 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          403,
-          226,
-          108,
-          111,
-          615,
-          152,
-          58
+          389,
+          242,
+          106,
+          73,
+          5,
+          44,
+          620,
+          149,
+          63
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

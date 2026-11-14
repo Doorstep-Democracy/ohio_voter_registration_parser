@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          10,
-          49,
-          92,
-          70,
-          44,
-          41,
-          26,
-          21
+          1,
+          8,
+          47,
+          88,
+          66,
+          40,
+          36,
+          17,
+          25
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          6,
-          26,
-          43,
-          63,
-          66,
+          5,
+          25,
           53,
-          62,
-          4
+          72,
+          71,
+          56,
+          65,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          21,
-          140,
-          211,
-          115,
-          89,
-          44,
+          14,
+          130,
+          202,
+          123,
+          86,
+          51,
           12,
-          2
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          17,
-          55,
-          68,
-          98,
-          81,
-          74,
-          35,
-          13
+          16,
+          52,
+          49,
+          67,
+          62,
+          38,
+          19,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          1,
+          1,
+          0,
+          1,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          11,
+          22,
+          29,
+          28,
+          32,
+          18,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           8,
-          39,
-          138,
-          221,
-          226,
-          319,
-          472,
-          455
+          34,
+          131,
+          218,
+          225,
+          326,
+          479,
+          473
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,12 +131,12 @@
         "data": [
           3,
           27,
-          98,
-          167,
-          231,
-          204,
-          150,
-          89,
+          104,
+          164,
+          223,
+          205,
+          144,
+          91,
           13
         ],
         "backgroundColor": "#93c5fd",
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          29,
-          123,
-          207,
+          22,
+          108,
+          203,
           103,
-          49,
-          28,
-          21,
-          18
+          48,
+          33,
+          22,
+          24
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WEATHERSF TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

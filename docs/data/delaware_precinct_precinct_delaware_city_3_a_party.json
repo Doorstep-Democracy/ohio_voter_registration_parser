@@ -4,13 +4,14 @@
   "precinct": "PRECINCT DELAWARE CITY 3-A",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -20,19 +21,21 @@
       {
         "data": [
           167,
-          96,
+          97,
           51,
-          46,
-          46,
-          449,
-          76,
-          88
+          47,
+          1,
+          43,
+          467,
+          77,
+          86
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

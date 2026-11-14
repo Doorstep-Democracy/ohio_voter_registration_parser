@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 467 (22%)",
-      "UNC – Lapsed R — 254 (12%)",
-      "Mixed – Active — 116 (5%)",
-      "Mixed – Lapsed — 140 (7%)",
-      "UNC – No Primary — 917 (43%)",
-      "UNC – Lapsed D — 142 (7%)",
-      "Pure D — 84 (4%)"
+      "Pure R — 408 (19%)",
+      "UNC – Lapsed R — 317 (15%)",
+      "Mixed – Active — 114 (5%)",
+      "Mixed – Lapsed — 66 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 74 (3%)",
+      "UNC – No Primary — 939 (44%)",
+      "UNC – Lapsed D — 141 (7%)",
+      "Pure D — 97 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          467,
-          254,
-          116,
-          140,
-          917,
-          142,
-          84
+          408,
+          317,
+          114,
+          66,
+          2,
+          74,
+          939,
+          141,
+          97
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Township Perry (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

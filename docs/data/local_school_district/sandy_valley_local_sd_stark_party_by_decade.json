@@ -20,9 +20,9 @@
           0,
           19,
           109,
-          191,
-          157,
-          94,
+          188,
+          155,
+          93,
           62,
           35,
           23
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           2,
-          11,
-          41,
-          86,
-          130,
+          13,
+          39,
+          88,
+          129,
           107,
-          112,
-          55,
-          7
+          110,
+          59,
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,10 +50,10 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          26,
-          99,
-          179,
-          134,
+          25,
+          96,
+          178,
+          132,
           40,
           32,
           4,
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          10,
-          39,
-          71,
-          88,
-          73,
-          60,
-          16,
-          10
+          7,
+          28,
+          47,
+          66,
+          44,
+          31,
+          7,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          10,
+          21,
+          20,
+          29,
+          29,
+          9,
+          7
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          7,
-          42,
-          120,
-          248,
-          310,
-          362,
-          541,
-          490
+          6,
+          40,
+          122,
+          249,
+          309,
+          364,
+          536,
+          512
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          23,
-          61,
-          101,
-          146,
+          19,
+          58,
+          98,
+          143,
           112,
-          92,
-          39,
-          7
+          91,
+          38,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          7,
-          45,
-          98,
+          6,
+          42,
+          96,
           57,
           32,
           23,
-          23,
-          19
+          21,
+          18
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Sandy Valley Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

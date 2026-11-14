@@ -4,7 +4,7 @@
   "precinct": "PRECINCT WICKLIFFE CITY 2B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -23,8 +23,8 @@
         "data": [
           1,
           8,
-          1,
-          17,
+          3,
+          18,
           11,
           9,
           4,
@@ -39,14 +39,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          0,
+          2,
           6,
           6,
           6,
           9,
           5,
           9,
-          1
+          0
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 3,
@@ -74,15 +74,32 @@
         "data": [
           0,
           3,
-          6,
-          1,
-          6,
+          8,
+          2,
+          7,
           2,
           2,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -108,13 +125,13 @@
         "data": [
           1,
           0,
-          6,
-          26,
-          23,
+          8,
+          28,
+          25,
           34,
-          65,
-          88,
-          87
+          66,
+          90,
+          92
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -124,13 +141,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          2,
+          1,
           5,
           17,
           14,
           10,
           6,
-          9,
+          11,
           1
         ],
         "backgroundColor": "#93c5fd",

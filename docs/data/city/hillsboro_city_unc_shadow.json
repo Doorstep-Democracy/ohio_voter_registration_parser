@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 410",
-      "Mixed – Active — 302",
-      "Mixed – Lapsed — 214",
-      "UNC – No Primary — 1,970",
-      "UNC – Lapsed D — 308"
+      "UNC – Lapsed R — 464",
+      "Mixed – Active — 310",
+      "Mixed – Lapsed — 163",
+      "UNC – Non-partisan Ballot — 47",
+      "UNC – No Primary — 1,965",
+      "UNC – Lapsed D — 278"
     ],
     "datasets": [
       {
         "data": [
-          410,
-          302,
-          214,
-          1970,
-          308
+          464,
+          310,
+          163,
+          47,
+          1965,
+          278
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "HILLSBORO CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

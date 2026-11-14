@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 99 (14%)",
-      "UNC – Lapsed R — 94 (13%)",
-      "Mixed – Active — 49 (7%)",
-      "Mixed – Lapsed — 62 (9%)",
-      "UNC – No Primary — 331 (46%)",
-      "UNC – Lapsed D — 56 (8%)",
-      "Pure D — 22 (3%)"
+      "Pure R — 80 (11%)",
+      "UNC – Lapsed R — 117 (16%)",
+      "Mixed – Active — 38 (5%)",
+      "Mixed – Lapsed — 49 (7%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 25 (4%)",
+      "UNC – No Primary — 322 (45%)",
+      "UNC – Lapsed D — 60 (8%)",
+      "Pure D — 20 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          99,
-          94,
+          80,
+          117,
+          38,
           49,
-          62,
-          331,
-          56,
-          22
+          0,
+          25,
+          322,
+          60,
+          20
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ROCKFORD VILLAGE (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 29 (16%)",
-      "UNC – Lapsed R — 16 (9%)",
-      "Mixed – Active — 17 (9%)",
-      "Mixed – Lapsed — 11 (6%)",
-      "UNC – No Primary — 74 (41%)",
+      "Pure R — 25 (14%)",
+      "UNC – Lapsed R — 18 (10%)",
+      "Mixed – Active — 20 (11%)",
+      "Mixed – Lapsed — 6 (3%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 69 (39%)",
       "UNC – Lapsed D — 18 (10%)",
-      "Pure D — 17 (9%)"
+      "Pure D — 18 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          29,
-          16,
-          17,
-          11,
-          74,
+          25,
           18,
-          17
+          20,
+          6,
+          1,
+          4,
+          69,
+          18,
+          18
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "FREEPORT VILLAGE (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

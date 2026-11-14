@@ -4,7 +4,7 @@
   "precinct": "PRECINCT MILLER",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -22,8 +22,8 @@
         "data": [
           3,
           31,
-          78,
-          75,
+          77,
+          73,
           58,
           39,
           33,
@@ -82,13 +82,29 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           0,
           4,
           2,
-          8,
+          7,
           3,
           4,
           0
@@ -100,14 +116,14 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          2,
+          1,
           1,
           16,
           23,
-          19,
-          37,
-          61,
-          59
+          20,
+          38,
+          64,
+          60
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -121,7 +137,7 @@
           5,
           11,
           6,
-          6,
+          8,
           2,
           0
         ],

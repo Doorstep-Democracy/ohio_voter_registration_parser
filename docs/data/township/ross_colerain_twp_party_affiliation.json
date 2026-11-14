@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 232 (19%)",
-      "UNC – Lapsed R — 120 (10%)",
-      "Mixed – Active — 105 (8%)",
-      "Mixed – Lapsed — 104 (8%)",
-      "UNC – No Primary — 497 (40%)",
-      "UNC – Lapsed D — 145 (12%)",
-      "Pure D — 46 (4%)"
+      "Pure R — 212 (17%)",
+      "UNC – Lapsed R — 143 (11%)",
+      "Mixed – Active — 104 (8%)",
+      "Mixed – Lapsed — 68 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 44 (4%)",
+      "UNC – No Primary — 493 (39%)",
+      "UNC – Lapsed D — 133 (11%)",
+      "Pure D — 56 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          232,
-          120,
-          105,
+          212,
+          143,
           104,
-          497,
-          145,
-          46
+          68,
+          1,
+          44,
+          493,
+          133,
+          56
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "COLERAIN TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

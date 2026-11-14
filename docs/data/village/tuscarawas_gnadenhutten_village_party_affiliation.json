@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 115 (13%)",
-      "UNC – Lapsed R — 61 (7%)",
-      "Mixed – Active — 73 (9%)",
-      "Mixed – Lapsed — 93 (11%)",
-      "UNC – No Primary — 341 (40%)",
-      "UNC – Lapsed D — 133 (16%)",
-      "Pure D — 42 (5%)"
+      "Pure R — 119 (14%)",
+      "UNC – Lapsed R — 72 (8%)",
+      "Mixed – Active — 75 (9%)",
+      "Mixed – Lapsed — 51 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 46 (5%)",
+      "UNC – No Primary — 343 (39%)",
+      "UNC – Lapsed D — 126 (14%)",
+      "Pure D — 47 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          115,
-          61,
-          73,
-          93,
-          341,
-          133,
-          42
+          119,
+          72,
+          75,
+          51,
+          0,
+          46,
+          343,
+          126,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GNADENHUTTEN VILLAGE (Tuscarawas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

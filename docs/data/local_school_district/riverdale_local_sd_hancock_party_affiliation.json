@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,206 (34%)",
+      "Pure R — 1,198 (33%)",
       "UNC – Lapsed R — 400 (11%)",
-      "Mixed – Active — 278 (8%)",
-      "Mixed – Lapsed — 243 (7%)",
-      "UNC – No Primary — 1,196 (33%)",
+      "Mixed – Active — 270 (7%)",
+      "Mixed – Lapsed — 94 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 146 (4%)",
+      "UNC – No Primary — 1,220 (34%)",
       "UNC – Lapsed D — 167 (5%)",
-      "Pure D — 106 (3%)"
+      "Pure D — 103 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1206,
+          1198,
           400,
-          278,
-          243,
-          1196,
+          270,
+          94,
+          5,
+          146,
+          1220,
           167,
-          106
+          103
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Riverdale Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

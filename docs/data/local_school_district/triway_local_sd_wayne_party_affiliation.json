@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,561 (20%)",
-      "UNC – Lapsed R — 1,354 (18%)",
-      "Mixed – Active — 569 (7%)",
-      "Mixed – Lapsed — 668 (9%)",
-      "UNC – No Primary — 2,629 (34%)",
-      "UNC – Lapsed D — 536 (7%)",
-      "Pure D — 322 (4%)"
+      "Pure R — 1,554 (20%)",
+      "UNC – Lapsed R — 1,349 (18%)",
+      "Mixed – Active — 556 (7%)",
+      "Mixed – Lapsed — 392 (5%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 272 (4%)",
+      "UNC – No Primary — 2,692 (35%)",
+      "UNC – Lapsed D — 538 (7%)",
+      "Pure D — 324 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1561,
-          1354,
-          569,
-          668,
-          2629,
-          536,
-          322
+          1554,
+          1349,
+          556,
+          392,
+          11,
+          272,
+          2692,
+          538,
+          324
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Triway Local Sd (Wayne Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

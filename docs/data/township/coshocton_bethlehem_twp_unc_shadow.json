@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 75",
-      "Mixed – Active — 110",
-      "Mixed – Lapsed — 45",
-      "UNC – No Primary — 187",
-      "UNC – Lapsed D — 57"
+      "UNC – Lapsed R — 85",
+      "Mixed – Active — 116",
+      "Mixed – Lapsed — 25",
+      "UNC – Non-partisan Ballot — 20",
+      "UNC – No Primary — 180",
+      "UNC – Lapsed D — 49"
     ],
     "datasets": [
       {
         "data": [
-          75,
-          110,
-          45,
-          187,
-          57
+          85,
+          116,
+          25,
+          20,
+          180,
+          49
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BETHLEHEM TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

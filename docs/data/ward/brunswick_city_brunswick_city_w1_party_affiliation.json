@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 722 (12%)",
-      "UNC – Lapsed R — 771 (12%)",
-      "Mixed – Active — 526 (8%)",
-      "Mixed – Lapsed — 272 (4%)",
-      "UNC – Non-partisan Ballot — 954 (15%)",
-      "UNC – No Primary — 1,748 (28%)",
-      "UNC – Lapsed D — 721 (12%)",
-      "Pure D — 485 (8%)"
+      "Pure R — 710 (11%)",
+      "UNC – Lapsed R — 781 (12%)",
+      "Mixed – Active — 522 (8%)",
+      "Mixed – Lapsed — 281 (4%)",
+      "Minor Party — 16 (0%)",
+      "UNC – Non-partisan Ballot — 942 (15%)",
+      "UNC – No Primary — 1,806 (29%)",
+      "UNC – Lapsed D — 723 (12%)",
+      "Pure D — 475 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          722,
-          771,
-          526,
-          272,
-          954,
-          1748,
-          721,
-          485
+          710,
+          781,
+          522,
+          281,
+          16,
+          942,
+          1806,
+          723,
+          475
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "Brunswick City W1 (BRUNSWICK City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

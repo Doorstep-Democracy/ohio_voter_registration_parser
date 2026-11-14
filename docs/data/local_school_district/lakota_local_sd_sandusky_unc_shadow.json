@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 558",
-      "Mixed – Active — 352",
-      "Mixed – Lapsed — 337",
-      "UNC – No Primary — 1,557",
-      "UNC – Lapsed D — 366"
+      "UNC – Lapsed R — 552",
+      "Mixed – Active — 348",
+      "Mixed – Lapsed — 216",
+      "UNC – Non-partisan Ballot — 116",
+      "UNC – No Primary — 1,589",
+      "UNC – Lapsed D — 367"
     ],
     "datasets": [
       {
         "data": [
-          558,
-          352,
-          337,
-          1557,
-          366
+          552,
+          348,
+          216,
+          116,
+          1589,
+          367
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Lakota Local Sd (Sandusky Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -73,11 +73,14 @@ import polars as pl
 import captain_db  # SQLite write tier — captain identity, touches, walk lists
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+from pipeline.paths import ENRICHED_CACHE as _DEFAULT_ENRICHED_CACHE  # noqa: E402
 # Config-driven: ROSTER_ENRICHED_CACHE overrides the localhost default so a
 # hosted deploy can point at a different mount with zero code change.
 ENRICHED_CACHE = Path(os.environ.get(
     "ROSTER_ENRICHED_CACHE",
-    str(BASE_DIR / "local" / "source" / "parquet_enriched" / "enriched_voters.parquet"),
+    str(_DEFAULT_ENRICHED_CACHE),
 ))
 # As of 2026-06-21 the UI is docs/index.htm + captain/captain-mode.js — this
 # API is JSON-only. (Earlier prototype served preview.html / pc.html here; those
@@ -192,13 +195,13 @@ def _resolve_dist_name(county_number: str, precinct_name: str) -> str | None:
         _crosswalk_cache[slug] = xwalk
     return xwalk.resolve_dist_name(precinct_name)
 
-# The 8 cohort_family values that back the 8 chart slices. A roster request
+# The 9 cohort_family values that back the 9 chart slices. A roster request
 # carries the cohort the user clicked; we validate against this set so a typo'd
 # cohort yields an empty roster, not an unfiltered name dump. A slice missing
 # here is not a cosmetic gap: the captain taps its bar and gets an empty
 # roster back, so this set must track COHORT_SLICES exactly.
 VALID_COHORTS = {
-    "PURE_R", "UNC_LAPSED_R", "MIXED_ACTIVE", "MIXED_LAPSED",
+    "PURE_R", "UNC_LAPSED_R", "MIXED_ACTIVE", "MIXED_LAPSED", "MINOR_PARTY",
     "UNC_NONPARTISAN", "UNC_NO_PRIMARY", "UNC_LAPSED_D", "PURE_D",
 }
 
@@ -212,6 +215,8 @@ COHORT_SPEC = [
     ("UNC_LAPSED_R",    "Lapsed Republican",      "#fca5a5"),
     ("MIXED_ACTIVE",    "Mixed – Active",         "#f59e0b"),
     ("MIXED_LAPSED",    "Mixed – Lapsed",         "#a78bfa"),
+    # Libertarian, Green and other non-R/D parties, by affiliation or ballot.
+    ("MINOR_PARTY",     "Minor Party",            "#14b8a6"),
     # Turned out, but only ever for the non-partisan ballot (issues, levies,
     # judicial). Plain-language label: a captain needs "what did they do",
     # not the taxonomy slug.

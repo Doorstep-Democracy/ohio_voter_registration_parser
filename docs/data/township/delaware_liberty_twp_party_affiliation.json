@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,195 (19%)",
-      "UNC – Lapsed R — 3,462 (12%)",
-      "Mixed – Active — 2,420 (9%)",
-      "Mixed – Lapsed — 2,369 (9%)",
-      "UNC – No Primary — 9,814 (35%)",
-      "UNC – Lapsed D — 2,319 (8%)",
-      "Pure D — 2,164 (8%)"
+      "Pure R — 5,054 (18%)",
+      "UNC – Lapsed R — 3,707 (13%)",
+      "Mixed – Active — 2,551 (9%)",
+      "Mixed – Lapsed — 1,186 (4%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 1,193 (4%)",
+      "UNC – No Primary — 10,100 (35%)",
+      "UNC – Lapsed D — 2,317 (8%)",
+      "Pure D — 2,492 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          5195,
-          3462,
-          2420,
-          2369,
-          9814,
-          2319,
-          2164
+          5054,
+          3707,
+          2551,
+          1186,
+          24,
+          1193,
+          10100,
+          2317,
+          2492
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

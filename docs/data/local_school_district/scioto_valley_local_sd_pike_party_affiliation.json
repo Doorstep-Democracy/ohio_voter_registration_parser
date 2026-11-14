@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 613 (12%)",
-      "UNC – Lapsed R — 516 (10%)",
-      "Mixed – Active — 394 (8%)",
-      "Mixed – Lapsed — 293 (6%)",
-      "UNC – No Primary — 2,392 (46%)",
-      "UNC – Lapsed D — 710 (14%)",
-      "Pure D — 237 (5%)"
+      "Pure R — 609 (12%)",
+      "UNC – Lapsed R — 512 (10%)",
+      "Mixed – Active — 391 (8%)",
+      "Mixed – Lapsed — 240 (5%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 54 (1%)",
+      "UNC – No Primary — 2,414 (47%)",
+      "UNC – Lapsed D — 709 (14%)",
+      "Pure D — 233 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          613,
-          516,
-          394,
-          293,
-          2392,
-          710,
-          237
+          609,
+          512,
+          391,
+          240,
+          6,
+          54,
+          2414,
+          709,
+          233
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Scioto Valley Local Sd (Pike Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

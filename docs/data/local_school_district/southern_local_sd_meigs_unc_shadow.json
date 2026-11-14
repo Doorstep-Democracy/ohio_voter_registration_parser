@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 520",
-      "Mixed – Active — 317",
-      "Mixed – Lapsed — 177",
-      "UNC – No Primary — 1,003",
-      "UNC – Lapsed D — 203"
+      "UNC – Lapsed R — 522",
+      "Mixed – Active — 314",
+      "Mixed – Lapsed — 165",
+      "UNC – Non-partisan Ballot — 10",
+      "UNC – No Primary — 1,026",
+      "UNC – Lapsed D — 206"
     ],
     "datasets": [
       {
         "data": [
-          520,
-          317,
-          177,
-          1003,
-          203
+          522,
+          314,
+          165,
+          10,
+          1026,
+          206
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Southern Local Sd (Meigs Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

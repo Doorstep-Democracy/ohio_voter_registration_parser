@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 23",
-      "Mixed – Active — 43",
-      "Mixed – Lapsed — 20",
-      "UNC – No Primary — 64",
-      "UNC – Lapsed D — 18"
+      "UNC – Lapsed R — 27",
+      "Mixed – Active — 40",
+      "Mixed – Lapsed — 15",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 66",
+      "UNC – Lapsed D — 16"
     ],
     "datasets": [
       {
         "data": [
-          23,
-          43,
-          20,
-          64,
-          18
+          27,
+          40,
+          15,
+          9,
+          66,
+          16
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SHARON TOWNSHIP (Noble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

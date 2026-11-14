@@ -4,7 +4,7 @@
   "precinct": "PRECINCT YGN2 B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -44,7 +44,7 @@
           0,
           1,
           1,
-          1,
+          0,
           0,
           0
         ],
@@ -78,11 +78,28 @@
           0,
           1,
           0,
-          0,
+          1,
           2,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -108,13 +125,13 @@
         "data": [
           0,
           1,
-          9,
+          10,
           16,
-          38,
-          44,
-          59,
-          74,
-          59
+          39,
+          47,
+          69,
+          81,
+          73
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -123,14 +140,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          14,
+          2,
+          13,
           21,
-          29,
-          37,
-          24,
-          21,
-          19,
+          30,
+          39,
+          26,
+          23,
+          20,
           3
         ],
         "backgroundColor": "#93c5fd",
@@ -141,10 +158,10 @@
         "label": "Pure D",
         "data": [
           1,
-          14,
+          13,
           22,
           76,
-          26,
+          27,
           25,
           9,
           2,

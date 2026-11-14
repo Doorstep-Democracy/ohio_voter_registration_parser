@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8,692 (10%)",
-      "UNC – Lapsed R — 8,090 (9%)",
-      "Mixed – Active — 10,238 (12%)",
-      "Mixed – Lapsed — 8,175 (9%)",
-      "UNC – No Primary — 30,961 (35%)",
-      "UNC – Lapsed D — 11,638 (13%)",
-      "Pure D — 10,351 (12%)"
+      "Pure R — 7,385 (8%)",
+      "UNC – Lapsed R — 9,138 (10%)",
+      "Mixed – Active — 9,989 (11%)",
+      "Mixed – Lapsed — 5,107 (6%)",
+      "Minor Party — 156 (0%)",
+      "UNC – Non-partisan Ballot — 3,220 (4%)",
+      "UNC – No Primary — 30,801 (35%)",
+      "UNC – Lapsed D — 11,208 (13%)",
+      "Pure D — 11,852 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          8692,
-          8090,
-          10238,
-          8175,
-          30961,
-          11638,
-          10351
+          7385,
+          9138,
+          9989,
+          5107,
+          156,
+          3220,
+          30801,
+          11208,
+          11852
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "ROCKY-RIVER (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -16,11 +16,11 @@
         "label": "Pure R",
         "data": [
           2,
-          6,
+          3,
           5,
-          11,
-          2,
-          5,
+          10,
+          3,
+          4,
           0
         ],
         "backgroundColor": "#ef4444",
@@ -30,11 +30,11 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
+          3,
+          6,
+          4,
           1,
-          3,
-          3,
-          2,
-          3,
+          4,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -43,7 +43,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          4,
+          3,
           6,
           3,
           2,
@@ -57,27 +57,55 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          1,
-          1,
           2,
           1,
+          1,
+          3,
+          1,
           2,
-          1
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           3,
-          5,
-          8,
+          4,
+          7,
           10,
           13,
           16,
-          12
+          15
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -86,9 +114,9 @@
         "label": "UNC – Lapsed D",
         "data": [
           1,
-          2,
-          2,
-          5,
+          1,
+          4,
+          4,
           3,
           0,
           0
@@ -101,7 +129,7 @@
         "data": [
           6,
           5,
-          4,
+          2,
           3,
           3,
           0,
@@ -112,8 +140,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "ZALESKI VILLAGE (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

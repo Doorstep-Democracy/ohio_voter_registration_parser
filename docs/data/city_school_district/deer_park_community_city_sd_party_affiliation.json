@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 861 (10%)",
-      "UNC – Lapsed R — 1,181 (13%)",
-      "Mixed – Active — 430 (5%)",
-      "Mixed – Lapsed — 739 (8%)",
-      "UNC – No Primary — 3,936 (45%)",
-      "UNC – Lapsed D — 1,165 (13%)",
-      "Pure D — 461 (5%)"
+      "Pure R — 812 (9%)",
+      "UNC – Lapsed R — 1,219 (14%)",
+      "Mixed – Active — 450 (5%)",
+      "Mixed – Lapsed — 420 (5%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 283 (3%)",
+      "UNC – No Primary — 3,867 (44%)",
+      "UNC – Lapsed D — 1,058 (12%)",
+      "Pure D — 728 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          861,
-          1181,
-          430,
-          739,
-          3936,
-          1165,
-          461
+          812,
+          1219,
+          450,
+          420,
+          24,
+          283,
+          3867,
+          1058,
+          728
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "DEER PARK COMMUNITY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

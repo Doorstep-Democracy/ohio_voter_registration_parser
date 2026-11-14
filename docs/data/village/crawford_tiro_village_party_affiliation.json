@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 12 (11%)",
-      "UNC – Lapsed R — 13 (12%)",
-      "Mixed – Active — 5 (4%)",
-      "Mixed – Lapsed — 8 (7%)",
-      "UNC – No Primary — 55 (49%)",
-      "UNC – Lapsed D — 18 (16%)",
-      "Pure D — 1 (1%)"
+      "Pure R — 10 (9%)",
+      "UNC – Lapsed R — 15 (14%)",
+      "Mixed – Active — 5 (5%)",
+      "Mixed – Lapsed — 5 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 4 (4%)",
+      "UNC – No Primary — 54 (49%)",
+      "UNC – Lapsed D — 15 (14%)",
+      "Pure D — 3 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          12,
-          13,
+          10,
+          15,
           5,
-          8,
-          55,
-          18,
-          1
+          5,
+          0,
+          4,
+          54,
+          15,
+          3
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "TIRO VILLAGE (Crawford Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

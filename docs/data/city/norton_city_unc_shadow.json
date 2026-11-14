@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 893",
-      "Mixed – Active — 903",
-      "Mixed – Lapsed — 796",
-      "UNC – No Primary — 3,013",
-      "UNC – Lapsed D — 1,124"
+      "UNC – Lapsed R — 811",
+      "Mixed – Active — 1,042",
+      "Mixed – Lapsed — 418",
+      "UNC – Non-partisan Ballot — 330",
+      "UNC – No Primary — 2,801",
+      "UNC – Lapsed D — 903"
     ],
     "datasets": [
       {
         "data": [
-          893,
-          903,
-          796,
-          3013,
-          1124
+          811,
+          1042,
+          418,
+          330,
+          2801,
+          903
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "NORTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

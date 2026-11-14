@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 65",
-      "Mixed – Active — 19",
-      "Mixed – Lapsed — 22",
-      "UNC – No Primary — 121",
-      "UNC – Lapsed D — 11"
+      "UNC – Lapsed R — 72",
+      "Mixed – Active — 17",
+      "Mixed – Lapsed — 12",
+      "UNC – Non-partisan Ballot — 13",
+      "UNC – No Primary — 117",
+      "UNC – Lapsed D — 10"
     ],
     "datasets": [
       {
         "data": [
-          65,
-          19,
-          22,
-          121,
-          11
+          72,
+          17,
+          12,
+          13,
+          117,
+          10
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SALEM TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

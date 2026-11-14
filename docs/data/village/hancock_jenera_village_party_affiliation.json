@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 47 (31%)",
-      "UNC – Lapsed R — 15 (10%)",
-      "Mixed – Active — 6 (4%)",
-      "Mixed – Lapsed — 12 (8%)",
-      "UNC – No Primary — 61 (40%)",
-      "UNC – Lapsed D — 7 (5%)",
-      "Pure D — 4 (3%)"
+      "UNC – Lapsed R — 16 (11%)",
+      "Mixed – Active — 5 (3%)",
+      "Mixed – Lapsed — 4 (3%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 7 (5%)",
+      "UNC – No Primary — 60 (40%)",
+      "UNC – Lapsed D — 6 (4%)",
+      "Pure D — 5 (3%)"
     ],
     "datasets": [
       {
         "data": [
           47,
-          15,
-          6,
-          12,
-          61,
+          16,
+          5,
+          4,
+          1,
           7,
-          4
+          60,
+          6,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "JENERA VILLAGE (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

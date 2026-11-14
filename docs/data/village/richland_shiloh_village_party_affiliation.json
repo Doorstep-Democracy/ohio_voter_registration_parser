@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 51 (16%)",
-      "UNC – Lapsed R — 34 (10%)",
+      "Pure R — 55 (17%)",
+      "UNC – Lapsed R — 32 (10%)",
       "Mixed – Active — 21 (6%)",
-      "Mixed – Lapsed — 26 (8%)",
-      "UNC – No Primary — 151 (46%)",
-      "UNC – Lapsed D — 31 (10%)",
+      "Mixed – Lapsed — 8 (2%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 18 (6%)",
+      "UNC – No Primary — 149 (46%)",
+      "UNC – Lapsed D — 28 (9%)",
       "Pure D — 11 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          51,
-          34,
+          55,
+          32,
           21,
-          26,
-          151,
-          31,
+          8,
+          2,
+          18,
+          149,
+          28,
           11
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SHILOH VILLAGE (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

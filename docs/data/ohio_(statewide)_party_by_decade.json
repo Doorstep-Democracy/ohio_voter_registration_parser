@@ -3,8 +3,8 @@
   "county": "Ohio (Statewide)",
   "geography": "county",
   "type": "bar",
-  "updated": "2026-05-02",
-  "note": "Analysis run 2026-05-02 \u2014 Ohio Secretary of State SWVF voter file",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "chartConfig": {
     "labels": [
       "1900s",
@@ -21,58 +21,175 @@
     ],
     "datasets": [
       {
-        "label": "REP",
+        "label": "Pure R",
         "data": [
           0,
-          6,
-          2781,
-          52363,
-          220370,
-          383433,
-          332822,
-          201868,
-          137446,
-          69142,
-          35972
+          4,
+          1407,
+          30232,
+          132104,
+          243908,
+          224241,
+          137751,
+          101460,
+          61268,
+          39814
         ],
         "backgroundColor": "#ef4444",
-        "borderRadius": 3
+        "borderRadius": 3,
+        "stack": "r_pure"
       },
       {
-        "label": "DEM",
+        "label": "UNC – Lapsed R",
+        "data": [
+          1,
+          9,
+          2163,
+          24757,
+          67938,
+          121715,
+          176586,
+          159702,
+          141179,
+          106053,
+          17998
+        ],
+        "backgroundColor": "#fca5a5",
+        "borderRadius": 3,
+        "stack": "unc_r"
+      },
+      {
+        "label": "Mixed – Active",
         "data": [
           0,
-          9,
-          2210,
-          31175,
-          133847,
-          216236,
-          136386,
-          93017,
-          87057,
-          56847,
-          23702
+          2,
+          936,
+          20213,
+          106879,
+          188012,
+          140901,
+          79951,
+          51184,
+          17351,
+          2112
         ],
-        "backgroundColor": "#3b82f6",
-        "borderRadius": 3
+        "backgroundColor": "#f59e0b",
+        "borderRadius": 3,
+        "stack": "unc_mid"
       },
       {
-        "label": "UNC",
+        "label": "Mixed – Lapsed",
         "data": [
-          2,
-          68,
-          7559,
-          79473,
-          261332,
-          566357,
-          808505,
-          890551,
-          1055734,
-          1196420,
-          809863
+          0,
+          5,
+          1138,
+          14276,
+          42880,
+          66513,
+          74303,
+          58627,
+          38571,
+          11246,
+          553
+        ],
+        "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          7,
+          183,
+          933,
+          2442,
+          2602,
+          2742,
+          3136,
+          2359,
+          937
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          246,
+          3402,
+          14685,
+          33048,
+          48655,
+          59109,
+          60475,
+          37973,
+          20768
+        ],
+        "backgroundColor": "#c4b5cd",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          0,
+          21,
+          1000,
+          13689,
+          63917,
+          179445,
+          311232,
+          422712,
+          619831,
+          910513,
+          818130
         ],
         "backgroundColor": "#9ca3af",
-        "borderRadius": 3
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Lapsed D",
+        "data": [
+          1,
+          22,
+          2461,
+          25233,
+          76402,
+          147020,
+          175694,
+          178865,
+          183102,
+          122598,
+          21540
+        ],
+        "backgroundColor": "#93c5fd",
+        "borderRadius": 3,
+        "stack": "unc_d"
+      },
+      {
+        "label": "Pure D",
+        "data": [
+          0,
+          4,
+          1250,
+          20261,
+          97452,
+          178451,
+          126209,
+          94697,
+          97324,
+          78507,
+          46594
+        ],
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 3,
+        "stack": "d_pure"
       }
     ]
   }

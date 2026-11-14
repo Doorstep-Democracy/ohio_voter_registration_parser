@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          8,
-          224,
-          745,
-          1187,
-          953,
-          510,
-          387,
-          226,
-          157
+          6,
+          217,
+          734,
+          1184,
+          954,
+          508,
+          384,
+          222,
+          154
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          15,
-          137,
-          304,
-          487,
-          624,
-          520,
+          12,
+          126,
+          298,
+          490,
+          629,
+          524,
           486,
-          442,
-          54
+          441,
+          55
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           7,
-          165,
-          760,
-          1151,
-          799,
+          160,
+          748,
+          1142,
+          791,
           424,
-          295,
-          117,
-          14
+          290,
+          116,
+          13
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          10,
-          108,
-          288,
-          413,
-          521,
-          494,
-          365,
-          222,
-          60
+          12,
+          95,
+          231,
+          309,
+          341,
+          255,
+          159,
+          56,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          4,
+          2,
+          12,
+          3,
+          14,
+          11,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          12,
+          59,
+          112,
+          182,
+          237,
+          209,
+          171,
+          59
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           4,
-          66,
-          250,
-          700,
-          1104,
-          1396,
-          2127,
-          3077,
-          2531
+          65,
+          245,
+          718,
+          1121,
+          1438,
+          2167,
+          3158,
+          2805
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          21,
-          162,
-          425,
-          723,
-          869,
-          853,
+          17,
+          152,
+          418,
+          720,
+          883,
+          865,
           803,
-          438,
-          98
+          444,
+          95
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          9,
-          154,
-          676,
-          1150,
-          678,
+          5,
+          158,
+          671,
+          1149,
+          669,
           550,
           500,
-          369,
-          241
+          358,
+          231
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Plain Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

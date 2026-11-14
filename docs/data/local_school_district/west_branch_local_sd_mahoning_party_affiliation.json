@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,605 (20%)",
-      "UNC – Lapsed R — 1,085 (13%)",
-      "Mixed – Active — 1,031 (13%)",
-      "Mixed – Lapsed — 753 (9%)",
-      "UNC – No Primary — 2,732 (33%)",
-      "UNC – Lapsed D — 634 (8%)",
-      "Pure D — 337 (4%)"
+      "Pure R — 1,582 (19%)",
+      "UNC – Lapsed R — 1,082 (13%)",
+      "Mixed – Active — 1,021 (12%)",
+      "Mixed – Lapsed — 399 (5%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 341 (4%)",
+      "UNC – No Primary — 2,790 (34%)",
+      "UNC – Lapsed D — 633 (8%)",
+      "Pure D — 336 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1605,
-          1085,
-          1031,
-          753,
-          2732,
-          634,
-          337
+          1582,
+          1082,
+          1021,
+          399,
+          13,
+          341,
+          2790,
+          633,
+          336
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "West Branch Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

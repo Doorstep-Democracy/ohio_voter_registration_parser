@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 18 (11%)",
-      "UNC – Lapsed R — 19 (11%)",
-      "Mixed – Active — 12 (7%)",
-      "Mixed – Lapsed — 9 (5%)",
-      "UNC – No Primary — 80 (47%)",
-      "UNC – Lapsed D — 26 (15%)",
-      "Pure D — 6 (4%)"
+      "Pure R — 16 (10%)",
+      "UNC – Lapsed R — 18 (11%)",
+      "Mixed – Active — 14 (8%)",
+      "Mixed – Lapsed — 7 (4%)",
+      "Minor Party — 3 (2%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 78 (47%)",
+      "UNC – Lapsed D — 24 (14%)",
+      "Pure D — 5 (3%)"
     ],
     "datasets": [
       {
         "data": [
+          16,
           18,
-          19,
-          12,
-          9,
-          80,
-          26,
-          6
+          14,
+          7,
+          3,
+          2,
+          78,
+          24,
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MAGNOLIA VILLAGE (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

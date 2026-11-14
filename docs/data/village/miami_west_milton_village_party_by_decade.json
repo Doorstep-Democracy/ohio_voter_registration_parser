@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          25,
-          117,
-          153,
+          2,
+          23,
+          114,
           151,
-          121,
-          96,
-          59,
-          28
+          146,
+          113,
+          98,
+          63,
+          37
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
-          19,
-          54,
-          67,
-          62,
-          65,
-          57,
-          57,
-          5
+          6,
+          18,
+          45,
+          75,
+          70,
+          77,
+          61,
+          63,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          18,
-          43,
+          16,
+          45,
           48,
-          50,
-          43,
-          29,
+          45,
+          44,
+          32,
           3,
           0
         ],
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
+          0,
+          11,
+          20,
+          24,
+          23,
+          14,
           13,
-          27,
-          30,
-          33,
-          42,
-          51,
-          36,
-          43
+          1,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          6,
+          8,
+          14,
+          29,
+          34,
+          33,
+          38
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          17,
+          16,
           29,
-          84,
-          121,
-          153,
-          247,
-          343,
-          314
+          81,
+          115,
+          148,
+          242,
+          340,
+          331
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          7,
-          20,
-          38,
+          0,
+          8,
+          18,
+          36,
+          28,
+          42,
           30,
-          46,
-          33,
-          26,
-          4
+          28,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          8,
+          1,
+          4,
+          23,
+          33,
           20,
-          30,
+          17,
           19,
-          12,
-          18,
-          15,
-          4
+          20,
+          14
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "WEST MILTON VILLAGE (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

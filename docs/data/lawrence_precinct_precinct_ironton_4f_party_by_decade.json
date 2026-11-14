@@ -4,10 +4,9 @@
   "precinct": "PRECINCT IRONTON 4F",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -21,8 +20,7 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          3,
+          2,
           13,
           20,
           15,
@@ -38,12 +36,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
           4,
           4,
           13,
           13,
-          11,
+          12,
           11,
           7,
           4
@@ -55,7 +52,6 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           0,
           7,
           7,
@@ -72,9 +68,8 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
           2,
-          7,
+          6,
           7,
           10,
           13,
@@ -87,9 +82,24 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
           0,
           0,
           0,
@@ -107,14 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          0,
           3,
-          6,
+          7,
           11,
-          20,
           19,
-          28,
-          37
+          19,
+          27,
+          38
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -123,14 +132,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           1,
           4,
           5,
           5,
           9,
           5,
-          3,
+          5,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -140,7 +148,6 @@
       {
         "label": "Pure D",
         "data": [
-          0,
           0,
           3,
           9,

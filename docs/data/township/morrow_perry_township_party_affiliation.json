@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 237 (27%)",
-      "UNC – Lapsed R — 85 (10%)",
-      "Mixed – Active — 79 (9%)",
-      "Mixed – Lapsed — 62 (7%)",
-      "UNC – No Primary — 321 (37%)",
-      "UNC – Lapsed D — 72 (8%)",
-      "Pure D — 19 (2%)"
+      "Pure R — 204 (23%)",
+      "UNC – Lapsed R — 124 (14%)",
+      "Mixed – Active — 73 (8%)",
+      "Mixed – Lapsed — 43 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 26 (3%)",
+      "UNC – No Primary — 323 (37%)",
+      "UNC – Lapsed D — 66 (7%)",
+      "Pure D — 24 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          237,
-          85,
-          79,
-          62,
-          321,
-          72,
-          19
+          204,
+          124,
+          73,
+          43,
+          0,
+          26,
+          323,
+          66,
+          24
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PERRY TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

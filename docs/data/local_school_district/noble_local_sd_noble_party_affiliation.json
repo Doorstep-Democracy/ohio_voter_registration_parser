@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 721 (19%)",
-      "UNC – Lapsed R — 508 (13%)",
+      "Pure R — 712 (18%)",
+      "UNC – Lapsed R — 512 (13%)",
       "Mixed – Active — 430 (11%)",
-      "Mixed – Lapsed — 302 (8%)",
-      "UNC – No Primary — 1,192 (31%)",
-      "UNC – Lapsed D — 516 (13%)",
-      "Pure D — 195 (5%)"
+      "Mixed – Lapsed — 250 (6%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 49 (1%)",
+      "UNC – No Primary — 1,215 (31%)",
+      "UNC – Lapsed D — 511 (13%)",
+      "Pure D — 193 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          721,
-          508,
+          712,
+          512,
           430,
-          302,
-          1192,
-          516,
-          195
+          250,
+          2,
+          49,
+          1215,
+          511,
+          193
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Noble Local Sd (Noble Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

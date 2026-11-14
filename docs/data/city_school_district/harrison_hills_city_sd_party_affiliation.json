@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,277 (16%)",
-      "UNC – Lapsed R — 680 (8%)",
-      "Mixed – Active — 1,209 (15%)",
-      "Mixed – Lapsed — 484 (6%)",
-      "UNC – No Primary — 2,854 (36%)",
-      "UNC – Lapsed D — 955 (12%)",
-      "Pure D — 553 (7%)"
+      "Pure R — 1,192 (15%)",
+      "UNC – Lapsed R — 770 (10%)",
+      "Mixed – Active — 1,148 (14%)",
+      "Mixed – Lapsed — 477 (6%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 88 (1%)",
+      "UNC – No Primary — 2,872 (36%)",
+      "UNC – Lapsed D — 945 (12%)",
+      "Pure D — 541 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1277,
-          680,
-          1209,
-          484,
-          2854,
-          955,
-          553
+          1192,
+          770,
+          1148,
+          477,
+          5,
+          88,
+          2872,
+          945,
+          541
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "HARRISON HILLS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

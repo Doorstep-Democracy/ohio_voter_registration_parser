@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 474 (16%)",
-      "UNC – Lapsed R — 251 (8%)",
-      "Mixed – Active — 521 (17%)",
-      "Mixed – Lapsed — 320 (11%)",
-      "UNC – No Primary — 752 (25%)",
-      "UNC – Lapsed D — 314 (10%)",
-      "Pure D — 377 (13%)"
+      "Pure R — 469 (16%)",
+      "UNC – Lapsed R — 253 (8%)",
+      "Mixed – Active — 517 (17%)",
+      "Mixed – Lapsed — 144 (5%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 175 (6%)",
+      "UNC – No Primary — 770 (26%)",
+      "UNC – Lapsed D — 312 (10%)",
+      "Pure D — 373 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          474,
-          251,
-          521,
-          320,
-          752,
-          314,
-          377
+          469,
+          253,
+          517,
+          144,
+          5,
+          175,
+          770,
+          312,
+          373
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Cuyahoga Heights Local Sd (Cuy Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

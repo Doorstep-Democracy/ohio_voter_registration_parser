@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,948 (12%)",
-      "UNC – Lapsed R — 4,953 (12%)",
-      "Mixed – Active — 4,065 (10%)",
-      "Mixed – Lapsed — 4,889 (12%)",
-      "UNC – No Primary — 14,205 (34%)",
-      "UNC – Lapsed D — 5,158 (12%)",
-      "Pure D — 3,108 (8%)"
+      "Pure R — 4,739 (11%)",
+      "UNC – Lapsed R — 5,258 (13%)",
+      "Mixed – Active — 4,335 (10%)",
+      "Mixed – Lapsed — 2,482 (6%)",
+      "Minor Party — 84 (0%)",
+      "UNC – Non-partisan Ballot — 2,086 (5%)",
+      "UNC – No Primary — 13,996 (33%)",
+      "UNC – Lapsed D — 4,655 (11%)",
+      "Pure D — 4,184 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          4948,
-          4953,
-          4065,
-          4889,
-          14205,
-          5158,
-          3108
+          4739,
+          5258,
+          4335,
+          2482,
+          84,
+          2086,
+          13996,
+          4655,
+          4184
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "AVON-LAKE (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

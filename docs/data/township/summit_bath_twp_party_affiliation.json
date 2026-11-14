@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,122 (14%)",
-      "UNC – Lapsed R — 1,062 (13%)",
-      "Mixed – Active — 811 (10%)",
-      "Mixed – Lapsed — 807 (10%)",
-      "UNC – No Primary — 2,588 (33%)",
-      "UNC – Lapsed D — 943 (12%)",
-      "Pure D — 588 (7%)"
+      "Pure R — 1,029 (13%)",
+      "UNC – Lapsed R — 1,171 (15%)",
+      "Mixed – Active — 793 (10%)",
+      "Mixed – Lapsed — 484 (6%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 336 (4%)",
+      "UNC – No Primary — 2,569 (32%)",
+      "UNC – Lapsed D — 918 (11%)",
+      "Pure D — 688 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1122,
-          1062,
-          811,
-          807,
-          2588,
-          943,
-          588
+          1029,
+          1171,
+          793,
+          484,
+          11,
+          336,
+          2569,
+          918,
+          688
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BATH TWP (Summit Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

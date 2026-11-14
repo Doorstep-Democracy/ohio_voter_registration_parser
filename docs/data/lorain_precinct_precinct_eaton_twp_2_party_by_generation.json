@@ -4,7 +4,7 @@
   "precinct": "PRECINCT EATON TWP #2",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,9 +19,9 @@
         "label": "Pure R",
         "data": [
           9,
-          68,
+          66,
           31,
-          25,
+          24,
           9
         ],
         "backgroundColor": "#ef4444",
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           6,
-          36,
+          39,
           16,
-          22,
+          21,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -58,8 +58,8 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          22,
-          11,
+          24,
+          13,
           5,
           1
         ],
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
           14,
-          16,
-          8,
+          15,
+          7,
           2
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          34,
-          55,
+          31,
+          57,
           88,
-          62
+          63
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,7 +110,7 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          21,
+          25,
           21,
           23,
           1

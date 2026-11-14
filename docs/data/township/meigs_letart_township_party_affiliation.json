@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 96 (21%)",
-      "UNC – Lapsed R — 81 (17%)",
-      "Mixed – Active — 32 (7%)",
-      "Mixed – Lapsed — 26 (6%)",
-      "UNC – No Primary — 192 (41%)",
-      "UNC – Lapsed D — 31 (7%)",
-      "Pure D — 10 (2%)"
+      "Pure R — 112 (24%)",
+      "UNC – Lapsed R — 74 (16%)",
+      "Mixed – Active — 41 (9%)",
+      "Mixed – Lapsed — 21 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 0 (0%)",
+      "UNC – No Primary — 186 (39%)",
+      "UNC – Lapsed D — 28 (6%)",
+      "Pure D — 11 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          96,
-          81,
-          32,
-          26,
-          192,
-          31,
-          10
+          112,
+          74,
+          41,
+          21,
+          0,
+          0,
+          186,
+          28,
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LETART TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
+          0,
           10,
-          39,
-          89,
-          66,
-          42,
-          24,
-          5,
-          8
+          40,
+          76,
+          55,
+          37,
+          20,
+          8,
+          9
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
+          2,
           4,
-          12,
-          26,
-          48,
-          37,
-          39,
-          20,
-          2
+          13,
+          42,
+          53,
+          45,
+          44,
+          17,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
+          11,
+          32,
+          69,
+          61,
           13,
-          36,
-          68,
-          62,
-          18,
-          15,
+          10,
           1,
           0
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          6,
-          17,
+          7,
+          7,
+          18,
           32,
-          44,
-          23,
-          17,
-          9,
-          5
+          15,
+          13,
+          2,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          7,
+          11,
+          13,
+          13,
+          9,
+          4,
+          6
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          5,
-          24,
-          49,
-          113,
-          127,
-          159,
-          245,
-          225
+          3,
+          21,
+          44,
+          112,
+          126,
+          157,
+          239,
+          238
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -100,10 +132,10 @@
           0,
           7,
           21,
-          46,
-          62,
-          52,
-          37,
+          33,
+          63,
+          48,
+          40,
           18,
           1
         ],
@@ -115,21 +147,21 @@
         "data": [
           0,
           3,
-          21,
-          19,
-          30,
-          15,
+          20,
+          28,
+          29,
+          17,
           7,
-          6,
-          1
+          11,
+          4
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SANDY (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

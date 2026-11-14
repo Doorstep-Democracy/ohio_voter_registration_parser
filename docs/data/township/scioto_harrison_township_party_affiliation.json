@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 402 (15%)",
-      "UNC – Lapsed R — 319 (12%)",
-      "Mixed – Active — 224 (9%)",
-      "Mixed – Lapsed — 160 (6%)",
-      "UNC – No Primary — 1,100 (42%)",
-      "UNC – Lapsed D — 314 (12%)",
-      "Pure D — 99 (4%)"
+      "Pure R — 454 (17%)",
+      "UNC – Lapsed R — 309 (12%)",
+      "Mixed – Active — 252 (10%)",
+      "Mixed – Lapsed — 111 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 35 (1%)",
+      "UNC – No Primary — 1,075 (41%)",
+      "UNC – Lapsed D — 278 (11%)",
+      "Pure D — 125 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          402,
-          319,
-          224,
-          160,
-          1100,
-          314,
-          99
+          454,
+          309,
+          252,
+          111,
+          3,
+          35,
+          1075,
+          278,
+          125
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

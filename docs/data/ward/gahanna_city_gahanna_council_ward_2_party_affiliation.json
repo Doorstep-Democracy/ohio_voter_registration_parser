@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 636 (9%)",
-      "UNC – Lapsed R — 783 (11%)",
+      "Pure R — 616 (9%)",
+      "UNC – Lapsed R — 784 (11%)",
       "Mixed – Active — 521 (8%)",
-      "Mixed – Lapsed — 374 (5%)",
-      "UNC – Non-partisan Ballot — 257 (4%)",
-      "UNC – No Primary — 2,380 (35%)",
-      "UNC – Lapsed D — 966 (14%)",
-      "Pure D — 930 (14%)"
+      "Mixed – Lapsed — 377 (5%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 260 (4%)",
+      "UNC – No Primary — 2,421 (35%)",
+      "UNC – Lapsed D — 967 (14%)",
+      "Pure D — 922 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          636,
-          783,
+          616,
+          784,
           521,
-          374,
-          257,
-          2380,
-          966,
-          930
+          377,
+          12,
+          260,
+          2421,
+          967,
+          922
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "GAHANNA COUNCIL WARD 2 (GAHANNA City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

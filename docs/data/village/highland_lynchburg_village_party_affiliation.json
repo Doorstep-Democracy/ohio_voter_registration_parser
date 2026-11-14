@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 203 (21%)",
+      "Pure R — 211 (22%)",
       "UNC – Lapsed R — 119 (12%)",
-      "Mixed – Active — 53 (6%)",
-      "Mixed – Lapsed — 38 (4%)",
-      "UNC – No Primary — 468 (49%)",
-      "UNC – Lapsed D — 62 (6%)",
-      "Pure D — 16 (2%)"
+      "Mixed – Active — 64 (7%)",
+      "Mixed – Lapsed — 19 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 10 (1%)",
+      "UNC – No Primary — 462 (48%)",
+      "UNC – Lapsed D — 56 (6%)",
+      "Pure D — 22 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          203,
+          211,
           119,
-          53,
-          38,
-          468,
-          62,
-          16
+          64,
+          19,
+          0,
+          10,
+          462,
+          56,
+          22
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LYNCHBURG VILLAGE (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

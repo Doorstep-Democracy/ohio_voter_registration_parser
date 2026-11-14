@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CLAY TWP",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -20,7 +20,7 @@
         "data": [
           2,
           16,
-          15,
+          14,
           5,
           2
         ],
@@ -32,10 +32,10 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          12,
+          11,
           11,
           19,
-          4
+          3
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           4,
-          26,
+          25,
           12,
           3,
           0
@@ -60,10 +60,23 @@
           0,
           16,
           8,
-          4,
+          5,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           2,
           19,
-          39,
+          40,
           59,
-          54
+          55
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

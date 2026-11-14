@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,667 (21%)",
-      "UNC – Lapsed R — 1,013 (13%)",
-      "Mixed – Active — 849 (11%)",
-      "Mixed – Lapsed — 795 (10%)",
-      "UNC – No Primary — 2,655 (33%)",
-      "UNC – Lapsed D — 683 (9%)",
-      "Pure D — 371 (5%)"
+      "Pure R — 1,640 (20%)",
+      "UNC – Lapsed R — 1,065 (13%)",
+      "Mixed – Active — 861 (11%)",
+      "Mixed – Lapsed — 380 (5%)",
+      "Minor Party — 26 (0%)",
+      "UNC – Non-partisan Ballot — 385 (5%)",
+      "UNC – No Primary — 2,624 (32%)",
+      "UNC – Lapsed D — 605 (7%)",
+      "Pure D — 500 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1667,
-          1013,
-          849,
-          795,
-          2655,
-          683,
-          371
+          1640,
+          1065,
+          861,
+          380,
+          26,
+          385,
+          2624,
+          605,
+          500
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MAD RIVER TOWNSHIP (Clark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

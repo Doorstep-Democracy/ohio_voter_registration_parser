@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 224 (6%)",
-      "UNC – Lapsed R — 243 (7%)",
-      "Mixed – Active — 414 (12%)",
-      "Mixed – Lapsed — 288 (8%)",
-      "UNC – No Primary — 1,530 (43%)",
-      "UNC – Lapsed D — 624 (17%)",
-      "Pure D — 276 (8%)"
+      "UNC – Lapsed R — 259 (7%)",
+      "Mixed – Active — 422 (12%)",
+      "Mixed – Lapsed — 230 (6%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 54 (1%)",
+      "UNC – No Primary — 1,552 (43%)",
+      "UNC – Lapsed D — 595 (16%)",
+      "Pure D — 291 (8%)"
     ],
     "datasets": [
       {
         "data": [
           224,
-          243,
-          414,
-          288,
-          1530,
-          624,
-          276
+          259,
+          422,
+          230,
+          8,
+          54,
+          1552,
+          595,
+          291
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "TORONTO CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

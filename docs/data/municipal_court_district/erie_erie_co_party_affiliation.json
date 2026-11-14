@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,451 (14%)",
-      "UNC – Lapsed R — 1,029 (10%)",
-      "Mixed – Active — 1,149 (11%)",
-      "Mixed – Lapsed — 1,182 (12%)",
-      "UNC – No Primary — 3,303 (33%)",
-      "UNC – Lapsed D — 1,330 (13%)",
-      "Pure D — 646 (6%)"
+      "Pure R — 1,367 (14%)",
+      "UNC – Lapsed R — 1,158 (11%)",
+      "Mixed – Active — 1,086 (11%)",
+      "Mixed – Lapsed — 630 (6%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 578 (6%)",
+      "UNC – No Primary — 3,285 (32%)",
+      "UNC – Lapsed D — 1,250 (12%)",
+      "Pure D — 737 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1451,
-          1029,
-          1149,
-          1182,
-          3303,
-          1330,
-          646
+          1367,
+          1158,
+          1086,
+          630,
+          24,
+          578,
+          3285,
+          1250,
+          737
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "ERIE-CO (Erie Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

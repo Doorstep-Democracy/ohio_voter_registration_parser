@@ -4,7 +4,7 @@
   "precinct": "BEXLEY 3-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -46,7 +46,7 @@
         "data": [
           1,
           27,
-          29,
+          28,
           25,
           0
         ],
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          13,
-          14,
+          12,
+          15,
           13,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           1,
           4,
           5,
-          6,
+          7,
           0
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          6,
-          24,
-          99,
-          74
+          8,
+          23,
+          102,
+          76
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           6,
           18,
           40,
-          41,
+          42,
           11
         ],
         "backgroundColor": "#93c5fd",
@@ -110,9 +123,9 @@
         "label": "Pure D",
         "data": [
           6,
-          43,
-          52,
-          72,
+          42,
+          51,
+          71,
           20
         ],
         "backgroundColor": "#3b82f6",

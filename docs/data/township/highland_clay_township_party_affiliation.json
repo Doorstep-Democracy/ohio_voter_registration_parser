@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 210 (21%)",
-      "UNC – Lapsed R — 157 (15%)",
-      "Mixed – Active — 60 (6%)",
-      "Mixed – Lapsed — 53 (5%)",
-      "UNC – No Primary — 471 (46%)",
-      "UNC – Lapsed D — 59 (6%)",
-      "Pure D — 11 (1%)"
+      "Pure R — 202 (20%)",
+      "UNC – Lapsed R — 165 (16%)",
+      "Mixed – Active — 62 (6%)",
+      "Mixed – Lapsed — 33 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 19 (2%)",
+      "UNC – No Primary — 479 (46%)",
+      "UNC – Lapsed D — 53 (5%)",
+      "Pure D — 19 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          210,
-          157,
-          60,
+          202,
+          165,
+          62,
+          33,
+          2,
+          19,
+          479,
           53,
-          471,
-          59,
-          11
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CLAY TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

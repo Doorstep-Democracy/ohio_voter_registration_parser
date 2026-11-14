@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 98",
-      "Mixed – Active — 66",
-      "Mixed – Lapsed — 46",
-      "UNC – No Primary — 346",
-      "UNC – Lapsed D — 109"
+      "UNC – Lapsed R — 93",
+      "Mixed – Active — 79",
+      "Mixed – Lapsed — 36",
+      "UNC – Non-partisan Ballot — 3",
+      "UNC – No Primary — 339",
+      "UNC – Lapsed D — 98"
     ],
     "datasets": [
       {
         "data": [
-          98,
-          66,
-          46,
-          346,
-          109
+          93,
+          79,
+          36,
+          3,
+          339,
+          98
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BEAVER TOWNSHIP (Pike Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

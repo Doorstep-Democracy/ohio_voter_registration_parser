@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 292 (14%)",
-      "UNC – Lapsed R — 185 (9%)",
-      "Mixed – Active — 208 (10%)",
-      "Mixed – Lapsed — 172 (8%)",
-      "UNC – No Primary — 820 (40%)",
-      "UNC – Lapsed D — 220 (11%)",
-      "Pure D — 139 (7%)"
+      "Pure R — 276 (13%)",
+      "UNC – Lapsed R — 201 (10%)",
+      "Mixed – Active — 219 (11%)",
+      "Mixed – Lapsed — 98 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 74 (4%)",
+      "UNC – No Primary — 814 (40%)",
+      "UNC – Lapsed D — 206 (10%)",
+      "Pure D — 158 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          292,
-          185,
-          208,
-          172,
-          820,
-          220,
-          139
+          276,
+          201,
+          219,
+          98,
+          2,
+          74,
+          814,
+          206,
+          158
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "JEFFERSON VILLAGE (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,281 (12%)",
-      "UNC – Lapsed R — 3,564 (10%)",
-      "Mixed – Active — 1,450 (4%)",
-      "Mixed – Lapsed — 2,173 (6%)",
-      "UNC – No Primary — 19,040 (54%)",
-      "UNC – Lapsed D — 3,823 (11%)",
-      "Pure D — 1,228 (3%)"
+      "Pure R — 4,304 (12%)",
+      "UNC – Lapsed R — 3,608 (10%)",
+      "Mixed – Active — 1,638 (5%)",
+      "Mixed – Lapsed — 892 (2%)",
+      "Minor Party — 78 (0%)",
+      "UNC – Non-partisan Ballot — 1,160 (3%)",
+      "UNC – No Primary — 19,048 (53%)",
+      "UNC – Lapsed D — 3,422 (9%)",
+      "Pure D — 2,011 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          4281,
-          3564,
-          1450,
-          2173,
-          19040,
-          3823,
-          1228
+          4304,
+          3608,
+          1638,
+          892,
+          78,
+          1160,
+          19048,
+          3422,
+          2011
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "HAMILTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

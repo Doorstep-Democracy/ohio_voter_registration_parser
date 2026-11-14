@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 632 (20%)",
+      "Pure R — 626 (19%)",
       "UNC – Lapsed R — 466 (14%)",
-      "Mixed – Active — 211 (7%)",
-      "Mixed – Lapsed — 192 (6%)",
-      "UNC – No Primary — 1,388 (43%)",
-      "UNC – Lapsed D — 237 (7%)",
-      "Pure D — 101 (3%)"
+      "Mixed – Active — 206 (6%)",
+      "Mixed – Lapsed — 120 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 72 (2%)",
+      "UNC – No Primary — 1,413 (44%)",
+      "UNC – Lapsed D — 239 (7%)",
+      "Pure D — 98 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          632,
+          626,
           466,
-          211,
-          192,
-          1388,
-          237,
-          101
+          206,
+          120,
+          3,
+          72,
+          1413,
+          239,
+          98
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Felicity-Franklin Local Sd (Clermont Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

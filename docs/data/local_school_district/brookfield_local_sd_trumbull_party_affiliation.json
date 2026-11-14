@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 563 (10%)",
-      "UNC – Lapsed R — 352 (6%)",
-      "Mixed – Active — 567 (10%)",
-      "Mixed – Lapsed — 414 (7%)",
-      "UNC – No Primary — 2,212 (40%)",
-      "UNC – Lapsed D — 842 (15%)",
-      "Pure D — 648 (12%)"
+      "Pure R — 558 (10%)",
+      "UNC – Lapsed R — 351 (6%)",
+      "Mixed – Active — 558 (10%)",
+      "Mixed – Lapsed — 207 (4%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 198 (4%)",
+      "UNC – No Primary — 2,229 (40%)",
+      "UNC – Lapsed D — 840 (15%)",
+      "Pure D — 642 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          563,
-          352,
-          567,
-          414,
-          2212,
-          842,
-          648
+          558,
+          351,
+          558,
+          207,
+          17,
+          198,
+          2229,
+          840,
+          642
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Brookfield Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 620 (18%)",
-      "UNC – Lapsed R — 331 (10%)",
-      "Mixed – Active — 504 (14%)",
-      "Mixed – Lapsed — 257 (7%)",
-      "UNC – No Primary — 1,078 (31%)",
-      "UNC – Lapsed D — 399 (11%)",
-      "Pure D — 288 (8%)"
+      "Pure R — 613 (18%)",
+      "UNC – Lapsed R — 330 (9%)",
+      "Mixed – Active — 502 (14%)",
+      "Mixed – Lapsed — 136 (4%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 117 (3%)",
+      "UNC – No Primary — 1,104 (32%)",
+      "UNC – Lapsed D — 397 (11%)",
+      "Pure D — 287 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          620,
-          331,
-          504,
-          257,
-          1078,
-          399,
-          288
+          613,
+          330,
+          502,
+          136,
+          7,
+          117,
+          1104,
+          397,
+          287
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Maplewood Local Sd (Trumbull Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

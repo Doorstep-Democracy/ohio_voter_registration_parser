@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,048 (11%)",
-      "UNC – Lapsed R — 1,017 (10%)",
-      "Mixed – Active — 1,198 (12%)",
-      "Mixed – Lapsed — 1,267 (13%)",
-      "UNC – No Primary — 3,158 (32%)",
-      "UNC – Lapsed D — 1,381 (14%)",
-      "Pure D — 872 (9%)"
+      "Pure R — 1,038 (10%)",
+      "UNC – Lapsed R — 1,028 (10%)",
+      "Mixed – Active — 1,186 (12%)",
+      "Mixed – Lapsed — 707 (7%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 558 (6%)",
+      "UNC – No Primary — 3,228 (32%)",
+      "UNC – Lapsed D — 1,385 (14%)",
+      "Pure D — 865 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1048,
-          1017,
-          1198,
-          1267,
-          3158,
-          1381,
-          872
+          1038,
+          1028,
+          1186,
+          707,
+          14,
+          558,
+          3228,
+          1385,
+          865
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Perkins Local Sd (Erie Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

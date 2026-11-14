@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 41 (12%)",
-      "UNC – Lapsed R — 46 (13%)",
-      "Mixed – Active — 17 (5%)",
-      "Mixed – Lapsed — 22 (6%)",
-      "UNC – No Primary — 172 (49%)",
-      "UNC – Lapsed D — 47 (13%)",
-      "Pure D — 6 (2%)"
+      "Pure R — 44 (13%)",
+      "UNC – Lapsed R — 50 (14%)",
+      "Mixed – Active — 13 (4%)",
+      "Mixed – Lapsed — 24 (7%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 162 (46%)",
+      "UNC – Lapsed D — 37 (11%)",
+      "Pure D — 16 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          41,
-          46,
-          17,
-          22,
-          172,
-          47,
-          6
+          44,
+          50,
+          13,
+          24,
+          0,
+          5,
+          162,
+          37,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "EAGLE TOWNSHIP (Vinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

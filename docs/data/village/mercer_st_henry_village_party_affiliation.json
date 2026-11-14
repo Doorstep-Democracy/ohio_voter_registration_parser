@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 384 (22%)",
-      "UNC – Lapsed R — 427 (25%)",
-      "Mixed – Active — 143 (8%)",
-      "Mixed – Lapsed — 160 (9%)",
-      "UNC – No Primary — 518 (30%)",
-      "UNC – Lapsed D — 65 (4%)",
+      "Pure R — 383 (22%)",
+      "UNC – Lapsed R — 425 (24%)",
+      "Mixed – Active — 142 (8%)",
+      "Mixed – Lapsed — 79 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 80 (5%)",
+      "UNC – No Primary — 523 (30%)",
+      "UNC – Lapsed D — 64 (4%)",
       "Pure D — 43 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          384,
-          427,
-          143,
-          160,
-          518,
-          65,
+          383,
+          425,
+          142,
+          79,
+          2,
+          80,
+          523,
+          64,
           43
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ST. HENRY VILLAGE (Mercer Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

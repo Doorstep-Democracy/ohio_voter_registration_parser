@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,241 (14%)",
-      "UNC – Lapsed R — 3,351 (11%)",
-      "Mixed – Active — 2,302 (8%)",
-      "Mixed – Lapsed — 2,169 (7%)",
-      "UNC – No Primary — 12,669 (42%)",
-      "UNC – Lapsed D — 3,074 (10%)",
-      "Pure D — 2,449 (8%)"
+      "Pure R — 4,213 (14%)",
+      "UNC – Lapsed R — 3,545 (11%)",
+      "Mixed – Active — 2,466 (8%)",
+      "Mixed – Lapsed — 1,113 (4%)",
+      "Minor Party — 45 (0%)",
+      "UNC – Non-partisan Ballot — 981 (3%)",
+      "UNC – No Primary — 12,710 (41%)",
+      "UNC – Lapsed D — 3,032 (10%)",
+      "Pure D — 2,895 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          4241,
-          3351,
-          2302,
-          2169,
-          12669,
-          3074,
-          2449
+          4213,
+          3545,
+          2466,
+          1113,
+          45,
+          981,
+          12710,
+          3032,
+          2895
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "DELAWARE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

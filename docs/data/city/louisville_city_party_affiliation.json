@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 868 (14%)",
-      "UNC – Lapsed R — 702 (11%)",
-      "Mixed – Active — 601 (10%)",
-      "Mixed – Lapsed — 683 (11%)",
-      "UNC – No Primary — 2,172 (35%)",
-      "UNC – Lapsed D — 753 (12%)",
-      "Pure D — 483 (8%)"
+      "Pure R — 1,059 (17%)",
+      "UNC – Lapsed R — 628 (10%)",
+      "Mixed – Active — 727 (11%)",
+      "Mixed – Lapsed — 220 (3%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 364 (6%)",
+      "UNC – No Primary — 2,075 (33%)",
+      "UNC – Lapsed D — 585 (9%)",
+      "Pure D — 673 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          868,
-          702,
-          601,
-          683,
-          2172,
-          753,
-          483
+          1059,
+          628,
+          727,
+          220,
+          8,
+          364,
+          2075,
+          585,
+          673
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "LOUISVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

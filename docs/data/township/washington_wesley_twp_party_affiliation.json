@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 129 (21%)",
-      "UNC – Lapsed R — 52 (8%)",
-      "Mixed – Active — 58 (9%)",
-      "Mixed – Lapsed — 65 (10%)",
-      "UNC – No Primary — 234 (37%)",
-      "UNC – Lapsed D — 64 (10%)",
-      "Pure D — 27 (4%)"
+      "Pure R — 126 (20%)",
+      "UNC – Lapsed R — 62 (10%)",
+      "Mixed – Active — 62 (10%)",
+      "Mixed – Lapsed — 20 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 35 (5%)",
+      "UNC – No Primary — 238 (37%)",
+      "UNC – Lapsed D — 57 (9%)",
+      "Pure D — 37 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          129,
-          52,
-          58,
-          65,
-          234,
-          64,
-          27
+          126,
+          62,
+          62,
+          20,
+          0,
+          35,
+          238,
+          57,
+          37
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WESLEY TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

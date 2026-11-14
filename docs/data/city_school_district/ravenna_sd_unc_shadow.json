@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 688",
-      "Mixed – Active — 1,312",
-      "Mixed – Lapsed — 1,009",
-      "UNC – No Primary — 5,292",
-      "UNC – Lapsed D — 1,777"
+      "UNC – Lapsed R — 719",
+      "Mixed – Active — 1,405",
+      "Mixed – Lapsed — 472",
+      "UNC – Non-partisan Ballot — 454",
+      "UNC – No Primary — 5,289",
+      "UNC – Lapsed D — 1,623"
     ],
     "datasets": [
       {
         "data": [
-          688,
-          1312,
-          1009,
-          5292,
-          1777
+          719,
+          1405,
+          472,
+          454,
+          5289,
+          1623
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "RAVENNA SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

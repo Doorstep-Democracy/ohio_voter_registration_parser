@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,386 (3%)",
-      "UNC – Lapsed R — 5,330 (4%)",
-      "Mixed – Active — 4,002 (3%)",
-      "Mixed – Lapsed — 7,106 (5%)",
-      "UNC – No Primary — 72,395 (55%)",
-      "UNC – Lapsed D — 24,720 (19%)",
-      "Pure D — 13,027 (10%)"
+      "Pure R — 4,194 (3%)",
+      "UNC – Lapsed R — 5,586 (4%)",
+      "Mixed – Active — 4,061 (3%)",
+      "Mixed – Lapsed — 2,791 (2%)",
+      "Minor Party — 279 (0%)",
+      "UNC – Non-partisan Ballot — 3,169 (2%)",
+      "UNC – No Primary — 77,067 (57%)",
+      "UNC – Lapsed D — 23,874 (18%)",
+      "Pure D — 14,907 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          4386,
-          5330,
-          4002,
-          7106,
-          72395,
-          24720,
-          13027
+          4194,
+          5586,
+          4061,
+          2791,
+          279,
+          3169,
+          77067,
+          23874,
+          14907
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "TOLEDO CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

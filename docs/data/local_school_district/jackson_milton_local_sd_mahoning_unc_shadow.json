@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 384",
-      "Mixed – Active — 674",
-      "Mixed – Lapsed — 400",
-      "UNC – No Primary — 1,415",
+      "UNC – Lapsed R — 395",
+      "Mixed – Active — 672",
+      "Mixed – Lapsed — 297",
+      "UNC – Non-partisan Ballot — 103",
+      "UNC – No Primary — 1,450",
       "UNC – Lapsed D — 624"
     ],
     "datasets": [
       {
         "data": [
-          384,
-          674,
-          400,
-          1415,
+          395,
+          672,
+          297,
+          103,
+          1450,
           624
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Jackson-Milton Local Sd (Mahoning Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

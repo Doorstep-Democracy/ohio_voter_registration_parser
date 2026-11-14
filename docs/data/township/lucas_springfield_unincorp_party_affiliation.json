@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,048 (11%)",
-      "UNC – Lapsed R — 1,601 (9%)",
-      "Mixed – Active — 1,215 (7%)",
-      "Mixed – Lapsed — 1,710 (9%)",
-      "UNC – No Primary — 7,813 (42%)",
-      "UNC – Lapsed D — 2,582 (14%)",
-      "Pure D — 1,626 (9%)"
+      "Pure R — 1,944 (10%)",
+      "UNC – Lapsed R — 1,808 (10%)",
+      "Mixed – Active — 1,222 (6%)",
+      "Mixed – Lapsed — 685 (4%)",
+      "Minor Party — 68 (0%)",
+      "UNC – Non-partisan Ballot — 989 (5%)",
+      "UNC – No Primary — 7,746 (41%)",
+      "UNC – Lapsed D — 2,406 (13%)",
+      "Pure D — 2,012 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          2048,
-          1601,
-          1215,
-          1710,
-          7813,
-          2582,
-          1626
+          1944,
+          1808,
+          1222,
+          685,
+          68,
+          989,
+          7746,
+          2406,
+          2012
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD UNINCORP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

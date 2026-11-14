@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 196 (19%)",
-      "UNC – Lapsed R — 122 (12%)",
-      "Mixed – Active — 67 (6%)",
-      "Mixed – Lapsed — 59 (6%)",
-      "UNC – No Primary — 498 (47%)",
-      "UNC – Lapsed D — 95 (9%)",
-      "Pure D — 20 (2%)"
+      "Pure R — 178 (17%)",
+      "UNC – Lapsed R — 137 (13%)",
+      "Mixed – Active — 71 (7%)",
+      "Mixed – Lapsed — 23 (2%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 31 (3%)",
+      "UNC – No Primary — 504 (47%)",
+      "UNC – Lapsed D — 89 (8%)",
+      "Pure D — 33 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          196,
-          122,
-          67,
-          59,
-          498,
-          95,
-          20
+          178,
+          137,
+          71,
+          23,
+          0,
+          31,
+          504,
+          89,
+          33
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NORTH LEWISBURG VILLAGE (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

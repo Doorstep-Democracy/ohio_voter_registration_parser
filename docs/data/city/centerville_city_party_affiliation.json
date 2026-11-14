@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,930 (20%)",
-      "UNC – Lapsed R — 2,286 (12%)",
-      "Mixed – Active — 2,058 (10%)",
-      "Mixed – Lapsed — 1,540 (8%)",
-      "UNC – No Primary — 6,516 (33%)",
-      "UNC – Lapsed D — 1,639 (8%)",
-      "Pure D — 1,858 (9%)"
+      "Pure R — 3,454 (17%)",
+      "UNC – Lapsed R — 2,723 (14%)",
+      "Mixed – Active — 2,004 (10%)",
+      "Mixed – Lapsed — 909 (5%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 702 (3%)",
+      "UNC – No Primary — 6,570 (33%)",
+      "UNC – Lapsed D — 1,680 (8%)",
+      "Pure D — 1,994 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          3930,
-          2286,
-          2058,
-          1540,
-          6516,
-          1639,
-          1858
+          3454,
+          2723,
+          2004,
+          909,
+          41,
+          702,
+          6570,
+          1680,
+          1994
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "CENTERVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

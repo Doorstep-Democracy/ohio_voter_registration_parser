@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 141",
-      "Mixed – Active — 158",
-      "Mixed – Lapsed — 125",
-      "UNC – No Primary — 840",
-      "UNC – Lapsed D — 405"
+      "UNC – Lapsed R — 157",
+      "Mixed – Active — 163",
+      "Mixed – Lapsed — 106",
+      "UNC – Non-partisan Ballot — 18",
+      "UNC – No Primary — 845",
+      "UNC – Lapsed D — 388"
     ],
     "datasets": [
       {
         "data": [
-          141,
-          158,
-          125,
-          840,
-          405
+          157,
+          163,
+          106,
+          18,
+          845,
+          388
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "DOVER TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

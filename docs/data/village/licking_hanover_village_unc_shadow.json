@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 131",
-      "Mixed – Active — 68",
-      "Mixed – Lapsed — 63",
-      "UNC – No Primary — 400",
-      "UNC – Lapsed D — 72"
+      "UNC – Lapsed R — 141",
+      "Mixed – Active — 72",
+      "Mixed – Lapsed — 39",
+      "UNC – Non-partisan Ballot — 22",
+      "UNC – No Primary — 402",
+      "UNC – Lapsed D — 67"
     ],
     "datasets": [
       {
         "data": [
-          131,
-          68,
-          63,
-          400,
-          72
+          141,
+          72,
+          39,
+          22,
+          402,
+          67
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "HANOVER VILLAGE (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

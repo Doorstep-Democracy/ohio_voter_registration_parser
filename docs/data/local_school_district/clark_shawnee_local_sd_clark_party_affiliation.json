@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,973 (23%)",
-      "UNC – Lapsed R — 812 (9%)",
-      "Mixed – Active — 1,070 (12%)",
-      "Mixed – Lapsed — 606 (7%)",
-      "UNC – No Primary — 2,712 (32%)",
-      "UNC – Lapsed D — 732 (9%)",
-      "Pure D — 684 (8%)"
+      "Pure R — 1,969 (23%)",
+      "UNC – Lapsed R — 817 (9%)",
+      "Mixed – Active — 1,059 (12%)",
+      "Mixed – Lapsed — 340 (4%)",
+      "Minor Party — 27 (0%)",
+      "UNC – Non-partisan Ballot — 270 (3%)",
+      "UNC – No Primary — 2,791 (32%)",
+      "UNC – Lapsed D — 722 (8%)",
+      "Pure D — 676 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1973,
-          812,
-          1070,
-          606,
-          2712,
-          732,
-          684
+          1969,
+          817,
+          1059,
+          340,
+          27,
+          270,
+          2791,
+          722,
+          676
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Clark-Shawnee Local Sd (Clark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

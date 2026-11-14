@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,905 (11%)",
-      "UNC – Lapsed R — 1,552 (9%)",
-      "Mixed – Active — 1,303 (8%)",
-      "Mixed – Lapsed — 1,212 (7%)",
-      "UNC – No Primary — 7,720 (45%)",
-      "UNC – Lapsed D — 2,355 (14%)",
-      "Pure D — 1,092 (6%)"
+      "Pure R — 2,043 (12%)",
+      "UNC – Lapsed R — 1,523 (9%)",
+      "Mixed – Active — 1,501 (9%)",
+      "Mixed – Lapsed — 645 (4%)",
+      "Minor Party — 41 (0%)",
+      "UNC – Non-partisan Ballot — 457 (3%)",
+      "UNC – No Primary — 7,493 (43%)",
+      "UNC – Lapsed D — 1,955 (11%)",
+      "Pure D — 1,671 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          1905,
-          1552,
-          1303,
-          1212,
-          7720,
-          2355,
-          1092
+          2043,
+          1523,
+          1501,
+          645,
+          41,
+          457,
+          7493,
+          1955,
+          1671
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SCIOTO TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

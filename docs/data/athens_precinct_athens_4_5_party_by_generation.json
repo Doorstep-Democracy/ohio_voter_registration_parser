@@ -4,7 +4,7 @@
   "precinct": "ATHENS 4-5",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -29,7 +29,7 @@
         "data": [
           1,
           1,
-          2
+          1
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -58,11 +58,22 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
           0,
           3
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -73,7 +84,7 @@
         "data": [
           0,
           4,
-          286
+          455
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -84,7 +95,7 @@
         "data": [
           1,
           4,
-          12
+          46
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -95,7 +106,7 @@
         "data": [
           0,
           2,
-          6
+          7
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

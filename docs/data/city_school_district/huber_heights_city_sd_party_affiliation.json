@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,987 (11%)",
-      "UNC – Lapsed R — 2,670 (10%)",
-      "Mixed – Active — 1,649 (6%)",
-      "Mixed – Lapsed — 2,498 (9%)",
-      "UNC – No Primary — 12,860 (46%)",
-      "UNC – Lapsed D — 3,598 (13%)",
-      "Pure D — 1,816 (6%)"
+      "Pure R — 2,623 (9%)",
+      "UNC – Lapsed R — 3,027 (11%)",
+      "Mixed – Active — 1,601 (6%)",
+      "Mixed – Lapsed — 1,118 (4%)",
+      "Minor Party — 66 (0%)",
+      "UNC – Non-partisan Ballot — 1,277 (4%)",
+      "UNC – No Primary — 13,200 (46%)",
+      "UNC – Lapsed D — 3,531 (12%)",
+      "Pure D — 2,129 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          2987,
-          2670,
-          1649,
-          2498,
-          12860,
-          3598,
-          1816
+          2623,
+          3027,
+          1601,
+          1118,
+          66,
+          1277,
+          13200,
+          3531,
+          2129
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "HUBER HEIGHTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

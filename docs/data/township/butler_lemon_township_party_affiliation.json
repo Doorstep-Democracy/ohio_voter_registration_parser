@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,345 (13%)",
-      "UNC – Lapsed R — 1,391 (14%)",
-      "Mixed – Active — 442 (4%)",
-      "Mixed – Lapsed — 693 (7%)",
-      "UNC – No Primary — 4,977 (50%)",
-      "UNC – Lapsed D — 919 (9%)",
-      "Pure D — 262 (3%)"
+      "Pure R — 1,307 (13%)",
+      "UNC – Lapsed R — 1,457 (14%)",
+      "Mixed – Active — 461 (5%)",
+      "Mixed – Lapsed — 310 (3%)",
+      "Minor Party — 23 (0%)",
+      "UNC – Non-partisan Ballot — 355 (3%)",
+      "UNC – No Primary — 4,997 (49%)",
+      "UNC – Lapsed D — 829 (8%)",
+      "Pure D — 413 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1345,
-          1391,
-          442,
-          693,
-          4977,
-          919,
-          262
+          1307,
+          1457,
+          461,
+          310,
+          23,
+          355,
+          4997,
+          829,
+          413
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LEMON TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

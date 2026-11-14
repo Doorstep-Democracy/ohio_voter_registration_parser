@@ -4,7 +4,7 @@
   "precinct": "YORK A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,10 +32,10 @@
         "label": "UNC – Lapsed R",
         "data": [
           8,
-          21,
+          20,
           26,
-          14,
-          5
+          12,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
           9,
           11,
-          10,
+          11,
           4
         ],
         "backgroundColor": "#c4b5cd",
@@ -85,9 +98,9 @@
         "data": [
           1,
           20,
-          28,
-          52,
-          58
+          29,
+          53,
+          62
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,8 +110,8 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          17,
-          12,
+          18,
+          11,
           11,
           0
         ],
@@ -111,7 +124,7 @@
         "data": [
           6,
           24,
-          16,
+          15,
           3,
           6
         ],

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 851",
-      "Mixed – Active — 581",
-      "Mixed – Lapsed — 602",
-      "UNC – No Primary — 2,965",
-      "UNC – Lapsed D — 486"
+      "UNC – Lapsed R — 1,161",
+      "Mixed – Active — 498",
+      "Mixed – Lapsed — 337",
+      "UNC – Non-partisan Ballot — 342",
+      "UNC – No Primary — 2,975",
+      "UNC – Lapsed D — 532"
     ],
     "datasets": [
       {
         "data": [
-          851,
-          581,
-          602,
-          2965,
-          486
+          1161,
+          498,
+          337,
+          342,
+          2975,
+          532
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "CELINA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

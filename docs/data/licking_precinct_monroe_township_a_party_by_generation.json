@@ -4,7 +4,7 @@
   "precinct": "MONROE TOWNSHIP A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -20,7 +20,7 @@
         "data": [
           13,
           72,
-          49,
+          48,
           20,
           8
         ],
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           9,
-          42,
+          43,
           54,
-          32,
+          31,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -59,11 +59,24 @@
         "data": [
           5,
           24,
-          18,
+          19,
           9,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           4,
           36,
-          57,
-          87,
-          82
+          59,
+          88,
+          89
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

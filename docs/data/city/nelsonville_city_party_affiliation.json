@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 97 (4%)",
-      "UNC – Lapsed R — 119 (5%)",
-      "Mixed – Active — 165 (7%)",
-      "Mixed – Lapsed — 169 (8%)",
-      "UNC – No Primary — 1,148 (51%)",
-      "UNC – Lapsed D — 323 (14%)",
-      "Pure D — 212 (9%)"
+      "Pure R — 102 (5%)",
+      "UNC – Lapsed R — 123 (5%)",
+      "Mixed – Active — 179 (8%)",
+      "Mixed – Lapsed — 79 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 66 (3%)",
+      "UNC – No Primary — 1,162 (51%)",
+      "UNC – Lapsed D — 314 (14%)",
+      "Pure D — 231 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          97,
-          119,
-          165,
-          169,
-          1148,
-          323,
-          212
+          102,
+          123,
+          179,
+          79,
+          1,
+          66,
+          1162,
+          314,
+          231
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NELSONVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

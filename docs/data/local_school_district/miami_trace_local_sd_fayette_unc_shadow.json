@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,369",
-      "Mixed – Active — 755",
-      "Mixed – Lapsed — 655",
-      "UNC – No Primary — 3,566",
-      "UNC – Lapsed D — 550"
+      "UNC – Lapsed R — 1,381",
+      "Mixed – Active — 743",
+      "Mixed – Lapsed — 437",
+      "UNC – Non-partisan Ballot — 215",
+      "UNC – No Primary — 3,643",
+      "UNC – Lapsed D — 554"
     ],
     "datasets": [
       {
         "data": [
-          1369,
-          755,
-          655,
-          3566,
-          550
+          1381,
+          743,
+          437,
+          215,
+          3643,
+          554
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Miami Trace Local Sd (Fayette Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

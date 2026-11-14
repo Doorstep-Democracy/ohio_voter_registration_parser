@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 339 (13%)",
-      "UNC – Lapsed R — 238 (9%)",
-      "Mixed – Active — 211 (8%)",
-      "Mixed – Lapsed — 80 (3%)",
-      "UNC – Non-partisan Ballot — 154 (6%)",
-      "UNC – No Primary — 1,101 (42%)",
-      "UNC – Lapsed D — 262 (10%)",
-      "Pure D — 207 (8%)"
+      "Pure R — 334 (13%)",
+      "UNC – Lapsed R — 232 (9%)",
+      "Mixed – Active — 205 (8%)",
+      "Mixed – Lapsed — 82 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 155 (6%)",
+      "UNC – No Primary — 1,125 (43%)",
+      "UNC – Lapsed D — 260 (10%)",
+      "Pure D — 206 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          339,
-          238,
-          211,
-          80,
-          154,
-          1101,
-          262,
-          207
+          334,
+          232,
+          205,
+          82,
+          5,
+          155,
+          1125,
+          260,
+          206
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "FREMONT CITY WARD 3 (FREMONT City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

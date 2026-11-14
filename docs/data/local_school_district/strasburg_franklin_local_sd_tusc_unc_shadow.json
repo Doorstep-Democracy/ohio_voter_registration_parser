@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 407",
-      "Mixed – Active — 283",
-      "Mixed – Lapsed — 405",
-      "UNC – No Primary — 1,061",
-      "UNC – Lapsed D — 346"
+      "UNC – Lapsed R — 397",
+      "Mixed – Active — 276",
+      "Mixed – Lapsed — 143",
+      "UNC – Non-partisan Ballot — 262",
+      "UNC – No Primary — 1,066",
+      "UNC – Lapsed D — 343"
     ],
     "datasets": [
       {
         "data": [
-          407,
-          283,
-          405,
-          1061,
-          346
+          397,
+          276,
+          143,
+          262,
+          1066,
+          343
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Strasburg-Franklin Local Sd (Tusc Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

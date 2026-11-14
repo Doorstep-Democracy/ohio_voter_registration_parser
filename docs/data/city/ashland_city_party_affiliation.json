@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,707 (23%)",
-      "UNC – Lapsed R — 1,397 (12%)",
-      "Mixed – Active — 737 (6%)",
-      "Mixed – Lapsed — 847 (7%)",
-      "UNC – No Primary — 4,917 (41%)",
-      "UNC – Lapsed D — 904 (8%)",
-      "Pure D — 478 (4%)"
+      "Pure R — 2,521 (21%)",
+      "UNC – Lapsed R — 1,604 (13%)",
+      "Mixed – Active — 743 (6%)",
+      "Mixed – Lapsed — 376 (3%)",
+      "Minor Party — 26 (0%)",
+      "UNC – Non-partisan Ballot — 481 (4%)",
+      "UNC – No Primary — 4,901 (41%)",
+      "UNC – Lapsed D — 842 (7%)",
+      "Pure D — 591 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2707,
-          1397,
-          737,
-          847,
-          4917,
-          904,
-          478
+          2521,
+          1604,
+          743,
+          376,
+          26,
+          481,
+          4901,
+          842,
+          591
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "ASHLAND CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

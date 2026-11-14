@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 970",
-      "Mixed – Active — 560",
-      "Mixed – Lapsed — 367",
-      "UNC – No Primary — 3,865",
-      "UNC – Lapsed D — 678"
+      "UNC – Lapsed R — 963",
+      "Mixed – Active — 561",
+      "Mixed – Lapsed — 321",
+      "UNC – Non-partisan Ballot — 39",
+      "UNC – No Primary — 3,950",
+      "UNC – Lapsed D — 673"
     ],
     "datasets": [
       {
         "data": [
-          970,
-          560,
-          367,
-          3865,
-          678
+          963,
+          561,
+          321,
+          39,
+          3950,
+          673
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "South Point Local Sd (Lawrence Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -1,6 +1,6 @@
 # tools/tests/
 
-Pytest suite plus two standalone report scripts, covering pipeline cache correctness, generated
+Pytest suite covering pipeline cache correctness, generated
 `docs/data/` file/slug hygiene, and manifest/index schema consistency for the "Pass B" jurisdiction
 build. Run with `pytest tools/tests/` from the project root (or target a single file).
 
@@ -70,16 +70,19 @@ build. Run with `pytest tools/tests/` from the project root (or target a single 
 - **Inputs:** `docs/manifest.json`, `docs/data/` directory structure.
 - **Outputs:** none (assertions only).
 
-## Standalone report scripts (not pytest)
+## CI (`.github/workflows/ci.yml`)
 
-### `test_jurisdiction_collisions.py`
-- **Function:** Despite the `test_` filename, this is a standalone report generator, not a pytest
-  test (no `assert`, has a `main()`). Detects jurisdiction name collisions — the same name (e.g. a
-  TOWNSHIP or VILLAGE value) appearing under more than one `COUNTY_NUMBER` partition — which would
-  silently merge into one output file if a grouping script slugged on name alone instead of a
-  `(COUNTY_NUMBER, name)` composite key. Checks all 12 jurisdiction-type columns.
-- **Inputs:** `local/source/parquet/**/*.parquet` (hive-partitioned by `COUNTY_NUMBER`).
-- **Outputs:** `collision_report.md` at the project root (markdown table of colliding names +
-  county lists per jurisdiction type); also prints an OK/COLLIDE summary per type to stdout.
-- **Usage:** `.venv\Scripts\python.exe test_jurisdiction_collisions.py` (run from `tools/tests/`
-  or adjust `BASE_DIR` expectations — it resolves paths from its own file location).
+Two Python jobs, both on Python 3.14 (the `requires-python` floor) with dependencies installed
+from the committed `uv.lock` (`uv sync --frozen`; `pytest` is in the `dev` dependency group):
+
+- **Python test suite (blocking).** `uv run pytest tools/tests --ignore=tools/tests/conformance`.
+  A PR cannot merge red. A CI checkout has no `local/` (gitignored), so every test here must pass
+  from committed files alone (`docs/data/`, `docs/manifest.json`, source). A test that needs
+  `local/` data must `pytest.skip()` with an explicit reason naming the missing path, not fail
+  or error.
+- **Conformance (non-blocking).** `uv run pytest tools/tests/conformance` with
+  `continue-on-error: true`. Those tests are red by design until the path consolidation lands
+  (see `conformance/README.md`). The job runs so the failure count is visible on every PR. When
+  the last conformance test turns green, fold it into the blocking job.
+
+Run the blocking set locally the same way: `uv run pytest tools/tests --ignore=tools/tests/conformance -q`.

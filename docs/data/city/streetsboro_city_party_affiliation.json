@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,050 (9%)",
-      "UNC – Lapsed R — 986 (8%)",
-      "Mixed – Active — 911 (8%)",
-      "Mixed – Lapsed — 1,349 (11%)",
-      "UNC – No Primary — 4,875 (40%)",
-      "UNC – Lapsed D — 2,051 (17%)",
-      "Pure D — 845 (7%)"
+      "Pure R — 1,505 (12%)",
+      "UNC – Lapsed R — 823 (7%)",
+      "Mixed – Active — 1,189 (10%)",
+      "Mixed – Lapsed — 405 (3%)",
+      "Minor Party — 46 (0%)",
+      "UNC – Non-partisan Ballot — 732 (6%)",
+      "UNC – No Primary — 4,460 (36%)",
+      "UNC – Lapsed D — 1,525 (12%)",
+      "Pure D — 1,554 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          1050,
-          986,
-          911,
-          1349,
-          4875,
-          2051,
-          845
+          1505,
+          823,
+          1189,
+          405,
+          46,
+          732,
+          4460,
+          1525,
+          1554
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "STREETSBORO CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

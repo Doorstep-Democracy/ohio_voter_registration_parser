@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 74 (13%)",
-      "UNC – Lapsed R — 78 (14%)",
-      "Mixed – Active — 44 (8%)",
-      "Mixed – Lapsed — 62 (11%)",
-      "UNC – No Primary — 206 (36%)",
-      "UNC – Lapsed D — 64 (11%)",
-      "Pure D — 43 (8%)"
+      "Pure R — 75 (13%)",
+      "UNC – Lapsed R — 74 (13%)",
+      "Mixed – Active — 56 (10%)",
+      "Mixed – Lapsed — 38 (7%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 18 (3%)",
+      "UNC – No Primary — 213 (37%)",
+      "UNC – Lapsed D — 57 (10%)",
+      "Pure D — 47 (8%)"
     ],
     "datasets": [
       {
         "data": [
+          75,
           74,
-          78,
-          44,
-          62,
-          206,
-          64,
-          43
+          56,
+          38,
+          0,
+          18,
+          213,
+          57,
+          47
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "KINGSTON VILLAGE (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

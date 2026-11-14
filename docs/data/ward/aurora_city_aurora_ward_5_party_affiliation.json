@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 396 (16%)",
+      "Pure R — 395 (16%)",
       "UNC – Lapsed R — 351 (14%)",
-      "Mixed – Active — 328 (13%)",
-      "Mixed – Lapsed — 158 (6%)",
+      "Mixed – Active — 323 (13%)",
+      "Mixed – Lapsed — 159 (6%)",
+      "Minor Party — 4 (0%)",
       "UNC – Non-partisan Ballot — 109 (4%)",
-      "UNC – No Primary — 654 (26%)",
-      "UNC – Lapsed D — 269 (11%)",
-      "Pure D — 239 (10%)"
+      "UNC – No Primary — 680 (27%)",
+      "UNC – Lapsed D — 273 (11%)",
+      "Pure D — 238 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          396,
+          395,
           351,
-          328,
-          158,
+          323,
+          159,
+          4,
           109,
-          654,
-          269,
-          239
+          680,
+          273,
+          238
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "AURORA WARD 5 (AURORA City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

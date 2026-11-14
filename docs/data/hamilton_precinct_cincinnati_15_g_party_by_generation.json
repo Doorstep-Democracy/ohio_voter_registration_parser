@@ -4,7 +4,7 @@
   "precinct": "CINCINNATI 15-G",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           3,
-          15,
+          14,
           10,
           2,
           0
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          12,
-          7,
+          11,
+          8,
           2,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           0,
           1,
           2,
-          8,
+          7,
           4
         ],
         "backgroundColor": "#c4b5cd",
@@ -86,8 +99,8 @@
           0,
           33,
           51,
-          127,
-          85
+          132,
+          98
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,7 +111,7 @@
         "data": [
           6,
           33,
-          53,
+          52,
           41,
           12
         ],
@@ -110,9 +123,9 @@
         "label": "Pure D",
         "data": [
           9,
-          48,
-          35,
-          34,
+          47,
+          36,
+          29,
           12
         ],
         "backgroundColor": "#3b82f6",

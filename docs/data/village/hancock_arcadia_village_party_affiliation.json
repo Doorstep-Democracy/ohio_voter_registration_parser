@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 67 (18%)",
-      "UNC – Lapsed R — 40 (11%)",
-      "Mixed – Active — 35 (10%)",
-      "Mixed – Lapsed — 24 (7%)",
-      "UNC – No Primary — 162 (44%)",
-      "UNC – Lapsed D — 25 (7%)",
-      "Pure D — 15 (4%)"
+      "Pure R — 66 (18%)",
+      "UNC – Lapsed R — 44 (12%)",
+      "Mixed – Active — 31 (8%)",
+      "Mixed – Lapsed — 18 (5%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 9 (2%)",
+      "UNC – No Primary — 163 (44%)",
+      "UNC – Lapsed D — 24 (6%)",
+      "Pure D — 16 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          67,
-          40,
-          35,
+          66,
+          44,
+          31,
+          18,
+          2,
+          9,
+          163,
           24,
-          162,
-          25,
-          15
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ARCADIA VILLAGE (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

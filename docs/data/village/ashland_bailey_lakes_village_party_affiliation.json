@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 57 (24%)",
-      "UNC – Lapsed R — 22 (9%)",
-      "Mixed – Active — 11 (5%)",
-      "Mixed – Lapsed — 12 (5%)",
-      "UNC – No Primary — 105 (44%)",
+      "Pure R — 57 (23%)",
+      "UNC – Lapsed R — 26 (11%)",
+      "Mixed – Active — 9 (4%)",
+      "Mixed – Lapsed — 8 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 8 (3%)",
+      "UNC – No Primary — 101 (42%)",
       "UNC – Lapsed D — 21 (9%)",
-      "Pure D — 12 (5%)"
+      "Pure D — 13 (5%)"
     ],
     "datasets": [
       {
         "data": [
           57,
-          22,
-          11,
-          12,
-          105,
+          26,
+          9,
+          8,
+          0,
+          8,
+          101,
           21,
-          12
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BAILEY LAKES VILLAGE (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

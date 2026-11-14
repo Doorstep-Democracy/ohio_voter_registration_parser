@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 25",
-      "Mixed – Active — 25",
-      "Mixed – Lapsed — 21",
-      "UNC – No Primary — 77",
-      "UNC – Lapsed D — 14"
+      "UNC – Lapsed R — 27",
+      "Mixed – Active — 20",
+      "Mixed – Lapsed — 23",
+      "UNC – Non-partisan Ballot — 4",
+      "UNC – No Primary — 79",
+      "UNC – Lapsed D — 15"
     ],
     "datasets": [
       {
         "data": [
-          25,
-          25,
-          21,
-          77,
-          14
+          27,
+          20,
+          23,
+          4,
+          79,
+          15
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "ARCHER TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

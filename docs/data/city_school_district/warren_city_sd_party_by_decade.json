@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          2,
-          30,
+          0,
+          22,
+          71,
+          154,
+          113,
+          86,
           73,
-          158,
-          111,
-          91,
-          67,
-          50,
-          23
+          45,
+          28
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           4,
-          18,
-          38,
-          73,
-          109,
-          88,
-          89,
-          73,
-          9
+          20,
+          41,
+          79,
+          116,
+          103,
+          104,
+          91,
+          14
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          3,
-          74,
-          270,
-          454,
-          349,
-          197,
-          98,
-          34,
-          7
+          1,
+          60,
+          246,
+          449,
+          347,
+          195,
+          102,
+          37,
+          6
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          26,
-          54,
-          134,
-          147,
-          138,
-          110,
-          40,
-          1
+          4,
+          29,
+          61,
+          105,
+          100,
+          77,
+          52,
+          23,
+          3
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          3,
+          3,
+          11,
+          4,
+          2,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          6,
+          23,
+          50,
+          77,
+          78,
+          65,
+          18,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          22,
-          146,
-          582,
-          1003,
-          1339,
-          1954,
-          2679,
-          1879
+          23,
+          135,
+          548,
+          996,
+          1337,
+          1980,
+          2702,
+          2033
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          17,
-          93,
-          208,
-          504,
-          619,
-          587,
-          672,
-          423,
-          36
+          11,
+          118,
+          277,
+          669,
+          741,
+          711,
+          723,
+          471,
+          69
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          13,
-          150,
-          623,
-          1128,
-          793,
-          470,
-          278,
-          187,
-          100
+          9,
+          105,
+          509,
+          927,
+          651,
+          341,
+          225,
+          156,
+          105
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "WARREN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

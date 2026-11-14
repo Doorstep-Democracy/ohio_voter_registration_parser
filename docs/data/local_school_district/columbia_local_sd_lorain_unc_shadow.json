@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 832",
-      "Mixed – Active — 649",
-      "Mixed – Lapsed — 747",
-      "UNC – No Primary — 2,143",
-      "UNC – Lapsed D — 732"
+      "UNC – Lapsed R — 854",
+      "Mixed – Active — 643",
+      "Mixed – Lapsed — 389",
+      "UNC – Non-partisan Ballot — 367",
+      "UNC – No Primary — 2,223",
+      "UNC – Lapsed D — 749"
     ],
     "datasets": [
       {
         "data": [
-          832,
-          649,
-          747,
-          2143,
-          732
+          854,
+          643,
+          389,
+          367,
+          2223,
+          749
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Columbia Local Sd (Lorain Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

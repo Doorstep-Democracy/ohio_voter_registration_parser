@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,856 (14%)",
+      "Pure R — 5,790 (14%)",
       "UNC – Lapsed R — 3,365 (8%)",
-      "Mixed – Active — 2,532 (6%)",
-      "Mixed – Lapsed — 3,004 (7%)",
-      "UNC – No Primary — 16,805 (41%)",
-      "UNC – Lapsed D — 4,213 (10%)",
-      "Pure D — 4,901 (12%)"
+      "Mixed – Active — 2,500 (6%)",
+      "Mixed – Lapsed — 1,014 (2%)",
+      "Minor Party — 143 (0%)",
+      "UNC – Non-partisan Ballot — 1,967 (5%)",
+      "UNC – No Primary — 17,558 (42%)",
+      "UNC – Lapsed D — 4,273 (10%)",
+      "Pure D — 4,839 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          5856,
+          5790,
           3365,
-          2532,
-          3004,
-          16805,
-          4213,
-          4901
+          2500,
+          1014,
+          143,
+          1967,
+          17558,
+          4273,
+          4839
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Pickerington Local Sd (Fairfield Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

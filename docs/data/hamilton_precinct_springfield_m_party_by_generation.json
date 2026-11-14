@@ -4,7 +4,7 @@
   "precinct": "SPRINGFIELD M",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          20,
-          36,
+          16,
+          38,
           19,
-          19,
+          16,
           4
         ],
         "backgroundColor": "#fca5a5",
@@ -44,10 +44,10 @@
       {
         "label": "Mixed – Active",
         "data": [
-          10,
+          9,
           30,
           13,
-          11,
+          10,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -57,8 +57,8 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          19,
+          2,
+          20,
           6,
           3,
           0
@@ -68,10 +68,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
-          13,
+          12,
           7,
           8,
           1
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          10,
-          64,
-          102,
-          192,
-          141
+          8,
+          67,
+          104,
+          193,
+          153
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,10 +109,10 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          13,
-          53,
-          51,
-          38,
+          15,
+          56,
+          47,
+          37,
           5
         ],
         "backgroundColor": "#93c5fd",
@@ -109,11 +122,11 @@
       {
         "label": "Pure D",
         "data": [
-          16,
-          92,
+          15,
+          91,
           45,
-          32,
-          17
+          34,
+          16
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

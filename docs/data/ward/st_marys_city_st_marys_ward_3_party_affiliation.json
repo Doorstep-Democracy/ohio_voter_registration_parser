@@ -4,24 +4,26 @@
   "chartConfig": {
     "labels": [
       "Pure R — 204 (18%)",
-      "UNC – Lapsed R — 156 (14%)",
-      "Mixed – Active — 97 (9%)",
-      "Mixed – Lapsed — 41 (4%)",
-      "UNC – Non-partisan Ballot — 41 (4%)",
-      "UNC – No Primary — 500 (45%)",
-      "UNC – Lapsed D — 58 (5%)",
+      "UNC – Lapsed R — 155 (14%)",
+      "Mixed – Active — 96 (8%)",
+      "Mixed – Lapsed — 38 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 38 (3%)",
+      "UNC – No Primary — 517 (46%)",
+      "UNC – Lapsed D — 61 (5%)",
       "Pure D — 26 (2%)"
     ],
     "datasets": [
       {
         "data": [
           204,
-          156,
-          97,
-          41,
-          41,
-          500,
-          58,
+          155,
+          96,
+          38,
+          1,
+          38,
+          517,
+          61,
           26
         ],
         "backgroundColor": [
@@ -29,6 +31,7 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "ST. MARYS WARD 3 (ST. MARYS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 204 (30%)",
-      "UNC – Lapsed R — 81 (12%)",
-      "Mixed – Active — 46 (7%)",
-      "Mixed – Lapsed — 45 (7%)",
-      "UNC – No Primary — 256 (37%)",
-      "UNC – Lapsed D — 36 (5%)",
-      "Pure D — 18 (3%)"
+      "Pure R — 187 (27%)",
+      "UNC – Lapsed R — 105 (15%)",
+      "Mixed – Active — 45 (7%)",
+      "Mixed – Lapsed — 15 (2%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 26 (4%)",
+      "UNC – No Primary — 250 (36%)",
+      "UNC – Lapsed D — 35 (5%)",
+      "Pure D — 23 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          204,
-          81,
-          46,
+          187,
+          105,
           45,
-          256,
-          36,
-          18
+          15,
+          2,
+          26,
+          250,
+          35,
+          23
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TOWNSHIP (Huron Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

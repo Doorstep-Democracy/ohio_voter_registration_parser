@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 24",
-      "Mixed – Active — 5",
-      "Mixed – Lapsed — 22",
-      "UNC – No Primary — 72",
-      "UNC – Lapsed D — 15"
+      "UNC – Lapsed R — 22",
+      "Mixed – Active — 3",
+      "Mixed – Lapsed — 11",
+      "UNC – Non-partisan Ballot — 8",
+      "UNC – No Primary — 77",
+      "UNC – Lapsed D — 14"
     ],
     "datasets": [
       {
         "data": [
-          24,
-          5,
           22,
-          72,
-          15
+          3,
+          11,
+          8,
+          77,
+          14
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "LOCKBOURNE VILLAGE (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

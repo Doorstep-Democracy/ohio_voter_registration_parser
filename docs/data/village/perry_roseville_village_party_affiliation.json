@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 49 (11%)",
-      "UNC – Lapsed R — 36 (8%)",
-      "Mixed – Active — 27 (6%)",
-      "Mixed – Lapsed — 22 (5%)",
+      "Pure R — 52 (12%)",
+      "UNC – Lapsed R — 39 (9%)",
+      "Mixed – Active — 28 (6%)",
+      "Mixed – Lapsed — 14 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 7 (2%)",
       "UNC – No Primary — 260 (58%)",
-      "UNC – Lapsed D — 41 (9%)",
-      "Pure D — 10 (2%)"
+      "UNC – Lapsed D — 36 (8%)",
+      "Pure D — 12 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          49,
-          36,
-          27,
-          22,
+          52,
+          39,
+          28,
+          14,
+          1,
+          7,
           260,
-          41,
-          10
+          36,
+          12
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ROSEVILLE VILLAGE (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

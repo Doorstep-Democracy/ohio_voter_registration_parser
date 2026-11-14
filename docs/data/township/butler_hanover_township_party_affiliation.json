@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,388 (23%)",
-      "UNC – Lapsed R — 856 (14%)",
-      "Mixed – Active — 324 (5%)",
-      "Mixed – Lapsed — 501 (8%)",
-      "UNC – No Primary — 2,233 (38%)",
-      "UNC – Lapsed D — 446 (8%)",
-      "Pure D — 176 (3%)"
+      "Pure R — 1,448 (24%)",
+      "UNC – Lapsed R — 851 (14%)",
+      "Mixed – Active — 384 (6%)",
+      "Mixed – Lapsed — 155 (3%)",
+      "Minor Party — 15 (0%)",
+      "UNC – Non-partisan Ballot — 297 (5%)",
+      "UNC – No Primary — 2,165 (36%)",
+      "UNC – Lapsed D — 382 (6%)",
+      "Pure D — 261 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1388,
-          856,
-          324,
-          501,
-          2233,
-          446,
-          176
+          1448,
+          851,
+          384,
+          155,
+          15,
+          297,
+          2165,
+          382,
+          261
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HANOVER TOWNSHIP (Butler Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

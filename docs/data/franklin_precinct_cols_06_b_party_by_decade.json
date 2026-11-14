@@ -4,7 +4,7 @@
   "precinct": "COLS 06-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -41,8 +41,8 @@
           0,
           1,
           1,
-          2,
-          4,
+          3,
+          5,
           3,
           1,
           4,
@@ -77,12 +77,29 @@
           0,
           1,
           0,
-          2,
+          3,
           1,
           0,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -107,14 +124,14 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          7,
-          7,
+          9,
+          8,
           20,
-          35,
-          66,
-          104,
-          144,
-          102
+          34,
+          68,
+          114,
+          153,
+          104
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -123,14 +140,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          16,
+          2,
+          15,
           13,
           31,
           31,
-          26,
-          36,
-          24,
+          25,
+          35,
+          23,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -140,15 +157,15 @@
       {
         "label": "Pure D",
         "data": [
-          8,
-          56,
-          62,
-          64,
-          51,
-          31,
-          20,
-          17,
-          11
+          7,
+          54,
+          60,
+          65,
+          50,
+          30,
+          19,
+          18,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

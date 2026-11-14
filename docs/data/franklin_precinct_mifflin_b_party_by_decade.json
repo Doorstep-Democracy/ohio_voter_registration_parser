@@ -4,7 +4,7 @@
   "precinct": "MIFFLIN-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -71,13 +71,29 @@
           1,
           2,
           2,
-          3,
+          2,
           3,
           1,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -102,12 +118,12 @@
         "data": [
           0,
           5,
-          32,
-          48,
-          75,
-          86,
-          122,
-          87
+          30,
+          50,
+          76,
+          87,
+          120,
+          95
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -118,11 +134,11 @@
         "data": [
           0,
           4,
-          18,
+          17,
           23,
           28,
           16,
-          8,
+          9,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -135,11 +151,11 @@
           2,
           6,
           14,
-          6,
+          7,
           24,
           13,
           7,
-          9
+          8
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

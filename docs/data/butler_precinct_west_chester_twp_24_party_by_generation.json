@@ -4,7 +4,7 @@
   "precinct": "WEST CHESTER TWP 24",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,8 +18,8 @@
       {
         "label": "Pure R",
         "data": [
-          7,
-          55,
+          6,
+          54,
           19,
           13,
           1
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          11,
-          44,
-          47,
-          28,
+          9,
+          42,
+          46,
+          29,
           7
         ],
         "backgroundColor": "#fca5a5",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          23,
+          22,
           15,
-          6,
+          5,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           0,
           46,
-          77,
-          130,
-          94
+          80,
+          136,
+          101
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          16,
-          29,
-          26,
-          5
+          15,
+          28,
+          27,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

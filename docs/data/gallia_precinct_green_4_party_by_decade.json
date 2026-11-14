@@ -4,7 +4,7 @@
   "precinct": "GREEN 4",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -21,8 +21,8 @@
         "label": "Pure R",
         "data": [
           8,
-          26,
-          35,
+          25,
+          37,
           56,
           28,
           18,
@@ -39,11 +39,11 @@
           8,
           11,
           13,
-          20,
-          24,
-          17,
+          19,
           23,
-          5
+          17,
+          21,
+          6
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 3,
@@ -70,14 +70,30 @@
         "data": [
           0,
           9,
-          7,
           6,
+          7,
           3,
           3,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -103,11 +119,11 @@
           0,
           6,
           16,
-          16,
-          33,
-          47,
-          69,
-          57
+          17,
+          35,
+          49,
+          70,
+          61
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -132,7 +148,7 @@
       {
         "label": "Pure D",
         "data": [
-          1,
+          0,
           2,
           4,
           4,

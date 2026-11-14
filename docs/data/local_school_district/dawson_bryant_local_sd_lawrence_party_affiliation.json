@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 811 (20%)",
-      "UNC – Lapsed R — 638 (16%)",
-      "Mixed – Active — 340 (8%)",
-      "Mixed – Lapsed — 199 (5%)",
-      "UNC – No Primary — 1,643 (40%)",
-      "UNC – Lapsed D — 326 (8%)",
-      "Pure D — 111 (3%)"
+      "Pure R — 807 (20%)",
+      "UNC – Lapsed R — 633 (16%)",
+      "Mixed – Active — 337 (8%)",
+      "Mixed – Lapsed — 182 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 14 (0%)",
+      "UNC – No Primary — 1,659 (41%)",
+      "UNC – Lapsed D — 321 (8%)",
+      "Pure D — 112 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          811,
-          638,
-          340,
-          199,
-          1643,
-          326,
-          111
+          807,
+          633,
+          337,
+          182,
+          4,
+          14,
+          1659,
+          321,
+          112
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Dawson-Bryant Local Sd (Lawrence Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

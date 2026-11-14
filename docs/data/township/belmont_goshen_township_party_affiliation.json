@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 367 (18%)",
-      "UNC – Lapsed R — 196 (9%)",
-      "Mixed – Active — 265 (13%)",
-      "Mixed – Lapsed — 130 (6%)",
-      "UNC – No Primary — 831 (40%)",
-      "UNC – Lapsed D — 174 (8%)",
-      "Pure D — 102 (5%)"
+      "Pure R — 488 (23%)",
+      "UNC – Lapsed R — 158 (8%)",
+      "Mixed – Active — 301 (14%)",
+      "Mixed – Lapsed — 56 (3%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 51 (2%)",
+      "UNC – No Primary — 780 (37%)",
+      "UNC – Lapsed D — 128 (6%)",
+      "Pure D — 131 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          367,
-          196,
-          265,
-          130,
-          831,
-          174,
-          102
+          488,
+          158,
+          301,
+          56,
+          8,
+          51,
+          780,
+          128,
+          131
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GOSHEN TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

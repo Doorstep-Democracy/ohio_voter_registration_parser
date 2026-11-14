@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 415 (12%)",
-      "UNC – Lapsed R — 222 (7%)",
-      "Mixed – Active — 414 (12%)",
-      "Mixed – Lapsed — 133 (4%)",
+      "Pure R — 407 (12%)",
+      "UNC – Lapsed R — 221 (7%)",
+      "Mixed – Active — 409 (12%)",
+      "Mixed – Lapsed — 127 (4%)",
+      "Minor Party — 12 (0%)",
       "UNC – Non-partisan Ballot — 158 (5%)",
-      "UNC – No Primary — 1,045 (31%)",
-      "UNC – Lapsed D — 405 (12%)",
-      "Pure D — 541 (16%)"
+      "UNC – No Primary — 1,081 (32%)",
+      "UNC – Lapsed D — 400 (12%)",
+      "Pure D — 536 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          415,
-          222,
-          414,
-          133,
+          407,
+          221,
+          409,
+          127,
+          12,
           158,
-          1045,
-          405,
-          541
+          1081,
+          400,
+          536
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "TALLMADGE WARD 4 (TALLMADGE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

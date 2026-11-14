@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 126 (8%)",
+      "Pure R — 124 (8%)",
       "UNC – Lapsed R — 111 (7%)",
-      "Mixed – Active — 139 (9%)",
-      "Mixed – Lapsed — 63 (4%)",
-      "UNC – Non-partisan Ballot — 67 (4%)",
-      "UNC – No Primary — 611 (41%)",
-      "UNC – Lapsed D — 217 (14%)",
-      "Pure D — 169 (11%)"
+      "Mixed – Active — 138 (9%)",
+      "Mixed – Lapsed — 62 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 66 (4%)",
+      "UNC – No Primary — 627 (42%)",
+      "UNC – Lapsed D — 209 (14%)",
+      "Pure D — 168 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          126,
+          124,
           111,
-          139,
-          63,
-          67,
-          611,
-          217,
-          169
+          138,
+          62,
+          3,
+          66,
+          627,
+          209,
+          168
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "SHEFFIELD LAKE WARD4 (SHEFFIELD LAKE City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

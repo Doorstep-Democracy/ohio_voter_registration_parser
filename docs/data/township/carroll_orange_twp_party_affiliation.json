@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 118 (14%)",
-      "UNC – Lapsed R — 99 (12%)",
-      "Mixed – Active — 75 (9%)",
-      "Mixed – Lapsed — 63 (8%)",
-      "UNC – No Primary — 327 (40%)",
-      "UNC – Lapsed D — 98 (12%)",
-      "Pure D — 45 (5%)"
+      "Pure R — 106 (13%)",
+      "UNC – Lapsed R — 112 (14%)",
+      "Mixed – Active — 79 (10%)",
+      "Mixed – Lapsed — 41 (5%)",
+      "Minor Party — 5 (1%)",
+      "UNC – Non-partisan Ballot — 23 (3%)",
+      "UNC – No Primary — 320 (39%)",
+      "UNC – Lapsed D — 96 (12%)",
+      "Pure D — 38 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          118,
-          99,
-          75,
-          63,
-          327,
-          98,
-          45
+          106,
+          112,
+          79,
+          41,
+          5,
+          23,
+          320,
+          96,
+          38
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ORANGE TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           3,
-          66,
-          220,
-          358,
-          320,
-          224,
-          173,
-          118,
-          61
+          50,
+          201,
+          351,
+          312,
+          205,
+          158,
+          111,
+          62
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
-          22,
-          55,
-          124,
-          144,
-          138,
-          109,
-          88,
-          15
+          1,
+          28,
+          61,
+          125,
+          158,
+          161,
+          127,
+          98,
+          21
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          4,
-          10,
-          87,
-          172,
+          2,
+          9,
+          79,
+          165,
           117,
-          78,
-          37,
+          80,
+          40,
           11,
-          2
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,17 +65,49 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          16,
-          39,
-          82,
-          80,
-          86,
-          47,
-          18,
-          4
+          2,
+          14,
+          38,
+          70,
+          56,
+          53,
+          27,
+          4,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          3,
+          4,
+          2,
+          1,
+          2,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          10,
+          18,
+          22,
+          34,
+          20,
+          14,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,13 +115,13 @@
         "data": [
           0,
           9,
-          53,
-          170,
-          316,
-          358,
-          530,
-          763,
-          656
+          52,
+          159,
+          308,
+          359,
+          537,
+          748,
+          684
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          20,
-          65,
-          74,
-          91,
-          81,
-          78,
-          41,
-          1
+          22,
+          68,
+          70,
+          89,
+          80,
+          79,
+          40,
+          4
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          18,
-          29,
-          58,
+          13,
           21,
+          61,
+          24,
           19,
-          9,
-          10,
-          6
+          12,
+          20,
+          13
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "KENTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

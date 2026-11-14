@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 72 (12%)",
-      "UNC – Lapsed R — 57 (9%)",
-      "Mixed – Active — 66 (11%)",
-      "Mixed – Lapsed — 49 (8%)",
-      "UNC – No Primary — 196 (33%)",
-      "UNC – Lapsed D — 73 (12%)",
-      "Pure D — 90 (15%)"
+      "Pure R — 52 (9%)",
+      "UNC – Lapsed R — 70 (12%)",
+      "Mixed – Active — 69 (11%)",
+      "Mixed – Lapsed — 32 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 19 (3%)",
+      "UNC – No Primary — 185 (31%)",
+      "UNC – Lapsed D — 77 (13%)",
+      "Pure D — 95 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          72,
-          57,
-          66,
-          49,
-          196,
-          73,
-          90
+          52,
+          70,
+          69,
+          32,
+          2,
+          19,
+          185,
+          77,
+          95
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MARBLE CLIFF VILLAGE (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

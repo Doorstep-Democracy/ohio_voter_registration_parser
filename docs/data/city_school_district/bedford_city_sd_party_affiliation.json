@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 607 (3%)",
-      "UNC – Lapsed R — 583 (3%)",
-      "Mixed – Active — 928 (5%)",
-      "Mixed – Lapsed — 947 (5%)",
-      "UNC – No Primary — 8,397 (42%)",
-      "UNC – Lapsed D — 5,136 (25%)",
-      "Pure D — 3,600 (18%)"
+      "Pure R — 557 (3%)",
+      "UNC – Lapsed R — 628 (3%)",
+      "Mixed – Active — 923 (5%)",
+      "Mixed – Lapsed — 510 (2%)",
+      "Minor Party — 35 (0%)",
+      "UNC – Non-partisan Ballot — 429 (2%)",
+      "UNC – No Primary — 8,418 (41%)",
+      "UNC – Lapsed D — 4,727 (23%)",
+      "Pure D — 4,181 (20%)"
     ],
     "datasets": [
       {
         "data": [
-          607,
-          583,
-          928,
-          947,
-          8397,
-          5136,
-          3600
+          557,
+          628,
+          923,
+          510,
+          35,
+          429,
+          8418,
+          4727,
+          4181
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "BEDFORD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

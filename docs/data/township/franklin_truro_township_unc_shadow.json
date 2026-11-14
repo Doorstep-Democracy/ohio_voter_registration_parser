@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,456",
-      "Mixed – Active — 974",
-      "Mixed – Lapsed — 1,159",
-      "UNC – No Primary — 10,243",
-      "UNC – Lapsed D — 2,870"
+      "UNC – Lapsed R — 1,501",
+      "Mixed – Active — 1,037",
+      "Mixed – Lapsed — 638",
+      "UNC – Non-partisan Ballot — 457",
+      "UNC – No Primary — 10,164",
+      "UNC – Lapsed D — 2,571"
     ],
     "datasets": [
       {
         "data": [
-          1456,
-          974,
-          1159,
-          10243,
-          2870
+          1501,
+          1037,
+          638,
+          457,
+          10164,
+          2571
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Truro Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

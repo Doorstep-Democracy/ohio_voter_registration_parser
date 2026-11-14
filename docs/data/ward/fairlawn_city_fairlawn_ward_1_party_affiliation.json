@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 93 (10%)",
-      "UNC – Lapsed R — 127 (14%)",
+      "Pure R — 90 (10%)",
+      "UNC – Lapsed R — 126 (13%)",
       "Mixed – Active — 66 (7%)",
-      "Mixed – Lapsed — 68 (7%)",
+      "Mixed – Lapsed — 67 (7%)",
+      "Minor Party — 1 (0%)",
       "UNC – Non-partisan Ballot — 28 (3%)",
-      "UNC – No Primary — 311 (33%)",
-      "UNC – Lapsed D — 138 (15%)",
-      "Pure D — 108 (12%)"
+      "UNC – No Primary — 312 (33%)",
+      "UNC – Lapsed D — 135 (14%)",
+      "Pure D — 110 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          93,
-          127,
+          90,
+          126,
           66,
-          68,
+          67,
+          1,
           28,
-          311,
-          138,
-          108
+          312,
+          135,
+          110
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "FAIRLAWN WARD 1 (FAIRLAWN City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 590",
-      "Mixed – Active — 512",
-      "Mixed – Lapsed — 373",
-      "UNC – No Primary — 2,222",
-      "UNC – Lapsed D — 590"
+      "UNC – Lapsed R — 684",
+      "Mixed – Active — 480",
+      "Mixed – Lapsed — 269",
+      "UNC – Non-partisan Ballot — 136",
+      "UNC – No Primary — 2,247",
+      "UNC – Lapsed D — 578"
     ],
     "datasets": [
       {
         "data": [
-          590,
-          512,
-          373,
-          2222,
-          590
+          684,
+          480,
+          269,
+          136,
+          2247,
+          578
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

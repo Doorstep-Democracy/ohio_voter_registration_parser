@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 480 (13%)",
-      "UNC – Lapsed R — 419 (11%)",
-      "Mixed – Active — 300 (8%)",
-      "Mixed – Lapsed — 244 (7%)",
-      "UNC – No Primary — 1,686 (46%)",
+      "Pure R — 470 (13%)",
+      "UNC – Lapsed R — 410 (11%)",
+      "Mixed – Active — 295 (8%)",
+      "Mixed – Lapsed — 167 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 78 (2%)",
+      "UNC – No Primary — 1,719 (47%)",
       "UNC – Lapsed D — 388 (11%)",
-      "Pure D — 161 (4%)"
+      "Pure D — 157 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          480,
-          419,
-          300,
-          244,
-          1686,
+          470,
+          410,
+          295,
+          167,
+          2,
+          78,
+          1719,
           388,
-          161
+          157
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "NEWCOMERSTOWN EX VILL SD (TUSC)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Newcomerstown Ex Vill Sd (Tusc Co.)",
+  "updated": "2026-11-12"
 }

@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 345 (14%)",
-      "UNC – Lapsed R — 314 (13%)",
-      "Mixed – Active — 156 (6%)",
-      "Mixed – Lapsed — 229 (9%)",
-      "UNC – No Primary — 1,026 (42%)",
-      "UNC – Lapsed D — 238 (10%)",
+      "Pure R — 344 (14%)",
+      "UNC – Lapsed R — 308 (13%)",
+      "Mixed – Active — 155 (6%)",
+      "Mixed – Lapsed — 128 (5%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 100 (4%)",
+      "UNC – No Primary — 1,057 (43%)",
+      "UNC – Lapsed D — 240 (10%)",
       "Pure D — 114 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          345,
-          314,
-          156,
-          229,
-          1026,
-          238,
+          344,
+          308,
+          155,
+          128,
+          10,
+          100,
+          1057,
+          240,
           114
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "North Baltimore Local Sd (Wood Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

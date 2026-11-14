@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 956 (36%)",
-      "UNC – Lapsed R — 414 (16%)",
-      "Mixed – Active — 173 (7%)",
-      "Mixed – Lapsed — 125 (5%)",
-      "UNC – No Primary — 798 (30%)",
-      "UNC – Lapsed D — 112 (4%)",
+      "Pure R — 955 (36%)",
+      "UNC – Lapsed R — 409 (15%)",
+      "Mixed – Active — 172 (6%)",
+      "Mixed – Lapsed — 71 (3%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 52 (2%)",
+      "UNC – No Primary — 816 (31%)",
+      "UNC – Lapsed D — 109 (4%)",
       "Pure D — 78 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          956,
-          414,
-          173,
-          125,
-          798,
-          112,
+          955,
+          409,
+          172,
+          71,
+          7,
+          52,
+          816,
+          109,
           78
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Cory-Rawson Local Sd (Hancock Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

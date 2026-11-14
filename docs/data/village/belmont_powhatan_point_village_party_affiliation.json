@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 67 (8%)",
+      "Pure R — 78 (9%)",
       "UNC – Lapsed R — 36 (4%)",
-      "Mixed – Active — 95 (11%)",
-      "Mixed – Lapsed — 75 (9%)",
-      "UNC – No Primary — 368 (42%)",
-      "UNC – Lapsed D — 143 (16%)",
-      "Pure D — 88 (10%)"
+      "Mixed – Active — 114 (13%)",
+      "Mixed – Lapsed — 31 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 34 (4%)",
+      "UNC – No Primary — 366 (42%)",
+      "UNC – Lapsed D — 117 (14%)",
+      "Pure D — 87 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          67,
+          78,
           36,
-          95,
-          75,
-          368,
-          143,
-          88
+          114,
+          31,
+          0,
+          34,
+          366,
+          117,
+          87
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "POWHATAN POINT VILLAGE (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

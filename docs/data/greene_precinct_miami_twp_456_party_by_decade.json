@@ -4,7 +4,7 @@
   "precinct": "MIAMI TWP 456",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -39,13 +39,13 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          2,
+          1,
           0,
           1,
           18,
           8,
           4,
-          11,
+          12,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -73,16 +73,33 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          1,
+          0,
           4,
           5,
-          5,
+          4,
           1,
           1,
-          1,
+          0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -112,9 +129,9 @@
           8,
           10,
           12,
-          23,
-          24,
-          25
+          26,
+          25,
+          26
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -127,8 +144,8 @@
           3,
           4,
           16,
-          13,
-          9,
+          10,
+          10,
           13,
           22,
           3
@@ -143,7 +160,7 @@
           0,
           2,
           7,
-          41,
+          40,
           15,
           24,
           23,

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 348",
-      "Mixed – Active — 332",
-      "Mixed – Lapsed — 349",
-      "UNC – No Primary — 1,475",
-      "UNC – Lapsed D — 473"
+      "UNC – Lapsed R — 364",
+      "Mixed – Active — 349",
+      "Mixed – Lapsed — 151",
+      "UNC – Non-partisan Ballot — 183",
+      "UNC – No Primary — 1,459",
+      "UNC – Lapsed D — 425"
     ],
     "datasets": [
       {
         "data": [
-          348,
-          332,
+          364,
           349,
-          1475,
-          473
+          151,
+          183,
+          1459,
+          425
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "WARREN TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

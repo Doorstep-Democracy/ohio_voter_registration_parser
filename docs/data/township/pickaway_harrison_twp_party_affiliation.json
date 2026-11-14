@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,101 (17%)",
-      "UNC – Lapsed R — 637 (10%)",
-      "Mixed – Active — 511 (8%)",
-      "Mixed – Lapsed — 553 (9%)",
-      "UNC – No Primary — 2,821 (44%)",
-      "UNC – Lapsed D — 548 (9%)",
-      "Pure D — 236 (4%)"
+      "Pure R — 1,132 (17%)",
+      "UNC – Lapsed R — 640 (10%)",
+      "Mixed – Active — 541 (8%)",
+      "Mixed – Lapsed — 161 (2%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 366 (6%)",
+      "UNC – No Primary — 2,903 (44%)",
+      "UNC – Lapsed D — 497 (8%)",
+      "Pure D — 324 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1101,
-          637,
-          511,
-          553,
-          2821,
-          548,
-          236
+          1132,
+          640,
+          541,
+          161,
+          8,
+          366,
+          2903,
+          497,
+          324
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

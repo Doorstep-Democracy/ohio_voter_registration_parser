@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 140 (15%)",
+      "Pure R — 164 (18%)",
       "UNC – Lapsed R — 91 (10%)",
-      "Mixed – Active — 78 (9%)",
-      "Mixed – Lapsed — 50 (6%)",
-      "UNC – No Primary — 385 (42%)",
-      "UNC – Lapsed D — 111 (12%)",
-      "Pure D — 54 (6%)"
+      "Mixed – Active — 77 (8%)",
+      "Mixed – Lapsed — 44 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 15 (2%)",
+      "UNC – No Primary — 361 (39%)",
+      "UNC – Lapsed D — 102 (11%)",
+      "Pure D — 63 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          140,
+          164,
           91,
-          78,
-          50,
-          385,
-          111,
-          54
+          77,
+          44,
+          2,
+          15,
+          361,
+          102,
+          63
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "AUGLAIZE TOWNSHIP (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

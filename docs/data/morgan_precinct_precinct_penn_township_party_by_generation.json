@@ -4,7 +4,7 @@
   "precinct": "PRECINCT PENN TOWNSHIP",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          11,
+          10,
           65,
           34,
           25,
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          19,
-          24,
-          23,
+          18,
+          25,
+          22,
           7
         ],
         "backgroundColor": "#fca5a5",
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          20,
+          19,
           18,
           10,
           0
@@ -59,11 +59,24 @@
         "data": [
           4,
           7,
-          5,
+          7,
           4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -86,8 +99,8 @@
           1,
           14,
           23,
-          32,
-          46
+          31,
+          50
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 706",
-      "Mixed – Active — 396",
-      "Mixed – Lapsed — 530",
-      "UNC – No Primary — 3,036",
-      "UNC – Lapsed D — 1,054"
+      "UNC – Lapsed R — 724",
+      "Mixed – Active — 419",
+      "Mixed – Lapsed — 272",
+      "UNC – Non-partisan Ballot — 233",
+      "UNC – No Primary — 2,969",
+      "UNC – Lapsed D — 944"
     ],
     "datasets": [
       {
         "data": [
-          706,
-          396,
-          530,
-          3036,
-          1054
+          724,
+          419,
+          272,
+          233,
+          2969,
+          944
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Blendon Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

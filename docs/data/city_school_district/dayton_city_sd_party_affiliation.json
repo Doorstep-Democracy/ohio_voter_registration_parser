@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,417 (4%)",
-      "UNC – Lapsed R — 3,574 (4%)",
-      "Mixed – Active — 3,079 (4%)",
-      "Mixed – Lapsed — 3,456 (4%)",
-      "UNC – No Primary — 47,195 (55%)",
-      "UNC – Lapsed D — 14,937 (17%)",
-      "Pure D — 10,258 (12%)"
+      "Pure R — 2,974 (3%)",
+      "UNC – Lapsed R — 3,971 (4%)",
+      "Mixed – Active — 3,039 (3%)",
+      "Mixed – Lapsed — 1,932 (2%)",
+      "Minor Party — 162 (0%)",
+      "UNC – Non-partisan Ballot — 1,500 (2%)",
+      "UNC – No Primary — 49,205 (55%)",
+      "UNC – Lapsed D — 14,787 (17%)",
+      "Pure D — 11,249 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          3417,
-          3574,
-          3079,
-          3456,
-          47195,
-          14937,
-          10258
+          2974,
+          3971,
+          3039,
+          1932,
+          162,
+          1500,
+          49205,
+          14787,
+          11249
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "DAYTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

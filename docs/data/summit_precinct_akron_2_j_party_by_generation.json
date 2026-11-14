@@ -4,7 +4,7 @@
   "precinct": "AKRON 2-J",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -34,7 +34,7 @@
           4,
           7,
           10,
-          15,
+          13,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           4,
-          16,
+          15,
           9,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          47,
-          103,
-          185,
-          138
+          45,
+          104,
+          189,
+          150
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          11,
+          9,
           62,
-          54,
-          39,
-          6
+          56,
+          37,
+          5
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,9 +124,9 @@
         "data": [
           7,
           46,
-          30,
+          29,
           25,
-          12
+          10
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

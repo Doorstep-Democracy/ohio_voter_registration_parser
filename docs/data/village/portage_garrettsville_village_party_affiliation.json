@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 201 (12%)",
-      "UNC – Lapsed R — 171 (10%)",
-      "Mixed – Active — 197 (11%)",
-      "Mixed – Lapsed — 126 (7%)",
-      "UNC – No Primary — 684 (40%)",
-      "UNC – Lapsed D — 224 (13%)",
-      "Pure D — 128 (7%)"
+      "Pure R — 185 (11%)",
+      "UNC – Lapsed R — 200 (12%)",
+      "Mixed – Active — 202 (12%)",
+      "Mixed – Lapsed — 76 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 51 (3%)",
+      "UNC – No Primary — 646 (38%)",
+      "UNC – Lapsed D — 216 (13%)",
+      "Pure D — 138 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          201,
-          171,
-          197,
-          126,
-          684,
-          224,
-          128
+          185,
+          200,
+          202,
+          76,
+          5,
+          51,
+          646,
+          216,
+          138
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GARRETTSVILLE VILLAGE (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

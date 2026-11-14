@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,385 (20%)",
-      "UNC – Lapsed R — 2,133 (18%)",
-      "Mixed – Active — 739 (6%)",
-      "Mixed – Lapsed — 955 (8%)",
-      "UNC – No Primary — 4,487 (37%)",
-      "UNC – Lapsed D — 852 (7%)",
-      "Pure D — 583 (5%)"
+      "Pure R — 2,375 (19%)",
+      "UNC – Lapsed R — 2,125 (17%)",
+      "Mixed – Active — 728 (6%)",
+      "Mixed – Lapsed — 362 (3%)",
+      "Minor Party — 20 (0%)",
+      "UNC – Non-partisan Ballot — 587 (5%)",
+      "UNC – No Primary — 4,598 (38%)",
+      "UNC – Lapsed D — 848 (7%)",
+      "Pure D — 578 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2385,
-          2133,
-          739,
-          955,
-          4487,
-          852,
-          583
+          2375,
+          2125,
+          728,
+          362,
+          20,
+          587,
+          4598,
+          848,
+          578
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Shawnee Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

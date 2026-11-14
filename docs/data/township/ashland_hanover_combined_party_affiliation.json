@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 393 (25%)",
-      "UNC – Lapsed R — 206 (13%)",
+      "Pure R — 376 (24%)",
+      "UNC – Lapsed R — 233 (15%)",
       "Mixed – Active — 126 (8%)",
-      "Mixed – Lapsed — 231 (15%)",
-      "UNC – No Primary — 385 (25%)",
-      "UNC – Lapsed D — 112 (7%)",
-      "Pure D — 93 (6%)"
+      "Mixed – Lapsed — 49 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 164 (11%)",
+      "UNC – No Primary — 379 (25%)",
+      "UNC – Lapsed D — 105 (7%)",
+      "Pure D — 102 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          393,
-          206,
+          376,
+          233,
           126,
-          231,
-          385,
-          112,
-          93
+          49,
+          4,
+          164,
+          379,
+          105,
+          102
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HANOVER-COMBINED (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -231,14 +231,14 @@ The LLM path is purely additive. It never blocks a pipeline run.
 
 ## Integration with `generate_narratives.py`
 
-The `--llm` flag integration is planned for `generate_narratives.py`. When implemented, the pipeline will:
+The `--llm` / `--llm-batch` flags are wired into `generate_narratives.py`. On each run the pipeline:
 
-1. Build templated narratives (existing behavior)
-2. Check `is_captain_fresh()` for each jurisdiction
-3. Call `enrich_one()` (or queue for batch) on stale jurisdictions
-4. Write updated JSON via `write_captain_narrative()`
+1. Builds templated narratives (existing behavior)
+2. Checks `is_captain_fresh()` for each jurisdiction
+3. Calls `enrich_one()` (sync, `--llm`) or queues for `enrich_batch()` (`--llm-batch`) on stale jurisdictions
+4. Writes updated JSON via `write_captain_narrative()`
 
-Until the flag is wired, call `enrich_batch()` directly from a standalone script or use the CLI dry-run to test output.
+As of this writing, no production run has used either flag: `ANTHROPIC_API_KEY` is unset and the `anthropic` package is not installed in `.venv`, so every `docs/data/*_narrative.json` file has only the templated `narrative` field, never `narrative_captain`. The integration is dormant, not unbuilt — see "Setup" above to activate it.
 
 ---
 

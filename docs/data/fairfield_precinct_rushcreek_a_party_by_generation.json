@@ -4,7 +4,7 @@
   "precinct": "RUSHCREEK A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,8 +18,8 @@
       {
         "label": "Pure R",
         "data": [
-          11,
-          76,
+          10,
+          74,
           33,
           13,
           6
@@ -58,7 +58,7 @@
         "label": "Mixed – Lapsed",
         "data": [
           4,
-          12,
+          13,
           8,
           3,
           0
@@ -68,10 +68,23 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
-          12,
+          11,
           6,
           7,
           0
@@ -86,8 +99,8 @@
           3,
           32,
           51,
-          95,
-          67
+          99,
+          71
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           1,
           14,
           21,
-          11,
+          12,
           2
         ],
         "backgroundColor": "#93c5fd",

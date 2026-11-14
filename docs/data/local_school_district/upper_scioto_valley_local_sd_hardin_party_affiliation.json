@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 548 (21%)",
+      "Pure R — 542 (21%)",
       "UNC – Lapsed R — 385 (15%)",
       "Mixed – Active — 184 (7%)",
-      "Mixed – Lapsed — 179 (7%)",
-      "UNC – No Primary — 1,018 (39%)",
-      "UNC – Lapsed D — 192 (7%)",
-      "Pure D — 88 (3%)"
+      "Mixed – Lapsed — 98 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 83 (3%)",
+      "UNC – No Primary — 1,038 (40%)",
+      "UNC – Lapsed D — 190 (7%)",
+      "Pure D — 86 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          548,
+          542,
           385,
           184,
-          179,
-          1018,
-          192,
-          88
+          98,
+          4,
+          83,
+          1038,
+          190,
+          86
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Upper Scioto Valley Local Sd (Hardin Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

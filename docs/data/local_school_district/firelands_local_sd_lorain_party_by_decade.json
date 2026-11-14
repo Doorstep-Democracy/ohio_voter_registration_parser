@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           1,
-          26,
-          152,
-          307,
-          334,
-          186,
-          134,
-          110,
-          57
+          25,
+          148,
+          302,
+          329,
+          185,
+          131,
+          109,
+          55
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          17,
-          83,
+          16,
+          84,
           135,
           190,
-          159,
-          150,
-          98,
-          10
+          160,
+          151,
+          97,
+          9
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          22,
+          21,
           159,
-          353,
-          274,
-          166,
-          99,
+          345,
+          273,
+          163,
+          97,
           18,
           0
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          21,
-          91,
-          143,
-          151,
-          120,
-          99,
-          33,
-          12
+          17,
+          67,
+          103,
+          98,
+          66,
+          42,
+          1,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          4,
+          2,
+          3,
+          4,
+          2,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          21,
+          40,
+          53,
+          52,
+          56,
+          32,
+          11
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          15,
-          62,
-          174,
-          288,
-          371,
-          473,
-          651,
-          612
+          16,
+          61,
+          171,
+          292,
+          374,
+          479,
+          661,
+          648
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
-          27,
-          120,
-          178,
-          220,
-          187,
-          154,
-          79,
-          19
+          2,
+          23,
+          116,
+          176,
+          223,
+          183,
+          157,
+          81,
+          23
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          23,
-          146,
-          282,
-          166,
+          21,
+          143,
+          281,
+          164,
           84,
           59,
-          58,
-          30
+          57,
+          27
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Firelands Local Sd (Lorain Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

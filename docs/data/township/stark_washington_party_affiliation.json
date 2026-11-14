@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 865 (28%)",
-      "UNC – Lapsed R — 295 (10%)",
-      "Mixed – Active — 374 (12%)",
-      "Mixed – Lapsed — 192 (6%)",
-      "UNC – No Primary — 903 (29%)",
-      "UNC – Lapsed D — 240 (8%)",
-      "Pure D — 216 (7%)"
+      "Pure R — 764 (25%)",
+      "UNC – Lapsed R — 414 (13%)",
+      "Mixed – Active — 352 (11%)",
+      "Mixed – Lapsed — 105 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 103 (3%)",
+      "UNC – No Primary — 904 (29%)",
+      "UNC – Lapsed D — 234 (8%)",
+      "Pure D — 233 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          865,
-          295,
-          374,
-          192,
-          903,
-          240,
-          216
+          764,
+          414,
+          352,
+          105,
+          2,
+          103,
+          904,
+          234,
+          233
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

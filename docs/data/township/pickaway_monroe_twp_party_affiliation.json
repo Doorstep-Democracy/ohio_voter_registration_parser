@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 245 (28%)",
-      "UNC – Lapsed R — 76 (9%)",
-      "Mixed – Active — 111 (13%)",
-      "Mixed – Lapsed — 51 (6%)",
-      "UNC – No Primary — 280 (32%)",
-      "UNC – Lapsed D — 76 (9%)",
-      "Pure D — 26 (3%)"
+      "Pure R — 242 (28%)",
+      "UNC – Lapsed R — 85 (10%)",
+      "Mixed – Active — 115 (13%)",
+      "Mixed – Lapsed — 34 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 14 (2%)",
+      "UNC – No Primary — 283 (32%)",
+      "UNC – Lapsed D — 68 (8%)",
+      "Pure D — 31 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          245,
-          76,
-          111,
-          51,
-          280,
-          76,
-          26
+          242,
+          85,
+          115,
+          34,
+          1,
+          14,
+          283,
+          68,
+          31
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONROE TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

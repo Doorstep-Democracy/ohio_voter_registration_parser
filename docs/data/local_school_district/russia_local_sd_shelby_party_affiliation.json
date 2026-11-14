@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 361 (29%)",
-      "UNC – Lapsed R — 244 (20%)",
+      "Pure R — 359 (29%)",
+      "UNC – Lapsed R — 242 (20%)",
       "Mixed – Active — 135 (11%)",
-      "Mixed – Lapsed — 92 (8%)",
-      "UNC – No Primary — 345 (28%)",
-      "UNC – Lapsed D — 39 (3%)",
+      "Mixed – Lapsed — 54 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 37 (3%)",
+      "UNC – No Primary — 361 (29%)",
+      "UNC – Lapsed D — 38 (3%)",
       "Pure D — 8 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          361,
-          244,
+          359,
+          242,
           135,
-          92,
-          345,
-          39,
+          54,
+          1,
+          37,
+          361,
+          38,
           8
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Russia Local Sd (Shelby Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 844 (16%)",
-      "UNC – Lapsed R — 466 (9%)",
-      "Mixed – Active — 588 (11%)",
-      "Mixed – Lapsed — 466 (9%)",
-      "UNC – No Primary — 1,846 (35%)",
-      "UNC – Lapsed D — 716 (13%)",
-      "Pure D — 423 (8%)"
+      "Pure R — 732 (14%)",
+      "UNC – Lapsed R — 616 (11%)",
+      "Mixed – Active — 605 (11%)",
+      "Mixed – Lapsed — 238 (4%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 243 (4%)",
+      "UNC – No Primary — 1,810 (33%)",
+      "UNC – Lapsed D — 623 (12%)",
+      "Pure D — 533 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          844,
-          466,
-          588,
-          466,
-          1846,
-          716,
-          423
+          732,
+          616,
+          605,
+          238,
+          13,
+          243,
+          1810,
+          623,
+          533
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "CARLISLE TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

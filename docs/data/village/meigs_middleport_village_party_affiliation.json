@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 166 (14%)",
-      "UNC – Lapsed R — 174 (14%)",
-      "Mixed – Active — 84 (7%)",
-      "Mixed – Lapsed — 91 (8%)",
-      "UNC – No Primary — 558 (46%)",
-      "UNC – Lapsed D — 98 (8%)",
-      "Pure D — 38 (3%)"
+      "Pure R — 193 (16%)",
+      "UNC – Lapsed R — 155 (13%)",
+      "Mixed – Active — 103 (9%)",
+      "Mixed – Lapsed — 69 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 11 (1%)",
+      "UNC – No Primary — 532 (44%)",
+      "UNC – Lapsed D — 86 (7%)",
+      "Pure D — 52 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          166,
-          174,
-          84,
-          91,
-          558,
-          98,
-          38
+          193,
+          155,
+          103,
+          69,
+          0,
+          11,
+          532,
+          86,
+          52
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MIDDLEPORT VILLAGE (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

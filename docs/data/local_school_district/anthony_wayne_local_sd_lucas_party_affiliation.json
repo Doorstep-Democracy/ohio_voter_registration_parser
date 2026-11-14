@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,702 (18%)",
-      "UNC – Lapsed R — 2,999 (12%)",
-      "Mixed – Active — 2,465 (10%)",
-      "Mixed – Lapsed — 2,299 (9%)",
-      "UNC – No Primary — 8,133 (31%)",
-      "UNC – Lapsed D — 2,586 (10%)",
-      "Pure D — 2,642 (10%)"
+      "Pure R — 4,698 (18%)",
+      "UNC – Lapsed R — 3,027 (12%)",
+      "Mixed – Active — 2,468 (9%)",
+      "Mixed – Lapsed — 1,044 (4%)",
+      "Minor Party — 100 (0%)",
+      "UNC – Non-partisan Ballot — 1,207 (5%)",
+      "UNC – No Primary — 8,453 (32%)",
+      "UNC – Lapsed D — 2,613 (10%)",
+      "Pure D — 2,636 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          4702,
-          2999,
-          2465,
-          2299,
-          8133,
-          2586,
-          2642
+          4698,
+          3027,
+          2468,
+          1044,
+          100,
+          1207,
+          8453,
+          2613,
+          2636
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Anthony Wayne Local Sd (Lucas Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -31,8 +31,11 @@ import sys
 from pathlib import Path
 
 ROOT       = Path(__file__).resolve().parent.parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from pipeline.paths import ENRICHED_CACHE as PARQUET  # noqa: E402
+
 CSV_PATH   = ROOT / "local" / "source" / "electedofficials.csv"
-PARQUET    = ROOT / "local" / "source" / "parquet_enriched" / "enriched_voters.parquet"
 OUTPUT_DIR = ROOT / "local" / "working"
 OUTPUT     = OUTPUT_DIR / "officials_voter_links.json"
 

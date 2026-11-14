@@ -4,7 +4,7 @@
   "precinct": "SPRINGFIELD BB",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,8 +31,8 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
-          32,
+          8,
+          31,
           24,
           16,
           4
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
@@ -85,9 +98,9 @@
         "data": [
           2,
           21,
-          32,
-          63,
-          50
+          33,
+          62,
+          56
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,8 +110,8 @@
         "label": "UNC – Lapsed D",
         "data": [
           6,
-          20,
-          25,
+          19,
+          26,
           19,
           5
         ],

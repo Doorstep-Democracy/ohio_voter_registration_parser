@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,221 (13%)",
-      "UNC – Lapsed R — 921 (10%)",
-      "Mixed – Active — 776 (8%)",
-      "Mixed – Lapsed — 1,052 (11%)",
-      "UNC – No Primary — 3,256 (35%)",
-      "UNC – Lapsed D — 1,322 (14%)",
-      "Pure D — 874 (9%)"
+      "Pure R — 1,089 (11%)",
+      "UNC – Lapsed R — 1,037 (11%)",
+      "Mixed – Active — 748 (8%)",
+      "Mixed – Lapsed — 434 (5%)",
+      "Minor Party — 47 (0%)",
+      "UNC – Non-partisan Ballot — 573 (6%)",
+      "UNC – No Primary — 3,356 (35%)",
+      "UNC – Lapsed D — 1,254 (13%)",
+      "Pure D — 1,052 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1221,
-          921,
-          776,
-          1052,
-          3256,
-          1322,
-          874
+          1089,
+          1037,
+          748,
+          434,
+          47,
+          573,
+          3356,
+          1254,
+          1052
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "ENGLEWOOD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

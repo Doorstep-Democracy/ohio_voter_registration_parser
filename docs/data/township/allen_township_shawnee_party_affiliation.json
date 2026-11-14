@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,196 (24%)",
-      "UNC – Lapsed R — 1,194 (13%)",
-      "Mixed – Active — 570 (6%)",
-      "Mixed – Lapsed — 714 (8%)",
-      "UNC – No Primary — 3,358 (37%)",
-      "UNC – Lapsed D — 616 (7%)",
-      "Pure D — 372 (4%)"
+      "Pure R — 1,833 (20%)",
+      "UNC – Lapsed R — 1,580 (17%)",
+      "Mixed – Active — 564 (6%)",
+      "Mixed – Lapsed — 255 (3%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 457 (5%)",
+      "UNC – No Primary — 3,352 (37%)",
+      "UNC – Lapsed D — 596 (7%)",
+      "Pure D — 416 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2196,
-          1194,
-          570,
-          714,
-          3358,
-          616,
-          372
+          1833,
+          1580,
+          564,
+          255,
+          17,
+          457,
+          3352,
+          596,
+          416
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Township Shawnee (Allen Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

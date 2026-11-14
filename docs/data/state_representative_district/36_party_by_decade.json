@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          29,
-          363,
-          1356,
-          2339,
-          2054,
-          1170,
-          856,
-          510,
-          236
+          17,
+          278,
+          1171,
+          2251,
+          2043,
+          1219,
+          866,
+          548,
+          296
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          26,
-          271,
-          608,
-          1213,
-          1737,
-          1457,
-          1429,
+          31,
+          306,
+          717,
           1244,
-          97
+          1747,
+          1430,
+          1417,
+          1213,
+          154
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          16,
-          259,
-          1089,
-          1835,
-          1287,
-          725,
-          521,
-          178,
-          18
+          14,
+          206,
+          1047,
+          1897,
+          1363,
+          842,
+          686,
+          269,
+          26
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          17,
-          156,
-          499,
-          917,
-          1098,
-          1048,
-          987,
-          529,
-          233
+          15,
+          154,
+          442,
+          667,
+          726,
+          567,
+          408,
+          125,
+          10
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
         "data": [
           0,
-          10,
-          132,
-          680,
-          2017,
-          3283,
-          4339,
-          7092,
-          10944,
-          8064
+          1,
+          12,
+          33,
+          40,
+          47,
+          64,
+          41,
+          16
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          15,
+          92,
+          230,
+          315,
+          406,
+          536,
+          382,
+          215
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          9,
+          129,
+          650,
+          1910,
+          3153,
+          4204,
+          6787,
+          10685,
+          8643
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
-          18,
-          201,
-          658,
-          1377,
-          1544,
-          1717,
-          2186,
-          1466,
-          153
+          22,
+          205,
+          642,
+          1270,
+          1425,
+          1504,
+          1946,
+          1411,
+          202
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          18,
-          177,
-          792,
-          1518,
-          1087,
-          905,
-          1080,
-          854,
-          303
+          13,
+          156,
+          784,
+          1650,
+          1257,
+          1241,
+          1570,
+          1385,
+          623
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "State Representative District",
   "jurisdiction_name": "36",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

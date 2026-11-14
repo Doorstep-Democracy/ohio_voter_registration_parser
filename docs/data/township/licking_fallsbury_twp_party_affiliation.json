@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 139 (23%)",
-      "UNC – Lapsed R — 95 (15%)",
-      "Mixed – Active — 72 (12%)",
-      "Mixed – Lapsed — 38 (6%)",
-      "UNC – No Primary — 209 (34%)",
-      "UNC – Lapsed D — 46 (8%)",
-      "Pure D — 14 (2%)"
+      "Pure R — 140 (23%)",
+      "UNC – Lapsed R — 102 (16%)",
+      "Mixed – Active — 70 (11%)",
+      "Mixed – Lapsed — 21 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 16 (3%)",
+      "UNC – No Primary — 211 (34%)",
+      "UNC – Lapsed D — 43 (7%)",
+      "Pure D — 16 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          139,
-          95,
-          72,
-          38,
-          209,
-          46,
-          14
+          140,
+          102,
+          70,
+          21,
+          0,
+          16,
+          211,
+          43,
+          16
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FALLSBURY TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

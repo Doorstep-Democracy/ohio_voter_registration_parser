@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 642 (29%)",
-      "UNC – Lapsed R — 257 (12%)",
-      "Mixed – Active — 289 (13%)",
-      "Mixed – Lapsed — 146 (7%)",
-      "UNC – No Primary — 607 (28%)",
-      "UNC – Lapsed D — 148 (7%)",
-      "Pure D — 88 (4%)"
+      "Pure R — 623 (28%)",
+      "UNC – Lapsed R — 277 (13%)",
+      "Mixed – Active — 291 (13%)",
+      "Mixed – Lapsed — 84 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 63 (3%)",
+      "UNC – No Primary — 617 (28%)",
+      "UNC – Lapsed D — 139 (6%)",
+      "Pure D — 105 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          642,
-          257,
-          289,
-          146,
-          607,
-          148,
-          88
+          623,
+          277,
+          291,
+          84,
+          4,
+          63,
+          617,
+          139,
+          105
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TWP (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

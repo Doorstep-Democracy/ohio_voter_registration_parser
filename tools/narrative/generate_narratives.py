@@ -1,6 +1,6 @@
 """
-tools/generate_narratives.py
-────────────────────────────
+tools/narrative/generate_narratives.py
+──────────────────────────────────────
 Reads existing chart JSON from docs/data/ and writes a {slug}_narrative.json
 for every jurisdiction at the specified level(s).
 
@@ -20,34 +20,34 @@ on the next run (no --overwrite needed).
 Usage (CLI)
 ───────────
   # All 88 counties (default level)
-  python tools/generate_narratives.py --templated
+  python -m tools.narrative.generate_narratives --templated
 
   # Targeted county run
-  python tools/generate_narratives.py Hamilton Franklin --templated
+  python -m tools.narrative.generate_narratives Hamilton Franklin --templated
 
   # All Hamilton precincts
-  python tools/generate_narratives.py --level precinct Hamilton --templated
+  python -m tools.narrative.generate_narratives --level precinct Hamilton --templated
 
   # All cities
-  python tools/generate_narratives.py --level city --templated
+  python -m tools.narrative.generate_narratives --level city --templated
 
   # Every level in sequence
-  python tools/generate_narratives.py --all-levels --templated
+  python -m tools.narrative.generate_narratives --all-levels --templated
 
   # Inspect output without writing
-  python tools/generate_narratives.py Hamilton --templated --dry-run
+  python -m tools.narrative.generate_narratives Hamilton --templated --dry-run
 
   # Force regeneration despite unchanged metrics
-  python tools/generate_narratives.py --templated --overwrite
+  python -m tools.narrative.generate_narratives --templated --overwrite
 
   # Template + LLM sync enrichment (one API call per jurisdiction)
-  python tools/generate_narratives.py Hamilton --templated --llm
+  python -m tools.narrative.generate_narratives Hamilton --templated --llm
 
   # Template + LLM Batch API enrichment (50% cheaper, waits for completion)
-  python tools/generate_narratives.py --all-levels --templated --llm-batch
+  python -m tools.narrative.generate_narratives --all-levels --templated --llm-batch
 
   # Force re-enrich even if captain_metrics_hash is current
-  python tools/generate_narratives.py Hamilton --templated --llm --llm-force
+  python -m tools.narrative.generate_narratives Hamilton --templated --llm --llm-force
 
 Usage (programmatic -- called by ohio_voter_pipeline.py)
 ────────────────────────────────────────────────────────
@@ -90,8 +90,12 @@ from .officeholders import (
 
 # ---- Paths -------------------------------------------------------------------
 ROOT     = Path(__file__).resolve().parent.parent.parent  # project root
-DATA_DIR = ROOT / 'docs' / 'data'
-MANIFEST = ROOT / 'docs' / 'manifest.json'
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+# The output root comes from the single resolver, so narratives follow
+# ELECTION_DATA_OUT together with the chart JSON they are built from.
+from pipeline.paths import DATA_DIR, DOCS_DIR  # noqa: E402
+MANIFEST = DOCS_DIR / 'manifest.json'
 
 # ---- Constants ---------------------------------------------------------------
 # Label written to generated_by field when the template registry produced the
@@ -111,7 +115,7 @@ log = logging.getLogger(__name__)
 def county_slug(name: str) -> str:
     """
     Produce the filesystem slug for a county name.
-    'Van Wert' -> 'van_wert'.  Matches voter_data_cleaner_v2 convention.
+    'Van Wert' -> 'van_wert'.  Matches the pipeline/voter_data_cleaner.py convention.
     """
     return name.lower().replace(' ', '_').replace("'", '')
 
@@ -181,7 +185,7 @@ def enumerate_precinct(filter_counties: list[str] | None = None) -> list[dict]:
     Walk each county's {county_slug}_precinct_index.json and yield one entry
     per precinct.
 
-    Precinct index format (written by voter_data_cleaner_v2):
+    Precinct index format (written by pipeline/voter_data_cleaner.py):
       { 'county': 'Hamilton',
         'precincts': [
           {'name': 'ADDYSTON A', 'safe_name': 'addyston_a', ...}, ...
@@ -357,6 +361,7 @@ def _process_one(
         party_decade_json=pd_json,
         parent_county=parent_county,
         geography_counties=None,    # district->counties map is Workstream 2
+        source=f'{level}/{slug}',
     )
     if metrics is None:
         log.debug('No usable metrics for %s/%s -- skipping', level, slug)
@@ -669,6 +674,11 @@ def run_for_levels(
 # ---- CLI ---------------------------------------------------------------------
 
 def main() -> None:
+    # --dry-run prints narrative prose straight to stdout, which can contain
+    # non-ASCII characters (e.g. U+2212 minus sign in percentage deltas).
+    # The Windows console's cp1252 default can't encode those and raises
+    # UnicodeEncodeError, so force UTF-8 stdout regardless of host console.
+    sys.stdout.reconfigure(encoding='utf-8')
     logging.basicConfig(level=logging.INFO, format='%(levelname)s %(message)s')
 
     parser = argparse.ArgumentParser(

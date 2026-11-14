@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 124",
-      "Mixed – Active — 222",
-      "Mixed – Lapsed — 122",
-      "UNC – No Primary — 475",
-      "UNC – Lapsed D — 226"
+      "UNC – Lapsed R — 130",
+      "Mixed – Active — 209",
+      "Mixed – Lapsed — 106",
+      "UNC – Non-partisan Ballot — 29",
+      "UNC – No Primary — 470",
+      "UNC – Lapsed D — 212"
     ],
     "datasets": [
       {
         "data": [
-          124,
-          222,
-          122,
-          475,
-          226
+          130,
+          209,
+          106,
+          29,
+          470,
+          212
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BERLIN TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

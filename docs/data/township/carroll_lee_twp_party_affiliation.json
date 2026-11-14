@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 118 (18%)",
-      "UNC – Lapsed R — 66 (10%)",
-      "Mixed – Active — 69 (11%)",
-      "Mixed – Lapsed — 33 (5%)",
-      "UNC – No Primary — 284 (44%)",
-      "UNC – Lapsed D — 53 (8%)",
-      "Pure D — 20 (3%)"
+      "Pure R — 117 (18%)",
+      "UNC – Lapsed R — 78 (12%)",
+      "Mixed – Active — 62 (10%)",
+      "Mixed – Lapsed — 40 (6%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 3 (0%)",
+      "UNC – No Primary — 277 (43%)",
+      "UNC – Lapsed D — 47 (7%)",
+      "Pure D — 23 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          118,
-          66,
-          69,
-          33,
-          284,
-          53,
-          20
+          117,
+          78,
+          62,
+          40,
+          3,
+          3,
+          277,
+          47,
+          23
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LEE TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

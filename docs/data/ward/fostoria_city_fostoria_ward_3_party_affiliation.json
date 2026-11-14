@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 79 (5%)",
-      "UNC – Lapsed R — 116 (7%)",
-      "Mixed – Active — 70 (4%)",
+      "Pure R — 75 (5%)",
+      "UNC – Lapsed R — 115 (7%)",
+      "Mixed – Active — 68 (4%)",
       "Mixed – Lapsed — 53 (3%)",
+      "Minor Party — 3 (0%)",
       "UNC – Non-partisan Ballot — 28 (2%)",
-      "UNC – No Primary — 967 (61%)",
-      "UNC – Lapsed D — 171 (11%)",
-      "Pure D — 90 (6%)"
+      "UNC – No Primary — 969 (62%)",
+      "UNC – Lapsed D — 167 (11%)",
+      "Pure D — 88 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          79,
-          116,
-          70,
+          75,
+          115,
+          68,
           53,
+          3,
           28,
-          967,
-          171,
-          90
+          969,
+          167,
+          88
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "FOSTORIA WARD 3 (FOSTORIA City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

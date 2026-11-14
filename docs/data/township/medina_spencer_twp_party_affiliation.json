@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 352 (22%)",
-      "UNC – Lapsed R — 155 (10%)",
-      "Mixed – Active — 140 (9%)",
-      "Mixed – Lapsed — 207 (13%)",
-      "UNC – No Primary — 541 (34%)",
-      "UNC – Lapsed D — 143 (9%)",
-      "Pure D — 72 (4%)"
+      "Pure R — 331 (20%)",
+      "UNC – Lapsed R — 189 (12%)",
+      "Mixed – Active — 138 (9%)",
+      "Mixed – Lapsed — 67 (4%)",
+      "Minor Party — 9 (1%)",
+      "UNC – Non-partisan Ballot — 135 (8%)",
+      "UNC – No Primary — 537 (33%)",
+      "UNC – Lapsed D — 120 (7%)",
+      "Pure D — 96 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          352,
-          155,
-          140,
-          207,
-          541,
-          143,
-          72
+          331,
+          189,
+          138,
+          67,
+          9,
+          135,
+          537,
+          120,
+          96
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Spencer TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

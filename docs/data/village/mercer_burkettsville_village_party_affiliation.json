@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 37 (28%)",
-      "UNC – Lapsed R — 21 (16%)",
-      "Mixed – Active — 12 (9%)",
-      "Mixed – Lapsed — 8 (6%)",
-      "UNC – No Primary — 46 (35%)",
-      "UNC – Lapsed D — 7 (5%)",
+      "Pure R — 30 (24%)",
+      "UNC – Lapsed R — 25 (20%)",
+      "Mixed – Active — 9 (7%)",
+      "Mixed – Lapsed — 4 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 7 (6%)",
+      "UNC – No Primary — 42 (34%)",
+      "UNC – Lapsed D — 7 (6%)",
       "Pure D — 0 (0%)"
     ],
     "datasets": [
       {
         "data": [
-          37,
-          21,
-          12,
-          8,
-          46,
+          30,
+          25,
+          9,
+          4,
+          0,
+          7,
+          42,
           7,
           0
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BURKETTSVILLE VILLAGE (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 527",
-      "Mixed – Active — 317",
-      "Mixed – Lapsed — 285",
-      "UNC – No Primary — 1,094",
-      "UNC – Lapsed D — 247"
+      "UNC – Lapsed R — 598",
+      "Mixed – Active — 313",
+      "Mixed – Lapsed — 161",
+      "UNC – Non-partisan Ballot — 123",
+      "UNC – No Primary — 1,103",
+      "UNC – Lapsed D — 235"
     ],
     "datasets": [
       {
         "data": [
-          527,
-          317,
-          285,
-          1094,
-          247
+          598,
+          313,
+          161,
+          123,
+          1103,
+          235
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BETHEL TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

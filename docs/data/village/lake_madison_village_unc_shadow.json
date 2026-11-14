@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 229",
-      "Mixed – Active — 224",
-      "Mixed – Lapsed — 281",
-      "UNC – No Primary — 753",
-      "UNC – Lapsed D — 268"
+      "UNC – Lapsed R — 250",
+      "Mixed – Active — 232",
+      "Mixed – Lapsed — 111",
+      "UNC – Non-partisan Ballot — 160",
+      "UNC – No Primary — 752",
+      "UNC – Lapsed D — 259"
     ],
     "datasets": [
       {
         "data": [
-          229,
-          224,
-          281,
-          753,
-          268
+          250,
+          232,
+          111,
+          160,
+          752,
+          259
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "MADISON VILLAGE (Lake Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

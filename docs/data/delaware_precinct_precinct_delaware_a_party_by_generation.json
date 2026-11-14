@@ -4,7 +4,7 @@
   "precinct": "PRECINCT DELAWARE A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,8 +31,8 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          10,
-          19,
+          8,
+          22,
           25,
           18,
           3
@@ -47,7 +47,7 @@
           5,
           33,
           15,
-          4,
+          5,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -59,11 +59,24 @@
         "data": [
           4,
           11,
-          7,
-          5,
+          6,
+          6,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           2,
           21,
-          32,
-          52,
-          49
+          33,
+          56,
+          51
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,8 +110,8 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          15,
-          10,
+          16,
+          11,
           18,
           0
         ],
@@ -110,10 +123,10 @@
         "label": "Pure D",
         "data": [
           3,
-          14,
+          15,
           8,
           18,
-          2
+          1
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

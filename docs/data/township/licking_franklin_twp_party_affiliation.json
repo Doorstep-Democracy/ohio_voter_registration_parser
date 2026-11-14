@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 400 (25%)",
-      "UNC – Lapsed R — 249 (15%)",
-      "Mixed – Active — 170 (10%)",
-      "Mixed – Lapsed — 158 (10%)",
-      "UNC – No Primary — 482 (30%)",
-      "UNC – Lapsed D — 115 (7%)",
-      "Pure D — 46 (3%)"
+      "Pure R — 383 (24%)",
+      "UNC – Lapsed R — 264 (16%)",
+      "Mixed – Active — 172 (11%)",
+      "Mixed – Lapsed — 87 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 67 (4%)",
+      "UNC – No Primary — 473 (29%)",
+      "UNC – Lapsed D — 103 (6%)",
+      "Pure D — 58 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          400,
-          249,
-          170,
-          158,
-          482,
-          115,
-          46
+          383,
+          264,
+          172,
+          87,
+          3,
+          67,
+          473,
+          103,
+          58
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TWP (Licking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 64",
-      "Mixed – Active — 137",
-      "Mixed – Lapsed — 47",
-      "UNC – No Primary — 322",
-      "UNC – Lapsed D — 88"
+      "UNC – Lapsed R — 62",
+      "Mixed – Active — 141",
+      "Mixed – Lapsed — 28",
+      "UNC – Non-partisan Ballot — 12",
+      "UNC – No Primary — 308",
+      "UNC – Lapsed D — 72"
     ],
     "datasets": [
       {
         "data": [
-          64,
-          137,
-          47,
-          322,
-          88
+          62,
+          141,
+          28,
+          12,
+          308,
+          72
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

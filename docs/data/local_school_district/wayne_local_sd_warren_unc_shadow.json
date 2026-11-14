@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,264",
-      "Mixed – Active — 618",
-      "Mixed – Lapsed — 488",
-      "UNC – No Primary — 2,497",
-      "UNC – Lapsed D — 467"
+      "UNC – Lapsed R — 1,276",
+      "Mixed – Active — 615",
+      "Mixed – Lapsed — 272",
+      "UNC – Non-partisan Ballot — 230",
+      "UNC – No Primary — 2,589",
+      "UNC – Lapsed D — 470"
     ],
     "datasets": [
       {
         "data": [
-          1264,
-          618,
-          488,
-          2497,
-          467
+          1276,
+          615,
+          272,
+          230,
+          2589,
+          470
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Wayne Local Sd (Warren Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

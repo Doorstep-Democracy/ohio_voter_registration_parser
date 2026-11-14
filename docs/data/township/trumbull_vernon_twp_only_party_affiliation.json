@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 144 (16%)",
-      "UNC – Lapsed R — 80 (9%)",
-      "Mixed – Active — 112 (13%)",
-      "Mixed – Lapsed — 64 (7%)",
+      "Pure R — 127 (14%)",
+      "UNC – Lapsed R — 99 (11%)",
+      "Mixed – Active — 119 (13%)",
+      "Mixed – Lapsed — 42 (5%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 17 (2%)",
       "UNC – No Primary — 306 (34%)",
-      "UNC – Lapsed D — 120 (13%)",
-      "Pure D — 68 (8%)"
+      "UNC – Lapsed D — 107 (12%)",
+      "Pure D — 72 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          144,
-          80,
-          112,
-          64,
+          127,
+          99,
+          119,
+          42,
+          3,
+          17,
           306,
-          120,
-          68
+          107,
+          72
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VERNON TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

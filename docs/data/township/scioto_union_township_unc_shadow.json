@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 143",
-      "Mixed – Active — 128",
+      "UNC – Lapsed R — 150",
+      "Mixed – Active — 123",
       "Mixed – Lapsed — 59",
-      "UNC – No Primary — 533",
-      "UNC – Lapsed D — 169"
+      "UNC – Non-partisan Ballot — 15",
+      "UNC – No Primary — 517",
+      "UNC – Lapsed D — 147"
     ],
     "datasets": [
       {
         "data": [
-          143,
-          128,
+          150,
+          123,
           59,
-          533,
-          169
+          15,
+          517,
+          147
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Scioto Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

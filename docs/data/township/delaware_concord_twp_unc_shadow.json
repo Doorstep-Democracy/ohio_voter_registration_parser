@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,504",
-      "Mixed – Active — 781",
-      "Mixed – Lapsed — 705",
-      "UNC – No Primary — 3,537",
-      "UNC – Lapsed D — 806"
+      "UNC – Lapsed R — 1,594",
+      "Mixed – Active — 801",
+      "Mixed – Lapsed — 435",
+      "UNC – Non-partisan Ballot — 293",
+      "UNC – No Primary — 3,529",
+      "UNC – Lapsed D — 767"
     ],
     "datasets": [
       {
         "data": [
-          1504,
-          781,
-          705,
-          3537,
-          806
+          1594,
+          801,
+          435,
+          293,
+          3529,
+          767
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "CONCORD TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

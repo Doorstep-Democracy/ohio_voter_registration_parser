@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 34 (10%)",
-      "UNC – Lapsed R — 49 (14%)",
-      "Mixed – Active — 23 (7%)",
-      "Mixed – Lapsed — 41 (12%)",
-      "UNC – No Primary — 171 (49%)",
-      "UNC – Lapsed D — 23 (7%)",
-      "Pure D — 8 (2%)"
+      "UNC – Lapsed R — 48 (14%)",
+      "Mixed – Active — 24 (7%)",
+      "Mixed – Lapsed — 15 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 23 (7%)",
+      "UNC – No Primary — 163 (48%)",
+      "UNC – Lapsed D — 19 (6%)",
+      "Pure D — 13 (4%)"
     ],
     "datasets": [
       {
         "data": [
           34,
-          49,
+          48,
+          24,
+          15,
+          0,
           23,
-          41,
-          171,
-          23,
-          8
+          163,
+          19,
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CLARKSVILLE VILLAGE (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

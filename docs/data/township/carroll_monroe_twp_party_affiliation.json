@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 227 (16%)",
-      "UNC – Lapsed R — 157 (11%)",
-      "Mixed – Active — 153 (11%)",
-      "Mixed – Lapsed — 98 (7%)",
-      "UNC – No Primary — 505 (36%)",
-      "UNC – Lapsed D — 176 (13%)",
-      "Pure D — 78 (6%)"
+      "Pure R — 212 (15%)",
+      "UNC – Lapsed R — 180 (13%)",
+      "Mixed – Active — 156 (11%)",
+      "Mixed – Lapsed — 82 (6%)",
+      "Minor Party — 9 (1%)",
+      "UNC – Non-partisan Ballot — 23 (2%)",
+      "UNC – No Primary — 496 (35%)",
+      "UNC – Lapsed D — 165 (12%)",
+      "Pure D — 90 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          227,
-          157,
-          153,
-          98,
-          505,
-          176,
-          78
+          212,
+          180,
+          156,
+          82,
+          9,
+          23,
+          496,
+          165,
+          90
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONROE TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

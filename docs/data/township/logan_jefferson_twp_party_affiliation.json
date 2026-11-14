@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 668 (27%)",
-      "UNC – Lapsed R — 429 (17%)",
-      "Mixed – Active — 192 (8%)",
-      "Mixed – Lapsed — 155 (6%)",
-      "UNC – No Primary — 851 (34%)",
-      "UNC – Lapsed D — 130 (5%)",
-      "Pure D — 61 (2%)"
+      "Pure R — 581 (23%)",
+      "UNC – Lapsed R — 525 (21%)",
+      "Mixed – Active — 191 (7%)",
+      "Mixed – Lapsed — 106 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 67 (3%)",
+      "UNC – No Primary — 872 (34%)",
+      "UNC – Lapsed D — 126 (5%)",
+      "Pure D — 83 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          668,
-          429,
-          192,
-          155,
-          851,
-          130,
-          61
+          581,
+          525,
+          191,
+          106,
+          4,
+          67,
+          872,
+          126,
+          83
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEFFERSON TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

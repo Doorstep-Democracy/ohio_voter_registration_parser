@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 215 (9%)",
-      "UNC – Lapsed R — 150 (6%)",
-      "Mixed – Active — 353 (15%)",
-      "Mixed – Lapsed — 121 (5%)",
+      "Pure R — 212 (9%)",
+      "UNC – Lapsed R — 151 (6%)",
+      "Mixed – Active — 348 (14%)",
+      "Mixed – Lapsed — 117 (5%)",
+      "Minor Party — 8 (0%)",
       "UNC – Non-partisan Ballot — 51 (2%)",
-      "UNC – No Primary — 889 (37%)",
-      "UNC – Lapsed D — 325 (14%)",
-      "Pure D — 273 (11%)"
+      "UNC – No Primary — 929 (39%)",
+      "UNC – Lapsed D — 321 (13%)",
+      "Pure D — 266 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          215,
-          150,
-          353,
-          121,
+          212,
+          151,
+          348,
+          117,
+          8,
           51,
-          889,
-          325,
-          273
+          929,
+          321,
+          266
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "BARBERTON WARD 6 (BARBERTON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

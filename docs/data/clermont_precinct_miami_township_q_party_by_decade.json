@@ -4,7 +4,7 @@
   "precinct": "MIAMI TOWNSHIP Q",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -21,10 +21,10 @@
       {
         "label": "Pure R",
         "data": [
-          2,
+          1,
           19,
           25,
-          63,
+          61,
           37,
           13,
           10,
@@ -39,11 +39,11 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          17,
-          14,
-          10,
-          20,
-          20,
+          16,
+          12,
+          11,
+          19,
+          19,
           13,
           10,
           3
@@ -73,8 +73,8 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          4,
-          13,
+          3,
+          12,
           7,
           5,
           2,
@@ -87,15 +87,32 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          4,
+          3,
           2,
           5,
           6,
-          9,
-          15,
+          10,
+          16,
           2,
           5
         ],
@@ -107,14 +124,14 @@
         "label": "UNC – No Primary",
         "data": [
           0,
-          9,
-          13,
+          8,
+          12,
           3,
-          13,
+          14,
           17,
-          32,
-          38,
-          64
+          31,
+          40,
+          68
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -124,13 +141,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          2,
           1,
-          5,
+          0,
+          7,
           7,
           14,
           7,
-          5,
+          3,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -141,7 +158,7 @@
         "label": "Pure D",
         "data": [
           0,
-          6,
+          5,
           7,
           12,
           10,

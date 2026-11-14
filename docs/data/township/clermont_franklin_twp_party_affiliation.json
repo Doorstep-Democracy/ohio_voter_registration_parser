@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 586 (25%)",
-      "UNC – Lapsed R — 187 (8%)",
-      "Mixed – Active — 179 (8%)",
-      "Mixed – Lapsed — 99 (4%)",
-      "UNC – No Primary — 1,059 (45%)",
-      "UNC – Lapsed D — 150 (6%)",
-      "Pure D — 83 (4%)"
+      "Pure R — 435 (18%)",
+      "UNC – Lapsed R — 347 (15%)",
+      "Mixed – Active — 148 (6%)",
+      "Mixed – Lapsed — 81 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 51 (2%)",
+      "UNC – No Primary — 1,065 (45%)",
+      "UNC – Lapsed D — 174 (7%)",
+      "Pure D — 72 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          586,
-          187,
-          179,
-          99,
-          1059,
-          150,
-          83
+          435,
+          347,
+          148,
+          81,
+          3,
+          51,
+          1065,
+          174,
+          72
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

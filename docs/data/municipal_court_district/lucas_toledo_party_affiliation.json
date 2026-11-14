@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 7,252 (4%)",
-      "UNC – Lapsed R — 8,053 (5%)",
-      "Mixed – Active — 6,256 (4%)",
-      "Mixed – Lapsed — 10,215 (6%)",
-      "UNC – No Primary — 93,093 (54%)",
-      "UNC – Lapsed D — 31,341 (18%)",
-      "Pure D — 16,875 (10%)"
+      "Pure R — 6,947 (4%)",
+      "UNC – Lapsed R — 8,442 (5%)",
+      "Mixed – Active — 6,398 (4%)",
+      "Mixed – Lapsed — 4,207 (2%)",
+      "Minor Party — 371 (0%)",
+      "UNC – Non-partisan Ballot — 4,497 (3%)",
+      "UNC – No Primary — 98,356 (55%)",
+      "UNC – Lapsed D — 30,204 (17%)",
+      "Pure D — 19,360 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          7252,
-          8053,
-          6256,
-          10215,
-          93093,
-          31341,
-          16875
+          6947,
+          8442,
+          6398,
+          4207,
+          371,
+          4497,
+          98356,
+          30204,
+          19360
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "TOLEDO (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

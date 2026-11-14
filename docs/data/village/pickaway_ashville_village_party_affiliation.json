@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 650 (21%)",
+      "Pure R — 662 (20%)",
       "UNC – Lapsed R — 299 (9%)",
-      "Mixed – Active — 271 (9%)",
-      "Mixed – Lapsed — 251 (8%)",
-      "UNC – No Primary — 1,274 (40%)",
-      "UNC – Lapsed D — 279 (9%)",
-      "Pure D — 133 (4%)"
+      "Mixed – Active — 289 (9%)",
+      "Mixed – Lapsed — 70 (2%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 160 (5%)",
+      "UNC – No Primary — 1,323 (41%)",
+      "UNC – Lapsed D — 255 (8%)",
+      "Pure D — 176 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          650,
+          662,
           299,
-          271,
-          251,
-          1274,
-          279,
-          133
+          289,
+          70,
+          5,
+          160,
+          1323,
+          255,
+          176
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ASHVILLE VILLAGE (Pickaway Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

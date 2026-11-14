@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 887 (23%)",
-      "UNC – Lapsed R — 642 (17%)",
-      "Mixed – Active — 391 (10%)",
-      "Mixed – Lapsed — 345 (9%)",
-      "UNC – No Primary — 1,137 (30%)",
+      "Pure R — 889 (23%)",
+      "UNC – Lapsed R — 641 (17%)",
+      "Mixed – Active — 387 (10%)",
+      "Mixed – Lapsed — 190 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 158 (4%)",
+      "UNC – No Primary — 1,159 (30%)",
       "UNC – Lapsed D — 242 (6%)",
       "Pure D — 144 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          887,
-          642,
-          391,
-          345,
-          1137,
+          889,
+          641,
+          387,
+          190,
+          2,
+          158,
+          1159,
           242,
           144
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Mohawk Local Sd (Wyandot Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,519 (17%)",
-      "UNC – Lapsed R — 1,667 (11%)",
-      "Mixed – Active — 1,537 (10%)",
-      "Mixed – Lapsed — 733 (5%)",
-      "UNC – No Primary — 6,007 (40%)",
-      "UNC – Lapsed D — 1,487 (10%)",
-      "Pure D — 980 (7%)"
+      "Pure R — 2,498 (17%)",
+      "UNC – Lapsed R — 1,668 (11%)",
+      "Mixed – Active — 1,516 (10%)",
+      "Mixed – Lapsed — 565 (4%)",
+      "Minor Party — 36 (0%)",
+      "UNC – Non-partisan Ballot — 160 (1%)",
+      "UNC – No Primary — 6,093 (41%)",
+      "UNC – Lapsed D — 1,470 (10%)",
+      "Pure D — 966 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          2519,
-          1667,
-          1537,
-          733,
-          6007,
-          1487,
-          980
+          2498,
+          1668,
+          1516,
+          565,
+          36,
+          160,
+          6093,
+          1470,
+          966
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Logan-Hocking Local Sd (Hocking Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

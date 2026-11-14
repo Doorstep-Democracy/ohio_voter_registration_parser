@@ -17,14 +17,14 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          68,
-          306,
-          515,
-          472,
-          295,
-          195,
-          149,
+          0,
+          52,
+          275,
+          505,
+          465,
+          286,
+          183,
+          145,
           90
         ],
         "backgroundColor": "#ef4444",
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
-          33,
-          119,
-          183,
-          268,
-          278,
-          172,
-          186,
-          22
+          5,
+          40,
+          143,
+          197,
+          295,
+          298,
+          199,
+          221,
+          40
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          75,
-          381,
-          572,
-          469,
-          242,
-          97,
-          31,
-          5
+          61,
+          356,
+          566,
+          490,
+          228,
+          93,
+          32,
+          7
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          42,
-          118,
-          196,
-          328,
-          267,
-          186,
+          37,
+          107,
+          148,
+          201,
+          140,
           87,
-          43
+          29,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          4,
+          7,
+          4,
+          5,
+          12,
+          2,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          12,
+          31,
+          68,
+          134,
+          147,
+          107,
+          58,
+          34
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          27,
-          168,
-          441,
-          734,
-          952,
-          1132,
-          1563,
-          1381
+          26,
+          158,
+          424,
+          712,
+          938,
+          1113,
+          1546,
+          1450
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          7,
-          53,
-          230,
-          442,
-          514,
-          405,
-          306,
-          223,
-          29
+          4,
+          54,
+          244,
+          412,
+          499,
+          391,
+          293,
+          217,
+          36
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           1,
-          60,
-          360,
-          476,
-          234,
-          130,
-          70,
-          54,
-          30
+          53,
+          308,
+          481,
+          248,
+          144,
+          86,
+          66,
+          49
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "NEWTON-FALLS (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

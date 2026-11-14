@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 216 (17%)",
-      "UNC – Lapsed R — 192 (15%)",
-      "Mixed – Active — 77 (6%)",
-      "Mixed – Lapsed — 87 (7%)",
-      "UNC – No Primary — 571 (45%)",
-      "UNC – Lapsed D — 90 (7%)",
-      "Pure D — 26 (2%)"
+      "Pure R — 215 (17%)",
+      "UNC – Lapsed R — 211 (16%)",
+      "Mixed – Active — 85 (7%)",
+      "Mixed – Lapsed — 59 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 25 (2%)",
+      "UNC – No Primary — 586 (45%)",
+      "UNC – Lapsed D — 84 (6%)",
+      "Pure D — 35 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          216,
-          192,
-          77,
-          87,
-          571,
-          90,
-          26
+          215,
+          211,
+          85,
+          59,
+          1,
+          25,
+          586,
+          84,
+          35
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "EDGERTON VILLAGE (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

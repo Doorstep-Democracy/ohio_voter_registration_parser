@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,593 (15%)",
-      "UNC – Lapsed R — 4,522 (10%)",
-      "Mixed – Active — 5,294 (12%)",
-      "Mixed – Lapsed — 3,664 (8%)",
-      "UNC – No Primary — 14,731 (33%)",
-      "UNC – Lapsed D — 5,027 (11%)",
-      "Pure D — 4,682 (11%)"
+      "Pure R — 6,553 (15%)",
+      "UNC – Lapsed R — 4,534 (10%)",
+      "Mixed – Active — 5,266 (12%)",
+      "Mixed – Lapsed — 2,225 (5%)",
+      "Minor Party — 108 (0%)",
+      "UNC – Non-partisan Ballot — 1,416 (3%)",
+      "UNC – No Primary — 15,134 (34%)",
+      "UNC – Lapsed D — 5,025 (11%)",
+      "Pure D — 4,638 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          6593,
-          4522,
-          5294,
-          3664,
-          14731,
-          5027,
-          4682
+          6553,
+          4534,
+          5266,
+          2225,
+          108,
+          1416,
+          15134,
+          5025,
+          4638
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "MENTOR EX VILL SD (LAKE)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Mentor Ex Vill Sd (Lake Co.)",
+  "updated": "2026-11-12"
 }

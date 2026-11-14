@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 22",
-      "Mixed – Active — 21",
-      "Mixed – Lapsed — 17",
-      "UNC – No Primary — 85",
-      "UNC – Lapsed D — 26"
+      "UNC – Lapsed R — 26",
+      "Mixed – Active — 20",
+      "Mixed – Lapsed — 14",
+      "UNC – Non-partisan Ballot — 5",
+      "UNC – No Primary — 79",
+      "UNC – Lapsed D — 22"
     ],
     "datasets": [
       {
         "data": [
-          22,
-          21,
-          17,
-          85,
-          26
+          26,
+          20,
+          14,
+          5,
+          79,
+          22
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "PORT JEFFERSON VILLAGE (Shelby Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

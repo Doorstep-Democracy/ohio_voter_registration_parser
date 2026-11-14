@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 936 (18%)",
-      "UNC – Lapsed R — 720 (14%)",
-      "Mixed – Active — 586 (11%)",
-      "Mixed – Lapsed — 659 (12%)",
-      "UNC – No Primary — 1,609 (30%)",
-      "UNC – Lapsed D — 535 (10%)",
-      "Pure D — 232 (4%)"
+      "Pure R — 939 (18%)",
+      "UNC – Lapsed R — 747 (14%)",
+      "Mixed – Active — 613 (12%)",
+      "Mixed – Lapsed — 308 (6%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 319 (6%)",
+      "UNC – No Primary — 1,560 (29%)",
+      "UNC – Lapsed D — 478 (9%)",
+      "Pure D — 322 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          936,
-          720,
-          586,
-          659,
-          1609,
-          535,
-          232
+          939,
+          747,
+          613,
+          308,
+          7,
+          319,
+          1560,
+          478,
+          322
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "AUBURN TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

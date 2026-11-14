@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 782",
-      "Mixed – Active — 833",
-      "Mixed – Lapsed — 941",
-      "UNC – No Primary — 3,706",
-      "UNC – Lapsed D — 1,660"
+      "UNC – Lapsed R — 890",
+      "Mixed – Active — 769",
+      "Mixed – Lapsed — 535",
+      "UNC – Non-partisan Ballot — 415",
+      "UNC – No Primary — 3,736",
+      "UNC – Lapsed D — 1,551"
     ],
     "datasets": [
       {
         "data": [
-          782,
-          833,
-          941,
-          3706,
-          1660
+          890,
+          769,
+          535,
+          415,
+          3736,
+          1551
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "WILLOWICK CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

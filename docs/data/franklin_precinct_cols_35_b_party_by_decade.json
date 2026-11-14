@@ -4,7 +4,7 @@
   "precinct": "COLS 35-B",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -44,8 +44,8 @@
           1,
           1,
           4,
-          8,
-          2,
+          7,
+          3,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -78,11 +78,28 @@
           0,
           1,
           2,
-          4,
+          3,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -96,7 +113,7 @@
           3,
           9,
           6,
-          9,
+          6,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -108,13 +125,13 @@
         "data": [
           0,
           1,
-          10,
-          30,
+          9,
+          29,
+          97,
           93,
-          89,
-          164,
-          228,
-          128
+          168,
+          248,
+          140
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -123,15 +140,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          6,
           5,
-          14,
+          5,
+          15,
           43,
-          34,
-          41,
-          47,
-          35,
-          0
+          32,
+          42,
+          45,
+          39,
+          1
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -142,13 +159,13 @@
         "data": [
           0,
           8,
-          17,
-          51,
-          34,
-          19,
+          16,
+          50,
+          36,
+          22,
           30,
           31,
-          6
+          7
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 852 (22%)",
-      "UNC – Lapsed R — 591 (16%)",
-      "Mixed – Active — 288 (8%)",
-      "Mixed – Lapsed — 240 (6%)",
-      "UNC – No Primary — 1,463 (39%)",
+      "Pure R — 841 (22%)",
+      "UNC – Lapsed R — 594 (16%)",
+      "Mixed – Active — 284 (7%)",
+      "Mixed – Lapsed — 122 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 116 (3%)",
+      "UNC – No Primary — 1,496 (39%)",
       "UNC – Lapsed D — 242 (6%)",
-      "Pure D — 118 (3%)"
+      "Pure D — 116 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          852,
-          591,
-          288,
-          240,
-          1463,
+          841,
+          594,
+          284,
+          122,
+          3,
+          116,
+          1496,
           242,
-          118
+          116
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Triad Local Sd (Champaign Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

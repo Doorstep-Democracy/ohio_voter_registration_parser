@@ -4,7 +4,7 @@
   "precinct": "PRECINCT PAINESVILLE TWP D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,8 +18,8 @@
       {
         "label": "Pure R",
         "data": [
-          17,
-          79,
+          16,
+          78,
           33,
           12,
           7
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
           9,
-          9,
+          8,
           4,
           2
         ],
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          26,
-          44,
-          79,
-          89
+          28,
+          43,
+          80,
+          97
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -100,7 +113,7 @@
           33,
           28,
           23,
-          8
+          7
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -112,8 +125,8 @@
           2,
           48,
           7,
-          3,
-          9
+          4,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

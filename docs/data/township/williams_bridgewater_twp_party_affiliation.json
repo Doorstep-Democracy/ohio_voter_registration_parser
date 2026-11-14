@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 262 (25%)",
-      "UNC – Lapsed R — 113 (11%)",
+      "Pure R — 293 (28%)",
+      "UNC – Lapsed R — 110 (11%)",
       "Mixed – Active — 94 (9%)",
-      "Mixed – Lapsed — 94 (9%)",
-      "UNC – No Primary — 390 (38%)",
-      "UNC – Lapsed D — 56 (5%)",
-      "Pure D — 21 (2%)"
+      "Mixed – Lapsed — 40 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 47 (5%)",
+      "UNC – No Primary — 369 (36%)",
+      "UNC – Lapsed D — 51 (5%)",
+      "Pure D — 24 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          262,
-          113,
+          293,
+          110,
           94,
-          94,
-          390,
-          56,
-          21
+          40,
+          4,
+          47,
+          369,
+          51,
+          24
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BRIDGEWATER TWP (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

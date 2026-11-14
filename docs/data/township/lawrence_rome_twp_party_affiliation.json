@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,233 (19%)",
-      "UNC – Lapsed R — 916 (14%)",
-      "Mixed – Active — 504 (8%)",
-      "Mixed – Lapsed — 275 (4%)",
-      "UNC – No Primary — 2,703 (42%)",
-      "UNC – Lapsed D — 450 (7%)",
-      "Pure D — 299 (5%)"
+      "Pure R — 1,223 (19%)",
+      "UNC – Lapsed R — 911 (14%)",
+      "Mixed – Active — 503 (8%)",
+      "Mixed – Lapsed — 247 (4%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 21 (0%)",
+      "UNC – No Primary — 2,738 (43%)",
+      "UNC – Lapsed D — 445 (7%)",
+      "Pure D — 293 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1233,
-          916,
-          504,
-          275,
-          2703,
-          450,
-          299
+          1223,
+          911,
+          503,
+          247,
+          13,
+          21,
+          2738,
+          445,
+          293
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ROME TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT HUNTINGTON EAST",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -22,7 +22,7 @@
         "data": [
           1,
           12,
-          24,
+          25,
           36,
           18,
           10,
@@ -37,12 +37,12 @@
         "label": "UNC – Lapsed R",
         "data": [
           1,
-          8,
-          15,
-          22,
-          32,
+          10,
           16,
-          8,
+          22,
+          35,
+          16,
+          9,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -53,7 +53,7 @@
         "label": "Mixed – Active",
         "data": [
           2,
-          9,
+          8,
           13,
           14,
           12,
@@ -72,8 +72,8 @@
           3,
           10,
           5,
-          15,
-          3,
+          14,
+          4,
           1,
           0
         ],
@@ -82,12 +82,28 @@
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – Non-partisan Ballot",
+        "label": "Minor Party",
         "data": [
           0,
           1,
+          0,
           2,
-          7,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          2,
+          6,
           3,
           2,
           2,
@@ -101,13 +117,13 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          8,
-          29,
-          49,
-          78,
-          73,
-          96,
-          98
+          6,
+          28,
+          51,
+          80,
+          77,
+          97,
+          100
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -118,10 +134,10 @@
         "data": [
           1,
           8,
-          16,
+          15,
           19,
           17,
-          10,
+          12,
           3,
           0
         ],
@@ -134,7 +150,7 @@
         "data": [
           0,
           6,
-          14,
+          13,
           5,
           1,
           1,

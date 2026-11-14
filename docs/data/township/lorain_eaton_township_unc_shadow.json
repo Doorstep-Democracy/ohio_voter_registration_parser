@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 392",
-      "Mixed – Active — 601",
-      "Mixed – Lapsed — 482",
-      "UNC – No Primary — 1,499",
-      "UNC – Lapsed D — 448"
+      "UNC – Lapsed R — 492",
+      "Mixed – Active — 584",
+      "Mixed – Lapsed — 253",
+      "UNC – Non-partisan Ballot — 263",
+      "UNC – No Primary — 1,458",
+      "UNC – Lapsed D — 417"
     ],
     "datasets": [
       {
         "data": [
-          392,
-          601,
-          482,
-          1499,
-          448
+          492,
+          584,
+          253,
+          263,
+          1458,
+          417
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "EATON TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

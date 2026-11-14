@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 838 (24%)",
-      "UNC – Lapsed R — 603 (17%)",
-      "Mixed – Active — 367 (11%)",
-      "Mixed – Lapsed — 211 (6%)",
-      "UNC – No Primary — 1,149 (33%)",
-      "UNC – Lapsed D — 205 (6%)",
-      "Pure D — 105 (3%)"
+      "Pure R — 833 (24%)",
+      "UNC – Lapsed R — 598 (17%)",
+      "Mixed – Active — 363 (10%)",
+      "Mixed – Lapsed — 172 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 39 (1%)",
+      "UNC – No Primary — 1,166 (34%)",
+      "UNC – Lapsed D — 200 (6%)",
+      "Pure D — 104 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          838,
-          603,
-          367,
-          211,
-          1149,
-          205,
-          105
+          833,
+          598,
+          363,
+          172,
+          2,
+          39,
+          1166,
+          200,
+          104
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Eastern Local Sd (Meigs Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 300 (10%)",
-      "UNC – Lapsed R — 258 (8%)",
-      "Mixed – Active — 252 (8%)",
+      "Pure R — 298 (10%)",
+      "UNC – Lapsed R — 257 (8%)",
+      "Mixed – Active — 253 (8%)",
       "Mixed – Lapsed — 117 (4%)",
-      "UNC – Non-partisan Ballot — 164 (5%)",
-      "UNC – No Primary — 1,113 (36%)",
-      "UNC – Lapsed D — 454 (15%)",
-      "Pure D — 411 (13%)"
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 161 (5%)",
+      "UNC – No Primary — 1,159 (37%)",
+      "UNC – Lapsed D — 452 (15%)",
+      "Pure D — 402 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          300,
-          258,
-          252,
+          298,
+          257,
+          253,
           117,
-          164,
-          1113,
-          454,
-          411
+          13,
+          161,
+          1159,
+          452,
+          402
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "CLAYTON WARD 2 (CLAYTON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          1,
+          0,
           3,
-          29,
-          88,
-          60,
-          37,
+          24,
+          85,
+          57,
+          42,
           38,
-          16,
-          15
+          30,
+          21
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
+          1,
           5,
-          14,
-          38,
-          45,
+          19,
+          39,
           50,
-          50,
-          32,
-          2
+          48,
+          53,
+          31,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          4,
-          23,
+          2,
+          21,
           40,
-          25,
-          25,
-          15,
-          1,
+          29,
+          27,
+          11,
+          2,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -66,16 +66,48 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          2,
-          14,
-          45,
-          55,
-          45,
-          34,
-          16,
-          4
+          3,
+          9,
+          13,
+          19,
+          17,
+          10,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          1,
+          8,
+          31,
+          31,
+          29,
+          28,
+          13,
+          4
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
@@ -83,12 +115,12 @@
         "data": [
           0,
           0,
-          19,
-          44,
-          65,
-          87,
-          100,
-          166,
+          18,
+          43,
+          63,
+          85,
+          99,
+          148,
           173
         ],
         "backgroundColor": "#9ca3af",
@@ -97,14 +129,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          4,
-          4,
-          14,
-          49,
-          54,
-          44,
-          33,
-          18,
+          5,
+          5,
+          15,
+          45,
+          52,
+          36,
+          32,
+          16,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          4,
-          28,
-          43,
-          32,
-          7,
-          4,
-          2,
-          2
+          0,
+          3,
+          26,
+          44,
+          29,
+          10,
+          5,
+          3,
+          5
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "BENTON TWP (Ottawa Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

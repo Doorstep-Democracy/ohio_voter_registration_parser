@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,212 (23%)",
-      "UNC – Lapsed R — 1,387 (14%)",
-      "Mixed – Active — 740 (8%)",
-      "Mixed – Lapsed — 668 (7%)",
-      "UNC – No Primary — 3,739 (39%)",
-      "UNC – Lapsed D — 620 (6%)",
-      "Pure D — 237 (2%)"
+      "Pure R — 2,217 (23%)",
+      "UNC – Lapsed R — 1,451 (15%)",
+      "Mixed – Active — 754 (8%)",
+      "Mixed – Lapsed — 448 (5%)",
+      "Minor Party — 22 (0%)",
+      "UNC – Non-partisan Ballot — 210 (2%)",
+      "UNC – No Primary — 3,685 (38%)",
+      "UNC – Lapsed D — 588 (6%)",
+      "Pure D — 300 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2212,
-          1387,
-          740,
-          668,
-          3739,
-          620,
-          237
+          2217,
+          1451,
+          754,
+          448,
+          22,
+          210,
+          3685,
+          588,
+          300
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "EATON COMMUNITY SCHOOLS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 242",
-      "Mixed – Active — 153",
-      "Mixed – Lapsed — 136",
-      "UNC – No Primary — 708",
-      "UNC – Lapsed D — 142"
+      "UNC – Lapsed R — 294",
+      "Mixed – Active — 140",
+      "Mixed – Lapsed — 92",
+      "UNC – Non-partisan Ballot — 61",
+      "UNC – No Primary — 700",
+      "UNC – Lapsed D — 139"
     ],
     "datasets": [
       {
         "data": [
-          242,
-          153,
-          136,
-          708,
-          142
+          294,
+          140,
+          92,
+          61,
+          700,
+          139
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARMONY TOWNSHIP (Morrow Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

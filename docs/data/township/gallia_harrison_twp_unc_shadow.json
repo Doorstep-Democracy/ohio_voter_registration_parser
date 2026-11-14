@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 89",
-      "Mixed – Active — 58",
-      "Mixed – Lapsed — 26",
-      "UNC – No Primary — 248",
-      "UNC – Lapsed D — 33"
+      "UNC – Lapsed R — 95",
+      "Mixed – Active — 63",
+      "Mixed – Lapsed — 23",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 243",
+      "UNC – Lapsed D — 31"
     ],
     "datasets": [
       {
         "data": [
-          89,
-          58,
-          26,
-          248,
-          33
+          95,
+          63,
+          23,
+          0,
+          243,
+          31
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

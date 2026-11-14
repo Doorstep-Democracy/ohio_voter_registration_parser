@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 824 (19%)",
-      "UNC – Lapsed R — 471 (11%)",
-      "Mixed – Active — 318 (7%)",
-      "Mixed – Lapsed — 387 (9%)",
-      "UNC – No Primary — 1,622 (38%)",
-      "UNC – Lapsed D — 444 (10%)",
-      "Pure D — 221 (5%)"
+      "Pure R — 945 (22%)",
+      "UNC – Lapsed R — 445 (10%)",
+      "Mixed – Active — 377 (9%)",
+      "Mixed – Lapsed — 116 (3%)",
+      "Minor Party — 20 (0%)",
+      "UNC – Non-partisan Ballot — 219 (5%)",
+      "UNC – No Primary — 1,490 (35%)",
+      "UNC – Lapsed D — 339 (8%)",
+      "Pure D — 351 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          824,
-          471,
-          318,
-          387,
-          1622,
-          444,
-          221
+          945,
+          445,
+          377,
+          116,
+          20,
+          219,
+          1490,
+          339,
+          351
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MIFFLIN TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

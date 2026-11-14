@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,021",
-      "Mixed – Active — 1,038",
-      "Mixed – Lapsed — 918",
-      "UNC – No Primary — 3,513",
-      "UNC – Lapsed D — 1,310"
+      "UNC – Lapsed R — 970",
+      "Mixed – Active — 1,174",
+      "Mixed – Lapsed — 496",
+      "UNC – Non-partisan Ballot — 382",
+      "UNC – No Primary — 3,295",
+      "UNC – Lapsed D — 1,056"
     ],
     "datasets": [
       {
         "data": [
-          1021,
-          1038,
-          918,
-          3513,
-          1310
+          970,
+          1174,
+          496,
+          382,
+          3295,
+          1056
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "NORTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

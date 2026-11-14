@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 658 (27%)",
-      "UNC – Lapsed R — 481 (20%)",
-      "Mixed – Active — 181 (8%)",
-      "Mixed – Lapsed — 137 (6%)",
-      "UNC – No Primary — 773 (32%)",
+      "Pure R — 647 (27%)",
+      "UNC – Lapsed R — 480 (20%)",
+      "Mixed – Active — 180 (7%)",
+      "Mixed – Lapsed — 83 (3%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 52 (2%)",
+      "UNC – No Primary — 795 (33%)",
       "UNC – Lapsed D — 102 (4%)",
-      "Pure D — 76 (3%)"
+      "Pure D — 73 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          658,
-          481,
-          181,
-          137,
-          773,
+          647,
+          480,
+          180,
+          83,
+          8,
+          52,
+          795,
           102,
-          76
+          73
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Pandora-Gilboa Local Sd (Putnam Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

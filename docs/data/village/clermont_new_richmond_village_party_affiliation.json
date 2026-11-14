@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 275 (13%)",
-      "UNC – Lapsed R — 254 (12%)",
-      "Mixed – Active — 91 (4%)",
-      "Mixed – Lapsed — 145 (7%)",
-      "UNC – No Primary — 1,076 (51%)",
-      "UNC – Lapsed D — 192 (9%)",
-      "Pure D — 63 (3%)"
+      "Pure R — 401 (19%)",
+      "UNC – Lapsed R — 194 (9%)",
+      "Mixed – Active — 117 (5%)",
+      "Mixed – Lapsed — 36 (2%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 112 (5%)",
+      "UNC – No Primary — 1,017 (47%)",
+      "UNC – Lapsed D — 158 (7%)",
+      "Pure D — 117 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          275,
-          254,
-          91,
-          145,
-          1076,
-          192,
-          63
+          401,
+          194,
+          117,
+          36,
+          8,
+          112,
+          1017,
+          158,
+          117
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "NEW RICHMOND VILLAGE (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

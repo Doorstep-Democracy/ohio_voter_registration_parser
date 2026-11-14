@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 278 (19%)",
-      "UNC – Lapsed R — 170 (11%)",
-      "Mixed – Active — 111 (7%)",
-      "Mixed – Lapsed — 84 (6%)",
-      "UNC – No Primary — 657 (44%)",
+      "Pure R — 257 (17%)",
+      "UNC – Lapsed R — 202 (13%)",
+      "Mixed – Active — 100 (7%)",
+      "Mixed – Lapsed — 70 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 24 (2%)",
+      "UNC – No Primary — 665 (44%)",
       "UNC – Lapsed D — 153 (10%)",
-      "Pure D — 48 (3%)"
+      "Pure D — 51 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          278,
-          170,
-          111,
-          84,
-          657,
+          257,
+          202,
+          100,
+          70,
+          4,
+          24,
+          665,
           153,
-          48
+          51
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

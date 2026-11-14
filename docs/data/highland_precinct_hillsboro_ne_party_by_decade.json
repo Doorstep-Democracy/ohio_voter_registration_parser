@@ -4,7 +4,7 @@
   "precinct": "HILLSBORO NE",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -22,13 +22,13 @@
         "label": "Pure R",
         "data": [
           0,
-          19,
-          39,
-          49,
+          17,
+          38,
+          50,
           30,
           30,
-          28,
-          18,
+          27,
+          17,
           6
         ],
         "backgroundColor": "#ef4444",
@@ -41,11 +41,11 @@
           0,
           6,
           15,
-          15,
+          16,
           17,
-          9,
+          8,
           21,
-          10,
+          11,
           2
         ],
         "backgroundColor": "#fca5a5",
@@ -56,10 +56,10 @@
         "label": "Mixed – Active",
         "data": [
           1,
-          8,
+          7,
           11,
+          22,
           20,
-          19,
           12,
           8,
           2,
@@ -72,17 +72,34 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
           1,
           5,
           3,
           8,
           8,
-          6,
+          7,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -107,14 +124,14 @@
         "label": "UNC – No Primary",
         "data": [
           1,
-          6,
+          5,
           4,
-          29,
-          38,
+          27,
+          37,
           45,
-          53,
-          65,
-          79
+          57,
+          66,
+          84
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -124,11 +141,11 @@
         "label": "UNC – Lapsed D",
         "data": [
           0,
-          1,
-          8,
+          0,
+          7,
           9,
           10,
-          8,
+          9,
           7,
           6,
           1
@@ -142,7 +159,7 @@
         "data": [
           0,
           1,
-          7,
+          8,
           8,
           8,
           1,

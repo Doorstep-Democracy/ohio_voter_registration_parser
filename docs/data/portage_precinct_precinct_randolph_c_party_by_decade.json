@@ -4,7 +4,7 @@
   "precinct": "PRECINCT RANDOLPH C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -21,10 +21,10 @@
         "label": "Pure R",
         "data": [
           3,
-          17,
+          15,
           43,
           31,
-          22,
+          21,
           12,
           13,
           5
@@ -38,9 +38,9 @@
         "data": [
           1,
           12,
-          11,
-          29,
-          14,
+          12,
+          28,
+          15,
           10,
           11,
           1
@@ -53,9 +53,9 @@
         "label": "Mixed – Active",
         "data": [
           3,
-          14,
+          13,
           40,
-          38,
+          37,
           23,
           11,
           6,
@@ -69,15 +69,31 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          11,
-          11,
+          12,
+          12,
           19,
           12,
           9,
-          2,
+          4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -88,10 +104,10 @@
           1,
           7,
           12,
-          13,
+          12,
           14,
           10,
-          6
+          4
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 3,
@@ -102,12 +118,12 @@
         "data": [
           1,
           2,
-          13,
-          25,
+          14,
+          24,
           31,
-          33,
-          49,
-          77
+          34,
+          50,
+          81
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,13 +132,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          3,
+          2,
           15,
           14,
           23,
-          20,
+          21,
           24,
-          9,
+          11,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -134,7 +150,7 @@
         "data": [
           3,
           14,
-          32,
+          30,
           12,
           5,
           4,

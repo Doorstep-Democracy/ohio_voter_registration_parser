@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 490",
-      "Mixed – Active — 570",
-      "Mixed – Lapsed — 337",
-      "UNC – No Primary — 1,249",
-      "UNC – Lapsed D — 412"
+      "UNC – Lapsed R — 529",
+      "Mixed – Active — 562",
+      "Mixed – Lapsed — 263",
+      "UNC – Non-partisan Ballot — 106",
+      "UNC – No Primary — 1,212",
+      "UNC – Lapsed D — 365"
     ],
     "datasets": [
       {
         "data": [
-          490,
-          570,
-          337,
-          1249,
-          412
+          529,
+          562,
+          263,
+          106,
+          1212,
+          365
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "NEWBURY TWP (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

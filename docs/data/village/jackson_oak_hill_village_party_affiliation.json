@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 114 (13%)",
-      "UNC – Lapsed R — 165 (18%)",
-      "Mixed – Active — 47 (5%)",
-      "Mixed – Lapsed — 73 (8%)",
-      "UNC – No Primary — 436 (49%)",
-      "UNC – Lapsed D — 55 (6%)",
-      "Pure D — 8 (1%)"
+      "UNC – Lapsed R — 172 (19%)",
+      "Mixed – Active — 52 (6%)",
+      "Mixed – Lapsed — 67 (7%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 6 (1%)",
+      "UNC – No Primary — 420 (47%)",
+      "UNC – Lapsed D — 50 (6%)",
+      "Pure D — 17 (2%)"
     ],
     "datasets": [
       {
         "data": [
           114,
-          165,
-          47,
-          73,
-          436,
-          55,
-          8
+          172,
+          52,
+          67,
+          1,
+          6,
+          420,
+          50,
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "OAK HILL VILLAGE (Jackson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

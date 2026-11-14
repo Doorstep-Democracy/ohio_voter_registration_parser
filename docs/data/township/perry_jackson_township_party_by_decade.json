@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1920s",
       "1930s",
       "1940s",
       "1950s",
@@ -17,14 +16,13 @@
       {
         "label": "Pure R",
         "data": [
-          1,
-          8,
-          42,
-          75,
-          86,
-          56,
-          44,
-          35,
+          5,
+          41,
+          74,
+          78,
+          58,
+          43,
+          32,
           13
         ],
         "backgroundColor": "#ef4444",
@@ -33,15 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          3,
-          20,
-          18,
-          33,
-          38,
+          5,
           23,
           19,
-          4
+          40,
+          38,
+          27,
+          26,
+          7
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +46,14 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          7,
-          25,
-          42,
-          57,
-          29,
-          17,
+          6,
+          24,
+          45,
+          53,
+          30,
+          18,
           9,
-          0
+          1
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +61,59 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          0,
-          11,
-          14,
+          1,
+          9,
+          12,
           15,
-          20,
-          15,
+          13,
           6,
+          2,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           2,
-          20,
-          48,
-          75,
-          99,
-          132,
-          184,
-          168
+          1,
+          7,
+          8,
+          9,
+          4,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          1,
+          17,
+          49,
+          76,
+          95,
+          135,
+          182,
+          169
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +121,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          0,
           4,
           18,
-          41,
+          39,
           32,
-          23,
-          23,
-          16,
+          24,
+          21,
+          14,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +136,22 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          4,
+          3,
+          13,
+          27,
           14,
-          24,
-          14,
-          12,
-          4,
-          1,
-          5
+          11,
+          7,
+          7,
+          10
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

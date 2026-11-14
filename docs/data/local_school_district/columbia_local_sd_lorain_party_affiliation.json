@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 713 (11%)",
-      "UNC – Lapsed R — 832 (13%)",
-      "Mixed – Active — 649 (10%)",
-      "Mixed – Lapsed — 747 (12%)",
-      "UNC – No Primary — 2,143 (34%)",
-      "UNC – Lapsed D — 732 (12%)",
-      "Pure D — 459 (7%)"
+      "Pure R — 711 (11%)",
+      "UNC – Lapsed R — 854 (13%)",
+      "Mixed – Active — 643 (10%)",
+      "Mixed – Lapsed — 389 (6%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 367 (6%)",
+      "UNC – No Primary — 2,223 (35%)",
+      "UNC – Lapsed D — 749 (12%)",
+      "Pure D — 457 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          713,
-          832,
-          649,
-          747,
-          2143,
-          732,
-          459
+          711,
+          854,
+          643,
+          389,
+          13,
+          367,
+          2223,
+          749,
+          457
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Columbia Local Sd (Lorain Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

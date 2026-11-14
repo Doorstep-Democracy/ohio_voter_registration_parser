@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 658 (10%)",
-      "UNC – Lapsed R — 406 (6%)",
-      "Mixed – Active — 510 (8%)",
-      "Mixed – Lapsed — 521 (8%)",
-      "UNC – No Primary — 2,800 (43%)",
-      "UNC – Lapsed D — 1,015 (16%)",
-      "Pure D — 601 (9%)"
+      "Pure R — 647 (10%)",
+      "UNC – Lapsed R — 465 (7%)",
+      "Mixed – Active — 460 (7%)",
+      "Mixed – Lapsed — 287 (4%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 253 (4%)",
+      "UNC – No Primary — 2,776 (42%)",
+      "UNC – Lapsed D — 977 (15%)",
+      "Pure D — 677 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          658,
-          406,
-          510,
-          521,
-          2800,
-          1015,
-          601
+          647,
+          465,
+          460,
+          287,
+          24,
+          253,
+          2776,
+          977,
+          677
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "CONNEAUT CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

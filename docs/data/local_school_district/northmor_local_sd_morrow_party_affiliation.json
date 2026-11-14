@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 54 (29%)",
+      "Pure R — 52 (28%)",
       "UNC – Lapsed R — 24 (13%)",
-      "Mixed – Active — 25 (13%)",
-      "Mixed – Lapsed — 15 (8%)",
-      "UNC – No Primary — 47 (25%)",
-      "UNC – Lapsed D — 13 (7%)",
-      "Pure D — 8 (4%)"
+      "Mixed – Active — 25 (14%)",
+      "Mixed – Lapsed — 10 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 51 (28%)",
+      "UNC – Lapsed D — 11 (6%)",
+      "Pure D — 7 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          54,
+          52,
           24,
           25,
-          15,
-          47,
-          13,
-          8
+          10,
+          0,
+          4,
+          51,
+          11,
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Northmor Local Sd (Morrow Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

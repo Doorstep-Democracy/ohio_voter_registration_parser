@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 60 (16%)",
-      "UNC – Lapsed R — 32 (9%)",
-      "Mixed – Active — 26 (7%)",
-      "Mixed – Lapsed — 18 (5%)",
-      "UNC – No Primary — 192 (53%)",
-      "UNC – Lapsed D — 20 (5%)",
-      "Pure D — 17 (5%)"
+      "Pure R — 47 (13%)",
+      "UNC – Lapsed R — 43 (12%)",
+      "Mixed – Active — 23 (6%)",
+      "Mixed – Lapsed — 9 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 13 (4%)",
+      "UNC – No Primary — 183 (51%)",
+      "UNC – Lapsed D — 24 (7%)",
+      "Pure D — 15 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          60,
-          32,
-          26,
-          18,
-          192,
-          20,
-          17
+          47,
+          43,
+          23,
+          9,
+          0,
+          13,
+          183,
+          24,
+          15
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "RIO GRANDE VILLAGE (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 830 (11%)",
-      "UNC – Lapsed R — 819 (11%)",
-      "Mixed – Active — 628 (9%)",
-      "Mixed – Lapsed — 559 (8%)",
-      "UNC – No Primary — 3,134 (43%)",
-      "UNC – Lapsed D — 1,043 (14%)",
-      "Pure D — 342 (5%)"
+      "Pure R — 1,046 (14%)",
+      "UNC – Lapsed R — 745 (10%)",
+      "Mixed – Active — 794 (11%)",
+      "Mixed – Lapsed — 357 (5%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 161 (2%)",
+      "UNC – No Primary — 2,919 (39%)",
+      "UNC – Lapsed D — 827 (11%)",
+      "Pure D — 537 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          830,
-          819,
-          628,
-          559,
-          3134,
-          1043,
-          342
+          1046,
+          745,
+          794,
+          357,
+          9,
+          161,
+          2919,
+          827,
+          537
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "WAVERLY CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

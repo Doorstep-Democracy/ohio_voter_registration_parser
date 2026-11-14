@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 468",
-      "Mixed – Active — 175",
-      "Mixed – Lapsed — 278",
-      "UNC – No Primary — 1,808",
-      "UNC – Lapsed D — 303"
+      "UNC – Lapsed R — 393",
+      "Mixed – Active — 230",
+      "Mixed – Lapsed — 75",
+      "UNC – Non-partisan Ballot — 196",
+      "UNC – No Primary — 1,719",
+      "UNC – Lapsed D — 253"
     ],
     "datasets": [
       {
         "data": [
-          468,
-          175,
-          278,
-          1808,
-          303
+          393,
+          230,
+          75,
+          196,
+          1719,
+          253
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OHIO TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

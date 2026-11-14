@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 14 (5%)",
+      "Pure R — 15 (5%)",
       "UNC – Lapsed R — 13 (5%)",
-      "Mixed – Active — 20 (7%)",
-      "Mixed – Lapsed — 17 (6%)",
-      "UNC – No Primary — 109 (39%)",
-      "UNC – Lapsed D — 80 (28%)",
+      "Mixed – Active — 16 (6%)",
+      "Mixed – Lapsed — 12 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 7 (2%)",
+      "UNC – No Primary — 110 (39%)",
+      "UNC – Lapsed D — 82 (29%)",
       "Pure D — 30 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          14,
+          15,
           13,
-          20,
-          17,
-          109,
-          80,
+          16,
+          12,
+          0,
+          7,
+          110,
+          82,
           30
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "JACKSONVILLE VILLAGE (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

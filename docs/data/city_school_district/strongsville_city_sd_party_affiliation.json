@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,581 (14%)",
-      "UNC – Lapsed R — 3,030 (9%)",
-      "Mixed – Active — 4,048 (12%)",
-      "Mixed – Lapsed — 3,755 (11%)",
-      "UNC – No Primary — 11,012 (33%)",
-      "UNC – Lapsed D — 3,787 (11%)",
-      "Pure D — 3,140 (9%)"
+      "Pure R — 4,649 (14%)",
+      "UNC – Lapsed R — 3,063 (9%)",
+      "Mixed – Active — 4,320 (13%)",
+      "Mixed – Lapsed — 1,509 (4%)",
+      "Minor Party — 69 (0%)",
+      "UNC – Non-partisan Ballot — 2,069 (6%)",
+      "UNC – No Primary — 10,716 (32%)",
+      "UNC – Lapsed D — 3,262 (10%)",
+      "Pure D — 4,014 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          4581,
-          3030,
-          4048,
-          3755,
-          11012,
-          3787,
-          3140
+          4649,
+          3063,
+          4320,
+          1509,
+          69,
+          2069,
+          10716,
+          3262,
+          4014
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "STRONGSVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 79 (30%)",
-      "UNC – Lapsed R — 25 (10%)",
-      "Mixed – Active — 26 (10%)",
-      "Mixed – Lapsed — 18 (7%)",
-      "UNC – No Primary — 100 (38%)",
+      "Pure R — 54 (20%)",
+      "UNC – Lapsed R — 54 (20%)",
+      "Mixed – Active — 19 (7%)",
+      "Mixed – Lapsed — 15 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 12 (4%)",
+      "UNC – No Primary — 100 (37%)",
       "UNC – Lapsed D — 9 (3%)",
-      "Pure D — 5 (2%)"
+      "Pure D — 4 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          79,
-          25,
-          26,
-          18,
+          54,
+          54,
+          19,
+          15,
+          0,
+          12,
           100,
           9,
-          5
+          4
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CHICKASAW VILLAGE (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

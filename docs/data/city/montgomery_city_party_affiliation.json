@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,418 (16%)",
-      "UNC – Lapsed R — 1,389 (15%)",
-      "Mixed – Active — 768 (8%)",
-      "Mixed – Lapsed — 792 (9%)",
-      "UNC – No Primary — 3,006 (33%)",
-      "UNC – Lapsed D — 1,026 (11%)",
-      "Pure D — 666 (7%)"
+      "Pure R — 1,188 (13%)",
+      "UNC – Lapsed R — 1,568 (17%)",
+      "Mixed – Active — 810 (9%)",
+      "Mixed – Lapsed — 522 (6%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 257 (3%)",
+      "UNC – No Primary — 2,945 (32%)",
+      "UNC – Lapsed D — 987 (11%)",
+      "Pure D — 844 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          1418,
-          1389,
-          768,
-          792,
-          3006,
-          1026,
-          666
+          1188,
+          1568,
+          810,
+          522,
+          17,
+          257,
+          2945,
+          987,
+          844
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MONTGOMERY CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

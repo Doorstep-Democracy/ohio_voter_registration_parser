@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 199 (8%)",
-      "UNC – Lapsed R — 164 (6%)",
-      "Mixed – Active — 249 (10%)",
-      "Mixed – Lapsed — 154 (6%)",
-      "UNC – No Primary — 1,241 (49%)",
-      "UNC – Lapsed D — 373 (15%)",
-      "Pure D — 150 (6%)"
+      "Pure R — 198 (8%)",
+      "UNC – Lapsed R — 162 (6%)",
+      "Mixed – Active — 246 (10%)",
+      "Mixed – Lapsed — 114 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 37 (1%)",
+      "UNC – No Primary — 1,247 (49%)",
+      "UNC – Lapsed D — 368 (15%)",
+      "Pure D — 148 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          199,
-          164,
-          249,
-          154,
-          1241,
-          373,
-          150
+          198,
+          162,
+          246,
+          114,
+          1,
+          37,
+          1247,
+          368,
+          148
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Wellsville Local Sd (Columbiana Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

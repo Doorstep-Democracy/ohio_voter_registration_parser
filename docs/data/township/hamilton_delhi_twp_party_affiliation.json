@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,973 (14%)",
-      "UNC – Lapsed R — 2,887 (14%)",
-      "Mixed – Active — 1,208 (6%)",
-      "Mixed – Lapsed — 1,873 (9%)",
-      "UNC – No Primary — 8,903 (43%)",
-      "UNC – Lapsed D — 1,676 (8%)",
-      "Pure D — 1,121 (5%)"
+      "Pure R — 2,956 (14%)",
+      "UNC – Lapsed R — 2,874 (14%)",
+      "Mixed – Active — 1,194 (6%)",
+      "Mixed – Lapsed — 695 (3%)",
+      "Minor Party — 43 (0%)",
+      "UNC – Non-partisan Ballot — 1,155 (6%)",
+      "UNC – No Primary — 9,143 (44%)",
+      "UNC – Lapsed D — 1,662 (8%)",
+      "Pure D — 1,112 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          2973,
-          2887,
-          1208,
-          1873,
-          8903,
-          1676,
-          1121
+          2956,
+          2874,
+          1194,
+          695,
+          43,
+          1155,
+          9143,
+          1662,
+          1112
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DELHI TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

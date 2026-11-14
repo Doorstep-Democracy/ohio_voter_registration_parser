@@ -3,14 +3,15 @@
   "county": "Cuyahoga",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          42844,
-          47358,
-          62244,
-          31863,
-          28465,
-          372219,
-          147525,
-          132907
+          42422,
+          47200,
+          61685,
+          31697,
+          1434,
+          28068,
+          386033,
+          147249,
+          131790
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 5398,
-    "new_registrants_d": 28588,
-    "new_registrants_unc": 235622
+    "new_registrants_r": 5771,
+    "new_registrants_d": 30988,
+    "new_registrants_unc": 265579
   }
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 226",
-      "Mixed – Active — 179",
-      "Mixed – Lapsed — 117",
-      "UNC – No Primary — 573",
-      "UNC – Lapsed D — 155"
+      "UNC – Lapsed R — 251",
+      "Mixed – Active — 169",
+      "Mixed – Lapsed — 89",
+      "UNC – Non-partisan Ballot — 37",
+      "UNC – No Primary — 569",
+      "UNC – Lapsed D — 150"
     ],
     "datasets": [
       {
         "data": [
-          226,
-          179,
-          117,
-          573,
-          155
+          251,
+          169,
+          89,
+          37,
+          569,
+          150
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TWP (Carroll Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

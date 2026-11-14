@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,858 (18%)",
-      "UNC – Lapsed R — 5,134 (16%)",
-      "Mixed – Active — 1,825 (6%)",
-      "Mixed – Lapsed — 3,765 (12%)",
-      "UNC – No Primary — 10,992 (34%)",
-      "UNC – Lapsed D — 3,166 (10%)",
-      "Pure D — 1,284 (4%)"
+      "Pure R — 6,322 (20%)",
+      "UNC – Lapsed R — 4,816 (15%)",
+      "Mixed – Active — 2,218 (7%)",
+      "Mixed – Lapsed — 1,114 (3%)",
+      "Minor Party — 53 (0%)",
+      "UNC – Non-partisan Ballot — 2,336 (7%)",
+      "UNC – No Primary — 10,681 (33%)",
+      "UNC – Lapsed D — 2,704 (8%)",
+      "Pure D — 2,148 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          5858,
-          5134,
-          1825,
-          3765,
-          10992,
-          3166,
-          1284
+          6322,
+          4816,
+          2218,
+          1114,
+          53,
+          2336,
+          10681,
+          2704,
+          2148
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MIAMI TWP (Clermont Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

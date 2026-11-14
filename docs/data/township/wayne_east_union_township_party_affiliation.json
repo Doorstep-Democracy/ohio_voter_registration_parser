@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 633 (22%)",
-      "UNC – Lapsed R — 402 (14%)",
-      "Mixed – Active — 167 (6%)",
-      "Mixed – Lapsed — 271 (9%)",
-      "UNC – No Primary — 1,179 (41%)",
-      "UNC – Lapsed D — 171 (6%)",
-      "Pure D — 80 (3%)"
+      "Pure R — 520 (18%)",
+      "UNC – Lapsed R — 506 (17%)",
+      "Mixed – Active — 166 (6%)",
+      "Mixed – Lapsed — 98 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 168 (6%)",
+      "UNC – No Primary — 1,215 (41%)",
+      "UNC – Lapsed D — 158 (5%)",
+      "Pure D — 102 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          633,
-          402,
-          167,
-          271,
-          1179,
-          171,
-          80
+          520,
+          506,
+          166,
+          98,
+          1,
+          168,
+          1215,
+          158,
+          102
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "EAST UNION TOWNSHIP (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 73 (26%)",
-      "UNC – Lapsed R — 45 (16%)",
-      "Mixed – Active — 25 (9%)",
-      "Mixed – Lapsed — 33 (12%)",
-      "UNC – No Primary — 70 (25%)",
-      "UNC – Lapsed D — 14 (5%)",
-      "Pure D — 18 (6%)"
+      "Pure R — 72 (26%)",
+      "UNC – Lapsed R — 48 (17%)",
+      "Mixed – Active — 26 (9%)",
+      "Mixed – Lapsed — 9 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 17 (6%)",
+      "UNC – No Primary — 72 (26%)",
+      "UNC – Lapsed D — 17 (6%)",
+      "Pure D — 19 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          73,
-          45,
-          25,
-          33,
-          70,
-          14,
-          18
+          72,
+          48,
+          26,
+          9,
+          0,
+          17,
+          72,
+          17,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "VAN BUREN VILLAGE (Hancock Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

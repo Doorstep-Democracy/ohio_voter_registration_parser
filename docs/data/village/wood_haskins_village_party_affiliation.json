@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 182 (21%)",
-      "UNC – Lapsed R — 111 (13%)",
-      "Mixed – Active — 76 (9%)",
-      "Mixed – Lapsed — 61 (7%)",
-      "UNC – No Primary — 279 (32%)",
-      "UNC – Lapsed D — 80 (9%)",
-      "Pure D — 71 (8%)"
+      "Pure R — 183 (21%)",
+      "UNC – Lapsed R — 113 (13%)",
+      "Mixed – Active — 78 (9%)",
+      "Mixed – Lapsed — 33 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 32 (4%)",
+      "UNC – No Primary — 271 (31%)",
+      "UNC – Lapsed D — 73 (8%)",
+      "Pure D — 87 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          182,
-          111,
-          76,
-          61,
-          279,
-          80,
-          71
+          183,
+          113,
+          78,
+          33,
+          2,
+          32,
+          271,
+          73,
+          87
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "HASKINS VILLAGE (Wood Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

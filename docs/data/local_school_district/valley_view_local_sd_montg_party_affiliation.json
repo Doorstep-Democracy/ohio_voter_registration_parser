@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,300 (16%)",
-      "UNC – Lapsed R — 1,687 (21%)",
+      "Pure R — 1,296 (16%)",
+      "UNC – Lapsed R — 1,690 (21%)",
       "Mixed – Active — 711 (9%)",
-      "Mixed – Lapsed — 991 (12%)",
-      "UNC – No Primary — 2,348 (30%)",
+      "Mixed – Lapsed — 539 (7%)",
+      "Minor Party — 14 (0%)",
+      "UNC – Non-partisan Ballot — 443 (6%)",
+      "UNC – No Primary — 2,413 (30%)",
       "UNC – Lapsed D — 627 (8%)",
-      "Pure D — 285 (4%)"
+      "Pure D — 278 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1300,
-          1687,
+          1296,
+          1690,
           711,
-          991,
-          2348,
+          539,
+          14,
+          443,
+          2413,
           627,
-          285
+          278
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Valley View Local Sd (Montg Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 540 (18%)",
-      "UNC – Lapsed R — 406 (13%)",
-      "Mixed – Active — 271 (9%)",
-      "Mixed – Lapsed — 261 (9%)",
-      "UNC – No Primary — 1,078 (36%)",
-      "UNC – Lapsed D — 292 (10%)",
-      "Pure D — 187 (6%)"
+      "Pure R — 565 (18%)",
+      "UNC – Lapsed R — 452 (14%)",
+      "Mixed – Active — 318 (10%)",
+      "Mixed – Lapsed — 144 (4%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 105 (3%)",
+      "UNC – No Primary — 1,090 (34%)",
+      "UNC – Lapsed D — 284 (9%)",
+      "Pure D — 241 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          540,
-          406,
-          271,
-          261,
-          1078,
-          292,
-          187
+          565,
+          452,
+          318,
+          144,
+          7,
+          105,
+          1090,
+          284,
+          241
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "DELAWARE TWP (Delaware Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

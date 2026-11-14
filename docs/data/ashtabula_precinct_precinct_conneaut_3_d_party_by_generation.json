@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CONNEAUT 3-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,7 +31,7 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          2,
+          1,
           13,
           19,
           16,
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
           6,
-          6,
+          5,
           5,
           1
         ],
@@ -86,8 +99,8 @@
           3,
           32,
           56,
-          77,
-          59
+          83,
+          61
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

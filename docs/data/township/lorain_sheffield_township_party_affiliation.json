@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 99 (5%)",
-      "UNC – Lapsed R — 102 (5%)",
-      "Mixed – Active — 133 (6%)",
-      "Mixed – Lapsed — 128 (6%)",
-      "UNC – No Primary — 1,137 (52%)",
-      "UNC – Lapsed D — 343 (16%)",
-      "Pure D — 234 (11%)"
+      "Pure R — 97 (4%)",
+      "UNC – Lapsed R — 101 (5%)",
+      "Mixed – Active — 140 (6%)",
+      "Mixed – Lapsed — 56 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 72 (3%)",
+      "UNC – No Primary — 1,148 (52%)",
+      "UNC – Lapsed D — 321 (15%)",
+      "Pure D — 259 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          99,
-          102,
-          133,
-          128,
-          1137,
-          343,
-          234
+          97,
+          101,
+          140,
+          56,
+          3,
+          72,
+          1148,
+          321,
+          259
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SHEFFIELD TOWNSHIP (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

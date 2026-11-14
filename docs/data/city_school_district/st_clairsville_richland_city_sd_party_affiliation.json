@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,502 (15%)",
-      "UNC – Lapsed R — 841 (9%)",
-      "Mixed – Active — 1,353 (14%)",
-      "Mixed – Lapsed — 763 (8%)",
-      "UNC – No Primary — 3,569 (36%)",
-      "UNC – Lapsed D — 1,137 (12%)",
-      "Pure D — 683 (7%)"
+      "Pure R — 1,517 (15%)",
+      "UNC – Lapsed R — 903 (9%)",
+      "Mixed – Active — 1,433 (14%)",
+      "Mixed – Lapsed — 391 (4%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 346 (3%)",
+      "UNC – No Primary — 3,525 (36%)",
+      "UNC – Lapsed D — 1,012 (10%)",
+      "Pure D — 762 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1502,
-          841,
-          1353,
-          763,
-          3569,
-          1137,
-          683
+          1517,
+          903,
+          1433,
+          391,
+          10,
+          346,
+          3525,
+          1012,
+          762
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "ST CLAIRSVILLE-RICHLAND CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

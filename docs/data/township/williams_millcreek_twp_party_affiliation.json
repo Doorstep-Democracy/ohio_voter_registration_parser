@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 149 (30%)",
-      "UNC – Lapsed R — 61 (12%)",
-      "Mixed – Active — 42 (8%)",
-      "Mixed – Lapsed — 35 (7%)",
-      "UNC – No Primary — 187 (37%)",
-      "UNC – Lapsed D — 24 (5%)",
-      "Pure D — 7 (1%)"
+      "Pure R — 150 (30%)",
+      "UNC – Lapsed R — 67 (13%)",
+      "Mixed – Active — 39 (8%)",
+      "Mixed – Lapsed — 16 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 21 (4%)",
+      "UNC – No Primary — 182 (36%)",
+      "UNC – Lapsed D — 23 (5%)",
+      "Pure D — 6 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          149,
-          61,
-          42,
-          35,
-          187,
-          24,
-          7
+          150,
+          67,
+          39,
+          16,
+          2,
+          21,
+          182,
+          23,
+          6
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MILLCREEK TWP (Williams Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 168 (13%)",
-      "UNC – Lapsed R — 156 (12%)",
-      "Mixed – Active — 79 (6%)",
-      "Mixed – Lapsed — 43 (3%)",
-      "UNC – Non-partisan Ballot — 61 (5%)",
-      "UNC – No Primary — 645 (48%)",
-      "UNC – Lapsed D — 113 (8%)",
-      "Pure D — 77 (6%)"
+      "Pure R — 166 (12%)",
+      "UNC – Lapsed R — 157 (12%)",
+      "Mixed – Active — 78 (6%)",
+      "Mixed – Lapsed — 46 (3%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 60 (4%)",
+      "UNC – No Primary — 653 (48%)",
+      "UNC – Lapsed D — 110 (8%)",
+      "Pure D — 76 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          168,
-          156,
-          79,
-          43,
-          61,
-          645,
-          113,
-          77
+          166,
+          157,
+          78,
+          46,
+          6,
+          60,
+          653,
+          110,
+          76
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "SHELBY WARD 3 (SHELBY City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

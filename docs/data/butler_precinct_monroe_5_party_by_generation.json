@@ -4,7 +4,7 @@
   "precinct": "MONROE 5",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -32,10 +32,10 @@
         "label": "UNC – Lapsed R",
         "data": [
           5,
-          28,
-          59,
           31,
-          4
+          57,
+          34,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           11,
-          13,
+          11,
           5,
           2
         ],
@@ -87,7 +100,7 @@
           41,
           82,
           108,
-          134
+          142
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -99,7 +112,7 @@
           1,
           20,
           24,
-          24,
+          25,
           3
         ],
         "backgroundColor": "#93c5fd",

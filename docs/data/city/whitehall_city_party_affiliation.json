@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 516 (5%)",
-      "UNC – Lapsed R — 462 (4%)",
-      "Mixed – Active — 368 (3%)",
-      "Mixed – Lapsed — 485 (4%)",
-      "UNC – No Primary — 7,037 (62%)",
-      "UNC – Lapsed D — 1,611 (14%)",
-      "Pure D — 784 (7%)"
+      "Pure R — 464 (4%)",
+      "UNC – Lapsed R — 522 (4%)",
+      "Mixed – Active — 364 (3%)",
+      "Mixed – Lapsed — 256 (2%)",
+      "Minor Party — 31 (0%)",
+      "UNC – Non-partisan Ballot — 208 (2%)",
+      "UNC – No Primary — 7,301 (62%)",
+      "UNC – Lapsed D — 1,521 (13%)",
+      "Pure D — 1,026 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          516,
-          462,
-          368,
-          485,
-          7037,
-          1611,
-          784
+          464,
+          522,
+          364,
+          256,
+          31,
+          208,
+          7301,
+          1521,
+          1026
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WHITEHALL CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 493",
-      "Mixed – Active — 345",
-      "Mixed – Lapsed — 278",
-      "UNC – No Primary — 2,073",
-      "UNC – Lapsed D — 331"
+      "UNC – Lapsed R — 547",
+      "Mixed – Active — 336",
+      "Mixed – Lapsed — 190",
+      "UNC – Non-partisan Ballot — 101",
+      "UNC – No Primary — 2,089",
+      "UNC – Lapsed D — 329"
     ],
     "datasets": [
       {
         "data": [
-          493,
-          345,
-          278,
-          2073,
-          331
+          547,
+          336,
+          190,
+          101,
+          2089,
+          329
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PLEASANT TOWNSHIP (Hardin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 18 (12%)",
-      "UNC – Lapsed R — 25 (16%)",
-      "Mixed – Active — 8 (5%)",
-      "Mixed – Lapsed — 9 (6%)",
-      "UNC – No Primary — 85 (55%)",
-      "UNC – Lapsed D — 10 (6%)",
-      "Pure D — 0 (0%)"
+      "UNC – Lapsed R — 24 (16%)",
+      "Mixed – Active — 12 (8%)",
+      "Mixed – Lapsed — 4 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 82 (54%)",
+      "UNC – Lapsed D — 10 (7%)",
+      "Pure D — 1 (1%)"
     ],
     "datasets": [
       {
         "data": [
           18,
-          25,
-          8,
-          9,
-          85,
+          24,
+          12,
+          4,
+          0,
+          1,
+          82,
           10,
-          0
+          1
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "MAGNETIC SPRINGS VILLAGE (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

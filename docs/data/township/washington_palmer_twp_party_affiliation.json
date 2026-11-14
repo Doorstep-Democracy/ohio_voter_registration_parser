@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 83 (23%)",
-      "UNC – Lapsed R — 36 (10%)",
-      "Mixed – Active — 43 (12%)",
-      "Mixed – Lapsed — 24 (7%)",
-      "UNC – No Primary — 138 (38%)",
+      "Pure R — 90 (24%)",
+      "UNC – Lapsed R — 35 (9%)",
+      "Mixed – Active — 45 (12%)",
+      "Mixed – Lapsed — 11 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 12 (3%)",
+      "UNC – No Primary — 137 (37%)",
       "UNC – Lapsed D — 30 (8%)",
-      "Pure D — 9 (2%)"
+      "Pure D — 11 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          83,
-          36,
-          43,
-          24,
-          138,
+          90,
+          35,
+          45,
+          11,
+          0,
+          12,
+          137,
           30,
-          9
+          11
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PALMER TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

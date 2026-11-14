@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 679",
-      "Mixed – Active — 436",
-      "Mixed – Lapsed — 350",
-      "UNC – No Primary — 1,771",
-      "UNC – Lapsed D — 411"
+      "UNC – Lapsed R — 553",
+      "Mixed – Active — 527",
+      "Mixed – Lapsed — 117",
+      "UNC – Non-partisan Ballot — 184",
+      "UNC – No Primary — 1,580",
+      "UNC – Lapsed D — 305"
     ],
     "datasets": [
       {
         "data": [
-          679,
-          436,
-          350,
-          1771,
-          411
+          553,
+          527,
+          117,
+          184,
+          1580,
+          305
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TROY TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

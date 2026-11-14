@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 387 (31%)",
-      "UNC – Lapsed R — 153 (12%)",
-      "Mixed – Active — 105 (8%)",
-      "Mixed – Lapsed — 65 (5%)",
-      "UNC – No Primary — 419 (33%)",
-      "UNC – Lapsed D — 74 (6%)",
-      "Pure D — 52 (4%)"
+      "Pure R — 335 (27%)",
+      "UNC – Lapsed R — 203 (16%)",
+      "Mixed – Active — 99 (8%)",
+      "Mixed – Lapsed — 34 (3%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 31 (2%)",
+      "UNC – No Primary — 414 (33%)",
+      "UNC – Lapsed D — 76 (6%)",
+      "Pure D — 55 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          387,
-          153,
-          105,
-          65,
-          419,
-          74,
-          52
+          335,
+          203,
+          99,
+          34,
+          2,
+          31,
+          414,
+          76,
+          55
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BERLIN TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

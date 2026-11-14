@@ -328,6 +328,8 @@ def derive_profile_label(party_aff: str, d_prim: int, r_prim: int,
     (CLAUDE.md section 4; handoff Stage 7).
     """
     pa = (party_aff or "").strip()  # null defensively folded to "" (lapse signal)
+    if cohort == "MINOR_PARTY":
+        return "Minor Party"
     if d_prim and not r_prim:
         return "Pure D" if pa == "D" else "Lapsed D"
     if r_prim and not d_prim:

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,267",
-      "Mixed – Active — 713",
-      "Mixed – Lapsed — 810",
-      "UNC – No Primary — 6,697",
-      "UNC – Lapsed D — 1,422"
+      "UNC – Lapsed R — 1,255",
+      "Mixed – Active — 706",
+      "Mixed – Lapsed — 484",
+      "UNC – Non-partisan Ballot — 316",
+      "UNC – No Primary — 6,886",
+      "UNC – Lapsed D — 1,423"
     ],
     "datasets": [
       {
         "data": [
-          1267,
-          713,
-          810,
-          6697,
-          1422
+          1255,
+          706,
+          484,
+          316,
+          6886,
+          1423
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Mad River Local Sd (Montg Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

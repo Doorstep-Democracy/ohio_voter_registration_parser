@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 389 (19%)",
-      "UNC – Lapsed R — 284 (14%)",
-      "Mixed – Active — 150 (7%)",
-      "Mixed – Lapsed — 94 (5%)",
-      "UNC – No Primary — 984 (47%)",
-      "UNC – Lapsed D — 138 (7%)",
-      "Pure D — 35 (2%)"
+      "Pure R — 463 (22%)",
+      "UNC – Lapsed R — 258 (12%)",
+      "Mixed – Active — 168 (8%)",
+      "Mixed – Lapsed — 55 (3%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 42 (2%)",
+      "UNC – No Primary — 912 (44%)",
+      "UNC – Lapsed D — 113 (5%)",
+      "Pure D — 49 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          389,
-          284,
-          150,
-          94,
-          984,
-          138,
-          35
+          463,
+          258,
+          168,
+          55,
+          6,
+          42,
+          912,
+          113,
+          49
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TOWNSHIP (Clinton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

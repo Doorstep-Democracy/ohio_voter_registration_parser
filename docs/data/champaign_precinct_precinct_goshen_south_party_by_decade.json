@@ -4,7 +4,7 @@
   "precinct": "PRECINCT GOSHEN SOUTH",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -20,11 +20,11 @@
       {
         "label": "Pure R",
         "data": [
-          3,
+          2,
           16,
           36,
-          55,
-          20,
+          53,
+          19,
           24,
           17,
           8
@@ -39,9 +39,9 @@
           3,
           6,
           15,
-          23,
+          24,
           21,
-          18,
+          19,
           16,
           2
         ],
@@ -69,15 +69,31 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          5,
-          8,
-          8,
+          4,
+          9,
+          7,
           4,
           2,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -100,14 +116,14 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          1,
+          0,
           5,
-          12,
+          13,
           30,
-          39,
+          38,
           49,
-          59,
-          60
+          62,
+          58
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,11 +132,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
+          3,
           6,
           11,
-          21,
-          14,
+          20,
+          13,
           9,
           4,
           0
@@ -133,8 +149,8 @@
         "label": "Pure D",
         "data": [
           0,
-          6,
-          16,
+          5,
+          15,
           5,
           4,
           2,

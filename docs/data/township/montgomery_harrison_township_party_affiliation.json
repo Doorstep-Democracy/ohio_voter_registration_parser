@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 661 (5%)",
-      "UNC – Lapsed R — 643 (5%)",
-      "Mixed – Active — 544 (4%)",
-      "Mixed – Lapsed — 561 (4%)",
-      "UNC – No Primary — 7,198 (53%)",
-      "UNC – Lapsed D — 2,424 (18%)",
-      "Pure D — 1,664 (12%)"
+      "Pure R — 639 (5%)",
+      "UNC – Lapsed R — 680 (5%)",
+      "Mixed – Active — 537 (4%)",
+      "Mixed – Lapsed — 323 (2%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 240 (2%)",
+      "UNC – No Primary — 7,457 (53%)",
+      "UNC – Lapsed D — 2,356 (17%)",
+      "Pure D — 1,881 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          661,
-          643,
-          544,
-          561,
-          7198,
-          2424,
-          1664
+          639,
+          680,
+          537,
+          323,
+          24,
+          240,
+          7457,
+          2356,
+          1881
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "HARRISON TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

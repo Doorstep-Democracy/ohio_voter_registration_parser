@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 802 (13%)",
-      "UNC – Lapsed R — 500 (8%)",
-      "Mixed – Active — 853 (14%)",
-      "Mixed – Lapsed — 551 (9%)",
-      "UNC – No Primary — 2,206 (36%)",
-      "UNC – Lapsed D — 772 (13%)",
-      "Pure D — 472 (8%)"
+      "Pure R — 721 (12%)",
+      "UNC – Lapsed R — 589 (10%)",
+      "Mixed – Active — 807 (13%)",
+      "Mixed – Lapsed — 339 (5%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 266 (4%)",
+      "UNC – No Primary — 2,176 (35%)",
+      "UNC – Lapsed D — 764 (12%)",
+      "Pure D — 494 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          802,
-          500,
-          853,
-          551,
-          2206,
-          772,
-          472
+          721,
+          589,
+          807,
+          339,
+          13,
+          266,
+          2176,
+          764,
+          494
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ROOTSTOWN TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

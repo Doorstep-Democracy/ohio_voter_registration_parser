@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           0,
-          21,
+          20,
           72,
-          200,
+          194,
           171,
-          118,
-          87,
-          62,
-          29
+          117,
+          88,
+          63,
+          27
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          1,
-          25,
-          67,
-          164,
-          198,
-          199,
+          0,
+          24,
+          65,
+          163,
           197,
-          86,
-          14
+          202,
+          202,
+          85,
+          16
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -51,11 +51,11 @@
         "data": [
           1,
           9,
-          46,
+          45,
           91,
           62,
           33,
-          16,
+          17,
           5,
           0
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          13,
-          35,
-          82,
-          98,
-          81,
-          63,
-          19,
-          3
+          8,
+          26,
+          50,
+          49,
+          37,
+          20,
+          3,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          0,
+          1,
+          3,
+          2,
+          2,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          9,
+          30,
+          47,
+          43,
+          43,
+          15,
+          2
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          10,
-          33,
+          9,
+          32,
           117,
-          175,
-          265,
-          454,
-          603,
-          537
+          179,
+          270,
+          456,
+          605,
+          546
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,14 +129,14 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          10,
+          0,
+          8,
           31,
-          82,
-          65,
-          51,
-          54,
-          17,
+          81,
+          66,
+          50,
+          53,
+          18,
           5
         ],
         "backgroundColor": "#93c5fd",
@@ -128,8 +160,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Garaway Local Sd (Tusc Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

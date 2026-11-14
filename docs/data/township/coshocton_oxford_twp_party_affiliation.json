@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 274 (26%)",
-      "UNC – Lapsed R — 101 (10%)",
+      "Pure R — 236 (22%)",
+      "UNC – Lapsed R — 141 (13%)",
       "Mixed – Active — 123 (12%)",
-      "Mixed – Lapsed — 73 (7%)",
-      "UNC – No Primary — 349 (33%)",
-      "UNC – Lapsed D — 81 (8%)",
-      "Pure D — 44 (4%)"
+      "Mixed – Lapsed — 53 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 22 (2%)",
+      "UNC – No Primary — 351 (33%)",
+      "UNC – Lapsed D — 82 (8%)",
+      "Pure D — 43 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          274,
-          101,
+          236,
+          141,
           123,
-          73,
-          349,
-          81,
-          44
+          53,
+          1,
+          22,
+          351,
+          82,
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "OXFORD TWP (Coshocton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

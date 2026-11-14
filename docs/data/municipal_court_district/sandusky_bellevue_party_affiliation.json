@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 854 (19%)",
-      "UNC – Lapsed R — 511 (11%)",
-      "Mixed – Active — 391 (9%)",
-      "Mixed – Lapsed — 404 (9%)",
-      "UNC – No Primary — 1,682 (38%)",
-      "UNC – Lapsed D — 395 (9%)",
-      "Pure D — 247 (6%)"
+      "Pure R — 998 (22%)",
+      "UNC – Lapsed R — 483 (11%)",
+      "Mixed – Active — 438 (10%)",
+      "Mixed – Lapsed — 132 (3%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 225 (5%)",
+      "UNC – No Primary — 1,577 (35%)",
+      "UNC – Lapsed D — 340 (8%)",
+      "Pure D — 298 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          854,
-          511,
-          391,
-          404,
-          1682,
-          395,
-          247
+          998,
+          483,
+          438,
+          132,
+          4,
+          225,
+          1577,
+          340,
+          298
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "BELLEVUE (Sandusky Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

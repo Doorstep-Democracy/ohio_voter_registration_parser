@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 285 (8%)",
-      "UNC – Lapsed R — 305 (9%)",
-      "Mixed – Active — 210 (6%)",
-      "Mixed – Lapsed — 352 (10%)",
-      "UNC – No Primary — 1,435 (42%)",
-      "UNC – Lapsed D — 630 (18%)",
-      "Pure D — 190 (6%)"
+      "Pure R — 297 (9%)",
+      "UNC – Lapsed R — 306 (9%)",
+      "Mixed – Active — 224 (6%)",
+      "Mixed – Lapsed — 200 (6%)",
+      "Minor Party — 18 (1%)",
+      "UNC – Non-partisan Ballot — 128 (4%)",
+      "UNC – No Primary — 1,466 (42%)",
+      "UNC – Lapsed D — 579 (17%)",
+      "Pure D — 252 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          285,
-          305,
-          210,
-          352,
-          1435,
-          630,
-          190
+          297,
+          306,
+          224,
+          200,
+          18,
+          128,
+          1466,
+          579,
+          252
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "NORTHWOOD CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 38 (9%)",
-      "UNC – Lapsed R — 27 (6%)",
-      "Mixed – Active — 24 (5%)",
-      "Mixed – Lapsed — 28 (6%)",
-      "UNC – No Primary — 197 (44%)",
-      "UNC – Lapsed D — 94 (21%)",
-      "Pure D — 39 (9%)"
+      "Pure R — 30 (7%)",
+      "UNC – Lapsed R — 34 (7%)",
+      "Mixed – Active — 25 (5%)",
+      "Mixed – Lapsed — 25 (5%)",
+      "Minor Party — 4 (1%)",
+      "UNC – Non-partisan Ballot — 5 (1%)",
+      "UNC – No Primary — 203 (45%)",
+      "UNC – Lapsed D — 89 (20%)",
+      "Pure D — 41 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          38,
-          27,
-          24,
-          28,
-          197,
-          94,
-          39
+          30,
+          34,
+          25,
+          25,
+          4,
+          5,
+          203,
+          89,
+          41
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CHAUNCEY VILLAGE (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,346 (23%)",
-      "UNC – Lapsed R — 1,800 (12%)",
-      "Mixed – Active — 1,425 (10%)",
-      "Mixed – Lapsed — 865 (6%)",
-      "UNC – No Primary — 5,743 (40%)",
-      "UNC – Lapsed D — 908 (6%)",
-      "Pure D — 392 (3%)"
+      "Pure R — 2,556 (18%)",
+      "UNC – Lapsed R — 2,606 (18%)",
+      "Mixed – Active — 1,163 (8%)",
+      "Mixed – Lapsed — 902 (6%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 230 (2%)",
+      "UNC – No Primary — 5,741 (39%)",
+      "UNC – Lapsed D — 892 (6%)",
+      "Pure D — 439 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          3346,
-          1800,
-          1425,
-          865,
-          5743,
-          908,
-          392
+          2556,
+          2606,
+          1163,
+          902,
+          24,
+          230,
+          5741,
+          892,
+          439
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "GREENVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 228",
-      "Mixed – Active — 224",
-      "Mixed – Lapsed — 158",
-      "UNC – No Primary — 578",
+      "UNC – Lapsed R — 341",
+      "Mixed – Active — 186",
+      "Mixed – Lapsed — 138",
+      "UNC – Non-partisan Ballot — 65",
+      "UNC – No Primary — 562",
       "UNC – Lapsed D — 125"
     ],
     "datasets": [
       {
         "data": [
-          228,
-          224,
-          158,
-          578,
+          341,
+          186,
+          138,
+          65,
+          562,
           125
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "FRANKLIN TWP (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "PRECINCT DELAWARE CITY 1-E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,9 +18,9 @@
       {
         "label": "Pure R",
         "data": [
-          11,
-          48,
-          14,
+          10,
+          52,
+          15,
           4,
           4
         ],
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           13,
-          29,
-          16,
-          14,
+          32,
+          23,
+          17,
           1
         ],
         "backgroundColor": "#fca5a5",
@@ -44,10 +44,10 @@
       {
         "label": "Mixed – Active",
         "data": [
-          7,
-          34,
+          6,
+          37,
           4,
-          4,
+          3,
           0
         ],
         "backgroundColor": "#f59e0b",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          9,
+          11,
           8,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           1,
           42,
-          46,
-          85,
-          67
+          48,
+          86,
+          73
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          6,
+          5,
           20,
-          20,
+          21,
           14,
-          3
+          4
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -112,7 +125,7 @@
           4,
           17,
           6,
-          7,
+          9,
           2
         ],
         "backgroundColor": "#3b82f6",

@@ -4,17 +4,19 @@ precinct_party_export.py
 Export a multi-tab Excel workbook of voter names + addresses + all source
 columns, split by partisan cohort, for a chosen county or a single precinct.
 
-Tab layout (7-tab partisan spectrum — colours match dashboard doughnut):
+Tab layout (9-tab partisan spectrum — colours match dashboard doughnut):
   Pure_R          #ef4444   affiliated R, zero D primary ballots ever
   UNC_Lapsed_R    #fca5a5   unaffiliated, all primaries were R ballots
   Mixed_Active    #f59e0b   currently affiliated crossover voters
   Mixed_Lapsed    #a78bfa   unaffiliated, mixed or X-only primary history
+  Minor_Party     #14b8a6   non-R/D affiliation, or unaffiliated with only minor-party ballots
+  UNC_Nonpartisan #c4b5cd   unaffiliated, only issues-only (X) primary ballots
   UNC_No_Primary  #9ca3af   unaffiliated, no primary participation ever
   UNC_Lapsed_D    #93c5fd   unaffiliated, all primaries were D ballots
   Pure_D          #3b82f6   affiliated D, zero R primary ballots ever
   Summary         #1e293b   row counts per tab
 
-Cohort assignment uses classify_all_voters_primary_history() (voter_data_cleaner_v2).
+Cohort assignment uses classify_all_voters_primary_history() (pipeline/voter_data_cleaner.py).
 cohort_family is the segmentation key; internal cohort column preserved for
 future proprietary crossover analysis but not surfaced in output tabs.
 
@@ -36,12 +38,12 @@ import polars as pl
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR    = Path(__file__).resolve().parent.parent.parent
-PARQUET_DIR = BASE_DIR / "local" / "source" / "parquet"  # PATCH: Rerouted to local/ workspace
 OUT_DIR     = BASE_DIR / "local" / "exports" / "Workbooks"  # PATCH: Rerouted to local/ workspace
 
 # ── Import shared helpers ─────────────────────────────────────────────────────
 sys.path.insert(0, str(BASE_DIR))
-import voter_data_cleaner_v2 as v2
+from pipeline import voter_data_cleaner as v2
+from pipeline.paths import PARQUET_DIR, county_partition
 
 OHIO_COUNTIES  = v2.OHIO_COUNTIES
 identify_cols  = v2.identify_election_cols
@@ -49,7 +51,7 @@ classify_unc   = v2.classify_unc_primary_history
 classify_all   = v2.classify_all_voters_primary_history
 
 # ── Tab definitions ───────────────────────────────────────────────────────────
-# 7-tab partisan-spectrum layout based on cohort_family (universal classifier).
+# 9-tab partisan-spectrum layout based on cohort_family (universal classifier).
 # Mirrors the public dashboard taxonomy exactly — no decay scoring surfaced.
 TABS = [
     # (tab_name,           tab_colour,  filter_col,      cohort_family value)
@@ -57,6 +59,7 @@ TABS = [
     ("UNC_Lapsed_R",     "#fca5a5",   "cohort_family", "UNC_LAPSED_R"),
     ("Mixed_Active",     "#f59e0b",   "cohort_family", "MIXED_ACTIVE"),
     ("Mixed_Lapsed",     "#a78bfa",   "cohort_family", "MIXED_LAPSED"),
+    ("Minor_Party",      "#14b8a6",   "cohort_family", "MINOR_PARTY"),
     ("UNC_Nonpartisan",  "#c4b5cd",   "cohort_family", "UNC_NONPARTISAN"),
     ("UNC_No_Primary",   "#9ca3af",   "cohort_family", "UNC_NO_PRIMARY"),
     ("UNC_Lapsed_D",     "#93c5fd",   "cohort_family", "UNC_LAPSED_D"),
@@ -77,7 +80,7 @@ def _build_logger() -> logging.Logger:
 # ── Data loading ──────────────────────────────────────────────────────────────
 def _load_county(county_num: str, logger) -> pl.DataFrame:
     """Load one county from Parquet cache."""
-    part = PARQUET_DIR / f"COUNTY_NUMBER={county_num}"
+    part = PARQUET_DIR / county_partition(county_num)
     if not part.exists():
         logger.error("Parquet partition not found: %s", part)
         sys.exit(1)

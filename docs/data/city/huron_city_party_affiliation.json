@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 564 (11%)",
-      "UNC – Lapsed R — 510 (10%)",
-      "Mixed – Active — 655 (13%)",
-      "Mixed – Lapsed — 645 (13%)",
-      "UNC – No Primary — 1,482 (30%)",
-      "UNC – Lapsed D — 698 (14%)",
-      "Pure D — 373 (8%)"
+      "Pure R — 622 (13%)",
+      "UNC – Lapsed R — 495 (10%)",
+      "Mixed – Active — 730 (15%)",
+      "Mixed – Lapsed — 332 (7%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 233 (5%)",
+      "UNC – No Primary — 1,415 (29%)",
+      "UNC – Lapsed D — 593 (12%)",
+      "Pure D — 504 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          564,
-          510,
-          655,
-          645,
-          1482,
-          698,
-          373
+          622,
+          495,
+          730,
+          332,
+          13,
+          233,
+          1415,
+          593,
+          504
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "HURON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 914",
-      "Mixed – Active — 540",
-      "Mixed – Lapsed — 544",
-      "UNC – No Primary — 4,182",
-      "UNC – Lapsed D — 948"
+      "UNC – Lapsed R — 1,053",
+      "Mixed – Active — 488",
+      "Mixed – Lapsed — 393",
+      "UNC – Non-partisan Ballot — 197",
+      "UNC – No Primary — 4,226",
+      "UNC – Lapsed D — 940"
     ],
     "datasets": [
       {
         "data": [
-          914,
-          540,
-          544,
-          4182,
-          948
+          1053,
+          488,
+          393,
+          197,
+          4226,
+          940
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "WEST CARROLLTON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

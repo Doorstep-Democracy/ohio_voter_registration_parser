@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 164",
-      "Mixed – Active — 148",
-      "Mixed – Lapsed — 104",
-      "UNC – No Primary — 525",
-      "UNC – Lapsed D — 133"
+      "UNC – Lapsed R — 204",
+      "Mixed – Active — 131",
+      "Mixed – Lapsed — 81",
+      "UNC – Non-partisan Ballot — 40",
+      "UNC – No Primary — 509",
+      "UNC – Lapsed D — 128"
     ],
     "datasets": [
       {
         "data": [
-          164,
-          148,
-          104,
-          525,
-          133
+          204,
+          131,
+          81,
+          40,
+          509,
+          128
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LOUDON TWP (Seneca Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

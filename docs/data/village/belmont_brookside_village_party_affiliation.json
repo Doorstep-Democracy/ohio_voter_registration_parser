@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 28 (7%)",
-      "UNC – Lapsed R — 19 (5%)",
+      "Pure R — 26 (7%)",
+      "UNC – Lapsed R — 20 (5%)",
       "Mixed – Active — 71 (18%)",
-      "Mixed – Lapsed — 23 (6%)",
-      "UNC – No Primary — 168 (43%)",
-      "UNC – Lapsed D — 53 (13%)",
-      "Pure D — 33 (8%)"
+      "Mixed – Lapsed — 16 (4%)",
+      "Minor Party — 2 (1%)",
+      "UNC – Non-partisan Ballot — 9 (2%)",
+      "UNC – No Primary — 163 (42%)",
+      "UNC – Lapsed D — 47 (12%)",
+      "Pure D — 37 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          28,
-          19,
+          26,
+          20,
           71,
-          23,
-          168,
-          53,
-          33
+          16,
+          2,
+          9,
+          163,
+          47,
+          37
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BROOKSIDE VILLAGE (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

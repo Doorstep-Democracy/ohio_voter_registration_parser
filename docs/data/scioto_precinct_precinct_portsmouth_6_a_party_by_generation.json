@@ -4,7 +4,7 @@
   "precinct": "PRECINCT PORTSMOUTH 6-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          2,
+          1,
           19,
           18,
           3,
@@ -33,9 +33,9 @@
         "data": [
           2,
           10,
-          12,
-          10,
-          6
+          11,
+          9,
+          5
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
@@ -86,8 +99,8 @@
           1,
           23,
           62,
-          63,
-          59
+          65,
+          62
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,7 +111,7 @@
         "data": [
           6,
           24,
-          19,
+          20,
           5,
           1
         ],

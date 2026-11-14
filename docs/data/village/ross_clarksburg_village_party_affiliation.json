@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 32 (15%)",
-      "UNC – Lapsed R — 18 (8%)",
-      "Mixed – Active — 19 (9%)",
-      "Mixed – Lapsed — 15 (7%)",
-      "UNC – No Primary — 107 (50%)",
-      "UNC – Lapsed D — 15 (7%)",
-      "Pure D — 10 (5%)"
+      "Pure R — 28 (13%)",
+      "UNC – Lapsed R — 24 (11%)",
+      "Mixed – Active — 17 (8%)",
+      "Mixed – Lapsed — 12 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 4 (2%)",
+      "UNC – No Primary — 109 (50%)",
+      "UNC – Lapsed D — 18 (8%)",
+      "Pure D — 7 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          32,
+          28,
+          24,
+          17,
+          12,
+          1,
+          4,
+          109,
           18,
-          19,
-          15,
-          107,
-          15,
-          10
+          7
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CLARKSBURG VILLAGE (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

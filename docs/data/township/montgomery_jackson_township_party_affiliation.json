@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 810 (19%)",
-      "UNC – Lapsed R — 666 (16%)",
-      "Mixed – Active — 386 (9%)",
-      "Mixed – Lapsed — 412 (10%)",
-      "UNC – No Primary — 1,459 (34%)",
-      "UNC – Lapsed D — 339 (8%)",
-      "Pure D — 157 (4%)"
+      "Pure R — 690 (16%)",
+      "UNC – Lapsed R — 820 (19%)",
+      "Mixed – Active — 354 (8%)",
+      "Mixed – Lapsed — 254 (6%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 189 (4%)",
+      "UNC – No Primary — 1,446 (34%)",
+      "UNC – Lapsed D — 334 (8%)",
+      "Pure D — 153 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          810,
-          666,
-          386,
-          412,
-          1459,
-          339,
-          157
+          690,
+          820,
+          354,
+          254,
+          11,
+          189,
+          1446,
+          334,
+          153
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Montgomery Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

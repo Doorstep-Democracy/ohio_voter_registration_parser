@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 26 (8%)",
-      "UNC – Lapsed R — 37 (12%)",
-      "Mixed – Active — 53 (17%)",
-      "Mixed – Lapsed — 33 (10%)",
-      "UNC – No Primary — 115 (36%)",
-      "UNC – Lapsed D — 44 (14%)",
-      "Pure D — 13 (4%)"
+      "UNC – Lapsed R — 36 (11%)",
+      "Mixed – Active — 54 (17%)",
+      "Mixed – Lapsed — 26 (8%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 6 (2%)",
+      "UNC – No Primary — 123 (38%)",
+      "UNC – Lapsed D — 36 (11%)",
+      "Pure D — 17 (5%)"
     ],
     "datasets": [
       {
         "data": [
           26,
-          37,
-          53,
-          33,
-          115,
-          44,
-          13
+          36,
+          54,
+          26,
+          0,
+          6,
+          123,
+          36,
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "BERGHOLZ VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

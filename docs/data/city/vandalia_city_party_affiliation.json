@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,667 (16%)",
-      "UNC – Lapsed R — 1,369 (13%)",
-      "Mixed – Active — 752 (7%)",
-      "Mixed – Lapsed — 824 (8%)",
-      "UNC – No Primary — 4,406 (41%)",
-      "UNC – Lapsed D — 1,130 (11%)",
-      "Pure D — 514 (5%)"
+      "Pure R — 1,408 (13%)",
+      "UNC – Lapsed R — 1,610 (15%)",
+      "Mixed – Active — 742 (7%)",
+      "Mixed – Lapsed — 477 (4%)",
+      "Minor Party — 23 (0%)",
+      "UNC – Non-partisan Ballot — 347 (3%)",
+      "UNC – No Primary — 4,454 (41%)",
+      "UNC – Lapsed D — 1,077 (10%)",
+      "Pure D — 637 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          1667,
-          1369,
-          752,
-          824,
-          4406,
-          1130,
-          514
+          1408,
+          1610,
+          742,
+          477,
+          23,
+          347,
+          4454,
+          1077,
+          637
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "VANDALIA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

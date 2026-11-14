@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 657 (26%)",
-      "UNC – Lapsed R — 369 (15%)",
-      "Mixed – Active — 189 (8%)",
-      "Mixed – Lapsed — 157 (6%)",
-      "UNC – No Primary — 922 (37%)",
-      "UNC – Lapsed D — 140 (6%)",
-      "Pure D — 51 (2%)"
+      "Pure R — 602 (24%)",
+      "UNC – Lapsed R — 437 (18%)",
+      "Mixed – Active — 162 (6%)",
+      "Mixed – Lapsed — 110 (4%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 86 (3%)",
+      "UNC – No Primary — 897 (36%)",
+      "UNC – Lapsed D — 128 (5%)",
+      "Pure D — 70 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          657,
-          369,
-          189,
-          157,
-          922,
-          140,
-          51
+          602,
+          437,
+          162,
+          110,
+          2,
+          86,
+          897,
+          128,
+          70
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

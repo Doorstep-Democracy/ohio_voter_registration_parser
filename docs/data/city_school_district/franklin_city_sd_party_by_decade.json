@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          3,
-          65,
-          332,
-          567,
-          619,
-          405,
-          347,
-          196,
-          84
+          1,
+          60,
+          310,
+          626,
+          714,
+          480,
+          427,
+          260,
+          148
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          6,
-          58,
-          151,
-          265,
-          379,
-          369,
-          275,
-          236,
-          31
+          8,
+          53,
+          159,
+          241,
+          340,
+          349,
+          258,
+          227,
+          38
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
-          38,
-          151,
-          256,
-          227,
-          140,
-          75,
-          24,
-          1
+          1,
+          25,
+          154,
+          293,
+          281,
+          171,
+          108,
+          34,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
-          32,
-          111,
-          213,
-          313,
-          275,
-          256,
-          209,
-          112
+          2,
+          30,
+          74,
+          84,
+          119,
+          72,
+          42,
+          13,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          3,
+          4,
+          6,
+          12,
+          7,
+          14,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          7,
+          33,
+          71,
+          129,
+          156,
+          156,
+          157,
+          91
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          23,
-          106,
-          362,
-          608,
-          802,
-          941,
-          1657,
-          1402
+          19,
+          104,
+          338,
+          572,
+          751,
+          917,
+          1612,
+          1418
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
+          3,
           40,
-          118,
-          156,
-          235,
-          215,
-          175,
-          140,
-          13
+          109,
+          126,
+          195,
+          182,
+          150,
+          127,
+          27
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          30,
-          97,
-          165,
-          87,
-          60,
-          67,
-          47,
-          28
+          1,
+          24,
+          98,
+          195,
+          115,
+          104,
+          99,
+          100,
+          52
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "FRANKLIN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 8,425 (20%)",
-      "UNC – Lapsed R — 5,567 (13%)",
-      "Mixed – Active — 3,512 (8%)",
-      "Mixed – Lapsed — 5,000 (12%)",
-      "UNC – No Primary — 13,816 (33%)",
-      "UNC – Lapsed D — 3,600 (9%)",
-      "Pure D — 2,339 (6%)"
+      "Pure R — 7,395 (17%)",
+      "UNC – Lapsed R — 6,659 (16%)",
+      "Mixed – Active — 3,422 (8%)",
+      "Mixed – Lapsed — 2,024 (5%)",
+      "Minor Party — 113 (0%)",
+      "UNC – Non-partisan Ballot — 2,908 (7%)",
+      "UNC – No Primary — 13,994 (33%)",
+      "UNC – Lapsed D — 3,696 (9%)",
+      "Pure D — 2,741 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          8425,
-          5567,
-          3512,
-          5000,
-          13816,
-          3600,
-          2339
+          7395,
+          6659,
+          3422,
+          2024,
+          113,
+          2908,
+          13994,
+          3696,
+          2741
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BEAVERCREEK (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 309 (22%)",
-      "UNC – Lapsed R — 211 (15%)",
-      "Mixed – Active — 82 (6%)",
-      "Mixed – Lapsed — 122 (9%)",
-      "UNC – No Primary — 590 (42%)",
-      "UNC – Lapsed D — 68 (5%)",
-      "Pure D — 17 (1%)"
+      "Pure R — 253 (18%)",
+      "UNC – Lapsed R — 274 (19%)",
+      "Mixed – Active — 89 (6%)",
+      "Mixed – Lapsed — 47 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 65 (5%)",
+      "UNC – No Primary — 594 (42%)",
+      "UNC – Lapsed D — 63 (4%)",
+      "Pure D — 26 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          309,
-          211,
-          82,
-          122,
-          590,
-          68,
-          17
+          253,
+          274,
+          89,
+          47,
+          0,
+          65,
+          594,
+          63,
+          26
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MIAMI TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

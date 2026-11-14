@@ -4,7 +4,7 @@
   "precinct": "OLMSTED TOWNSHIP-00-E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
-          44,
+          2,
+          43,
           58,
-          36,
+          35,
           7
         ],
         "backgroundColor": "#fca5a5",
@@ -68,6 +68,19 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           1,
@@ -85,9 +98,9 @@
         "data": [
           2,
           46,
-          54,
-          115,
-          168
+          55,
+          116,
+          179
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          5,
+          4,
           37,
           61,
           35,
-          9
+          10
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -110,7 +123,7 @@
         "label": "Pure D",
         "data": [
           3,
-          39,
+          40,
           43,
           18,
           18

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 307 (5%)",
-      "UNC – Lapsed R — 516 (9%)",
-      "Mixed – Active — 681 (12%)",
-      "Mixed – Lapsed — 719 (13%)",
-      "UNC – No Primary — 1,762 (31%)",
-      "UNC – Lapsed D — 839 (15%)",
-      "Pure D — 914 (16%)"
+      "Pure R — 306 (5%)",
+      "UNC – Lapsed R — 514 (9%)",
+      "Mixed – Active — 680 (12%)",
+      "Mixed – Lapsed — 403 (7%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 303 (5%)",
+      "UNC – No Primary — 1,821 (31%)",
+      "UNC – Lapsed D — 837 (14%)",
+      "Pure D — 913 (16%)"
     ],
     "datasets": [
       {
         "data": [
-          307,
-          516,
-          681,
-          719,
-          1762,
-          839,
-          914
+          306,
+          514,
+          680,
+          403,
+          6,
+          303,
+          1821,
+          837,
+          913
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "PEPPER PIKE CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          6,
-          113,
-          448,
-          798,
-          700,
-          525,
-          352,
-          187,
-          136
+          5,
+          96,
+          383,
+          710,
+          606,
+          398,
+          234,
+          129,
+          104
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
-          53,
-          132,
-          252,
-          340,
-          245,
-          217,
-          201,
-          28
+          4,
+          66,
+          184,
+          325,
+          436,
+          382,
+          341,
+          265,
+          72
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           4,
-          49,
-          224,
-          341,
-          244,
-          140,
-          123,
-          29,
-          4
+          38,
+          193,
+          318,
+          223,
+          110,
+          88,
+          24,
+          5
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          30,
-          71,
+          35,
+          87,
+          117,
+          117,
           102,
-          114,
-          114,
           93,
-          61,
-          22
+          38,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          3,
+          8,
+          11,
+          9,
+          10,
+          6,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          4,
+          9,
+          18,
+          30,
+          44,
+          34,
+          32,
+          14
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          23,
-          125,
-          373,
-          656,
-          798,
-          967,
-          1306,
-          1199
+          22,
+          120,
+          362,
+          645,
+          797,
+          963,
+          1315,
+          1292
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -99,13 +131,13 @@
         "data": [
           3,
           18,
-          56,
-          151,
-          154,
-          133,
-          130,
-          109,
-          14
+          61,
+          139,
+          144,
+          137,
+          126,
+          106,
+          19
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           0,
           16,
+          42,
+          112,
+          51,
+          40,
+          28,
           47,
-          91,
-          35,
-          33,
-          23,
-          26,
-          13
+          26
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "WILMINGTON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

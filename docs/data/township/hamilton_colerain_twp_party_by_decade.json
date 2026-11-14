@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          12,
-          192,
-          815,
-          1516,
-          1272,
-          557,
-          331,
-          210,
-          116
+          10,
+          187,
+          802,
+          1506,
+          1265,
+          556,
+          332,
+          206,
+          115
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          16,
-          184,
-          453,
-          785,
-          1209,
-          757,
-          646,
-          491,
-          45
+          15,
+          173,
+          440,
+          781,
+          1201,
+          753,
+          644,
+          490,
+          46
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,13 +50,13 @@
         "label": "Mixed – Active",
         "data": [
           3,
-          59,
-          406,
+          57,
+          398,
           709,
           508,
-          228,
+          231,
           145,
-          62,
+          61,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          6,
-          99,
-          314,
-          576,
-          631,
-          556,
-          485,
-          276,
-          126
+          4,
+          62,
+          219,
+          322,
+          332,
+          228,
+          142,
+          33,
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          4,
+          12,
+          13,
+          11,
+          11,
+          12,
+          4
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          34,
+          88,
+          251,
+          292,
+          328,
+          338,
+          243,
+          121
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           5,
-          85,
-          308,
-          966,
-          1880,
-          2429,
-          3715,
-          5416,
-          3959
+          84,
+          311,
+          970,
+          1877,
+          2468,
+          3746,
+          5464,
+          4372
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           10,
-          106,
-          364,
-          692,
-          897,
-          1078,
-          1185,
-          594,
+          103,
+          362,
+          686,
+          895,
+          1084,
+          1194,
+          610,
           66
         ],
         "backgroundColor": "#93c5fd",
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          60,
-          341,
-          712,
-          673,
-          489,
-          491,
-          375,
-          195
+          0,
+          59,
+          342,
+          714,
+          674,
+          481,
+          485,
+          371,
+          189
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "COLERAIN TWP. (Hamilton Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

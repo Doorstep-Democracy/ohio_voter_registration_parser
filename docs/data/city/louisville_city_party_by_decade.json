@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          7,
-          56,
-          147,
-          198,
-          188,
-          109,
-          82,
-          49,
-          32
+          6,
+          39,
+          150,
+          214,
+          211,
+          164,
+          141,
+          86,
+          48
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          23,
-          52,
-          84,
-          122,
-          150,
-          134,
-          112,
-          25
+          2,
+          38,
+          46,
+          75,
+          110,
+          125,
+          107,
+          91,
+          34
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          1,
-          35,
-          137,
-          166,
-          122,
+          0,
+          34,
+          134,
+          184,
+          154,
+          111,
           81,
-          45,
-          12,
-          2
+          23,
+          6
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
-          16,
-          47,
-          79,
-          130,
-          159,
-          155,
-          64,
-          32
+          0,
+          11,
+          42,
+          42,
+          48,
+          42,
+          30,
+          5,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          4,
+          8,
+          29,
+          49,
+          82,
+          97,
+          53,
+          41
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
-          3,
-          20,
-          50,
-          114,
-          181,
-          268,
-          411,
-          606,
-          519
+          2,
+          18,
+          45,
+          109,
+          179,
+          241,
+          382,
+          589,
+          510
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          35,
-          63,
-          103,
-          151,
-          146,
-          152,
-          95,
-          5
+          36,
+          57,
+          81,
+          110,
+          105,
+          111,
+          74,
+          8
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          6,
-          31,
-          102,
-          142,
-          90,
-          28,
-          40,
-          28,
-          16
+          5,
+          26,
+          109,
+          165,
+          122,
+          64,
+          89,
+          60,
+          33
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "LOUISVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

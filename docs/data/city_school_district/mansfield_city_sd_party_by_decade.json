@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          11,
-          155,
-          396,
-          536,
-          446,
-          252,
-          172,
+          6,
+          115,
+          346,
+          509,
+          439,
+          243,
           132,
-          67
+          117,
+          58
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          12,
-          67,
-          131,
-          232,
-          264,
-          255,
+          18,
+          99,
+          173,
+          259,
+          300,
+          283,
+          221,
           183,
-          158,
-          24
+          47
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          65,
-          241,
-          384,
-          291,
-          181,
-          84,
-          39,
-          3
+          1,
+          55,
+          232,
+          393,
+          276,
+          161,
+          93,
+          40,
+          4
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
-          45,
-          135,
-          212,
-          238,
-          224,
-          139,
-          63,
-          19
+          3,
+          41,
+          104,
+          126,
+          128,
+          125,
+          49,
+          16,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          10,
+          10,
+          10,
+          7,
+          9,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          10,
+          36,
+          76,
+          112,
+          129,
+          91,
+          49,
+          18
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           3,
-          45,
-          230,
-          685,
-          1174,
-          1415,
-          1849,
-          2680,
-          1862
+          39,
+          214,
+          646,
+          1135,
+          1413,
+          1824,
+          2666,
+          1977
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          4,
-          79,
-          262,
-          467,
-          552,
-          519,
-          419,
-          245,
-          18
+          2,
+          78,
+          246,
+          420,
+          520,
+          507,
+          406,
+          233,
+          28
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          6,
-          79,
-          236,
-          464,
-          278,
-          170,
-          104,
-          95,
-          33
+          5,
+          71,
+          239,
+          515,
+          312,
+          194,
+          142,
+          146,
+          65
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "MANSFIELD CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

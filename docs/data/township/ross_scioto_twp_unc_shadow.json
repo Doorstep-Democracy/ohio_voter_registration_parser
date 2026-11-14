@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,552",
-      "Mixed – Active — 1,303",
-      "Mixed – Lapsed — 1,212",
-      "UNC – No Primary — 7,720",
-      "UNC – Lapsed D — 2,355"
+      "UNC – Lapsed R — 1,523",
+      "Mixed – Active — 1,501",
+      "Mixed – Lapsed — 645",
+      "UNC – Non-partisan Ballot — 457",
+      "UNC – No Primary — 7,493",
+      "UNC – Lapsed D — 1,955"
     ],
     "datasets": [
       {
         "data": [
-          1552,
-          1303,
-          1212,
-          7720,
-          2355
+          1523,
+          1501,
+          645,
+          457,
+          7493,
+          1955
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SCIOTO TWP (Ross Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

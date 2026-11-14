@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 895 (17%)",
-      "UNC – Lapsed R — 511 (10%)",
-      "Mixed – Active — 597 (11%)",
-      "Mixed – Lapsed — 348 (7%)",
-      "UNC – No Primary — 2,146 (40%)",
-      "UNC – Lapsed D — 605 (11%)",
-      "Pure D — 250 (5%)"
+      "Pure R — 896 (17%)",
+      "UNC – Lapsed R — 541 (10%)",
+      "Mixed – Active — 602 (11%)",
+      "Mixed – Lapsed — 228 (4%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 125 (2%)",
+      "UNC – No Primary — 2,114 (39%)",
+      "UNC – Lapsed D — 548 (10%)",
+      "Pure D — 313 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          895,
-          511,
-          597,
-          348,
-          2146,
-          605,
-          250
+          896,
+          541,
+          602,
+          228,
+          5,
+          125,
+          2114,
+          548,
+          313
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ST CLAIR TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

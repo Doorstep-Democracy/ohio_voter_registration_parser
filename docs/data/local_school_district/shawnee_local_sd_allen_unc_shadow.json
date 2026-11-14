@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,133",
-      "Mixed – Active — 739",
-      "Mixed – Lapsed — 955",
-      "UNC – No Primary — 4,487",
-      "UNC – Lapsed D — 852"
+      "UNC – Lapsed R — 2,125",
+      "Mixed – Active — 728",
+      "Mixed – Lapsed — 362",
+      "UNC – Non-partisan Ballot — 587",
+      "UNC – No Primary — 4,598",
+      "UNC – Lapsed D — 848"
     ],
     "datasets": [
       {
         "data": [
-          2133,
-          739,
-          955,
-          4487,
-          852
+          2125,
+          728,
+          362,
+          587,
+          4598,
+          848
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Shawnee Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

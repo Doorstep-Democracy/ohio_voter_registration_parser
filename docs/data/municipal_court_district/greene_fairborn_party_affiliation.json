@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 11,132 (17%)",
-      "UNC – Lapsed R — 8,504 (13%)",
-      "Mixed – Active — 4,827 (7%)",
-      "Mixed – Lapsed — 6,699 (10%)",
-      "UNC – No Primary — 26,176 (39%)",
-      "UNC – Lapsed D — 6,189 (9%)",
-      "Pure D — 3,397 (5%)"
+      "Pure R — 9,961 (15%)",
+      "UNC – Lapsed R — 9,674 (14%)",
+      "Mixed – Active — 4,754 (7%)",
+      "Mixed – Lapsed — 3,023 (4%)",
+      "Minor Party — 159 (0%)",
+      "UNC – Non-partisan Ballot — 3,556 (5%)",
+      "UNC – No Primary — 26,368 (39%)",
+      "UNC – Lapsed D — 6,141 (9%)",
+      "Pure D — 4,214 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          11132,
-          8504,
-          4827,
-          6699,
-          26176,
-          6189,
-          3397
+          9961,
+          9674,
+          4754,
+          3023,
+          159,
+          3556,
+          26368,
+          6141,
+          4214
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "FAIRBORN (Greene Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

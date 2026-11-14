@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 12",
+      "UNC – Lapsed R — 16",
       "Mixed – Active — 9",
-      "Mixed – Lapsed — 9",
-      "UNC – No Primary — 19",
-      "UNC – Lapsed D — 9"
+      "Mixed – Lapsed — 2",
+      "UNC – Non-partisan Ballot — 9",
+      "UNC – No Primary — 20",
+      "UNC – Lapsed D — 4"
     ],
     "datasets": [
       {
         "data": [
-          12,
+          16,
           9,
+          2,
           9,
-          19,
-          9
+          20,
+          4
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Rittman TWP (Medina Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

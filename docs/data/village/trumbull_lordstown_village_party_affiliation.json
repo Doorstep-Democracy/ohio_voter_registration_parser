@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 249 (10%)",
-      "UNC – Lapsed R — 172 (7%)",
-      "Mixed – Active — 315 (13%)",
-      "Mixed – Lapsed — 228 (9%)",
-      "UNC – No Primary — 721 (30%)",
+      "Pure R — 241 (10%)",
+      "UNC – Lapsed R — 192 (8%)",
+      "Mixed – Active — 298 (12%)",
+      "Mixed – Lapsed — 151 (6%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 99 (4%)",
+      "UNC – No Primary — 720 (30%)",
       "UNC – Lapsed D — 447 (18%)",
-      "Pure D — 285 (12%)"
+      "Pure D — 276 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          249,
-          172,
-          315,
-          228,
-          721,
+          241,
+          192,
+          298,
+          151,
+          4,
+          99,
+          720,
           447,
-          285
+          276
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LORDSTOWN VILLAGE (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

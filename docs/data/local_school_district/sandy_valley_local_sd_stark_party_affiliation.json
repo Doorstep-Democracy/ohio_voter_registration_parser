@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 690 (13%)",
-      "UNC – Lapsed R — 551 (11%)",
-      "Mixed – Active — 514 (10%)",
-      "Mixed – Lapsed — 367 (7%)",
-      "UNC – No Primary — 2,120 (41%)",
-      "UNC – Lapsed D — 582 (11%)",
-      "Pure D — 304 (6%)"
+      "Pure R — 684 (13%)",
+      "UNC – Lapsed R — 556 (11%)",
+      "Mixed – Active — 507 (10%)",
+      "Mixed – Lapsed — 232 (5%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 127 (2%)",
+      "UNC – No Primary — 2,138 (42%)",
+      "UNC – Lapsed D — 568 (11%)",
+      "Pure D — 295 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          690,
-          551,
-          514,
-          367,
-          2120,
-          582,
-          304
+          684,
+          556,
+          507,
+          232,
+          17,
+          127,
+          2138,
+          568,
+          295
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Sandy Valley Local Sd (Stark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

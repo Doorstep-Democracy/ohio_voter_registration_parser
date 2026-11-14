@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 833 (21%)",
-      "UNC – Lapsed R — 447 (11%)",
-      "Mixed – Active — 443 (11%)",
-      "Mixed – Lapsed — 292 (7%)",
-      "UNC – No Primary — 1,395 (35%)",
-      "UNC – Lapsed D — 380 (10%)",
-      "Pure D — 183 (5%)"
+      "Pure R — 763 (19%)",
+      "UNC – Lapsed R — 531 (13%)",
+      "Mixed – Active — 442 (11%)",
+      "Mixed – Lapsed — 183 (5%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 120 (3%)",
+      "UNC – No Primary — 1,402 (35%)",
+      "UNC – Lapsed D — 340 (8%)",
+      "Pure D — 219 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          833,
-          447,
-          443,
-          292,
-          1395,
-          380,
-          183
+          763,
+          531,
+          442,
+          183,
+          6,
+          120,
+          1402,
+          340,
+          219
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TUSCARAWAS (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

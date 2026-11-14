@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 179 (3%)",
-      "UNC – Lapsed R — 156 (2%)",
-      "Mixed – Active — 812 (13%)",
-      "Mixed – Lapsed — 352 (6%)",
-      "UNC – No Primary — 2,525 (40%)",
-      "UNC – Lapsed D — 1,319 (21%)",
-      "Pure D — 979 (15%)"
+      "Pure R — 171 (3%)",
+      "UNC – Lapsed R — 174 (3%)",
+      "Mixed – Active — 790 (12%)",
+      "Mixed – Lapsed — 386 (6%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 36 (1%)",
+      "UNC – No Primary — 2,538 (40%)",
+      "UNC – Lapsed D — 1,397 (22%)",
+      "Pure D — 850 (13%)"
     ],
     "datasets": [
       {
         "data": [
-          179,
-          156,
-          812,
-          352,
-          2525,
-          1319,
-          979
+          171,
+          174,
+          790,
+          386,
+          6,
+          36,
+          2538,
+          1397,
+          850
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "STRUTHERS CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

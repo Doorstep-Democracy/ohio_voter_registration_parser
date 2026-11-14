@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 68 (8%)",
-      "UNC – Lapsed R — 37 (4%)",
-      "Mixed – Active — 99 (11%)",
-      "Mixed – Lapsed — 57 (6%)",
+      "Pure R — 69 (8%)",
+      "UNC – Lapsed R — 42 (5%)",
+      "Mixed – Active — 103 (12%)",
+      "Mixed – Lapsed — 40 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 14 (2%)",
       "UNC – No Primary — 363 (41%)",
-      "UNC – Lapsed D — 166 (19%)",
-      "Pure D — 94 (11%)"
+      "UNC – Lapsed D — 158 (18%)",
+      "Pure D — 92 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          37,
-          99,
-          57,
+          69,
+          42,
+          103,
+          40,
+          1,
+          14,
           363,
-          166,
-          94
+          158,
+          92
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "TILTONSVILLE VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

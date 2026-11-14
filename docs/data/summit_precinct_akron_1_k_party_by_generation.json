@@ -4,7 +4,7 @@
   "precinct": "AKRON 1-K",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           1,
-          5,
+          4,
           1,
           1,
           0
@@ -32,9 +32,9 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          8,
+          9,
           5,
-          7,
+          8,
           0
         ],
         "backgroundColor": "#fca5a5",
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          9,
-          4,
+          8,
+          5,
           4,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           0,
           3,
           3,
-          2,
+          1,
           1
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           4,
-          114,
-          116,
-          220,
-          196
+          115,
+          120,
+          233,
+          216
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          62,
-          46,
-          45,
-          10
+          67,
+          54,
+          44,
+          12
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,10 +122,10 @@
       {
         "label": "Pure D",
         "data": [
-          5,
-          37,
+          4,
+          38,
           21,
-          29,
+          32,
           8
         ],
         "backgroundColor": "#3b82f6",

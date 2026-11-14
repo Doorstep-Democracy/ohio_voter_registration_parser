@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 770 (12%)",
-      "UNC – Lapsed R — 913 (14%)",
-      "Mixed – Active — 393 (6%)",
-      "Mixed – Lapsed — 467 (7%)",
-      "UNC – No Primary — 2,929 (46%)",
-      "UNC – Lapsed D — 702 (11%)",
-      "Pure D — 209 (3%)"
+      "Pure R — 760 (12%)",
+      "UNC – Lapsed R — 905 (14%)",
+      "Mixed – Active — 391 (6%)",
+      "Mixed – Lapsed — 360 (6%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 96 (2%)",
+      "UNC – No Primary — 2,930 (46%)",
+      "UNC – Lapsed D — 700 (11%)",
+      "Pure D — 205 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          770,
-          913,
-          393,
-          467,
-          2929,
-          702,
-          209
+          760,
+          905,
+          391,
+          360,
+          9,
+          96,
+          2930,
+          700,
+          205
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Maysville Local Sd (Musk Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

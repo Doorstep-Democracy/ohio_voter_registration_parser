@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 276 (30%)",
-      "UNC – Lapsed R — 121 (13%)",
-      "Mixed – Active — 72 (8%)",
-      "Mixed – Lapsed — 59 (6%)",
-      "UNC – No Primary — 322 (34%)",
-      "UNC – Lapsed D — 50 (5%)",
-      "Pure D — 34 (4%)"
+      "Pure R — 259 (27%)",
+      "UNC – Lapsed R — 138 (15%)",
+      "Mixed – Active — 76 (8%)",
+      "Mixed – Lapsed — 24 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 34 (4%)",
+      "UNC – No Primary — 326 (34%)",
+      "UNC – Lapsed D — 45 (5%)",
+      "Pure D — 42 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          276,
-          121,
-          72,
-          59,
-          322,
-          50,
-          34
+          259,
+          138,
+          76,
+          24,
+          3,
+          34,
+          326,
+          45,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SMITHVILLE VILLAGE (Wayne Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 173 (17%)",
-      "UNC – Lapsed R — 192 (19%)",
-      "Mixed – Active — 51 (5%)",
-      "Mixed – Lapsed — 73 (7%)",
-      "UNC – No Primary — 441 (43%)",
-      "UNC – Lapsed D — 78 (8%)",
-      "Pure D — 11 (1%)"
+      "Pure R — 175 (17%)",
+      "UNC – Lapsed R — 195 (19%)",
+      "Mixed – Active — 57 (6%)",
+      "Mixed – Lapsed — 57 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 14 (1%)",
+      "UNC – No Primary — 434 (43%)",
+      "UNC – Lapsed D — 68 (7%)",
+      "Pure D — 19 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          173,
-          192,
-          51,
-          73,
-          441,
-          78,
-          11
+          175,
+          195,
+          57,
+          57,
+          0,
+          14,
+          434,
+          68,
+          19
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WILLSHIRE TOWNSHIP (Van Wert Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

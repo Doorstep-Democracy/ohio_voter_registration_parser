@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,269 (29%)",
+      "Pure R — 1,266 (29%)",
       "UNC – Lapsed R — 601 (14%)",
       "Mixed – Active — 328 (8%)",
-      "Mixed – Lapsed — 375 (9%)",
-      "UNC – No Primary — 1,361 (32%)",
-      "UNC – Lapsed D — 213 (5%)",
-      "Pure D — 167 (4%)"
+      "Mixed – Lapsed — 134 (3%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 232 (5%)",
+      "UNC – No Primary — 1,387 (32%)",
+      "UNC – Lapsed D — 212 (5%)",
+      "Pure D — 162 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1269,
+          1266,
           601,
           328,
-          375,
-          1361,
-          213,
-          167
+          134,
+          13,
+          232,
+          1387,
+          212,
+          162
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Wynford Local Sd (Crawford Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

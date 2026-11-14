@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,693 (25%)",
-      "UNC – Lapsed R — 1,221 (18%)",
-      "Mixed – Active — 628 (9%)",
-      "Mixed – Lapsed — 666 (10%)",
-      "UNC – No Primary — 1,852 (27%)",
-      "UNC – Lapsed D — 465 (7%)",
-      "Pure D — 288 (4%)"
+      "Pure R — 1,671 (25%)",
+      "UNC – Lapsed R — 1,226 (18%)",
+      "Mixed – Active — 614 (9%)",
+      "Mixed – Lapsed — 286 (4%)",
+      "Minor Party — 21 (0%)",
+      "UNC – Non-partisan Ballot — 362 (5%)",
+      "UNC – No Primary — 1,895 (28%)",
+      "UNC – Lapsed D — 462 (7%)",
+      "Pure D — 281 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1693,
-          1221,
-          628,
-          666,
-          1852,
-          465,
-          288
+          1671,
+          1226,
+          614,
+          286,
+          21,
+          362,
+          1895,
+          462,
+          281
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Northridge Local Sd (Licking Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

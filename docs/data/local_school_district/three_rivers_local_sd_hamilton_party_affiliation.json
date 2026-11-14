@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,429 (19%)",
-      "UNC – Lapsed R — 2,486 (20%)",
-      "Mixed – Active — 709 (6%)",
-      "Mixed – Lapsed — 1,198 (10%)",
-      "UNC – No Primary — 4,599 (37%)",
-      "UNC – Lapsed D — 762 (6%)",
-      "Pure D — 378 (3%)"
+      "Pure R — 2,413 (19%)",
+      "UNC – Lapsed R — 2,474 (20%)",
+      "Mixed – Active — 707 (6%)",
+      "Mixed – Lapsed — 487 (4%)",
+      "Minor Party — 22 (0%)",
+      "UNC – Non-partisan Ballot — 703 (6%)",
+      "UNC – No Primary — 4,716 (37%)",
+      "UNC – Lapsed D — 759 (6%)",
+      "Pure D — 372 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          2429,
-          2486,
-          709,
-          1198,
-          4599,
-          762,
-          378
+          2413,
+          2474,
+          707,
+          487,
+          22,
+          703,
+          4716,
+          759,
+          372
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Three Rivers Local Sd (Hamilton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

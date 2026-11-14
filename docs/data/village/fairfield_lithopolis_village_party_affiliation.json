@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 207 (12%)",
-      "UNC – Lapsed R — 258 (15%)",
-      "Mixed – Active — 91 (5%)",
-      "Mixed – Lapsed — 149 (9%)",
-      "UNC – No Primary — 747 (44%)",
-      "UNC – Lapsed D — 195 (11%)",
-      "Pure D — 70 (4%)"
+      "Pure R — 190 (11%)",
+      "UNC – Lapsed R — 282 (16%)",
+      "Mixed – Active — 92 (5%)",
+      "Mixed – Lapsed — 72 (4%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 79 (4%)",
+      "UNC – No Primary — 806 (45%)",
+      "UNC – Lapsed D — 183 (10%)",
+      "Pure D — 102 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          207,
-          258,
-          91,
-          149,
-          747,
-          195,
-          70
+          190,
+          282,
+          92,
+          72,
+          1,
+          79,
+          806,
+          183,
+          102
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LITHOPOLIS VILLAGE (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

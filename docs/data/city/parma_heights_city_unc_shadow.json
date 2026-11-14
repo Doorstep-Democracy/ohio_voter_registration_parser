@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 949",
-      "Mixed – Active — 1,276",
-      "Mixed – Lapsed — 1,280",
-      "UNC – No Primary — 5,629",
-      "UNC – Lapsed D — 1,848"
+      "UNC – Lapsed R — 939",
+      "Mixed – Active — 1,268",
+      "Mixed – Lapsed — 637",
+      "UNC – Non-partisan Ballot — 631",
+      "UNC – No Primary — 5,714",
+      "UNC – Lapsed D — 1,838"
     ],
     "datasets": [
       {
         "data": [
-          949,
-          1276,
-          1280,
-          5629,
-          1848
+          939,
+          1268,
+          637,
+          631,
+          5714,
+          1838
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "PARMA HEIGHTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

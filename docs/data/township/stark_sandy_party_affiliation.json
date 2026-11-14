@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 285 (13%)",
-      "UNC – Lapsed R — 188 (9%)",
-      "Mixed – Active — 213 (10%)",
-      "Mixed – Lapsed — 153 (7%)",
-      "UNC – No Primary — 947 (44%)",
-      "UNC – Lapsed D — 244 (11%)",
-      "Pure D — 102 (5%)"
+      "Pure R — 255 (12%)",
+      "UNC – Lapsed R — 225 (11%)",
+      "Mixed – Active — 197 (9%)",
+      "Mixed – Lapsed — 94 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 63 (3%)",
+      "UNC – No Primary — 940 (44%)",
+      "UNC – Lapsed D — 231 (11%)",
+      "Pure D — 119 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          285,
-          188,
-          213,
-          153,
-          947,
-          244,
-          102
+          255,
+          225,
+          197,
+          94,
+          6,
+          63,
+          940,
+          231,
+          119
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SANDY (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

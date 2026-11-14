@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,345 (14%)",
-      "UNC – Lapsed R — 1,626 (17%)",
-      "Mixed – Active — 440 (5%)",
-      "Mixed – Lapsed — 947 (10%)",
-      "UNC – No Primary — 4,022 (42%)",
-      "UNC – Lapsed D — 960 (10%)",
-      "Pure D — 291 (3%)"
+      "Pure R — 1,580 (15%)",
+      "UNC – Lapsed R — 1,594 (15%)",
+      "Mixed – Active — 571 (6%)",
+      "Mixed – Lapsed — 404 (4%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 446 (4%)",
+      "UNC – No Primary — 4,255 (41%)",
+      "UNC – Lapsed D — 903 (9%)",
+      "Pure D — 534 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1345,
-          1626,
-          440,
-          947,
-          4022,
-          960,
-          291
+          1580,
+          1594,
+          571,
+          404,
+          12,
+          446,
+          4255,
+          903,
+          534
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JEROME TOWNSHIP (Union Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

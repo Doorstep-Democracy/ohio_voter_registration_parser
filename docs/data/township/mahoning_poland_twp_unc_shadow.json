@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 566",
-      "Mixed – Active — 1,994",
-      "Mixed – Lapsed — 751",
-      "UNC – No Primary — 2,661",
-      "UNC – Lapsed D — 1,401"
+      "UNC – Lapsed R — 592",
+      "Mixed – Active — 2,007",
+      "Mixed – Lapsed — 626",
+      "UNC – Non-partisan Ballot — 178",
+      "UNC – No Primary — 2,622",
+      "UNC – Lapsed D — 1,347"
     ],
     "datasets": [
       {
         "data": [
-          566,
-          1994,
-          751,
-          2661,
-          1401
+          592,
+          2007,
+          626,
+          178,
+          2622,
+          1347
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "POLAND TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

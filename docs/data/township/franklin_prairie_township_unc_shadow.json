@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,072",
-      "Mixed – Active — 619",
-      "Mixed – Lapsed — 866",
-      "UNC – No Primary — 5,627",
-      "UNC – Lapsed D — 1,229"
+      "UNC – Lapsed R — 1,061",
+      "Mixed – Active — 729",
+      "Mixed – Lapsed — 331",
+      "UNC – Non-partisan Ballot — 434",
+      "UNC – No Primary — 5,625",
+      "UNC – Lapsed D — 1,045"
     ],
     "datasets": [
       {
         "data": [
-          1072,
-          619,
-          866,
-          5627,
-          1229
+          1061,
+          729,
+          331,
+          434,
+          5625,
+          1045
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Prairie Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

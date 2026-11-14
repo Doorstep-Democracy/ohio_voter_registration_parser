@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,239 (39%)",
-      "UNC – Lapsed R — 202 (6%)",
-      "Mixed – Active — 433 (14%)",
-      "Mixed – Lapsed — 240 (8%)",
-      "UNC – No Primary — 782 (25%)",
-      "UNC – Lapsed D — 124 (4%)",
-      "Pure D — 140 (4%)"
+      "Pure R — 1,169 (36%)",
+      "UNC – Lapsed R — 282 (9%)",
+      "Mixed – Active — 421 (13%)",
+      "Mixed – Lapsed — 94 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 165 (5%)",
+      "UNC – No Primary — 811 (25%)",
+      "UNC – Lapsed D — 132 (4%)",
+      "Pure D — 130 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1239,
-          202,
-          433,
-          240,
-          782,
-          124,
-          140
+          1169,
+          282,
+          421,
+          94,
+          0,
+          165,
+          811,
+          132,
+          130
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "COLDWATER VILLAGE (Mercer Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

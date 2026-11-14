@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 504 (3%)",
-      "UNC – Lapsed R — 641 (4%)",
-      "Mixed – Active — 753 (5%)",
-      "Mixed – Lapsed — 620 (4%)",
-      "UNC – No Primary — 7,415 (51%)",
-      "UNC – Lapsed D — 2,260 (16%)",
-      "Pure D — 2,377 (16%)"
+      "Pure R — 506 (3%)",
+      "UNC – Lapsed R — 629 (4%)",
+      "Mixed – Active — 808 (5%)",
+      "Mixed – Lapsed — 390 (2%)",
+      "Minor Party — 19 (0%)",
+      "UNC – Non-partisan Ballot — 257 (2%)",
+      "UNC – No Primary — 8,035 (51%)",
+      "UNC – Lapsed D — 2,269 (15%)",
+      "Pure D — 2,710 (17%)"
     ],
     "datasets": [
       {
         "data": [
-          504,
-          641,
-          753,
-          620,
-          7415,
-          2260,
-          2377
+          506,
+          629,
+          808,
+          390,
+          19,
+          257,
+          8035,
+          2269,
+          2710
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ATHENS TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

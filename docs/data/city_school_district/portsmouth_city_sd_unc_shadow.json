@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 889",
-      "Mixed – Active — 687",
-      "Mixed – Lapsed — 629",
-      "UNC – No Primary — 4,824",
-      "UNC – Lapsed D — 1,431"
+      "UNC – Lapsed R — 896",
+      "Mixed – Active — 806",
+      "Mixed – Lapsed — 361",
+      "UNC – Non-partisan Ballot — 203",
+      "UNC – No Primary — 4,772",
+      "UNC – Lapsed D — 1,312"
     ],
     "datasets": [
       {
         "data": [
-          889,
-          687,
-          629,
-          4824,
-          1431
+          896,
+          806,
+          361,
+          203,
+          4772,
+          1312
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "PORTSMOUTH CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

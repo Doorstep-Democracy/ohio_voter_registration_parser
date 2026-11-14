@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 514 (26%)",
-      "UNC – Lapsed R — 227 (12%)",
-      "Mixed – Active — 224 (11%)",
-      "Mixed – Lapsed — 219 (11%)",
-      "UNC – No Primary — 596 (30%)",
-      "UNC – Lapsed D — 129 (7%)",
-      "Pure D — 57 (3%)"
+      "Pure R — 525 (27%)",
+      "UNC – Lapsed R — 224 (11%)",
+      "Mixed – Active — 237 (12%)",
+      "Mixed – Lapsed — 68 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 139 (7%)",
+      "UNC – No Primary — 586 (30%)",
+      "UNC – Lapsed D — 104 (5%)",
+      "Pure D — 83 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          514,
-          227,
+          525,
           224,
-          219,
-          596,
-          129,
-          57
+          237,
+          68,
+          3,
+          139,
+          586,
+          104,
+          83
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "BARLOW TWP (Washington Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

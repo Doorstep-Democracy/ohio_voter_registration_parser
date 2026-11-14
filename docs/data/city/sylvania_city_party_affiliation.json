@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,434 (10%)",
-      "UNC – Lapsed R — 1,529 (11%)",
-      "Mixed – Active — 907 (7%)",
-      "Mixed – Lapsed — 1,195 (9%)",
-      "UNC – No Primary — 5,428 (40%)",
-      "UNC – Lapsed D — 2,040 (15%)",
-      "Pure D — 1,176 (9%)"
+      "Pure R — 1,789 (13%)",
+      "UNC – Lapsed R — 1,295 (9%)",
+      "Mixed – Active — 1,174 (8%)",
+      "Mixed – Lapsed — 443 (3%)",
+      "Minor Party — 75 (1%)",
+      "UNC – Non-partisan Ballot — 628 (5%)",
+      "UNC – No Primary — 5,035 (36%)",
+      "UNC – Lapsed D — 1,590 (11%)",
+      "Pure D — 1,901 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          1434,
-          1529,
-          907,
-          1195,
-          5428,
-          2040,
-          1176
+          1789,
+          1295,
+          1174,
+          443,
+          75,
+          628,
+          5035,
+          1590,
+          1901
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SYLVANIA CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

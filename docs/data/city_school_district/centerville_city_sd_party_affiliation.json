@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 9,862 (20%)",
-      "UNC – Lapsed R — 5,451 (11%)",
-      "Mixed – Active — 4,902 (10%)",
-      "Mixed – Lapsed — 3,747 (8%)",
-      "UNC – No Primary — 16,315 (34%)",
-      "UNC – Lapsed D — 3,899 (8%)",
-      "Pure D — 4,488 (9%)"
+      "Pure R — 8,679 (18%)",
+      "UNC – Lapsed R — 6,460 (13%)",
+      "Mixed – Active — 4,823 (10%)",
+      "Mixed – Lapsed — 2,041 (4%)",
+      "Minor Party — 84 (0%)",
+      "UNC – Non-partisan Ballot — 1,908 (4%)",
+      "UNC – No Primary — 16,455 (33%)",
+      "UNC – Lapsed D — 4,059 (8%)",
+      "Pure D — 4,736 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          9862,
-          5451,
-          4902,
-          3747,
-          16315,
-          3899,
-          4488
+          8679,
+          6460,
+          4823,
+          2041,
+          84,
+          1908,
+          16455,
+          4059,
+          4736
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CENTERVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

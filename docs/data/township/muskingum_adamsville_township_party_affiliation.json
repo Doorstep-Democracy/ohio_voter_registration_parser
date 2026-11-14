@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 59 (25%)",
-      "UNC – Lapsed R — 39 (16%)",
-      "Mixed – Active — 9 (4%)",
-      "Mixed – Lapsed — 8 (3%)",
-      "UNC – No Primary — 84 (35%)",
-      "UNC – Lapsed D — 30 (13%)",
-      "Pure D — 9 (4%)"
+      "Pure R — 47 (19%)",
+      "UNC – Lapsed R — 49 (20%)",
+      "Mixed – Active — 8 (3%)",
+      "Mixed – Lapsed — 7 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 2 (1%)",
+      "UNC – No Primary — 87 (36%)",
+      "UNC – Lapsed D — 28 (12%)",
+      "Pure D — 14 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          59,
-          39,
-          9,
+          47,
+          49,
           8,
-          84,
-          30,
-          9
+          7,
+          0,
+          2,
+          87,
+          28,
+          14
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADAMSVILLE TOWNSHIP (Muskingum Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

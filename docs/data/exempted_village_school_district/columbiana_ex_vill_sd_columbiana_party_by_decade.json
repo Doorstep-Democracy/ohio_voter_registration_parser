@@ -18,14 +18,14 @@
         "label": "Pure R",
         "data": [
           4,
-          51,
-          180,
-          309,
-          171,
-          116,
-          115,
-          66,
-          43
+          48,
+          179,
+          306,
+          168,
+          114,
+          114,
+          67,
+          42
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          9,
-          45,
-          84,
-          112,
-          133,
-          101,
-          112,
-          69,
-          9
+          5,
+          44,
+          85,
+          114,
+          140,
+          102,
+          114,
+          63,
+          8
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,12 +50,12 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          33,
-          168,
-          270,
+          28,
+          166,
+          266,
           122,
-          76,
-          55,
+          75,
+          53,
           10,
           2
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           2,
-          37,
-          79,
-          102,
-          107,
-          103,
-          77,
-          29,
-          4
+          32,
+          66,
+          81,
+          94,
+          72,
+          59,
+          14,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          2,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          3,
+          12,
+          22,
+          16,
+          30,
+          19,
+          16,
+          3
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          22,
-          85,
-          166,
-          221,
+          21,
+          84,
+          173,
           225,
-          327,
-          405,
-          457
+          232,
+          333,
+          407,
+          477
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -97,15 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          2,
-          41,
+          1,
+          39,
           69,
-          128,
+          130,
           139,
-          111,
+          114,
           99,
           63,
-          14
+          16
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -115,21 +147,21 @@
         "data": [
           0,
           16,
-          80,
-          117,
+          78,
+          115,
           64,
           29,
           37,
           26,
-          22
+          21
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "COLUMBIANA EX VILL SD (COLUMBIANA)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Columbiana Ex Vill Sd (Columbiana Co.)",
+  "updated": "2026-11-12"
 }

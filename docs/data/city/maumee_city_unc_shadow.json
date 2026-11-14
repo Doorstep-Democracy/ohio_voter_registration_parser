@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 981",
-      "Mixed – Active — 663",
-      "Mixed – Lapsed — 1,077",
-      "UNC – No Primary — 4,123",
-      "UNC – Lapsed D — 1,647"
+      "UNC – Lapsed R — 1,049",
+      "Mixed – Active — 684",
+      "Mixed – Lapsed — 437",
+      "UNC – Non-partisan Ballot — 564",
+      "UNC – No Primary — 4,108",
+      "UNC – Lapsed D — 1,519"
     ],
     "datasets": [
       {
         "data": [
-          981,
-          663,
-          1077,
-          4123,
-          1647
+          1049,
+          684,
+          437,
+          564,
+          4108,
+          1519
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "MAUMEE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

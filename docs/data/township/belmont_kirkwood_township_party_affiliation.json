@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 45 (17%)",
-      "UNC – Lapsed R — 24 (9%)",
-      "Mixed – Active — 37 (14%)",
-      "Mixed – Lapsed — 21 (8%)",
-      "UNC – No Primary — 112 (41%)",
-      "UNC – Lapsed D — 26 (10%)",
-      "Pure D — 6 (2%)"
+      "Pure R — 45 (16%)",
+      "UNC – Lapsed R — 30 (11%)",
+      "Mixed – Active — 38 (14%)",
+      "Mixed – Lapsed — 8 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 14 (5%)",
+      "UNC – No Primary — 107 (39%)",
+      "UNC – Lapsed D — 26 (9%)",
+      "Pure D — 5 (2%)"
     ],
     "datasets": [
       {
         "data": [
           45,
-          24,
-          37,
-          21,
-          112,
+          30,
+          38,
+          8,
+          1,
+          14,
+          107,
           26,
-          6
+          5
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "KIRKWOOD TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

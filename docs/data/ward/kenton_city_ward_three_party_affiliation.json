@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 164 (15%)",
-      "UNC – Lapsed R — 141 (13%)",
-      "Mixed – Active — 55 (5%)",
+      "Pure R — 162 (14%)",
+      "UNC – Lapsed R — 143 (13%)",
+      "Mixed – Active — 54 (5%)",
       "Mixed – Lapsed — 49 (4%)",
+      "Minor Party — 2 (0%)",
       "UNC – Non-partisan Ballot — 20 (2%)",
-      "UNC – No Primary — 557 (50%)",
+      "UNC – No Primary — 567 (51%)",
       "UNC – Lapsed D — 99 (9%)",
-      "Pure D — 26 (2%)"
+      "Pure D — 25 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          164,
-          141,
-          55,
+          162,
+          143,
+          54,
           49,
+          2,
           20,
-          557,
+          567,
           99,
-          26
+          25
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "WARD THREE (KENTON City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

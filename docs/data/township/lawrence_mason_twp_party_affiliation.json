@@ -4,22 +4,26 @@
   "chartConfig": {
     "labels": [
       "Pure R — 115 (16%)",
-      "UNC – Lapsed R — 136 (19%)",
-      "Mixed – Active — 42 (6%)",
-      "Mixed – Lapsed — 44 (6%)",
-      "UNC – No Primary — 277 (39%)",
-      "UNC – Lapsed D — 74 (11%)",
+      "UNC – Lapsed R — 135 (19%)",
+      "Mixed – Active — 41 (6%)",
+      "Mixed – Lapsed — 40 (6%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 4 (1%)",
+      "UNC – No Primary — 289 (41%)",
+      "UNC – Lapsed D — 72 (10%)",
       "Pure D — 15 (2%)"
     ],
     "datasets": [
       {
         "data": [
           115,
-          136,
-          42,
-          44,
-          277,
-          74,
+          135,
+          41,
+          40,
+          0,
+          4,
+          289,
+          72,
           15
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MASON TWP. (Lawrence Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

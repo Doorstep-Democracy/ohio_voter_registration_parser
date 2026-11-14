@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 210 (26%)",
-      "UNC – Lapsed R — 130 (16%)",
-      "Mixed – Active — 114 (14%)",
-      "Mixed – Lapsed — 38 (5%)",
-      "UNC – No Primary — 241 (30%)",
+      "Pure R — 208 (26%)",
+      "UNC – Lapsed R — 128 (16%)",
+      "Mixed – Active — 113 (14%)",
+      "Mixed – Lapsed — 30 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 6 (1%)",
+      "UNC – No Primary — 243 (31%)",
       "UNC – Lapsed D — 44 (6%)",
-      "Pure D — 18 (2%)"
+      "Pure D — 17 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          210,
-          130,
-          114,
-          38,
-          241,
+          208,
+          128,
+          113,
+          30,
+          3,
+          6,
+          243,
           44,
-          18
+          17
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PALMER TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

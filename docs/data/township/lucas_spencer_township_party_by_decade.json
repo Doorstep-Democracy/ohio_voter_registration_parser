@@ -17,13 +17,13 @@
         "label": "Pure R",
         "data": [
           1,
-          12,
+          10,
           29,
-          35,
-          22,
-          7,
-          4,
-          3
+          31,
+          24,
+          13,
+          6,
+          7
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -32,11 +32,11 @@
         "label": "UNC – Lapsed R",
         "data": [
           0,
-          3,
-          12,
-          25,
+          5,
           15,
-          14,
+          33,
+          18,
+          11,
           13,
           0
         ],
@@ -46,12 +46,12 @@
       {
         "label": "Mixed – Active",
         "data": [
-          2,
-          11,
-          24,
-          14,
-          5,
-          5,
+          1,
+          9,
+          20,
+          16,
+          10,
+          4,
           0,
           1
         ],
@@ -61,29 +61,59 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
+          0,
           1,
-          3,
-          11,
-          20,
-          15,
-          15,
+          9,
+          4,
           6,
-          2
+          8,
+          0,
+          0
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          1,
+          2,
+          5,
+          16,
+          9,
+          4,
+          6,
+          1
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           1,
-          12,
-          36,
-          75,
-          86,
-          78,
-          122,
-          92
+          10,
+          28,
+          71,
+          83,
+          79,
+          120,
+          90
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -92,13 +122,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           4,
-          16,
-          30,
-          41,
-          33,
+          15,
+          31,
+          38,
+          29,
           27,
           18,
-          3
+          2
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -106,22 +136,22 @@
       {
         "label": "Pure D",
         "data": [
-          2,
-          21,
-          39,
-          22,
-          8,
-          4,
           1,
-          1
+          21,
+          38,
+          24,
+          10,
+          5,
+          2,
+          6
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPENCER TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

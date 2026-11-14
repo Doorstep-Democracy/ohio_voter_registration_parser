@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 7,107 (15%)",
-      "UNC – Lapsed R — 7,856 (16%)",
-      "Mixed – Active — 2,698 (6%)",
-      "Mixed – Lapsed — 4,193 (9%)",
-      "UNC – No Primary — 20,031 (42%)",
-      "UNC – Lapsed D — 3,679 (8%)",
-      "Pure D — 2,293 (5%)"
+      "Pure R — 7,057 (15%)",
+      "UNC – Lapsed R — 7,826 (16%)",
+      "Mixed – Active — 2,675 (6%)",
+      "Mixed – Lapsed — 1,848 (4%)",
+      "Minor Party — 87 (0%)",
+      "UNC – Non-partisan Ballot — 2,299 (5%)",
+      "UNC – No Primary — 20,489 (42%)",
+      "UNC – Lapsed D — 3,671 (8%)",
+      "Pure D — 2,289 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          7107,
-          7856,
-          2698,
-          4193,
-          20031,
-          3679,
-          2293
+          7057,
+          7826,
+          2675,
+          1848,
+          87,
+          2299,
+          20489,
+          3671,
+          2289
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Oak Hills Local Sd (Hamilton Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

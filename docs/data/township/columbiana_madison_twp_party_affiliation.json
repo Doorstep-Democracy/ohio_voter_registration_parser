@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 421 (21%)",
-      "UNC – Lapsed R — 174 (9%)",
-      "Mixed – Active — 250 (12%)",
-      "Mixed – Lapsed — 108 (5%)",
-      "UNC – No Primary — 759 (38%)",
-      "UNC – Lapsed D — 215 (11%)",
-      "Pure D — 95 (5%)"
+      "Pure R — 384 (19%)",
+      "UNC – Lapsed R — 208 (10%)",
+      "Mixed – Active — 237 (12%)",
+      "Mixed – Lapsed — 95 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 24 (1%)",
+      "UNC – No Primary — 757 (37%)",
+      "UNC – Lapsed D — 201 (10%)",
+      "Pure D — 116 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          421,
-          174,
-          250,
-          108,
-          759,
-          215,
-          95
+          384,
+          208,
+          237,
+          95,
+          2,
+          24,
+          757,
+          201,
+          116
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MADISON TWP (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

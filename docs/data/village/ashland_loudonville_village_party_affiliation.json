@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 392 (23%)",
-      "UNC – Lapsed R — 205 (12%)",
-      "Mixed – Active — 142 (8%)",
-      "Mixed – Lapsed — 252 (15%)",
-      "UNC – No Primary — 493 (29%)",
-      "UNC – Lapsed D — 146 (8%)",
-      "Pure D — 89 (5%)"
+      "Pure R — 381 (22%)",
+      "UNC – Lapsed R — 222 (13%)",
+      "Mixed – Active — 156 (9%)",
+      "Mixed – Lapsed — 48 (3%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 186 (11%)",
+      "UNC – No Primary — 491 (28%)",
+      "UNC – Lapsed D — 128 (7%)",
+      "Pure D — 110 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          392,
-          205,
-          142,
-          252,
-          493,
-          146,
-          89
+          381,
+          222,
+          156,
+          48,
+          3,
+          186,
+          491,
+          128,
+          110
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LOUDONVILLE VILLAGE (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

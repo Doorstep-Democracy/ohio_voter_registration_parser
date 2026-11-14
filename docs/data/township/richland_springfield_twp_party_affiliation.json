@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,746 (21%)",
-      "UNC – Lapsed R — 895 (11%)",
-      "Mixed – Active — 822 (10%)",
-      "Mixed – Lapsed — 703 (9%)",
-      "UNC – No Primary — 2,801 (34%)",
-      "UNC – Lapsed D — 758 (9%)",
-      "Pure D — 427 (5%)"
+      "Pure R — 1,765 (22%)",
+      "UNC – Lapsed R — 934 (11%)",
+      "Mixed – Active — 873 (11%)",
+      "Mixed – Lapsed — 273 (3%)",
+      "Minor Party — 20 (0%)",
+      "UNC – Non-partisan Ballot — 374 (5%)",
+      "UNC – No Primary — 2,685 (33%)",
+      "UNC – Lapsed D — 671 (8%)",
+      "Pure D — 570 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          1746,
-          895,
-          822,
-          703,
-          2801,
-          758,
-          427
+          1765,
+          934,
+          873,
+          273,
+          20,
+          374,
+          2685,
+          671,
+          570
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SPRINGFIELD TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

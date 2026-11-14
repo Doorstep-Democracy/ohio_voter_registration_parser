@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 657",
-      "Mixed – Active — 232",
-      "Mixed – Lapsed — 212",
-      "UNC – No Primary — 1,368",
-      "UNC – Lapsed D — 235"
+      "UNC – Lapsed R — 663",
+      "Mixed – Active — 230",
+      "Mixed – Lapsed — 182",
+      "UNC – Non-partisan Ballot — 29",
+      "UNC – No Primary — 1,387",
+      "UNC – Lapsed D — 234"
     ],
     "datasets": [
       {
         "data": [
-          657,
-          232,
-          212,
-          1368,
-          235
+          663,
+          230,
+          182,
+          29,
+          1387,
+          234
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Wayne Trace Local Sd (Paulding Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

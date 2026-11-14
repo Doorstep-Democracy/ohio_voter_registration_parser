@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 250 (29%)",
-      "UNC – Lapsed R — 109 (13%)",
-      "Mixed – Active — 62 (7%)",
-      "Mixed – Lapsed — 61 (7%)",
-      "UNC – No Primary — 292 (34%)",
-      "UNC – Lapsed D — 60 (7%)",
-      "Pure D — 31 (4%)"
+      "Pure R — 254 (30%)",
+      "UNC – Lapsed R — 116 (14%)",
+      "Mixed – Active — 66 (8%)",
+      "Mixed – Lapsed — 32 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 27 (3%)",
+      "UNC – No Primary — 278 (32%)",
+      "UNC – Lapsed D — 44 (5%)",
+      "Pure D — 35 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          250,
-          109,
-          62,
-          61,
-          292,
-          60,
-          31
+          254,
+          116,
+          66,
+          32,
+          4,
+          27,
+          278,
+          44,
+          35
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "PERRY TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

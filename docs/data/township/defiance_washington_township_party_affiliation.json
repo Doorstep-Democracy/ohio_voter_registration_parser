@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 230 (22%)",
-      "UNC – Lapsed R — 169 (16%)",
-      "Mixed – Active — 121 (12%)",
-      "Mixed – Lapsed — 71 (7%)",
-      "UNC – No Primary — 357 (34%)",
+      "Pure R — 195 (19%)",
+      "UNC – Lapsed R — 211 (20%)",
+      "Mixed – Active — 110 (11%)",
+      "Mixed – Lapsed — 56 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 27 (3%)",
+      "UNC – No Primary — 339 (32%)",
       "UNC – Lapsed D — 71 (7%)",
-      "Pure D — 33 (3%)"
+      "Pure D — 35 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          230,
-          169,
-          121,
+          195,
+          211,
+          110,
+          56,
+          1,
+          27,
+          339,
           71,
-          357,
-          71,
-          33
+          35
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WASHINGTON TOWNSHIP (Defiance Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

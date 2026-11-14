@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,638 (13%)",
-      "UNC – Lapsed R — 3,810 (11%)",
-      "Mixed – Active — 3,606 (10%)",
-      "Mixed – Lapsed — 3,199 (9%)",
-      "UNC – No Primary — 12,557 (36%)",
-      "UNC – Lapsed D — 4,986 (14%)",
-      "Pure D — 2,321 (7%)"
+      "Pure R — 5,204 (15%)",
+      "UNC – Lapsed R — 3,571 (10%)",
+      "Mixed – Active — 4,246 (12%)",
+      "Mixed – Lapsed — 1,759 (5%)",
+      "Minor Party — 79 (0%)",
+      "UNC – Non-partisan Ballot — 1,150 (3%)",
+      "UNC – No Primary — 11,661 (33%)",
+      "UNC – Lapsed D — 3,960 (11%)",
+      "Pure D — 3,778 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          4638,
-          3810,
-          3606,
-          3199,
-          12557,
-          4986,
-          2321
+          5204,
+          3571,
+          4246,
+          1759,
+          79,
+          1150,
+          11661,
+          3960,
+          3778
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "MENTOR CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

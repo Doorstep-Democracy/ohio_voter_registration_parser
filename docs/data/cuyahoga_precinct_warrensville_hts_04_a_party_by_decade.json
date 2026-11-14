@@ -4,7 +4,7 @@
   "precinct": "WARRENSVILLE HTS-04-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -73,11 +73,27 @@
           0,
           1,
           1,
-          2,
+          1,
           0,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -88,9 +104,9 @@
           0,
           0,
           2,
-          2,
-          3,
           1,
+          2,
+          0,
           0
         ],
         "backgroundColor": "#c4b5cd",
@@ -102,12 +118,12 @@
         "data": [
           1,
           2,
-          11,
-          25,
-          40,
+          12,
+          24,
+          37,
           76,
-          158,
-          78
+          156,
+          90
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -118,11 +134,11 @@
         "data": [
           1,
           9,
-          13,
+          10,
+          20,
           19,
-          18,
-          21,
-          14,
+          19,
+          12,
           0
         ],
         "backgroundColor": "#93c5fd",
@@ -136,7 +152,7 @@
           6,
           6,
           7,
-          2,
+          0,
           3,
           3,
           1

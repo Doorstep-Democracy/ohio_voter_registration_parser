@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,456 (6%)",
-      "UNC – Lapsed R — 3,035 (5%)",
-      "Mixed – Active — 4,010 (7%)",
-      "Mixed – Lapsed — 4,427 (8%)",
-      "UNC – No Primary — 23,032 (42%)",
-      "UNC – Lapsed D — 10,928 (20%)",
-      "Pure D — 6,562 (12%)"
+      "Pure R — 3,557 (6%)",
+      "UNC – Lapsed R — 3,037 (5%)",
+      "Mixed – Active — 4,200 (7%)",
+      "Mixed – Lapsed — 1,938 (3%)",
+      "Minor Party — 103 (0%)",
+      "UNC – Non-partisan Ballot — 2,093 (4%)",
+      "UNC – No Primary — 23,311 (41%)",
+      "UNC – Lapsed D — 10,067 (18%)",
+      "Pure D — 7,907 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          3456,
-          3035,
-          4010,
-          4427,
-          23032,
-          10928,
-          6562
+          3557,
+          3037,
+          4200,
+          1938,
+          103,
+          2093,
+          23311,
+          10067,
+          7907
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "GARFIELD-HEIGHTS (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

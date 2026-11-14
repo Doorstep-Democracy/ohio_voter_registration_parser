@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 194",
-      "Mixed – Active — 272",
-      "Mixed – Lapsed — 199",
-      "UNC – No Primary — 859",
-      "UNC – Lapsed D — 310"
+      "UNC – Lapsed R — 216",
+      "Mixed – Active — 262",
+      "Mixed – Lapsed — 116",
+      "UNC – Non-partisan Ballot — 97",
+      "UNC – No Primary — 867",
+      "UNC – Lapsed D — 304"
     ],
     "datasets": [
       {
         "data": [
-          194,
-          272,
-          199,
-          859,
-          310
+          216,
+          262,
+          116,
+          97,
+          867,
+          304
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SOUTHINGTON TWP ONLY (Trumbull Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

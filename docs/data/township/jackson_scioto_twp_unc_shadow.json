@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 211",
-      "Mixed – Active — 78",
-      "Mixed – Lapsed — 86",
-      "UNC – No Primary — 446",
-      "UNC – Lapsed D — 109"
+      "UNC – Lapsed R — 155",
+      "Mixed – Active — 111",
+      "Mixed – Lapsed — 57",
+      "UNC – Non-partisan Ballot — 21",
+      "UNC – No Primary — 436",
+      "UNC – Lapsed D — 91"
     ],
     "datasets": [
       {
         "data": [
-          211,
-          78,
-          86,
-          446,
-          109
+          155,
+          111,
+          57,
+          21,
+          436,
+          91
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SCIOTO TWP (Jackson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

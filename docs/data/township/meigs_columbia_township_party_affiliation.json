@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 192 (22%)",
-      "UNC – Lapsed R — 85 (10%)",
-      "Mixed – Active — 92 (11%)",
-      "Mixed – Lapsed — 79 (9%)",
-      "UNC – No Primary — 270 (31%)",
-      "UNC – Lapsed D — 83 (9%)",
-      "Pure D — 73 (8%)"
+      "Pure R — 182 (20%)",
+      "UNC – Lapsed R — 99 (11%)",
+      "Mixed – Active — 95 (11%)",
+      "Mixed – Lapsed — 52 (6%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 29 (3%)",
+      "UNC – No Primary — 276 (31%)",
+      "UNC – Lapsed D — 72 (8%)",
+      "Pure D — 90 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          192,
-          85,
-          92,
-          79,
-          270,
-          83,
-          73
+          182,
+          99,
+          95,
+          52,
+          4,
+          29,
+          276,
+          72,
+          90
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "COLUMBIA TOWNSHIP (Meigs Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 405 (29%)",
-      "UNC – Lapsed R — 190 (14%)",
-      "Mixed – Active — 98 (7%)",
-      "Mixed – Lapsed — 100 (7%)",
-      "UNC – No Primary — 467 (34%)",
-      "UNC – Lapsed D — 81 (6%)",
-      "Pure D — 46 (3%)"
+      "Pure R — 428 (31%)",
+      "UNC – Lapsed R — 180 (13%)",
+      "Mixed – Active — 115 (8%)",
+      "Mixed – Lapsed — 40 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 47 (3%)",
+      "UNC – No Primary — 450 (32%)",
+      "UNC – Lapsed D — 69 (5%)",
+      "Pure D — 69 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          405,
-          190,
-          98,
-          100,
-          467,
-          81,
-          46
+          428,
+          180,
+          115,
+          40,
+          1,
+          47,
+          450,
+          69,
+          69
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TOWNSHIP (Knox Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

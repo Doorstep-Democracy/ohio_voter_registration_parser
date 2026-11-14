@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 195 (24%)",
-      "UNC – Lapsed R — 92 (11%)",
-      "Mixed – Active — 85 (10%)",
-      "Mixed – Lapsed — 44 (5%)",
-      "UNC – No Primary — 345 (42%)",
-      "UNC – Lapsed D — 46 (6%)",
-      "Pure D — 22 (3%)"
+      "Pure R — 200 (24%)",
+      "UNC – Lapsed R — 98 (12%)",
+      "Mixed – Active — 81 (10%)",
+      "Mixed – Lapsed — 28 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 15 (2%)",
+      "UNC – No Primary — 340 (41%)",
+      "UNC – Lapsed D — 44 (5%)",
+      "Pure D — 27 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          195,
-          92,
-          85,
+          200,
+          98,
+          81,
+          28,
+          0,
+          15,
+          340,
           44,
-          345,
-          46,
-          22
+          27
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WHITEOAK TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

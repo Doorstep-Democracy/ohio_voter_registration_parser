@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 99 (18%)",
-      "UNC – Lapsed R — 85 (16%)",
-      "Mixed – Active — 62 (11%)",
-      "Mixed – Lapsed — 60 (11%)",
-      "UNC – No Primary — 165 (31%)",
+      "Pure R — 97 (18%)",
+      "UNC – Lapsed R — 89 (16%)",
+      "Mixed – Active — 59 (11%)",
+      "Mixed – Lapsed — 36 (7%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 20 (4%)",
+      "UNC – No Primary — 170 (31%)",
       "UNC – Lapsed D — 51 (9%)",
-      "Pure D — 18 (3%)"
+      "Pure D — 21 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          99,
-          85,
-          62,
-          60,
-          165,
+          97,
+          89,
+          59,
+          36,
+          2,
+          20,
+          170,
           51,
-          18
+          21
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "GRATIS VILLAGE (Preble Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

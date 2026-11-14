@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,926 (21%)",
-      "UNC – Lapsed R — 4,672 (16%)",
-      "Mixed – Active — 1,707 (6%)",
-      "Mixed – Lapsed — 2,175 (8%)",
-      "UNC – No Primary — 10,985 (39%)",
-      "UNC – Lapsed D — 1,987 (7%)",
-      "Pure D — 933 (3%)"
+      "Pure R — 5,825 (20%)",
+      "UNC – Lapsed R — 4,994 (17%)",
+      "Mixed – Active — 1,808 (6%)",
+      "Mixed – Lapsed — 1,126 (4%)",
+      "Minor Party — 59 (0%)",
+      "UNC – Non-partisan Ballot — 992 (3%)",
+      "UNC – No Primary — 10,936 (38%)",
+      "UNC – Lapsed D — 1,845 (6%)",
+      "Pure D — 1,251 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          5926,
-          4672,
-          1707,
-          2175,
-          10985,
-          1987,
-          933
+          5825,
+          4994,
+          1808,
+          1126,
+          59,
+          992,
+          10936,
+          1845,
+          1251
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "LEBANON CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

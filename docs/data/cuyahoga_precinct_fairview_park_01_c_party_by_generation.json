@@ -4,7 +4,7 @@
   "precinct": "FAIRVIEW PARK-01-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,7 +18,7 @@
       {
         "label": "Pure R",
         "data": [
-          3,
+          4,
           14,
           7,
           7,
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          3,
           11,
           14,
           17,
-          2
+          5
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          20,
-          12,
+          21,
+          13,
           5,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -73,7 +86,7 @@
           1,
           4,
           5,
-          8,
+          7,
           3
         ],
         "backgroundColor": "#c4b5cd",
@@ -85,9 +98,9 @@
         "data": [
           3,
           33,
-          50,
+          53,
           118,
-          130
+          138
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           9,
-          35,
-          37,
-          38,
-          13
+          36,
+          34,
+          41,
+          15
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -111,7 +124,7 @@
         "data": [
           4,
           39,
-          18,
+          17,
           33,
           14
         ],

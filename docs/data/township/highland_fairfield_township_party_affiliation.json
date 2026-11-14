@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 506 (23%)",
-      "UNC – Lapsed R — 297 (13%)",
-      "Mixed – Active — 119 (5%)",
-      "Mixed – Lapsed — 118 (5%)",
-      "UNC – No Primary — 1,010 (45%)",
-      "UNC – Lapsed D — 167 (7%)",
+      "Pure R — 519 (23%)",
+      "UNC – Lapsed R — 298 (13%)",
+      "Mixed – Active — 126 (6%)",
+      "Mixed – Lapsed — 77 (3%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 35 (2%)",
+      "UNC – No Primary — 1,003 (45%)",
+      "UNC – Lapsed D — 165 (7%)",
       "Pure D — 24 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          506,
-          297,
-          119,
-          118,
-          1010,
-          167,
+          519,
+          298,
+          126,
+          77,
+          5,
+          35,
+          1003,
+          165,
           24
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "FAIRFIELD TOWNSHIP (Highland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

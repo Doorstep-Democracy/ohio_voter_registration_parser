@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 113 (10%)",
-      "UNC – Lapsed R — 82 (7%)",
-      "Mixed – Active — 62 (6%)",
-      "Mixed – Lapsed — 73 (7%)",
-      "UNC – No Primary — 502 (46%)",
-      "UNC – Lapsed D — 172 (16%)",
-      "Pure D — 98 (9%)"
+      "Pure R — 121 (11%)",
+      "UNC – Lapsed R — 95 (9%)",
+      "Mixed – Active — 61 (6%)",
+      "Mixed – Lapsed — 28 (3%)",
+      "Minor Party — 6 (1%)",
+      "UNC – Non-partisan Ballot — 44 (4%)",
+      "UNC – No Primary — 482 (44%)",
+      "UNC – Lapsed D — 164 (15%)",
+      "Pure D — 107 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          113,
-          82,
-          62,
-          73,
-          502,
-          172,
-          98
+          121,
+          95,
+          61,
+          28,
+          6,
+          44,
+          482,
+          164,
+          107
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "SPENCER TOWNSHIP (Lucas Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -4,7 +4,7 @@
   "precinct": "WASHINGTON TWP I",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,10 +18,10 @@
       {
         "label": "Pure R",
         "data": [
-          21,
-          59,
           17,
-          11,
+          56,
+          17,
+          10,
           4
         ],
         "backgroundColor": "#ef4444",
@@ -32,10 +32,10 @@
         "label": "UNC – Lapsed R",
         "data": [
           8,
-          33,
-          21,
-          29,
-          3
+          34,
+          22,
+          28,
+          4
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           21,
-          27,
+          26,
           14,
           10,
           1
@@ -60,7 +60,7 @@
           6,
           11,
           8,
-          6,
+          5,
           0
         ],
         "backgroundColor": "#a78bfa",
@@ -68,11 +68,24 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          3,
+          2,
           4,
-          5,
+          6,
           8,
           6
         ],
@@ -86,8 +99,8 @@
           5,
           43,
           63,
-          132,
-          112
+          134,
+          122
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           6,
-          41,
-          35,
-          37,
-          7
+          40,
+          39,
+          40,
+          6
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,11 +122,11 @@
       {
         "label": "Pure D",
         "data": [
-          8,
+          7,
           30,
           18,
           22,
-          2
+          3
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 2,

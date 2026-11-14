@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,310 (20%)",
-      "UNC – Lapsed R — 4,645 (14%)",
-      "Mixed – Active — 2,188 (7%)",
-      "Mixed – Lapsed — 3,197 (10%)",
-      "UNC – No Primary — 10,964 (34%)",
-      "UNC – Lapsed D — 2,712 (8%)",
-      "Pure D — 2,194 (7%)"
+      "Pure R — 6,216 (19%)",
+      "UNC – Lapsed R — 4,637 (14%)",
+      "Mixed – Active — 2,163 (7%)",
+      "Mixed – Lapsed — 1,077 (3%)",
+      "Minor Party — 58 (0%)",
+      "UNC – Non-partisan Ballot — 2,094 (6%)",
+      "UNC – No Primary — 11,256 (35%)",
+      "UNC – Lapsed D — 2,759 (9%)",
+      "Pure D — 2,174 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          6310,
-          4645,
-          2188,
-          3197,
-          10964,
-          2712,
-          2194
+          6216,
+          4637,
+          2163,
+          1077,
+          58,
+          2094,
+          11256,
+          2759,
+          2174
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "MILFORD EX VILL SD (CLERMONT)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Milford Ex Vill Sd (Clermont Co.)",
+  "updated": "2026-11-12"
 }

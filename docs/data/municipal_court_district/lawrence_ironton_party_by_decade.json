@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          6,
-          78,
-          318,
-          538,
-          564,
-          390,
-          325,
-          207,
-          134
+          4,
+          62,
+          262,
+          491,
+          505,
+          366,
+          262,
+          172,
+          141
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -34,14 +34,14 @@
         "label": "UNC – Lapsed R",
         "data": [
           6,
-          37,
-          134,
-          293,
-          432,
-          430,
-          436,
-          297,
-          45
+          42,
+          181,
+          334,
+          498,
+          471,
+          510,
+          334,
+          76
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -50,14 +50,14 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          46,
-          202,
-          341,
-          316,
-          214,
-          118,
-          36,
-          4
+          38,
+          184,
+          324,
+          286,
+          180,
+          108,
+          35,
+          3
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          6,
-          39,
-          104,
-          174,
-          199,
-          186,
-          142,
-          34,
-          12
+          4,
+          43,
+          108,
+          182,
+          220,
+          198,
+          140,
+          26,
+          3
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          5,
+          2,
+          3,
+          3,
+          3,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          0,
+          6,
+          9,
+          17,
+          18,
+          22,
+          12,
+          8
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           0,
-          22,
-          120,
-          316,
-          648,
-          845,
-          1053,
+          19,
+          117,
+          305,
+          627,
+          850,
+          1067,
           1455,
-          1350
+          1369
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          47,
-          161,
-          280,
-          335,
-          301,
-          262,
-          133,
-          12
+          44,
+          158,
+          263,
+          304,
+          297,
+          252,
+          131,
+          17
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -114,22 +146,22 @@
         "label": "Pure D",
         "data": [
           0,
-          18,
-          103,
-          189,
-          77,
-          57,
-          49,
-          22,
-          16
+          15,
+          98,
+          195,
+          104,
+          59,
+          53,
+          40,
+          32
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "IRONTON (Lawrence Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

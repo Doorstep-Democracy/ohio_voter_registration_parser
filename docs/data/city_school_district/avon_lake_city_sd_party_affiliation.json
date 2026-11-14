@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 2,477 (12%)",
-      "UNC – Lapsed R — 2,419 (12%)",
-      "Mixed – Active — 2,052 (10%)",
-      "Mixed – Lapsed — 2,834 (14%)",
-      "UNC – No Primary — 6,199 (31%)",
-      "UNC – Lapsed D — 2,452 (12%)",
-      "Pure D — 1,502 (8%)"
+      "Pure R — 2,600 (13%)",
+      "UNC – Lapsed R — 2,385 (12%)",
+      "Mixed – Active — 2,312 (11%)",
+      "Mixed – Lapsed — 1,108 (5%)",
+      "Minor Party — 56 (0%)",
+      "UNC – Non-partisan Ballot — 1,387 (7%)",
+      "UNC – No Primary — 6,018 (30%)",
+      "UNC – Lapsed D — 2,044 (10%)",
+      "Pure D — 2,242 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          2477,
-          2419,
-          2052,
-          2834,
-          6199,
-          2452,
-          1502
+          2600,
+          2385,
+          2312,
+          1108,
+          56,
+          1387,
+          6018,
+          2044,
+          2242
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "AVON LAKE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,803 (15%)",
-      "UNC – Lapsed R — 2,207 (9%)",
-      "Mixed – Active — 3,428 (13%)",
-      "Mixed – Lapsed — 2,551 (10%)",
-      "UNC – No Primary — 8,373 (32%)",
-      "UNC – Lapsed D — 3,213 (12%)",
-      "Pure D — 2,324 (9%)"
+      "Pure R — 2,974 (11%)",
+      "UNC – Lapsed R — 3,050 (12%)",
+      "Mixed – Active — 3,182 (12%)",
+      "Mixed – Lapsed — 1,509 (6%)",
+      "Minor Party — 46 (0%)",
+      "UNC – Non-partisan Ballot — 1,297 (5%)",
+      "UNC – No Primary — 8,327 (32%)",
+      "UNC – Lapsed D — 3,082 (12%)",
+      "Pure D — 2,668 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          3803,
-          2207,
-          3428,
-          2551,
-          8373,
-          3213,
-          2324
+          2974,
+          3050,
+          3182,
+          1509,
+          46,
+          1297,
+          8327,
+          3082,
+          2668
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "NORTH RIDGEVILLE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

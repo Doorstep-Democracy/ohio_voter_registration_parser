@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,444 (12%)",
-      "UNC – Lapsed R — 4,071 (11%)",
-      "Mixed – Active — 1,768 (5%)",
-      "Mixed – Lapsed — 3,291 (9%)",
-      "UNC – No Primary — 15,210 (43%)",
-      "UNC – Lapsed D — 4,875 (14%)",
-      "Pure D — 2,102 (6%)"
+      "Pure R — 5,614 (15%)",
+      "UNC – Lapsed R — 3,357 (9%)",
+      "Mixed – Active — 2,373 (6%)",
+      "Mixed – Lapsed — 974 (3%)",
+      "Minor Party — 129 (0%)",
+      "UNC – Non-partisan Ballot — 1,890 (5%)",
+      "UNC – No Primary — 14,433 (39%)",
+      "UNC – Lapsed D — 3,581 (10%)",
+      "Pure D — 4,277 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          4444,
-          4071,
-          1768,
-          3291,
-          15210,
-          4875,
-          2102
+          5614,
+          3357,
+          2373,
+          974,
+          129,
+          1890,
+          14433,
+          3581,
+          4277
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "VIOLET TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

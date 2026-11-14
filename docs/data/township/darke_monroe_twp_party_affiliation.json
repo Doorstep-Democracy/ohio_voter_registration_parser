@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 348 (31%)",
-      "UNC – Lapsed R — 140 (12%)",
-      "Mixed – Active — 89 (8%)",
-      "Mixed – Lapsed — 76 (7%)",
+      "Pure R — 278 (25%)",
+      "UNC – Lapsed R — 207 (18%)",
+      "Mixed – Active — 79 (7%)",
+      "Mixed – Lapsed — 60 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 23 (2%)",
       "UNC – No Primary — 393 (35%)",
-      "UNC – Lapsed D — 55 (5%)",
-      "Pure D — 22 (2%)"
+      "UNC – Lapsed D — 51 (5%)",
+      "Pure D — 30 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          348,
-          140,
-          89,
-          76,
+          278,
+          207,
+          79,
+          60,
+          4,
+          23,
           393,
-          55,
-          22
+          51,
+          30
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "MONROE TWP (Darke Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 880 (27%)",
-      "UNC – Lapsed R — 387 (12%)",
-      "Mixed – Active — 352 (11%)",
-      "Mixed – Lapsed — 213 (7%)",
-      "UNC – No Primary — 999 (31%)",
-      "UNC – Lapsed D — 224 (7%)",
-      "Pure D — 191 (6%)"
+      "Pure R — 788 (24%)",
+      "UNC – Lapsed R — 502 (15%)",
+      "Mixed – Active — 318 (10%)",
+      "Mixed – Lapsed — 159 (5%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 83 (3%)",
+      "UNC – No Primary — 1,002 (31%)",
+      "UNC – Lapsed D — 244 (7%)",
+      "Pure D — 173 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          880,
-          387,
-          352,
-          213,
-          999,
-          224,
-          191
+          788,
+          502,
+          318,
+          159,
+          11,
+          83,
+          1002,
+          244,
+          173
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "THORN TOWNSHIP (Perry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

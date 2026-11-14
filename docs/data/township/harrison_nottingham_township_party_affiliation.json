@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 58 (26%)",
-      "UNC – Lapsed R — 20 (9%)",
-      "Mixed – Active — 50 (23%)",
-      "Mixed – Lapsed — 4 (2%)",
+      "Pure R — 54 (24%)",
+      "UNC – Lapsed R — 25 (11%)",
+      "Mixed – Active — 42 (19%)",
+      "Mixed – Lapsed — 11 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
       "UNC – No Primary — 56 (25%)",
-      "UNC – Lapsed D — 18 (8%)",
-      "Pure D — 14 (6%)"
+      "UNC – Lapsed D — 21 (10%)",
+      "Pure D — 10 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          58,
-          20,
-          50,
-          4,
+          54,
+          25,
+          42,
+          11,
+          1,
+          1,
           56,
-          18,
-          14
+          21,
+          10
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "NOTTINGHAM TOWNSHIP (Harrison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

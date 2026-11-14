@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,892 (27%)",
-      "UNC – Lapsed R — 880 (13%)",
-      "Mixed – Active — 590 (8%)",
-      "Mixed – Lapsed — 571 (8%)",
-      "UNC – No Primary — 2,422 (34%)",
-      "UNC – Lapsed D — 427 (6%)",
-      "Pure D — 246 (4%)"
+      "Pure R — 1,843 (26%)",
+      "UNC – Lapsed R — 962 (14%)",
+      "Mixed – Active — 601 (8%)",
+      "Mixed – Lapsed — 239 (3%)",
+      "Minor Party — 16 (0%)",
+      "UNC – Non-partisan Ballot — 313 (4%)",
+      "UNC – No Primary — 2,421 (34%)",
+      "UNC – Lapsed D — 397 (6%)",
+      "Pure D — 280 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1892,
-          880,
-          590,
-          571,
-          2422,
-          427,
-          246
+          1843,
+          962,
+          601,
+          239,
+          16,
+          313,
+          2421,
+          397,
+          280
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "UNION TOWNSHIP (Miami Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

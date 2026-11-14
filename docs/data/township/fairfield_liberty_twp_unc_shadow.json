@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 846",
-      "Mixed – Active — 431",
-      "Mixed – Lapsed — 542",
-      "UNC – No Primary — 2,033",
-      "UNC – Lapsed D — 552"
+      "UNC – Lapsed R — 870",
+      "Mixed – Active — 459",
+      "Mixed – Lapsed — 230",
+      "UNC – Non-partisan Ballot — 288",
+      "UNC – No Primary — 1,981",
+      "UNC – Lapsed D — 507"
     ],
     "datasets": [
       {
         "data": [
-          846,
-          431,
-          542,
-          2033,
-          552
+          870,
+          459,
+          230,
+          288,
+          1981,
+          507
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LIBERTY TWP (Fairfield Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

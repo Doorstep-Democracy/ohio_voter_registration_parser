@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 14 (8%)",
-      "UNC – Lapsed R — 9 (5%)",
-      "Mixed – Active — 36 (19%)",
-      "Mixed – Lapsed — 10 (5%)",
-      "UNC – No Primary — 75 (41%)",
-      "UNC – Lapsed D — 32 (17%)",
-      "Pure D — 9 (5%)"
+      "Pure R — 13 (7%)",
+      "UNC – Lapsed R — 11 (6%)",
+      "Mixed – Active — 34 (19%)",
+      "Mixed – Lapsed — 8 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 5 (3%)",
+      "UNC – No Primary — 72 (40%)",
+      "UNC – Lapsed D — 30 (17%)",
+      "Pure D — 8 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          14,
-          9,
-          36,
-          10,
-          75,
-          32,
-          9
+          13,
+          11,
+          34,
+          8,
+          0,
+          5,
+          72,
+          30,
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CLARINGTON VILLAGE (Monroe Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

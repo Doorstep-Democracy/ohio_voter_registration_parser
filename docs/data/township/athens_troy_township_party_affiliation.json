@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 271 (17%)",
-      "UNC – Lapsed R — 206 (13%)",
-      "Mixed – Active — 117 (7%)",
-      "Mixed – Lapsed — 130 (8%)",
-      "UNC – No Primary — 674 (41%)",
-      "UNC – Lapsed D — 154 (9%)",
-      "Pure D — 77 (5%)"
+      "Pure R — 293 (18%)",
+      "UNC – Lapsed R — 214 (13%)",
+      "Mixed – Active — 115 (7%)",
+      "Mixed – Lapsed — 79 (5%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 42 (3%)",
+      "UNC – No Primary — 666 (41%)",
+      "UNC – Lapsed D — 147 (9%)",
+      "Pure D — 83 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          271,
-          206,
-          117,
-          130,
-          674,
-          154,
-          77
+          293,
+          214,
+          115,
+          79,
+          4,
+          42,
+          666,
+          147,
+          83
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "TROY TOWNSHIP (Athens Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

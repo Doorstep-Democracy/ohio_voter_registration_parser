@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,350 (11%)",
-      "UNC – Lapsed R — 1,431 (12%)",
-      "Mixed – Active — 1,472 (12%)",
-      "Mixed – Lapsed — 1,291 (10%)",
-      "UNC – No Primary — 3,790 (30%)",
-      "UNC – Lapsed D — 1,506 (12%)",
-      "Pure D — 1,599 (13%)"
+      "Pure R — 1,171 (9%)",
+      "UNC – Lapsed R — 1,545 (12%)",
+      "Mixed – Active — 1,482 (12%)",
+      "Mixed – Lapsed — 723 (6%)",
+      "Minor Party — 27 (0%)",
+      "UNC – Non-partisan Ballot — 532 (4%)",
+      "UNC – No Primary — 3,758 (30%)",
+      "UNC – Lapsed D — 1,408 (11%)",
+      "Pure D — 1,888 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          1350,
-          1431,
-          1472,
-          1291,
-          3790,
-          1506,
-          1599
+          1171,
+          1545,
+          1482,
+          723,
+          27,
+          532,
+          3758,
+          1408,
+          1888
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "BAY VILLAGE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

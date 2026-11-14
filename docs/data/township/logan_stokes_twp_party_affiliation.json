@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 605 (18%)",
-      "UNC – Lapsed R — 548 (16%)",
-      "Mixed – Active — 247 (7%)",
-      "Mixed – Lapsed — 271 (8%)",
-      "UNC – No Primary — 1,335 (40%)",
-      "UNC – Lapsed D — 287 (9%)",
-      "Pure D — 67 (2%)"
+      "Pure R — 556 (16%)",
+      "UNC – Lapsed R — 630 (18%)",
+      "Mixed – Active — 250 (7%)",
+      "Mixed – Lapsed — 198 (6%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 72 (2%)",
+      "UNC – No Primary — 1,346 (39%)",
+      "UNC – Lapsed D — 280 (8%)",
+      "Pure D — 86 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          605,
-          548,
-          247,
-          271,
-          1335,
-          287,
-          67
+          556,
+          630,
+          250,
+          198,
+          6,
+          72,
+          1346,
+          280,
+          86
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "STOKES TWP (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

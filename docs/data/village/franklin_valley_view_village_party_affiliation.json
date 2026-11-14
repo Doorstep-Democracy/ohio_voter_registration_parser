@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 43 (10%)",
-      "UNC – Lapsed R — 34 (8%)",
-      "Mixed – Active — 29 (6%)",
-      "Mixed – Lapsed — 28 (6%)",
-      "UNC – No Primary — 205 (46%)",
-      "UNC – Lapsed D — 52 (12%)",
-      "Pure D — 59 (13%)"
+      "Pure R — 39 (8%)",
+      "UNC – Lapsed R — 37 (8%)",
+      "Mixed – Active — 32 (7%)",
+      "Mixed – Lapsed — 12 (3%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 18 (4%)",
+      "UNC – No Primary — 222 (47%)",
+      "UNC – Lapsed D — 43 (9%)",
+      "Pure D — 67 (14%)"
     ],
     "datasets": [
       {
         "data": [
+          39,
+          37,
+          32,
+          12,
+          0,
+          18,
+          222,
           43,
-          34,
-          29,
-          28,
-          205,
-          52,
-          59
+          67
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "VALLEY VIEW VILLAGE (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

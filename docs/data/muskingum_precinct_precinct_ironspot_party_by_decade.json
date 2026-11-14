@@ -4,7 +4,7 @@
   "precinct": "PRECINCT IRONSPOT",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -21,9 +21,9 @@
         "label": "Pure R",
         "data": [
           6,
-          5,
+          4,
           9,
-          6,
+          5,
           10,
           6,
           5,
@@ -72,12 +72,28 @@
           3,
           3,
           1,
-          1,
+          2,
           1,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -103,11 +119,11 @@
           0,
           1,
           14,
-          14,
+          18,
           20,
           31,
           37,
-          40
+          41
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -116,7 +132,7 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
+          0,
           4,
           4,
           10,

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,398 (16%)",
-      "UNC – Lapsed R — 945 (11%)",
-      "Mixed – Active — 757 (8%)",
-      "Mixed – Lapsed — 551 (6%)",
-      "UNC – No Primary — 4,004 (45%)",
-      "UNC – Lapsed D — 930 (10%)",
-      "Pure D — 402 (4%)"
+      "Pure R — 1,293 (14%)",
+      "UNC – Lapsed R — 1,070 (12%)",
+      "Mixed – Active — 719 (8%)",
+      "Mixed – Lapsed — 435 (5%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 161 (2%)",
+      "UNC – No Primary — 4,010 (44%)",
+      "UNC – Lapsed D — 895 (10%)",
+      "Pure D — 466 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1398,
-          945,
-          757,
-          551,
-          4004,
-          930,
-          402
+          1293,
+          1070,
+          719,
+          435,
+          7,
+          161,
+          4010,
+          895,
+          466
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "CAMBRIDGE CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

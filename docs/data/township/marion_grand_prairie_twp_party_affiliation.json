@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 199 (18%)",
-      "UNC – Lapsed R — 166 (15%)",
+      "Pure R — 197 (18%)",
+      "UNC – Lapsed R — 169 (15%)",
       "Mixed – Active — 97 (9%)",
-      "Mixed – Lapsed — 100 (9%)",
-      "UNC – No Primary — 381 (35%)",
+      "Mixed – Lapsed — 66 (6%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 30 (3%)",
+      "UNC – No Primary — 390 (35%)",
       "UNC – Lapsed D — 117 (11%)",
-      "Pure D — 40 (4%)"
+      "Pure D — 43 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          199,
-          166,
+          197,
+          169,
           97,
-          100,
-          381,
+          66,
+          2,
+          30,
+          390,
           117,
-          40
+          43
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "GRAND PRAIRIE TWP. (Marion Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

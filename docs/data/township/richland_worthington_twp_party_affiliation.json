@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 482 (25%)",
-      "UNC – Lapsed R — 268 (14%)",
-      "Mixed – Active — 151 (8%)",
-      "Mixed – Lapsed — 133 (7%)",
-      "UNC – No Primary — 665 (34%)",
-      "UNC – Lapsed D — 158 (8%)",
-      "Pure D — 80 (4%)"
+      "Pure R — 391 (20%)",
+      "UNC – Lapsed R — 366 (19%)",
+      "Mixed – Active — 137 (7%)",
+      "Mixed – Lapsed — 70 (4%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 83 (4%)",
+      "UNC – No Primary — 646 (33%)",
+      "UNC – Lapsed D — 141 (7%)",
+      "Pure D — 103 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          482,
-          268,
-          151,
-          133,
-          665,
-          158,
-          80
+          391,
+          366,
+          137,
+          70,
+          7,
+          83,
+          646,
+          141,
+          103
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "WORTHINGTON TWP (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

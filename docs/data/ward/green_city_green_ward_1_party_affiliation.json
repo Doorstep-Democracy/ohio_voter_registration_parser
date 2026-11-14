@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 588 (10%)",
-      "UNC – Lapsed R — 764 (14%)",
-      "Mixed – Active — 435 (8%)",
-      "Mixed – Lapsed — 353 (6%)",
-      "UNC – Non-partisan Ballot — 275 (5%)",
-      "UNC – No Primary — 2,079 (37%)",
-      "UNC – Lapsed D — 736 (13%)",
-      "Pure D — 428 (8%)"
+      "Pure R — 587 (10%)",
+      "UNC – Lapsed R — 770 (13%)",
+      "Mixed – Active — 430 (7%)",
+      "Mixed – Lapsed — 352 (6%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 279 (5%)",
+      "UNC – No Primary — 2,192 (38%)",
+      "UNC – Lapsed D — 750 (13%)",
+      "Pure D — 429 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          588,
-          764,
-          435,
-          353,
-          275,
-          2079,
-          736,
-          428
+          587,
+          770,
+          430,
+          352,
+          9,
+          279,
+          2192,
+          750,
+          429
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "GREEN WARD 1 (GREEN City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

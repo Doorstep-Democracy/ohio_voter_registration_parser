@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 632",
-      "Mixed – Active — 187",
-      "Mixed – Lapsed — 193",
-      "UNC – No Primary — 1,035",
-      "UNC – Lapsed D — 110"
+      "UNC – Lapsed R — 627",
+      "Mixed – Active — 185",
+      "Mixed – Lapsed — 138",
+      "UNC – Non-partisan Ballot — 52",
+      "UNC – No Primary — 1,050",
+      "UNC – Lapsed D — 105"
     ],
     "datasets": [
       {
         "data": [
-          632,
-          187,
-          193,
-          1035,
-          110
+          627,
+          185,
+          138,
+          52,
+          1050,
+          105
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "TWIN  TWP (Darke Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

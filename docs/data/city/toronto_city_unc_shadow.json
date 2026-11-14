@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 220",
-      "Mixed – Active — 379",
-      "Mixed – Lapsed — 261",
-      "UNC – No Primary — 1,453",
-      "UNC – Lapsed D — 593"
+      "UNC – Lapsed R — 235",
+      "Mixed – Active — 383",
+      "Mixed – Lapsed — 207",
+      "UNC – Non-partisan Ballot — 53",
+      "UNC – No Primary — 1,470",
+      "UNC – Lapsed D — 568"
     ],
     "datasets": [
       {
         "data": [
-          220,
-          379,
-          261,
-          1453,
-          593
+          235,
+          383,
+          207,
+          53,
+          1470,
+          568
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "TORONTO CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

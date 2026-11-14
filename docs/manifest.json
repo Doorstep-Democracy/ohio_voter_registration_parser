@@ -1,7 +1,7 @@
 {
   "title": "Ohio Voter Registration Analysis",
   "description": "Voter registration analysis for {county}. Use the County dropdown and Geography filter to focus the charts below.",
-  "dataNote": "Data sourced from Ohio Secretary of State statewide voter file. Last updated 2026-07-25.",
+  "dataNote": "Data sourced from Ohio Secretary of State statewide voter file. Last updated 2026-11-12.",
   "allCounties": [
     "Adams",
     "Allen",
@@ -317,15 +317,6 @@
       "county": "Ohio (Statewide)",
       "geography": "county",
       "dataUrl": "data/ohio_(statewide)_party_by_generation.json"
-    },
-    {
-      "id": "ohio_(statewide)-precinct-summary",
-      "title": "Registration by Precinct",
-      "navLabel": "Precincts",
-      "description": "Precinct-level active and confirmation voter counts.",
-      "county": "Ohio (Statewide)",
-      "geography": "precinct",
-      "dataUrl": "data/ohio_(statewide)_precinct_summary.json"
     },
     {
       "id": "ohio_(statewide)-city-summary",
@@ -7551,5 +7542,5 @@
       "countyScoped": false
     }
   ],
-  "provenanceSnapshotDate": "2026-07-04"
+  "provenanceSnapshotDate": "2026-10-24"
 }

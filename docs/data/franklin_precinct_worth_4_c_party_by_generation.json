@@ -4,7 +4,7 @@
   "precinct": "WORTH 4-C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,7 +31,7 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          3,
+          2,
           26,
           26,
           24,
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           6,
           3,
-          4,
+          5,
           0
         ],
         "backgroundColor": "#c4b5cd",
@@ -85,8 +98,8 @@
         "data": [
           2,
           15,
-          28,
-          69,
+          29,
+          68,
           68
         ],
         "backgroundColor": "#9ca3af",
@@ -99,7 +112,7 @@
           3,
           18,
           20,
-          50,
+          51,
           6
         ],
         "backgroundColor": "#93c5fd",

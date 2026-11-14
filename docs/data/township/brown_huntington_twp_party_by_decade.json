@@ -16,14 +16,14 @@
       {
         "label": "Pure R",
         "data": [
-          9,
-          41,
-          82,
-          58,
+          6,
+          36,
+          79,
+          55,
           42,
-          14,
-          21,
-          11
+          10,
+          22,
+          10
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -31,14 +31,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
-          18,
-          28,
-          27,
-          26,
-          19,
-          15,
-          0
+          6,
+          21,
+          31,
+          32,
+          29,
+          23,
+          16,
+          2
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -47,11 +47,11 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          28,
-          62,
-          45,
-          17,
-          12,
+          31,
+          63,
+          46,
+          20,
+          14,
           4,
           0
         ],
@@ -62,28 +62,58 @@
         "label": "Mixed – Lapsed",
         "data": [
           3,
-          9,
+          5,
+          8,
           10,
-          10,
-          7,
-          7,
-          2,
+          5,
+          5,
+          1,
           0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          0
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – No Primary",
         "data": [
           3,
-          21,
-          72,
-          92,
-          119,
-          107,
-          182,
-          109
+          23,
+          69,
+          91,
+          121,
+          109,
+          183,
+          116
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -91,13 +121,13 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          5,
-          14,
-          33,
+          4,
+          12,
+          31,
           30,
-          29,
-          18,
-          7,
+          28,
+          17,
+          6,
           1
         ],
         "backgroundColor": "#93c5fd",
@@ -107,21 +137,21 @@
         "label": "Pure D",
         "data": [
           2,
-          12,
-          23,
+          11,
+          25,
           10,
           3,
-          4,
+          5,
           0,
-          1
+          2
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "HUNTINGTON TWP (Brown Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

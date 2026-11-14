@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,825 (16%)",
-      "UNC – Lapsed R — 2,574 (11%)",
-      "Mixed – Active — 2,162 (9%)",
-      "Mixed – Lapsed — 2,409 (10%)",
-      "UNC – No Primary — 8,869 (36%)",
-      "UNC – Lapsed D — 2,211 (9%)",
-      "Pure D — 2,323 (10%)"
+      "Pure R — 3,780 (15%)",
+      "UNC – Lapsed R — 2,593 (11%)",
+      "Mixed – Active — 2,144 (9%)",
+      "Mixed – Lapsed — 916 (4%)",
+      "Minor Party — 49 (0%)",
+      "UNC – Non-partisan Ballot — 1,464 (6%)",
+      "UNC – No Primary — 9,182 (37%)",
+      "UNC – Lapsed D — 2,254 (9%)",
+      "Pure D — 2,304 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          3825,
-          2574,
-          2162,
-          2409,
-          8869,
-          2211,
-          2323
+          3780,
+          2593,
+          2144,
+          916,
+          49,
+          1464,
+          9182,
+          2254,
+          2304
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "PERRYSBURG EX VILL SD (WOOD)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Perrysburg Ex Vill Sd (Wood Co.)",
+  "updated": "2026-11-12"
 }

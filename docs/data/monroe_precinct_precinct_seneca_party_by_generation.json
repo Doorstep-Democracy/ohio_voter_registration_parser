@@ -4,7 +4,7 @@
   "precinct": "PRECINCT SENECA",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -58,12 +58,25 @@
         "label": "Mixed – Lapsed",
         "data": [
           0,
-          1,
-          12,
+          2,
+          11,
           1,
           1
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           0,
           1,
           0,
-          1
+          0
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -86,7 +99,7 @@
           0,
           9,
           20,
-          14,
+          13,
           17
         ],
         "backgroundColor": "#9ca3af",
@@ -97,7 +110,7 @@
         "label": "UNC – Lapsed D",
         "data": [
           2,
-          13,
+          12,
           10,
           5,
           0

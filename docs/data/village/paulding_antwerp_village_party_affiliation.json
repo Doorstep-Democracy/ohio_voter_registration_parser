@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 132 (13%)",
-      "UNC – Lapsed R — 139 (13%)",
-      "Mixed – Active — 62 (6%)",
-      "Mixed – Lapsed — 86 (8%)",
-      "UNC – No Primary — 466 (45%)",
-      "UNC – Lapsed D — 115 (11%)",
-      "Pure D — 44 (4%)"
+      "Pure R — 120 (11%)",
+      "UNC – Lapsed R — 162 (15%)",
+      "Mixed – Active — 65 (6%)",
+      "Mixed – Lapsed — 49 (5%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 36 (3%)",
+      "UNC – No Primary — 478 (45%)",
+      "UNC – Lapsed D — 119 (11%)",
+      "Pure D — 39 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          132,
-          139,
-          62,
-          86,
-          466,
-          115,
-          44
+          120,
+          162,
+          65,
+          49,
+          2,
+          36,
+          478,
+          119,
+          39
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ANTWERP VILLAGE (Paulding Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

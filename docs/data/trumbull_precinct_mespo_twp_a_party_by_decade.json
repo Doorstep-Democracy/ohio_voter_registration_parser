@@ -4,7 +4,7 @@
   "precinct": "MESPO TWP A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -37,10 +37,10 @@
         "label": "UNC – Lapsed R",
         "data": [
           3,
-          10,
+          9,
           12,
-          16,
-          8,
+          15,
+          6,
           20,
           8,
           3
@@ -53,7 +53,7 @@
         "label": "Mixed – Active",
         "data": [
           0,
-          6,
+          5,
           10,
           9,
           0,
@@ -82,6 +82,22 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           2,
@@ -103,11 +119,11 @@
           2,
           14,
           24,
-          54,
-          63,
+          55,
+          65,
           78,
-          69,
-          82
+          70,
+          86
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -133,7 +149,7 @@
         "label": "Pure D",
         "data": [
           2,
-          9,
+          8,
           4,
           3,
           6,

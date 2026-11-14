@@ -4,13 +4,14 @@
   "precinct": "GAH 4-B",
   "geography": "precinct-detail",
   "type": "doughnut",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -20,19 +21,21 @@
       {
         "data": [
           109,
-          138,
-          117,
-          62,
+          136,
+          115,
+          59,
+          2,
           42,
-          397,
-          192,
-          197
+          421,
+          188,
+          196
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 53 (5%)",
-      "UNC – Lapsed R — 68 (6%)",
-      "Mixed – Active — 29 (3%)",
-      "Mixed – Lapsed — 53 (5%)",
-      "UNC – No Primary — 719 (66%)",
-      "UNC – Lapsed D — 130 (12%)",
-      "Pure D — 36 (3%)"
+      "Pure R — 42 (4%)",
+      "UNC – Lapsed R — 76 (7%)",
+      "Mixed – Active — 26 (2%)",
+      "Mixed – Lapsed — 30 (3%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 23 (2%)",
+      "UNC – No Primary — 772 (68%)",
+      "UNC – Lapsed D — 123 (11%)",
+      "Pure D — 50 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          53,
-          68,
-          29,
-          53,
-          719,
-          130,
-          36
+          42,
+          76,
+          26,
+          30,
+          1,
+          23,
+          772,
+          123,
+          50
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ELMWOOD VILLAGE (Hamilton Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

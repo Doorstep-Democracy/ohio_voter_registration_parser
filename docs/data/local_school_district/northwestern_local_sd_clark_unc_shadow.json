@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,012",
-      "Mixed – Active — 783",
-      "Mixed – Lapsed — 548",
-      "UNC – No Primary — 2,529",
-      "UNC – Lapsed D — 560"
+      "UNC – Lapsed R — 1,009",
+      "Mixed – Active — 778",
+      "Mixed – Lapsed — 326",
+      "UNC – Non-partisan Ballot — 210",
+      "UNC – No Primary — 2,592",
+      "UNC – Lapsed D — 557"
     ],
     "datasets": [
       {
         "data": [
-          1012,
-          783,
-          548,
-          2529,
-          560
+          1009,
+          778,
+          326,
+          210,
+          2592,
+          557
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Northwestern Local Sd (Clark Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

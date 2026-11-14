@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 6,409 (19%)",
-      "UNC – Lapsed R — 3,277 (10%)",
-      "Mixed – Active — 2,958 (9%)",
-      "Mixed – Lapsed — 2,859 (9%)",
-      "UNC – No Primary — 12,061 (36%)",
-      "UNC – Lapsed D — 2,932 (9%)",
-      "Pure D — 2,936 (9%)"
+      "Pure R — 6,107 (18%)",
+      "UNC – Lapsed R — 3,632 (11%)",
+      "Mixed – Active — 3,118 (9%)",
+      "Mixed – Lapsed — 1,026 (3%)",
+      "Minor Party — 53 (0%)",
+      "UNC – Non-partisan Ballot — 1,703 (5%)",
+      "UNC – No Primary — 12,032 (36%)",
+      "UNC – Lapsed D — 2,726 (8%)",
+      "Pure D — 3,420 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          6409,
-          3277,
-          2958,
-          2859,
-          12061,
-          2932,
-          2936
+          6107,
+          3632,
+          3118,
+          1026,
+          53,
+          1703,
+          12032,
+          2726,
+          3420
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "MEDINA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

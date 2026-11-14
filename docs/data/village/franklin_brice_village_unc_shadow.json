@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 6",
+      "UNC – Lapsed R — 4",
       "Mixed – Active — 5",
-      "Mixed – Lapsed — 3",
-      "UNC – No Primary — 33",
-      "UNC – Lapsed D — 7"
+      "Mixed – Lapsed — 4",
+      "UNC – Non-partisan Ballot — 0",
+      "UNC – No Primary — 36",
+      "UNC – Lapsed D — 5"
     ],
     "datasets": [
       {
         "data": [
-          6,
+          4,
           5,
-          3,
-          33,
-          7
+          4,
+          0,
+          36,
+          5
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "BRICE VILLAGE (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 837",
-      "Mixed – Active — 207",
-      "Mixed – Lapsed — 340",
-      "UNC – No Primary — 1,456",
-      "UNC – Lapsed D — 209"
+      "UNC – Lapsed R — 843",
+      "Mixed – Active — 205",
+      "Mixed – Lapsed — 118",
+      "UNC – Non-partisan Ballot — 223",
+      "UNC – No Primary — 1,469",
+      "UNC – Lapsed D — 207"
     ],
     "datasets": [
       {
         "data": [
-          837,
-          207,
-          340,
-          1456,
-          209
+          843,
+          205,
+          118,
+          223,
+          1469,
+          207
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Allen East Local Sd (Allen Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

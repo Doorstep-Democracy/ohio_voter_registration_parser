@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,089 (15%)",
-      "UNC – Lapsed R — 631 (9%)",
-      "Mixed – Active — 890 (13%)",
-      "Mixed – Lapsed — 531 (7%)",
-      "UNC – No Primary — 2,092 (29%)",
-      "UNC – Lapsed D — 827 (12%)",
-      "Pure D — 1,044 (15%)"
+      "Pure R — 1,077 (15%)",
+      "UNC – Lapsed R — 638 (9%)",
+      "Mixed – Active — 888 (12%)",
+      "Mixed – Lapsed — 293 (4%)",
+      "Minor Party — 6 (0%)",
+      "UNC – Non-partisan Ballot — 243 (3%)",
+      "UNC – No Primary — 2,207 (31%)",
+      "UNC – Lapsed D — 832 (12%)",
+      "Pure D — 1,035 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          1089,
-          631,
-          890,
-          531,
-          2092,
-          827,
-          1044
+          1077,
+          638,
+          888,
+          293,
+          6,
+          243,
+          2207,
+          832,
+          1035
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Alexander Local Sd (Athens Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

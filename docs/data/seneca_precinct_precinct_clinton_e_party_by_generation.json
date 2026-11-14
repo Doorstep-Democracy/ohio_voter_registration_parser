@@ -4,7 +4,7 @@
   "precinct": "PRECINCT CLINTON E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,11 +31,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          5,
+          4,
           19,
           20,
           19,
-          9
+          8
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -44,7 +44,7 @@
       {
         "label": "Mixed – Active",
         "data": [
-          8,
+          7,
           29,
           22,
           4,
@@ -59,11 +59,24 @@
         "data": [
           0,
           15,
-          9,
+          10,
           6,
           2
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -87,7 +100,7 @@
           6,
           18,
           28,
-          34
+          36
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,

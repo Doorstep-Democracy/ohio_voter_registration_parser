@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 5,401 (7%)",
-      "UNC – Lapsed R — 4,813 (7%)",
-      "Mixed – Active — 7,943 (11%)",
-      "Mixed – Lapsed — 7,900 (11%)",
-      "UNC – No Primary — 29,159 (40%)",
-      "UNC – Lapsed D — 11,281 (15%)",
-      "Pure D — 7,033 (10%)"
+      "Pure R — 5,554 (8%)",
+      "UNC – Lapsed R — 4,934 (7%)",
+      "Mixed – Active — 8,360 (11%)",
+      "Mixed – Lapsed — 3,499 (5%)",
+      "Minor Party — 182 (0%)",
+      "UNC – Non-partisan Ballot — 3,671 (5%)",
+      "UNC – No Primary — 28,607 (39%)",
+      "UNC – Lapsed D — 9,691 (13%)",
+      "Pure D — 9,214 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          5401,
-          4813,
-          7943,
-          7900,
-          29159,
-          11281,
-          7033
+          5554,
+          4934,
+          8360,
+          3499,
+          182,
+          3671,
+          28607,
+          9691,
+          9214
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "PARMA CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

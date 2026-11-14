@@ -4,7 +4,7 @@
   "precinct": "PRECINCT AVON CITY 2-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,8 +18,8 @@
       {
         "label": "Pure R",
         "data": [
-          80,
-          65,
+          77,
+          64,
           17,
           8,
           5
@@ -31,9 +31,9 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          58,
-          43,
-          39,
+          55,
+          44,
+          38,
           33,
           1
         ],
@@ -44,8 +44,8 @@
       {
         "label": "Mixed – Active",
         "data": [
-          66,
-          93,
+          67,
+          92,
           20,
           11,
           0
@@ -57,9 +57,9 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          44,
-          38,
-          17,
+          45,
+          41,
+          18,
           3,
           0
         ],
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           7,
-          9,
-          14,
-          11,
+          10,
+          13,
+          12,
           5
         ],
         "backgroundColor": "#c4b5cd",
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          34,
-          46,
-          65,
-          103,
-          87
+          35,
+          53,
+          66,
+          106,
+          90
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -96,11 +109,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          59,
-          36,
+          61,
+          40,
           55,
           25,
-          7
+          6
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,
@@ -109,9 +122,9 @@
       {
         "label": "Pure D",
         "data": [
-          67,
+          65,
           82,
-          21,
+          20,
           11,
           1
         ],

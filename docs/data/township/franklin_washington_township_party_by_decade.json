@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          8,
-          129,
-          554,
-          1031,
-          985,
-          580,
-          319,
-          130,
-          93
+          4,
+          99,
+          496,
+          911,
+          863,
+          450,
+          236,
+          118,
+          96
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,15 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          12,
-          90,
-          237,
-          577,
-          1039,
-          905,
-          695,
-          384,
-          30
+          10,
+          111,
+          282,
+          641,
+          1126,
+          1014,
+          761,
+          400,
+          60
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -49,15 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          4,
-          48,
-          264,
-          590,
-          478,
-          319,
-          169,
-          61,
-          9
+          3,
+          51,
+          266,
+          644,
+          509,
+          310,
+          185,
+          66,
+          16
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -65,31 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          2,
+          3,
+          36,
+          146,
+          241,
+          350,
+          379,
+          181,
           50,
-          191,
-          358,
-          510,
-          538,
-          347,
-          141,
-          63
+          2
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          10,
+          9,
+          7,
+          12,
+          5,
+          3
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          8,
+          42,
+          95,
+          150,
+          189,
+          157,
+          68,
+          49
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           5,
-          88,
-          275,
-          636,
-          1210,
-          1849,
-          2241,
-          2730,
-          3418
+          84,
+          266,
+          603,
+          1138,
+          1750,
+          2164,
+          2711,
+          3587
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,14 +130,14 @@
         "label": "UNC – Lapsed D",
         "data": [
           6,
-          66,
-          202,
-          363,
-          607,
-          754,
-          646,
-          447,
-          93
+          63,
+          186,
+          336,
+          539,
+          679,
+          606,
+          459,
+          137
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -113,23 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          1,
+          0,
           42,
-          202,
-          463,
-          317,
-          321,
-          318,
-          190,
-          146
+          237,
+          523,
+          435,
+          480,
+          493,
+          287,
+          304
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "Washington Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 63",
-      "Mixed – Active — 57",
+      "UNC – Lapsed R — 68",
+      "Mixed – Active — 54",
       "Mixed – Lapsed — 24",
-      "UNC – No Primary — 213",
-      "UNC – Lapsed D — 45"
+      "UNC – Non-partisan Ballot — 1",
+      "UNC – No Primary — 206",
+      "UNC – Lapsed D — 50"
     ],
     "datasets": [
       {
         "data": [
-          63,
-          57,
+          68,
+          54,
           24,
-          213,
-          45
+          1,
+          206,
+          50
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "OHIO TWP (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

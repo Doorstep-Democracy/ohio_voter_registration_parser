@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 430 (3%)",
-      "UNC – Lapsed R — 455 (3%)",
-      "Mixed – Active — 777 (5%)",
-      "Mixed – Lapsed — 1,102 (7%)",
-      "UNC – No Primary — 8,016 (48%)",
-      "UNC – Lapsed D — 3,889 (23%)",
-      "Pure D — 1,998 (12%)"
+      "Pure R — 421 (2%)",
+      "UNC – Lapsed R — 463 (3%)",
+      "Mixed – Active — 776 (5%)",
+      "Mixed – Lapsed — 412 (2%)",
+      "Minor Party — 30 (0%)",
+      "UNC – Non-partisan Ballot — 552 (3%)",
+      "UNC – No Primary — 8,333 (49%)",
+      "UNC – Lapsed D — 3,633 (21%)",
+      "Pure D — 2,393 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          430,
-          455,
-          777,
-          1102,
-          8016,
-          3889,
-          1998
+          421,
+          463,
+          776,
+          412,
+          30,
+          552,
+          8333,
+          3633,
+          2393
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "GARFIELD HEIGHTS CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

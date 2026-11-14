@@ -4,7 +4,7 @@
   "precinct": "DAYTON 14-A",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -21,7 +21,7 @@
       {
         "label": "Pure R",
         "data": [
-          1,
+          0,
           0,
           2,
           4,
@@ -57,7 +57,7 @@
         "data": [
           0,
           2,
-          2,
+          1,
           10,
           8,
           1,
@@ -74,8 +74,8 @@
         "data": [
           0,
           0,
-          7,
           6,
+          5,
           2,
           3,
           1,
@@ -83,6 +83,23 @@
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -108,13 +125,13 @@
         "data": [
           0,
           0,
-          9,
-          39,
-          51,
-          41,
-          52,
-          75,
-          86
+          8,
+          36,
+          54,
+          42,
+          56,
+          80,
+          98
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -124,13 +141,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          14,
-          24,
+          13,
+          23,
           38,
-          39,
+          41,
           25,
-          18,
           17,
+          16,
           2
         ],
         "backgroundColor": "#93c5fd",
@@ -141,11 +158,11 @@
         "label": "Pure D",
         "data": [
           0,
-          20,
-          32,
-          51,
-          35,
-          16,
+          19,
+          33,
+          49,
+          37,
+          15,
           11,
           6,
           5

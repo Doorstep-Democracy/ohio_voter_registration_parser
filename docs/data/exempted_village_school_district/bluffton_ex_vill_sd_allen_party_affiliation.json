@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 993 (23%)",
-      "UNC – Lapsed R — 850 (20%)",
-      "Mixed – Active — 282 (7%)",
-      "Mixed – Lapsed — 363 (8%)",
-      "UNC – No Primary — 1,287 (30%)",
+      "Pure R — 988 (23%)",
+      "UNC – Lapsed R — 854 (20%)",
+      "Mixed – Active — 281 (6%)",
+      "Mixed – Lapsed — 173 (4%)",
+      "Minor Party — 8 (0%)",
+      "UNC – Non-partisan Ballot — 186 (4%)",
+      "UNC – No Primary — 1,311 (30%)",
       "UNC – Lapsed D — 269 (6%)",
-      "Pure D — 278 (6%)"
+      "Pure D — 276 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          993,
-          850,
-          282,
-          363,
-          1287,
+          988,
+          854,
+          281,
+          173,
+          8,
+          186,
+          1311,
           269,
-          278
+          276
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "BLUFFTON EX VILL SD (ALLEN)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Bluffton Ex Vill Sd (Allen Co.)",
+  "updated": "2026-11-12"
 }

@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 48 (1%)",
-      "UNC – Lapsed R — 84 (1%)",
-      "Mixed – Active — 154 (2%)",
-      "Mixed – Lapsed — 91 (1%)",
-      "UNC – Non-partisan Ballot — 69 (1%)",
-      "UNC – No Primary — 3,188 (45%)",
-      "UNC – Lapsed D — 1,624 (23%)",
-      "Pure D — 1,870 (26%)"
+      "Pure R — 47 (1%)",
+      "UNC – Lapsed R — 82 (1%)",
+      "Mixed – Active — 153 (2%)",
+      "Mixed – Lapsed — 88 (1%)",
+      "Minor Party — 12 (0%)",
+      "UNC – Non-partisan Ballot — 72 (1%)",
+      "UNC – No Primary — 3,309 (46%)",
+      "UNC – Lapsed D — 1,618 (22%)",
+      "Pure D — 1,851 (26%)"
     ],
     "datasets": [
       {
         "data": [
-          48,
-          84,
-          154,
-          91,
-          69,
-          3188,
-          1624,
-          1870
+          47,
+          82,
+          153,
+          88,
+          12,
+          72,
+          3309,
+          1618,
+          1851
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "CLEVELAND HEIGHTS WARD 5 (CLEVELAND HEIGHTS City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

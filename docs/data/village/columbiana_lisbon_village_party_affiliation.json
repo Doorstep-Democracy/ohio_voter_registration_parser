@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 235 (15%)",
-      "UNC – Lapsed R — 131 (8%)",
-      "Mixed – Active — 177 (11%)",
-      "Mixed – Lapsed — 105 (6%)",
-      "UNC – No Primary — 738 (46%)",
-      "UNC – Lapsed D — 162 (10%)",
-      "Pure D — 68 (4%)"
+      "Pure R — 223 (14%)",
+      "UNC – Lapsed R — 140 (9%)",
+      "Mixed – Active — 178 (11%)",
+      "Mixed – Lapsed — 77 (5%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 23 (1%)",
+      "UNC – No Primary — 756 (46%)",
+      "UNC – Lapsed D — 164 (10%)",
+      "Pure D — 75 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          235,
-          131,
-          177,
-          105,
-          738,
-          162,
-          68
+          223,
+          140,
+          178,
+          77,
+          1,
+          23,
+          756,
+          164,
+          75
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LISBON VILLAGE (Columbiana Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

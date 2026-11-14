@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 445 (2%)",
+      "Pure R — 437 (2%)",
       "UNC – Lapsed R — 863 (4%)",
-      "Mixed – Active — 1,501 (7%)",
-      "Mixed – Lapsed — 1,291 (6%)",
-      "UNC – No Primary — 7,360 (34%)",
-      "UNC – Lapsed D — 4,729 (22%)",
-      "Pure D — 5,502 (25%)"
+      "Mixed – Active — 1,493 (7%)",
+      "Mixed – Lapsed — 877 (4%)",
+      "Minor Party — 24 (0%)",
+      "UNC – Non-partisan Ballot — 400 (2%)",
+      "UNC – No Primary — 7,607 (35%)",
+      "UNC – Lapsed D — 4,732 (22%)",
+      "Pure D — 5,470 (25%)"
     ],
     "datasets": [
       {
         "data": [
-          445,
+          437,
           863,
-          1501,
-          1291,
-          7360,
-          4729,
-          5502
+          1493,
+          877,
+          24,
+          400,
+          7607,
+          4732,
+          5470
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SHAKER HTS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

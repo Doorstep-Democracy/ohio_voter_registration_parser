@@ -17,15 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          75,
+          1,
+          76,
           252,
-          384,
-          276,
-          170,
-          104,
+          383,
+          275,
+          167,
+          101,
           54,
-          37
+          38
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -33,14 +33,14 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          8,
-          38,
-          105,
-          136,
-          182,
-          162,
-          165,
-          106,
+          6,
+          37,
+          109,
+          137,
+          180,
+          161,
+          163,
+          107,
           18
         ],
         "backgroundColor": "#fca5a5",
@@ -52,10 +52,10 @@
           2,
           35,
           157,
-          254,
-          133,
+          251,
+          132,
           90,
-          37,
+          38,
           7,
           0
         ],
@@ -66,30 +66,62 @@
         "label": "Mixed – Lapsed",
         "data": [
           1,
-          24,
-          74,
-          77,
-          89,
-          112,
-          86,
-          38,
-          18
+          16,
+          58,
+          44,
+          54,
+          63,
+          31,
+          7,
+          1
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          2,
+          5,
+          4,
+          2,
+          1,
+          2,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          0,
+          8,
+          22,
+          31,
+          34,
+          44,
+          53,
+          29,
+          17
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           2,
-          21,
-          61,
-          133,
-          208,
-          245,
+          19,
+          66,
+          137,
+          212,
+          252,
           340,
-          479,
-          432
+          474,
+          462
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -98,13 +130,13 @@
         "label": "UNC – Lapsed D",
         "data": [
           3,
-          25,
+          23,
           85,
-          104,
-          82,
-          79,
-          75,
-          46,
+          106,
+          80,
+          76,
+          77,
+          48,
           4
         ],
         "backgroundColor": "#93c5fd",
@@ -115,21 +147,21 @@
         "data": [
           2,
           20,
-          93,
+          96,
           102,
           73,
-          42,
-          35,
+          40,
+          34,
           21,
-          20
+          19
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Pleasant Local Sd (Marion Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

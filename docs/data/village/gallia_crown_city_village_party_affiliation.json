@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 76 (30%)",
-      "UNC – Lapsed R — 44 (17%)",
-      "Mixed – Active — 18 (7%)",
-      "Mixed – Lapsed — 5 (2%)",
-      "UNC – No Primary — 90 (35%)",
-      "UNC – Lapsed D — 15 (6%)",
-      "Pure D — 8 (3%)"
+      "Pure R — 55 (21%)",
+      "UNC – Lapsed R — 64 (25%)",
+      "Mixed – Active — 11 (4%)",
+      "Mixed – Lapsed — 13 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 1 (0%)",
+      "UNC – No Primary — 94 (36%)",
+      "UNC – Lapsed D — 20 (8%)",
+      "Pure D — 2 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          76,
-          44,
-          18,
-          5,
-          90,
-          15,
-          8
+          55,
+          64,
+          11,
+          13,
+          0,
+          1,
+          94,
+          20,
+          2
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CROWN CITY VILLAGE (Gallia Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

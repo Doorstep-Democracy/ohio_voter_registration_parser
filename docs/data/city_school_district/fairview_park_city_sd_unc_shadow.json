@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 965",
-      "Mixed – Active — 1,396",
-      "Mixed – Lapsed — 1,043",
-      "UNC – No Primary — 4,276",
-      "UNC – Lapsed D — 1,901"
+      "UNC – Lapsed R — 1,048",
+      "Mixed – Active — 1,377",
+      "Mixed – Lapsed — 664",
+      "UNC – Non-partisan Ballot — 358",
+      "UNC – No Primary — 4,208",
+      "UNC – Lapsed D — 1,764"
     ],
     "datasets": [
       {
         "data": [
-          965,
-          1396,
-          1043,
-          4276,
-          1901
+          1048,
+          1377,
+          664,
+          358,
+          4208,
+          1764
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "FAIRVIEW PARK CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

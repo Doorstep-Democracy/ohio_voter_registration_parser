@@ -3,7 +3,6 @@
   "type": "bar",
   "chartConfig": {
     "labels": [
-      "1910s",
       "1920s",
       "1930s",
       "1940s",
@@ -18,16 +17,15 @@
       {
         "label": "Pure R",
         "data": [
-          0,
-          5,
-          62,
-          186,
-          346,
-          257,
-          186,
-          142,
-          86,
-          58
+          2,
+          55,
+          162,
+          353,
+          263,
+          201,
+          146,
+          87,
+          71
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -35,16 +33,15 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          0,
-          3,
-          23,
-          97,
-          119,
-          152,
+          5,
+          26,
+          111,
           124,
-          138,
-          110,
-          4
+          153,
+          121,
+          148,
+          118,
+          18
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -52,16 +49,15 @@
       {
         "label": "Mixed – Active",
         "data": [
-          0,
           2,
-          62,
-          241,
-          427,
-          264,
-          135,
-          68,
-          13,
-          1
+          56,
+          242,
+          453,
+          285,
+          154,
+          71,
+          19,
+          2
         ],
         "backgroundColor": "#f59e0b",
         "stack": "unc_mid"
@@ -69,33 +65,63 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          0,
-          2,
-          34,
-          81,
-          135,
-          140,
-          151,
-          101,
-          43,
-          6
+          1,
+          33,
+          63,
+          70,
+          68,
+          62,
+          42,
+          16,
+          0
         ],
         "backgroundColor": "#a78bfa",
         "stack": "unc_mid"
       },
       {
-        "label": "UNC – No Primary",
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          3,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
           5,
-          18,
+          22,
+          53,
+          64,
+          81,
           62,
-          252,
-          330,
-          448,
-          651,
-          739,
-          647
+          25,
+          5
+        ],
+        "backgroundColor": "#c4b5cd",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – No Primary",
+        "data": [
+          4,
+          15,
+          62,
+          231,
+          319,
+          430,
+          636,
+          726,
+          679
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -103,16 +129,15 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          1,
-          14,
-          51,
-          160,
-          186,
-          184,
-          163,
-          151,
-          88,
-          9
+          12,
+          49,
+          133,
+          162,
+          162,
+          143,
+          144,
+          78,
+          12
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -120,24 +145,23 @@
       {
         "label": "Pure D",
         "data": [
-          0,
-          5,
-          58,
-          141,
-          201,
-          83,
-          34,
-          36,
-          17,
-          8
+          2,
+          39,
+          152,
+          223,
+          102,
+          49,
+          43,
+          32,
+          20
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "RICHLAND TOWNSHIP (Belmont Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

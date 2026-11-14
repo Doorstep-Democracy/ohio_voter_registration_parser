@@ -4,29 +4,35 @@
   "chartConfig": {
     "labels": [
       "Pure R — 210 (12%)",
-      "UNC – Lapsed R — 176 (10%)",
-      "Mixed – Active — 233 (13%)",
-      "Mixed – Lapsed — 204 (12%)",
-      "UNC – No Primary — 442 (26%)",
+      "UNC – Lapsed R — 174 (10%)",
+      "Mixed – Active — 232 (13%)",
+      "Mixed – Lapsed — 106 (6%)",
+      "Minor Party — 11 (1%)",
+      "UNC – Non-partisan Ballot — 90 (5%)",
+      "UNC – No Primary — 449 (26%)",
       "UNC – Lapsed D — 239 (14%)",
-      "Pure D — 226 (13%)"
+      "Pure D — 225 (13%)"
     ],
     "datasets": [
       {
         "data": [
           210,
-          176,
-          233,
-          204,
-          442,
+          174,
+          232,
+          106,
+          11,
+          90,
+          449,
           239,
-          226
+          225
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-14 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "WALTON HILLS CITY",
-  "updated": "2026-07-14"
+  "updated": "2026-11-12"
 }

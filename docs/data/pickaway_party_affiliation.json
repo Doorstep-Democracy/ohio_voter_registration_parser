@@ -3,14 +3,15 @@
   "county": "Pickaway",
   "geography": "county",
   "type": "doughnut",
-  "updated": "2026-07-25",
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "updated": "2026-11-12",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "chartConfig": {
     "labels": [
       "Pure R",
       "UNC – Lapsed R",
       "Mixed – Active",
       "Mixed – Lapsed",
+      "Minor Party",
       "UNC – Non-partisan Ballot",
       "UNC – No Primary",
       "UNC – Lapsed D",
@@ -19,20 +20,22 @@
     "datasets": [
       {
         "data": [
-          8386,
-          4134,
-          4260,
-          1221,
-          1600,
-          13686,
-          2956,
-          2030
+          8291,
+          4193,
+          4224,
+          1248,
+          43,
+          1589,
+          14065,
+          2938,
+          1995
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -44,8 +47,8 @@
     ]
   },
   "meta": {
-    "new_registrants_r": 306,
-    "new_registrants_d": 151,
-    "new_registrants_unc": 5017
+    "new_registrants_r": 302,
+    "new_registrants_d": 147,
+    "new_registrants_unc": 5418
   }
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,338 (16%)",
-      "UNC – Lapsed R — 3,594 (17%)",
-      "Mixed – Active — 1,363 (6%)",
-      "Mixed – Lapsed — 3,240 (15%)",
-      "UNC – No Primary — 6,716 (31%)",
-      "UNC – Lapsed D — 2,303 (11%)",
-      "Pure D — 962 (4%)"
+      "Pure R — 3,140 (14%)",
+      "UNC – Lapsed R — 3,748 (17%)",
+      "Mixed – Active — 1,493 (7%)",
+      "Mixed – Lapsed — 1,082 (5%)",
+      "Minor Party — 30 (0%)",
+      "UNC – Non-partisan Ballot — 1,952 (9%)",
+      "UNC – No Primary — 6,757 (31%)",
+      "UNC – Lapsed D — 2,035 (9%)",
+      "Pure D — 1,478 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          3338,
-          3594,
-          1363,
-          3240,
-          6716,
-          2303,
-          962
+          3140,
+          3748,
+          1493,
+          1082,
+          30,
+          1952,
+          6757,
+          2035,
+          1478
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "LOVELAND CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 3,703 (10%)",
-      "UNC – Lapsed R — 2,567 (7%)",
-      "Mixed – Active — 3,559 (10%)",
-      "Mixed – Lapsed — 2,488 (7%)",
-      "UNC – No Primary — 13,738 (38%)",
-      "UNC – Lapsed D — 5,314 (15%)",
-      "Pure D — 4,727 (13%)"
+      "Pure R — 3,934 (11%)",
+      "UNC – Lapsed R — 2,661 (7%)",
+      "Mixed – Active — 3,871 (11%)",
+      "Mixed – Lapsed — 1,295 (4%)",
+      "Minor Party — 83 (0%)",
+      "UNC – Non-partisan Ballot — 1,131 (3%)",
+      "UNC – No Primary — 13,470 (37%)",
+      "UNC – Lapsed D — 4,889 (13%)",
+      "Pure D — 5,338 (15%)"
     ],
     "datasets": [
       {
         "data": [
-          3703,
-          2567,
-          3559,
-          2488,
-          13738,
-          5314,
-          4727
+          3934,
+          2661,
+          3871,
+          1295,
+          83,
+          1131,
+          13470,
+          4889,
+          5338
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "OBERLIN (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

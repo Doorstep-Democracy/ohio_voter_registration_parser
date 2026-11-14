@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 10,348 (9%)",
-      "UNC – Lapsed R — 8,950 (8%)",
-      "Mixed – Active — 12,735 (11%)",
-      "Mixed – Lapsed — 13,028 (11%)",
-      "UNC – No Primary — 44,792 (38%)",
-      "UNC – Lapsed D — 17,230 (15%)",
-      "Pure D — 10,730 (9%)"
+      "Pure R — 9,941 (8%)",
+      "UNC – Lapsed R — 9,614 (8%)",
+      "Mixed – Active — 13,100 (11%)",
+      "Mixed – Lapsed — 6,063 (5%)",
+      "Minor Party — 275 (0%)",
+      "UNC – Non-partisan Ballot — 6,170 (5%)",
+      "UNC – No Primary — 44,242 (37%)",
+      "UNC – Lapsed D — 15,181 (13%)",
+      "Pure D — 13,667 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          10348,
-          8950,
-          12735,
-          13028,
-          44792,
-          17230,
-          10730
+          9941,
+          9614,
+          13100,
+          6063,
+          275,
+          6170,
+          44242,
+          15181,
+          13667
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "PARMA (Cuyahoga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

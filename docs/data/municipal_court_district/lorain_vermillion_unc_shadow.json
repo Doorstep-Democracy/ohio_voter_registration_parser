@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 540",
-      "Mixed – Active — 634",
-      "Mixed – Lapsed — 553",
-      "UNC – No Primary — 1,897",
-      "UNC – Lapsed D — 806"
+      "UNC – Lapsed R — 535",
+      "Mixed – Active — 703",
+      "Mixed – Lapsed — 279",
+      "UNC – Non-partisan Ballot — 234",
+      "UNC – No Primary — 1,852",
+      "UNC – Lapsed D — 711"
     ],
     "datasets": [
       {
         "data": [
-          540,
-          634,
-          553,
-          1897,
-          806
+          535,
+          703,
+          279,
+          234,
+          1852,
+          711
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Municipal Court District",
   "jurisdiction_name": "VERMILLION (Lorain Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

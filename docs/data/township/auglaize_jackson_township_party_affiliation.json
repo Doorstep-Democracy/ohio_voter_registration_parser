@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 738 (25%)",
-      "UNC – Lapsed R — 526 (18%)",
-      "Mixed – Active — 230 (8%)",
-      "Mixed – Lapsed — 259 (9%)",
-      "UNC – No Primary — 990 (34%)",
-      "UNC – Lapsed D — 122 (4%)",
-      "Pure D — 54 (2%)"
+      "Pure R — 574 (20%)",
+      "UNC – Lapsed R — 728 (25%)",
+      "Mixed – Active — 202 (7%)",
+      "Mixed – Lapsed — 154 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 127 (4%)",
+      "UNC – No Primary — 975 (33%)",
+      "UNC – Lapsed D — 125 (4%)",
+      "Pure D — 51 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          738,
-          526,
-          230,
-          259,
-          990,
-          122,
-          54
+          574,
+          728,
+          202,
+          154,
+          0,
+          127,
+          975,
+          125,
+          51
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TOWNSHIP (Auglaize Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

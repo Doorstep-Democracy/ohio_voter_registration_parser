@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 2,257",
-      "Mixed – Active — 2,316",
-      "Mixed – Lapsed — 2,181",
-      "UNC – No Primary — 6,285",
-      "UNC – Lapsed D — 1,914"
+      "UNC – Lapsed R — 2,495",
+      "Mixed – Active — 2,331",
+      "Mixed – Lapsed — 815",
+      "UNC – Non-partisan Ballot — 1,363",
+      "UNC – No Primary — 6,378",
+      "UNC – Lapsed D — 1,805"
     ],
     "datasets": [
       {
         "data": [
-          2257,
-          2316,
-          2181,
-          6285,
-          1914
+          2495,
+          2331,
+          815,
+          1363,
+          6378,
+          1805
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "LAKE (Stark Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

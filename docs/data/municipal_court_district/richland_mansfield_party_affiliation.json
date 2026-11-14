@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 12,824 (19%)",
-      "UNC – Lapsed R — 6,714 (10%)",
-      "Mixed – Active — 5,296 (8%)",
-      "Mixed – Lapsed — 4,485 (7%)",
-      "UNC – No Primary — 27,157 (41%)",
-      "UNC – Lapsed D — 6,584 (10%)",
-      "Pure D — 3,859 (6%)"
+      "Pure R — 13,047 (19%)",
+      "UNC – Lapsed R — 7,222 (11%)",
+      "Mixed – Active — 5,577 (8%)",
+      "Mixed – Lapsed — 1,918 (3%)",
+      "Minor Party — 234 (0%)",
+      "UNC – Non-partisan Ballot — 2,388 (4%)",
+      "UNC – No Primary — 26,234 (39%)",
+      "UNC – Lapsed D — 5,782 (9%)",
+      "Pure D — 4,879 (7%)"
     ],
     "datasets": [
       {
         "data": [
-          12824,
-          6714,
-          5296,
-          4485,
-          27157,
-          6584,
-          3859
+          13047,
+          7222,
+          5577,
+          1918,
+          234,
+          2388,
+          26234,
+          5782,
+          4879
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "MANSFIELD (Richland Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

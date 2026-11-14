@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,197 (13%)",
-      "UNC – Lapsed R — 1,251 (14%)",
-      "Mixed – Active — 576 (6%)",
-      "Mixed – Lapsed — 779 (9%)",
-      "UNC – No Primary — 3,734 (41%)",
-      "UNC – Lapsed D — 1,019 (11%)",
-      "Pure D — 496 (5%)"
+      "Pure R — 1,088 (12%)",
+      "UNC – Lapsed R — 1,355 (15%)",
+      "Mixed – Active — 588 (6%)",
+      "Mixed – Lapsed — 407 (4%)",
+      "Minor Party — 25 (0%)",
+      "UNC – Non-partisan Ballot — 302 (3%)",
+      "UNC – No Primary — 3,739 (41%)",
+      "UNC – Lapsed D — 922 (10%)",
+      "Pure D — 736 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          1197,
-          1251,
-          576,
-          779,
-          3734,
-          1019,
-          496
+          1088,
+          1355,
+          588,
+          407,
+          25,
+          302,
+          3739,
+          922,
+          736
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "SHARONVILLE CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

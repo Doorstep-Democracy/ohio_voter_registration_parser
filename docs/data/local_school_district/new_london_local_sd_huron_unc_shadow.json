@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 449",
-      "Mixed – Active — 274",
-      "Mixed – Lapsed — 285",
-      "UNC – No Primary — 1,581",
-      "UNC – Lapsed D — 313"
+      "UNC – Lapsed R — 453",
+      "Mixed – Active — 272",
+      "Mixed – Lapsed — 112",
+      "UNC – Non-partisan Ballot — 172",
+      "UNC – No Primary — 1,602",
+      "UNC – Lapsed D — 314"
     ],
     "datasets": [
       {
         "data": [
-          449,
-          274,
-          285,
-          1581,
-          313
+          453,
+          272,
+          112,
+          172,
+          1602,
+          314
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "New London Local Sd (Huron Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

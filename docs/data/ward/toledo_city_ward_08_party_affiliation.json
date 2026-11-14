@@ -3,32 +3,35 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 99 (1%)",
-      "UNC – Lapsed R — 247 (2%)",
-      "Mixed – Active — 171 (1%)",
-      "Mixed – Lapsed — 121 (1%)",
-      "UNC – Non-partisan Ballot — 280 (2%)",
-      "UNC – No Primary — 7,132 (61%)",
-      "UNC – Lapsed D — 2,223 (19%)",
-      "Pure D — 1,442 (12%)"
+      "Pure R — 97 (1%)",
+      "UNC – Lapsed R — 253 (2%)",
+      "Mixed – Active — 167 (1%)",
+      "Mixed – Lapsed — 125 (1%)",
+      "Minor Party — 17 (0%)",
+      "UNC – Non-partisan Ballot — 276 (2%)",
+      "UNC – No Primary — 7,424 (62%)",
+      "UNC – Lapsed D — 2,204 (18%)",
+      "Pure D — 1,427 (12%)"
     ],
     "datasets": [
       {
         "data": [
-          99,
-          247,
-          171,
-          121,
-          280,
-          7132,
-          2223,
-          1442
+          97,
+          253,
+          167,
+          125,
+          17,
+          276,
+          7424,
+          2204,
+          1427
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
           "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
@@ -37,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-25 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Ward",
   "jurisdiction_name": "WARD 08 (TOLEDO City)",
-  "updated": "2026-07-25"
+  "updated": "2026-11-12"
 }

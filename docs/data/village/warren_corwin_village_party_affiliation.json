@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 116 (29%)",
-      "UNC – Lapsed R — 70 (18%)",
-      "Mixed – Active — 43 (11%)",
-      "Mixed – Lapsed — 27 (7%)",
-      "UNC – No Primary — 109 (27%)",
+      "Pure R — 124 (31%)",
+      "UNC – Lapsed R — 70 (17%)",
+      "Mixed – Active — 45 (11%)",
+      "Mixed – Lapsed — 18 (4%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 9 (2%)",
+      "UNC – No Primary — 100 (25%)",
       "UNC – Lapsed D — 28 (7%)",
-      "Pure D — 7 (2%)"
+      "Pure D — 8 (2%)"
     ],
     "datasets": [
       {
         "data": [
-          116,
+          124,
           70,
-          43,
-          27,
-          109,
+          45,
+          18,
+          0,
+          9,
+          100,
           28,
-          7
+          8
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CORWIN VILLAGE (Warren Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

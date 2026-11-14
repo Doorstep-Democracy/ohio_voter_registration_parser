@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 22 (22%)",
-      "UNC – Lapsed R — 16 (16%)",
-      "Mixed – Active — 9 (9%)",
+      "Pure R — 21 (22%)",
+      "UNC – Lapsed R — 17 (18%)",
+      "Mixed – Active — 8 (8%)",
       "Mixed – Lapsed — 3 (3%)",
-      "UNC – No Primary — 45 (45%)",
+      "Minor Party — 1 (1%)",
+      "UNC – Non-partisan Ballot — 1 (1%)",
+      "UNC – No Primary — 42 (43%)",
       "UNC – Lapsed D — 3 (3%)",
       "Pure D — 1 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          22,
-          16,
-          9,
+          21,
+          17,
+          8,
           3,
-          45,
+          1,
+          1,
+          42,
           3,
           1
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "CLOVERDALE VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

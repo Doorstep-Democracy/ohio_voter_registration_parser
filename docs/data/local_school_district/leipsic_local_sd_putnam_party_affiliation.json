@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 457 (20%)",
-      "UNC – Lapsed R — 293 (13%)",
-      "Mixed – Active — 212 (9%)",
-      "Mixed – Lapsed — 91 (4%)",
-      "UNC – No Primary — 987 (44%)",
+      "Pure R — 455 (20%)",
+      "UNC – Lapsed R — 295 (13%)",
+      "Mixed – Active — 209 (9%)",
+      "Mixed – Lapsed — 68 (3%)",
+      "Minor Party — 10 (0%)",
+      "UNC – Non-partisan Ballot — 24 (1%)",
+      "UNC – No Primary — 994 (44%)",
       "UNC – Lapsed D — 151 (7%)",
       "Pure D — 72 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          457,
-          293,
-          212,
-          91,
-          987,
+          455,
+          295,
+          209,
+          68,
+          10,
+          24,
+          994,
           151,
           72
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Leipsic Local Sd (Putnam Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

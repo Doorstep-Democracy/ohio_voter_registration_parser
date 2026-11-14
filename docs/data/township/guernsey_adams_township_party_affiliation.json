@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 287 (22%)",
-      "UNC – Lapsed R — 169 (13%)",
-      "Mixed – Active — 123 (9%)",
-      "Mixed – Lapsed — 92 (7%)",
-      "UNC – No Primary — 492 (38%)",
-      "UNC – Lapsed D — 96 (7%)",
-      "Pure D — 44 (3%)"
+      "Pure R — 254 (19%)",
+      "UNC – Lapsed R — 204 (16%)",
+      "Mixed – Active — 109 (8%)",
+      "Mixed – Lapsed — 67 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 43 (3%)",
+      "UNC – No Primary — 497 (38%)",
+      "UNC – Lapsed D — 83 (6%)",
+      "Pure D — 57 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          287,
-          169,
-          123,
-          92,
-          492,
-          96,
-          44
+          254,
+          204,
+          109,
+          67,
+          0,
+          43,
+          497,
+          83,
+          57
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ADAMS TOWNSHIP (Guernsey Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

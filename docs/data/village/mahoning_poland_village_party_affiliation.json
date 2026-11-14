@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 191 (10%)",
-      "UNC – Lapsed R — 128 (7%)",
-      "Mixed – Active — 336 (18%)",
-      "Mixed – Lapsed — 164 (9%)",
-      "UNC – No Primary — 591 (31%)",
-      "UNC – Lapsed D — 245 (13%)",
-      "Pure D — 251 (13%)"
+      "Pure R — 180 (9%)",
+      "UNC – Lapsed R — 150 (8%)",
+      "Mixed – Active — 337 (18%)",
+      "Mixed – Lapsed — 134 (7%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 33 (2%)",
+      "UNC – No Primary — 579 (30%)",
+      "UNC – Lapsed D — 229 (12%)",
+      "Pure D — 268 (14%)"
     ],
     "datasets": [
       {
         "data": [
-          191,
-          128,
-          336,
-          164,
-          591,
-          245,
-          251
+          180,
+          150,
+          337,
+          134,
+          1,
+          33,
+          579,
+          229,
+          268
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "POLAND VILLAGE (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

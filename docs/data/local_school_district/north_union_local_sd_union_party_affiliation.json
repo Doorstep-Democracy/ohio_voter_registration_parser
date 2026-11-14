@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,350 (24%)",
+      "Pure R — 1,337 (24%)",
       "UNC – Lapsed R — 864 (15%)",
-      "Mixed – Active — 421 (7%)",
-      "Mixed – Lapsed — 330 (6%)",
-      "UNC – No Primary — 2,131 (38%)",
-      "UNC – Lapsed D — 355 (6%)",
-      "Pure D — 179 (3%)"
+      "Mixed – Active — 420 (7%)",
+      "Mixed – Lapsed — 207 (4%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 119 (2%)",
+      "UNC – No Primary — 2,175 (38%)",
+      "UNC – Lapsed D — 354 (6%)",
+      "Pure D — 177 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1350,
+          1337,
           864,
-          421,
-          330,
-          2131,
-          355,
-          179
+          420,
+          207,
+          11,
+          119,
+          2175,
+          354,
+          177
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "North Union Local Sd (Union Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

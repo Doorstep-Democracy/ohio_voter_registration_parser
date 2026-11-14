@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 120",
+      "UNC – Lapsed R — 132",
       "Mixed – Active — 86",
-      "Mixed – Lapsed — 59",
-      "UNC – No Primary — 311",
-      "UNC – Lapsed D — 88"
+      "Mixed – Lapsed — 41",
+      "UNC – Non-partisan Ballot — 14",
+      "UNC – No Primary — 316",
+      "UNC – Lapsed D — 82"
     ],
     "datasets": [
       {
         "data": [
-          120,
+          132,
           86,
-          59,
-          311,
-          88
+          41,
+          14,
+          316,
+          82
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "GOOD HOPE TWP (Hocking Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

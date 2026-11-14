@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 933",
-      "Mixed – Active — 1,874",
-      "Mixed – Lapsed — 976",
-      "UNC – No Primary — 15,983",
-      "UNC – Lapsed D — 5,168"
+      "UNC – Lapsed R — 1,021",
+      "Mixed – Active — 1,858",
+      "Mixed – Lapsed — 777",
+      "UNC – Non-partisan Ballot — 337",
+      "UNC – No Primary — 16,030",
+      "UNC – Lapsed D — 5,065"
     ],
     "datasets": [
       {
         "data": [
-          933,
-          1874,
-          976,
-          15983,
-          5168
+          1021,
+          1858,
+          777,
+          337,
+          16030,
+          5065
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City School District",
   "jurisdiction_name": "LORAIN CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

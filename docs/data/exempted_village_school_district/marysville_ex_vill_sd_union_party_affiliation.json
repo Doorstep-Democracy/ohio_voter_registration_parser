@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 4,973 (20%)",
-      "UNC – Lapsed R — 3,446 (14%)",
-      "Mixed – Active — 1,797 (7%)",
-      "Mixed – Lapsed — 3,569 (14%)",
-      "UNC – No Primary — 8,332 (33%)",
-      "UNC – Lapsed D — 1,874 (7%)",
-      "Pure D — 1,149 (5%)"
+      "Pure R — 4,928 (19%)",
+      "UNC – Lapsed R — 3,504 (14%)",
+      "Mixed – Active — 1,777 (7%)",
+      "Mixed – Lapsed — 838 (3%)",
+      "Minor Party — 40 (0%)",
+      "UNC – Non-partisan Ballot — 2,720 (11%)",
+      "UNC – No Primary — 8,655 (34%)",
+      "UNC – Lapsed D — 1,921 (8%)",
+      "Pure D — 1,127 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          4973,
-          3446,
-          1797,
-          3569,
-          8332,
-          1874,
-          1149
+          4928,
+          3504,
+          1777,
+          838,
+          40,
+          2720,
+          8655,
+          1921,
+          1127
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "MARYSVILLE EX VILL SD (UNION)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Marysville Ex Vill Sd (Union Co.)",
+  "updated": "2026-11-12"
 }

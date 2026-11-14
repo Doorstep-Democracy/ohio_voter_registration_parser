@@ -4,7 +4,7 @@
   "precinct": "GALION 4C",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,7 +19,7 @@
         "label": "Pure R",
         "data": [
           29,
-          69,
+          67,
           31,
           8,
           3
@@ -34,8 +34,8 @@
           19,
           29,
           26,
-          18,
-          5
+          19,
+          3
         ],
         "backgroundColor": "#fca5a5",
         "borderRadius": 2,
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          10,
-          19,
+          9,
+          20,
           11,
-          2,
+          3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -74,7 +87,7 @@
           11,
           10,
           4,
-          6
+          5
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 2,
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           3,
-          28,
+          29,
           51,
           72,
-          68
+          72
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -112,7 +125,7 @@
           9,
           31,
           6,
-          3,
+          2,
           1
         ],
         "backgroundColor": "#3b82f6",

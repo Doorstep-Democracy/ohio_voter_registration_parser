@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 24 (7%)",
-      "UNC – Lapsed R — 27 (7%)",
-      "Mixed – Active — 35 (10%)",
-      "Mixed – Lapsed — 27 (7%)",
-      "UNC – No Primary — 157 (43%)",
-      "UNC – Lapsed D — 69 (19%)",
-      "Pure D — 25 (7%)"
+      "Pure R — 28 (8%)",
+      "UNC – Lapsed R — 22 (6%)",
+      "Mixed – Active — 32 (9%)",
+      "Mixed – Lapsed — 19 (5%)",
+      "Minor Party — 0 (0%)",
+      "UNC – Non-partisan Ballot — 8 (2%)",
+      "UNC – No Primary — 159 (44%)",
+      "UNC – Lapsed D — 63 (18%)",
+      "Pure D — 29 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          24,
-          27,
-          35,
-          27,
-          157,
-          69,
-          25
+          28,
+          22,
+          32,
+          19,
+          0,
+          8,
+          159,
+          63,
+          29
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "ADENA VILLAGE (Jefferson Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

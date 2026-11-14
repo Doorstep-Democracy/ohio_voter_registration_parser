@@ -3,23 +3,27 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 752 (19%)",
-      "UNC – Lapsed R — 821 (20%)",
-      "Mixed – Active — 352 (9%)",
-      "Mixed – Lapsed — 338 (8%)",
-      "UNC – No Primary — 1,344 (33%)",
-      "UNC – Lapsed D — 298 (7%)",
+      "Pure R — 749 (18%)",
+      "UNC – Lapsed R — 813 (20%)",
+      "Mixed – Active — 344 (8%)",
+      "Mixed – Lapsed — 241 (6%)",
+      "Minor Party — 5 (0%)",
+      "UNC – Non-partisan Ballot — 94 (2%)",
+      "UNC – No Primary — 1,364 (34%)",
+      "UNC – Lapsed D — 297 (7%)",
       "Pure D — 142 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          752,
-          821,
-          352,
-          338,
-          1344,
-          298,
+          749,
+          813,
+          344,
+          241,
+          5,
+          94,
+          1364,
+          297,
           142
         ],
         "backgroundColor": [
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "Central Local Sd (Defiance Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

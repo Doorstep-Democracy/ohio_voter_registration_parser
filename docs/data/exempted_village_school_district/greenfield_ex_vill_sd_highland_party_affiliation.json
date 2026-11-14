@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,133 (17%)",
-      "UNC – Lapsed R — 846 (12%)",
-      "Mixed – Active — 491 (7%)",
-      "Mixed – Lapsed — 381 (6%)",
-      "UNC – No Primary — 3,080 (45%)",
-      "UNC – Lapsed D — 593 (9%)",
-      "Pure D — 306 (4%)"
+      "Pure R — 1,122 (16%)",
+      "UNC – Lapsed R — 854 (13%)",
+      "Mixed – Active — 485 (7%)",
+      "Mixed – Lapsed — 251 (4%)",
+      "Minor Party — 13 (0%)",
+      "UNC – Non-partisan Ballot — 120 (2%)",
+      "UNC – No Primary — 3,100 (45%)",
+      "UNC – Lapsed D — 586 (9%)",
+      "Pure D — 300 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          1133,
-          846,
-          491,
-          381,
-          3080,
-          593,
-          306
+          1122,
+          854,
+          485,
+          251,
+          13,
+          120,
+          3100,
+          586,
+          300
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Exempted Village School District",
-  "jurisdiction_name": "GREENFIELD EX VILL SD (HIGHLAND)",
-  "updated": "2026-07-10"
+  "jurisdiction_name": "Greenfield Ex Vill Sd (Highland Co.)",
+  "updated": "2026-11-12"
 }

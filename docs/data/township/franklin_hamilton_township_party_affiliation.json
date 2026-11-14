@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 658 (9%)",
-      "UNC – Lapsed R — 716 (10%)",
-      "Mixed – Active — 347 (5%)",
-      "Mixed – Lapsed — 601 (8%)",
-      "UNC – No Primary — 3,972 (53%)",
-      "UNC – Lapsed D — 868 (12%)",
-      "Pure D — 324 (4%)"
+      "Pure R — 609 (8%)",
+      "UNC – Lapsed R — 774 (10%)",
+      "Mixed – Active — 352 (5%)",
+      "Mixed – Lapsed — 268 (4%)",
+      "Minor Party — 21 (0%)",
+      "UNC – Non-partisan Ballot — 306 (4%)",
+      "UNC – No Primary — 4,014 (53%)",
+      "UNC – Lapsed D — 781 (10%)",
+      "Pure D — 474 (6%)"
     ],
     "datasets": [
       {
         "data": [
-          658,
-          716,
-          347,
-          601,
-          3972,
-          868,
-          324
+          609,
+          774,
+          352,
+          268,
+          21,
+          306,
+          4014,
+          781,
+          474
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "Hamilton Township (Franklin Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,786 (10%)",
-      "UNC – Lapsed R — 1,176 (6%)",
-      "Mixed – Active — 1,616 (9%)",
-      "Mixed – Lapsed — 1,336 (7%)",
-      "UNC – No Primary — 8,222 (44%)",
-      "UNC – Lapsed D — 2,731 (15%)",
-      "Pure D — 1,726 (9%)"
+      "Pure R — 1,803 (10%)",
+      "UNC – Lapsed R — 1,247 (7%)",
+      "Mixed – Active — 1,652 (9%)",
+      "Mixed – Lapsed — 714 (4%)",
+      "Minor Party — 56 (0%)",
+      "UNC – Non-partisan Ballot — 549 (3%)",
+      "UNC – No Primary — 8,153 (44%)",
+      "UNC – Lapsed D — 2,473 (13%)",
+      "Pure D — 2,062 (11%)"
     ],
     "datasets": [
       {
         "data": [
-          1786,
-          1176,
-          1616,
-          1336,
-          8222,
-          2731,
-          1726
+          1803,
+          1247,
+          1652,
+          714,
+          56,
+          549,
+          8153,
+          2473,
+          2062
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Municipal Court District",
   "jurisdiction_name": "ASHTABULA (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

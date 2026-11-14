@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,434 (26%)",
+      "Pure R — 1,428 (26%)",
       "UNC – Lapsed R — 798 (14%)",
-      "Mixed – Active — 808 (15%)",
-      "Mixed – Lapsed — 315 (6%)",
-      "UNC – No Primary — 1,662 (30%)",
+      "Mixed – Active — 807 (15%)",
+      "Mixed – Lapsed — 262 (5%)",
+      "Minor Party — 11 (0%)",
+      "UNC – Non-partisan Ballot — 51 (1%)",
+      "UNC – No Primary — 1,698 (31%)",
       "UNC – Lapsed D — 349 (6%)",
-      "Pure D — 159 (3%)"
+      "Pure D — 157 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          1434,
+          1428,
           798,
-          808,
-          315,
-          1662,
+          807,
+          262,
+          11,
+          51,
+          1698,
           349,
-          159
+          157
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "OTTAWA TWP. (Putnam Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

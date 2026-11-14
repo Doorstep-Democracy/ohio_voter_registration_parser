@@ -13,11 +13,11 @@
       {
         "label": "Pure R",
         "data": [
-          45,
-          292,
-          262,
-          171,
-          40
+          43,
+          313,
+          259,
+          173,
+          41
         ],
         "backgroundColor": "#ef4444",
         "stack": "r_pure"
@@ -25,11 +25,11 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          33,
-          163,
-          196,
-          153,
-          34
+          35,
+          151,
+          204,
+          165,
+          38
         ],
         "backgroundColor": "#fca5a5",
         "stack": "unc_r"
@@ -37,10 +37,10 @@
       {
         "label": "Mixed – Active",
         "data": [
-          12,
-          106,
-          83,
-          35,
+          13,
+          111,
+          71,
+          41,
           2
         ],
         "backgroundColor": "#f59e0b",
@@ -49,23 +49,47 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          16,
-          89,
-          148,
-          116,
-          39
+          15,
+          50,
+          64,
+          23,
+          5
         ],
         "backgroundColor": "#a78bfa",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          1,
+          3,
+          4,
+          2
+        ],
+        "backgroundColor": "#14b8a6",
+        "stack": "unc_mid"
+      },
+      {
+        "label": "UNC – Non-partisan Ballot",
+        "data": [
+          2,
+          31,
+          90,
+          81,
+          29
+        ],
+        "backgroundColor": "#c4b5cd",
         "stack": "unc_mid"
       },
       {
         "label": "UNC – No Primary",
         "data": [
           32,
-          204,
-          410,
-          793,
-          703
+          209,
+          414,
+          796,
+          740
         ],
         "backgroundColor": "#9ca3af",
         "stack": "unc_mid"
@@ -73,11 +97,11 @@
       {
         "label": "UNC – Lapsed D",
         "data": [
-          14,
-          67,
-          117,
-          111,
-          21
+          9,
+          65,
+          99,
+          103,
+          27
         ],
         "backgroundColor": "#93c5fd",
         "stack": "unc_d"
@@ -85,19 +109,19 @@
       {
         "label": "Pure D",
         "data": [
-          13,
-          55,
-          62,
-          61,
-          17
+          14,
+          64,
+          76,
+          86,
+          27
         ],
         "backgroundColor": "#3b82f6",
         "stack": "d_pure"
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "SOUTH LEBANON CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

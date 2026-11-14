@@ -4,7 +4,7 @@
   "precinct": "RICHWOOD 2",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -18,11 +18,11 @@
       {
         "label": "Pure R",
         "data": [
-          4,
-          52,
-          38,
-          20,
-          17
+          3,
+          54,
+          37,
+          19,
+          18
         ],
         "backgroundColor": "#ef4444",
         "borderRadius": 2,
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          4,
+          3,
           24,
           28,
-          20,
+          18,
           5
         ],
         "backgroundColor": "#fca5a5",
@@ -68,12 +68,25 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
           0,
-          2,
-          0,
-          5,
+          3,
+          1,
+          4,
           2
         ],
         "backgroundColor": "#c4b5cd",
@@ -84,10 +97,10 @@
         "label": "UNC – No Primary",
         "data": [
           2,
-          22,
-          60,
-          125,
-          107
+          21,
+          61,
+          128,
+          108
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -97,10 +110,10 @@
         "label": "UNC – Lapsed D",
         "data": [
           5,
-          14,
+          12,
           9,
           13,
-          0
+          1
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 2,

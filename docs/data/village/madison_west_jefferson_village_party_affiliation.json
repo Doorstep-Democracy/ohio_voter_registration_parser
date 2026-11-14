@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 396 (15%)",
-      "UNC – Lapsed R — 331 (12%)",
-      "Mixed – Active — 179 (7%)",
-      "Mixed – Lapsed — 233 (9%)",
-      "UNC – No Primary — 1,176 (44%)",
-      "UNC – Lapsed D — 281 (10%)",
-      "Pure D — 85 (3%)"
+      "Pure R — 375 (14%)",
+      "UNC – Lapsed R — 362 (13%)",
+      "Mixed – Active — 174 (6%)",
+      "Mixed – Lapsed — 109 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 125 (5%)",
+      "UNC – No Primary — 1,181 (43%)",
+      "UNC – Lapsed D — 276 (10%)",
+      "Pure D — 113 (4%)"
     ],
     "datasets": [
       {
         "data": [
-          396,
-          331,
-          179,
-          233,
-          1176,
-          281,
-          85
+          375,
+          362,
+          174,
+          109,
+          4,
+          125,
+          1181,
+          276,
+          113
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "WEST JEFFERSON VILLAGE (Madison Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

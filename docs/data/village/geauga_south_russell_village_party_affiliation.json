@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 525 (17%)",
-      "UNC – Lapsed R — 433 (14%)",
-      "Mixed – Active — 386 (12%)",
-      "Mixed – Lapsed — 321 (10%)",
-      "UNC – No Primary — 1,002 (32%)",
-      "UNC – Lapsed D — 338 (11%)",
-      "Pure D — 169 (5%)"
+      "Pure R — 481 (15%)",
+      "UNC – Lapsed R — 447 (14%)",
+      "Mixed – Active — 427 (13%)",
+      "Mixed – Lapsed — 164 (5%)",
+      "Minor Party — 7 (0%)",
+      "UNC – Non-partisan Ballot — 126 (4%)",
+      "UNC – No Primary — 997 (31%)",
+      "UNC – Lapsed D — 305 (10%)",
+      "Pure D — 252 (8%)"
     ],
     "datasets": [
       {
         "data": [
-          525,
-          433,
-          386,
-          321,
-          1002,
-          338,
-          169
+          481,
+          447,
+          427,
+          164,
+          7,
+          126,
+          997,
+          305,
+          252
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SOUTH RUSSELL VILLAGE (Geauga Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

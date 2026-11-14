@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,216 (15%)",
-      "UNC – Lapsed R — 1,030 (12%)",
-      "Mixed – Active — 480 (6%)",
-      "Mixed – Lapsed — 862 (10%)",
-      "UNC – No Primary — 3,603 (43%)",
-      "UNC – Lapsed D — 795 (10%)",
-      "Pure D — 334 (4%)"
+      "Pure R — 1,086 (13%)",
+      "UNC – Lapsed R — 1,192 (14%)",
+      "Mixed – Active — 455 (5%)",
+      "Mixed – Lapsed — 326 (4%)",
+      "Minor Party — 29 (0%)",
+      "UNC – Non-partisan Ballot — 533 (6%)",
+      "UNC – No Primary — 3,567 (43%)",
+      "UNC – Lapsed D — 747 (9%)",
+      "Pure D — 407 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          1216,
-          1030,
-          480,
-          862,
-          3603,
-          795,
-          334
+          1086,
+          1192,
+          455,
+          326,
+          29,
+          533,
+          3567,
+          747,
+          407
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-09 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City School District",
   "jurisdiction_name": "GALION CITY SD",
-  "updated": "2026-05-09"
+  "updated": "2026-11-12"
 }

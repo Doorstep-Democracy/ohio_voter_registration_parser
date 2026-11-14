@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,578 (10%)",
-      "UNC – Lapsed R — 1,364 (8%)",
-      "Mixed – Active — 1,083 (7%)",
-      "Mixed – Lapsed — 1,897 (12%)",
-      "UNC – No Primary — 6,958 (42%)",
-      "UNC – Lapsed D — 2,272 (14%)",
-      "Pure D — 1,250 (8%)"
+      "Pure R — 1,502 (9%)",
+      "UNC – Lapsed R — 1,437 (9%)",
+      "Mixed – Active — 1,106 (7%)",
+      "Mixed – Lapsed — 636 (4%)",
+      "Minor Party — 54 (0%)",
+      "UNC – Non-partisan Ballot — 1,097 (7%)",
+      "UNC – No Primary — 7,163 (43%)",
+      "UNC – Lapsed D — 2,084 (12%)",
+      "Pure D — 1,678 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          1578,
-          1364,
-          1083,
-          1897,
-          6958,
-          2272,
-          1250
+          1502,
+          1437,
+          1106,
+          636,
+          54,
+          1097,
+          7163,
+          2084,
+          1678
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "City",
   "jurisdiction_name": "BOWLING GREEN CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

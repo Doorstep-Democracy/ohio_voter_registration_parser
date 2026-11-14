@@ -4,7 +4,7 @@
   "precinct": "PRECINCT MIDDLE POINT",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -19,9 +19,9 @@
         "label": "Pure R",
         "data": [
           8,
-          28,
-          11,
-          9,
+          27,
+          10,
+          8,
           3
         ],
         "backgroundColor": "#ef4444",
@@ -34,7 +34,7 @@
           3,
           8,
           22,
-          16,
+          15,
           3
         ],
         "backgroundColor": "#fca5a5",
@@ -57,13 +57,26 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          3,
+          1,
           3,
           9,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 2,
         "stack": "unc_mid"
       },
@@ -85,9 +98,9 @@
         "data": [
           2,
           20,
-          43,
+          44,
           54,
-          67
+          71
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -98,8 +111,8 @@
         "data": [
           2,
           6,
-          5,
-          2,
+          6,
+          3,
           1
         ],
         "backgroundColor": "#93c5fd",

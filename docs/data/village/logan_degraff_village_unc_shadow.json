@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 110",
+      "UNC – Lapsed R — 140",
       "Mixed – Active — 55",
-      "Mixed – Lapsed — 71",
-      "UNC – No Primary — 369",
-      "UNC – Lapsed D — 41"
+      "Mixed – Lapsed — 35",
+      "UNC – Non-partisan Ballot — 34",
+      "UNC – No Primary — 374",
+      "UNC – Lapsed D — 37"
     ],
     "datasets": [
       {
         "data": [
-          110,
+          140,
           55,
-          71,
-          369,
-          41
+          35,
+          34,
+          374,
+          37
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Village",
   "jurisdiction_name": "DEGRAFF VILLAGE (Logan Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 462",
-      "Mixed – Active — 368",
-      "Mixed – Lapsed — 485",
-      "UNC – No Primary — 7,037",
-      "UNC – Lapsed D — 1,611"
+      "UNC – Lapsed R — 522",
+      "Mixed – Active — 364",
+      "Mixed – Lapsed — 256",
+      "UNC – Non-partisan Ballot — 208",
+      "UNC – No Primary — 7,301",
+      "UNC – Lapsed D — 1,521"
     ],
     "datasets": [
       {
         "data": [
-          462,
-          368,
-          485,
-          7037,
-          1611
+          522,
+          364,
+          256,
+          208,
+          7301,
+          1521
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "WHITEHALL CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

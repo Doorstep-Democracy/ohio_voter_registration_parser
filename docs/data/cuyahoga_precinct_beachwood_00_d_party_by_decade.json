@@ -4,7 +4,7 @@
   "precinct": "BEACHWOOD-00-D",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1920s",
@@ -41,7 +41,7 @@
           0,
           1,
           4,
-          4,
+          5,
           13,
           5,
           6,
@@ -57,7 +57,7 @@
         "data": [
           2,
           1,
-          13,
+          12,
           31,
           15,
           11,
@@ -72,17 +72,34 @@
       {
         "label": "Mixed – Lapsed",
         "data": [
-          1,
+          0,
           3,
-          3,
+          4,
           14,
-          13,
-          10,
+          12,
+          11,
           1,
           1,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -97,7 +114,7 @@
           12,
           11,
           5,
-          4
+          3
         ],
         "backgroundColor": "#c4b5cd",
         "borderRadius": 3,
@@ -108,13 +125,13 @@
         "data": [
           1,
           1,
-          5,
-          11,
+          4,
+          12,
           24,
           25,
-          45,
-          76,
-          76
+          43,
+          73,
+          74
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -125,13 +142,13 @@
         "data": [
           1,
           8,
-          6,
-          24,
-          39,
+          5,
+          25,
+          40,
           36,
-          38,
-          30,
-          10
+          40,
+          32,
+          9
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -141,13 +158,13 @@
         "label": "Pure D",
         "data": [
           1,
-          11,
-          49,
-          79,
-          40,
+          10,
+          48,
+          78,
+          39,
           44,
           27,
-          11,
+          10,
           16
         ],
         "backgroundColor": "#3b82f6",

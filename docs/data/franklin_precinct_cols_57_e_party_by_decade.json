@@ -4,7 +4,7 @@
   "precinct": "COLS 57-E",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "chartConfig": {
     "labels": [
       "1930s",
@@ -71,13 +71,29 @@
           1,
           0,
           6,
-          10,
+          9,
           6,
           1,
-          2,
+          3,
           0
         ],
         "backgroundColor": "#a78bfa",
+        "borderRadius": 3,
+        "stack": "unc_mid"
+      },
+      {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
         "borderRadius": 3,
         "stack": "unc_mid"
       },
@@ -90,7 +106,7 @@
           4,
           8,
           2,
-          6,
+          5,
           2
         ],
         "backgroundColor": "#c4b5cd",
@@ -100,14 +116,14 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          3,
-          9,
-          22,
+          2,
+          8,
+          21,
           43,
-          62,
-          92,
-          205,
-          93
+          61,
+          96,
+          209,
+          107
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 3,
@@ -120,10 +136,10 @@
           4,
           9,
           14,
-          17,
-          25,
-          28,
-          4
+          16,
+          27,
+          30,
+          3
         ],
         "backgroundColor": "#93c5fd",
         "borderRadius": 3,
@@ -134,12 +150,12 @@
         "data": [
           1,
           7,
-          30,
+          28,
           21,
-          16,
-          27,
-          24,
-          12
+          15,
+          26,
+          26,
+          11
         ],
         "backgroundColor": "#3b82f6",
         "borderRadius": 3,

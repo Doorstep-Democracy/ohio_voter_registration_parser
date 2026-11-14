@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 71 (29%)",
-      "UNC – Lapsed R — 19 (8%)",
-      "Mixed – Active — 11 (4%)",
-      "Mixed – Lapsed — 13 (5%)",
-      "UNC – No Primary — 106 (43%)",
-      "UNC – Lapsed D — 14 (6%)",
-      "Pure D — 11 (4%)"
+      "Pure R — 69 (28%)",
+      "UNC – Lapsed R — 26 (11%)",
+      "Mixed – Active — 9 (4%)",
+      "Mixed – Lapsed — 6 (2%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 8 (3%)",
+      "UNC – No Primary — 99 (41%)",
+      "UNC – Lapsed D — 13 (5%)",
+      "Pure D — 13 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          71,
-          19,
-          11,
+          69,
+          26,
+          9,
+          6,
+          1,
+          8,
+          99,
           13,
-          106,
-          14,
-          11
+          13
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "SAVANNAH VILLAGE (Ashland Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

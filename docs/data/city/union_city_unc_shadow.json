@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 654",
-      "Mixed – Active — 348",
-      "Mixed – Lapsed — 540",
-      "UNC – No Primary — 1,798",
-      "UNC – Lapsed D — 501"
+      "UNC – Lapsed R — 633",
+      "Mixed – Active — 375",
+      "Mixed – Lapsed — 190",
+      "UNC – Non-partisan Ballot — 299",
+      "UNC – No Primary — 1,806",
+      "UNC – Lapsed D — 443"
     ],
     "datasets": [
       {
         "data": [
-          654,
-          348,
-          540,
-          1798,
-          501
+          633,
+          375,
+          190,
+          299,
+          1806,
+          443
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-06-22 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "City",
   "jurisdiction_name": "UNION CITY",
-  "updated": "2026-06-22"
+  "updated": "2026-11-12"
 }

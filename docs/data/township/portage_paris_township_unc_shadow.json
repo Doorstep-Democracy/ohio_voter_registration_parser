@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 68",
-      "Mixed – Active — 145",
-      "Mixed – Lapsed — 89",
-      "UNC – No Primary — 382",
-      "UNC – Lapsed D — 149"
+      "UNC – Lapsed R — 65",
+      "Mixed – Active — 147",
+      "Mixed – Lapsed — 53",
+      "UNC – Non-partisan Ballot — 40",
+      "UNC – No Primary — 377",
+      "UNC – Lapsed D — 134"
     ],
     "datasets": [
       {
         "data": [
-          68,
-          145,
-          89,
-          382,
-          149
+          65,
+          147,
+          53,
+          40,
+          377,
+          134
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "PARIS TOWNSHIP (Portage Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

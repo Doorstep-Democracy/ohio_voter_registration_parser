@@ -4,7 +4,7 @@
   "precinct": "PLAIN 26",
   "geography": "precinct-detail",
   "type": "bar",
-  "updated": "2026-07-25",
+  "updated": "2026-11-12",
   "note": "Pew Research Center generational boundaries",
   "chartConfig": {
     "labels": [
@@ -31,10 +31,10 @@
       {
         "label": "UNC – Lapsed R",
         "data": [
-          8,
+          7,
           27,
-          33,
-          25,
+          32,
+          23,
           7
         ],
         "backgroundColor": "#fca5a5",
@@ -45,7 +45,7 @@
         "label": "Mixed – Active",
         "data": [
           12,
-          65,
+          64,
           28,
           11,
           2
@@ -68,9 +68,22 @@
         "stack": "unc_mid"
       },
       {
+        "label": "Minor Party",
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "backgroundColor": "#14b8a6",
+        "borderRadius": 2,
+        "stack": "unc_mid"
+      },
+      {
         "label": "UNC – Non-partisan Ballot",
         "data": [
-          1,
+          2,
           11,
           12,
           4,
@@ -83,11 +96,11 @@
       {
         "label": "UNC – No Primary",
         "data": [
-          4,
+          3,
           27,
           50,
-          83,
-          83
+          84,
+          86
         ],
         "backgroundColor": "#9ca3af",
         "borderRadius": 2,
@@ -111,7 +124,7 @@
         "data": [
           11,
           47,
-          20,
+          19,
           13,
           13
         ],

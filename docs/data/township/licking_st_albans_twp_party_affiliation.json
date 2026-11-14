@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 531 (28%)",
-      "UNC – Lapsed R — 327 (17%)",
-      "Mixed – Active — 205 (11%)",
-      "Mixed – Lapsed — 187 (10%)",
-      "UNC – No Primary — 454 (24%)",
-      "UNC – Lapsed D — 133 (7%)",
-      "Pure D — 93 (5%)"
+      "Pure R — 525 (27%)",
+      "UNC – Lapsed R — 325 (17%)",
+      "Mixed – Active — 203 (11%)",
+      "Mixed – Lapsed — 80 (4%)",
+      "Minor Party — 9 (0%)",
+      "UNC – Non-partisan Ballot — 98 (5%)",
+      "UNC – No Primary — 460 (24%)",
+      "UNC – Lapsed D — 134 (7%)",
+      "Pure D — 88 (5%)"
     ],
     "datasets": [
       {
         "data": [
-          531,
-          327,
-          205,
-          187,
-          454,
-          133,
-          93
+          525,
+          325,
+          203,
+          80,
+          9,
+          98,
+          460,
+          134,
+          88
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "ST. ALBANS TWP (Licking Co.)",
-  "updated": "2026-07-10"
+  "updated": "2026-11-12"
 }

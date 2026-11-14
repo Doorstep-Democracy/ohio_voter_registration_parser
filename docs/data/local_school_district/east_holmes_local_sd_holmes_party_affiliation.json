@@ -3,22 +3,26 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 1,100 (18%)",
-      "UNC – Lapsed R — 1,367 (22%)",
-      "Mixed – Active — 109 (2%)",
-      "Mixed – Lapsed — 363 (6%)",
-      "UNC – No Primary — 3,176 (51%)",
+      "Pure R — 1,091 (17%)",
+      "UNC – Lapsed R — 1,366 (22%)",
+      "Mixed – Active — 106 (2%)",
+      "Mixed – Lapsed — 55 (1%)",
+      "Minor Party — 2 (0%)",
+      "UNC – Non-partisan Ballot — 311 (5%)",
+      "UNC – No Primary — 3,215 (51%)",
       "UNC – Lapsed D — 78 (1%)",
       "Pure D — 66 (1%)"
     ],
     "datasets": [
       {
         "data": [
-          1100,
-          1367,
-          109,
-          363,
-          3176,
+          1091,
+          1366,
+          106,
+          55,
+          2,
+          311,
+          3215,
           78,
           66
         ],
@@ -27,6 +31,8 @@
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Local School District",
   "jurisdiction_name": "East Holmes Local Sd (Holmes Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }

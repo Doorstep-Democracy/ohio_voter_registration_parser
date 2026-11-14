@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 178 (12%)",
-      "UNC – Lapsed R — 90 (6%)",
-      "Mixed – Active — 277 (18%)",
-      "Mixed – Lapsed — 120 (8%)",
-      "UNC – No Primary — 484 (32%)",
-      "UNC – Lapsed D — 236 (16%)",
-      "Pure D — 124 (8%)"
+      "Pure R — 158 (10%)",
+      "UNC – Lapsed R — 123 (8%)",
+      "Mixed – Active — 262 (17%)",
+      "Mixed – Lapsed — 110 (7%)",
+      "Minor Party — 1 (0%)",
+      "UNC – Non-partisan Ballot — 30 (2%)",
+      "UNC – No Primary — 485 (32%)",
+      "UNC – Lapsed D — 219 (14%)",
+      "Pure D — 137 (9%)"
     ],
     "datasets": [
       {
         "data": [
-          178,
-          90,
-          277,
-          120,
-          484,
-          236,
-          124
+          158,
+          123,
+          262,
+          110,
+          1,
+          30,
+          485,
+          219,
+          137
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "JACKSON TWP (Mahoning Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

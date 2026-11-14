@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 127",
-      "Mixed – Active — 104",
-      "Mixed – Lapsed — 41",
-      "UNC – No Primary — 467",
-      "UNC – Lapsed D — 89"
+      "UNC – Lapsed R — 122",
+      "Mixed – Active — 108",
+      "Mixed – Lapsed — 33",
+      "UNC – Non-partisan Ballot — 10",
+      "UNC – No Primary — 457",
+      "UNC – Lapsed D — 87"
     ],
     "datasets": [
       {
         "data": [
-          127,
-          104,
-          41,
-          467,
-          89
+          122,
+          108,
+          33,
+          10,
+          457,
+          87
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "SPRIGG TOWNSHIP (Adams Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

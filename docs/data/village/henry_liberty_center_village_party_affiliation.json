@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 151 (21%)",
-      "UNC – Lapsed R — 97 (14%)",
-      "Mixed – Active — 41 (6%)",
-      "Mixed – Lapsed — 42 (6%)",
+      "Pure R — 142 (20%)",
+      "UNC – Lapsed R — 107 (15%)",
+      "Mixed – Active — 40 (6%)",
+      "Mixed – Lapsed — 27 (4%)",
+      "Minor Party — 5 (1%)",
+      "UNC – Non-partisan Ballot — 15 (2%)",
       "UNC – No Primary — 288 (41%)",
-      "UNC – Lapsed D — 68 (10%)",
-      "Pure D — 21 (3%)"
+      "UNC – Lapsed D — 63 (9%)",
+      "Pure D — 23 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          151,
-          97,
-          41,
-          42,
+          142,
+          107,
+          40,
+          27,
+          5,
+          15,
           288,
-          68,
-          21
+          63,
+          23
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "LIBERTY CENTER VILLAGE (Henry Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 290 (22%)",
-      "UNC – Lapsed R — 181 (14%)",
-      "Mixed – Active — 122 (9%)",
-      "Mixed – Lapsed — 96 (7%)",
-      "UNC – No Primary — 543 (41%)",
-      "UNC – Lapsed D — 77 (6%)",
-      "Pure D — 28 (2%)"
+      "Pure R — 317 (23%)",
+      "UNC – Lapsed R — 177 (13%)",
+      "Mixed – Active — 127 (9%)",
+      "Mixed – Lapsed — 57 (4%)",
+      "Minor Party — 4 (0%)",
+      "UNC – Non-partisan Ballot — 31 (2%)",
+      "UNC – No Primary — 537 (39%)",
+      "UNC – Lapsed D — 70 (5%)",
+      "Pure D — 42 (3%)"
     ],
     "datasets": [
       {
         "data": [
-          290,
-          181,
-          122,
-          96,
-          543,
-          77,
-          28
+          317,
+          177,
+          127,
+          57,
+          4,
+          31,
+          537,
+          70,
+          42
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file — partisan spectrum: registered + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Village",
   "jurisdiction_name": "COLUMBUS GROVE VILLAGE (Putnam Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

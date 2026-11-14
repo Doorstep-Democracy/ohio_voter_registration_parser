@@ -3,30 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "Pure R — 256 (22%)",
-      "UNC – Lapsed R — 72 (6%)",
-      "Mixed – Active — 148 (12%)",
-      "Mixed – Lapsed — 98 (8%)",
-      "UNC – No Primary — 384 (32%)",
-      "UNC – Lapsed D — 112 (9%)",
-      "Pure D — 116 (10%)"
+      "Pure R — 245 (21%)",
+      "UNC – Lapsed R — 81 (7%)",
+      "Mixed – Active — 152 (13%)",
+      "Mixed – Lapsed — 48 (4%)",
+      "Minor Party — 3 (0%)",
+      "UNC – Non-partisan Ballot — 46 (4%)",
+      "UNC – No Primary — 386 (33%)",
+      "UNC – Lapsed D — 99 (8%)",
+      "Pure D — 124 (10%)"
     ],
     "datasets": [
       {
         "data": [
-          256,
-          72,
-          148,
-          98,
-          384,
-          112,
-          116
+          245,
+          81,
+          152,
+          48,
+          3,
+          46,
+          386,
+          99,
+          124
         ],
         "backgroundColor": [
           "#ef4444",
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#14b8a6",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd",
           "#3b82f6"
@@ -34,8 +40,8 @@
       }
     ]
   },
-  "note": "Analysis run 2026-05-28 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file — partisan spectrum: affiliated + behavioral cohorts.",
   "geography": "Township",
   "jurisdiction_name": "KINGSVILLE TWP (Ashtabula Co.)",
-  "updated": "2026-05-28"
+  "updated": "2026-11-12"
 }

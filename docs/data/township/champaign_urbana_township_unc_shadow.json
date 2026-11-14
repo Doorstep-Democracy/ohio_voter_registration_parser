@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 1,105",
-      "Mixed – Active — 730",
-      "Mixed – Lapsed — 605",
-      "UNC – No Primary — 3,804",
-      "UNC – Lapsed D — 826"
+      "UNC – Lapsed R — 1,100",
+      "Mixed – Active — 809",
+      "Mixed – Lapsed — 387",
+      "UNC – Non-partisan Ballot — 195",
+      "UNC – No Primary — 3,781",
+      "UNC – Lapsed D — 728"
     ],
     "datasets": [
       {
         "data": [
-          1105,
-          730,
-          605,
-          3804,
-          826
+          1100,
+          809,
+          387,
+          195,
+          3781,
+          728
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-05-10 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Township",
   "jurisdiction_name": "URBANA TOWNSHIP (Champaign Co.)",
-  "updated": "2026-05-10"
+  "updated": "2026-11-12"
 }

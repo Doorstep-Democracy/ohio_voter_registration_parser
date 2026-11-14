@@ -3,33 +3,36 @@
   "type": "doughnut",
   "chartConfig": {
     "labels": [
-      "UNC – Lapsed R — 572",
-      "Mixed – Active — 572",
-      "Mixed – Lapsed — 589",
-      "UNC – No Primary — 1,730",
-      "UNC – Lapsed D — 671"
+      "UNC – Lapsed R — 575",
+      "Mixed – Active — 570",
+      "Mixed – Lapsed — 303",
+      "UNC – Non-partisan Ballot — 281",
+      "UNC – No Primary — 1,758",
+      "UNC – Lapsed D — 670"
     ],
     "datasets": [
       {
         "data": [
-          572,
-          572,
-          589,
-          1730,
-          671
+          575,
+          570,
+          303,
+          281,
+          1758,
+          670
         ],
         "backgroundColor": [
           "#fca5a5",
           "#f59e0b",
           "#a78bfa",
+          "#c4b5cd",
           "#9ca3af",
           "#93c5fd"
         ]
       }
     ]
   },
-  "note": "Analysis run 2026-07-15 — Ohio Secretary of State SWVF voter file",
+  "note": "Analysis run 2026-11-12 — Ohio Secretary of State SWVF voter file",
   "geography": "Local School District",
   "jurisdiction_name": "Margaretta Local Sd (Erie Co.)",
-  "updated": "2026-07-15"
+  "updated": "2026-11-12"
 }
