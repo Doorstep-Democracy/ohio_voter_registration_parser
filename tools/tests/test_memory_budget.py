@@ -341,7 +341,7 @@ def test_a_refusal_ends_the_run_with_exit_code_3_and_the_failure_marker(monkeypa
         with pytest.raises(SystemExit) as err:
             ovp._dispatch_guarded("1", [])
     assert err.value.code == 3
-    assert any(ri.FAILED_MARKER in r.getMessage() for r in caplog.records)
+    assert any(f"{ri.FAILED_MARKER}: {ri.REFUSED_MARKER}: " in r.getMessage() for r in caplog.records)
     assert "RUN REFUSED" in capsys.readouterr().out
 
 

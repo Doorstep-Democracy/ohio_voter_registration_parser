@@ -676,9 +676,10 @@ def _dispatch_guarded(*args, **kwargs) -> None:
     """Run _dispatch; report a memory-budget refusal as a refusal.
 
     A refused run loaded nothing and wrote nothing. It ends with exit code 3
-    and the failure marker in the run log, so the next run's previous-run check
-    reports "failed" and not "died without a marker". Any other exception
-    propagates to the excepthook as before.
+    and, in the run log, the failure marker followed by
+    run_integrity.REFUSED_MARKER. The next run's previous-run check reads that
+    and passes over this run, so it still checks from the last run that ran.
+    Any other exception propagates to the excepthook as before.
     """
     try:
         _dispatch(*args, **kwargs)
@@ -686,7 +687,7 @@ def _dispatch_guarded(*args, **kwargs) -> None:
         import logging
         import run_integrity
         logging.getLogger('voter_analysis').error(
-            '%s: the memory budget refused the run: %s', run_integrity.FAILED_MARKER, exc)
+            '%s: %s: %s', run_integrity.FAILED_MARKER, run_integrity.REFUSED_MARKER, exc)
         print(f"\n  RUN REFUSED. {exc}")
         sys.exit(3)
 

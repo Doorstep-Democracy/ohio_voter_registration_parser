@@ -21,6 +21,8 @@ Requirement (CLAUDE.md §5): failures are loud, never silent. Three checks imple
    an ERROR if it does not end with ``PIPELINE COMPLETE`` (the run died: native crash,
    machine crash, kill). It then validates every output file modified since that run
    started, so files damaged after a "complete" run are found even with no log trace.
+   A run the memory budget refused is passed over: it wrote nothing, and judging from
+   it would hide an earlier crash from every later run.
 3. ``recheck`` (end of run): the startup findings are re-validated and repeated next to
    the completion line, so they are not lost in scrollback. Files the run rewrote
    correctly are reported as repaired; anything still bad fails the run.
@@ -41,6 +43,9 @@ from pathlib import Path
 
 COMPLETE_MARKER = 'PIPELINE COMPLETE'
 FAILED_MARKER = 'PIPELINE FAILED'
+# Follows FAILED_MARKER on the last line of a run the memory budget refused
+# (ohio_voter_pipeline._dispatch_guarded writes it; check_previous_run reads it).
+REFUSED_MARKER = 'the memory budget refused the run'
 
 _TEXT_SUFFIXES = {'.json', '.geojson', '.htm', '.html', '.js', '.css', '.md', '.txt', '.csv', '.svg'}
 _JSON_SUFFIXES = {'.json', '.geojson'}
@@ -109,9 +114,21 @@ def _log_start(log_path: Path) -> float | None:
     return datetime.strptime(m.group(1), '%Y%m%d_%H%M%S').timestamp()
 
 
+def _log_tail(log_path: Path) -> str:
+    """The last 4 KB of a log, where the completion or failure line is."""
+    with open(log_path, 'rb') as fh:
+        fh.seek(max(0, log_path.stat().st_size - 4096))
+        return fh.read().decode('utf-8', errors='replace')
+
+
 def check_previous_run(logs_dir: Path, current_log: Path, root: Path,
                        logger: logging.Logger) -> dict[Path, str]:
     """Report how the previous pipeline run ended and validate what changed since it began.
+
+    "Previous" is the newest earlier run that was not refused by the memory
+    budget. A refused run loaded nothing and wrote nothing, so it says nothing
+    about the outputs; taking it as the previous run would move the validation
+    window past an earlier crash, which would then never be reported again.
 
     Returns {path: reason} for invalid output files found (empty dict = none).
     """
@@ -122,10 +139,21 @@ def check_previous_run(logs_dir: Path, current_log: Path, root: Path,
     if not previous:
         logger.info('Previous-run check: no earlier pipeline log in %s', logs_dir)
         return {}
-    prev = previous[-1]
-    with open(prev, 'rb') as fh:
-        fh.seek(max(0, prev.stat().st_size - 4096))
-        tail = fh.read().decode('utf-8', errors='replace')
+    refused: list[Path] = []
+    prev, tail = None, ''
+    for candidate in reversed(previous):
+        tail = _log_tail(candidate)
+        if REFUSED_MARKER not in tail:
+            prev = candidate
+            break
+        refused.append(candidate)
+    if refused:
+        logger.info('Previous-run check: passed over %d run(s) the memory budget refused '
+                    '(newest %s); a refused run writes nothing', len(refused), refused[0].name)
+    if prev is None:
+        logger.info('Previous-run check: no earlier pipeline log in %s other than refused runs',
+                    logs_dir)
+        return {}
     if COMPLETE_MARKER in tail:
         logger.info('Previous-run check: %s ended with %s', prev.name, COMPLETE_MARKER)
     elif FAILED_MARKER in tail:
