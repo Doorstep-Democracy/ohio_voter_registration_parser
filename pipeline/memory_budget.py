@@ -197,7 +197,9 @@ def frame_bytes(rows: int, dtypes: Iterable[str], election_cols: int = 0) -> int
 
 def estimate_export(rows: int, frame_dtypes: Iterable[str], election_cols: int,
                     largest_share: float, workers: int, batch: int) -> Estimate:
-    """County export from a fresh enriched cache.
+    """County export, on a cache hit and after a rebuild alike: on both paths
+    election history is read from the cache file a batch at a time
+    (voter_data_cleaner.load_enriched_for_export).
 
     frame      the enriched frame without election history, resident throughout.
     cells      one batch of election columns while participation is computed.

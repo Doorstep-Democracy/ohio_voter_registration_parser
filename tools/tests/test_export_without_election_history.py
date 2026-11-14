@@ -20,7 +20,9 @@ is read and nothing is written outside tmp_path.
 
 from __future__ import annotations
 
+import gc
 import logging
+import weakref
 from datetime import date
 
 import polars as pl
@@ -94,12 +96,56 @@ def test_cache_hit_returns_the_frame_without_election_columns(cleaned, tmp_path,
     assert_frame_equal(read_cells(wanted), cleaned.select(wanted))
 
 
-def test_rebuild_returns_the_same_three_things_from_memory(cleaned, monkeypatch):
-    monkeypatch.setattr(vdc, "_resolve_enriched",
-                        lambda logger, txt_files, use_parquet, before_load=None: cleaned)
+def _rebuild_into(cache, full: pl.DataFrame):
+    """Stand-in for _resolve_enriched on the rebuild path: write the cache from
+    the full frame, then return that frame."""
+    def _resolve(logger, txt_files, use_parquet, before_load=None):
+        full.write_parquet(cache)
+        return full
+    return _resolve
+
+
+def test_rebuild_returns_the_same_three_things_reading_cells_from_the_cache(cleaned, tmp_path, monkeypatch):
+    cache = tmp_path / "enriched_voters.parquet"
+    monkeypatch.setattr(vdc, "ENRICHED_CACHE", cache)
+    monkeypatch.setattr(vdc, "_resolve_enriched", _rebuild_into(cache, cleaned))
     frame, election_cols, read_cells = vdc.load_enriched_for_export(LOG)
+    assert election_cols == vdc.identify_election_cols(cleaned)
+    assert not set(election_cols) & set(frame.columns)
     assert_frame_equal(frame, cleaned.drop(election_cols))
+    wanted = [election_cols[5], election_cols[0]]
+    assert_frame_equal(read_cells(wanted), cleaned.select(wanted))
+    # The cells come from the file, not from a frame held in memory.
+    cache.unlink()
+    with pytest.raises(FileNotFoundError):
+        read_cells(wanted)
+
+
+def test_rebuild_does_not_keep_the_full_frame_alive(cleaned, tmp_path, monkeypatch):
+    # A read_cells bound to the full frame (rebuilt.select) held every election
+    # column in memory until participation was computed.
+    cache = tmp_path / "enriched_voters.parquet"
+    monkeypatch.setattr(vdc, "ENRICHED_CACHE", cache)
+    full = cleaned.clone()
+    released = weakref.ref(full)
+    monkeypatch.setattr(vdc, "_resolve_enriched", _rebuild_into(cache, full))
+    del full
+    frame, election_cols, read_cells = vdc.load_enriched_for_export(LOG)
+    monkeypatch.undo()                       # the stand-in closure also held the frame
+    gc.collect()
+    assert released() is None
+    assert getattr(read_cells, "__self__", None) is None
     assert_frame_equal(read_cells(election_cols[:3]), cleaned.select(election_cols[:3]))
+
+
+def test_participation_after_a_rebuild_equals_participation_on_the_full_frame(cleaned, tmp_path, monkeypatch):
+    cache = tmp_path / "enriched_voters.parquet"
+    monkeypatch.setattr(vdc, "ENRICHED_CACHE", cache)
+    monkeypatch.setattr(vdc, "_resolve_enriched", _rebuild_into(cache, cleaned))
+    election_cols = vdc.identify_election_cols(cleaned)
+    full = vdc.add_voter_participation(cleaned, election_cols, LOG).drop(election_cols)
+    frame, cols, read_cells = vdc.load_enriched_for_export(LOG)
+    assert_frame_equal(vdc.add_voter_participation(frame, cols, LOG, read_cells=read_cells), full)
 
 
 def test_a_frame_without_cohort_family_is_refused(cleaned, monkeypatch):

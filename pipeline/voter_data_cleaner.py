@@ -4954,41 +4954,44 @@ def load_enriched_for_export(
     than the rest of the frame put together, and the export stages used to
     carry it unread through every county slice and the statewide pass.
 
-    Cache hit   frame is read from ENRICHED_CACHE without those columns, and
-                read_cells reads the requested ones from the same file, so at
-                most one batch of them is ever in memory. Both reads return
-                rows in file order, which is what keeps them aligned.
+    read_cells always reads ENRICHED_CACHE, so at most one batch of election
+    columns is in memory while participation is computed, on both paths.
+
+    Cache hit   frame is read from ENRICHED_CACHE without those columns. Both
+                reads return rows in file order, which keeps them aligned.
     Rebuild     the classifier needs every election column, so the full frame
-                exists anyway. read_cells selects from it and keeps it alive;
-                dropping the read_cells reference releases it.
+                exists when _resolve_enriched returns, and the cache has just
+                been written from it in the same row order. The election
+                columns are dropped here and the full frame released, so they
+                are not carried into the export. read_cells must not be bound
+                to the full frame: a bound method would keep it alive.
 
     Raises RuntimeError if the frame has no cohort_family column: without it
     the export would fall back to re-classifying from election cells that are
     no longer there. before_load is passed to _resolve_enriched.
     """
     rebuilt = _resolve_enriched(logger, txt_files, use_parquet, before_load)
+    cache = ENRICHED_CACHE
     if rebuilt is None:
-        names = list(pl.read_parquet_schema(ENRICHED_CACHE))
+        names = list(pl.read_parquet_schema(cache))
         election_cols = election_cols_from_names(names)
         skip = set(election_cols)
         keep = [c for c in names if c not in skip]
-        cache = ENRICHED_CACHE
         with _timer(logger, 'loading enriched cache (without election history)'):
             frame = pl.read_parquet(cache, columns=keep).select(keep)
-
-        def read_cells(cols: list[str]) -> pl.DataFrame:
-            return pl.read_parquet(cache, columns=cols).select(cols)
-
         logger.info('Loaded from enriched cache: %s rows x %d columns; %d election columns '
                     'left on disk and read in batches', f'{frame.height:,}', frame.width,
                     len(election_cols))
     else:
         election_cols = identify_election_cols(rebuilt)
         frame = rebuilt.drop(election_cols)
-        read_cells = rebuilt.select
-        logger.info('Enriched frame rebuilt: %s rows x %d columns plus %d election columns, '
-                    'held until participation is computed', f'{frame.height:,}', frame.width,
-                    len(election_cols))
+        del rebuilt
+        logger.info('Enriched frame rebuilt: %s rows x %d columns; %d election columns '
+                    'released and read back from the cache in batches', f'{frame.height:,}',
+                    frame.width, len(election_cols))
+
+    def read_cells(cols: list[str]) -> pl.DataFrame:
+        return pl.read_parquet(cache, columns=cols).select(cols)
 
     if 'cohort_family' not in frame.columns:
         raise RuntimeError(
@@ -5092,8 +5095,6 @@ def run_ohio_analysis(
 
         with _timer(logger, 'computing participation metrics'):
             df = add_voter_participation(df, election_cols, logger, read_cells=read_cells)
-        # After a rebuild read_cells is the last reference to the full frame.
-        del read_cells
 
         # ── 3. Parallel county JSON export ────────────────────────────────────
         counties_present = sorted(df['COUNTY_NUMBER'].str.strip_chars().unique().to_list())
