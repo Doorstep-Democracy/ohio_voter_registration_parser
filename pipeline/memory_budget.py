@@ -237,7 +237,11 @@ def estimate_rebuild(rows: int, raw_cols: int, election_cols: int,
 
     load       raw frame + partition cast
     classify   raw frame + enriched frame + working
-    write      raw frame + enriched frame + cache write
+    write      enriched frame + cache write. The raw frame is gone by then:
+               _resolve_enriched deletes it before the cache write, and
+               clean_voter_data's row filter leaves the enriched frame no
+               shared buffers with it. tools/tests/test_election_codes.py
+               pins that ordering.
 
     raw frame        non-election columns String; election cells as compact codes,
                      because the loader casts each partition as it is read.
@@ -257,7 +261,7 @@ def estimate_rebuild(rows: int, raw_cols: int, election_cols: int,
     enriched = int(raw * 1.1)
     working = int(raw * WORKING_FACTOR)
     write = frame_bytes(rows, (), election_cols=election_cols)
-    peak = max(raw + cast, raw + enriched + working, raw + enriched + write)
+    peak = max(raw + cast, raw + enriched + working, enriched + write)
     return Estimate("enriched-cache rebuild", peak,
                     (("raw frame", raw), ("partition cast", cast), ("enriched frame", enriched),
                      ("working", working), ("cache write", write)))

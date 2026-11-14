@@ -230,11 +230,20 @@ def test_rebuild_estimate_charges_compact_cells():
     raw, enriched = parts["raw frame"], parts["enriched frame"]
     assert est.peak == max(raw + parts["partition cast"],
                            raw + enriched + parts["working"],
-                           raw + enriched + parts["cache write"])
+                           enriched + parts["cache write"])
     # Statewide shape (8.0M rows, 91 election columns): well under the all-String estimate.
     string_raw = mb.frame_bytes(rows, ["String"] * (raw_cols - n_el), election_cols=n_el)
     old_peak = string_raw + int(string_raw * 1.1) + int(string_raw * mb.WORKING_FACTOR)
     assert est.peak < 0.6 * old_peak
+
+
+def test_raw_frame_is_released_before_the_cache_write():
+    """estimate_rebuild's write phase leaves out the raw frame. That is only true
+    while _resolve_enriched deletes it before writing the cache."""
+    import inspect
+    src = inspect.getsource(vdc._resolve_enriched)
+    assert "del raw" in src
+    assert src.index("del raw") < src.index("_write_cache_atomic(")
 
 
 def test_rebuild_estimate_without_partition_sizes_is_conservative():
