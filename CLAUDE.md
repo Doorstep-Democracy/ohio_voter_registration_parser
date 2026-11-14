@@ -1,7 +1,16 @@
 # CLAUDE.md — Ohio Voter Registration Parser
 
 ## 1. Project Overview
-Ohio Statewide Voter File (SWVF) parser and precinct-captain dashboard. Ingests raw county data to generate deterministic, cohort-segmented voter rosters and jurisdictional narratives. Project state, phase status, and dashboard history live in the agent memory systems (auto-loaded via `MEMORY.md`), not here and not in the repo. Those stores are external and environment-specific: Claude Code CLI reads `~/.claude/projects/D--vibe-election-data/memory/`; Cowork reads its own space memory. This file holds only universally applicable rules and irreducible domain semantics.
+Ohio Statewide Voter File (SWVF) parser and precinct-captain dashboard. Ingests raw county data to generate deterministic, cohort-segmented voter rosters and jurisdictional narratives. **Task status lives in Linear** (§1a); **domain decisions and rationale** live in the agent memory systems (auto-loaded via `MEMORY.md`), not here and not in the repo. Those memory stores are external and environment-specific: Claude Code CLI reads `~/.claude/projects/D--vibe-election-data/memory/`; Cowork reads its own space memory. This file holds only universally applicable rules and irreducible domain semantics.
+
+## 1a. Task tracking (Linear)
+Task/work state is tracked in **Linear**, workspace team **Doorstep Democracy** (issue key `DOO`), via the Linear MCP connector. Two-layer convention (adopted 2026-07-27):
+* **Linear = status.** Each unit of work is an issue (`DOO-N`) in a subsystem **project** (e.g. `Trajectory / Axis A — subscriber tier`, `Captain / Quorum App`, `Weekly Change Engine`, `Precincts`). Status/priority/blocking-relations live in Linear fields, never duplicated in prose.
+* **Handoff files = spec.** Each issue links a self-contained `local/context/handoffs/HANDOFF_*.md` — the thing a fresh session actually executes. A long spec never goes in an issue description.
+* **Runbook files = index.** `RUNBOOK_*.md` point at the Linear project and hold rationale/consistency-checks/scope, not live status.
+* **Commits reference the issue.** Every commit message (merge commits included) ends with `Refs DOO-N.` naming the issue it serves; if none applies, ask before committing.
+
+**Fresh-session entry point:** the user names a `DOO-N`; `get_issue` it, follow its `Handoff:` path, execute the handoff, and move the issue In Progress → In Review. If the handoff is marked "TO BE WRITTEN," write it (modeled on an existing handoff) and stop for review before executing — writing and executing a handoff are separate sessions. Detail: memory `project-linear-migration`.
 
 ## 2. Tech Stack
 * Core data engine: Polars, DuckDB, `orjson`.
@@ -15,7 +24,7 @@ Ohio Statewide Voter File (SWVF) parser and precinct-captain dashboard. Ingests 
 * `tools/` — segmented by function: `export/`, `lookup/`, `admin/`, `narrative/`, `scoring/`, `tests/`.
 * `serve/` — local PII backend (`roster_api.py`, `captain_db.py`); the *code* is committable and PII-free, reading PII only at runtime from `local/`.
 * `local/` — local-only workspace, **entirely gitignored**: `source/`, `working/`, `exports/`, `patches/`, `logs/`, `*.db`, and `local/context/` (AI `archive/`, `research/`, `journal/`, `handoffs/`, `scope/`, `business/`).
-* **Session working docs.** `local/context/journal/project_journal.md` — running session log, append-only (use `open('a')` per §8; never read-modify-write). `local/context/handoffs/HANDOFF_QUORUM_SEEDING.md` — current master work queue for both `election-data` and `quorum`. Read this + `local/context/handoffs/SESSION_FINDINGS_2026-06-29.md` at the start of any new session before touching pipeline or quorum code.
+* **Session working docs.** `local/context/journal/project_journal.md` — running session log, append-only (use `open('a')` per §8; never read-modify-write). `local/context/handoffs/HANDOFF_QUORUM_SEEDING.md` — the quorum-seeding spec for both `election-data` and `quorum` (live status is in Linear, §1a). Read this + `local/context/handoffs/SESSION_FINDINGS_2026-06-29.md` at the start of any new session before touching pipeline or quorum code.
 
 ## 4. SWVF Schema & Domain Semantics
 The irreducible knowledge this file exists to hold — most of the project's worst bugs were schema misunderstandings, not code defects.
