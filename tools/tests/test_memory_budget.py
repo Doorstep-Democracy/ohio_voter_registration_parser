@@ -340,8 +340,21 @@ def test_a_refusal_ends_the_run_with_exit_code_3_and_the_failure_marker(monkeypa
     with caplog.at_level(logging.ERROR, logger="voter_analysis"):
         with pytest.raises(SystemExit) as err:
             ovp._dispatch_guarded("1", [])
-    assert err.value.code == 3
+    assert err.value.code == mb.EXIT_REFUSED == 3
     assert any(f"{ri.FAILED_MARKER}: {ri.REFUSED_MARKER}: " in r.getMessage() for r in caplog.records)
+    assert "RUN REFUSED" in capsys.readouterr().out
+
+
+def test_standalone_groupings_exits_with_the_refusal_code(tmp_path, monkeypatch, capsys):
+    import pipeline.jurisdictional_groupings as jg
+    import voter_data_cleaner as bare_vdc          # the module object the groupings script imports
+
+    def _refuse(**kwargs):
+        raise bare_vdc.memory_budget.MemoryBudgetError("Not enough memory for the jurisdictional groupings: ...")
+
+    monkeypatch.setattr(jg, "main", _refuse)
+    monkeypatch.setattr(jg, "setup_logger", lambda: (LOG, tmp_path / "groupings.log"))
+    assert jg._cli([]) == mb.EXIT_REFUSED
     assert "RUN REFUSED" in capsys.readouterr().out
 
 

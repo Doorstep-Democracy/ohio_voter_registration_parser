@@ -73,6 +73,11 @@ ELECTION_CELL_BYTES = 18.0
 WORKING_FACTOR = 0.5
 
 
+# Process exit code for a run the budget refused. Distinct from 1 (failed) and
+# 2 (bad command line) so a caller can tell "did not fit" from "broke".
+EXIT_REFUSED = 3
+
+
 class MemoryBudgetError(RuntimeError):
     """The stage's estimated peak does not fit the memory budget. Raised before
     anything is loaded; the message states the numbers and the options."""
