@@ -23,8 +23,6 @@ from pipeline import voter_data_cleaner as _v2
 from pipeline.paths import DATA_DIR, county_partition
 from pipeline.paths import PARQUET_DIR as PAR_DIR
 
-ROOT     = Path(__file__).resolve().parent.parent.parent
-
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 log = logging.getLogger(__name__)
 

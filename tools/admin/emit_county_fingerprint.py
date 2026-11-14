@@ -393,7 +393,7 @@ def main():
 
     parts = sorted(args.parquet_dir.glob(f'{PARTITION_GLOB}/{PARTITION_FILE}'))
     if not parts:
-        print(f'ERROR: no COUNTY_NUMBER=*/part-0.parquet under {args.parquet_dir}', file=sys.stderr)
+        print(f'ERROR: no {PARTITION_GLOB}/{PARTITION_FILE} under {args.parquet_dir}', file=sys.stderr)
         return 2
 
     snapshot_date = resolve_snapshot_date(args.staged_from, args.snapshot_date)
