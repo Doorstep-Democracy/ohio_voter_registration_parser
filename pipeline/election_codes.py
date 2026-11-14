@@ -121,7 +121,9 @@ def string_casts(schema: pl.Schema, cols: Iterable[str]) -> list[pl.Expr]:
     """Expressions casting each code-dtype column of `cols` back to String.
 
     Used eagerly by to_strings() and lazily by the enriched-cache writer, which
-    streams the cast so no full String copy of the election columns is built.
+    streams the cast rather than applying it to the whole frame. Streaming still
+    costs up to one String copy of the election columns (measured 2026-11-14);
+    memory_budget.estimate_rebuild charges it.
     """
     return [pl.col(c).cast(pl.String) for c in cols if is_code_dtype(schema[c])]
 
