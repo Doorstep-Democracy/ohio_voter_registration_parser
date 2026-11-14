@@ -467,6 +467,8 @@ def machine_fingerprint() -> dict:
                 purpose: a dynamically sized pagefile changes total swap from
                 run to run with no configuration change. Limit: replacing DIMMs
                 with others of the same total size does not change the id.
+    swap_total_gb  None when the OS will not report it
+                (memory_budget.swap_total_bytes).
     boot_time   When the machine last started, with UTC offset. A different
                 value in two consecutive run logs means a reboot or a crash
                 happened between them.
@@ -481,7 +483,8 @@ def machine_fingerprint() -> dict:
     fp['config_id'] = hashlib.sha256(
         '|'.join(str(fp[k]) for k in ('os', 'cpu', 'cpu_count', 'ram_total_gb')).encode('utf-8')
     ).hexdigest()[:12]
-    fp['swap_total_gb'] = round(_psutil.swap_memory().total / 2**30, 1)
+    swap = memory_budget.swap_total_bytes(_psutil)
+    fp['swap_total_gb'] = None if swap is None else round(swap / 2**30, 1)
     fp['boot_time'] = (datetime.fromtimestamp(_psutil.boot_time()).astimezone()
                        .isoformat(timespec='seconds'))
     return fp
@@ -517,8 +520,9 @@ def log_run_context(logger: logging.Logger) -> None:
     logger.info('Run context: RAM total %.1f GB, available %.1f GB at start',
                 vm.total / 2**30, vm.available / 2**30)
     fp = machine_fingerprint()
-    logger.info('Run context: machine %s | %s | %d logical CPUs | RAM %.1f GB | swap %.1f GB',
-                fp['os'], fp['cpu'], fp['cpu_count'], fp['ram_total_gb'], fp['swap_total_gb'])
+    swap = 'unknown' if fp['swap_total_gb'] is None else f"{fp['swap_total_gb']:.1f} GB"
+    logger.info('Run context: machine %s | %s | %d logical CPUs | RAM %.1f GB | swap %s',
+                fp['os'], fp['cpu'], fp['cpu_count'], fp['ram_total_gb'], swap)
     logger.info('Run context: machine config id %s, booted %s', fp['config_id'], fp['boot_time'])
     logger.info('Run context: output root %s (%s)', DOCS_DIR,
                 f'{OUTPUT_ENV_VAR} override' if OUTPUT_OVERRIDDEN else 'default, the published tree')

@@ -175,6 +175,36 @@ def test_budget_line_reports_the_machine_the_budget_and_the_parts(caplog):
         assert expected in line, line
 
 
+def _swap_blocked():
+    raise RuntimeError("PdhAddEnglishCounterW failed")
+
+
+def test_unknown_swap_total_is_reported_as_unknown_and_changes_no_budget(monkeypatch, caplog):
+    # Windows with performance counters blocked: psutil.swap_memory() raises.
+    monkeypatch.setattr(mb.psutil, "swap_memory", _swap_blocked)
+    machine = mb.read_machine()
+    assert machine.swap_total is None
+    known = mb.Machine(machine.total, machine.available, 32 * GIB, machine.cpu_count)
+    assert (mb.make_budget(machine, mb.MemorySettings()).bytes
+            == mb.make_budget(known, mb.MemorySettings()).bytes)
+
+    budget = mb.make_budget(machine, mb.MemorySettings(budget_gb=64))
+    with caplog.at_level(logging.INFO, logger=LOG.name):
+        mb.enforce(_export(8), budget, mb.MemorySettings(), LOG)
+    line = caplog.records[-1].getMessage()
+    assert "swap unknown (not counted)" in line, line
+
+
+def test_swap_reader_passes_on_every_other_error():
+    class _Broken:
+        @staticmethod
+        def swap_memory():
+            raise OSError("not the blocked-counter case")
+
+    with pytest.raises(OSError):
+        mb.swap_total_bytes(_Broken)
+
+
 # ---- 2. wiring: shape readers --------------------------------------------------
 
 def test_text_shape_estimates_rows_from_a_sample(tmp_path):

@@ -102,6 +102,30 @@ def test_config_id_changes_with_installed_ram_but_not_with_swap_size(monkeypatch
     assert halved["ram_total_gb"] == 32.0
 
 
+def test_fingerprint_and_run_context_survive_a_blocked_swap_counter(monkeypatch, caplog):
+    gib = 2**30
+    monkeypatch.setattr(vdc, "_psutil", _fake_psutil(64 * gib, 32 * gib))
+    known = vdc.machine_fingerprint()
+
+    def _blocked():
+        raise RuntimeError("PdhAddEnglishCounterW failed")
+
+    blocked = _fake_psutil(64 * gib, 0)
+    blocked.swap_memory = _blocked
+    monkeypatch.setattr(vdc, "_psutil", blocked)
+    fp = vdc.machine_fingerprint()
+    assert fp["swap_total_gb"] is None                 # unknown, not 0
+    assert fp["config_id"] == known["config_id"]       # swap is outside the id
+
+    monkeypatch.setattr(vdc, "_RUN_ID", "20261112_013407")
+    logger = logging.getLogger("test_run_log_context.swap")
+    with caplog.at_level(logging.INFO, logger=logger.name):
+        vdc.log_run_context(logger)
+    text = "\n".join(r.getMessage() for r in caplog.records)
+    assert "| swap unknown" in text
+    assert f"machine config id {fp['config_id']}, booted " in text
+
+
 # ---- the lines reach the logs -------------------------------------------------
 
 def test_run_context_logs_run_id_and_machine_lines(caplog, monkeypatch):

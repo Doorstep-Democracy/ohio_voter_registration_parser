@@ -128,18 +128,37 @@ def active() -> MemorySettings:
 @dataclass(frozen=True)
 class Machine:
     """Memory and CPU facts, in bytes. `available` is what can be used without
-    paging right now; it already excludes what other programs hold."""
+    paging right now; it already excludes what other programs hold. `swap_total`
+    is None when the OS will not report it (see swap_total_bytes)."""
     total: int
     available: int
-    swap_total: int
+    swap_total: int | None
     cpu_count: int
+
+
+def swap_total_bytes(source=psutil) -> int | None:
+    """Total swap / pagefile in bytes, or None when the OS will not report it.
+
+    On Windows psutil.swap_memory() also reads a performance counter for the
+    used percentage, and raises RuntimeError where counters are blocked
+    (restricted shells, some service accounts). Only the total is wanted and
+    swap is never counted in the budget, so an unreadable total is reported as
+    unknown. It is never reported as 0, which would read as "no swap".
+
+    source   the psutil-like module to ask. The cleaner passes its own binding,
+             so both callers share this one reader.
+    """
+    try:
+        return source.swap_memory().total
+    except RuntimeError:  # the blocked counter; any other error is a real fault
+        return None
 
 
 def read_machine() -> Machine:
     """Read the machine through psutil and os.cpu_count."""
     vm = psutil.virtual_memory()
     return Machine(total=vm.total, available=vm.available,
-                   swap_total=psutil.swap_memory().total, cpu_count=os.cpu_count() or 1)
+                   swap_total=swap_total_bytes(), cpu_count=os.cpu_count() or 1)
 
 
 @dataclass(frozen=True)
@@ -252,7 +271,8 @@ def describe(estimate: Estimate, budget: Budget) -> str:
     m = budget.machine
     source = "forced" if budget.forced else f"{budget.margin:.0%} of available kept in reserve"
     parts = ", ".join(f"{name} {_gb(size)}" for name, size in estimate.parts)
-    return (f"RAM total {_gb(m.total)}, available {_gb(m.available)}, swap {_gb(m.swap_total)} "
+    swap = "swap unknown" if m.swap_total is None else f"swap {_gb(m.swap_total)}"
+    return (f"RAM total {_gb(m.total)}, available {_gb(m.available)}, {swap} "
             f"(not counted); budget {_gb(budget.bytes)} ({source}); "
             f"{estimate.label} estimated peak {_gb(estimate.peak)} [{parts}]")
 
