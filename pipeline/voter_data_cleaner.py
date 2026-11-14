@@ -676,6 +676,14 @@ def identify_election_cols(df: pl.DataFrame) -> list[str]:
     return election_cols_from_names(df.columns)
 
 
+def _election_span(election_cols: list[str]) -> str:
+    """'N election columns: first to last' for a log line. A frame with no
+    election columns gets a count of 0, not an IndexError."""
+    if not election_cols:
+        return '0 election columns'
+    return f'{len(election_cols)} election columns: {election_cols[0]} to {election_cols[-1]}'
+
+
 def election_cols_from_names(names) -> list[str]:
     """Election participation column names among `names`, in chronological order.
 
@@ -5090,8 +5098,7 @@ def run_ohio_analysis(
             before_load=lambda fresh: plan.update(
                 workers=_preflight_statewide_export(logger, fresh, max_workers)),
         )
-        logger.info('%d election columns: %s to %s',
-                    len(election_cols), election_cols[0], election_cols[-1])
+        logger.info('%s', _election_span(election_cols))
 
         with _timer(logger, 'computing participation metrics'):
             df = add_voter_participation(df, election_cols, logger, read_cells=read_cells)
@@ -5351,8 +5358,7 @@ def run_county_analysis(
             df = clean_voter_data(df, logger)
 
         election_cols = identify_election_cols(df)
-        logger.info('%d election columns: %s → %s',
-                    len(election_cols), election_cols[0], election_cols[-1])
+        logger.info('%s', _election_span(election_cols))
 
         with _timer(logger, 'computing participation metrics'):
             df = add_voter_participation(df, election_cols, logger)
