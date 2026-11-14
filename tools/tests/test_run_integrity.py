@@ -49,7 +49,9 @@ def test_validate_file(tmp_path, name, payload, expect):
 
 def test_seal_reports_only_this_runs_bad_files(tmp_path, caplog):
     root = tmp_path / "out"
-    start = time.time()
+    # One second back: a file's mtime can read a few ms earlier than a
+    # time.time() taken just before the write (coarser filesystem clock).
+    start = time.time() - 1
     _write(root / "old_bad.json", b"\x00" * 10, mtime=start - 3600)   # before the run: ignored
     _write(root / "a" / "good.json", b"[1, 2]")
     bad = _write(root / "a" / "zeroed_narrative.json", b"\x00" * 600)
