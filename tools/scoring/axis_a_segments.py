@@ -84,7 +84,8 @@ import polars as pl
 # ---------------------------------------------------------------------------
 
 #: ``crossover_class`` values that represent a crosser who is NOT locked back
-#: into one party. Assigned in ``voter_data_cleaner.py`` (~line 2184) with two
+#: into one party. Assigned in ``voter_data_cleaner.py`` (the crossover_class
+#: block of ``classify_all_voters_primary_history``) with two
 #: threshold regimes: UNC_MIXED uses LOCKED at |lean| >= 0.40 and LEAN at
 #: |lean| >= 0.20; affiliated crossovers (CROSSOVER_R/CROSSOVER_D) use the
 #: tighter 0.50 / 0.30. Both regimes emit this same label vocabulary.
@@ -119,13 +120,23 @@ def non_locked_crossers() -> pl.Expr:
     THE ARITHMETIC DOES NOT CLOSE, AND THAT IS CORRECT
     --------------------------------------------------
     ``crossers - locked != non_locked``. ``crossover_class`` is assigned only to
-    cohorts CROSSOVER_R / CROSSOVER_D / UNC_MIXED (``voter_data_cleaner.py``
-    ~line 2185); every other cohort gets NULL. A small residue of ``ever_crossed``
-    voters therefore carries no class at all and is excluded here -- they are
-    UNCLASSIFIABLE, not non-locked, and asserting either lean about them would be
-    unfounded. Measured 2026-07-26 on the 2026-07-04 snapshot: 2,609 such rows
-    statewide. The inverse (a class set while ``ever_crossed`` is False) was
-    measured at exactly zero, so the two fields do not disagree in this snapshot.
+    cohorts CROSSOVER_R / CROSSOVER_D / UNC_MIXED (the crossover_class block of
+    ``classify_all_voters_primary_history``); every other cohort gets NULL. A
+    residue of ``ever_crossed`` voters therefore carries no class at all and is
+    excluded here -- they are UNCLASSIFIABLE, not non-locked, and asserting
+    either lean about them would be unfounded.
+
+    One known source of that residue is minor-party affiliation. A voter
+    registered ``L`` (Libertarian) who has cast both D and R primary ballots is
+    cohort MINOR_PARTY (before the minor-party cohort existed, OTHER), so their
+    class is NULL and they are not in this segment although ``ever_crossed`` is
+    True. Whether such voters belong in the product is a product decision, not
+    one this predicate makes silently. Measured 2026-07-26 on the 2026-07-04
+    snapshot: 2,609 residue rows statewide, and the inverse (a class set while
+    ``ever_crossed`` is False) was exactly zero. Not re-measured since.
+
+    A NULL class yields False here, never NULL, so the expression is safe to sum
+    or to emit as a boolean column, not only to filter on.
 
     COUNTED-BALLOT RULE
     -------------------
@@ -136,14 +147,22 @@ def non_locked_crossers() -> pl.Expr:
 
     GATE ANCHOR
     -----------
-    Returns 536,143 rows statewide against
-    ``local/source/parquet_enriched/enriched_voters.parquet`` at mtime
-    2026-07-25 10:29 (snapshot 2026-07-04, 7,932,119 rows). Re-measured
-    2026-07-26. If the cache has been regenerated since, re-measure before
-    treating this number as a gate: a gate that silently passes against a stale
+    Returned 536,143 rows statewide against the enriched cache built from the
+    2026-07-04 snapshot (cache mtime 2026-07-25 10:29, 7,932,119 rows,
+    affiliation window [2024, 2025, 2026]), measured 2026-07-26. It has NOT been
+    re-measured on any later snapshot. Re-measure before treating it as a gate
+    against any other cache: a gate that silently passes against a stale
     reference is worse than no gate.
+
+    The figure is a property of the snapshot, not only of voter behaviour.
+    Which cohort a crosser lands in (CROSSOVER_* or UNC_MIXED) follows current
+    PARTY_AFFILIATION, and the two cohorts use different lean thresholds, so the
+    population moves when the affiliation window steps on 1 January (R.C.
+    3513.19; CLAUDE.md section 4) even if no voter casts another ballot.
     """
-    return pl.col("ever_crossed") & pl.col("crossover_class").is_in(NON_LOCKED_CLASSES)
+    return (
+        pl.col("ever_crossed") & pl.col("crossover_class").is_in(NON_LOCKED_CLASSES)
+    ).fill_null(False)
 
 
 # ---------------------------------------------------------------------------
@@ -193,7 +212,7 @@ def fresh_defector(years: float = FRESH_DEFECTOR_YEARS) -> pl.Expr:
         pl.col("ever_crossed")
         & crossed_on_latest
         & (pl.col("years_since_last_partisan") <= years)
-    )
+    ).fill_null(False)
 
 
 # ---------------------------------------------------------------------------
@@ -305,7 +324,8 @@ def zero_floor_reachable(general_col: str) -> pl.Expr:
     --------------------------------------------------------------------
     The chronologically last GENERAL column is frequently an odd-year municipal
     general with a fraction of the turnout, and it silently produces a segment
-    ~8x too small. Measured 2026-07-26: anchoring on GENERAL-11/04/2025 yields
+    ~8x too small. Measured 2026-07-26 (2026-07-04 snapshot): anchoring on
+    GENERAL-11/04/2025 yields
     220,273 reachable statewide, while GENERAL-11/05/2024 yields 1,790,384.
     Filter ``build_col_meta`` output to ``date.month == 11 and date.year % 2 == 0``
     and take the most recent. This bit the Phase 1 verification harness on its
