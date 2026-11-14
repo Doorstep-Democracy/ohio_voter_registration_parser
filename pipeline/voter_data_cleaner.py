@@ -113,6 +113,13 @@ from paths import (  # noqa: E402,F401
     parquet_glob,
 )
 import memory_budget  # noqa: E402  (sibling module; preflight before heavy loads)
+from election_codes import (  # noqa: E402,F401  (compact election codes, DOO-184)
+    ELECTION_CODE_DTYPE,
+    UnknownElectionCodeError,
+    code_expr,
+    string_casts,
+    to_codes,
+)
 PARQUET_ENRICHED_DIR.mkdir(parents=True, exist_ok=True)
 CLASSIFIER_SRC       = Path(__file__)
 
@@ -229,10 +236,16 @@ def _write_cache_atomic(df: pl.DataFrame, logger: logging.Logger) -> None:
         ),
     }
 
+    # The cache stores election cells as String (operator decision 2A,
+    # DOO-184), so its format and its readers are unchanged. The cast back is
+    # streamed a morsel at a time, so no full String copy of the election
+    # columns is built here, and `df` stays compact for the caller.
     tmp = ENRICHED_CACHE.with_suffix(".parquet.tmp")
-    df.write_parquet(tmp, compression="zstd",
+    (df.lazy()
+       .with_columns(string_casts(df.schema, identify_election_cols(df)))
+       .sink_parquet(tmp, compression="zstd",
                      metadata={k: json.dumps(v) if not isinstance(v, str) else v
-                               for k, v in provenance.items()})
+                               for k, v in provenance.items()}))
     tmp.replace(ENRICHED_CACHE)
 
     sidecar = ENRICHED_CACHE.with_suffix(".provenance.json")
@@ -670,8 +683,10 @@ def identify_election_cols(df: pl.DataFrame) -> list[str]:
     Find and sort all election participation columns in the DataFrame.
 
     The state voter file has one column per election held since 2000,
-    named "TYPE-MM/DD/YYYY" (e.g. "GENERAL-11/04/2025").  Participation
-    values are: 'X' (in-person), 'R' (absentee), 'D' (provisional), '' (did not vote).
+    named "TYPE-MM/DD/YYYY" (e.g. "GENERAL-11/04/2025").  Cell values are
+    ballot codes: 'D' / 'R' (party primary ballot), 'X' (non-partisan ballot),
+    a minor-party code (L G C S N E), or '' (did not vote). The full set is
+    election_codes.ELECTION_CODES (CLAUDE.md section 4).
 
     Returns columns sorted chronologically by election date so participation
     metrics accumulate in the correct order.
@@ -805,8 +820,8 @@ def build_col_meta(
 
         def _partisan_counts(frame: pl.DataFrame, names: list[str]) -> tuple:
             return frame.select([
-                ((pl.col(c).str.strip_chars() == 'D') |
-                 (pl.col(c).str.strip_chars() == 'R')).sum().alias(c)
+                ((code_expr(c, frame.schema[c]) == 'D') |
+                 (code_expr(c, frame.schema[c]) == 'R')).sum().alias(c)
                 for c in names
             ]).row(0)
 
@@ -994,9 +1009,25 @@ def load_voter_files_parquet(
         df = pl.read_parquet(parquet_glob(part))
         if 'COUNTY_NUMBER' not in df.columns:
             df = df.with_columns(pl.lit(cnum).alias('COUNTY_NUMBER'))
+        df = to_codes(df, identify_election_cols(df), where=part.name)
     else:
+        # One partition at a time, each cast to compact election codes before
+        # the next is read, so the full String frame (about 12 GB of election
+        # cells statewide) never exists (DOO-184). Sorted directory names give
+        # the same partition order as the hive read this replaces.
         log.info('Loading full Parquet cache: %s', pdir)
-        df = pl.read_parquet(parquet_glob(pdir), hive_partitioning=True)
+        parts = sorted(p for p in pdir.glob(PARTITION_GLOB) if p.is_dir())
+        if not parts:
+            raise FileNotFoundError(f'No Parquet partitions under {pdir}.')
+        frames = []
+        for part in parts:
+            frame = pl.read_parquet(parquet_glob(part))
+            if PARTITION_KEY not in frame.columns:
+                frame = frame.with_columns(
+                    pl.lit(part.name.split('=', 1)[1]).alias(PARTITION_KEY))
+            frames.append(to_codes(frame, identify_election_cols(frame), where=part.name))
+        df = pl.concat(frames, how='vertical', rechunk=False)
+        del frames
 
     # PyArrow may infer COUNTY_NUMBER as integer from the Hive partition key.
     # Cast to String so all downstream str.strip_chars() calls work correctly.
@@ -1077,7 +1108,15 @@ def load_voter_files(
              len(frames),
              f' filtered to county {county_number}' if county_number else ' (full state)')
 
-    combined = pl.concat(frames).collect()
+    # Collected one file at a time, each cast to compact election codes
+    # before the next is read, so the full String frame never exists
+    # (DOO-184). The strict code check then names the file it failed in.
+    collected = []
+    for path, lf in zip(txt_files, frames):
+        part = lf.collect()
+        collected.append(to_codes(part, identify_election_cols(part), where=path.name))
+    combined = pl.concat(collected, how='vertical', rechunk=False)
+    del collected
 
     log.info('Loaded: %s rows × %d columns', f'{len(combined):,}', len(combined.columns))
     return combined
@@ -1099,7 +1138,12 @@ def clean_voter_data(df: pl.DataFrame, logger: logging.Logger) -> pl.DataFrame:
 
     Rows with unparseable birth dates or birth years outside 1900–current year
     are dropped.  All other rows are retained regardless of status.
+
+    Election columns leave as compact codes (election_codes.to_codes). The
+    loaders already cast them; the call here is idempotent and covers frames
+    built elsewhere. A value outside the code set raises.
     """
+    df = to_codes(df, identify_election_cols(df))
     initial_count = len(df)
 
     # ── Birth year: parse full date, extract year, derive decade ──────────────
@@ -1314,7 +1358,7 @@ def add_voter_participation(
             [(reg.is_not_null() & (reg <= pl.lit(m.date))).alias(f'_elig_{i}')
              for i, m in enumerate(batch)]
         ).hstack(cells.select(
-            [(pl.col(m.col).is_not_null() & (pl.col(m.col).str.strip_chars() != '')).alias(f'_cast_{i}')
+            [(pl.col(m.col).is_not_null() & (code_expr(m.col, cells.schema[m.col]) != '')).alias(f'_cast_{i}')
              for i, m in enumerate(batch)]
         ))
         del cells
@@ -1534,7 +1578,7 @@ def build_election_participation(
         n_voted = df.filter(
             elig_mask &
             pl.col(col).is_not_null() &
-            (pl.col(col).str.strip_chars() != '')
+            (code_expr(col, df.schema[col]) != '')
         ).height
         rate = n_voted / n_elig if n_elig > 0 else None
 
@@ -1635,7 +1679,7 @@ def build_district_breakdown(
             (
                 (pl.col('REGDATE_DT').is_not_null() & (pl.col('REGDATE_DT') <= pl.lit(g_date))) &
                 pl.col(most_recent_g).is_not_null() &
-                (pl.col(most_recent_g).str.strip_chars() != '')
+                (code_expr(most_recent_g, df.schema[most_recent_g]) != '')
             ).cast(pl.Int32).alias('_voted_g'),
         ])
     else:
@@ -2178,7 +2222,7 @@ def classify_all_voters_primary_history(
     any_exprs: list[pl.Expr] = []
 
     for c, _ in col_meta:
-        v = pl.col(c).str.strip_chars()
+        v = code_expr(c, df.schema[c])
         d_exprs.append((v == 'D').cast(pl.Int32))
         r_exprs.append((v == 'R').cast(pl.Int32))
         # X is the non-partisan (issues-only) ballot. Any other non-empty code
@@ -2196,7 +2240,7 @@ def classify_all_voters_primary_history(
     recent_den_exprs: list[pl.Expr] = []
 
     for c, _ in col_meta:
-        v = pl.col(c).str.strip_chars()
+        v = code_expr(c, df.schema[c])
         w = weights[c]
         ballot_val = (
             pl.when(v == 'D').then(pl.lit(1.0 * w))
@@ -2224,8 +2268,8 @@ def classify_all_voters_primary_history(
     switch_exprs: list[pl.Expr] = []
     chrono_cols = [c for c, _ in col_meta_chrono]
     for prev_col, next_col in zip(chrono_cols, chrono_cols[1:]):
-        v1 = pl.col(prev_col).str.strip_chars()
-        v2 = pl.col(next_col).str.strip_chars()
+        v1 = code_expr(prev_col, df.schema[prev_col])
+        v2 = code_expr(next_col, df.schema[next_col])
         diff_partisan = (
             ((v1 == 'D') & (v2 == 'R')) | ((v1 == 'R') & (v2 == 'D'))
         ).cast(pl.Int32)
@@ -2239,7 +2283,7 @@ def classify_all_voters_primary_history(
     # ballots by eye without rerunning anything.
     seq_letter_exprs: list[pl.Expr] = []
     for c, _ in col_meta_chrono:
-        v = pl.col(c).str.strip_chars()
+        v = code_expr(c, df.schema[c])
         seq_letter_exprs.append(
             pl.when(v == 'D').then(pl.lit('D'))
               .when(v == 'R').then(pl.lit('R'))
@@ -2250,7 +2294,7 @@ def classify_all_voters_primary_history(
     yslp_exprs: list[pl.Expr] = []
     for c, d in col_meta_newest_first:
         years_since = (reference_date - d).days / 365.25
-        v = pl.col(c).str.strip_chars()
+        v = code_expr(c, df.schema[c])
         ex = (
             pl.when((v == 'D') | (v == 'R')).then(pl.lit(years_since))
               .otherwise(pl.lit(None, dtype=pl.Float64))
@@ -2297,7 +2341,7 @@ def classify_all_voters_primary_history(
         # Uses the full resolved set, not just regular primaries: turning out
         # for ANY election proves registration was already active.
         _first_ballot_exprs = [
-            pl.when(pl.col(m.col).str.strip_chars() != '')
+            pl.when(code_expr(m.col, df.schema[m.col]) != '')
               .then(pl.lit(m.date))
               .otherwise(pl.lit(None, dtype=pl.Date))
             for m in _resolved
@@ -2389,7 +2433,7 @@ def classify_all_voters_primary_history(
     # registered after the last regular primary has an UNDEFINED rate, not a
     # 0% one, and averaging a fabricated zero would drag every aggregate down.
     regular_partisan_exprs = [
-        pl.col(m.col).str.strip_chars().is_in(['D', 'R']).cast(pl.Int32)
+        code_expr(m.col, df.schema[m.col]).is_in(['D', 'R']).cast(pl.Int32)
         for m in _resolved if m.is_regular
     ]
     work = work.with_columns(
@@ -2420,7 +2464,7 @@ def classify_all_voters_primary_history(
     if col_meta_newest_first:
         partisan_letter_exprs = []
         for c, _ in col_meta_newest_first:
-            v = pl.col(c).str.strip_chars()
+            v = code_expr(c, df.schema[c])
             ex = (
                 pl.when(v == 'D').then(pl.lit('D'))
                   .when(v == 'R').then(pl.lit('R'))
@@ -4777,13 +4821,15 @@ def _preflight_rebuild(logger: logging.Logger, settings, budget) -> tuple[int, i
     """Enforce the budget for an enriched-cache rebuild. Returns (rows, raw
     columns, election columns) of the raw cache, (0, 0, 0) when it has no
     partitions to size the run from."""
-    rows = sum(_raw_partition_rows().values())
+    by_part = _raw_partition_rows()
+    rows = sum(by_part.values())
     raw_cols, n_election = _raw_columns()
     if not rows:
         logger.warning('Memory budget: no raw parquet partitions to size the rebuild from; '
                        'preflight skipped')
         return 0, 0, 0
-    memory_budget.enforce(memory_budget.estimate_rebuild(rows, raw_cols, n_election),
+    memory_budget.enforce(memory_budget.estimate_rebuild(rows, raw_cols, n_election,
+                                                         max(by_part.values())),
                           budget, settings, logger)
     return rows, raw_cols, n_election
 
