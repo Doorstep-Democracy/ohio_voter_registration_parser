@@ -155,6 +155,21 @@ def test_a_frame_without_cohort_family_is_refused(cleaned, monkeypatch):
         vdc.load_enriched_for_export(LOG)
 
 
+def test_the_cleaner_emits_every_column_the_export_requires(cleaned):
+    assert set(vdc._EXPORT_REQUIRED_COLUMNS) <= set(cleaned.columns)
+
+
+def test_a_cache_missing_required_columns_is_refused_before_its_body_is_read(cleaned, tmp_path, monkeypatch):
+    gone = ["REGDATE_DT", "primary_participation_rate"]
+    _use_cache(cleaned.drop(gone), tmp_path, monkeypatch)
+    monkeypatch.setattr(pl, "read_parquet",
+                        lambda *a, **k: (_ for _ in ()).throw(AssertionError("cache body was read")))
+    with pytest.raises(RuntimeError) as err:
+        vdc.load_enriched_for_export(LOG)
+    assert all(name in str(err.value) for name in gone)        # every missing column, in one message
+    assert "cohort_family" not in str(err.value)
+
+
 # ---- participation and column metadata through read_cells ----------------------
 
 def test_participation_through_read_cells_equals_participation_on_the_full_frame(cleaned, tmp_path, monkeypatch):

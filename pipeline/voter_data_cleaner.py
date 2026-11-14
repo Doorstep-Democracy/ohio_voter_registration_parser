@@ -4941,6 +4941,28 @@ def load_enriched_voters(
     return rebuilt if ordered is None else rebuilt.select(ordered)
 
 
+# Enriched columns the county export depends on, besides election history. A
+# cache written by an older cleaner or classifier can lack one. Without
+# cohort_family the export would re-classify from election cells it no longer
+# holds; without REGDATE_DT participation fails after the load; without the
+# other two a chart is skipped with no error ('... in df.columns' guards).
+_EXPORT_REQUIRED_COLUMNS = (
+    'cohort_family', 'REGDATE_DT', 'is_new_registrant', 'primary_participation_rate',
+)
+
+
+def _require_export_columns(names, source: str) -> None:
+    """Raise RuntimeError naming every _EXPORT_REQUIRED_COLUMNS member that
+    `names` lacks. `source` says what was checked, for the message."""
+    missing = [c for c in _EXPORT_REQUIRED_COLUMNS if c not in names]
+    if missing:
+        raise RuntimeError(
+            f'{source} has no {", ".join(missing)} column(s); the county export cannot run '
+            'without the cleaner and cohort classifier output. Rebuild the enriched cache '
+            '(see load_enriched_for_export)'
+        )
+
+
 def load_enriched_for_export(
     logger:      logging.Logger,
     *,
@@ -4974,14 +4996,15 @@ def load_enriched_for_export(
                 are not carried into the export. read_cells must not be bound
                 to the full frame: a bound method would keep it alive.
 
-    Raises RuntimeError if the frame has no cohort_family column: without it
-    the export would fall back to re-classifying from election cells that are
-    no longer there. before_load is passed to _resolve_enriched.
+    Raises RuntimeError naming every column of _EXPORT_REQUIRED_COLUMNS the
+    frame lacks. On a cache hit this is decided from the parquet schema, before
+    the body is read. before_load is passed to _resolve_enriched.
     """
     rebuilt = _resolve_enriched(logger, txt_files, use_parquet, before_load)
     cache = ENRICHED_CACHE
     if rebuilt is None:
         names = list(pl.read_parquet_schema(cache))
+        _require_export_columns(names, f'enriched cache {cache.name}')
         election_cols = election_cols_from_names(names)
         skip = set(election_cols)
         keep = [c for c in names if c not in skip]
@@ -4991,6 +5014,7 @@ def load_enriched_for_export(
                     'left on disk and read in batches', f'{frame.height:,}', frame.width,
                     len(election_cols))
     else:
+        _require_export_columns(rebuilt.columns, 'rebuilt enriched frame')
         election_cols = identify_election_cols(rebuilt)
         frame = rebuilt.drop(election_cols)
         del rebuilt
@@ -5001,11 +5025,6 @@ def load_enriched_for_export(
     def read_cells(cols: list[str]) -> pl.DataFrame:
         return pl.read_parquet(cache, columns=cols).select(cols)
 
-    if 'cohort_family' not in frame.columns:
-        raise RuntimeError(
-            'enriched frame has no cohort_family column; the county export cannot run '
-            'without the cohort classifier output (see load_enriched_for_export)'
-        )
     return frame, election_cols, read_cells
 
 
