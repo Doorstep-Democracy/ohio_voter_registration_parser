@@ -27,6 +27,7 @@ Rules
 
 PROVISIONAL NUMBERS
     CELL_BYTES, ELECTION_CELL_BYTES and WORKING_FACTOR are estimates from dtype
+    (the compact election-code cost is CELL_BYTES['Enum'], the 1-byte physical size)
     layout and a single statewide run (2026-11-12, taken on a machine with a
     faulty memory kit). They have not been calibrated against a clean
     measured run; that is DOO-187. Treat a refusal near the line as "probably",
@@ -66,7 +67,12 @@ UNKNOWN_CELL_BYTES = 16.0
 
 # An election-history cell is a String holding zero or one character: the view
 # and little else. 17.8 B/cell was observed on the 2026-11 statewide runs.
+# This is the String cost; the loaders now cast election cells to compact codes
+# (pipeline/election_codes.py, a 1-byte Enum, CELL_BYTES['Enum']), so String is
+# charged only where cells are still String: the enriched cache's batches and
+# one raw partition while it is being cast (DOO-184).
 ELECTION_CELL_BYTES = 18.0
+COMPACT_ELECTION_CELL_BYTES = CELL_BYTES["Enum"]
 
 # Transient working memory (group-bys, joins, serialisation buffers, allocator
 # slack) allowed on top of the resident frames, as a fraction of the main frame.
@@ -193,11 +199,14 @@ class Estimate:
     parts: tuple
 
 
-def frame_bytes(rows: int, dtypes: Iterable[str], election_cols: int = 0) -> int:
+def frame_bytes(rows: int, dtypes: Iterable[str], election_cols: int = 0,
+                election_cell_bytes: float = ELECTION_CELL_BYTES) -> int:
     """Approximate resident size of a frame: rows x the per-dtype cell cost of
-    each column in `dtypes`, plus `election_cols` election-history columns."""
+    each column in `dtypes`, plus `election_cols` election-history columns at
+    `election_cell_bytes` each (String by default; COMPACT_ELECTION_CELL_BYTES
+    for cells held as compact codes)."""
     per_row = sum(CELL_BYTES.get(str(d).split("(")[0], UNKNOWN_CELL_BYTES) for d in dtypes)
-    return int(rows * (per_row + election_cols * ELECTION_CELL_BYTES))
+    return int(rows * (per_row + election_cols * election_cell_bytes))
 
 
 def estimate_export(rows: int, frame_dtypes: Iterable[str], election_cols: int,
@@ -221,14 +230,41 @@ def estimate_export(rows: int, frame_dtypes: Iterable[str], election_cols: int,
                      ("working", working)))
 
 
-def estimate_rebuild(rows: int, raw_cols: int, election_cols: int) -> Estimate:
-    """Rebuilding the enriched cache: the raw frame (every column String) and the
-    enriched frame it becomes are both resident while the classifier runs."""
-    raw = frame_bytes(rows, ["String"] * (raw_cols - election_cols), election_cols=election_cols)
-    enriched = int(raw * 1.1)          # raw columns plus the derived ones
+def estimate_rebuild(rows: int, raw_cols: int, election_cols: int,
+                     largest_partition_rows: int | None = None) -> Estimate:
+    """Rebuilding the enriched cache, as three phases that do not coexist; the
+    peak is the largest of them.
+
+    load       raw frame + partition cast
+    classify   raw frame + enriched frame + working
+    write      enriched frame + cache write. The raw frame is gone by then:
+               _resolve_enriched deletes it before the cache write, and
+               clean_voter_data's row filter leaves the enriched frame no
+               shared buffers with it. tools/tests/test_election_codes.py
+               pins that ordering.
+
+    raw frame        non-election columns String; election cells as compact codes,
+                     because the loader casts each partition as it is read.
+    partition cast   one partition's election cells still String during its cast.
+                     `largest_partition_rows` bounds it; None charges every row,
+                     the conservative bound when the partition sizes are unknown.
+    enriched frame   raw columns plus the derived ones.
+    cache write      the cache is written as String. The cast back is streamed,
+                     but streaming was measured (2026-11-14, synthetic) at up to
+                     a full String copy of the election columns at 2.5M rows and
+                     about half of one at 5-10M, so it is charged at a full copy.
+    """
+    raw = frame_bytes(rows, ["String"] * (raw_cols - election_cols), election_cols=election_cols,
+                      election_cell_bytes=COMPACT_ELECTION_CELL_BYTES)
+    part_rows = rows if largest_partition_rows is None else min(largest_partition_rows, rows)
+    cast = frame_bytes(part_rows, (), election_cols=election_cols)
+    enriched = int(raw * 1.1)
     working = int(raw * WORKING_FACTOR)
-    return Estimate("enriched-cache rebuild", raw + enriched + working,
-                    (("raw frame", raw), ("enriched frame", enriched), ("working", working)))
+    write = frame_bytes(rows, (), election_cols=election_cols)
+    peak = max(raw + cast, raw + enriched + working, enriched + write)
+    return Estimate("enriched-cache rebuild", peak,
+                    (("raw frame", raw), ("partition cast", cast), ("enriched frame", enriched),
+                     ("working", working), ("cache write", write)))
 
 
 def estimate_groupings(rows: int, frame_dtypes: Iterable[str]) -> Estimate:
