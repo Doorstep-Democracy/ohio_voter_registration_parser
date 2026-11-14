@@ -238,8 +238,9 @@ def _write_cache_atomic(df: pl.DataFrame, logger: logging.Logger) -> None:
 
     # The cache stores election cells as String (operator decision 2A,
     # DOO-184), so its format and its readers are unchanged. The cast back is
-    # streamed a morsel at a time, so no full String copy of the election
-    # columns is built here, and `df` stays compact for the caller.
+    # streamed rather than applied to the whole frame, and `df` stays compact
+    # for the caller. Streaming still costs up to one String copy of the
+    # election columns (measured 2026-11-14); estimate_rebuild charges it.
     tmp = ENRICHED_CACHE.with_suffix(".parquet.tmp")
     (df.lazy()
        .with_columns(string_casts(df.schema, identify_election_cols(df)))
