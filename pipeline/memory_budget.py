@@ -78,6 +78,14 @@ COMPACT_ELECTION_CELL_BYTES = CELL_BYTES["Enum"]
 # slack) allowed on top of the resident frames, as a fraction of the main frame.
 WORKING_FACTOR = 0.5
 
+# The statewide aggregate (export_json + export_unc_shadow_json over the whole
+# frame, after the county workers return), as a fraction of the frame. Measured
+# 2026-11-14 on a synthetic frame read from 88 parquet row groups: 0.30x once
+# each step selects its columns before filtering or joining; 5.7x before. The
+# 2026-11-14 statewide run (run id 20261114_211320) added about 10 GB at that
+# stage, which no estimate covered (DOO-187). Rounded up.
+STATEWIDE_EXPORT_FACTOR = 0.35
+
 
 # Process exit code for a run the budget refused. Distinct from 1 (failed) and
 # 2 (bad command line) so a caller can tell "did not fit" from "broke".
@@ -219,15 +227,19 @@ def estimate_export(rows: int, frame_dtypes: Iterable[str], election_cols: int,
     cells      one batch of election columns while participation is computed.
     slices     one county slice per worker; bounded above by every worker
                holding a county the size of the largest (`largest_share` of rows).
-    The batch and the slices are never alive together, so only the larger counts.
+    statewide  the statewide aggregate over the whole frame, after the workers
+               have returned (STATEWIDE_EXPORT_FACTOR).
+    The batch, the slices and the statewide aggregate are never alive together,
+    so only the largest counts.
     """
     frame = frame_bytes(rows, frame_dtypes)
     cells = frame_bytes(rows, (), election_cols=min(batch, election_cols))
     slices = int(frame * largest_share * workers)
+    statewide = int(frame * STATEWIDE_EXPORT_FACTOR)
     working = int(frame * WORKING_FACTOR)
-    return Estimate("county export", frame + max(cells, slices) + working,
+    return Estimate("county export", frame + max(cells, slices, statewide) + working,
                     (("frame", frame), ("election batch", cells), ("county slices", slices),
-                     ("working", working)))
+                     ("statewide aggregate", statewide), ("working", working)))
 
 
 def estimate_rebuild(rows: int, raw_cols: int, election_cols: int,

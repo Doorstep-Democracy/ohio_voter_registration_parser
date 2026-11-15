@@ -88,15 +88,25 @@ def test_frame_bytes_sums_per_dtype_cell_costs():
     assert mb.frame_bytes(10, ["Struct"]) == int(10 * mb.UNKNOWN_CELL_BYTES)
 
 
-def test_export_estimate_charges_the_larger_of_the_batch_and_the_slices():
+def test_export_estimate_charges_the_largest_of_batch_slices_and_statewide():
     one, eight = _export(1), _export(8)
     parts_one, parts_eight = dict(one.parts), dict(eight.parts)
     assert parts_eight["county slices"] == 8 * parts_one["county slices"]
     assert parts_one["frame"] == parts_eight["frame"]
     for est, parts in ((one, parts_one), (eight, parts_eight)):
         assert est.peak == (parts["frame"] + parts["working"]
-                            + max(parts["election batch"], parts["county slices"]))
+                            + max(parts["election batch"], parts["county slices"],
+                                  parts["statewide aggregate"]))
     assert eight.peak > one.peak
+
+
+def test_statewide_aggregate_sets_the_floor_when_few_workers_run():
+    # DOO-187: with one worker the county slice is smaller than the statewide
+    # aggregate that follows it, so the aggregate decides the peak.
+    parts = dict(_export(1).parts)
+    assert parts["statewide aggregate"] == int(parts["frame"] * mb.STATEWIDE_EXPORT_FACTOR)
+    assert parts["statewide aggregate"] > max(parts["county slices"], parts["election batch"])
+    assert _export(1).peak == parts["frame"] + parts["working"] + parts["statewide aggregate"]
 
 
 def test_rebuild_costs_more_than_the_export_it_feeds():
@@ -149,8 +159,10 @@ def test_a_16_gb_machine_is_refused_before_loading():
 
 
 def test_a_machine_in_between_runs_with_fewer_workers():
-    available = _export(2).peak / 0.85 / GIB + 0.01
-    assert _decide(_machine(32, available)) == 2
+    # 4, not 2: at 3 workers or fewer the statewide aggregate, not the county
+    # slices, sets the peak (DOO-187), so those counts all cost the same.
+    available = _export(4).peak / 0.85 / GIB + 0.01
+    assert _decide(_machine(32, available)) == 4
 
 
 def test_eager_mode_runs_a_stage_that_does_not_fit_and_says_so(caplog):

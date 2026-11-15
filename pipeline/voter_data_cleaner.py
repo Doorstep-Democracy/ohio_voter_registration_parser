@@ -1868,7 +1868,11 @@ def build_city_summary(df: pl.DataFrame) -> pl.DataFrame:
         Precincts       — number of distinct precincts contributing to this city
         Est. Unregistered — placeholder; requires Census integration
     """
-    base = df.with_columns([
+    # Only the resolver's columns plus the three aggregated here. The per-county
+    # loop and the inner join below are eager, so without this projection each
+    # copied every column of the frame: about 10 GB statewide (DOO-187).
+    needed = ['COUNTY_NUMBER', 'VOTER_STATUS', *_PLACE_RESOLVER_COLUMNS]
+    base = df.select([c for c in needed if c in df.columns]).with_columns([
         pl.col('PRECINCT_NAME').fill_null('Unknown').str.strip_chars().alias('PRECINCT_NAME'),
         pl.col('COUNTY_NUMBER').fill_null('??').str.strip_chars().alias('COUNTY_NUMBER'),
     ])
@@ -2667,14 +2671,18 @@ def _unc_classified_from_enriched_df(df: pl.DataFrame) -> 'pl.DataFrame | None':
         'UNC_NONPARTISAN': 'NO_HISTORY',
         'UNC_NO_PRIMARY': 'NO_HISTORY',
     }
+    keep_candidates = ['SOS_VOTERID', 'COUNTY_NUMBER', 'PRECINCT_NAME',
+                       'd_primaries', 'r_primaries', 'total_primaries', 'unc_class']
+    # Select before filtering: an eager filter copies every column of its frame,
+    # and on the statewide frame that was a 72-column copy of 6.3M rows (DOO-187).
+    source_cols = [c for c in keep_candidates if c in df.columns and c != 'unc_class']
     unc = (
-        df.filter(pl.col('cohort_family').is_in(unc_families))
+        df.select(source_cols + ['cohort_family'])
+          .filter(pl.col('cohort_family').is_in(unc_families))
           .with_columns(
               pl.col('cohort_family').replace(unc_class_map).alias('unc_class')
           )
     )
-    keep_candidates = ['SOS_VOTERID', 'COUNTY_NUMBER', 'PRECINCT_NAME',
-                       'd_primaries', 'r_primaries', 'total_primaries', 'unc_class']
     keep = [c for c in keep_candidates if c in unc.columns]
     return unc.select(keep)
 
@@ -2983,8 +2991,11 @@ def export_json(
     # Falls back to the legacy PARTY_LABEL+unc_classified shape only if
     # cohort_family is not present on df (unenriched callers).
     if 'cohort_family' in df.columns:
+        # Select before filtering: an eager filter copies every column, and on
+        # the statewide frame that was a full 10 GB copy per chart (DOO-187).
         cross = (
-            df.filter(pl.col('Decade').is_not_null())
+            df.select(['Decade', 'cohort_family'])
+              .filter(pl.col('Decade').is_not_null())
               .group_by(['Decade', 'cohort_family'])
               .agg(pl.len().alias('n'))
               .pivot(on='cohort_family', index='Decade',
@@ -3101,7 +3112,8 @@ def export_json(
     # Pivot on cohort_family so labels/colors/order match the doughnut.
     if 'cohort_family' in df.columns:
         gen_cross = (
-            df.filter(pl.col('Generation').is_not_null())
+            df.select(['Generation', 'cohort_family'])
+              .filter(pl.col('Generation').is_not_null())
               .group_by(['Generation', 'cohort_family'])
               .agg(pl.len().alias('n'))
               .pivot(on='cohort_family', index='Generation',
@@ -3217,7 +3229,8 @@ def export_json(
     # skips nulls, so no fill_null(0) before aggregating.
     if 'primary_participation_rate' in df.columns:
         part_gen = (
-            df.filter(pl.col('Generation').is_not_null())
+            df.select(['Generation', 'primary_participation_rate'])
+              .filter(pl.col('Generation').is_not_null())
               .group_by('Generation')
               .agg(
                   pl.col('primary_participation_rate').mean().alias('rate'),
@@ -3391,6 +3404,13 @@ def _dominant_per_precinct(df: pl.DataFrame, value_col: str) -> dict:
             .first()
     )
     return {row['PRECINCT_NAME']: row['_v'] for row in dominant.iter_rows(named=True)}
+
+
+# Every column _place_per_precinct reads (directly or via _dominant_per_precinct).
+# Callers that project a frame before resolving use this set; keep it in step
+# with the rules below.
+_PLACE_RESOLVER_COLUMNS = ('PRECINCT_NAME', 'TOWNSHIP', 'CITY', 'VILLAGE', 'WARD',
+                           'RESIDENTIAL_CITY')
 
 
 def _place_per_precinct(df: pl.DataFrame) -> dict:
@@ -3800,7 +3820,8 @@ def export_precinct_charts(
         decade_url = None
         if 'Decade' in pdf.columns:
             p_decade_df = (
-                pdf.filter(pl.col('Decade').is_not_null())
+                pdf.select('Decade')
+                   .filter(pl.col('Decade').is_not_null())
                    .group_by('Decade')
                    .agg(pl.len().alias('count'))
                    .sort('Decade')
@@ -3856,7 +3877,8 @@ def export_precinct_charts(
         party_decade_url = None
         if 'Decade' in pdf.columns and 'cohort_family' in pdf.columns:
             p_cross = (
-                pdf.filter(pl.col('Decade').is_not_null())
+                pdf.select(['Decade', 'cohort_family'])
+                   .filter(pl.col('Decade').is_not_null())
                    .group_by(['Decade', 'cohort_family'])
                    .agg(pl.len().alias('n'))
                    .pivot(on='cohort_family', index='Decade',
@@ -3895,7 +3917,8 @@ def export_precinct_charts(
         elif 'Decade' in pdf.columns and 'PARTY_LABEL' in pdf.columns:
             # Legacy fallback path — original PARTY_LABEL + unc_classified shape.
             p_cross = (
-                pdf.filter(pl.col('Decade').is_not_null())
+                pdf.select(['Decade', 'PARTY_LABEL'])
+                   .filter(pl.col('Decade').is_not_null())
                    .group_by(['Decade', 'PARTY_LABEL'])
                    .agg(pl.len().alias('count'))
                    .pivot(on='PARTY_LABEL', index='Decade',
@@ -3979,7 +4002,8 @@ def export_precinct_charts(
         party_generation_url = None
         if 'Generation' in pdf.columns and 'cohort_family' in pdf.columns:
             p_gen_cross = (
-                pdf.filter(pl.col('Generation').is_not_null())
+                pdf.select(['Generation', 'cohort_family'])
+                   .filter(pl.col('Generation').is_not_null())
                    .group_by(['Generation', 'cohort_family'])
                    .agg(pl.len().alias('n'))
                    .pivot(on='cohort_family', index='Generation',
